@@ -1,9 +1,8 @@
-Page breaks? (# 23 )
+Page breaks? (# 23 ) importera i xmlen?
 {} orginal - [] inbytt   eller    [] handskrift
 kommentarer? ("slutet fattas")
 weird characters ¶ etc.
 bevara kommentarer från sidan? (om vad det är etc)
   html-sidorna har bättre encoding, men svårare att extrahera ren text
 
-author
-textattribut
+

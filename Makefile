@@ -24,9 +24,12 @@ sentence_order = position
 paragraph_chunk = text
 paragraph_segmenter = blanklines
 
-
+xml_header=doc.preamble
 xml_headers            = doc.preamble.doc-information.title:TEXT
-xml_header_annotations = token.text.title
+xml_header_annotations = text.title
+
+parents = token.text|token|text.title
+chains  = token.text.title
 
 #                                  RULES                                       #
 ################################################################################

@@ -13,7 +13,7 @@ def opener(uri):
     # read file
     inp = open(uri).read()
     (_,path) = os.path.split(uri)
-    out = 'fixed/'+encode(path)
+    out = 'fixedNy/'+encode(path)
     # fix page numbers
     new = xmlparse.use(inp)
     # remove ugly tags
@@ -23,7 +23,7 @@ def opener(uri):
     print 'writing to', out
     open(out,'w').write(ok)
 
-files = glob.glob('../filerX/*.xml')
+files = glob.glob('../filerXNy/*.xml')
 # ['../filerX/Troja.xml'] # 
 
 def doAll():
@@ -53,7 +53,7 @@ def encode(txt):
         txt = txt.replace(i,j)
     return txt
 
-dic = {'å':'aa','ä':'ae','ö':'oe'}
+dic = {'å':'aa','ä':'ae','ö':'oe',':':'-'}
         
 #trim()
 doAll()

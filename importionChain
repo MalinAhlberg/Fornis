@@ -1,3 +1,10 @@
 doit.sh (rtf -> xml) -> filerX
 fixer   (move # from text to xml, remove x009, change file names) -> scripts/fixed
 make (på kark) -> export/processed
+        make cwb -j8
+        make install corpus
+           (ssh demo
+            cpq -e
+             FORNSVENSKA
+             set c sentence
+             "war"

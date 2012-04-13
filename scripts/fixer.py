@@ -18,7 +18,7 @@ def opener(uri):
     # concat tags if they are separated by a newpage
     new = xmlparse.use(inp)
     # fix page numbers
-    newer = xmlparse.tagPageNo(new)
+    newer = xmlparse.tagPageN(new)
     # remove ugly tags
     ok1 = re.sub('ns0:','',newer)  
     ok  = re.sub(r'&#x009;','',ok1)  
@@ -35,32 +35,17 @@ def doAll():
         t = threading.Thread(target=opener,args=(uri,))
         t.start()
 
-def trim():
-    for uri in files:
-        t = threading.Thread(target=trimmer,args=(uri,))
-        t.start()
-
-def trimmer(uri):
-    # read file
-    inp = open(uri).read()
-    (_,path) = os.path.split(uri)
-    out = 'trimmed/'+ encode(path)
-    # remove characthers
-    ok  = re.sub(r'&#x009;','',inp)  
-    # write file
-    print 'writing to', out
-    print ok
-    open(out,'w').write(ok)
-
+# fixes weird file paths
 def encode(txt):
+    dic = {'å':'aa','ä':'ae','ö':'oe',':':'-'}
     for i,j in dic.iteritems():
         txt = txt.replace(i,j)
     return txt
 
-dic = {'å':'aa','ä':'ae','ö':'oe',':':'-'}
+
         
-###trim()
-doAll()
+# run this to fix all files
+# doAll()
 
 trr = '&#x009;'
 

@@ -1,1 +1,1281 @@
-<?xml version="1.0" encoding="US-ASCII" ?><doc xmlns="http://rtf2xml.sourceforge.net/"><preamble><rtf-definition default-font="Times New Roman" code-page="ansicpg1252" platform="Windows"/><font-table><font-in-table name="Times New Roman" num="0"/><font-in-table name="Times" num="4"/><font-in-table name="Tms Rmn" num="8"/><font-in-table name="Cardo" num="27"/><font-in-table name="Times New Roman CE" num="194"/><font-in-table name="Times New Roman Cyr" num="195"/><font-in-table name="Times New Roman Greek" num="197"/><font-in-table name="Times New Roman Tur" num="198"/><font-in-table name="Times New Roman (Hebrew)" num="199"/><font-in-table name="Times New Roman (Arabic)" num="200"/><font-in-table name="Times New Roman Baltic" num="201"/><font-in-table name="Times CE" num="226"/><font-in-table name="Times Tur" num="230"/><font-in-table name="Times Baltic" num="233"/><font-in-table name="Cardo CE" num="410"/><font-in-table name="Cardo Greek" num="413"/><font-in-table name="Cardo Tur" num="414"/><font-in-table name="Cardo (Hebrew)" num="415"/><font-in-table name="Cardo Baltic" num="417"/></font-table><color-table><color-in-table num="1" value="#000000"/><color-in-table num="2" value="#0000FF"/><color-in-table num="3" value="#00FFFF"/><color-in-table num="4" value="#00FF00"/><color-in-table num="5" value="#FF00FF"/><color-in-table num="6" value="#FF0000"/><color-in-table num="7" value="#FFFF00"/><color-in-table num="8" value="#FFFFFF"/><color-in-table num="9" value="#000080"/><color-in-table num="10" value="#008080"/><color-in-table num="11" value="#008000"/><color-in-table num="12" value="#800080"/><color-in-table num="13" value="#800000"/><color-in-table num="14" value="#808000"/><color-in-table num="15" value="#808080"/><color-in-table num="16" value="#C0C0C0"/></color-table><style-table><paragraph-styles><paragraph-style-in-table num="23" font-size="10.00" name="Format Kopfzeile" language="German" tabs="center:216.00;left:360.00;" align="left" right-indent="0.00" adjust-right="true" nest-level="0" line-spacing="-12.00" font-style="Tms Rmn" next-style="Format Kopfzeile" widow-control="true" left-indent="0.00"/><paragraph-style-in-table num="15" font-size="12.00" name="Body Text" language="German" adjust-right="true" align="left" based-on-style="Normal" right-indent="0.00" nest-level="0" font-style="Cardo" next-style="Body Text" widow-control="true" space-after="6.00" left-indent="0.00"/><paragraph-style-in-table num="21" font-size="12.00" language="German" adjust-right="true" tabs="left:177.20;left:216.00;" align="just" right-indent="0.00" first-line-indent="21.25" nest-level="0" line-spacing="-18.00" font-style="Tms Rmn" next-style="Anfangsabsatz" widow-control="true" left-indent="0.00" name="Anfangsabsatz"/><paragraph-style-in-table num="17" font-size="12.00" name="header" language="German" tabs="center:226.80;right:453.60;" align="left" based-on-style="Normal" right-indent="0.00" adjust-right="true" nest-level="0" next-style="header" widow-control="true" left-indent="0.00"/><paragraph-style-in-table num="16" font-size="16.00" name="&#x00DC;berschrift 11" language="German" adjust-right="true" align="cent" right-indent="0.00" nest-level="0" line-spacing="-18.00" font-style="Tms Rmn" next-style="&#x00DC;berschrift 11" widow-control="true" left-indent="0.00"/><paragraph-style-in-table num="19" font-size="12.00" name="Standardabsatz" language="German" tabs="left:155.95;" align="just" right-indent="0.00" adjust-right="true" nest-level="0" line-spacing="-18.00" font-style="Tms Rmn" next-style="Standardabsatz" widow-control="true" left-indent="0.00"/><paragraph-style-in-table num="18" font-size="12.00" name="Absatzanfang" language="Danish" tabs="left:35.45;" align="just" based-on-style="Standardabsatz" right-indent="0.00" adjust-right="true" nest-level="0" line-spacing="-18.00" font-style="Times" next-style="Absatzanfang" widow-control="true" left-indent="0.00"/><paragraph-style-in-table num="22" font-size="14.00" name="&#x00DC;berschrift" language="German" adjust-right="true" align="cent" right-indent="0.00" space-before="18.00" nest-level="0" line-spacing="-18.00" font-style="Tms Rmn" next-style="&#x00DC;berschrift" widow-control="true" space-after="12.00" left-indent="0.00"/><paragraph-style-in-table num="0" font-size="12.00" name="Normal" language="German" adjust-right="true" align="left" right-indent="0.00" nest-level="0" next-style="Normal" widow-control="true" left-indent="0.00"/><paragraph-style-in-table num="20" font-size="12.00" name="footer" language="German" tabs="center:226.80;right:453.60;" align="left" based-on-style="Normal" right-indent="0.00" adjust-right="true" nest-level="0" next-style="footer" widow-control="true" left-indent="0.00"/></paragraph-styles><character-styles><character-style-in-table num="10" name="Default Paragraph Font"/></character-styles><styles-in-body><paragraph-style-in-body name="&#x00DC;berschrift 11" style-number="s0001" adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" right-indent="0.00" widow-control="true"/><paragraph-style-in-body name="&#x00DC;berschrift 11" style-number="s0002" adjust-right="true" align="just" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"/><paragraph-style-in-body name="&#x00DC;berschrift 11" style-number="s0003" adjust-right="true" align="just" first-line-indent="35.40" font-style="Times New Roman" left-indent="35.40" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"/><paragraph-style-in-body name="&#x00DC;berschrift 11" style-number="s0004" adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"/><paragraph-style-in-body name="Absatzanfang" style-number="s0005" tabs="left:35.45;" adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Danish" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"/><paragraph-style-in-body name="Anfangsabsatz" style-number="s0006" tabs="left:177.20;left:216.00;" adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"/></styles-in-body></style-table><doc-information><title>+0100 S</title><author>hkh3</author><operator>hkh3</operator><creation-time year="2006" month="1" day="11" minute="13"/><revision-time year="2006" month="1" day="11" minute="13"/><editing-time editing-time="0"/><number-of-pages number-of-pages="25"/><number-of-words number-of-words="8992"/><number-of-characters number-of-characters="51256"/></doc-information><page-definition gutter="0" margin-left="56.70" paper-height="842.00" margin-bottom="56.70" margin-top="56.70" paper-width="595.35" margin-right="56.70"/></preamble><body><section num="1" num-in-level="1" type="rtf-native" level="0"><table number-of-columns="2" number-of-rows="7" average-cell-width="144.00" average-cells-per-row="2"><row border-table-row-right-line-width="0.50" border-table-row-top-line-width="0.50" border-table-row-vertical-inside-style="single" border-table-row-left-line-width="0.50" widths="144.00, 144.00" border-table-row-right-style="single" border-table-row-horizontal-inside-style="single" border-table-row-horizontal-inside-line-width="0.50" border-table-row-bottom-line-width="0.50" border-table-row-top-style="single" border-table-row-bottom-style="single" border-table-row-vertical-inside-line-width="0.50" border-table-row-left-style="single" number-of-cells="2" left-row-position="-3.50"><cell border-cell-bottom-style="single" border-cell-top-style="single" border-cell-top-line-width="0.50" border-cell-left-line-width="0.50" border-cell-left-style="single" border-cell-bottom-line-width="0.50" width="144.00" border-cell-right-style="single" border-cell-right-line-width="0.50"><paragraph-definition name="&#x00DC;berschrift 11" style-number="s0001" adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" right-indent="0.00" widow-control="true"><para><inline font-style="Times" font-size="12.00" superscript="3.00">Kurztitel</inline></para></paragraph-definition></cell><cell border-cell-bottom-style="single" border-cell-top-style="single" border-cell-top-line-width="0.50" border-cell-left-line-width="0.50" border-cell-left-style="single" border-cell-bottom-line-width="0.50" width="144.00" border-cell-right-style="single" border-cell-right-line-width="0.50"><paragraph-definition name="&#x00DC;berschrift 11" style-number="s0001" adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" right-indent="0.00" widow-control="true"><para><inline font-style="Times" font-size="12.00" superscript="3.00">Apo41S</inline></para></paragraph-definition></cell></row><row border-table-row-right-line-width="0.50" border-table-row-top-line-width="0.50" border-table-row-vertical-inside-style="single" border-table-row-left-line-width="0.50" widths="144.00, 144.00" border-table-row-right-style="single" border-table-row-horizontal-inside-style="single" border-table-row-horizontal-inside-line-width="0.50" border-table-row-bottom-line-width="0.50" border-table-row-top-style="single" border-table-row-bottom-style="single" border-table-row-vertical-inside-line-width="0.50" border-table-row-left-style="single" number-of-cells="2" left-row-position="-3.50"><cell border-cell-bottom-style="single" border-cell-top-style="single" border-cell-top-line-width="0.50" border-cell-left-line-width="0.50" border-cell-left-style="single" border-cell-bottom-line-width="0.50" width="144.00" border-cell-right-style="single" border-cell-right-line-width="0.50"><paragraph-definition name="&#x00DC;berschrift 11" style-number="s0001" adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" right-indent="0.00" widow-control="true"><para><inline font-style="Times" font-size="12.00" superscript="3.00">Titel</inline></para></paragraph-definition></cell><cell border-cell-bottom-style="single" border-cell-top-style="single" border-cell-top-line-width="0.50" border-cell-left-line-width="0.50" border-cell-left-style="single" border-cell-bottom-line-width="0.50" width="144.00" border-cell-right-style="single" border-cell-right-line-width="0.50"><paragraph-definition name="&#x00DC;berschrift 11" style-number="s0001" adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" right-indent="0.00" widow-control="true"><para><inline font-style="Times" font-size="12.00" superscript="3.00">S.Johannis Theologi uppenbarelse</inline></para></paragraph-definition></cell></row><row border-table-row-right-line-width="0.50" border-table-row-top-line-width="0.50" border-table-row-vertical-inside-style="single" border-table-row-left-line-width="0.50" widths="144.00, 144.00" border-table-row-right-style="single" border-table-row-horizontal-inside-style="single" border-table-row-horizontal-inside-line-width="0.50" border-table-row-bottom-line-width="0.50" border-table-row-top-style="single" border-table-row-bottom-style="single" border-table-row-vertical-inside-line-width="0.50" border-table-row-left-style="single" number-of-cells="2" left-row-position="-3.50"><cell><paragraph-definition name="&#x00DC;berschrift 11" style-number="s0001" adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" right-indent="0.00" widow-control="true"><para><inline font-style="Times" font-size="12.00" superscript="3.00">Entstehungszeit</inline></para></paragraph-definition></cell><cell><paragraph-definition name="&#x00DC;berschrift 11" style-number="s0001" adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" right-indent="0.00" widow-control="true"><para><inline font-style="Times" font-size="12.00" superscript="3.00">1541</inline></para></paragraph-definition></cell></row><row border-table-row-right-line-width="0.50" border-table-row-top-line-width="0.50" border-table-row-vertical-inside-style="single" border-table-row-left-line-width="0.50" widths="144.00, 144.00" border-table-row-right-style="single" border-table-row-horizontal-inside-style="single" border-table-row-horizontal-inside-line-width="0.50" border-table-row-bottom-line-width="0.50" border-table-row-top-style="single" border-table-row-bottom-style="single" border-table-row-vertical-inside-line-width="0.50" border-table-row-left-style="single" number-of-cells="2" left-row-position="-3.50"><cell><paragraph-definition name="&#x00DC;berschrift 11" style-number="s0001" adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" right-indent="0.00" widow-control="true"><para><inline font-style="Times" font-size="12.00" superscript="3.00">Textsorte</inline></para></paragraph-definition></cell><cell><paragraph-definition name="&#x00DC;berschrift 11" style-number="s0001" adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" right-indent="0.00" widow-control="true"><para><inline font-style="Times" font-size="12.00" superscript="3.00">Bibeltext</inline></para></paragraph-definition></cell></row><row border-table-row-right-line-width="0.50" border-table-row-top-line-width="0.50" border-table-row-vertical-inside-style="single" border-table-row-left-line-width="0.50" widths="144.00, 144.00" border-table-row-right-style="single" border-table-row-horizontal-inside-style="single" border-table-row-horizontal-inside-line-width="0.50" border-table-row-bottom-line-width="0.50" border-table-row-top-style="single" border-table-row-bottom-style="single" border-table-row-vertical-inside-line-width="0.50" border-table-row-left-style="single" number-of-cells="2" left-row-position="-3.50"><cell><paragraph-definition name="&#x00DC;berschrift 11" style-number="s0001" adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" right-indent="0.00" widow-control="true"><para><inline font-style="Times" font-size="12.00" superscript="3.00">Umfang</inline></para></paragraph-definition></cell><cell><paragraph-definition name="&#x00DC;berschrift 11" style-number="s0001" adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" right-indent="0.00" widow-control="true"><para><inline font-style="Times" font-size="12.00" superscript="3.00">10.506 W&#x00F6;rter</inline></para></paragraph-definition></cell></row><row border-table-row-right-line-width="0.50" border-table-row-top-line-width="0.50" border-table-row-vertical-inside-style="single" border-table-row-left-line-width="0.50" widths="144.00, 144.00" border-table-row-right-style="single" border-table-row-horizontal-inside-style="single" border-table-row-horizontal-inside-line-width="0.50" border-table-row-bottom-line-width="0.50" border-table-row-top-style="single" border-table-row-bottom-style="single" border-table-row-vertical-inside-line-width="0.50" border-table-row-left-style="single" number-of-cells="2" left-row-position="-3.50"><cell><paragraph-definition name="&#x00DC;berschrift 11" style-number="s0001" adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" right-indent="0.00" widow-control="true"><para><inline font-style="Times" font-size="12.00" superscript="3.00">Bearbeitungsstand</inline></para></paragraph-definition></cell><cell><paragraph-definition name="&#x00DC;berschrift 11" style-number="s0001" adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" right-indent="0.00" widow-control="true"><para><inline font-style="Times" font-size="12.00" superscript="3.00">abgeschlossen; KF 11.01.2006</inline></para></paragraph-definition></cell></row><row border-table-row-right-line-width="0.50" border-table-row-top-line-width="0.50" border-table-row-vertical-inside-style="single" border-table-row-left-line-width="0.50" widths="144.00, 144.00" border-table-row-right-style="single" border-table-row-horizontal-inside-style="single" border-table-row-horizontal-inside-line-width="0.50" border-table-row-bottom-line-width="0.50" border-table-row-top-style="single" border-table-row-bottom-style="single" border-table-row-vertical-inside-line-width="0.50" border-table-row-left-style="single" number-of-cells="2" left-row-position="-3.50"><cell border-cell-bottom-style="single" border-cell-top-style="single" border-cell-top-line-width="0.50" border-cell-left-line-width="0.50" border-cell-left-style="single" border-cell-bottom-line-width="0.50" width="144.00" border-cell-right-style="single" border-cell-right-line-width="0.50"><paragraph-definition name="&#x00DC;berschrift 11" style-number="s0001" adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" right-indent="0.00" widow-control="true"><para><inline font-style="Times" font-size="12.00" superscript="3.00">Bemerkungen</inline></para></paragraph-definition></cell><cell border-cell-bottom-style="single" border-cell-top-style="single" border-cell-top-line-width="0.50" border-cell-left-line-width="0.50" border-cell-left-style="single" border-cell-bottom-line-width="0.50" width="144.00" border-cell-right-style="single" border-cell-right-line-width="0.50"><paragraph-definition name="&#x00DC;berschrift 11" style-number="s0001" adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" right-indent="0.00" widow-control="true"><para><inline font-style="Times" font-size="12.00" superscript="3.00">Seitenzahlen sind immer hinter dem Wort eingef&#x00FC;gt, auch wenn sie im Originaltext getrennt sind</inline></para></paragraph-definition></cell></row></table><paragraph-definition name="&#x00DC;berschrift 11" style-number="s0002" adjust-right="true" align="just" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"><para/><para><inline font-style="Times" font-size="12.00">[S. Johannis Theologi vppenbarelse.]</inline></para><para/><para><inline font-style="Times" font-size="12.00">#762</inline></para></paragraph-definition><paragraph-definition name="&#x00DC;berschrift 11" style-number="s0003" adjust-right="true" align="just" first-line-indent="35.40" font-style="Times New Roman" left-indent="35.40" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"><para><inline font-style="Times" font-size="12.00">F&#x00F6;rsta Capitel</inline></para></paragraph-definition><paragraph-definition name="&#x00DC;berschrift 11" style-number="s0004" adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"><para/></paragraph-definition><paragraph-definition name="Absatzanfang" style-number="s0005" tabs="left:35.45;" adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Danish" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"><para>Thetta &#x00E4;r Jesu Christi vppenbarelse, then Gudh haffuer giffuit honom, til at f&#x00F6;rkunna sinom tienarom, hwadh innan kort tijdh skee skal. Och haffuer beteknat och sendt medh sin &#x00C4;ngel til sin tienare Johannem, hwilken betyghat haffuer Gudz ord och witnesbyrd om Jesum Christum, hwadh han seedt hadhe. Saligh &#x00E4;r then som l&#x00E4;&#x00E4;s, och h&#x00F6;rer thenna Propheties ord, och h&#x00E5;ller thet ther vthi scriffuit &#x00E4;r, Ty tijdhen &#x00E4;r n&#x00E4;r.</para><para/><para>&#x009;Johannes, The siw F&#x00F6;rsamlingar j Asia. N&#x00E5;dh ware medh idher, och fridh aff honom som &#x00E4;r, och som war, och som komma skal, och aff the siw Andar, som f&#x00F6;r hans stool &#x00E4;ro, och aff Jesu Christo, som &#x00E4;r itt troghet witne, f&#x00F6;rstf&#x00F6;dder jfr&#x00E5; the d&#x00F6;dha, och en F&#x00F6;rste offuer Konunganar p&#x00E5; iordenne. Then oss elskat haffuer, och twaghet oss aff w&#x00E5;ra synder medh sitt blodh, och giordt oss til Konungar och Prester f&#x00F6;r Gudhi, och sinom Fadher, Honom ware &#x00E4;ra och welle jfr&#x00E5; ewigheet til ewigheet, Amen. Sij, han kommer medh skyyn, och all &#x00F6;ghon skola see honom, och the honom</para><para/><para>#763</para><para>stunget haffua, och all slechte p&#x00E5; iordenne skola jemra sigh, Ja, Amen. Jagh &#x00E4;r A och O, begynnelsen och enden, s&#x00E4;gher Herren, som &#x00E4;r, som war, och som komma skal, then Alszmechtighe.</para><para/><para>&#x009;Jagh Johannes idhar broder, och deelachtigh j bedr&#x00F6;ffuelsen, och j Riket, och j Jesu Christi tolamodh, war p&#x00E5; then &#x00F6;&#x00F6;n Pathmos, f&#x00F6;r Gudz ord skul, och f&#x00F6;r Jesu Christi witnesbyrd skul, Jagh war j andanom p&#x00E5; en S&#x00F6;ndagh, och h&#x00F6;rde effter migh een stoor r&#x00F6;st, s&#x00E5;som en baswn, s&#x00E4;yandes, Jagh &#x00E4;r A och O, then f&#x00F6;rste och then sidste. Hwadh tu seer, thet scriff vthi ena book, och sendt til the F&#x00F6;rsamlingar som &#x00E4;ro j Asia, j Epheso, och j Smirnen, och j Pergame, och j Thyatiras, och j Sardis, och j Philadelphia, och Laodicea.</para><para/><para>&#x009;Och iagh wende migh om til at see effter r&#x00F6;sten som med migh taladhe. Och som iagh migh wende, s&#x00E5;gh iagh siw gyllene liwsastakar, och mitt jbland the gyllene liwsastakar, en, som lijk war menniskionnes Son, kl&#x00E4;dd j en sijdh kiortel, och begiordat kring om br&#x00F6;stet medh itt gyllene belte. Men hans hoffuudh och hans h&#x00E5;&#x00E5;r war hwitt som een hwijt vll,</para><para/><para>#764</para><para>och s&#x00E5;som sni&#x00F6;. Och hans &#x00F6;ghon woro s&#x00E5;som en eeldzloghe, och hans f&#x00F6;tter woro s&#x00E5;som gl&#x00F6;dhande messing j vgnen. Och hans r&#x00F6;st s&#x00E5;som en d&#x00F6;n aff mykit watn. Och han hadhe j sijn h&#x00F6;ghra hand siw stiernor, och aff hans munn vthgick itt skarpt twe&#x00E4;ggiat swerd, Och hans ansichte skeen s&#x00E5;som klara solen.</para><para/><para>&#x009;Och t&#x00E5; iagh s&#x00E5;gh honom, f&#x00F6;ll iagh til hans f&#x00F6;tter, s&#x00E5;som iagh hadhe warit d&#x00F6;dh. Och han ladhe sijn h&#x00F6;ghra hand p&#x00E5; migh, och sadhe til migh, War icke f&#x00F6;rf&#x00E4;rat, Jagh &#x00E4;r then f&#x00F6;rste och then sidste, och then leffuande, Och iagh war d&#x00F6;dh, och sij, iagh &#x00E4;r leffuande jfr&#x00E5; ewigheet til ewigheet, och haffuer nycklanar til heluetet och d&#x00F6;dhen. S&#x00E5; scriff nu hwadh tu seedt haffuer, och hwadh nu &#x00E4;r, och hwadh h&#x00E4;r effter skee skal. Hemligheten aff the siw stiernor som tu seedt haffuer j minne h&#x00F6;ghra hand, och the siw gyllene liwsastakar. The siw stiernor, &#x00E4;ro the siw F&#x00F6;rsamlingars &#x00C4;nglar, Och the siw liwsastakar som tu seedt haffuer, &#x00E4;ro the siw F&#x00F6;rsamlingar.</para><para/><para>&#x009;&#x009;II. Capitel.</para><para/><para>Och scriff then F&#x00F6;rsamlings &#x00C4;ngel j Epheso, Thetta s&#x00E4;gher han som haffuer siw stiernor j sinne h&#x00F6;ghra hand, then ther wandrar mitt jbland the siw gyllene liwsastakar. Jagh weet tina gerningar och titt arbete, och titt tolamodh, och at tu icke m&#x00E5; lijdha the onda, och haffuer f&#x00F6;rs&#x00F6;kt them som s&#x00E4;ya</para><para/><para>#765</para><para>at the &#x00E4;ro Apostlar, och &#x00E4;ro doch icke, och haffuer befunnet them liwghare, och tu lijdher och haffuer tolamodh, och arbetar f&#x00F6;r mitt nampn skul, och &#x00E4;r icke tr&#x00F6;tt worden. Men iagh haffuer emoot tigh, at tu then f&#x00F6;rsta k&#x00E4;rleken offuergiffuit haffuer. Betenck hwar aff tu fallen &#x00E4;st, och b&#x00E4;tra tigh, och g&#x00F6;r the f&#x00F6;rsta gerninganar. Hwar thet icke skeer, t&#x00E5; warder iagh tigh snarligha kommandes, och skal bortst&#x00F6;ta tin liwsastaka aff sitt rwm, vthan tu b&#x00E4;trar tigh. Men thetta haffuer tu, at tu haffuer hatat the Nicolaiters werck, hwilka iagh ock hatar. Then ther &#x00F6;ra haffuer, han h&#x00F6;re hwadh Anden s&#x00E4;gher F&#x00F6;rsamlinganar. Then ther winner, honom wil iagh giffua &#x00E4;ta aff lijffzens tr&#x00E4;&#x00E4;, som &#x00E4;r j Gudz Paradijs.</para><para/><para>&#x009;Och scriff then F&#x00F6;rsamlings &#x00C4;ngel j Smirnen, Thetta s&#x00E4;gher then f&#x00F6;rste och then sidste, then d&#x00F6;dh war, och &#x00E4;r leffuande worden. Jagh weet tina gerningar och tijn bedr&#x00F6;ffuelse, och tin fattigdom (men tu &#x00E4;st rijk) och h&#x00E4;dhelse aff them som sigh s&#x00E4;ya wara Judar, och &#x00E4;ro icke, vthan &#x00E4;ro Satans hoop. Fruchta intet f&#x00F6;r n&#x00E5;ghot som tu lijdha skalt. Sij, dieffuulen skal kasta n&#x00E5;ghra aff idher j f&#x00E4;ngelse, P&#x00E5; thet j skolen f&#x00F6;rs&#x00F6;kte warda, och haffua bedr&#x00F6;ffuelse j tiyo daghar. War trofast in til d&#x00F6;dhen, s&#x00E5; skal iagh giffua tigh lijffzens krono. Then ther &#x00F6;ra haffuer, han h&#x00F6;re hwadh Anden s&#x00E4;gher F&#x00F6;rsamlinganar. Then ther winner, han skal ingen skadha f&#x00E5; aff then andra d&#x00F6;dhen.</para><para/><para>&#x009;Och scriff then F&#x00F6;rsamlings &#x00C4;ngel j Pergamen, Thetta</para><para/><para>#766</para><para>s&#x00E4;gher han som haffuer thet skarpa twe&#x00E4;ggiadhe swerdet, Jagh weet tina gerningar, och hwar tu boor, at ther Satans s&#x00E4;te &#x00E4;r, och tu h&#x00E5;ller mitt nampn, och haffuer icke nekat mina troo. Och j mina daghar &#x00E4;r Antipas mitt troghna witne d&#x00F6;dadher n&#x00E4;r idher, ther Satan boor. Men iagh haffuer n&#x00E5;ghot litet emoot tigh, Ty tu haffuer ther them som h&#x00E5;lla Balaams l&#x00E4;rdom, Hwilken l&#x00E4;rde genom Balak &#x00E5;stadkomma f&#x00F6;rarghelse f&#x00F6;r Jsraels barn, til at &#x00E4;ta aff thet affgudhom offrat war, och bedriffua bolerij. S&#x00E5; haffuer tu ock them som h&#x00E5;lla the Nicolaiters l&#x00E4;rdom, hwilket iagh hatar. B&#x00E4;tra tigh, Annars skal iagh tigh snarligha komma, och skal strijdha medh them medh mins munz swerd. Then ther &#x00F6;ra haffuer, han h&#x00F6;re hwadh Anden s&#x00E4;gher F&#x00F6;rsamlinganar. Then ther winner, honom wil iagh giffua &#x00E4;ta aff thet f&#x00F6;rdolda Manna, och wil giffua honom itt gott witnesbyrd, och medh thet witnesbyrd itt nytt nampn bescriffuit, thet ingen kenner, vthan then thet f&#x00E5;&#x00E5;r.</para><para/><para>&#x009;Och scriff then F&#x00F6;rsamlings &#x00C4;ngel j Thyatira, Thetta s&#x00E4;gher Gudz Son, som &#x00F6;ghon haffuer s&#x00E5;som eeldzloghe, och hans f&#x00F6;tter lijka som messing, Jagh weet tina gerningar, och tin k&#x00E4;rleek, och tina tienst, och tina troo, och titt tolamodh, och tina gerningar, the sidsta flere &#x00E4;n the f&#x00F6;rsta. Men iagh haffuer n&#x00E5;ghot litet emoot tigh, at tu tilst&#x00E4;dher then quinnan Jesabel, som s&#x00E4;gher, at hon &#x00E4;r een prophetissa, l&#x00E4;ra och bedragha mina tienare, bedriffua bolerij, och &#x00E4;ta aff thet affgudhom offrat &#x00E4;r. Och iagh haffuer giffuit henne tijdh,</para><para/><para>#767</para><para>at hon skulle b&#x00E4;tra sigh aff sitt bolerij, och hon haffuer intet b&#x00E4;trat sigh. Sij, iagh skal leggia henne j s&#x00E4;ngena, och the som medh henne hoor bedriffua, skola komma vthi alrast&#x00F6;rsta bedr&#x00F6;ffuelse, om the icke b&#x00E4;tra sigh aff sina gerningar, och hennes barn skal iagh dr&#x00E4;pa. Och alla F&#x00F6;rsamlingar skola weta, at iagh &#x00E4;r then som ranszakar niurar och hierta. Och skal giffua hwariom och enom aff idher effter hans gerningar.</para><para/><para>&#x009;Men idher s&#x00E4;gher iagh, och androm som j Thyatira &#x00E4;ren, som icke haffua s&#x00E5;dana l&#x00E4;rdom, och icke haffua f&#x00F6;rst&#x00E5;tt Satans diwpheet, s&#x00E5;som the s&#x00E4;ya, Jagh skal icke leggia p&#x00E5; idher n&#x00E5;ghra andra byrdo, Doch huadh j haffuen, thet h&#x00E5;ller s&#x00E5; lenge iagh kommer. Och then ther winner, och h&#x00E5;ller mijn werck in til endan, honom skal iagh giffua macht offuer Hedhninganar, Och han skal regera them medh jernrijsz, och han skal s&#x00F6;nderkrossa them, s&#x00E5;som en Pottomakares k&#x00E4;ril, s&#x00E5;som iagh ock f&#x00E5;tt haffuer aff minom Fadher, och wil giffua honom morghonstiernona. Then ther &#x00F6;ra haffuer, han h&#x00F6;re huadh Anden s&#x00E4;gher F&#x00F6;rsamlinganar.</para><para/><para>&#x009;&#x009;III. Capitel.</para><para/><para>Scriff ock F&#x00F6;rsamlingennes &#x00C4;ngel j Sardis, Thetta s&#x00E4;gher then som haffuer the Gudz Andar, och the siw stiernor, Jagh weet tina gerningar, Ty tu haffuer nampnet at tu leffuer, och &#x00E4;st d&#x00F6;dh. War waken, och sterck thet andra som d&#x00F6;&#x00F6; wil, Ty iagh haffuer icke befunnet tina gerningar fulkomligha f&#x00F6;r Gudhi. S&#x00E5; tenck nu p&#x00E5; hwadh tu f&#x00E5;tt och h&#x00F6;rdt haffuer, och h&#x00E5;lt thet, och b&#x00E4;tra tigh. &#x00C4;stu icke waken, s&#x00E5; skal iagh</para><para/><para>#768</para><para>komma til tigh som en tiwff pl&#x00E4;ghar komma, och tu skalt icke weta p&#x00E5; hwadh stund iagh kommer til tigh. Tu haffuer ock f&#x00E5;&#x00E5; nampn j Sardis, som sijn kl&#x00E4;dher icke besmittat haffua, och the skola wandra medh migh j hwijt kl&#x00E4;dher, ty the &#x00E4;ro thes werde. Then som winner, han skal s&#x00E5; kl&#x00E4;dder warda medh hwijt kl&#x00E4;dher. Och iagh skal icke vthskrapa hans nampn aff lijffzens book, Och iagh skal wedherkenna hans nampn f&#x00F6;r min Fadher, och f&#x00F6;r hans &#x00C4;nglar. Then ther &#x00F6;ra haffuer, han h&#x00F6;re hwadh Anden s&#x00E4;gher F&#x00F6;rsamlinganar.</para><para/><para>&#x009;Scriff ock then F&#x00F6;rsamlings &#x00C4;ngel j Philadelphia, Thetta s&#x00E4;gher then Helghe, och then Sanferdige, som haffuer Dauidz nyckel, then ther vpl&#x00E4;ter, och ingen menniskia igenl&#x00E4;ter, Then ther igenl&#x00E4;ter, och ingen menniskia vpl&#x00E4;ter, Jagh weet tina gerningar. Sij, iagh haffuer giffuit f&#x00F6;r tigh een &#x00F6;pen d&#x00F6;r, och ingen kan l&#x00E4;ta henne igen, Ty tu haffuer liten krafft, och tu haffuer h&#x00E5;llet mijn ord, och haffuer icke nekat mitt nampn. Sij, iagh wil giffua tigh vthu Satans hoop, the sigh s&#x00E4;ya wara Judar, och &#x00E4;ro icke, vthan liwgha. Sij, iagh wil driffua them ther til, at the skola komma och tilbidhia f&#x00F6;r tina f&#x00F6;tter, och skola weta, at iagh haffuer elskat tigh.</para><para/><para>&#x009;Effter tu haffuer h&#x00E5;llet mitt tolamodz ord, skal iagh ock bewara tigh f&#x00F6;r frestelsens stund, hwilken tilstundar allo werldenne, til at frelsa them som boo p&#x00E5; iordenne. Sij, iagh kommer snarligha, h&#x00E5;lt thet tu haffuer, at ingen tagher tina</para><para/><para>#769</para><para>krono. Then ther winner, honom wil iagh g&#x00F6;ra til en Pelare vthi mins Gudz Tempel, och han skal icke meer vthg&#x00E5;. Och iagh skal scriffua p&#x00E5; honom mins Gudz nampn, och mins Gudz stadz thes nyia Jerusalems nampn, som nedherkommer aff himmelen jfr&#x00E5; min Gudh, och mitt nyia nampn. Then ther &#x00F6;ra haffuer, han h&#x00F6;re hwadh Anden s&#x00E4;gher F&#x00F6;rsamlinganar.</para><para/><para>&#x009;Scriff ock then F&#x00F6;rsamlings &#x00C4;ngel j Laodicea, Thetta s&#x00E4;gher, Amen, thet troghna och sanferdigha witnet, begynnelsen til Gudz creatur. Jagh weet tina gerningar, at tu &#x00E4;st hwarken kall eller warm, Jagh wille at tu wore antingen kall eller warm. Men effter tu &#x00E4;st liom, och huarken kall eller warm, skal iagh tigh vthspyy vthu min munn. Ty tu s&#x00E4;gher, Jagh &#x00E4;r rijk och haffuer noogh, och beh&#x00F6;ffuer intet, Och weest icke at tu &#x00E4;st elende och jemmerligh, fattigh och blind, och nakot. Jagh r&#x00E5;dher tigh, at tu k&#x00F6;per gull aff migh, thet genomeeldat och bepr&#x00F6;ffuat &#x00E4;r, at tu m&#x00E5; bliffua rijk, och hwijt kl&#x00E4;dher, som tu m&#x00E5; kl&#x00E4;dha tigh vthi, P&#x00E5; thet tinne nakenheetz blygd icke skal synas, och sm&#x00F6;r tijn &#x00F6;ghon medh &#x00F6;gnasaluo, at tu m&#x00E5; f&#x00E5; see.</para><para/><para>&#x009;The iagh elskar, them aghar iagh och nepser. S&#x00E5; war nu flijtigh, och b&#x00E4;tra tigh. Sij, iagh st&#x00E5;&#x00E5;r f&#x00F6;r d&#x00F6;renne och klappar, Then ther h&#x00F6;rer mina r&#x00F6;st och vpl&#x00E5;ter d&#x00F6;rena, til honom skal iagh ing&#x00E5;, och h&#x00E5;lla natward medh honom, och han medh migh. Then ther winner, honom skal iagh sittia l&#x00E5;ta medh migh p&#x00E5; min stool, s&#x00E5;som ock iagh wunnet haffuer,</para><para/><para>#770</para><para>och &#x00E4;r sittiandes worden medh minom Fadher p&#x00E5; hans stool. Then ther &#x00F6;ra haffuer, han h&#x00F6;re hwadh Anden s&#x00E4;gher F&#x00F6;rsamlinganar.</para><para/><para>&#x009;&#x009;IIII. Capitel.</para><para/><para>Sedhan s&#x00E5;gh iagh, och sij, Een d&#x00F6;r wardt vpl&#x00E4;ten j himmelen, och then f&#x00F6;rsta r&#x00F6;sten som iagh h&#x00F6;rde, s&#x00E5;som en baswn medh migh tala, sadhe, Stijgh h&#x00E4;r vp, iagh wil wisa tigh huadh skee skal h&#x00E4;r effter.</para><para/><para>&#x009;Och strax war iagh j andanom. Och sij, en stool wardt satt j himmelen, och p&#x00E5; stolen satt en. Och then ther satt, han war p&#x00E5;seende s&#x00E5;som then stenen Jaspis och Sardis, och en regnboghe war om stolen, p&#x00E5;seendes s&#x00E5;som en Smaragd, och kring om stolen woro fyra och tiughu stolar, och p&#x00E5; the stolar s&#x00E5;to fyra och tiwghu &#x00C4;ldste, kl&#x00E4;dde medh hwijt kl&#x00E4;dher, och p&#x00E5; theras hoffuudh woro gyllene kronor.</para><para/><para>&#x009;Och aff stolenom vthgingo liwngeeld, tord&#x00F6;n och r&#x00F6;ster, och siw eeldzlampor brunno f&#x00F6;r stolen, hwilke &#x00E4;ro the siw</para><para/><para>#771</para><para>Gudz Andar. Och fram f&#x00F6;r stolen war s&#x00E5;som itt glashaff, lijkt widh Cristal, och mitt j stolen och kring om stolen, fyra diwr full med &#x00F6;ghon, b&#x00E5;dhe f&#x00F6;re och baak. Och thet f&#x00F6;rsta diwret war lijkt itt Leyon, och thet andra diwret lijkt enom kalff, och thet tridie diwret hadhe itt ansichte s&#x00E5;som een menniskia, och thet fierde diwret lijkt enom flyghande &#x00F6;rn. Och the fyra diwr hadhe hwart thera sex wingar, och the woro vthan och innan full medh &#x00F6;ghon. Och hadhe ingen roo dagh eller natt, och sadhe, Heligh, heligh, heligh &#x00E4;r <inline small-caps="true">Herren</inline> Gudh Alszmechtigh, som war, och som &#x00E4;r, och som komma skal.</para><para/><para>&#x009;Och t&#x00E5; the diwren g&#x00E5;ffuo honom prijs, och &#x00E4;ro, och tack som satt p&#x00E5; stolen, then ther leffuer jfr&#x00E5; ewigheet til ewigheet, f&#x00F6;llo the fyra och tiwghu &#x00C4;ldste fram f&#x00F6;r honom som satt p&#x00E5; stolen, och tilb&#x00E5;dho then ther leffuer jfr&#x00E5; ewigheet til ewigheet, Och kastadhe sina kronor f&#x00F6;r stolen, och sadhe, <inline small-caps="true">Herre</inline>, tu &#x00E4;st werdigh tagha prijs och &#x00E4;ro och krafft, Ty tu haffuer skapat all ting, och f&#x00F6;r tin wilia skul haffua the warelse, och &#x00E4;ro skapt.</para><para/><para>&#x009;&#x009;V. Capitel.</para><para/><para>Och iagh s&#x00E5;gh j hans h&#x00F6;ghra hand som satt p&#x00E5; stolen, ena book scriffuin innan och vthan, besegld medh siw insigel. Och iagh s&#x00E5;gh en starck &#x00C4;ngel, som predicadhe medh h&#x00F6;gha r&#x00F6;st, Hoo &#x00E4;r werdigh vpl&#x00E4;ta bokena, och vpbryta hennes insigel? Och ingen j himmelen, eller p&#x00E5; iordenne, eller vnder</para><para/><para>#772</para><para>iordenne kunde vpl&#x00E4;ta bokena, och icke heller see p&#x00E5; henne. Och iagh greet sw&#x00E5;rligha, at ingen wardt funnen werdigh til at vpl&#x00E4;ta bokena, och l&#x00E4;sa henne, eller see p&#x00E5; henne.</para><para/><para>&#x009;Och en aff the &#x00C4;ldsta sadhe til migh, Gr&#x00E5;&#x00E5;t icke. Sij Leyonet aff Juda slechte Dauidz root haffuer wunnet, til at vpl&#x00E4;ta bokena, och vpbryta hennes siw insigel. Och iagh s&#x00E5;gh, och sij, mitt j stolen och jbland the fyra diwren, och mitt jbland the &#x00C4;ldsta, stoodh itt Lamb, s&#x00E5;som thet hadhe slachtat warit, och hadhe siw horn, och siw &#x00F6;ghon, hwilke &#x00E4;ro the siw Gudz Andar sende j all land, och thet kom och toogh bokena vthaff hans h&#x00F6;ghra hand som satt p&#x00E5; stolen.</para><para/><para>&#x009;Och t&#x00E5; thet hadhe taghet bokena, f&#x00F6;llo the fyra diwr, och the fyra och tiwghu &#x00C4;ldste fram f&#x00F6;r Lambet, haffuandes hwar och en harpor och gyllene sk&#x00E5;lar fulla med r&#x00F6;kwerck, hwilket &#x00E4;r the helighas b&#x00F6;ner, och sungo en ny song, och sadhe, Tu &#x00E4;st werdigh at tagha bokena, och vpl&#x00E4;ta hennes insigel. Ty tu &#x00E4;st d&#x00F6;dhat, och haffuer igenl&#x00F6;st oss medh titt blodh, aff allahanda slechte och tungom&#x00E5;l, och folck, och Hedhningar, och haffuer giordt oss w&#x00E5;rom Gudhi til Konungar och Prester, och wij skole regnera p&#x00E5; iordenne.</para><para/><para>&#x009;Och iagh s&#x00E5;gh, och h&#x00F6;rde een r&#x00F6;st aff monga &#x00C4;nglar, kring om stolen, och kring om diwren, och kring om the &#x00C4;ldsta, och talet p&#x00E5; them war mong sinnom tusende tusend, s&#x00E4;yandes medh h&#x00F6;gha r&#x00F6;st, Lambet som d&#x00F6;dhat &#x00E4;r, thet &#x00E4;r werdigt at haffua krafft, och rijkedom, och wijsdom, och</para><para/><para>#773</para><para>starckheet, och &#x00E4;ro, och prijs, och loff. Och all creatur som j himmelen &#x00E4;ro, och the p&#x00E5; iordenne, och the vnder iordenne, och j haffuet, och alt thet vthi them &#x00E4;r, h&#x00F6;rde iagh s&#x00E4;ya til honom som satt p&#x00E5; stolen, och til Lambet, Loff och &#x00E4;ra, och prijs, och krafft jfr&#x00E5; ewigheet til ewigheet. Och the fyra diwren sadhe, Amen. Och the fyra och tiwghu &#x00C4;ldste f&#x00F6;llo nedh p&#x00E5; sijn ansichte, och tilb&#x00E5;dho honom som leffuer jfr&#x00E5; ewigheet til ewigheet.</para><para/><para>&#x009;&#x009;VI. Capitel.</para><para/><para>Och iagh s&#x00E5;gh, at Lambet vpbr&#x00F6;t itt aff insiglen, Och iagh h&#x00F6;rde itt aff the fyra diwren s&#x00E4;ya, s&#x00E5;som medh tord&#x00F6;ns r&#x00F6;st, Kom och see. Och iagh s&#x00E5;gh, Och sij, en hwijt hest, och then ther p&#x00E5; satt, hadh een bogha, Och honom wardt giffuin een krona, och han foor vth til at winna, och f&#x00E5; segher.</para><para/><para>&#x009;Och t&#x00E5; thet vpbr&#x00F6;t thet andra insiglet, h&#x00F6;rde iagh thet andra diwret s&#x00E4;ya, Kom och see. Och ther vthgick en annar hest, r&#x00F6;dh, och honom som ther p&#x00E5; satt, wardt giffuit at han skulle borttagha fridhen aff iordenne, och at the</para><para/><para>#774</para><para>skulle sl&#x00E5; sigh jhi&#x00E4;l inbyrdes, Och honom wardt giffuit itt stoort swerd.</para><para/><para>&#x009;Och t&#x00E5; thet vpbr&#x00F6;t thet tridie insiglet, h&#x00F6;rde iagh thet tridie diwret s&#x00E4;ya, Kom och see. Och iagh s&#x00E5;gh, Och sij, en swart hest, och then ther satt p&#x00E5; honom, hadhe ena w&#x00E4;gsk&#x00E5;l j sinne hand. Och iagh h&#x00F6;rde ena r&#x00F6;st mitt jbland the fyra diwr, s&#x00E4;yandes, Jtt m&#x00E5;tt hwete om en penning, och try m&#x00E5;tt biwgg om en penning, och olionne och winet g&#x00F6;r ingen skadha.</para><para/><para>&#x009;Och t&#x00E5; thet vpbr&#x00F6;t thet fierde insiglet, h&#x00F6;rde iagh thes fierde diwrsens r&#x00F6;st s&#x00E4;ya, Kom och see. Och iagh s&#x00E5;gh. Och sij, en black hest, och then som p&#x00E5; honom satt, hans nampn war D&#x00F6;den, och heluetet folgde honom effter. Och honom wardt macht giffuin offuer the fyra parter p&#x00E5; iordenne, at d&#x00F6;dha medh swerd, och medh hunger, och medh d&#x00F6;dhen aff the wildiwr p&#x00E5; iordenne &#x00E4;ro.</para><para/><para>&#x009;Och t&#x00E5; thet vpbr&#x00F6;t thet femte insiglet, s&#x00E5;gh iagh vnder Altaret theras si&#x00E4;lar som d&#x00F6;dadhe woro f&#x00F6;r Gudz ord skul, och f&#x00F6;r thet witnesbyrd skul, som the hadhe. Och the ropadhe medh h&#x00F6;gha r&#x00F6;st, och sadhe, Herre, tu som &#x00E4;st heligh och sanferdigh, huru lenge d&#x00F6;mer tu icke, och hempnas icke w&#x00E5;rt blodh p&#x00E5; them som boo p&#x00E5; iordenne? Och them</para><para/><para>#775</para><para>wardt giffuit hwariom och enom itt hwitt kl&#x00E4;dhe. Och til them wardt sagdt, at the skulle &#x00E4;n nu huilas en liten tijdh, til tess talet bliffue fult aff theras medtienare och br&#x00F6;dher, the ther ock skola d&#x00F6;dadhe warda s&#x00E5;som ock the.</para><para/><para>&#x009;Och iagh s&#x00E5;gh, at thet vpbr&#x00F6;t thet siette insiglet, Och sij, t&#x00E5; wardt en stoor iordb&#x00E4;ffuing, och solen wardt swart som en h&#x00E5;&#x00E5;rs&#x00E4;ck, och m&#x00E5;nen wardt all sammans s&#x00E5;som blodh, och stiernonar f&#x00F6;llo aff himmelen nedh p&#x00E5; iordena, s&#x00E5;som fikonatr&#x00E4;dh sijn fikon nedherslepper, t&#x00E5; thet ristes aff stoort w&#x00E4;dher. Och himmelen gick bort, s&#x00E5;som een tilslaghen book, Och all bergh och &#x00F6;yar wordo r&#x00F6;rd aff sijn rwm. Och Konungarna p&#x00E5; iordenne, och the &#x00D6;ffuerste, och rijke, och H&#x00F6;ffuitzm&#x00E4;n, och wellighe, och alle eghne, och alle frije f&#x00F6;rdolde sigh vthi iordkulor, och j bergskreffwor, och sadhe til bergh och klippor, Faller offuer oss och skyler oss, f&#x00F6;r hans ansichte som sitter p&#x00E5; stolen, och f&#x00F6;r Lambsens wredhe, Ty then store hans wredhes Dagh &#x00E4;r kommen, Och hoo kan best&#x00E5;?</para><para/><para>#776</para><para/><para>&#x009;&#x009;VII. Capitel.</para><para/><para>Sedhan s&#x00E5;gh iagh fyra &#x00C4;nglar st&#x00E5; p&#x00E5; fyra iordennes h&#x00F6;rn, h&#x00E5;llandes fyra iordennes w&#x00E4;dher, At intet w&#x00E4;dher skulle bl&#x00E5;sa p&#x00E5; iordena, eller p&#x00E5; haffuet, eller p&#x00E5; n&#x00E5;ghot tr&#x00E4;&#x00E4;. Och iagh s&#x00E5;gh en annan &#x00C4;ngel vpstigha jfr&#x00E5; solennes vpg&#x00E5;ng, han hadhe leffuandes Gudz tekn, och ropadhe med h&#x00F6;gha r&#x00F6;st til the fyra &#x00C4;nglar, hwilkom giffuit war skadha g&#x00F6;ra iordenne och haffuena, och sadhe, G&#x00F6;rer icke iordenne skadha, eller haffuena, eller tr&#x00E4;&#x00E4;n, s&#x00E5; lenge wij teknom w&#x00E5;r Gudz tienare p&#x00E5; theras anlete. Och iagh h&#x00F6;rde talet p&#x00E5; them som teknadhe woro, hundradhe fyra och fyratiyo tusend, som teknadhe woro aff all Jsraels barnas slechter.</para><para/><para>&#x009;Aff Juda slechte, tolff tusend teknadhe.</para></paragraph-definition><paragraph-definition name="Anfangsabsatz" style-number="s0006" tabs="left:177.20;left:216.00;" adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"><para><inline font-style="Times">Aff Ruben slechte, tolff tusend teknadhe.</inline></para><para><inline font-style="Times">Aff Gad slechte, tolff tusend teknadhe.</inline></para><para><inline font-style="Times">Aff Asser slechte, tolff tusend teknadhe.</inline></para><para><inline font-style="Times">Aff Nephthali slechte, tolff tusend teknadhe.</inline></para><para/><para><inline font-style="Times">#777</inline></para><para><inline font-style="Times">Aff Manasse slechte, tolff tusend teknadhe.</inline></para><para><inline font-style="Times">Aff Simeon slechte, tolff tusend teknadhe.</inline></para><para><inline font-style="Times">Aff Leuj slechte, tolff tusend teknadhe.</inline></para><para><inline font-style="Times">Aff Jsaschar slechte, tolff tusend teknadhe.</inline></para><para><inline font-style="Times">Aff Zabulon slechte, tolff tusend teknadhe.</inline></para><para><inline font-style="Times">Aff Josephs slechte, tolff tusend teknadhe.</inline></para><para><inline font-style="Times">Aff Ben Jamin slechte, tolff tusend teknadhe.</inline></para><para/></paragraph-definition><paragraph-definition name="Absatzanfang" style-number="s0005" tabs="left:35.45;" adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Danish" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"><para>&#x009;Sedhan s&#x00E5;gh iagh, Och sij, en stoor skare then ingen rekna kunde, aff allom Hedhningom och slechtom och folckom och tungom&#x00E5;lom, st&#x00E5;ndandes f&#x00F6;r stolen och f&#x00F6;r Lambena, kl&#x00E4;dd j hwijt kl&#x00E4;dher, och palmar j theras hender, ropandes medh h&#x00F6;gha r&#x00F6;st, och sadhe, Saligheet honom som sitter p&#x00E5; stolen w&#x00E5;rom Gudhi och Lambena. Och alle &#x00C4;nglar stodho kring om stolen, och the &#x00C4;ldsta, och the fyra diwren, och f&#x00F6;llo p&#x00E5; sijn ansichte fram f&#x00F6;r stolen, och tilb&#x00E5;dho Gudh, och sadhe, Amen. Loff och &#x00E4;ra, och wijsheet, och tack, och prijs, och krafft, och starckheet ware w&#x00E5;rom Gudh jfr&#x00E5; ewigheet til ewigheet, Amen.</para><para/><para>&#x009;Och en aff the &#x00C4;ldsta swaradhe, och sadhe til migh, Hoo &#x00E4;ro thenne som vthi the hwita kl&#x00E4;dher kl&#x00E4;dde &#x00E4;ro? Och hwadhan &#x00E4;ro the kompne? Och iagh sadhe til honom, Herre, tu weest thet. Och han sadhe til migh, Thenne &#x00E4;ro the som kompne &#x00E4;ro vthu stoor bedr&#x00F6;ffuelse, och haffua twaghet sijn kl&#x00E4;dher, och giordt them hwijt j Lambsens blodh. Therf&#x00F6;re &#x00E4;ro the f&#x00F6;r Gudz stool, och tiena honom dagh och natt vthi</para><para/><para>#778</para><para>hans Tempel. Och then p&#x00E5; stolen sitter, skal boo offuer them, The skola intet meer hungra eller t&#x00F6;rsta, Jcke heller skal solen falla p&#x00E5; them, icke heller n&#x00E5;ghon hete, Ty Lambet som mitt j stolen &#x00E4;r, skal regera them, och ledha them til leffuande watukellor, och Gudh skal afftorka alla t&#x00E5;rar aff theras &#x00F6;ghon.</para><para/><para>&#x009;&#x009;VIII. Capitel.</para><para/><para>Och t&#x00E5; thet vpbr&#x00F6;t thet siwnde insiglet, wardt een tysta j himmelen widh een halff stund. Och iagh s&#x00E5;gh siw &#x00C4;nglar st&#x00E5; f&#x00F6;r Gudh, och them wordo giffne siw basuner. Och en annar &#x00C4;ngel kom, och stoodh f&#x00F6;r Altaret, och hadhe itt gyllene r&#x00F6;kelsekaar, och honom wardt giffuit mykit r&#x00F6;kwerck, P&#x00E5; thet han skulle giffua aff all helghons b&#x00F6;ner p&#x00E5; gyllene Altaret, som &#x00E4;r f&#x00F6;r stolenom. Och r&#x00F6;kwercksens r&#x00F6;&#x00F6;k aff helghonens b&#x00F6;ner, gick vp aff &#x00C4;ngelens hand f&#x00F6;r Gudh. Och &#x00C4;ngelen toogh r&#x00F6;kelsekaret, och vpfylte thet medh eeld aff Altaret, och kastadhe nedh p&#x00E5; iordena. Och ther skeedde tord&#x00F6;n, r&#x00F6;ster och liungeeld, och iordb&#x00E4;ffuing.</para><para/><para>#779</para><para>&#x009;Och the siw &#x00C4;nglar medh the siw basuner, skickadhe sigh til at basuna. Och then f&#x00F6;rste &#x00C4;ngelen basunadhe, och wardt itt haghel och eeld bemengt medh blodh, och thet wardt kastat p&#x00E5; iordena. Och tridie parten aff tr&#x00E4;&#x00E4;n wardt vpbrend, och alt gr&#x00F6;nt gr&#x00E4;&#x00E4;s brann vp.</para><para/><para>&#x009;Och then andre &#x00C4;ngelen basunadhe, Och vthi haffuet wardt kastat s&#x00E5;som itt stoort brinnande bergh. Och tridie parten aff haffuet wardt blodh, och tridie parten aff the leffuande creatur som j haffuet woro, bliffuo d&#x00F6;d, och tridie parten aff skepen f&#x00F6;rgingos.</para><para/><para>&#x009;Och then tridie &#x00C4;ngelen besunadhe, Och een stoor stierna f&#x00F6;ll nedh aff himmelen, brinnande som itt bloss. Och f&#x00F6;ll vthi tridie parten aff elffuenar, och vthi watukellonar, och</para><para/><para>#780</para><para>stiernonnes nampn kallas Mal&#x00F6;rt. Och tridie parten wendes j Mal&#x00F6;rt, Och monga menniskior bliffuo d&#x00F6;dhe aff watnet som f&#x00F6;rbittrat wardt.</para><para/><para>&#x009;Och then fierde &#x00C4;ngelen basunadhe, Och tridie parten aff solenne wardt slaghen, och tridie parten aff m&#x00E5;nan, och tridie parten aff stiernonar, s&#x00E5; at tridie parten aff them wardt f&#x00F6;rm&#x00F6;rkrat, och tridie delen aff daghen intet skina kunde, och aff nattenne sammalunda. Och iagh s&#x00E5;g, och h&#x00F6;rde en &#x00C4;ngel som fl&#x00F6;gh mitt genom himmelen, och sadhe medh h&#x00F6;gha r&#x00F6;st, Wee, wee, wee them som boo p&#x00E5; iordenne, f&#x00F6;r the andra r&#x00F6;ster aff the tree &#x00C4;nglars basuner, som &#x00E4;n nu basuna skola.</para><para/><para>&#x009;&#x009;IX. Capitel.</para></paragraph-definition><paragraph-definition name="Anfangsabsatz" style-number="s0006" tabs="left:177.20;left:216.00;" adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"><para/></paragraph-definition><paragraph-definition name="Absatzanfang" style-number="s0005" tabs="left:35.45;" adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Danish" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"><para>Och then femte &#x00C4;ngelen basunadhe, Och iagh s&#x00E5;gh ena stierno falla aff himmelen p&#x00E5; iordena. Och honom wardt giffuin nyckelen til affgrundens brun. Och han vpl&#x00E4;t affgrundens brun, och ther vpgick en r&#x00F6;&#x00F6;k, s&#x00E5;som aff en stoor vgn, Och solen och w&#x00E4;dhret wordo f&#x00F6;rm&#x00F6;rkrat aff brunzens r&#x00F6;&#x00F6;k. Och vthu r&#x00F6;ken komo gr&#x00E4;szhoppor p&#x00E5; iordena, Och them wardt giffuin macht, s&#x00E5;som Scorpioner p&#x00E5; iordenne macht haffua. Och wardt sagdt til them, at the icke skulle g&#x00F6;ra gr&#x00E4;set p&#x00E5; iordenne skadha, icke heller n&#x00E5;ghot thet gr&#x00F6;nt war, icke heller n&#x00E5;ghot tr&#x00E4;&#x00E4;, vthan allena menniskionar, the som icke hadhe tekn j sijn anlete. Och them wardt</para><para/><para>#781</para><para>giffuit, at the icke skulle d&#x00F6;dha them, vthan at the skulle quelia them j fem m&#x00E5;nadher, och theras quaal war s&#x00E5;som quaal aff Scorpion, t&#x00E5; han haffuer stunget menniskiona. Och j the daghar skola menniskionar s&#x00F6;kia effter d&#x00F6;dhen, och skola icke finna honom, Och the skola beg&#x00E4;ra d&#x00F6;&#x00F6;, och d&#x00F6;dhen skal flyy jfr&#x00E5; them.</para><para/><para>&#x009;Och the gr&#x00E4;szhoppor &#x00E4;ro lijke the hestar som til krijgs bereedde &#x00E4;ro, och p&#x00E5; theras hoffuudh s&#x00E5;som kronor gulle lijka, och theras ansichte s&#x00E5;som menniskiors ansichte, Och the hadhe h&#x00E5;&#x00E5;r s&#x00E5;som quinnoh&#x00E5;&#x00E5;r, och theras tender woro s&#x00E5;som Leyons, och hadhe pantzar s&#x00E5;som jernpantzar, och bulret aff theras wingar s&#x00E5;som wagns buller, ther monge hestar l&#x00F6;pa til krijgs, och hadhe stiertar s&#x00E5;som Scorpioner, och gaddar woro j theras stiertar, och theras macht war til at quelia menniskionar j fem m&#x00E5;nadher. Och hadhe offuer sigh en Konung, en &#x00C4;ngel aff affgrunden, hwilkens nampn p&#x00E5; Ebreisko heter Abaddon, p&#x00E5; Grekesko Apollyon. Jtt wee &#x00E4;r framfaret, Och sij, h&#x00E4;r komma &#x00E4;n nu tw annor wee effter.</para><para/><para>&#x009;Och then siette &#x00C4;ngelen basunadhe, och iagh h&#x00F6;rde ena</para><para/><para>#782</para><para>r&#x00F6;st aff the fyra h&#x00F6;rn aff thet gyllene Altaret, som &#x00E4;r f&#x00F6;r Gudz &#x00F6;ghon, och sadhe til then siette &#x00C4;ngelen som basunen hadhe, L&#x00F6;&#x00F6;s the fyra &#x00C4;nglar som bundne &#x00E4;ro vthi then stora elffuen Euphrate. Och the fyre &#x00C4;nglar wordo l&#x00F6;se, hwilke bereedde woro til ena stund, til en dagh, til en m&#x00E5;nat, och til itt &#x00E5;&#x00E5;r, at the skulle d&#x00F6;dha tridie parten aff menniskionar. Och talet p&#x00E5; thet resigh tyghet, war mong sinnom tusende tusend, Och iagh h&#x00F6;rde theras taal. Och s&#x00E5; s&#x00E5;gh iagh ock hestanar j synenne, och the som s&#x00E5;to p&#x00E5; them, the hadhe gl&#x00F6;dhande, gohl, och swaffuels pantzar, och hoffuudhen p&#x00E5; hestanar woro s&#x00E5;som Leyona hoffuudh, och aff theras munn vthgick eeld, och r&#x00F6;&#x00F6;k, och swaffuel. Aff thenna tree pl&#x00E5;ghor wardt d&#x00F6;dhat tridie parten aff menniskionar, aff eelden och r&#x00F6;ken, och swafflet som vthaff theras munn gick, Ty theras macht war j theras munn och j theras stiertar. Och stierterna woro ormom lijke, och hadhe hoffuudh ther the skadha medh giorde.</para><para/><para>&#x009;Och woro &#x00E4;n nu menniskior som icke woro d&#x00F6;dhadhe aff thenna pl&#x00E5;ghor, och icke b&#x00E4;tradhe sigh aff sina henders</para><para/><para>#783</para><para>werck, at the icke tilb&#x00E5;dho dieffuulskap och affgudhar aff guld, silffuer, koppar, steen och tr&#x00E4;&#x00E4;, the ther hwarken see kunna, eller h&#x00F6;ra, eller g&#x00E5;, och icke giorde boot f&#x00F6;r sitt moord truldom, sk&#x00F6;rheet och tiuffuerij.</para><para/><para>&#x009;&#x009;X. Capitel.</para><para/><para>Och iagh s&#x00E5;gh en annan starck &#x00C4;ngel nedherkomma aff himmelen, han war kl&#x00E4;dd medh en skyy, och en regnboge offuer hans hoffuudh, och hans ansichte s&#x00E5;som solen, och hans f&#x00F6;tter s&#x00E5;som eeldzpelare. Och han hade j sinne hand een &#x00F6;pen book, Och han satte sin h&#x00F6;gra foot p&#x00E5; haffuet, och then wenstra p&#x00E5; iordena, och ropade medh h&#x00F6;gha r&#x00F6;st, s&#x00E5;som itt rytande Leyon. Och t&#x00E5; han ropadhe, taladhe siw tord&#x00F6;ner sina r&#x00F6;ster. Och t&#x00E5; the siw tord&#x00F6;ner talat hadhe sina r&#x00F6;ster, wille iagh scriffuit them. T&#x00E5; h&#x00F6;rde iagh ena r&#x00F6;st aff himmelen, s&#x00E4;ya til migh Besegla thet the siw tord&#x00F6;ner talat haffua, och scriff thet intet.</para><para>&#x009;Och &#x00C4;ngelen som iagh s&#x00E5;gh st&#x00E5; p&#x00E5; haffuet och p&#x00E5; iordenne,</para><para/><para>#784</para><para>hooff sina hand vp til himmelen, och swoor om honom som leffuer jfr&#x00E5; ewigheet til ewigheet, then ther himmelen skapat haffuer och hwadh ther vthi &#x00E4;r, och iordena och hwadh ther vthi &#x00E4;r, och haffuet och hwadh ther vthi &#x00E4;r, at ingen tijdh skal wara meer, Vthan j the daghar, t&#x00E5; then siwnde &#x00C4;ngelens r&#x00F6;st h&#x00F6;res, t&#x00E5; han warder basunandes, t&#x00E5; skal Gudz hemligheet fulkompnat warda, s&#x00E5;som han f&#x00F6;rkunnat hadhe genom sina tienare och Propheter.</para><para/><para>&#x009;Och iagh h&#x00F6;rde &#x00E5;ter ena r&#x00F6;st aff himmelen tala medh migh, och s&#x00E4;ya, Gack, och tagh then &#x00F6;pna bokena aff &#x00C4;ngelens hand, som st&#x00E5;&#x00E5;r p&#x00E5; haffuet, och p&#x00E5; iordenne. Och iagh gick til &#x00C4;ngelen, och sadhe, F&#x00E5; migh bokena. Och han sadhe til migh, Tagh bokena och &#x00E4;&#x00E4;t vp henne, och hon skal rijffua tigh j buken, men j tin munn skal hon wara s&#x00F6;&#x00F6;t som hannogh. Och iagh toogh bokena aff &#x00C4;ngelens hand, och &#x00E5;&#x00E5;t henne vp, Och hon wardt j min munn s&#x00F6;&#x00F6;t som hannogh. Och t&#x00E5; iagh hadhe &#x00E4;tit henne, reeff hon migh j buken. Och han sadhe til migh, Tu moste &#x00E5;ter prophetera folckom, Hedhningom, och tungom&#x00E5;lom, och mongom Konungom.</para><para/><para>&#x009;Och migh wardt f&#x00E5;ngen een r&#x00F6;&#x00F6; s&#x00E5;som en kepp, och migh wardt sagdt, Statt vp, och m&#x00E4;&#x00E4;l Gudz Tempel och Altare, och the som tilbidhia ther inne. Men then indra Choren aff Templet kasta vth, och m&#x00E4;&#x00E4;l honom intet, Ty han &#x00E4;r giffuin Hedhningomen, Och the skola f&#x00F6;rtrampa then helgha stadhen, j tw&#x00E5; och fyratiyo m&#x00E5;nadher.</para><para/><para>#785</para><para/><para>&#x009;&#x009;XI. Capitel.</para><para/><para>Och iagh skal giffua tw minom witnom, och the skola prophetera j tusende twhundradhe och sextiyo daghar, kl&#x00E4;dde j s&#x00E4;cker. Thenne &#x00E4;ro tw Oliotr&#x00E4;&#x00E4; och tw bloss, st&#x00E5;ndandes f&#x00F6;r iorderikes Gudh.</para><para/><para>&#x009;Och hwar n&#x00E5;ghor wille g&#x00F6;ra them skadha, s&#x00E5; g&#x00E5;&#x00E5;r eelden vthaff theras munn, och f&#x00F6;rt&#x00E4;rer theras fiendar, Och hwar n&#x00E5;ghor wille g&#x00F6;ra them ondt, s&#x00E5; moste han d&#x00F6;dhas. Thenne haffua macht til at igenlyckia himmelen, at intet regnar vthi the daghar, t&#x00E5; the prophetera, och haffua macht offuer watnet, at f&#x00F6;rwenda thet j blodh, och sl&#x00E5; iordena medh allahanda pl&#x00E5;gho, s&#x00E5; offta the wilia.</para><para/><para>&#x009;Och t&#x00E5; the haffua lychtat sitt witnesbyrd, skal thet Wildiwret som vpstigher aff affgrunden, h&#x00E5;lla ena strijdh medh them, och skal offuerwinna them och d&#x00F6;dha them. Och theras lekamen skola bliffua liggiandes p&#x00E5; gatorna j then stora stadhen, som heter andeligha Sodoma och Egypten, ther w&#x00E5;r Herre korszfest &#x00E4;r. Och skola n&#x00E5;ghre aff slechterna och folcken, och tungom&#x00E5;len, och aff Hedningarna, see theras</para><para/><para>#786</para><para>lekamen j tree daghar och en halff, och skola icke wilia tilst&#x00E4;dhia theras lekamen leggias j graffuer. Och the p&#x00E5; iordenne boo, skola fr&#x00F6;gda sigh offuer them, och skola gl&#x00E4;dhias och senda hwar androm g&#x00E5;ffuor, Ty thenne tw&#x00E5; Propheter twingadhe them som boo p&#x00E5; iordenne.</para><para/><para>&#x009;Och effter tree daghar och en halff, kom lijffzens Ande aff Gudhi vthi them, och he stodho p&#x00E5; sina f&#x00F6;tter, Och een stoor f&#x00F6;rskreckelse f&#x00F6;ll p&#x00E5; them som s&#x00E5;gho them. Och the h&#x00F6;rde een h&#x00F6;gh r&#x00F6;st aff himmelen, s&#x00E4;ya til them, Stigher hijt vp. Och the stegho vp j himmelen vthi en skyy, och theras owener s&#x00E5;gho them. Och j samma stundenne wardt en stoor iordb&#x00E4;ffuing, och tiyonde delen aff stadhen f&#x00F6;ll nedh. Och bliffuo j iordb&#x00E4;ffuingen d&#x00F6;dadhe siw tusend menniskiors nampn, och the andra wordo f&#x00F6;rf&#x00E4;radhe, och g&#x00E5;ffuo gudhi j himmelen prijs. Thet andra wee gick offuer, och sij, thet tridie wee kommer snart.</para><para/><para>&#x009;Och then siwnde &#x00C4;ngelen basunadhe, och j himmelen h&#x00F6;rdes h&#x00F6;gha r&#x00F6;ster, the ther sadhe, Thenna werldennes Rike &#x00E4;ro worden w&#x00E5;r Herras och hans Christs, Och han skal regnera aff ewigheet til ewigheet, Amen. Och the fyra och tiwghu &#x00C4;ldste som f&#x00F6;r Gudhi p&#x00E5; sina stolar s&#x00E5;to, f&#x00F6;llo p&#x00E5; sijn ansichte och tilb&#x00E5;dho Gudh, och sadhe, Wij tackom tigh <inline small-caps="true">Herre</inline> Alzmechtigh Gudh, tu som &#x00E4;st och warit haffuer, och tilkommande &#x00E4;st, Ty tu haffuer taghit tina stora krafft och regnerat, och Hedhninganar &#x00E4;ro wredhe wordne. Och tijn wredhe &#x00E4;r kommen, och the d&#x00F6;dhas tijdh, at the skola</para><para/><para>#787</para><para>d&#x00F6;mas, och at tu skalt l&#x00F6;na tina tienare, Propheter och helghon, och them som fruchta titt nampn, sm&#x00E5; och stora, och f&#x00F6;rderffua them som iordena f&#x00F6;rderffuat haffua.</para><para/><para>&#x009;Och Gudz Tempel wardt vpl&#x00E5;tet j himmelen, och hans Testamentz Arck wardt seedd j hans Tempel, Och ther skeedde liwngeeld och r&#x00F6;ster, och tord&#x00F6;ner, och iordb&#x00E4;ffuing, och stoort haghel.</para><para/><para>&#x009;&#x009;XII. Capitel.</para><para/><para>Och j himmelen syntes itt stoort tekn, Een quinna bekl&#x00E4;dd med solenne, och m&#x00E5;nen vnder hennes f&#x00F6;tter, och p&#x00E5; hennes hoffuudh een krona aff tolff stiernor. Och hon war haffuande, ropadhe och pintes medh barn, och hadhe stoort qual til at f&#x00F6;da.</para><para/><para>&#x009;Och s&#x00E5; syntes itt annat tekn j himmelen, och sij, en stoor r&#x00F6;dh drake, som hadhe siw hoffuudh och tiyo horn, Och p&#x00E5; hans hoffuudh siw kronor, och hans stiert droogh tridie parten aff himmelens stiernor, och kastadhe them nedh p&#x00E5; iordena.</para><para/><para>&#x009;Och draken stoodh f&#x00F6;r quinnonne som f&#x00F6;dha skulle, P&#x00E5; thet, n&#x00E4;r hon f&#x00F6;dt hadhe, skulle han vp&#x00E4;ta hennes barn.</para><para/><para>#788</para><para>Och hon f&#x00F6;dde itt swenbarn, som regera skulle alla Hedhningar medh jernrijsz. Och hennes barn wardt borttaghet til Gudh och til hans stool. Och quinnan flydde vthi &#x00F6;knena ther hon rwm hadhe, bereedt aff Gudhi, at hon ther f&#x00F6;dhas skulle j tusende twhundradhe och sextiyo daghar.</para><para/><para>&#x009;Och thet wardt een stoor strijdh j himmelen, Michael och hans &#x00C4;nglar stridde medh Drakan, och Draken stridde och hans &#x00C4;nglar, och the wunno intet, Och theras rwm wardt icke meer funnet j himmelen. Och then store Draken, then gamle Ormen, then ther heter dieffuul och Satanas, wardt vthkastat, then ther bedragher hela werldena, och han wardt kastat p&#x00E5; iordena, och hans &#x00C4;nglar wordo ock bortkastadhe medh honom.</para><para/><para>&#x009;Och iagh h&#x00F6;rde een stoor r&#x00F6;st som sadhe j himmelen. Nu &#x00E4;r w&#x00E5;r Gudz saligheet, och krafft, och Rike, och macht, hans Christs worden, effter w&#x00E5;ra br&#x00F6;dhers beklaghare &#x00E4;r f&#x00F6;rkastat, then them beklagadhe f&#x00F6;r Gudh dagh och natt. Och the wunno honom f&#x00F6;r Lambsens blodh skul, och f&#x00F6;r thes witnesbyrdz ord skul, och the haffua icke elskat sitt lijff alt in til d&#x00F6;dhen. Therf&#x00F6;re gl&#x00E4;dhens j himlar, och the som boo j them. Wee them som boo p&#x00E5; iordenne och p&#x00E5; haffuet, Ty dieffuulen stigher nedh til idher, och haffuer een stoor wredhe, wetandes, at han icke long tijdh haffuer.</para><para/><para>&#x009;Och t&#x00E5; Draken s&#x00E5;gh, at han f&#x00F6;rkastat war p&#x00E5; iordena, f&#x00F6;rfolgde han quinnona, som swenbarnet f&#x00F6;dt hadhe. Och quinnonne wordo giffne tw&#x00E5; wingar, s&#x00E5;som aff en stoor &#x00F6;rn, at hon skulle flygha vthi &#x00F6;knena vthi sitt rwm, ther hon</para><para/><para>#789</para><para>f&#x00F6;dhes en tijdh, och tw&#x00E5; tijdher, och en halff tijdh, jfr&#x00E5; Ormsens ansichte. Och Ormen sputadhe vthu sin munn watn s&#x00E5;som en str&#x00F6;m effter quinnona, P&#x00E5; thet han skulle f&#x00F6;rdrenckia henne. Men iorden halp quinnonne, och vpl&#x00E4;t sin munn, och vpswalgh str&#x00F6;men som Draken aff sin munn vthsputat hadhe. Och Draken wardt wreedh p&#x00E5; quinnona, och gick bortt, at han skulle &#x00F6;rligha medh the andra aff hennes s&#x00E4;dh, the som h&#x00E5;lla Gudz bodh, och haffua Jesu Christi witnesbyrd. Och han stoodh p&#x00E5; haffzens sand.</para><para/><para>&#x009;&#x009;XIII. Capitel.</para><para/></paragraph-definition><paragraph-definition name="Anfangsabsatz" style-number="s0006" tabs="left:177.20;left:216.00;" adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"><para><inline font-style="Times">O</inline><inline font-style="Times">ch iagh s&#x00E5;gh itt Wildiwr vpstigha vthu haffuet, thet hadhe siw hoffuudh och tiyo horn, och p&#x00E5; thes horn tiyo kronor, och p&#x00E5; thes hoffuudh h&#x00E4;dhelsens nampn. Och Wildiwret som iagh s&#x00E5;gh, thet war lijkt enom Pardel, och thes f&#x00F6;tter s&#x00E5;som Bi&#x00F6;rnaf&#x00F6;tter, och thes munn s&#x00E5;som Leyons munn. Och Draken gaff thy sina krafft, och sin stool, och stora macht. Och iagh s&#x00E5;gh itt aff hans hoffuudh, s&#x00E5;som sarghat til d&#x00F6;dz, och thes d&#x00F6;dzs&#x00E5;&#x00E5;r wardt igenl&#x00E4;kt. Och hela iorden f&#x00F6;rundradhe sigh p&#x00E5; Wildiwret, och tilb&#x00E5;dho Drakan, som Wildiwrena hadhe macht giffuit, och the tilb&#x00E5;dho Wildiwret, s&#x00E4;yandes, Hoo &#x00E4;r Wildiwret lijk? Eller hoo f&#x00F6;rm&#x00E5; strijdha emoot thy?</inline></para><para/><para>&#x009;<inline font-style="Times">Och thy wardt giffuit en munn, til at tala stoor ting och h&#x00E4;dhelse, och thy wardt giffuit macht, til at bruka sigh j</inline></para><para/><para><inline font-style="Times">#790</inline></para><para><inline font-style="Times">tw&#x00E5; och fyratiyo m&#x00E5;nadher. Och thet vplyffte sin munn, til at tala h&#x00E4;dhelse emoot Gudh, til at h&#x00E4;dha hans nampn och hans Tabernakel, och them som boo j himmelen. Och thy wardt medhgiffuit strijdha medh helghonen, och winna them. Och thy wardt giffuin macht offuer all slechter, och folck, och tungom&#x00E5;l, och Hedhningar, Och alle the som p&#x00E5; iordenne boo, tilb&#x00E5;dho thet, hwilkas nampn icke scriffuen &#x00E4;ro j Lambsens lijffz book, hwilket d&#x00F6;dhat &#x00E4;r jfr&#x00E5; werldennes begynnelse. </inline><inline font-style="Times">Then ther &#x00F6;ra haffuer, han h&#x00F6;re. </inline><inline font-style="Times">Then ther ledher j f&#x00E4;ngelse, han skal g&#x00E5; j f&#x00E4;ngelse. Then ther dr&#x00E4;per medh swerd, han moste d&#x00F6;dhas medh swerd. </inline><inline font-style="Times">H&#x00E4;r &#x00E4;r the helighas tolamodh och troo.</inline></para><para/></paragraph-definition><paragraph-definition name="Absatzanfang" style-number="s0005" tabs="left:35.45;" adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Danish" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"><para>&#x009;Och iagh s&#x00E5;gh itt annat Wildiwr vpstigha vthu iordenne, och thet hadhe tw horn lijka som Lambet, och thet taladhe som Draken, Och thet g&#x00F6;r alla thes f&#x00F6;rsta Wildiwrsens macht, j thes &#x00E5;syyn, Och thet kommer iordena och them ther p&#x00E5; boo, til at tilbidhia thet f&#x00F6;rsta Wildiwret, hwilkes d&#x00F6;dzs&#x00E5;&#x00E5;r igenl&#x00E4;kt war. Och thet g&#x00F6;r stoor tekn, s&#x00E5; at thet ock l&#x00E4;ter eeld falla nedh aff himmelen p&#x00E5; iordena j menniskiors</para><para/><para>#791</para><para>&#x00E5;syyn, Och thet bedragher them som boo p&#x00E5; iordenne, f&#x00F6;r the tekn skul som thy giffuin &#x00E4;ro, at g&#x00F6;ra f&#x00F6;r Wildiwret, s&#x00E4;yandes til them som boo p&#x00E5; iordenne, at the skola g&#x00F6;ra Wildiwrena, som sarghat war aff swerd, och war leffuande wordet, itt belete.</para><para/><para>&#x009;Och thy wardt giffuit, at thet skulle giffua Wildiwrens belete anda, och at Wildiwrens belete skulle tala, och s&#x00E5; bestellat, at huilke som helst icke tilb&#x00E5;dho Wildiwrens belete, skulle d&#x00F6;dhas. Och thet l&#x00E4;t alla, sm&#x00E5; och stora, rijka och fattigha, friya och eghna tagha wedhertekn vthi theras h&#x00F6;ghra hand, eller p&#x00E5; theras anlete, at ingen skal m&#x00E5; k&#x00F6;pa eller s&#x00E4;lia, vthan then ther haffuer wedherteknet, eller Wildiwrens nampn, eller thes nampns taal. H&#x00E4;r &#x00E4;r wijsdomen. Then ther f&#x00F6;rst&#x00E5;nd haffuer, han rekne Wildiwrens taal, Ty thet &#x00E4;r eens menniskios taal, Och thes taal &#x00E4;r sexhundrat sextiyo och sex.</para><para/><para>&#x009;&#x009;XIIII. Capitel.</para><para/></paragraph-definition><paragraph-definition name="Anfangsabsatz" style-number="s0006" tabs="left:177.20;left:216.00;" adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"><para><inline font-style="Times">O</inline><inline font-style="Times">ch iagh s&#x00E5;gh, och sij, Jtt Lamb stoodh p&#x00E5; Zions bergh, och medh thy hundradhe fyra och fyratiyo tusend, the hadhe thes Fadhers nampn bescriffuit p&#x00E5; sijn anlete. </inline><inline font-style="Times">Och iagh h&#x00F6;rde ena r&#x00F6;st aff himmelen, s&#x00E5;som aff itt stoort watn, och s&#x00E5;som ena r&#x00F6;st aff en stoor tord&#x00F6;n. Och r&#x00F6;sten som iagh h&#x00F6;rde, war s&#x00E5;som harpolekares, the ther leekte p&#x00E5; sina harpor. </inline><inline font-style="Times">Och the sungo s&#x00E5;som en ny song f&#x00F6;r stolen, och</inline></para><para/><para><inline font-style="Times">#792</inline></para><para><inline font-style="Times">f&#x00F6;r the fyra diwren, och f&#x00F6;r the &#x00C4;ldsta. </inline><inline font-style="Times">Och ingen kunde l&#x00E4;ra then songen, vthan the hundradhe fyra och fyratiyo tusend, som k&#x00F6;pte &#x00E4;ro aff. iordenne. Thenne &#x00E4;ro the, som medh quinnor icke besmittadhe &#x00E4;ro, Ty the &#x00E4;ro Jungfrwr, och f&#x00F6;lia Lambet ehwart thet g&#x00E5;&#x00E5;r. Thenne &#x00E4;ro k&#x00F6;pte jfr&#x00E5; menniskionar, til en f&#x00F6;rstling Gudhi och Lambena, och j theras munn &#x00E4;r intet swek funnet, Ty the &#x00E4;ro vthan smitto f&#x00F6;r Gudz stool.</inline></para><para/></paragraph-definition><paragraph-definition name="Absatzanfang" style-number="s0005" tabs="left:35.45;" adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Danish" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"><para>&#x009;Och iagh s&#x00E5;gh en annan &#x00C4;ngel flygha mitt genom himmelen, han hadhe itt ewigt Euangelium, thet han f&#x00F6;rkunna skulle them som p&#x00E5; iordenne boo, och allom Hedhningom, och slechtom, och tungom&#x00E5;lom, och folckom, och sadhe medh h&#x00F6;gha r&#x00F6;st, Fruchter Gudh, och giffuer honom &#x00E4;ro, Ty stunden &#x00E4;r kommen til hans Doom, och tilbedher honom, som haffuer giordt himmel och iord, haffuet och watukellonar. Och en annar &#x00C4;ngel folgde effter, och sadhe, Fallen, fallen &#x00E4;r then store stadhen Babylon, Ty han haffuer dricka giffuit allom Hedhningom aff wredhennes wijn sins bolerijs.</para></paragraph-definition><paragraph-definition name="Anfangsabsatz" style-number="s0006" tabs="left:177.20;left:216.00;" adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"><para/></paragraph-definition><paragraph-definition name="Absatzanfang" style-number="s0005" tabs="left:35.45;" adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Danish" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"><para>&#x009;Och tridie &#x00C4;ngelen folgde them, och sadhe medh h&#x00F6;gha</para><para/><para>#793</para><para>r&#x00F6;st, Huar n&#x00E5;ghor tilbedher Wildiwret, och thes belete, och tagher thes wedhertekn p&#x00E5; sitt anlete, eller p&#x00E5; sijn hand, han skal ock dricka aff Gudz wredhes wijn, thet inskenckt och klart &#x00E4;r j hans wredhes kalk, och han skal warda pl&#x00E5;ghat medh eeld och swaffuel j helgha &#x00C4;nglars &#x00E5;syyn, och j Lambsens &#x00E5;syyn. Och r&#x00F6;ken aff theras pl&#x00E5;gho, skal vpstigha aff ewigheet til ewigheet. Och the haffua huarken dagh eller natt roo, som tilbidhia Wildiwret och thes belete, och ther n&#x00E5;ghor taghet haffuer thes nampns wedhertekn. H&#x00E4;r &#x00E4;r the helighas tolamodh, H&#x00E4;r &#x00E4;ro the som h&#x00E5;lla Gudz bodh och Jesu troo.</para><para/><para>&#x009;Och iagh h&#x00F6;rde ena r&#x00F6;st aff himmelen, s&#x00E4;ya til migh, Scriff, Salighe &#x00E4;ro the d&#x00F6;dhe, som j Herranom d&#x00F6;&#x00F6; h&#x00E4;r effter, Ja, Anden s&#x00E4;gher, at the skola hwila sigh jfr&#x00E5; sitt arbete, Ty theras gerningar f&#x00F6;lia them effter.</para><para/><para>&#x009;Och iagh s&#x00E5;gh, och sij, en hwijt skyy, och p&#x00E5; skynom satt en, som lijk war menniskionnes Son, och hadhe p&#x00E5; sitt hoffuudh ena gulkrono, och j hans hand en hwass liye. Och en annar &#x00C4;ngel kom vthu Templet, och ropadhe medh h&#x00F6;gha r&#x00F6;st til then som satt p&#x00E5; skynom, Hugg til medh</para><para/><para>#794</para><para>tin liya, och sk&#x00E4;&#x00E4;r, Ty tijdhen &#x00E4;r tigh kommen, at tu skalt sk&#x00E4;ra, ty s&#x00E4;dhen p&#x00E5; iordenne &#x00E4;r torr worden. Och han som satt p&#x00E5; skyyn, h&#x00F6;gg til medh sin liya p&#x00E5; iordena, och iorden wardt affskoren.</para><para/><para>&#x009;Och en annar &#x00C4;ngel kom vthu Templet som j himmelen &#x00E4;r, then ock en hwass liya hadhe. Och en annar &#x00C4;ngel kom vthu Altaret, then macht hadhe offuer eelden. Och ropadhe medh h&#x00F6;gha r&#x00F6;st til honom som hadhe then hwassa liyan, och sadhe, Hugg til medh tin hwassa liya, och sk&#x00E4;&#x00E4;r vp wijnquistanar p&#x00E5; iordenne, Ty hennes wijnb&#x00E4;r &#x00E4;ro moghen. Och &#x00C4;ngelen h&#x00F6;gg til medh sin skarpa liya p&#x00E5; iordena, och skaar vp wijng&#x00E5;rdanar p&#x00E5; iordenne, och kastadhe them vthi Gudz wredhes stora press. Och wardt pressen trampat vthan stadhen, och blodhet gick vth aff pressen, alt in til betzlen p&#x00E5; hestanar, vthoffuer tusende sexhundrat stadier w&#x00E4;gs.</para><para/><para>&#x009;&#x009;XV. Capitel.</para><para/><para>Och iagh s&#x00E5;gh itt annat tekn j himmelen, stoort och vnderlighit, Siw &#x00C4;nglar som hadhe siw the yttersta pl&#x00E5;ghor, Ty medh them &#x00E4;r fulkompnat Gudz wredhe. Och iagh s&#x00E5;gh s&#x00E5;som itt glaszhaaff beblandat medh eeld, och them st&#x00E5; p&#x00E5; samma glaszhaaff, som segher wunnet hadhe p&#x00E5; Wildiwret och thes belete, och wedhertekn, och p&#x00E5; thes nampns taal, Och the hadhe Gudz harpor, och sungo Mosi Gudz tienares song, och Lambsens song, s&#x00E4;yandes, Stoor och vnderligh &#x00E4;ro tijn werck, <inline small-caps="true">Herre</inline> Gudh alzwolligh retferdighe och sanne &#x00E4;ro tine w&#x00E4;ghar, tu helghonens Konung. Hoo skulle icke</para><para/><para>#795</para><para>fruchta och prijsa titt nampn, <inline small-caps="true">Herre</inline>? Ty tu &#x00E4;st allena heligh, och alle Hedhningar skola komma och tilbidhia j tijn &#x00E5;syyn, Ty tine domar &#x00E4;ro vppenbare wordne.</para><para/><para>&#x009;Sedhan s&#x00E5;gh iagh, och sij, Witnesbyrdzens Tabernakels Tempel wardt &#x00F6;pnat j himmelen, och gingo ther vth aff Templet the siw &#x00C4;nglar som the siw pl&#x00E5;ghor hadhe, kl&#x00E4;dde vthi reen, hwijt lijnkl&#x00E4;dher, och vmgiordadhe kring om br&#x00F6;stet medh gyllene belte. Och itt aff the fyra diwren, gaff the siw &#x00C4;nglar siw gyllene sk&#x00E5;lar, fulla medh Gudz wredhe, then ther leffuer aff ewigheet til ewigheet. Och Templet wardt vpfylt medh r&#x00F6;&#x00F6;k aff Gudz herligheet, och aff hans krafft, och ingen kunde g&#x00E5; in j Templet, til tess the siw pl&#x00E5;ghor, som the siw &#x00C4;nglar hadhe, fulkompnadhe wordo.</para><para/><para>&#x009;&#x009;XVI. Capitel.</para><para/><para>Och iagh h&#x00F6;rde ena stora r&#x00F6;st vthu Templet, Then sadhe til the siw &#x00C4;nglar, G&#x00E5;&#x00E5;r, och vthgiwter the Gudz wredhes sk&#x00E5;lar p&#x00E5; iordena.</para><para/><para>&#x009;Och then f&#x00F6;rste &#x00C4;ngelen gick &#x00E5;stadh, och g&#x00F6;&#x00F6;t sina sk&#x00E5;&#x00E5;l</para><para/><para>#796</para><para>vth p&#x00E5; iordena, och thet wardt itt ondt och skadhelighit s&#x00E5;&#x00E5;r p&#x00E5; menniskiomen, the som Wildiwrsens wedhertekn hadhe, och p&#x00E5; them som tilb&#x00E5;dho thes belete.</para><para/><para>&#x009;Och then andre &#x00C4;ngelen g&#x00F6;&#x00F6;t vth sina sk&#x00E5;&#x00E5;l j haffuet. Och thet wardt s&#x00E5;som eens d&#x00F6;dz manz blodh, och alt thet lijff hadhe j haffuet, bleff d&#x00F6;dt.</para><para/><para>&#x009;Och then tridie &#x00C4;ngelen g&#x00F6;&#x00F6;t vth sina sk&#x00E5;&#x00E5;l j elffuenar, och j watukellonar, och thet wardt blodh. Och iagh h&#x00F6;rde en &#x00C4;ngel s&#x00E4;ya, Retferdigh &#x00E4;stu <inline small-caps="true">Herre</inline>, som &#x00E4;st, och warit haffuer, och heligh, at tu thetta d&#x00F6;mdt haffuer. Ty the haffua vthgutit helghonens och Propheternars blodh, och blodh haffuer tu ock giffuit them dricka, Ty the &#x00E4;ro thes werde. Och iagh h&#x00F6;rde en annan &#x00C4;ngel s&#x00E4;ya, Ja <inline small-caps="true">Herre</inline> Gudh alzwolligh, sanne och rette &#x00E4;ro tine domar.</para><para/><para>&#x009;Och then fierde &#x00C4;ngelen g&#x00F6;&#x00F6;t vth sina sk&#x00E5;&#x00E5;l j solena, och honom wardt giffuit at pl&#x00E5;gha menniskionar medh heta aff eeld. Och menniskionar wordo brinnande vthi stoor heta, Och the h&#x00E4;dde Gudz nampn som machtena hadhe offuer thenna pl&#x00E5;ghor, och giorde inga syndab&#x00E4;tring, at the m&#x00E5;tte giffuit honom &#x00E4;ro.</para><para/><para>&#x009;Och then femte &#x00C4;ngelen g&#x00F6;&#x00F6;t vth sina sk&#x00E5;&#x00E5;l p&#x00E5; Wildiwrsens stool, och thes Rike wardt f&#x00F6;rm&#x00F6;rkrat, och the s&#x00F6;nderbitto sina tungor f&#x00F6;r werck skul, och h&#x00E4;dde Gudh j himmelen f&#x00F6;r sin werck och sijn s&#x00E5;&#x00E5;r skul, och b&#x00E4;tradhe sigh intet aff sina gerningar.</para><para/><para>&#x009;Och then siette &#x00C4;ngelen g&#x00F6;&#x00F6;t vth sina sk&#x00E5;&#x00E5;l, p&#x00E5; then stora</para><para/><para>#797</para><para>elffuena Euphraten, Och watnet borttorkadhes, P&#x00E5; thet w&#x00E4;ghen skulle beredhas f&#x00F6;r the Konungar &#x00F6;stan effter. Och iagh s&#x00E5;gh vthu Drakans munn, och vthu Wildiwrsens munn, och vthu then falska Prophetens munn, vthg&#x00E5; tree orena andar s&#x00E5;som paddor. Och thet &#x00E4;ro dieffuulsens andar, som tekn g&#x00F6;ra, och vthg&#x00E5; til Konunganar p&#x00E5; hela iordenne, at f&#x00F6;rsamla them til strijdz, p&#x00E5; then stora alzwolligha Gudz dagh. Sij, iagh kommer som tiuffuen pl&#x00E4;ghar komma, Saligh &#x00E4;r then som wakar och f&#x00F6;rwarar sijn kl&#x00E4;dher, at han icke g&#x00E5;&#x00E5;r naken, och the f&#x00E5; see hans skam. Och han f&#x00F6;rsamladhe them p&#x00E5; itt rwm, thet heter p&#x00E5; Ebreisko Harmagedon.</para><para/><para>&#x009;Och then siwnde &#x00C4;ngelen g&#x00F6;&#x00F6;t vth sina sk&#x00E5;&#x00E5;l j w&#x00E4;dhret, och gick een stoor r&#x00F6;st vthaff himmelen jfr&#x00E5; stolen, som sadhe, Thet &#x00E4;r giordt. Och thet wardt liungeeld, och r&#x00F6;ster, och tord&#x00F6;n, och stoor iordb&#x00E4;ffuing, s&#x00E5;dana at thes lijke icke warit hadhe, sedhan menniskionar p&#x00E5; iordenne warit hadhe, s&#x00E5;dana iordb&#x00E4;ffuing, s&#x00E5; stoor. Och then store stadhen wardt j tree delar, och Hedhninganars st&#x00E4;dher f&#x00F6;llo. Och then stora Babylon kom j &#x00E5;minnelse f&#x00F6;r Gudhi, at han wille giffua honom kalken aff sinne grymma wredhes wijn. Och alla &#x00F6;yar flydde, och berghen funnos intet. Och stoort haghel s&#x00E5;som en Centener, kom nedher aff himmelen p&#x00E5; menniskionar. Och menniskionar h&#x00E4;dde Gudh, f&#x00F6;r then stora pl&#x00E5;gho aff haglet, Ty thes pl&#x00E5;gha war ganska stoor.</para><para/><para>#798</para><para/><para>&#x009;&#x009;XVII. Capitel.</para><para/><para>Och kom en aff the siw &#x00C4;nglar som hadhe the siw sk&#x00E5;lar, och taladhe medh migh, och sadhe til migh, Kom, iagh wil wisa tigh then stora sk&#x00F6;kionnes f&#x00F6;rd&#x00F6;melse, som sitter p&#x00E5; mykin watn, medh hwilka Konunganar p&#x00E5; iordenne bolat haffua, och the ther p&#x00E5; iordenne boo, &#x00E4;ro druckne wordne aff hennes bolerijs wijn. Och han f&#x00F6;rde migh j Andanom vthi &#x00F6;knena. Och iagh s&#x00E5;gh quinnona sittia p&#x00E5; itt rosenfergho Wildiwr, thet war fult medh h&#x00E4;dhelse nampn, och hadhe siw hoffuudh och tiyo horn. Och quinnan war kl&#x00E4;dd medh purpur och rosenfergho, och offuergylt medh gull och &#x00E4;dhla stenar, och perlor, och hadhe en gyllene kalk j sinne hand, full medh styggelse, och sins bolerijs oreenligheet. Och p&#x00E5; hennes anlete scriffuit thet nampn, Hemligheet, then stora Babylon, modhren til bolerij och til styggelse p&#x00E5; iordenne. Och iagh s&#x00E5;gh quinnona drukna aff helghonens blodh, och aff theras blodh som Jesu witne woro. Och iagh f&#x00F6;rundradhe migh stoorligha t&#x00E5; iagh s&#x00E5;gh henne.</para><para/><para>&#x009;Och &#x00C4;ngelen sadhe til migh, Hwj f&#x00F6;rundrar tu tigh?</para><para/><para>#799</para><para>Jagh wil s&#x00E4;ya tigh hemligheten om thenna quinnona, och om Wildiwret som b&#x00E4;&#x00E4;r henne, och haffuer siw hoffuudh och tiyo horn. Wildiwret som tu haffuer seedt, haffuer warit, och &#x00E4;r icke, och thet skal &#x00E5;ter vpkomma vthaff affgrunden, och skal g&#x00E5; vthi f&#x00F6;rd&#x00F6;melse, Och the som p&#x00E5; iordenne boo, skola f&#x00F6;rundra sigh, hwilkas nampn icke scriffuen &#x00E4;ro j lijffzens book jfr&#x00E5; werldennes begynnelse, t&#x00E5; the see Wildiwret som haffuer warit, och icke &#x00E4;r, &#x00E4;ndoch thet &#x00E4;r. Och h&#x00E4;r &#x00E4;r sinnet, ther wijsdom tilh&#x00F6;rer.</para><para/><para>&#x009;The siw hoffuudh &#x00E4;ro siw bergh, ther quinnan sitter vpp&#x00E5;, och thet &#x00E4;ro siw Konungar. Fem &#x00E4;ro falne, en &#x00E4;r, och then andre &#x00E4;r icke &#x00E4;n nu kommen, Och n&#x00E4;r han kommer, skal han icke lenge bliffua. Och Wildiwret som haffuer warit, och icke &#x00E4;r, then &#x00E4;r then ottonde, och han &#x00E4;r vthaff the siw, och han g&#x00E5;&#x00E5;r vthi f&#x00F6;rd&#x00F6;melse. Och the tiyo horn som tu seedt haffuer, &#x00E4;ro tiyo Konungar, som &#x00E4;n nu icke haffua f&#x00E5;&#x00E5;t Rike, vthan skola s&#x00E5;som Konungar p&#x00E5; een stund f&#x00E5; macht medh Wildiwret. Thenne haffua alle itt r&#x00E5;dh, och skola giffua Wildiwrena sina macht och krafft. The skola strijdha medh Lambena, och Lambet skal winna them, Ty thet &#x00E4;r en Herre offuer alla Herrar, <inline italics="true">o</inline>ch en Konung offuer alla Konungar, och medh thy &#x00E4;ro the vthkalladhe, och vthkoradhe och troghne.</para><para/><para>&#x009;Och han sadhe til migh, Watnet som tu s&#x00E5;gh, ther sk&#x00F6;kian sitter p&#x00E5;, &#x00E4;r folck och skarar, och Hedhningar, och tungom&#x00E5;l. Och the tiyo horn som tu seedt haffuer p&#x00E5; Wildiwret, skola</para><para/><para>#800</para><para>hata sk&#x00F6;kiona, och leggia henne &#x00F6;dhe och naken, och the skola vp&#x00E4;ta hennes k&#x00F6;tt, och brenna henne vp j eeld, Ty Gudh haffuer giffuit them j hiertat, at the skola g&#x00F6;ra thet honom behagar, och g&#x00F6;ra alle ena mening, at the skulle giffua Wildiwrena Riket, til tess Gudz ord warda fulkompnat. Och quinnan som tu seedt haffuer, &#x00E4;r then stora stadhen, som Rike haffuer offuer iordennes Konungar.</para><para/><para>&#x009;&#x009;XVIII. Capitel</para><para/></paragraph-definition><paragraph-definition name="Anfangsabsatz" style-number="s0006" tabs="left:177.20;left:216.00;" adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"><para><inline font-style="Times">O</inline><inline font-style="Times">ch sedhan s&#x00E5;gh iagh en annan &#x00C4;ngel komma nedher aff himmelen, then stora macht hadhe, och iorden wardt vplyst aff hans klarheet. Och han ropadhe medh macht och h&#x00F6;gha r&#x00F6;st, s&#x00E4;yandes, Fallen, Fallen &#x00E4;r then stora Babylon, och &#x00E4;r worden dieffla boning, och alla orena Andars beh&#x00E5;ll, och alla orena och ohyggeligha foglars beh&#x00E5;ll, Ty alle Hedhningar haffua drucket aff wredhennes wijn hennes bolerijs, och Konunganar p&#x00E5; iordenne, haffua bolat medh henne, och k&#x00F6;pm&#x00E4;nnenar p&#x00E5; iordenne, &#x00E4;ro rijke wordne aff hennes stora wellust.</inline></para><para/></paragraph-definition><paragraph-definition name="Absatzanfang" style-number="s0005" tabs="left:35.45;" adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Danish" left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00" widow-control="true"><para>&#x009;Och iagh h&#x00F6;rde ena andra r&#x00F6;st aff himmelen, som sadhe J mitt folck, g&#x00E5;&#x00E5;r vth jfr&#x00E5; henne, at j icke deelachtighe warden j hennes synder, och at j icke f&#x00E5;&#x00E5;n n&#x00E5;ghot aff hennes pl&#x00E5;ghor, Ty hennes synder reckia alt vp j himmelen, Och Herren</para><para/><para>#801</para><para>haffuer draghet til minnes hennes oretferdigheter. Betaler henne, s&#x00E5;som hon haffuer betalat idher, och g&#x00F6;rer henne dobbelt effter hennes gerningar. Och medh samma kalk som hon haffuer skenckt idher, skencker henne dobbelt. S&#x00E5; mykit hon sigh haffuer herligha h&#x00E5;llet och j wellust warit, s&#x00E5; mykit skencker henne pino och gr&#x00E5;&#x00E5;t. Ty hon s&#x00E4;gher j sitt hierta, Jagh sitter, och &#x00E4;r een Drotning och icke &#x00E4;nkia, och haffuer ingen sorgh. Therf&#x00F6;re skola hennes pl&#x00E5;ghor komma p&#x00E5; en dagh, d&#x00F6;dh, gr&#x00E5;&#x00E5;t och hunger, och hon skal warda vpbrend j eeld, Ty Herren Gudh &#x00E4;r starck, som henne d&#x00F6;ma skal.</para><para/><para>&#x009;Och iordennes Konungar skola gr&#x00E5;ta henne, och beklagha sigh offuer henne, the som medh henne bolat, och j wellust leffuat haffua, t&#x00E5; the f&#x00E5; see r&#x00F6;ken aff hennes brand, Och skola st&#x00E5; longt jfr&#x00E5; f&#x00F6;r hennes pl&#x00E5;ghos redhogha skul, och s&#x00E4;ya, Wee, wee then stora stadhen Babylon, then starcka stadhen, Ty vthi een stund &#x00E4;r tin doom kommen. Och k&#x00F6;pm&#x00E4;nnenar</para><para/><para>#802</para><para>p&#x00E5; iordenne skola gr&#x00E5;ta och s&#x00F6;rya widh sigh sielffua, at ingen k&#x00F6;per theras waror meer, gull och silffuer, och &#x00E4;dhla stenar, och perlor och silke, och purpur och skarlakan, och alt Thynen tr&#x00E4;&#x00E4;, och all k&#x00E4;rill aff Elpenbeen, och all k&#x00E4;rill aff kostelighit tr&#x00E4;&#x00E4;, och aff koppar, och jern, och marmor, och kaneel, och timian, och saluo, och r&#x00F6;kelse, och wijn, och olio, och semlor, och hwete, och booskap, och f&#x00E5;&#x00E5;r, och hestar, och wagnar och kroppar och menniskiors si&#x00E4;lar.</para><para/><para>&#x009;Och the &#x00E4;ple som tijn si&#x00E4;l beg&#x00E4;rar, &#x00E4;ro bortkomen jfr&#x00E5; tigh, och alt thet fett och herlighit war, &#x00E4;r f&#x00F6;rg&#x00E5;nget jfr&#x00E5; tigh, och tu skalt icke nu finnat h&#x00E4;r effter. K&#x00F6;pm&#x00E4;nnenar som s&#x00E5;dana waror pl&#x00E4;gha haffua, och &#x00E4;ro rijke wordne aff honom, skola st&#x00E5; longt jfr&#x00E5; f&#x00F6;r reddhogha skul aff hans pl&#x00E5;gho, gr&#x00E5;ta och s&#x00F6;rya, och s&#x00E4;ya, Wee, wee then stora stadhen, som medh silke och purpur, och skarlakan bekl&#x00E4;dd war, och offuergylt war medh gull och &#x00E4;dhla stenar och perlor, Ty vthi eenne stund &#x00E4;ro f&#x00F6;r&#x00F6;dde s&#x00E5;dana rijkedomar.</para><para/><para>&#x009;Och alle Skepare, och alle the som p&#x00E5; skepen wistas, och si&#x00F6;m&#x00E4;n, och the som til si&#x00F6;&#x00F6;s handla, stodho longt jfr&#x00E5;, och ropadhe t&#x00E5; the s&#x00E5;gho r&#x00F6;ken aff hans brand, s&#x00E4;yandes, Hwar &#x00E4;r thens stora stadzens lijke? Och the kastadhe mull p&#x00E5; sijn hoffuudh, och ropadhe gr&#x00E5;tandes och s&#x00F6;ryandes, och sadhe, Wee, wee then stora stadhen j hwilkom alle &#x00E4;ro rijke wordne, som j haffuet haffua hafft sijn skep aff hans waror, Ty vthi een stund &#x00E4;r han &#x00F6;dhe worden.</para><para/><para>#803</para><para>&#x009;Fr&#x00F6;gda tigh offuer honom himmel, och j helghe Apostlar och Propheter, Ty Gudh haffuer d&#x00F6;mdt idhar doom p&#x00E5; honom. Och en starck &#x00C4;ngel toogh vp en stoor steen som en quernsteen, och kastadhe j haffuet, och sadhe, Medh s&#x00E5;dana hastigheet skal f&#x00F6;rkastat warda then store stadhen Babylon, och han skal icke nu meer warda funnen. Och harparers r&#x00F6;st, och songarers, och piparers, och basunarers r&#x00F6;st skal icke meer h&#x00F6;rd warda j tigh, och alle handwercks m&#x00E4;n ehwadh handwerck thet &#x00E4;r, skola icke meer warda fundne j tigh. Och quernar&#x00F6;st skal icke meer h&#x00F6;ras j tigh, och liws p&#x00E5; liwsastaka skal icke meer lysa j tigh, och Brudgummas och Brudz r&#x00F6;st skal icke meer h&#x00F6;rd warda j tigh. Ty tine k&#x00F6;pm&#x00E4;n woro F&#x00F6;rstar p&#x00E5; iordenne, Ty j tinom truldom haffua alle Hedningar wille farit, och j honom wardt funnen Propheternars och Helghonens blodh, och allas theras som dr&#x00E4;pne &#x00E4;ro p&#x00E5; iordenne.</para><para/><para>&#x009;&#x009;XIX. Capitel.</para><para/><para>Sedhan h&#x00F6;rde iagh s&#x00E5;som een stoor r&#x00F6;st, aff en stoor skara j himmelen, som sadhe, Haleluia. Saligheet och prijs, &#x00E4;ra och krafft ware Gudhi w&#x00E5;rom Herra, Ty hans domar &#x00E4;ro sanne och rette, Ty han haffuer d&#x00F6;mdt om then stora sk&#x00F6;kion, then medh sitt bolerij haffuer f&#x00F6;rderffuat iordena, och haffuer hempnat sina tienares blodh vthu hennes hand. Och &#x00E5;ter</para><para/><para>#804</para><para>sadhe the Haleluia. Och r&#x00F6;ken gick vp aff ewigheet til ewigheet. Och the fyre och tiwghu &#x00C4;ldste och the fyra diwr, f&#x00F6;llo nedher och tilb&#x00E5;dho Gudh som satt p&#x00E5; stolen, och sadhe, Amen, Haleluia. Och een r&#x00F6;st gick aff stolen, och sadhe, Loffuer w&#x00E5;r Gudh, j alle hans tienare, och j som fruchten honom, b&#x00E5;dhe sm&#x00E5; och store.</para><para/><para>&#x009;Och iagh h&#x00F6;rde ena r&#x00F6;st aff en stoor skara, och s&#x00E5;som een r&#x00F6;st aff mykit watn, och s&#x00E5;som een r&#x00F6;st aff stoor tord&#x00F6;n, s&#x00E4;ya, Haleluia, Ty w&#x00E5;r <inline small-caps="true">Herre</inline> Alzmechtigh Gudh haffuer intaghet Riket. L&#x00E4;t oss gl&#x00E4;dhias och fr&#x00F6;gdas, och giffua honom &#x00E4;ro, Ty Lambsens br&#x00F6;llop &#x00E4;r kommet, och thes hustru haffuer sigh tilreedt. Och henne wardt giffuit at kl&#x00E4;dha sigh vthi reent och skinande silke (Men silket &#x00E4;r Helghonens retferdigheet) Och han sadhe til migh, Scriff, Salighe &#x00E4;ro the som kalladhe &#x00E4;ro til Lambsens natward. Och han sadhe til migh, Thenna &#x00E4;ro sann Gudz ord. Och iagh f&#x00F6;ll f&#x00F6;r hans f&#x00F6;tter, at tilbidhia honom, Och han sadhe til migh, See til at tu thet icke g&#x00F6;r, Ty iagh &#x00E4;r tin och tina br&#x00F6;dhers medtienare, som Jesu witnesbyrd</para><para/><para>#805</para><para>haffua, Tilbedh Gudh (Ty Jesu witnesbyrd &#x00E4;r Propheties Ande)</para><para/><para>&#x009;Och iagh s&#x00E5;gh himmelen &#x00F6;pen, och sij, En hwijt hest, och then som satt p&#x00E5; honom, han heet Trofast och Sanferdigh, och han d&#x00F6;mer och strijdher medh retferdigheet. Och hans &#x00F6;ghon s&#x00E5;som eeldzloghe, och p&#x00E5; hans hoffuudh monga kronor, och hadhe itt nampn scriffuit thet ingen kende, vthan han sielffuer. Och han war kl&#x00E4;dd j itt kl&#x00E4;dhe, som med blodh bestenckt war, och hans nampn heter, Gudz ord. Och honom effterfolgde then h&#x00E4;&#x00E4;r som j himmelen &#x00E4;r, medh hwijta hestar, kl&#x00E4;dde vthi hwitt och reent silke. Och vthu hans munn vthgick itt skarpt twe&#x00E4;ggiat swerd, at han ther medh skal sl&#x00E5; Hedhninganar, Och han skal regera them medh jernrijsz. Och han trampar Alzmechtigh Gudz grymma wredhes press, och han haffuer p&#x00E5; sijn kl&#x00E4;dher och p&#x00E5; sina lend itt nampn, scriffuit alts&#x00E5;, Konung offuer alla Konungar, och Herre offuer alla Herrar.</para><para/><para>&#x009;Och iagh s&#x00E5;gh en &#x00C4;ngel st&#x00E5; j solenne, och han ropadhe medh h&#x00F6;gha r&#x00F6;st, och sadhe til alla foglar som flugho vnder himmelen, Kommer, och f&#x00F6;rsamlens til then stora Gudz natward, at j skolen &#x00E4;ta Konunganars k&#x00F6;tt, och H&#x00F6;ffuitzm&#x00E4;nnenars k&#x00F6;tt, och the starckas k&#x00F6;tt, och hestars k&#x00F6;tt, och theras k&#x00F6;tt som sittia p&#x00E5; them, och allas theras k&#x00F6;tt som frij och eghne &#x00E4;ro, och b&#x00E5;dhe sm&#x00E5; och storas k&#x00F6;tt.</para><para/><para>#806</para><para>&#x009;Och iagh s&#x00E5;gh Wildiwret, och iordennes Konungar och theras h&#x00E4;rar f&#x00F6;rsamladha, til at h&#x00E5;lla ena strijdh medh honom som satt p&#x00E5; hesten, och medh hans h&#x00E4;&#x00E4;r. Och Wildiwret wardt fonget, och medh thy then falske Propheten som tekn giorde f&#x00F6;r thy, medh hwilko han bedroogh them, som togho Wildiwrsens wedhertekn, och them som tilb&#x00E5;dho thes belete. Thenne tw&#x00E5; wordo leffuande kastadhe vthi en brinnande si&#x00F6;, som brann medh swaffuel. Och the andre wordo dr&#x00E4;pne medh hans swerd, som satt p&#x00E5; hesten, thet vthu hans munn gick, Och alle foglar wordo m&#x00E4;ttadhe aff theras k&#x00F6;tt.</para><para/><para>&#x009;&#x009;XX. Capitel.</para><para/><para>Och iagh s&#x00E5;gh en &#x00C4;ngel nedherkomma aff himmelen, han hadhe nykelen til affgrunden, och ena stora k&#x00E4;dhio j sinne hand. Och han greep Drakan then gamla Ormen, som &#x00E4;r Dieffuulen och Satan, och bandt honom j tusende &#x00E5;&#x00E5;r, och kastadhe honom vthi affgrunden, och l&#x00E4;t &#x00E5;ter om honom, och besiglde ther offuan vpp&#x00E5;, at han icke meer bedragha skulle Hedhninganar, til tess fulkompnat wordo tusende &#x00E5;&#x00E5;r, och sedhan moste han l&#x00F6;&#x00F6;s warda til n&#x00E5;ghon liten tijdh.</para><para/><para>&#x009;Och iagh s&#x00E5;gh stolar, och the s&#x00E5;to p&#x00E5; them, och them wardt giffuin doom, och theras si&#x00E4;lar som halszhugne woro f&#x00F6;r Jesu witnesbyrd, och f&#x00F6;r Gudz ord skul. Och the ther icke tilb&#x00E5;dho Wildiwret eller thes belete, Ey heller togho thes wedhertekn p&#x00E5; sijn anlete, eller j sina hender, och the leffde och regneradhe medh Christo j tusende &#x00E5;&#x00E5;r. Men</para><para/><para>#807</para><para>the andre d&#x00F6;dhe fingo icke lijff igen, til tess tusende &#x00E5;&#x00E5;r fulkompnat wordo. Thenna &#x00E4;r then f&#x00F6;rsta vpst&#x00E5;ndelsen.</para><para/><para>&#x009;Saligh och heligh &#x00E4;r then som deel haffuer vthi f&#x00F6;rsta vpst&#x00E5;ndelsen, offuer them haffuer then andre d&#x00F6;dhen ingen macht, vthan the warda Gudz och Christi Prester, och skola regnera medh honom j tusende &#x00E5;&#x00E5;r. Och t&#x00E5; tusende &#x00E5;&#x00E5;r fulkompnat &#x00E4;ro, warder Satanas l&#x00F6;&#x00F6;s vthu sijn f&#x00E4;ngelse, och skal vthg&#x00E5; til at bedragha Hedhninganar, som &#x00E4;ro p&#x00E5; fyra iordennes parter, Gog och Magog, P&#x00E5; thet han skal f&#x00F6;rsamla them j strijdh, hwilkas taal &#x00E4;r s&#x00E5;som sanden j haffuet. Och the g&#x00E5;ffuo sigh vpp&#x00E5; iordennes breedheet, och kringhwerffde Helghonens l&#x00E4;ghre, och then elskeligha stadhen. Och nedher aff himmelen f&#x00F6;ll eeld aff Gudhi, och f&#x00F6;rt&#x00E4;rde them. Och dieffuulen som them bedraghet hadhe, wardt kastat vthi then brinnande si&#x00F6;n och swafflet, ther b&#x00E5;dhe Wildiwret och then falske Propheten, skola pl&#x00E5;ghas dagh och natt, jfr&#x00E5; ewigheet til ewigheet.</para><para/><para>&#x009;Och iagh s&#x00E5;gh en stoor hwijt stool, och en sittia p&#x00E5; honom,</para><para/><para>#808</para><para>f&#x00F6;r huilkens ansichte flydde iord och himmel, och them wardt intet rwm funnet. Och iagh s&#x00E5;gh the d&#x00F6;dha stora och sm&#x00E5;, st&#x00E5; j Gudz &#x00E5;syyn, och b&#x00F6;kerna wordo vpl&#x00E4;tne. Och een annor book wardt vpl&#x00E4;ten, som &#x00E4;r lijffzens. Och the d&#x00F6;dhe wordo d&#x00F6;mde, effter som scriffuit war j b&#x00F6;kerna, effter theras gerningar. Och haffuet gaff igen the d&#x00F6;dha, som ther vthi woro, och d&#x00F6;dhen och heluetet g&#x00E5;ffuo igen the d&#x00F6;dha, som vthi them woro, och thet bleff d&#x00F6;mdt om hwar och en effter theras gerningar. Och heluetet och d&#x00F6;dhen wordo kastadhe vthi then brinnande si&#x00F6;n. Thenne &#x00E4;r then andre d&#x00F6;dhen. Och then ther icke wardt funnen scriffuen j lijffzens book, han wardt kastat j then brinnande si&#x00F6;n.</para><para/><para>&#x009;&#x009;XXI. Capitel.</para><para/><para>Och iagh s&#x00E5;gh en ny himmel och een ny iord, Ty then f&#x00F6;rsta himmelen och then f&#x00F6;rsta iorden f&#x00F6;rgingos, och haffuet &#x00E4;r icke meer. Och iagh Johannes s&#x00E5;gh then helgha stadhen, thet nyia Jerusalem nedherkomma aff himmelen, jfr&#x00E5; Gudhi, tilreedd, s&#x00E5;som een prydd Brudh til sin man. Och iagh h&#x00F6;rde ena stora r&#x00F6;st aff stolen s&#x00E4;ya, Sij, Gudz Tabernakel jbland menniskionar, och han skal boo medh them, och the skola wara hans folck, och sielffuer Gudh medh them, skal wara theras Gudh. Och Gudh skal afftorka alla t&#x00E5;rar aff theras &#x00F6;ghon, och ingen d&#x00F6;dh skal sedhan wara, icke heller</para><para/><para>#809</para><para>gr&#x00E5;&#x00E5;t, icke heller roop, icke heller n&#x00E5;ghon werck warder meer. Ty thet f&#x00F6;rsta &#x00E4;r f&#x00F6;rg&#x00E5;nget. Och then ther satt p&#x00E5; stolen, sadhe, Sij, iagh g&#x00F6;r all ting ny. Och han sadhe til migh, Scriff, Ty thenna ord &#x00E4;ro wiss och sann.</para><para/><para>&#x009;Och han sadhe til migh, Thet &#x00E4;r giordt. Jagh &#x00E4;r A och O, begynnelsen och enden, Jagh skal giffua honom som t&#x00F6;rster aff leffuande watnens kello f&#x00F6;rgeffues. Then som winner, han skal alt thetta f&#x00E5; &#x00E4;gha, och iagh skal wara honom hans Gud, och han skal wara min son. Men them reddom, och otroghnom, och gruffuelighom, och mandr&#x00E5;parom, och bolarom, och trulkarlom, och affgudhadyrkarom, och allom l&#x00F6;gnachtighom, theras deel skal wara vthi then si&#x00F6;n som brinner med eeld och swaffuel, Huilket &#x00E4;r then andre d&#x00F6;dhen.</para><para/><para>&#x009;Och til migh kom en aff the siw &#x00C4;nglar, som hadhe siw sk&#x00E5;lar fulla medh the siw ytersta pl&#x00E5;ghor, och han taladhe medh migh, och sadhe, Kom, och iagh wil wisa tigh Brudhena Lambsens hustru. Och han f&#x00F6;rde migh j andanom p&#x00E5; itt</para><para/><para>#810</para><para>stoort och h&#x00F6;gt bergh, och wijste migh then stora stadhen thet helgha Jerusalem, nedherkomma aff himmelen jfr&#x00E5; Gudh, och hadhe Gudz herligheet. Och hans liws war lijka som then alra&#x00E4;dhlasta stenen, en klar Jaspis. Och han hadhe en stoor och h&#x00F6;gh mwr, then ther tolff portar hadhe, och j portanar tolff &#x00C4;nglar, och inscriffuen nampn, hwilken &#x00E4;ro the tolff Jsraels s&#x00F6;ners slechters nampn. &#x00D6;stan til tree portar, Nordan til tree portar, Sunnan til tree portar, Westan til tree portar. Och stadzmuren hadhe tolff grundwalar, och j them the tolff Lambsens Apostlars nampn.</para><para/><para>&#x009;Och then som taladhe medh migh, hadhe ena gyllene r&#x00F6;&#x00F6;, ther han medh m&#x00E4;la skulle stadhen och hans portar, och hans mwr. Och stadhen ligger fyrkant, Och hans lengd &#x00E4;r s&#x00E5; stoor som breedden. Och han m&#x00E4;lte stadhen medh gyllene r&#x00F6;&#x00F6;n, tolff tusend stadier. Och hans lengd och breedd och h&#x00F6;gd &#x00E4;ro lijka. Och han m&#x00E4;lte hans mwr hundhradhe fyra och fyratiyo alnar, effter eens menniskios m&#x00E5;tt som &#x00C4;ngelen hadhe. Och hans mwrs bygning war aff Jaspis, men sielffue stadhen aff klart gull, lijk widh reent glasz. Och stadzmwrens grundwalar woro prydde medh all dyrbar steen. F&#x00F6;rsta grundwalen war en Jaspis, Then andre en Saphir, Then tridie en Calcedonier, Then fierde en Smaragd, Then femte en Sardonyx, Then siette en Sardis, Then siwnde en</para><para/><para>#811</para><para>Chrysolit, Then ottonde en Berill, Then niyonde en Topazier, Then tiyonde en Chrysoprass, Then elloffte en Hyacinth, Then tolffte en Amethist.</para><para/><para>&#x009;Och the tolff portar, woro tolff perlor, hwar f&#x00F6;r sigh, Och hwar port war aff eenne perlo, och stadzens gator woro klart gull, s&#x00E5;som genomskinande glasz. Och iagh s&#x00E5;gh ther intet Tempel vthi, Ty Herren alzwolligh Gudh &#x00E4;r Templet ther vthi, och Lambet. Och stadhen beh&#x00F6;ffuer icke sool eller m&#x00E5;na, at the skola lysa ther vthi, Ty Gudz herligheet vplyser honom, och hans liws &#x00E4;r Lambet. Och Hedhninganar som salighe warda, skola wandra j hans liws, och Konunganar p&#x00E5; iordenne skola f&#x00F6;ra sina herligheet in vthi honom. Och hans portar l&#x00E4;tas intet til om daghen, Ty ther warder ingen natt.  Ther skal intet inkomma som besmittelighit &#x00E4;r, eller thet styggelse g&#x00F6;r och l&#x00F6;gn, Vthan the som scriffne &#x00E4;ro j Lambsens leffuande book.</para><para/><para>&#x009;&#x009;XXII. Capitel.</para><para/><para>Och han wijste migh ena klara elff medh leffuande watn, klaar som Crystall, then gick jfr&#x00E5; Gudz stool och Lambsens, mitt vpp&#x00E5; hans gator. Och p&#x00E5; b&#x00E5;dha sidhor widh elffuena stoodh lijffzens tr&#x00E4;&#x00E4;, b&#x00E4;randes tolff f&#x00E5;ll frucht, och baar sina frucht alla m&#x00E5;nadher, Och l&#x00F6;ffuen aff tr&#x00E4;dh tiente til Hedhninganars helbregdo. Och intet f&#x00F6;rbannat skal wara meer,</para><para/><para>#812</para><para>vthan Gudz och Lambsens stool, skal bliffua ther vthi, och hans tienare skola honom tiena, och the skola see hans ansichte, och hans nampn skal wara p&#x00E5; theras anlete. Och natt bliffuer icke meer, och the beh&#x00F6;ffua icke liws, icke heller solennes liws, Ty Herren Gudh vplyser them, och the skola regnera jfr&#x00E5; ewigheet til ewigheet.</para><para/><para>&#x009;Och han sadhe til migh, Thenna ord &#x00E4;ro wiss och sann, Och Gudh the helgha Propheters Herre sende sin &#x00C4;ngel, at wijsa sina tienare hwadh skee skal innan kortt tijdh, Och sij, iagh kommer snarligha. Saligh &#x00E4;r then som h&#x00E5;ller Prophetiennes ord j thesso book. Och iagh &#x00E4;r Johannes som h&#x00F6;rde och s&#x00E5;gh thetta. Och sedhan iagh hadhe thet h&#x00F6;rdt och seedt, f&#x00F6;ll iagh nedh at tilbidhia f&#x00F6;r &#x00C4;ngelens f&#x00F6;tter, som migh thetta wijste. Och han sadhe til migh, See til at tu g&#x00F6;r thet icke, Ty iagh &#x00E4;r tin medhtienare och tina br&#x00F6;dhers Propheternars, och theras som h&#x00E5;lla thenna books ord, Tilbedh Gudh.</para><para/><para>&#x009;Och han sadhe til migh, Besegla icke thenna Propheties ord j thesso book. Ty tijdhen &#x00E4;r n&#x00E4;r. Then som onder &#x00E4;r, han ware onder. Och then som oreen &#x00E4;r, han ware oreen. Men then som from &#x00E4;r, han warde &#x00E4;n nu fromare, Och then heligh &#x00E4;r, warde &#x00E4;n nu helighare. Och sij, iagh kommer snart, och mijn l&#x00F6;&#x00F6;n medh migh, til at wedhergella hwariom</para><para/><para>#813</para><para>och enom s&#x00E5;som hans gerning &#x00E4;r. Jagh &#x00E4;r A och O, then f&#x00F6;rste och then sidste, begynnelsen och enden. Salighe &#x00E4;ro the som h&#x00E5;lla hans bodh, P&#x00E5; thet theras macht skal wara j lijffzens tr&#x00E4;&#x00E4;, och ing&#x00E5; genom portanar j stadhen. Ty vthan til &#x00E4;ro hundar och trulkarlar, och bolare, och mandr&#x00E5;pare, och affgudhadyrckare, och alle the som elska och g&#x00F6;ra l&#x00F6;gnen.</para><para/><para>&#x009;Jagh Jesus sende min &#x00C4;ngel, at han skulle betygha idher thetta j F&#x00F6;rsamlinganar, Jagh &#x00E4;r aff Dauidz root och slechte, een klaar morghonstierna. Och Anden och Brudhen s&#x00E4;ya, Kom. Och then thet h&#x00F6;rer, han s&#x00E4;ye, Kom. Och then ther t&#x00F6;rster, han komme, Och then ther wil, han taghe lijffzens watn f&#x00F6;r intet.</para><para/><para>&#x009;Men iagh betyghar hwar och en som h&#x00F6;rer Prophetiennes ord j thesso book, Hoo som legger n&#x00E5;ghot h&#x00E4;r til, p&#x00E5; honom skal Gudh leggia the pl&#x00E5;ghor, som screffna &#x00E4;ro j thenna book. Och om n&#x00E5;ghor tagher n&#x00E5;ghot jfr&#x00E5; thenna books Propheties ord, hans deel skal Gudh borttagha vthu lijffzens book, och vthu then helgha stadhen, och vthu thet scriffuit &#x00E4;r j thenna book. Thet s&#x00E4;gher han som witnesbyrd b&#x00E4;&#x00E4;r h&#x00E4;r til, Ja, Jagh kommer snart, Amen, Ja, kom Herre Jesu. W&#x00E5;rs Herras Jesu Christi n&#x00E5;dh ware medh idher allom, Amen.</para><para/><para>&#x009;&#x009;Enden p&#x00E5; S. Johannis vppenbarelse.</para></paragraph-definition></section></body></doc>
+<?xml version="1.0" encoding="US-ASCII" ?><doc
+xmlns="http://rtf2xml.sourceforge.net/"><preamble><rtf-definition
+default-font="Times New Roman" code-page="ansicpg1252"
+platform="Windows"/><font-table><font-in-table name="Times New Roman"
+num="0"/><font-in-table name="Times" num="4"/><font-in-table name="Tms Rmn"
+num="8"/><font-in-table name="Cardo" num="27"/><font-in-table name="Times New
+Roman CE" num="194"/><font-in-table name="Times New Roman Cyr"
+num="195"/><font-in-table name="Times New Roman Greek"
+num="197"/><font-in-table name="Times New Roman Tur" num="198"/><font-in-table
+name="Times New Roman (Hebrew)" num="199"/><font-in-table name="Times New Roman
+(Arabic)" num="200"/><font-in-table name="Times New Roman Baltic"
+num="201"/><font-in-table name="Times CE" num="226"/><font-in-table name="Times
+Tur" num="230"/><font-in-table name="Times Baltic" num="233"/><font-in-table
+name="Cardo CE" num="410"/><font-in-table name="Cardo Greek"
+num="413"/><font-in-table name="Cardo Tur" num="414"/><font-in-table
+name="Cardo (Hebrew)" num="415"/><font-in-table name="Cardo Baltic"
+num="417"/></font-table><color-table><color-in-table num="1"
+value="#000000"/><color-in-table num="2" value="#0000FF"/><color-in-table
+num="3" value="#00FFFF"/><color-in-table num="4"
+value="#00FF00"/><color-in-table num="5" value="#FF00FF"/><color-in-table
+num="6" value="#FF0000"/><color-in-table num="7"
+value="#FFFF00"/><color-in-table num="8" value="#FFFFFF"/><color-in-table
+num="9" value="#000080"/><color-in-table num="10"
+value="#008080"/><color-in-table num="11" value="#008000"/><color-in-table
+num="12" value="#800080"/><color-in-table num="13"
+value="#800000"/><color-in-table num="14" value="#808000"/><color-in-table
+num="15" value="#808080"/><color-in-table num="16"
+value="#C0C0C0"/></color-table><style-table><paragraph-styles><paragraph-style-in-table
+num="23" font-size="10.00" name="Format Kopfzeile" language="German"
+tabs="center:216.00;left:360.00;" align="left" right-indent="0.00"
+adjust-right="true" nest-level="0" line-spacing="-12.00" font-style="Tms Rmn"
+next-style="Format Kopfzeile" widow-control="true"
+left-indent="0.00"/><paragraph-style-in-table num="15" font-size="12.00"
+name="Body Text" language="German" adjust-right="true" align="left"
+based-on-style="Normal" right-indent="0.00" nest-level="0" font-style="Cardo"
+next-style="Body Text" widow-control="true" space-after="6.00"
+left-indent="0.00"/><paragraph-style-in-table num="21" font-size="12.00"
+language="German" adjust-right="true" tabs="left:177.20;left:216.00;"
+align="just" right-indent="0.00" first-line-indent="21.25" nest-level="0"
+line-spacing="-18.00" font-style="Tms Rmn" next-style="Anfangsabsatz"
+widow-control="true" left-indent="0.00"
+name="Anfangsabsatz"/><paragraph-style-in-table num="17" font-size="12.00"
+name="header" language="German" tabs="center:226.80;right:453.60;" align="left"
+based-on-style="Normal" right-indent="0.00" adjust-right="true" nest-level="0"
+next-style="header" widow-control="true"
+left-indent="0.00"/><paragraph-style-in-table num="16" font-size="16.00"
+name="&#x00DC;berschrift 11" language="German" adjust-right="true" align="cent"
+right-indent="0.00" nest-level="0" line-spacing="-18.00" font-style="Tms Rmn"
+next-style="&#x00DC;berschrift 11" widow-control="true"
+left-indent="0.00"/><paragraph-style-in-table num="19" font-size="12.00"
+name="Standardabsatz" language="German" tabs="left:155.95;" align="just"
+right-indent="0.00" adjust-right="true" nest-level="0" line-spacing="-18.00"
+font-style="Tms Rmn" next-style="Standardabsatz" widow-control="true"
+left-indent="0.00"/><paragraph-style-in-table num="18" font-size="12.00"
+name="Absatzanfang" language="Danish" tabs="left:35.45;" align="just"
+based-on-style="Standardabsatz" right-indent="0.00" adjust-right="true"
+nest-level="0" line-spacing="-18.00" font-style="Times"
+next-style="Absatzanfang" widow-control="true"
+left-indent="0.00"/><paragraph-style-in-table num="22" font-size="14.00"
+name="&#x00DC;berschrift" language="German" adjust-right="true" align="cent"
+right-indent="0.00" space-before="18.00" nest-level="0" line-spacing="-18.00"
+font-style="Tms Rmn" next-style="&#x00DC;berschrift" widow-control="true"
+space-after="12.00" left-indent="0.00"/><paragraph-style-in-table num="0"
+font-size="12.00" name="Normal" language="German" adjust-right="true"
+align="left" right-indent="0.00" nest-level="0" next-style="Normal"
+widow-control="true" left-indent="0.00"/><paragraph-style-in-table num="20"
+font-size="12.00" name="footer" language="German"
+tabs="center:226.80;right:453.60;" align="left" based-on-style="Normal"
+right-indent="0.00" adjust-right="true" nest-level="0" next-style="footer"
+widow-control="true"
+left-indent="0.00"/></paragraph-styles><character-styles><character-style-in-table
+num="10" name="Default Paragraph
+Font"/></character-styles><styles-in-body><paragraph-style-in-body
+name="&#x00DC;berschrift 11" style-number="s0001" adjust-right="true"
+align="left" font-size="16.00" font-style="Tms Rmn" language="German"
+left-indent="0.00" line-spacing="-18.00" right-indent="0.00"
+widow-control="true"/><paragraph-style-in-body name="&#x00DC;berschrift 11"
+style-number="s0002" adjust-right="true" align="just" font-size="16.00"
+font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00"
+nest-level="0" right-indent="0.00"
+widow-control="true"/><paragraph-style-in-body name="&#x00DC;berschrift 11"
+style-number="s0003" adjust-right="true" align="just" first-line-indent="35.40"
+font-style="Times New Roman" left-indent="35.40" line-spacing="-18.00"
+nest-level="0" right-indent="0.00"
+widow-control="true"/><paragraph-style-in-body name="&#x00DC;berschrift 11"
+style-number="s0004" adjust-right="true" align="just" font-style="Times New
+Roman" left-indent="0.00" line-spacing="-18.00" nest-level="0"
+right-indent="0.00" widow-control="true"/><paragraph-style-in-body
+name="Absatzanfang" style-number="s0005" tabs="left:35.45;" adjust-right="true"
+align="just" font-size="12.00" font-style="Times" language="Danish"
+left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00"
+widow-control="true"/><paragraph-style-in-body name="Anfangsabsatz"
+style-number="s0006" tabs="left:177.20;left:216.00;" adjust-right="true"
+align="just" font-size="12.00" font-style="Tms Rmn" language="German"
+left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00"
+widow-control="true"/></styles-in-body></style-table><doc-information><title>
+S.Johannis Theologi uppenbarelse</title><year>"1541"</year><author>hkh3</author><operator>hkh3</operator><creation-time
+year="2006" month="1" day="11" minute="13"/><revision-time year="2006"
+month="1" day="11" minute="13"/><editing-time
+editing-time="0"/><number-of-pages number-of-pages="25"/><number-of-words
+number-of-words="8992"/><number-of-characters
+number-of-characters="51256"/></doc-information><page-definition gutter="0"
+margin-left="56.70" paper-height="842.00" margin-bottom="56.70"
+margin-top="56.70" paper-width="595.35"
+margin-right="56.70"/></preamble><body><section num="1" num-in-level="1"
+type="rtf-native" level="0"><paragraph-definition
+name="&#x00DC;berschrift 11" style-number="s0002" adjust-right="true"
+align="just" font-size="16.00" font-style="Tms Rmn" language="German"
+left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00"
+widow-control="true"><para/><para><inline font-style="Times"
+font-size="12.00">[S. Johannis Theologi
+vppenbarelse.]</inline></para><para/><para><inline font-style="Times"
+font-size="12.00">#762</inline></para></paragraph-definition><paragraph-definition
+name="&#x00DC;berschrift 11" style-number="s0003" adjust-right="true"
+align="just" first-line-indent="35.40" font-style="Times New Roman"
+left-indent="35.40" line-spacing="-18.00" nest-level="0" right-indent="0.00"
+widow-control="true"><para><inline font-style="Times"
+font-size="12.00">F&#x00F6;rsta
+Capitel</inline></para></paragraph-definition><paragraph-definition
+name="&#x00DC;berschrift 11" style-number="s0004" adjust-right="true"
+align="just" font-style="Times New Roman" left-indent="0.00"
+line-spacing="-18.00" nest-level="0" right-indent="0.00"
+widow-control="true"><para/></paragraph-definition><paragraph-definition
+name="Absatzanfang" style-number="s0005" tabs="left:35.45;" adjust-right="true"
+align="just" font-size="12.00" font-style="Times" language="Danish"
+left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00"
+widow-control="true"><para>Thetta &#x00E4;r Jesu Christi vppenbarelse, then
+Gudh haffuer giffuit honom, til at f&#x00F6;rkunna sinom tienarom, hwadh innan
+kort tijdh skee skal. Och haffuer beteknat och sendt medh sin &#x00C4;ngel til
+sin tienare Johannem, hwilken betyghat haffuer Gudz ord och witnesbyrd om Jesum
+Christum, hwadh han seedt hadhe. Saligh &#x00E4;r then som l&#x00E4;&#x00E4;s,
+och h&#x00F6;rer thenna Propheties ord, och h&#x00E5;ller thet ther vthi
+scriffuit &#x00E4;r, Ty tijdhen &#x00E4;r
+n&#x00E4;r.</para><para/><para>&#x009;Johannes, The siw F&#x00F6;rsamlingar j
+Asia. N&#x00E5;dh ware medh idher, och fridh aff honom som &#x00E4;r, och som
+war, och som komma skal, och aff the siw Andar, som f&#x00F6;r hans stool
+&#x00E4;ro, och aff Jesu Christo, som &#x00E4;r itt troghet witne,
+f&#x00F6;rstf&#x00F6;dder jfr&#x00E5; the d&#x00F6;dha, och en F&#x00F6;rste
+offuer Konunganar p&#x00E5; iordenne. Then oss elskat haffuer, och twaghet oss
+aff w&#x00E5;ra synder medh sitt blodh, och giordt oss til Konungar och Prester
+f&#x00F6;r Gudhi, och sinom Fadher, Honom ware &#x00E4;ra och welle jfr&#x00E5;
+ewigheet til ewigheet, Amen. Sij, han kommer medh skyyn, och all &#x00F6;ghon
+skola see honom, och the honom</para><para/><para>#763</para><para>stunget
+haffua, och all slechte p&#x00E5; iordenne skola jemra sigh, Ja, Amen. Jagh
+&#x00E4;r A och O, begynnelsen och enden, s&#x00E4;gher Herren, som &#x00E4;r,
+som war, och som komma skal, then Alszmechtighe.</para><para/><para>&#x009;Jagh
+Johannes idhar broder, och deelachtigh j bedr&#x00F6;ffuelsen, och j Riket, och
+j Jesu Christi tolamodh, war p&#x00E5; then &#x00F6;&#x00F6;n Pathmos,
+f&#x00F6;r Gudz ord skul, och f&#x00F6;r Jesu Christi witnesbyrd skul, Jagh war
+j andanom p&#x00E5; en S&#x00F6;ndagh, och h&#x00F6;rde effter migh een stoor
+r&#x00F6;st, s&#x00E5;som en baswn, s&#x00E4;yandes, Jagh &#x00E4;r A och O,
+then f&#x00F6;rste och then sidste. Hwadh tu seer, thet scriff vthi ena book,
+och sendt til the F&#x00F6;rsamlingar som &#x00E4;ro j Asia, j Epheso, och j
+Smirnen, och j Pergame, och j Thyatiras, och j Sardis, och j Philadelphia, och
+Laodicea.</para><para/><para>&#x009;Och iagh wende migh om til at see effter
+r&#x00F6;sten som med migh taladhe. Och som iagh migh wende, s&#x00E5;gh iagh
+siw gyllene liwsastakar, och mitt jbland the gyllene liwsastakar, en, som lijk
+war menniskionnes Son, kl&#x00E4;dd j en sijdh kiortel, och begiordat kring om
+br&#x00F6;stet medh itt gyllene belte. Men hans hoffuudh och hans
+h&#x00E5;&#x00E5;r war hwitt som een hwijt
+vll,</para><para/><para>#764</para><para>och s&#x00E5;som sni&#x00F6;. Och hans
+&#x00F6;ghon woro s&#x00E5;som en eeldzloghe, och hans f&#x00F6;tter woro
+s&#x00E5;som gl&#x00F6;dhande messing j vgnen. Och hans r&#x00F6;st
+s&#x00E5;som en d&#x00F6;n aff mykit watn. Och han hadhe j sijn h&#x00F6;ghra
+hand siw stiernor, och aff hans munn vthgick itt skarpt twe&#x00E4;ggiat swerd,
+Och hans ansichte skeen s&#x00E5;som klara solen.</para><para/><para>&#x009;Och
+t&#x00E5; iagh s&#x00E5;gh honom, f&#x00F6;ll iagh til hans f&#x00F6;tter,
+s&#x00E5;som iagh hadhe warit d&#x00F6;dh. Och han ladhe sijn h&#x00F6;ghra
+hand p&#x00E5; migh, och sadhe til migh, War icke f&#x00F6;rf&#x00E4;rat, Jagh
+&#x00E4;r then f&#x00F6;rste och then sidste, och then leffuande, Och iagh war
+d&#x00F6;dh, och sij, iagh &#x00E4;r leffuande jfr&#x00E5; ewigheet til
+ewigheet, och haffuer nycklanar til heluetet och d&#x00F6;dhen. S&#x00E5;
+scriff nu hwadh tu seedt haffuer, och hwadh nu &#x00E4;r, och hwadh h&#x00E4;r
+effter skee skal. Hemligheten aff the siw stiernor som tu seedt haffuer j minne
+h&#x00F6;ghra hand, och the siw gyllene liwsastakar. The siw stiernor,
+&#x00E4;ro the siw F&#x00F6;rsamlingars &#x00C4;nglar, Och the siw liwsastakar
+som tu seedt haffuer, &#x00E4;ro the siw
+F&#x00F6;rsamlingar.</para><para/><para>&#x009;&#x009;II.
+Capitel.</para><para/><para>Och scriff then F&#x00F6;rsamlings &#x00C4;ngel j
+Epheso, Thetta s&#x00E4;gher han som haffuer siw stiernor j sinne h&#x00F6;ghra
+hand, then ther wandrar mitt jbland the siw gyllene liwsastakar. Jagh weet tina
+gerningar och titt arbete, och titt tolamodh, och at tu icke m&#x00E5; lijdha
+the onda, och haffuer f&#x00F6;rs&#x00F6;kt them som
+s&#x00E4;ya</para><para/><para>#765</para><para>at the &#x00E4;ro Apostlar, och
+&#x00E4;ro doch icke, och haffuer befunnet them liwghare, och tu lijdher och
+haffuer tolamodh, och arbetar f&#x00F6;r mitt nampn skul, och &#x00E4;r icke
+tr&#x00F6;tt worden. Men iagh haffuer emoot tigh, at tu then f&#x00F6;rsta
+k&#x00E4;rleken offuergiffuit haffuer. Betenck hwar aff tu fallen &#x00E4;st,
+och b&#x00E4;tra tigh, och g&#x00F6;r the f&#x00F6;rsta gerninganar. Hwar thet
+icke skeer, t&#x00E5; warder iagh tigh snarligha kommandes, och skal
+bortst&#x00F6;ta tin liwsastaka aff sitt rwm, vthan tu b&#x00E4;trar tigh. Men
+thetta haffuer tu, at tu haffuer hatat the Nicolaiters werck, hwilka iagh ock
+hatar. Then ther &#x00F6;ra haffuer, han h&#x00F6;re hwadh Anden s&#x00E4;gher
+F&#x00F6;rsamlinganar. Then ther winner, honom wil iagh giffua &#x00E4;ta aff
+lijffzens tr&#x00E4;&#x00E4;, som &#x00E4;r j Gudz
+Paradijs.</para><para/><para>&#x009;Och scriff then F&#x00F6;rsamlings
+&#x00C4;ngel j Smirnen, Thetta s&#x00E4;gher then f&#x00F6;rste och then
+sidste, then d&#x00F6;dh war, och &#x00E4;r leffuande worden. Jagh weet tina
+gerningar och tijn bedr&#x00F6;ffuelse, och tin fattigdom (men tu &#x00E4;st
+rijk) och h&#x00E4;dhelse aff them som sigh s&#x00E4;ya wara Judar, och
+&#x00E4;ro icke, vthan &#x00E4;ro Satans hoop. Fruchta intet f&#x00F6;r
+n&#x00E5;ghot som tu lijdha skalt. Sij, dieffuulen skal kasta n&#x00E5;ghra aff
+idher j f&#x00E4;ngelse, P&#x00E5; thet j skolen f&#x00F6;rs&#x00F6;kte warda,
+och haffua bedr&#x00F6;ffuelse j tiyo daghar. War trofast in til d&#x00F6;dhen,
+s&#x00E5; skal iagh giffua tigh lijffzens krono. Then ther &#x00F6;ra haffuer,
+han h&#x00F6;re hwadh Anden s&#x00E4;gher F&#x00F6;rsamlinganar. Then ther
+winner, han skal ingen skadha f&#x00E5; aff then andra
+d&#x00F6;dhen.</para><para/><para>&#x009;Och scriff then F&#x00F6;rsamlings
+&#x00C4;ngel j Pergamen,
+Thetta</para><para/><para>#766</para><para>s&#x00E4;gher han som haffuer thet
+skarpa twe&#x00E4;ggiadhe swerdet, Jagh weet tina gerningar, och hwar tu boor,
+at ther Satans s&#x00E4;te &#x00E4;r, och tu h&#x00E5;ller mitt nampn, och
+haffuer icke nekat mina troo. Och j mina daghar &#x00E4;r Antipas mitt troghna
+witne d&#x00F6;dadher n&#x00E4;r idher, ther Satan boor. Men iagh haffuer
+n&#x00E5;ghot litet emoot tigh, Ty tu haffuer ther them som h&#x00E5;lla
+Balaams l&#x00E4;rdom, Hwilken l&#x00E4;rde genom Balak &#x00E5;stadkomma
+f&#x00F6;rarghelse f&#x00F6;r Jsraels barn, til at &#x00E4;ta aff thet
+affgudhom offrat war, och bedriffua bolerij. S&#x00E5; haffuer tu ock them som
+h&#x00E5;lla the Nicolaiters l&#x00E4;rdom, hwilket iagh hatar. B&#x00E4;tra
+tigh, Annars skal iagh tigh snarligha komma, och skal strijdha medh them medh
+mins munz swerd. Then ther &#x00F6;ra haffuer, han h&#x00F6;re hwadh Anden
+s&#x00E4;gher F&#x00F6;rsamlinganar. Then ther winner, honom wil iagh giffua
+&#x00E4;ta aff thet f&#x00F6;rdolda Manna, och wil giffua honom itt gott
+witnesbyrd, och medh thet witnesbyrd itt nytt nampn bescriffuit, thet ingen
+kenner, vthan then thet f&#x00E5;&#x00E5;r.</para><para/><para>&#x009;Och
+scriff then F&#x00F6;rsamlings &#x00C4;ngel j Thyatira, Thetta s&#x00E4;gher
+Gudz Son, som &#x00F6;ghon haffuer s&#x00E5;som eeldzloghe, och hans
+f&#x00F6;tter lijka som messing, Jagh weet tina gerningar, och tin
+k&#x00E4;rleek, och tina tienst, och tina troo, och titt tolamodh, och tina
+gerningar, the sidsta flere &#x00E4;n the f&#x00F6;rsta. Men iagh haffuer
+n&#x00E5;ghot litet emoot tigh, at tu tilst&#x00E4;dher then quinnan Jesabel,
+som s&#x00E4;gher, at hon &#x00E4;r een prophetissa, l&#x00E4;ra och bedragha
+mina tienare, bedriffua bolerij, och &#x00E4;ta aff thet affgudhom offrat
+&#x00E4;r. Och iagh haffuer giffuit henne
+tijdh,</para><para/><para>#767</para><para>at hon skulle b&#x00E4;tra sigh aff
+sitt bolerij, och hon haffuer intet b&#x00E4;trat sigh. Sij, iagh skal leggia
+henne j s&#x00E4;ngena, och the som medh henne hoor bedriffua, skola komma vthi
+alrast&#x00F6;rsta bedr&#x00F6;ffuelse, om the icke b&#x00E4;tra sigh aff sina
+gerningar, och hennes barn skal iagh dr&#x00E4;pa. Och alla F&#x00F6;rsamlingar
+skola weta, at iagh &#x00E4;r then som ranszakar niurar och hierta. Och skal
+giffua hwariom och enom aff idher effter hans
+gerningar.</para><para/><para>&#x009;Men idher s&#x00E4;gher iagh, och androm
+som j Thyatira &#x00E4;ren, som icke haffua s&#x00E5;dana l&#x00E4;rdom, och
+icke haffua f&#x00F6;rst&#x00E5;tt Satans diwpheet, s&#x00E5;som the
+s&#x00E4;ya, Jagh skal icke leggia p&#x00E5; idher n&#x00E5;ghra andra byrdo,
+Doch huadh j haffuen, thet h&#x00E5;ller s&#x00E5; lenge iagh kommer. Och then
+ther winner, och h&#x00E5;ller mijn werck in til endan, honom skal iagh giffua
+macht offuer Hedhninganar, Och han skal regera them medh jernrijsz, och han
+skal s&#x00F6;nderkrossa them, s&#x00E5;som en Pottomakares k&#x00E4;ril,
+s&#x00E5;som iagh ock f&#x00E5;tt haffuer aff minom Fadher, och wil giffua
+honom morghonstiernona. Then ther &#x00F6;ra haffuer, han h&#x00F6;re huadh
+Anden s&#x00E4;gher
+F&#x00F6;rsamlinganar.</para><para/><para>&#x009;&#x009;III.
+Capitel.</para><para/><para>Scriff ock F&#x00F6;rsamlingennes &#x00C4;ngel j
+Sardis, Thetta s&#x00E4;gher then som haffuer the Gudz Andar, och the siw
+stiernor, Jagh weet tina gerningar, Ty tu haffuer nampnet at tu leffuer, och
+&#x00E4;st d&#x00F6;dh. War waken, och sterck thet andra som d&#x00F6;&#x00F6;
+wil, Ty iagh haffuer icke befunnet tina gerningar fulkomligha f&#x00F6;r Gudhi.
+S&#x00E5; tenck nu p&#x00E5; hwadh tu f&#x00E5;tt och h&#x00F6;rdt haffuer, och
+h&#x00E5;lt thet, och b&#x00E4;tra tigh. &#x00C4;stu icke waken, s&#x00E5; skal
+iagh</para><para/><para>#768</para><para>komma til tigh som en tiwff
+pl&#x00E4;ghar komma, och tu skalt icke weta p&#x00E5; hwadh stund iagh kommer
+til tigh. Tu haffuer ock f&#x00E5;&#x00E5; nampn j Sardis, som sijn
+kl&#x00E4;dher icke besmittat haffua, och the skola wandra medh migh j hwijt
+kl&#x00E4;dher, ty the &#x00E4;ro thes werde. Then som winner, han skal
+s&#x00E5; kl&#x00E4;dder warda medh hwijt kl&#x00E4;dher. Och iagh skal icke
+vthskrapa hans nampn aff lijffzens book, Och iagh skal wedherkenna hans nampn
+f&#x00F6;r min Fadher, och f&#x00F6;r hans &#x00C4;nglar. Then ther &#x00F6;ra
+haffuer, han h&#x00F6;re hwadh Anden s&#x00E4;gher
+F&#x00F6;rsamlinganar.</para><para/><para>&#x009;Scriff ock then
+F&#x00F6;rsamlings &#x00C4;ngel j Philadelphia, Thetta s&#x00E4;gher then
+Helghe, och then Sanferdige, som haffuer Dauidz nyckel, then ther
+vpl&#x00E4;ter, och ingen menniskia igenl&#x00E4;ter, Then ther
+igenl&#x00E4;ter, och ingen menniskia vpl&#x00E4;ter, Jagh weet tina gerningar.
+Sij, iagh haffuer giffuit f&#x00F6;r tigh een &#x00F6;pen d&#x00F6;r, och ingen
+kan l&#x00E4;ta henne igen, Ty tu haffuer liten krafft, och tu haffuer
+h&#x00E5;llet mijn ord, och haffuer icke nekat mitt nampn. Sij, iagh wil giffua
+tigh vthu Satans hoop, the sigh s&#x00E4;ya wara Judar, och &#x00E4;ro icke,
+vthan liwgha. Sij, iagh wil driffua them ther til, at the skola komma och
+tilbidhia f&#x00F6;r tina f&#x00F6;tter, och skola weta, at iagh haffuer elskat
+tigh.</para><para/><para>&#x009;Effter tu haffuer h&#x00E5;llet mitt tolamodz
+ord, skal iagh ock bewara tigh f&#x00F6;r frestelsens stund, hwilken tilstundar
+allo werldenne, til at frelsa them som boo p&#x00E5; iordenne. Sij, iagh kommer
+snarligha, h&#x00E5;lt thet tu haffuer, at ingen tagher
+tina</para><para/><para>#769</para><para>krono. Then ther winner, honom wil
+iagh g&#x00F6;ra til en Pelare vthi mins Gudz Tempel, och han skal icke meer
+vthg&#x00E5;. Och iagh skal scriffua p&#x00E5; honom mins Gudz nampn, och mins
+Gudz stadz thes nyia Jerusalems nampn, som nedherkommer aff himmelen
+jfr&#x00E5; min Gudh, och mitt nyia nampn. Then ther &#x00F6;ra haffuer, han
+h&#x00F6;re hwadh Anden s&#x00E4;gher
+F&#x00F6;rsamlinganar.</para><para/><para>&#x009;Scriff ock then
+F&#x00F6;rsamlings &#x00C4;ngel j Laodicea, Thetta s&#x00E4;gher, Amen, thet
+troghna och sanferdigha witnet, begynnelsen til Gudz creatur. Jagh weet tina
+gerningar, at tu &#x00E4;st hwarken kall eller warm, Jagh wille at tu wore
+antingen kall eller warm. Men effter tu &#x00E4;st liom, och huarken kall eller
+warm, skal iagh tigh vthspyy vthu min munn. Ty tu s&#x00E4;gher, Jagh &#x00E4;r
+rijk och haffuer noogh, och beh&#x00F6;ffuer intet, Och weest icke at tu
+&#x00E4;st elende och jemmerligh, fattigh och blind, och nakot. Jagh
+r&#x00E5;dher tigh, at tu k&#x00F6;per gull aff migh, thet genomeeldat och
+bepr&#x00F6;ffuat &#x00E4;r, at tu m&#x00E5; bliffua rijk, och hwijt
+kl&#x00E4;dher, som tu m&#x00E5; kl&#x00E4;dha tigh vthi, P&#x00E5; thet tinne
+nakenheetz blygd icke skal synas, och sm&#x00F6;r tijn &#x00F6;ghon medh
+&#x00F6;gnasaluo, at tu m&#x00E5; f&#x00E5; see.</para><para/><para>&#x009;The
+iagh elskar, them aghar iagh och nepser. S&#x00E5; war nu flijtigh, och
+b&#x00E4;tra tigh. Sij, iagh st&#x00E5;&#x00E5;r f&#x00F6;r d&#x00F6;renne och
+klappar, Then ther h&#x00F6;rer mina r&#x00F6;st och vpl&#x00E5;ter
+d&#x00F6;rena, til honom skal iagh ing&#x00E5;, och h&#x00E5;lla natward medh
+honom, och han medh migh. Then ther winner, honom skal iagh sittia l&#x00E5;ta
+medh migh p&#x00E5; min stool, s&#x00E5;som ock iagh wunnet
+haffuer,</para><para/><para>#770</para><para>och &#x00E4;r sittiandes worden
+medh minom Fadher p&#x00E5; hans stool. Then ther &#x00F6;ra haffuer, han
+h&#x00F6;re hwadh Anden s&#x00E4;gher
+F&#x00F6;rsamlinganar.</para><para/><para>&#x009;&#x009;IIII.
+Capitel.</para><para/><para>Sedhan s&#x00E5;gh iagh, och sij, Een d&#x00F6;r
+wardt vpl&#x00E4;ten j himmelen, och then f&#x00F6;rsta r&#x00F6;sten som iagh
+h&#x00F6;rde, s&#x00E5;som en baswn medh migh tala, sadhe, Stijgh h&#x00E4;r
+vp, iagh wil wisa tigh huadh skee skal h&#x00E4;r
+effter.</para><para/><para>&#x009;Och strax war iagh j andanom. Och sij, en
+stool wardt satt j himmelen, och p&#x00E5; stolen satt en. Och then ther satt,
+han war p&#x00E5;seende s&#x00E5;som then stenen Jaspis och Sardis, och en
+regnboghe war om stolen, p&#x00E5;seendes s&#x00E5;som en Smaragd, och kring om
+stolen woro fyra och tiughu stolar, och p&#x00E5; the stolar s&#x00E5;to fyra
+och tiwghu &#x00C4;ldste, kl&#x00E4;dde medh hwijt kl&#x00E4;dher, och
+p&#x00E5; theras hoffuudh woro gyllene kronor.</para><para/><para>&#x009;Och
+aff stolenom vthgingo liwngeeld, tord&#x00F6;n och r&#x00F6;ster, och siw
+eeldzlampor brunno f&#x00F6;r stolen, hwilke &#x00E4;ro the
+siw</para><para/><para>#771</para><para>Gudz Andar. Och fram f&#x00F6;r stolen
+war s&#x00E5;som itt glashaff, lijkt widh Cristal, och mitt j stolen och kring
+om stolen, fyra diwr full med &#x00F6;ghon, b&#x00E5;dhe f&#x00F6;re och baak.
+Och thet f&#x00F6;rsta diwret war lijkt itt Leyon, och thet andra diwret lijkt
+enom kalff, och thet tridie diwret hadhe itt ansichte s&#x00E5;som een
+menniskia, och thet fierde diwret lijkt enom flyghande &#x00F6;rn. Och the fyra
+diwr hadhe hwart thera sex wingar, och the woro vthan och innan full medh
+&#x00F6;ghon. Och hadhe ingen roo dagh eller natt, och sadhe, Heligh, heligh,
+heligh &#x00E4;r <inline small-caps="true">Herren</inline> Gudh Alszmechtigh,
+som war, och som &#x00E4;r, och som komma skal.</para><para/><para>&#x009;Och
+t&#x00E5; the diwren g&#x00E5;ffuo honom prijs, och &#x00E4;ro, och tack som
+satt p&#x00E5; stolen, then ther leffuer jfr&#x00E5; ewigheet til ewigheet,
+f&#x00F6;llo the fyra och tiwghu &#x00C4;ldste fram f&#x00F6;r honom som satt
+p&#x00E5; stolen, och tilb&#x00E5;dho then ther leffuer jfr&#x00E5; ewigheet
+til ewigheet, Och kastadhe sina kronor f&#x00F6;r stolen, och sadhe, <inline
+small-caps="true">Herre</inline>, tu &#x00E4;st werdigh tagha prijs och
+&#x00E4;ro och krafft, Ty tu haffuer skapat all ting, och f&#x00F6;r tin wilia
+skul haffua the warelse, och &#x00E4;ro
+skapt.</para><para/><para>&#x009;&#x009;V. Capitel.</para><para/><para>Och iagh
+s&#x00E5;gh j hans h&#x00F6;ghra hand som satt p&#x00E5; stolen, ena book
+scriffuin innan och vthan, besegld medh siw insigel. Och iagh s&#x00E5;gh en
+starck &#x00C4;ngel, som predicadhe medh h&#x00F6;gha r&#x00F6;st, Hoo
+&#x00E4;r werdigh vpl&#x00E4;ta bokena, och vpbryta hennes insigel? Och ingen j
+himmelen, eller p&#x00E5; iordenne, eller
+vnder</para><para/><para>#772</para><para>iordenne kunde vpl&#x00E4;ta bokena,
+och icke heller see p&#x00E5; henne. Och iagh greet sw&#x00E5;rligha, at ingen
+wardt funnen werdigh til at vpl&#x00E4;ta bokena, och l&#x00E4;sa henne, eller
+see p&#x00E5; henne.</para><para/><para>&#x009;Och en aff the &#x00C4;ldsta
+sadhe til migh, Gr&#x00E5;&#x00E5;t icke. Sij Leyonet aff Juda slechte Dauidz
+root haffuer wunnet, til at vpl&#x00E4;ta bokena, och vpbryta hennes siw
+insigel. Och iagh s&#x00E5;gh, och sij, mitt j stolen och jbland the fyra
+diwren, och mitt jbland the &#x00C4;ldsta, stoodh itt Lamb, s&#x00E5;som thet
+hadhe slachtat warit, och hadhe siw horn, och siw &#x00F6;ghon, hwilke
+&#x00E4;ro the siw Gudz Andar sende j all land, och thet kom och toogh bokena
+vthaff hans h&#x00F6;ghra hand som satt p&#x00E5;
+stolen.</para><para/><para>&#x009;Och t&#x00E5; thet hadhe taghet bokena,
+f&#x00F6;llo the fyra diwr, och the fyra och tiwghu &#x00C4;ldste fram
+f&#x00F6;r Lambet, haffuandes hwar och en harpor och gyllene sk&#x00E5;lar
+fulla med r&#x00F6;kwerck, hwilket &#x00E4;r the helighas b&#x00F6;ner, och
+sungo en ny song, och sadhe, Tu &#x00E4;st werdigh at tagha bokena, och
+vpl&#x00E4;ta hennes insigel. Ty tu &#x00E4;st d&#x00F6;dhat, och haffuer
+igenl&#x00F6;st oss medh titt blodh, aff allahanda slechte och tungom&#x00E5;l,
+och folck, och Hedhningar, och haffuer giordt oss w&#x00E5;rom Gudhi til
+Konungar och Prester, och wij skole regnera p&#x00E5;
+iordenne.</para><para/><para>&#x009;Och iagh s&#x00E5;gh, och h&#x00F6;rde een
+r&#x00F6;st aff monga &#x00C4;nglar, kring om stolen, och kring om diwren, och
+kring om the &#x00C4;ldsta, och talet p&#x00E5; them war mong sinnom tusende
+tusend, s&#x00E4;yandes medh h&#x00F6;gha r&#x00F6;st, Lambet som d&#x00F6;dhat
+&#x00E4;r, thet &#x00E4;r werdigt at haffua krafft, och rijkedom, och wijsdom,
+och</para><para/><para>#773</para><para>starckheet, och &#x00E4;ro, och prijs,
+och loff. Och all creatur som j himmelen &#x00E4;ro, och the p&#x00E5;
+iordenne, och the vnder iordenne, och j haffuet, och alt thet vthi them
+&#x00E4;r, h&#x00F6;rde iagh s&#x00E4;ya til honom som satt p&#x00E5; stolen,
+och til Lambet, Loff och &#x00E4;ra, och prijs, och krafft jfr&#x00E5; ewigheet
+til ewigheet. Och the fyra diwren sadhe, Amen. Och the fyra och tiwghu
+&#x00C4;ldste f&#x00F6;llo nedh p&#x00E5; sijn ansichte, och tilb&#x00E5;dho
+honom som leffuer jfr&#x00E5; ewigheet til
+ewigheet.</para><para/><para>&#x009;&#x009;VI. Capitel.</para><para/><para>Och
+iagh s&#x00E5;gh, at Lambet vpbr&#x00F6;t itt aff insiglen, Och iagh
+h&#x00F6;rde itt aff the fyra diwren s&#x00E4;ya, s&#x00E5;som medh
+tord&#x00F6;ns r&#x00F6;st, Kom och see. Och iagh s&#x00E5;gh, Och sij, en
+hwijt hest, och then ther p&#x00E5; satt, hadh een bogha, Och honom wardt
+giffuin een krona, och han foor vth til at winna, och f&#x00E5;
+segher.</para><para/><para>&#x009;Och t&#x00E5; thet vpbr&#x00F6;t thet andra
+insiglet, h&#x00F6;rde iagh thet andra diwret s&#x00E4;ya, Kom och see. Och
+ther vthgick en annar hest, r&#x00F6;dh, och honom som ther p&#x00E5; satt,
+wardt giffuit at han skulle borttagha fridhen aff iordenne, och at
+the</para><para/><para>#774</para><para>skulle sl&#x00E5; sigh jhi&#x00E4;l
+inbyrdes, Och honom wardt giffuit itt stoort
+swerd.</para><para/><para>&#x009;Och t&#x00E5; thet vpbr&#x00F6;t thet tridie
+insiglet, h&#x00F6;rde iagh thet tridie diwret s&#x00E4;ya, Kom och see. Och
+iagh s&#x00E5;gh, Och sij, en swart hest, och then ther satt p&#x00E5; honom,
+hadhe ena w&#x00E4;gsk&#x00E5;l j sinne hand. Och iagh h&#x00F6;rde ena
+r&#x00F6;st mitt jbland the fyra diwr, s&#x00E4;yandes, Jtt m&#x00E5;tt hwete
+om en penning, och try m&#x00E5;tt biwgg om en penning, och olionne och winet
+g&#x00F6;r ingen skadha.</para><para/><para>&#x009;Och t&#x00E5; thet
+vpbr&#x00F6;t thet fierde insiglet, h&#x00F6;rde iagh thes fierde diwrsens
+r&#x00F6;st s&#x00E4;ya, Kom och see. Och iagh s&#x00E5;gh. Och sij, en black
+hest, och then som p&#x00E5; honom satt, hans nampn war D&#x00F6;den, och
+heluetet folgde honom effter. Och honom wardt macht giffuin offuer the fyra
+parter p&#x00E5; iordenne, at d&#x00F6;dha medh swerd, och medh hunger, och
+medh d&#x00F6;dhen aff the wildiwr p&#x00E5; iordenne
+&#x00E4;ro.</para><para/><para>&#x009;Och t&#x00E5; thet vpbr&#x00F6;t thet
+femte insiglet, s&#x00E5;gh iagh vnder Altaret theras si&#x00E4;lar som
+d&#x00F6;dadhe woro f&#x00F6;r Gudz ord skul, och f&#x00F6;r thet witnesbyrd
+skul, som the hadhe. Och the ropadhe medh h&#x00F6;gha r&#x00F6;st, och sadhe,
+Herre, tu som &#x00E4;st heligh och sanferdigh, huru lenge d&#x00F6;mer tu
+icke, och hempnas icke w&#x00E5;rt blodh p&#x00E5; them som boo p&#x00E5;
+iordenne? Och them</para><para/><para>#775</para><para>wardt giffuit hwariom
+och enom itt hwitt kl&#x00E4;dhe. Och til them wardt sagdt, at the skulle
+&#x00E4;n nu huilas en liten tijdh, til tess talet bliffue fult aff theras
+medtienare och br&#x00F6;dher, the ther ock skola d&#x00F6;dadhe warda
+s&#x00E5;som ock the.</para><para/><para>&#x009;Och iagh s&#x00E5;gh, at thet
+vpbr&#x00F6;t thet siette insiglet, Och sij, t&#x00E5; wardt en stoor
+iordb&#x00E4;ffuing, och solen wardt swart som en
+h&#x00E5;&#x00E5;rs&#x00E4;ck, och m&#x00E5;nen wardt all sammans s&#x00E5;som
+blodh, och stiernonar f&#x00F6;llo aff himmelen nedh p&#x00E5; iordena,
+s&#x00E5;som fikonatr&#x00E4;dh sijn fikon nedherslepper, t&#x00E5; thet ristes
+aff stoort w&#x00E4;dher. Och himmelen gick bort, s&#x00E5;som een tilslaghen
+book, Och all bergh och &#x00F6;yar wordo r&#x00F6;rd aff sijn rwm. Och
+Konungarna p&#x00E5; iordenne, och the &#x00D6;ffuerste, och rijke, och
+H&#x00F6;ffuitzm&#x00E4;n, och wellighe, och alle eghne, och alle frije
+f&#x00F6;rdolde sigh vthi iordkulor, och j bergskreffwor, och sadhe til bergh
+och klippor, Faller offuer oss och skyler oss, f&#x00F6;r hans ansichte som
+sitter p&#x00E5; stolen, och f&#x00F6;r Lambsens wredhe, Ty then store hans
+wredhes Dagh &#x00E4;r kommen, Och hoo kan
+best&#x00E5;?</para><para/><para>#776</para><para/><para>&#x009;&#x009;VII.
+Capitel.</para><para/><para>Sedhan s&#x00E5;gh iagh fyra &#x00C4;nglar
+st&#x00E5; p&#x00E5; fyra iordennes h&#x00F6;rn, h&#x00E5;llandes fyra
+iordennes w&#x00E4;dher, At intet w&#x00E4;dher skulle bl&#x00E5;sa p&#x00E5;
+iordena, eller p&#x00E5; haffuet, eller p&#x00E5; n&#x00E5;ghot
+tr&#x00E4;&#x00E4;. Och iagh s&#x00E5;gh en annan &#x00C4;ngel vpstigha
+jfr&#x00E5; solennes vpg&#x00E5;ng, han hadhe leffuandes Gudz tekn, och ropadhe
+med h&#x00F6;gha r&#x00F6;st til the fyra &#x00C4;nglar, hwilkom giffuit war
+skadha g&#x00F6;ra iordenne och haffuena, och sadhe, G&#x00F6;rer icke iordenne
+skadha, eller haffuena, eller tr&#x00E4;&#x00E4;n, s&#x00E5; lenge wij teknom
+w&#x00E5;r Gudz tienare p&#x00E5; theras anlete. Och iagh h&#x00F6;rde talet
+p&#x00E5; them som teknadhe woro, hundradhe fyra och fyratiyo tusend, som
+teknadhe woro aff all Jsraels barnas slechter.</para><para/><para>&#x009;Aff
+Juda slechte, tolff tusend
+teknadhe.</para></paragraph-definition><paragraph-definition
+name="Anfangsabsatz" style-number="s0006" tabs="left:177.20;left:216.00;"
+adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn"
+language="German" left-indent="0.00" line-spacing="-18.00" nest-level="0"
+right-indent="0.00" widow-control="true"><para><inline font-style="Times">Aff
+Ruben slechte, tolff tusend teknadhe.</inline></para><para><inline
+font-style="Times">Aff Gad slechte, tolff tusend
+teknadhe.</inline></para><para><inline font-style="Times">Aff Asser slechte,
+tolff tusend teknadhe.</inline></para><para><inline font-style="Times">Aff
+Nephthali slechte, tolff tusend teknadhe.</inline></para><para/><para><inline
+font-style="Times">#777</inline></para><para><inline font-style="Times">Aff
+Manasse slechte, tolff tusend teknadhe.</inline></para><para><inline
+font-style="Times">Aff Simeon slechte, tolff tusend
+teknadhe.</inline></para><para><inline font-style="Times">Aff Leuj slechte,
+tolff tusend teknadhe.</inline></para><para><inline font-style="Times">Aff
+Jsaschar slechte, tolff tusend teknadhe.</inline></para><para><inline
+font-style="Times">Aff Zabulon slechte, tolff tusend
+teknadhe.</inline></para><para><inline font-style="Times">Aff Josephs slechte,
+tolff tusend teknadhe.</inline></para><para><inline font-style="Times">Aff Ben
+Jamin slechte, tolff tusend
+teknadhe.</inline></para><para/></paragraph-definition><paragraph-definition
+name="Absatzanfang" style-number="s0005" tabs="left:35.45;" adjust-right="true"
+align="just" font-size="12.00" font-style="Times" language="Danish"
+left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00"
+widow-control="true"><para>&#x009;Sedhan s&#x00E5;gh iagh, Och sij, en stoor
+skare then ingen rekna kunde, aff allom Hedhningom och slechtom och folckom och
+tungom&#x00E5;lom, st&#x00E5;ndandes f&#x00F6;r stolen och f&#x00F6;r Lambena,
+kl&#x00E4;dd j hwijt kl&#x00E4;dher, och palmar j theras hender, ropandes medh
+h&#x00F6;gha r&#x00F6;st, och sadhe, Saligheet honom som sitter p&#x00E5;
+stolen w&#x00E5;rom Gudhi och Lambena. Och alle &#x00C4;nglar stodho kring om
+stolen, och the &#x00C4;ldsta, och the fyra diwren, och f&#x00F6;llo p&#x00E5;
+sijn ansichte fram f&#x00F6;r stolen, och tilb&#x00E5;dho Gudh, och sadhe,
+Amen. Loff och &#x00E4;ra, och wijsheet, och tack, och prijs, och krafft, och
+starckheet ware w&#x00E5;rom Gudh jfr&#x00E5; ewigheet til ewigheet,
+Amen.</para><para/><para>&#x009;Och en aff the &#x00C4;ldsta swaradhe, och
+sadhe til migh, Hoo &#x00E4;ro thenne som vthi the hwita kl&#x00E4;dher
+kl&#x00E4;dde &#x00E4;ro? Och hwadhan &#x00E4;ro the kompne? Och iagh sadhe til
+honom, Herre, tu weest thet. Och han sadhe til migh, Thenne &#x00E4;ro the som
+kompne &#x00E4;ro vthu stoor bedr&#x00F6;ffuelse, och haffua twaghet sijn
+kl&#x00E4;dher, och giordt them hwijt j Lambsens blodh. Therf&#x00F6;re
+&#x00E4;ro the f&#x00F6;r Gudz stool, och tiena honom dagh och natt
+vthi</para><para/><para>#778</para><para>hans Tempel. Och then p&#x00E5; stolen
+sitter, skal boo offuer them, The skola intet meer hungra eller t&#x00F6;rsta,
+Jcke heller skal solen falla p&#x00E5; them, icke heller n&#x00E5;ghon hete, Ty
+Lambet som mitt j stolen &#x00E4;r, skal regera them, och ledha them til
+leffuande watukellor, och Gudh skal afftorka alla t&#x00E5;rar aff theras
+&#x00F6;ghon.</para><para/><para>&#x009;&#x009;VIII.
+Capitel.</para><para/><para>Och t&#x00E5; thet vpbr&#x00F6;t thet siwnde
+insiglet, wardt een tysta j himmelen widh een halff stund. Och iagh s&#x00E5;gh
+siw &#x00C4;nglar st&#x00E5; f&#x00F6;r Gudh, och them wordo giffne siw
+basuner. Och en annar &#x00C4;ngel kom, och stoodh f&#x00F6;r Altaret, och
+hadhe itt gyllene r&#x00F6;kelsekaar, och honom wardt giffuit mykit
+r&#x00F6;kwerck, P&#x00E5; thet han skulle giffua aff all helghons b&#x00F6;ner
+p&#x00E5; gyllene Altaret, som &#x00E4;r f&#x00F6;r stolenom. Och
+r&#x00F6;kwercksens r&#x00F6;&#x00F6;k aff helghonens b&#x00F6;ner, gick vp aff
+&#x00C4;ngelens hand f&#x00F6;r Gudh. Och &#x00C4;ngelen toogh
+r&#x00F6;kelsekaret, och vpfylte thet medh eeld aff Altaret, och kastadhe nedh
+p&#x00E5; iordena. Och ther skeedde tord&#x00F6;n, r&#x00F6;ster och liungeeld,
+och iordb&#x00E4;ffuing.</para><para/><para>#779</para><para>&#x009;Och the siw
+&#x00C4;nglar medh the siw basuner, skickadhe sigh til at basuna. Och then
+f&#x00F6;rste &#x00C4;ngelen basunadhe, och wardt itt haghel och eeld bemengt
+medh blodh, och thet wardt kastat p&#x00E5; iordena. Och tridie parten aff
+tr&#x00E4;&#x00E4;n wardt vpbrend, och alt gr&#x00F6;nt gr&#x00E4;&#x00E4;s
+brann vp.</para><para/><para>&#x009;Och then andre &#x00C4;ngelen basunadhe,
+Och vthi haffuet wardt kastat s&#x00E5;som itt stoort brinnande bergh. Och
+tridie parten aff haffuet wardt blodh, och tridie parten aff the leffuande
+creatur som j haffuet woro, bliffuo d&#x00F6;d, och tridie parten aff skepen
+f&#x00F6;rgingos.</para><para/><para>&#x009;Och then tridie &#x00C4;ngelen
+besunadhe, Och een stoor stierna f&#x00F6;ll nedh aff himmelen, brinnande som
+itt bloss. Och f&#x00F6;ll vthi tridie parten aff elffuenar, och vthi
+watukellonar, och</para><para/><para>#780</para><para>stiernonnes nampn kallas
+Mal&#x00F6;rt. Och tridie parten wendes j Mal&#x00F6;rt, Och monga menniskior
+bliffuo d&#x00F6;dhe aff watnet som f&#x00F6;rbittrat
+wardt.</para><para/><para>&#x009;Och then fierde &#x00C4;ngelen basunadhe, Och
+tridie parten aff solenne wardt slaghen, och tridie parten aff m&#x00E5;nan,
+och tridie parten aff stiernonar, s&#x00E5; at tridie parten aff them wardt
+f&#x00F6;rm&#x00F6;rkrat, och tridie delen aff daghen intet skina kunde, och
+aff nattenne sammalunda. Och iagh s&#x00E5;g, och h&#x00F6;rde en &#x00C4;ngel
+som fl&#x00F6;gh mitt genom himmelen, och sadhe medh h&#x00F6;gha r&#x00F6;st,
+Wee, wee, wee them som boo p&#x00E5; iordenne, f&#x00F6;r the andra
+r&#x00F6;ster aff the tree &#x00C4;nglars basuner, som &#x00E4;n nu basuna
+skola.</para><para/><para>&#x009;&#x009;IX.
+Capitel.</para></paragraph-definition><paragraph-definition
+name="Anfangsabsatz" style-number="s0006" tabs="left:177.20;left:216.00;"
+adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn"
+language="German" left-indent="0.00" line-spacing="-18.00" nest-level="0"
+right-indent="0.00"
+widow-control="true"><para/></paragraph-definition><paragraph-definition
+name="Absatzanfang" style-number="s0005" tabs="left:35.45;" adjust-right="true"
+align="just" font-size="12.00" font-style="Times" language="Danish"
+left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00"
+widow-control="true"><para>Och then femte &#x00C4;ngelen basunadhe, Och iagh
+s&#x00E5;gh ena stierno falla aff himmelen p&#x00E5; iordena. Och honom wardt
+giffuin nyckelen til affgrundens brun. Och han vpl&#x00E4;t affgrundens brun,
+och ther vpgick en r&#x00F6;&#x00F6;k, s&#x00E5;som aff en stoor vgn, Och solen
+och w&#x00E4;dhret wordo f&#x00F6;rm&#x00F6;rkrat aff brunzens
+r&#x00F6;&#x00F6;k. Och vthu r&#x00F6;ken komo gr&#x00E4;szhoppor p&#x00E5;
+iordena, Och them wardt giffuin macht, s&#x00E5;som Scorpioner p&#x00E5;
+iordenne macht haffua. Och wardt sagdt til them, at the icke skulle g&#x00F6;ra
+gr&#x00E4;set p&#x00E5; iordenne skadha, icke heller n&#x00E5;ghot thet
+gr&#x00F6;nt war, icke heller n&#x00E5;ghot tr&#x00E4;&#x00E4;, vthan allena
+menniskionar, the som icke hadhe tekn j sijn anlete. Och them
+wardt</para><para/><para>#781</para><para>giffuit, at the icke skulle
+d&#x00F6;dha them, vthan at the skulle quelia them j fem m&#x00E5;nadher, och
+theras quaal war s&#x00E5;som quaal aff Scorpion, t&#x00E5; han haffuer stunget
+menniskiona. Och j the daghar skola menniskionar s&#x00F6;kia effter
+d&#x00F6;dhen, och skola icke finna honom, Och the skola beg&#x00E4;ra
+d&#x00F6;&#x00F6;, och d&#x00F6;dhen skal flyy jfr&#x00E5;
+them.</para><para/><para>&#x009;Och the gr&#x00E4;szhoppor &#x00E4;ro lijke the
+hestar som til krijgs bereedde &#x00E4;ro, och p&#x00E5; theras hoffuudh
+s&#x00E5;som kronor gulle lijka, och theras ansichte s&#x00E5;som menniskiors
+ansichte, Och the hadhe h&#x00E5;&#x00E5;r s&#x00E5;som
+quinnoh&#x00E5;&#x00E5;r, och theras tender woro s&#x00E5;som Leyons, och hadhe
+pantzar s&#x00E5;som jernpantzar, och bulret aff theras wingar s&#x00E5;som
+wagns buller, ther monge hestar l&#x00F6;pa til krijgs, och hadhe stiertar
+s&#x00E5;som Scorpioner, och gaddar woro j theras stiertar, och theras macht
+war til at quelia menniskionar j fem m&#x00E5;nadher. Och hadhe offuer sigh en
+Konung, en &#x00C4;ngel aff affgrunden, hwilkens nampn p&#x00E5; Ebreisko heter
+Abaddon, p&#x00E5; Grekesko Apollyon. Jtt wee &#x00E4;r framfaret, Och sij,
+h&#x00E4;r komma &#x00E4;n nu tw annor wee
+effter.</para><para/><para>&#x009;Och then siette &#x00C4;ngelen basunadhe, och
+iagh h&#x00F6;rde ena</para><para/><para>#782</para><para>r&#x00F6;st aff the
+fyra h&#x00F6;rn aff thet gyllene Altaret, som &#x00E4;r f&#x00F6;r Gudz
+&#x00F6;ghon, och sadhe til then siette &#x00C4;ngelen som basunen hadhe,
+L&#x00F6;&#x00F6;s the fyra &#x00C4;nglar som bundne &#x00E4;ro vthi then stora
+elffuen Euphrate. Och the fyre &#x00C4;nglar wordo l&#x00F6;se, hwilke bereedde
+woro til ena stund, til en dagh, til en m&#x00E5;nat, och til itt
+&#x00E5;&#x00E5;r, at the skulle d&#x00F6;dha tridie parten aff menniskionar.
+Och talet p&#x00E5; thet resigh tyghet, war mong sinnom tusende tusend, Och
+iagh h&#x00F6;rde theras taal. Och s&#x00E5; s&#x00E5;gh iagh ock hestanar j
+synenne, och the som s&#x00E5;to p&#x00E5; them, the hadhe gl&#x00F6;dhande,
+gohl, och swaffuels pantzar, och hoffuudhen p&#x00E5; hestanar woro
+s&#x00E5;som Leyona hoffuudh, och aff theras munn vthgick eeld, och
+r&#x00F6;&#x00F6;k, och swaffuel. Aff thenna tree pl&#x00E5;ghor wardt
+d&#x00F6;dhat tridie parten aff menniskionar, aff eelden och r&#x00F6;ken, och
+swafflet som vthaff theras munn gick, Ty theras macht war j theras munn och j
+theras stiertar. Och stierterna woro ormom lijke, och hadhe hoffuudh ther the
+skadha medh giorde.</para><para/><para>&#x009;Och woro &#x00E4;n nu menniskior
+som icke woro d&#x00F6;dhadhe aff thenna pl&#x00E5;ghor, och icke
+b&#x00E4;tradhe sigh aff sina
+henders</para><para/><para>#783</para><para>werck, at the icke tilb&#x00E5;dho
+dieffuulskap och affgudhar aff guld, silffuer, koppar, steen och
+tr&#x00E4;&#x00E4;, the ther hwarken see kunna, eller h&#x00F6;ra, eller
+g&#x00E5;, och icke giorde boot f&#x00F6;r sitt moord truldom, sk&#x00F6;rheet
+och tiuffuerij.</para><para/><para>&#x009;&#x009;X.
+Capitel.</para><para/><para>Och iagh s&#x00E5;gh en annan starck &#x00C4;ngel
+nedherkomma aff himmelen, han war kl&#x00E4;dd medh en skyy, och en regnboge
+offuer hans hoffuudh, och hans ansichte s&#x00E5;som solen, och hans
+f&#x00F6;tter s&#x00E5;som eeldzpelare. Och han hade j sinne hand een
+&#x00F6;pen book, Och han satte sin h&#x00F6;gra foot p&#x00E5; haffuet, och
+then wenstra p&#x00E5; iordena, och ropade medh h&#x00F6;gha r&#x00F6;st,
+s&#x00E5;som itt rytande Leyon. Och t&#x00E5; han ropadhe, taladhe siw
+tord&#x00F6;ner sina r&#x00F6;ster. Och t&#x00E5; the siw tord&#x00F6;ner talat
+hadhe sina r&#x00F6;ster, wille iagh scriffuit them. T&#x00E5; h&#x00F6;rde
+iagh ena r&#x00F6;st aff himmelen, s&#x00E4;ya til migh Besegla thet the siw
+tord&#x00F6;ner talat haffua, och scriff thet intet.</para><para>&#x009;Och
+&#x00C4;ngelen som iagh s&#x00E5;gh st&#x00E5; p&#x00E5; haffuet och p&#x00E5;
+iordenne,</para><para/><para>#784</para><para>hooff sina hand vp til himmelen,
+och swoor om honom som leffuer jfr&#x00E5; ewigheet til ewigheet, then ther
+himmelen skapat haffuer och hwadh ther vthi &#x00E4;r, och iordena och hwadh
+ther vthi &#x00E4;r, och haffuet och hwadh ther vthi &#x00E4;r, at ingen tijdh
+skal wara meer, Vthan j the daghar, t&#x00E5; then siwnde &#x00C4;ngelens
+r&#x00F6;st h&#x00F6;res, t&#x00E5; han warder basunandes, t&#x00E5; skal Gudz
+hemligheet fulkompnat warda, s&#x00E5;som han f&#x00F6;rkunnat hadhe genom sina
+tienare och Propheter.</para><para/><para>&#x009;Och iagh h&#x00F6;rde
+&#x00E5;ter ena r&#x00F6;st aff himmelen tala medh migh, och s&#x00E4;ya, Gack,
+och tagh then &#x00F6;pna bokena aff &#x00C4;ngelens hand, som
+st&#x00E5;&#x00E5;r p&#x00E5; haffuet, och p&#x00E5; iordenne. Och iagh gick
+til &#x00C4;ngelen, och sadhe, F&#x00E5; migh bokena. Och han sadhe til migh,
+Tagh bokena och &#x00E4;&#x00E4;t vp henne, och hon skal rijffua tigh j buken,
+men j tin munn skal hon wara s&#x00F6;&#x00F6;t som hannogh. Och iagh toogh
+bokena aff &#x00C4;ngelens hand, och &#x00E5;&#x00E5;t henne vp, Och hon wardt
+j min munn s&#x00F6;&#x00F6;t som hannogh. Och t&#x00E5; iagh hadhe &#x00E4;tit
+henne, reeff hon migh j buken. Och han sadhe til migh, Tu moste &#x00E5;ter
+prophetera folckom, Hedhningom, och tungom&#x00E5;lom, och mongom
+Konungom.</para><para/><para>&#x009;Och migh wardt f&#x00E5;ngen een
+r&#x00F6;&#x00F6; s&#x00E5;som en kepp, och migh wardt sagdt, Statt vp, och
+m&#x00E4;&#x00E4;l Gudz Tempel och Altare, och the som tilbidhia ther inne. Men
+then indra Choren aff Templet kasta vth, och m&#x00E4;&#x00E4;l honom intet, Ty
+han &#x00E4;r giffuin Hedhningomen, Och the skola f&#x00F6;rtrampa then helgha
+stadhen, j tw&#x00E5; och fyratiyo
+m&#x00E5;nadher.</para><para/><para>#785</para><para/><para>&#x009;&#x009;XI.
+Capitel.</para><para/><para>Och iagh skal giffua tw minom witnom, och the skola
+prophetera j tusende twhundradhe och sextiyo daghar, kl&#x00E4;dde j
+s&#x00E4;cker. Thenne &#x00E4;ro tw Oliotr&#x00E4;&#x00E4; och tw bloss,
+st&#x00E5;ndandes f&#x00F6;r iorderikes Gudh.</para><para/><para>&#x009;Och
+hwar n&#x00E5;ghor wille g&#x00F6;ra them skadha, s&#x00E5; g&#x00E5;&#x00E5;r
+eelden vthaff theras munn, och f&#x00F6;rt&#x00E4;rer theras fiendar, Och hwar
+n&#x00E5;ghor wille g&#x00F6;ra them ondt, s&#x00E5; moste han d&#x00F6;dhas.
+Thenne haffua macht til at igenlyckia himmelen, at intet regnar vthi the
+daghar, t&#x00E5; the prophetera, och haffua macht offuer watnet, at
+f&#x00F6;rwenda thet j blodh, och sl&#x00E5; iordena medh allahanda
+pl&#x00E5;gho, s&#x00E5; offta the wilia.</para><para/><para>&#x009;Och
+t&#x00E5; the haffua lychtat sitt witnesbyrd, skal thet Wildiwret som vpstigher
+aff affgrunden, h&#x00E5;lla ena strijdh medh them, och skal offuerwinna them
+och d&#x00F6;dha them. Och theras lekamen skola bliffua liggiandes p&#x00E5;
+gatorna j then stora stadhen, som heter andeligha Sodoma och Egypten, ther
+w&#x00E5;r Herre korszfest &#x00E4;r. Och skola n&#x00E5;ghre aff slechterna
+och folcken, och tungom&#x00E5;len, och aff Hedningarna, see
+theras</para><para/><para>#786</para><para>lekamen j tree daghar och en halff,
+och skola icke wilia tilst&#x00E4;dhia theras lekamen leggias j graffuer. Och
+the p&#x00E5; iordenne boo, skola fr&#x00F6;gda sigh offuer them, och skola
+gl&#x00E4;dhias och senda hwar androm g&#x00E5;ffuor, Ty thenne tw&#x00E5;
+Propheter twingadhe them som boo p&#x00E5;
+iordenne.</para><para/><para>&#x009;Och effter tree daghar och en halff, kom
+lijffzens Ande aff Gudhi vthi them, och he stodho p&#x00E5; sina f&#x00F6;tter,
+Och een stoor f&#x00F6;rskreckelse f&#x00F6;ll p&#x00E5; them som s&#x00E5;gho
+them. Och the h&#x00F6;rde een h&#x00F6;gh r&#x00F6;st aff himmelen,
+s&#x00E4;ya til them, Stigher hijt vp. Och the stegho vp j himmelen vthi en
+skyy, och theras owener s&#x00E5;gho them. Och j samma stundenne wardt en stoor
+iordb&#x00E4;ffuing, och tiyonde delen aff stadhen f&#x00F6;ll nedh. Och
+bliffuo j iordb&#x00E4;ffuingen d&#x00F6;dadhe siw tusend menniskiors nampn,
+och the andra wordo f&#x00F6;rf&#x00E4;radhe, och g&#x00E5;ffuo gudhi j
+himmelen prijs. Thet andra wee gick offuer, och sij, thet tridie wee kommer
+snart.</para><para/><para>&#x009;Och then siwnde &#x00C4;ngelen basunadhe, och
+j himmelen h&#x00F6;rdes h&#x00F6;gha r&#x00F6;ster, the ther sadhe, Thenna
+werldennes Rike &#x00E4;ro worden w&#x00E5;r Herras och hans Christs, Och han
+skal regnera aff ewigheet til ewigheet, Amen. Och the fyra och tiwghu
+&#x00C4;ldste som f&#x00F6;r Gudhi p&#x00E5; sina stolar s&#x00E5;to,
+f&#x00F6;llo p&#x00E5; sijn ansichte och tilb&#x00E5;dho Gudh, och sadhe, Wij
+tackom tigh <inline small-caps="true">Herre</inline> Alzmechtigh Gudh, tu som
+&#x00E4;st och warit haffuer, och tilkommande &#x00E4;st, Ty tu haffuer taghit
+tina stora krafft och regnerat, och Hedhninganar &#x00E4;ro wredhe wordne. Och
+tijn wredhe &#x00E4;r kommen, och the d&#x00F6;dhas tijdh, at the
+skola</para><para/><para>#787</para><para>d&#x00F6;mas, och at tu skalt
+l&#x00F6;na tina tienare, Propheter och helghon, och them som fruchta titt
+nampn, sm&#x00E5; och stora, och f&#x00F6;rderffua them som iordena
+f&#x00F6;rderffuat haffua.</para><para/><para>&#x009;Och Gudz Tempel wardt
+vpl&#x00E5;tet j himmelen, och hans Testamentz Arck wardt seedd j hans Tempel,
+Och ther skeedde liwngeeld och r&#x00F6;ster, och tord&#x00F6;ner, och
+iordb&#x00E4;ffuing, och stoort haghel.</para><para/><para>&#x009;&#x009;XII.
+Capitel.</para><para/><para>Och j himmelen syntes itt stoort tekn, Een quinna
+bekl&#x00E4;dd med solenne, och m&#x00E5;nen vnder hennes f&#x00F6;tter, och
+p&#x00E5; hennes hoffuudh een krona aff tolff stiernor. Och hon war haffuande,
+ropadhe och pintes medh barn, och hadhe stoort qual til at
+f&#x00F6;da.</para><para/><para>&#x009;Och s&#x00E5; syntes itt annat tekn j
+himmelen, och sij, en stoor r&#x00F6;dh drake, som hadhe siw hoffuudh och tiyo
+horn, Och p&#x00E5; hans hoffuudh siw kronor, och hans stiert droogh tridie
+parten aff himmelens stiernor, och kastadhe them nedh p&#x00E5;
+iordena.</para><para/><para>&#x009;Och draken stoodh f&#x00F6;r quinnonne som
+f&#x00F6;dha skulle, P&#x00E5; thet, n&#x00E4;r hon f&#x00F6;dt hadhe, skulle
+han vp&#x00E4;ta hennes barn.</para><para/><para>#788</para><para>Och hon
+f&#x00F6;dde itt swenbarn, som regera skulle alla Hedhningar medh jernrijsz.
+Och hennes barn wardt borttaghet til Gudh och til hans stool. Och quinnan
+flydde vthi &#x00F6;knena ther hon rwm hadhe, bereedt aff Gudhi, at hon ther
+f&#x00F6;dhas skulle j tusende twhundradhe och sextiyo
+daghar.</para><para/><para>&#x009;Och thet wardt een stoor strijdh j himmelen,
+Michael och hans &#x00C4;nglar stridde medh Drakan, och Draken stridde och hans
+&#x00C4;nglar, och the wunno intet, Och theras rwm wardt icke meer funnet j
+himmelen. Och then store Draken, then gamle Ormen, then ther heter dieffuul och
+Satanas, wardt vthkastat, then ther bedragher hela werldena, och han wardt
+kastat p&#x00E5; iordena, och hans &#x00C4;nglar wordo ock bortkastadhe medh
+honom.</para><para/><para>&#x009;Och iagh h&#x00F6;rde een stoor r&#x00F6;st
+som sadhe j himmelen. Nu &#x00E4;r w&#x00E5;r Gudz saligheet, och krafft, och
+Rike, och macht, hans Christs worden, effter w&#x00E5;ra br&#x00F6;dhers
+beklaghare &#x00E4;r f&#x00F6;rkastat, then them beklagadhe f&#x00F6;r Gudh
+dagh och natt. Och the wunno honom f&#x00F6;r Lambsens blodh skul, och
+f&#x00F6;r thes witnesbyrdz ord skul, och the haffua icke elskat sitt lijff alt
+in til d&#x00F6;dhen. Therf&#x00F6;re gl&#x00E4;dhens j himlar, och the som boo
+j them. Wee them som boo p&#x00E5; iordenne och p&#x00E5; haffuet, Ty
+dieffuulen stigher nedh til idher, och haffuer een stoor wredhe, wetandes, at
+han icke long tijdh haffuer.</para><para/><para>&#x009;Och t&#x00E5; Draken
+s&#x00E5;gh, at han f&#x00F6;rkastat war p&#x00E5; iordena, f&#x00F6;rfolgde
+han quinnona, som swenbarnet f&#x00F6;dt hadhe. Och quinnonne wordo giffne
+tw&#x00E5; wingar, s&#x00E5;som aff en stoor &#x00F6;rn, at hon skulle flygha
+vthi &#x00F6;knena vthi sitt rwm, ther
+hon</para><para/><para>#789</para><para>f&#x00F6;dhes en tijdh, och tw&#x00E5;
+tijdher, och en halff tijdh, jfr&#x00E5; Ormsens ansichte. Och Ormen sputadhe
+vthu sin munn watn s&#x00E5;som en str&#x00F6;m effter quinnona, P&#x00E5; thet
+han skulle f&#x00F6;rdrenckia henne. Men iorden halp quinnonne, och
+vpl&#x00E4;t sin munn, och vpswalgh str&#x00F6;men som Draken aff sin munn
+vthsputat hadhe. Och Draken wardt wreedh p&#x00E5; quinnona, och gick bortt, at
+han skulle &#x00F6;rligha medh the andra aff hennes s&#x00E4;dh, the som
+h&#x00E5;lla Gudz bodh, och haffua Jesu Christi witnesbyrd. Och han stoodh
+p&#x00E5; haffzens sand.</para><para/><para>&#x009;&#x009;XIII.
+Capitel.</para><para/></paragraph-definition><paragraph-definition
+name="Anfangsabsatz" style-number="s0006" tabs="left:177.20;left:216.00;"
+adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn"
+language="German" left-indent="0.00" line-spacing="-18.00" nest-level="0"
+right-indent="0.00" widow-control="true"><para><inline
+font-style="Times">O</inline><inline font-style="Times">ch iagh s&#x00E5;gh itt
+Wildiwr vpstigha vthu haffuet, thet hadhe siw hoffuudh och tiyo horn, och
+p&#x00E5; thes horn tiyo kronor, och p&#x00E5; thes hoffuudh h&#x00E4;dhelsens
+nampn. Och Wildiwret som iagh s&#x00E5;gh, thet war lijkt enom Pardel, och thes
+f&#x00F6;tter s&#x00E5;som Bi&#x00F6;rnaf&#x00F6;tter, och thes munn
+s&#x00E5;som Leyons munn. Och Draken gaff thy sina krafft, och sin stool, och
+stora macht. Och iagh s&#x00E5;gh itt aff hans hoffuudh, s&#x00E5;som sarghat
+til d&#x00F6;dz, och thes d&#x00F6;dzs&#x00E5;&#x00E5;r wardt igenl&#x00E4;kt.
+Och hela iorden f&#x00F6;rundradhe sigh p&#x00E5; Wildiwret, och
+tilb&#x00E5;dho Drakan, som Wildiwrena hadhe macht giffuit, och the
+tilb&#x00E5;dho Wildiwret, s&#x00E4;yandes, Hoo &#x00E4;r Wildiwret lijk? Eller
+hoo f&#x00F6;rm&#x00E5; strijdha emoot
+thy?</inline></para><para/><para>&#x009;<inline font-style="Times">Och thy
+wardt giffuit en munn, til at tala stoor ting och h&#x00E4;dhelse, och thy
+wardt giffuit macht, til at bruka sigh j</inline></para><para/><para><inline
+font-style="Times">#790</inline></para><para><inline
+font-style="Times">tw&#x00E5; och fyratiyo m&#x00E5;nadher. Och thet vplyffte
+sin munn, til at tala h&#x00E4;dhelse emoot Gudh, til at h&#x00E4;dha hans
+nampn och hans Tabernakel, och them som boo j himmelen. Och thy wardt
+medhgiffuit strijdha medh helghonen, och winna them. Och thy wardt giffuin
+macht offuer all slechter, och folck, och tungom&#x00E5;l, och Hedhningar, Och
+alle the som p&#x00E5; iordenne boo, tilb&#x00E5;dho thet, hwilkas nampn icke
+scriffuen &#x00E4;ro j Lambsens lijffz book, hwilket d&#x00F6;dhat &#x00E4;r
+jfr&#x00E5; werldennes begynnelse. </inline><inline font-style="Times">Then
+ther &#x00F6;ra haffuer, han h&#x00F6;re. </inline><inline
+font-style="Times">Then ther ledher j f&#x00E4;ngelse, han skal g&#x00E5; j
+f&#x00E4;ngelse. Then ther dr&#x00E4;per medh swerd, han moste d&#x00F6;dhas
+medh swerd. </inline><inline font-style="Times">H&#x00E4;r &#x00E4;r the
+helighas tolamodh och
+troo.</inline></para><para/></paragraph-definition><paragraph-definition
+name="Absatzanfang" style-number="s0005" tabs="left:35.45;" adjust-right="true"
+align="just" font-size="12.00" font-style="Times" language="Danish"
+left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00"
+widow-control="true"><para>&#x009;Och iagh s&#x00E5;gh itt annat Wildiwr
+vpstigha vthu iordenne, och thet hadhe tw horn lijka som Lambet, och thet
+taladhe som Draken, Och thet g&#x00F6;r alla thes f&#x00F6;rsta Wildiwrsens
+macht, j thes &#x00E5;syyn, Och thet kommer iordena och them ther p&#x00E5;
+boo, til at tilbidhia thet f&#x00F6;rsta Wildiwret, hwilkes
+d&#x00F6;dzs&#x00E5;&#x00E5;r igenl&#x00E4;kt war. Och thet g&#x00F6;r stoor
+tekn, s&#x00E5; at thet ock l&#x00E4;ter eeld falla nedh aff himmelen p&#x00E5;
+iordena j menniskiors</para><para/><para>#791</para><para>&#x00E5;syyn, Och
+thet bedragher them som boo p&#x00E5; iordenne, f&#x00F6;r the tekn skul som
+thy giffuin &#x00E4;ro, at g&#x00F6;ra f&#x00F6;r Wildiwret, s&#x00E4;yandes
+til them som boo p&#x00E5; iordenne, at the skola g&#x00F6;ra Wildiwrena, som
+sarghat war aff swerd, och war leffuande wordet, itt
+belete.</para><para/><para>&#x009;Och thy wardt giffuit, at thet skulle giffua
+Wildiwrens belete anda, och at Wildiwrens belete skulle tala, och s&#x00E5;
+bestellat, at huilke som helst icke tilb&#x00E5;dho Wildiwrens belete, skulle
+d&#x00F6;dhas. Och thet l&#x00E4;t alla, sm&#x00E5; och stora, rijka och
+fattigha, friya och eghna tagha wedhertekn vthi theras h&#x00F6;ghra hand,
+eller p&#x00E5; theras anlete, at ingen skal m&#x00E5; k&#x00F6;pa eller
+s&#x00E4;lia, vthan then ther haffuer wedherteknet, eller Wildiwrens nampn,
+eller thes nampns taal. H&#x00E4;r &#x00E4;r wijsdomen. Then ther
+f&#x00F6;rst&#x00E5;nd haffuer, han rekne Wildiwrens taal, Ty thet &#x00E4;r
+eens menniskios taal, Och thes taal &#x00E4;r sexhundrat sextiyo och
+sex.</para><para/><para>&#x009;&#x009;XIIII.
+Capitel.</para><para/></paragraph-definition><paragraph-definition
+name="Anfangsabsatz" style-number="s0006" tabs="left:177.20;left:216.00;"
+adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn"
+language="German" left-indent="0.00" line-spacing="-18.00" nest-level="0"
+right-indent="0.00" widow-control="true"><para><inline
+font-style="Times">O</inline><inline font-style="Times">ch iagh s&#x00E5;gh,
+och sij, Jtt Lamb stoodh p&#x00E5; Zions bergh, och medh thy hundradhe fyra och
+fyratiyo tusend, the hadhe thes Fadhers nampn bescriffuit p&#x00E5; sijn
+anlete. </inline><inline font-style="Times">Och iagh h&#x00F6;rde ena
+r&#x00F6;st aff himmelen, s&#x00E5;som aff itt stoort watn, och s&#x00E5;som
+ena r&#x00F6;st aff en stoor tord&#x00F6;n. Och r&#x00F6;sten som iagh
+h&#x00F6;rde, war s&#x00E5;som harpolekares, the ther leekte p&#x00E5; sina
+harpor. </inline><inline font-style="Times">Och the sungo s&#x00E5;som en ny
+song f&#x00F6;r stolen, och</inline></para><para/><para><inline
+font-style="Times">#792</inline></para><para><inline
+font-style="Times">f&#x00F6;r the fyra diwren, och f&#x00F6;r the
+&#x00C4;ldsta. </inline><inline font-style="Times">Och ingen kunde l&#x00E4;ra
+then songen, vthan the hundradhe fyra och fyratiyo tusend, som k&#x00F6;pte
+&#x00E4;ro aff. iordenne. Thenne &#x00E4;ro the, som medh quinnor icke
+besmittadhe &#x00E4;ro, Ty the &#x00E4;ro Jungfrwr, och f&#x00F6;lia Lambet
+ehwart thet g&#x00E5;&#x00E5;r. Thenne &#x00E4;ro k&#x00F6;pte jfr&#x00E5;
+menniskionar, til en f&#x00F6;rstling Gudhi och Lambena, och j theras munn
+&#x00E4;r intet swek funnet, Ty the &#x00E4;ro vthan smitto f&#x00F6;r Gudz
+stool.</inline></para><para/></paragraph-definition><paragraph-definition
+name="Absatzanfang" style-number="s0005" tabs="left:35.45;" adjust-right="true"
+align="just" font-size="12.00" font-style="Times" language="Danish"
+left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00"
+widow-control="true"><para>&#x009;Och iagh s&#x00E5;gh en annan &#x00C4;ngel
+flygha mitt genom himmelen, han hadhe itt ewigt Euangelium, thet han
+f&#x00F6;rkunna skulle them som p&#x00E5; iordenne boo, och allom Hedhningom,
+och slechtom, och tungom&#x00E5;lom, och folckom, och sadhe medh h&#x00F6;gha
+r&#x00F6;st, Fruchter Gudh, och giffuer honom &#x00E4;ro, Ty stunden &#x00E4;r
+kommen til hans Doom, och tilbedher honom, som haffuer giordt himmel och iord,
+haffuet och watukellonar. Och en annar &#x00C4;ngel folgde effter, och sadhe,
+Fallen, fallen &#x00E4;r then store stadhen Babylon, Ty han haffuer dricka
+giffuit allom Hedhningom aff wredhennes wijn sins
+bolerijs.</para></paragraph-definition><paragraph-definition
+name="Anfangsabsatz" style-number="s0006" tabs="left:177.20;left:216.00;"
+adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn"
+language="German" left-indent="0.00" line-spacing="-18.00" nest-level="0"
+right-indent="0.00"
+widow-control="true"><para/></paragraph-definition><paragraph-definition
+name="Absatzanfang" style-number="s0005" tabs="left:35.45;" adjust-right="true"
+align="just" font-size="12.00" font-style="Times" language="Danish"
+left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00"
+widow-control="true"><para>&#x009;Och tridie &#x00C4;ngelen folgde them, och
+sadhe medh h&#x00F6;gha</para><para/><para>#793</para><para>r&#x00F6;st, Huar
+n&#x00E5;ghor tilbedher Wildiwret, och thes belete, och tagher thes wedhertekn
+p&#x00E5; sitt anlete, eller p&#x00E5; sijn hand, han skal ock dricka aff Gudz
+wredhes wijn, thet inskenckt och klart &#x00E4;r j hans wredhes kalk, och han
+skal warda pl&#x00E5;ghat medh eeld och swaffuel j helgha &#x00C4;nglars
+&#x00E5;syyn, och j Lambsens &#x00E5;syyn. Och r&#x00F6;ken aff theras
+pl&#x00E5;gho, skal vpstigha aff ewigheet til ewigheet. Och the haffua huarken
+dagh eller natt roo, som tilbidhia Wildiwret och thes belete, och ther
+n&#x00E5;ghor taghet haffuer thes nampns wedhertekn. H&#x00E4;r &#x00E4;r the
+helighas tolamodh, H&#x00E4;r &#x00E4;ro the som h&#x00E5;lla Gudz bodh och
+Jesu troo.</para><para/><para>&#x009;Och iagh h&#x00F6;rde ena r&#x00F6;st aff
+himmelen, s&#x00E4;ya til migh, Scriff, Salighe &#x00E4;ro the d&#x00F6;dhe,
+som j Herranom d&#x00F6;&#x00F6; h&#x00E4;r effter, Ja, Anden s&#x00E4;gher, at
+the skola hwila sigh jfr&#x00E5; sitt arbete, Ty theras gerningar f&#x00F6;lia
+them effter.</para><para/><para>&#x009;Och iagh s&#x00E5;gh, och sij, en hwijt
+skyy, och p&#x00E5; skynom satt en, som lijk war menniskionnes Son, och hadhe
+p&#x00E5; sitt hoffuudh ena gulkrono, och j hans hand en hwass liye. Och en
+annar &#x00C4;ngel kom vthu Templet, och ropadhe medh h&#x00F6;gha r&#x00F6;st
+til then som satt p&#x00E5; skynom, Hugg til
+medh</para><para/><para>#794</para><para>tin liya, och sk&#x00E4;&#x00E4;r, Ty
+tijdhen &#x00E4;r tigh kommen, at tu skalt sk&#x00E4;ra, ty s&#x00E4;dhen
+p&#x00E5; iordenne &#x00E4;r torr worden. Och han som satt p&#x00E5; skyyn,
+h&#x00F6;gg til medh sin liya p&#x00E5; iordena, och iorden wardt
+affskoren.</para><para/><para>&#x009;Och en annar &#x00C4;ngel kom vthu Templet
+som j himmelen &#x00E4;r, then ock en hwass liya hadhe. Och en annar
+&#x00C4;ngel kom vthu Altaret, then macht hadhe offuer eelden. Och ropadhe medh
+h&#x00F6;gha r&#x00F6;st til honom som hadhe then hwassa liyan, och sadhe, Hugg
+til medh tin hwassa liya, och sk&#x00E4;&#x00E4;r vp wijnquistanar p&#x00E5;
+iordenne, Ty hennes wijnb&#x00E4;r &#x00E4;ro moghen. Och &#x00C4;ngelen
+h&#x00F6;gg til medh sin skarpa liya p&#x00E5; iordena, och skaar vp
+wijng&#x00E5;rdanar p&#x00E5; iordenne, och kastadhe them vthi Gudz wredhes
+stora press. Och wardt pressen trampat vthan stadhen, och blodhet gick vth aff
+pressen, alt in til betzlen p&#x00E5; hestanar, vthoffuer tusende sexhundrat
+stadier w&#x00E4;gs.</para><para/><para>&#x009;&#x009;XV.
+Capitel.</para><para/><para>Och iagh s&#x00E5;gh itt annat tekn j himmelen,
+stoort och vnderlighit, Siw &#x00C4;nglar som hadhe siw the yttersta
+pl&#x00E5;ghor, Ty medh them &#x00E4;r fulkompnat Gudz wredhe. Och iagh
+s&#x00E5;gh s&#x00E5;som itt glaszhaaff beblandat medh eeld, och them
+st&#x00E5; p&#x00E5; samma glaszhaaff, som segher wunnet hadhe p&#x00E5;
+Wildiwret och thes belete, och wedhertekn, och p&#x00E5; thes nampns taal, Och
+the hadhe Gudz harpor, och sungo Mosi Gudz tienares song, och Lambsens song,
+s&#x00E4;yandes, Stoor och vnderligh &#x00E4;ro tijn werck, <inline
+small-caps="true">Herre</inline> Gudh alzwolligh retferdighe och sanne
+&#x00E4;ro tine w&#x00E4;ghar, tu helghonens Konung. Hoo skulle
+icke</para><para/><para>#795</para><para>fruchta och prijsa titt nampn, <inline
+small-caps="true">Herre</inline>? Ty tu &#x00E4;st allena heligh, och alle
+Hedhningar skola komma och tilbidhia j tijn &#x00E5;syyn, Ty tine domar
+&#x00E4;ro vppenbare wordne.</para><para/><para>&#x009;Sedhan s&#x00E5;gh iagh,
+och sij, Witnesbyrdzens Tabernakels Tempel wardt &#x00F6;pnat j himmelen, och
+gingo ther vth aff Templet the siw &#x00C4;nglar som the siw pl&#x00E5;ghor
+hadhe, kl&#x00E4;dde vthi reen, hwijt lijnkl&#x00E4;dher, och vmgiordadhe kring
+om br&#x00F6;stet medh gyllene belte. Och itt aff the fyra diwren, gaff the siw
+&#x00C4;nglar siw gyllene sk&#x00E5;lar, fulla medh Gudz wredhe, then ther
+leffuer aff ewigheet til ewigheet. Och Templet wardt vpfylt medh
+r&#x00F6;&#x00F6;k aff Gudz herligheet, och aff hans krafft, och ingen kunde
+g&#x00E5; in j Templet, til tess the siw pl&#x00E5;ghor, som the siw
+&#x00C4;nglar hadhe, fulkompnadhe wordo.</para><para/><para>&#x009;&#x009;XVI.
+Capitel.</para><para/><para>Och iagh h&#x00F6;rde ena stora r&#x00F6;st vthu
+Templet, Then sadhe til the siw &#x00C4;nglar, G&#x00E5;&#x00E5;r, och
+vthgiwter the Gudz wredhes sk&#x00E5;lar p&#x00E5;
+iordena.</para><para/><para>&#x009;Och then f&#x00F6;rste &#x00C4;ngelen gick
+&#x00E5;stadh, och g&#x00F6;&#x00F6;t sina
+sk&#x00E5;&#x00E5;l</para><para/><para>#796</para><para>vth p&#x00E5; iordena,
+och thet wardt itt ondt och skadhelighit s&#x00E5;&#x00E5;r p&#x00E5;
+menniskiomen, the som Wildiwrsens wedhertekn hadhe, och p&#x00E5; them som
+tilb&#x00E5;dho thes belete.</para><para/><para>&#x009;Och then andre
+&#x00C4;ngelen g&#x00F6;&#x00F6;t vth sina sk&#x00E5;&#x00E5;l j haffuet. Och
+thet wardt s&#x00E5;som eens d&#x00F6;dz manz blodh, och alt thet lijff hadhe j
+haffuet, bleff d&#x00F6;dt.</para><para/><para>&#x009;Och then tridie
+&#x00C4;ngelen g&#x00F6;&#x00F6;t vth sina sk&#x00E5;&#x00E5;l j elffuenar, och
+j watukellonar, och thet wardt blodh. Och iagh h&#x00F6;rde en &#x00C4;ngel
+s&#x00E4;ya, Retferdigh &#x00E4;stu <inline small-caps="true">Herre</inline>,
+som &#x00E4;st, och warit haffuer, och heligh, at tu thetta d&#x00F6;mdt
+haffuer. Ty the haffua vthgutit helghonens och Propheternars blodh, och blodh
+haffuer tu ock giffuit them dricka, Ty the &#x00E4;ro thes werde. Och iagh
+h&#x00F6;rde en annan &#x00C4;ngel s&#x00E4;ya, Ja <inline
+small-caps="true">Herre</inline> Gudh alzwolligh, sanne och rette &#x00E4;ro
+tine domar.</para><para/><para>&#x009;Och then fierde &#x00C4;ngelen
+g&#x00F6;&#x00F6;t vth sina sk&#x00E5;&#x00E5;l j solena, och honom wardt
+giffuit at pl&#x00E5;gha menniskionar medh heta aff eeld. Och menniskionar
+wordo brinnande vthi stoor heta, Och the h&#x00E4;dde Gudz nampn som machtena
+hadhe offuer thenna pl&#x00E5;ghor, och giorde inga syndab&#x00E4;tring, at the
+m&#x00E5;tte giffuit honom &#x00E4;ro.</para><para/><para>&#x009;Och then femte
+&#x00C4;ngelen g&#x00F6;&#x00F6;t vth sina sk&#x00E5;&#x00E5;l p&#x00E5;
+Wildiwrsens stool, och thes Rike wardt f&#x00F6;rm&#x00F6;rkrat, och the
+s&#x00F6;nderbitto sina tungor f&#x00F6;r werck skul, och h&#x00E4;dde Gudh j
+himmelen f&#x00F6;r sin werck och sijn s&#x00E5;&#x00E5;r skul, och
+b&#x00E4;tradhe sigh intet aff sina gerningar.</para><para/><para>&#x009;Och
+then siette &#x00C4;ngelen g&#x00F6;&#x00F6;t vth sina sk&#x00E5;&#x00E5;l,
+p&#x00E5; then stora</para><para/><para>#797</para><para>elffuena Euphraten,
+Och watnet borttorkadhes, P&#x00E5; thet w&#x00E4;ghen skulle beredhas
+f&#x00F6;r the Konungar &#x00F6;stan effter. Och iagh s&#x00E5;gh vthu Drakans
+munn, och vthu Wildiwrsens munn, och vthu then falska Prophetens munn,
+vthg&#x00E5; tree orena andar s&#x00E5;som paddor. Och thet &#x00E4;ro
+dieffuulsens andar, som tekn g&#x00F6;ra, och vthg&#x00E5; til Konunganar
+p&#x00E5; hela iordenne, at f&#x00F6;rsamla them til strijdz, p&#x00E5; then
+stora alzwolligha Gudz dagh. Sij, iagh kommer som tiuffuen pl&#x00E4;ghar
+komma, Saligh &#x00E4;r then som wakar och f&#x00F6;rwarar sijn kl&#x00E4;dher,
+at han icke g&#x00E5;&#x00E5;r naken, och the f&#x00E5; see hans skam. Och han
+f&#x00F6;rsamladhe them p&#x00E5; itt rwm, thet heter p&#x00E5; Ebreisko
+Harmagedon.</para><para/><para>&#x009;Och then siwnde &#x00C4;ngelen
+g&#x00F6;&#x00F6;t vth sina sk&#x00E5;&#x00E5;l j w&#x00E4;dhret, och gick een
+stoor r&#x00F6;st vthaff himmelen jfr&#x00E5; stolen, som sadhe, Thet &#x00E4;r
+giordt. Och thet wardt liungeeld, och r&#x00F6;ster, och tord&#x00F6;n, och
+stoor iordb&#x00E4;ffuing, s&#x00E5;dana at thes lijke icke warit hadhe, sedhan
+menniskionar p&#x00E5; iordenne warit hadhe, s&#x00E5;dana iordb&#x00E4;ffuing,
+s&#x00E5; stoor. Och then store stadhen wardt j tree delar, och Hedhninganars
+st&#x00E4;dher f&#x00F6;llo. Och then stora Babylon kom j &#x00E5;minnelse
+f&#x00F6;r Gudhi, at han wille giffua honom kalken aff sinne grymma wredhes
+wijn. Och alla &#x00F6;yar flydde, och berghen funnos intet. Och stoort haghel
+s&#x00E5;som en Centener, kom nedher aff himmelen p&#x00E5; menniskionar. Och
+menniskionar h&#x00E4;dde Gudh, f&#x00F6;r then stora pl&#x00E5;gho aff haglet,
+Ty thes pl&#x00E5;gha war ganska
+stoor.</para><para/><para>#798</para><para/><para>&#x009;&#x009;XVII.
+Capitel.</para><para/><para>Och kom en aff the siw &#x00C4;nglar som hadhe the
+siw sk&#x00E5;lar, och taladhe medh migh, och sadhe til migh, Kom, iagh wil
+wisa tigh then stora sk&#x00F6;kionnes f&#x00F6;rd&#x00F6;melse, som sitter
+p&#x00E5; mykin watn, medh hwilka Konunganar p&#x00E5; iordenne bolat haffua,
+och the ther p&#x00E5; iordenne boo, &#x00E4;ro druckne wordne aff hennes
+bolerijs wijn. Och han f&#x00F6;rde migh j Andanom vthi &#x00F6;knena. Och iagh
+s&#x00E5;gh quinnona sittia p&#x00E5; itt rosenfergho Wildiwr, thet war fult
+medh h&#x00E4;dhelse nampn, och hadhe siw hoffuudh och tiyo horn. Och quinnan
+war kl&#x00E4;dd medh purpur och rosenfergho, och offuergylt medh gull och
+&#x00E4;dhla stenar, och perlor, och hadhe en gyllene kalk j sinne hand, full
+medh styggelse, och sins bolerijs oreenligheet. Och p&#x00E5; hennes anlete
+scriffuit thet nampn, Hemligheet, then stora Babylon, modhren til bolerij och
+til styggelse p&#x00E5; iordenne. Och iagh s&#x00E5;gh quinnona drukna aff
+helghonens blodh, och aff theras blodh som Jesu witne woro. Och iagh
+f&#x00F6;rundradhe migh stoorligha t&#x00E5; iagh s&#x00E5;gh
+henne.</para><para/><para>&#x009;Och &#x00C4;ngelen sadhe til migh, Hwj
+f&#x00F6;rundrar tu tigh?</para><para/><para>#799</para><para>Jagh wil
+s&#x00E4;ya tigh hemligheten om thenna quinnona, och om Wildiwret som
+b&#x00E4;&#x00E4;r henne, och haffuer siw hoffuudh och tiyo horn. Wildiwret som
+tu haffuer seedt, haffuer warit, och &#x00E4;r icke, och thet skal &#x00E5;ter
+vpkomma vthaff affgrunden, och skal g&#x00E5; vthi f&#x00F6;rd&#x00F6;melse,
+Och the som p&#x00E5; iordenne boo, skola f&#x00F6;rundra sigh, hwilkas nampn
+icke scriffuen &#x00E4;ro j lijffzens book jfr&#x00E5; werldennes begynnelse,
+t&#x00E5; the see Wildiwret som haffuer warit, och icke &#x00E4;r,
+&#x00E4;ndoch thet &#x00E4;r. Och h&#x00E4;r &#x00E4;r sinnet, ther wijsdom
+tilh&#x00F6;rer.</para><para/><para>&#x009;The siw hoffuudh &#x00E4;ro siw
+bergh, ther quinnan sitter vpp&#x00E5;, och thet &#x00E4;ro siw Konungar. Fem
+&#x00E4;ro falne, en &#x00E4;r, och then andre &#x00E4;r icke &#x00E4;n nu
+kommen, Och n&#x00E4;r han kommer, skal han icke lenge bliffua. Och Wildiwret
+som haffuer warit, och icke &#x00E4;r, then &#x00E4;r then ottonde, och han
+&#x00E4;r vthaff the siw, och han g&#x00E5;&#x00E5;r vthi
+f&#x00F6;rd&#x00F6;melse. Och the tiyo horn som tu seedt haffuer, &#x00E4;ro
+tiyo Konungar, som &#x00E4;n nu icke haffua f&#x00E5;&#x00E5;t Rike, vthan
+skola s&#x00E5;som Konungar p&#x00E5; een stund f&#x00E5; macht medh Wildiwret.
+Thenne haffua alle itt r&#x00E5;dh, och skola giffua Wildiwrena sina macht och
+krafft. The skola strijdha medh Lambena, och Lambet skal winna them, Ty thet
+&#x00E4;r en Herre offuer alla Herrar, <inline italics="true">o</inline>ch en
+Konung offuer alla Konungar, och medh thy &#x00E4;ro the vthkalladhe, och
+vthkoradhe och troghne.</para><para/><para>&#x009;Och han sadhe til migh,
+Watnet som tu s&#x00E5;gh, ther sk&#x00F6;kian sitter p&#x00E5;, &#x00E4;r
+folck och skarar, och Hedhningar, och tungom&#x00E5;l. Och the tiyo horn som tu
+seedt haffuer p&#x00E5; Wildiwret,
+skola</para><para/><para>#800</para><para>hata sk&#x00F6;kiona, och leggia
+henne &#x00F6;dhe och naken, och the skola vp&#x00E4;ta hennes k&#x00F6;tt, och
+brenna henne vp j eeld, Ty Gudh haffuer giffuit them j hiertat, at the skola
+g&#x00F6;ra thet honom behagar, och g&#x00F6;ra alle ena mening, at the skulle
+giffua Wildiwrena Riket, til tess Gudz ord warda fulkompnat. Och quinnan som tu
+seedt haffuer, &#x00E4;r then stora stadhen, som Rike haffuer offuer iordennes
+Konungar.</para><para/><para>&#x009;&#x009;XVIII.
+Capitel</para><para/></paragraph-definition><paragraph-definition
+name="Anfangsabsatz" style-number="s0006" tabs="left:177.20;left:216.00;"
+adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn"
+language="German" left-indent="0.00" line-spacing="-18.00" nest-level="0"
+right-indent="0.00" widow-control="true"><para><inline
+font-style="Times">O</inline><inline font-style="Times">ch sedhan s&#x00E5;gh
+iagh en annan &#x00C4;ngel komma nedher aff himmelen, then stora macht hadhe,
+och iorden wardt vplyst aff hans klarheet. Och han ropadhe medh macht och
+h&#x00F6;gha r&#x00F6;st, s&#x00E4;yandes, Fallen, Fallen &#x00E4;r then stora
+Babylon, och &#x00E4;r worden dieffla boning, och alla orena Andars
+beh&#x00E5;ll, och alla orena och ohyggeligha foglars beh&#x00E5;ll, Ty alle
+Hedhningar haffua drucket aff wredhennes wijn hennes bolerijs, och Konunganar
+p&#x00E5; iordenne, haffua bolat medh henne, och k&#x00F6;pm&#x00E4;nnenar
+p&#x00E5; iordenne, &#x00E4;ro rijke wordne aff hennes stora
+wellust.</inline></para><para/></paragraph-definition><paragraph-definition
+name="Absatzanfang" style-number="s0005" tabs="left:35.45;" adjust-right="true"
+align="just" font-size="12.00" font-style="Times" language="Danish"
+left-indent="0.00" line-spacing="-18.00" nest-level="0" right-indent="0.00"
+widow-control="true"><para>&#x009;Och iagh h&#x00F6;rde ena andra r&#x00F6;st
+aff himmelen, som sadhe J mitt folck, g&#x00E5;&#x00E5;r vth jfr&#x00E5; henne,
+at j icke deelachtighe warden j hennes synder, och at j icke f&#x00E5;&#x00E5;n
+n&#x00E5;ghot aff hennes pl&#x00E5;ghor, Ty hennes synder reckia alt vp j
+himmelen, Och Herren</para><para/><para>#801</para><para>haffuer draghet til
+minnes hennes oretferdigheter. Betaler henne, s&#x00E5;som hon haffuer betalat
+idher, och g&#x00F6;rer henne dobbelt effter hennes gerningar. Och medh samma
+kalk som hon haffuer skenckt idher, skencker henne dobbelt. S&#x00E5; mykit hon
+sigh haffuer herligha h&#x00E5;llet och j wellust warit, s&#x00E5; mykit
+skencker henne pino och gr&#x00E5;&#x00E5;t. Ty hon s&#x00E4;gher j sitt
+hierta, Jagh sitter, och &#x00E4;r een Drotning och icke &#x00E4;nkia, och
+haffuer ingen sorgh. Therf&#x00F6;re skola hennes pl&#x00E5;ghor komma
+p&#x00E5; en dagh, d&#x00F6;dh, gr&#x00E5;&#x00E5;t och hunger, och hon skal
+warda vpbrend j eeld, Ty Herren Gudh &#x00E4;r starck, som henne d&#x00F6;ma
+skal.</para><para/><para>&#x009;Och iordennes Konungar skola gr&#x00E5;ta
+henne, och beklagha sigh offuer henne, the som medh henne bolat, och j wellust
+leffuat haffua, t&#x00E5; the f&#x00E5; see r&#x00F6;ken aff hennes brand, Och
+skola st&#x00E5; longt jfr&#x00E5; f&#x00F6;r hennes pl&#x00E5;ghos redhogha
+skul, och s&#x00E4;ya, Wee, wee then stora stadhen Babylon, then starcka
+stadhen, Ty vthi een stund &#x00E4;r tin doom kommen. Och
+k&#x00F6;pm&#x00E4;nnenar</para><para/><para>#802</para><para>p&#x00E5;
+iordenne skola gr&#x00E5;ta och s&#x00F6;rya widh sigh sielffua, at ingen
+k&#x00F6;per theras waror meer, gull och silffuer, och &#x00E4;dhla stenar, och
+perlor och silke, och purpur och skarlakan, och alt Thynen tr&#x00E4;&#x00E4;,
+och all k&#x00E4;rill aff Elpenbeen, och all k&#x00E4;rill aff kostelighit
+tr&#x00E4;&#x00E4;, och aff koppar, och jern, och marmor, och kaneel, och
+timian, och saluo, och r&#x00F6;kelse, och wijn, och olio, och semlor, och
+hwete, och booskap, och f&#x00E5;&#x00E5;r, och hestar, och wagnar och kroppar
+och menniskiors si&#x00E4;lar.</para><para/><para>&#x009;Och the &#x00E4;ple
+som tijn si&#x00E4;l beg&#x00E4;rar, &#x00E4;ro bortkomen jfr&#x00E5; tigh, och
+alt thet fett och herlighit war, &#x00E4;r f&#x00F6;rg&#x00E5;nget jfr&#x00E5;
+tigh, och tu skalt icke nu finnat h&#x00E4;r effter. K&#x00F6;pm&#x00E4;nnenar
+som s&#x00E5;dana waror pl&#x00E4;gha haffua, och &#x00E4;ro rijke wordne aff
+honom, skola st&#x00E5; longt jfr&#x00E5; f&#x00F6;r reddhogha skul aff hans
+pl&#x00E5;gho, gr&#x00E5;ta och s&#x00F6;rya, och s&#x00E4;ya, Wee, wee then
+stora stadhen, som medh silke och purpur, och skarlakan bekl&#x00E4;dd war, och
+offuergylt war medh gull och &#x00E4;dhla stenar och perlor, Ty vthi eenne
+stund &#x00E4;ro f&#x00F6;r&#x00F6;dde s&#x00E5;dana
+rijkedomar.</para><para/><para>&#x009;Och alle Skepare, och alle the som
+p&#x00E5; skepen wistas, och si&#x00F6;m&#x00E4;n, och the som til
+si&#x00F6;&#x00F6;s handla, stodho longt jfr&#x00E5;, och ropadhe t&#x00E5; the
+s&#x00E5;gho r&#x00F6;ken aff hans brand, s&#x00E4;yandes, Hwar &#x00E4;r thens
+stora stadzens lijke? Och the kastadhe mull p&#x00E5; sijn hoffuudh, och
+ropadhe gr&#x00E5;tandes och s&#x00F6;ryandes, och sadhe, Wee, wee then stora
+stadhen j hwilkom alle &#x00E4;ro rijke wordne, som j haffuet haffua hafft sijn
+skep aff hans waror, Ty vthi een stund &#x00E4;r han &#x00F6;dhe
+worden.</para><para/><para>#803</para><para>&#x009;Fr&#x00F6;gda tigh offuer
+honom himmel, och j helghe Apostlar och Propheter, Ty Gudh haffuer d&#x00F6;mdt
+idhar doom p&#x00E5; honom. Och en starck &#x00C4;ngel toogh vp en stoor steen
+som en quernsteen, och kastadhe j haffuet, och sadhe, Medh s&#x00E5;dana
+hastigheet skal f&#x00F6;rkastat warda then store stadhen Babylon, och han skal
+icke nu meer warda funnen. Och harparers r&#x00F6;st, och songarers, och
+piparers, och basunarers r&#x00F6;st skal icke meer h&#x00F6;rd warda j tigh,
+och alle handwercks m&#x00E4;n ehwadh handwerck thet &#x00E4;r, skola icke meer
+warda fundne j tigh. Och quernar&#x00F6;st skal icke meer h&#x00F6;ras j tigh,
+och liws p&#x00E5; liwsastaka skal icke meer lysa j tigh, och Brudgummas och
+Brudz r&#x00F6;st skal icke meer h&#x00F6;rd warda j tigh. Ty tine
+k&#x00F6;pm&#x00E4;n woro F&#x00F6;rstar p&#x00E5; iordenne, Ty j tinom truldom
+haffua alle Hedningar wille farit, och j honom wardt funnen Propheternars och
+Helghonens blodh, och allas theras som dr&#x00E4;pne &#x00E4;ro p&#x00E5;
+iordenne.</para><para/><para>&#x009;&#x009;XIX.
+Capitel.</para><para/><para>Sedhan h&#x00F6;rde iagh s&#x00E5;som een stoor
+r&#x00F6;st, aff en stoor skara j himmelen, som sadhe, Haleluia. Saligheet och
+prijs, &#x00E4;ra och krafft ware Gudhi w&#x00E5;rom Herra, Ty hans domar
+&#x00E4;ro sanne och rette, Ty han haffuer d&#x00F6;mdt om then stora
+sk&#x00F6;kion, then medh sitt bolerij haffuer f&#x00F6;rderffuat iordena, och
+haffuer hempnat sina tienares blodh vthu hennes hand. Och
+&#x00E5;ter</para><para/><para>#804</para><para>sadhe the Haleluia. Och
+r&#x00F6;ken gick vp aff ewigheet til ewigheet. Och the fyre och tiwghu
+&#x00C4;ldste och the fyra diwr, f&#x00F6;llo nedher och tilb&#x00E5;dho Gudh
+som satt p&#x00E5; stolen, och sadhe, Amen, Haleluia. Och een r&#x00F6;st gick
+aff stolen, och sadhe, Loffuer w&#x00E5;r Gudh, j alle hans tienare, och j som
+fruchten honom, b&#x00E5;dhe sm&#x00E5; och
+store.</para><para/><para>&#x009;Och iagh h&#x00F6;rde ena r&#x00F6;st aff en
+stoor skara, och s&#x00E5;som een r&#x00F6;st aff mykit watn, och s&#x00E5;som
+een r&#x00F6;st aff stoor tord&#x00F6;n, s&#x00E4;ya, Haleluia, Ty w&#x00E5;r
+<inline small-caps="true">Herre</inline> Alzmechtigh Gudh haffuer intaghet
+Riket. L&#x00E4;t oss gl&#x00E4;dhias och fr&#x00F6;gdas, och giffua honom
+&#x00E4;ro, Ty Lambsens br&#x00F6;llop &#x00E4;r kommet, och thes hustru
+haffuer sigh tilreedt. Och henne wardt giffuit at kl&#x00E4;dha sigh vthi reent
+och skinande silke (Men silket &#x00E4;r Helghonens retferdigheet) Och han
+sadhe til migh, Scriff, Salighe &#x00E4;ro the som kalladhe &#x00E4;ro til
+Lambsens natward. Och han sadhe til migh, Thenna &#x00E4;ro sann Gudz ord. Och
+iagh f&#x00F6;ll f&#x00F6;r hans f&#x00F6;tter, at tilbidhia honom, Och han
+sadhe til migh, See til at tu thet icke g&#x00F6;r, Ty iagh &#x00E4;r tin och
+tina br&#x00F6;dhers medtienare, som Jesu
+witnesbyrd</para><para/><para>#805</para><para>haffua, Tilbedh Gudh (Ty Jesu
+witnesbyrd &#x00E4;r Propheties Ande)</para><para/><para>&#x009;Och iagh
+s&#x00E5;gh himmelen &#x00F6;pen, och sij, En hwijt hest, och then som satt
+p&#x00E5; honom, han heet Trofast och Sanferdigh, och han d&#x00F6;mer och
+strijdher medh retferdigheet. Och hans &#x00F6;ghon s&#x00E5;som eeldzloghe,
+och p&#x00E5; hans hoffuudh monga kronor, och hadhe itt nampn scriffuit thet
+ingen kende, vthan han sielffuer. Och han war kl&#x00E4;dd j itt kl&#x00E4;dhe,
+som med blodh bestenckt war, och hans nampn heter, Gudz ord. Och honom
+effterfolgde then h&#x00E4;&#x00E4;r som j himmelen &#x00E4;r, medh hwijta
+hestar, kl&#x00E4;dde vthi hwitt och reent silke. Och vthu hans munn vthgick
+itt skarpt twe&#x00E4;ggiat swerd, at han ther medh skal sl&#x00E5;
+Hedhninganar, Och han skal regera them medh jernrijsz. Och han trampar
+Alzmechtigh Gudz grymma wredhes press, och han haffuer p&#x00E5; sijn
+kl&#x00E4;dher och p&#x00E5; sina lend itt nampn, scriffuit alts&#x00E5;,
+Konung offuer alla Konungar, och Herre offuer alla
+Herrar.</para><para/><para>&#x009;Och iagh s&#x00E5;gh en &#x00C4;ngel
+st&#x00E5; j solenne, och han ropadhe medh h&#x00F6;gha r&#x00F6;st, och sadhe
+til alla foglar som flugho vnder himmelen, Kommer, och f&#x00F6;rsamlens til
+then stora Gudz natward, at j skolen &#x00E4;ta Konunganars k&#x00F6;tt, och
+H&#x00F6;ffuitzm&#x00E4;nnenars k&#x00F6;tt, och the starckas k&#x00F6;tt, och
+hestars k&#x00F6;tt, och theras k&#x00F6;tt som sittia p&#x00E5; them, och
+allas theras k&#x00F6;tt som frij och eghne &#x00E4;ro, och b&#x00E5;dhe
+sm&#x00E5; och storas
+k&#x00F6;tt.</para><para/><para>#806</para><para>&#x009;Och iagh s&#x00E5;gh
+Wildiwret, och iordennes Konungar och theras h&#x00E4;rar f&#x00F6;rsamladha,
+til at h&#x00E5;lla ena strijdh medh honom som satt p&#x00E5; hesten, och medh
+hans h&#x00E4;&#x00E4;r. Och Wildiwret wardt fonget, och medh thy then falske
+Propheten som tekn giorde f&#x00F6;r thy, medh hwilko han bedroogh them, som
+togho Wildiwrsens wedhertekn, och them som tilb&#x00E5;dho thes belete. Thenne
+tw&#x00E5; wordo leffuande kastadhe vthi en brinnande si&#x00F6;, som brann
+medh swaffuel. Och the andre wordo dr&#x00E4;pne medh hans swerd, som satt
+p&#x00E5; hesten, thet vthu hans munn gick, Och alle foglar wordo
+m&#x00E4;ttadhe aff theras k&#x00F6;tt.</para><para/><para>&#x009;&#x009;XX.
+Capitel.</para><para/><para>Och iagh s&#x00E5;gh en &#x00C4;ngel nedherkomma
+aff himmelen, han hadhe nykelen til affgrunden, och ena stora k&#x00E4;dhio j
+sinne hand. Och han greep Drakan then gamla Ormen, som &#x00E4;r Dieffuulen och
+Satan, och bandt honom j tusende &#x00E5;&#x00E5;r, och kastadhe honom vthi
+affgrunden, och l&#x00E4;t &#x00E5;ter om honom, och besiglde ther offuan
+vpp&#x00E5;, at han icke meer bedragha skulle Hedhninganar, til tess fulkompnat
+wordo tusende &#x00E5;&#x00E5;r, och sedhan moste han l&#x00F6;&#x00F6;s warda
+til n&#x00E5;ghon liten tijdh.</para><para/><para>&#x009;Och iagh s&#x00E5;gh
+stolar, och the s&#x00E5;to p&#x00E5; them, och them wardt giffuin doom, och
+theras si&#x00E4;lar som halszhugne woro f&#x00F6;r Jesu witnesbyrd, och
+f&#x00F6;r Gudz ord skul. Och the ther icke tilb&#x00E5;dho Wildiwret eller
+thes belete, Ey heller togho thes wedhertekn p&#x00E5; sijn anlete, eller j
+sina hender, och the leffde och regneradhe medh Christo j tusende
+&#x00E5;&#x00E5;r. Men</para><para/><para>#807</para><para>the andre
+d&#x00F6;dhe fingo icke lijff igen, til tess tusende &#x00E5;&#x00E5;r
+fulkompnat wordo. Thenna &#x00E4;r then f&#x00F6;rsta
+vpst&#x00E5;ndelsen.</para><para/><para>&#x009;Saligh och heligh &#x00E4;r then
+som deel haffuer vthi f&#x00F6;rsta vpst&#x00E5;ndelsen, offuer them haffuer
+then andre d&#x00F6;dhen ingen macht, vthan the warda Gudz och Christi Prester,
+och skola regnera medh honom j tusende &#x00E5;&#x00E5;r. Och t&#x00E5; tusende
+&#x00E5;&#x00E5;r fulkompnat &#x00E4;ro, warder Satanas l&#x00F6;&#x00F6;s vthu
+sijn f&#x00E4;ngelse, och skal vthg&#x00E5; til at bedragha Hedhninganar, som
+&#x00E4;ro p&#x00E5; fyra iordennes parter, Gog och Magog, P&#x00E5; thet han
+skal f&#x00F6;rsamla them j strijdh, hwilkas taal &#x00E4;r s&#x00E5;som sanden
+j haffuet. Och the g&#x00E5;ffuo sigh vpp&#x00E5; iordennes breedheet, och
+kringhwerffde Helghonens l&#x00E4;ghre, och then elskeligha stadhen. Och nedher
+aff himmelen f&#x00F6;ll eeld aff Gudhi, och f&#x00F6;rt&#x00E4;rde them. Och
+dieffuulen som them bedraghet hadhe, wardt kastat vthi then brinnande
+si&#x00F6;n och swafflet, ther b&#x00E5;dhe Wildiwret och then falske
+Propheten, skola pl&#x00E5;ghas dagh och natt, jfr&#x00E5; ewigheet til
+ewigheet.</para><para/><para>&#x009;Och iagh s&#x00E5;gh en stoor hwijt stool,
+och en sittia p&#x00E5; honom,</para><para/><para>#808</para><para>f&#x00F6;r
+huilkens ansichte flydde iord och himmel, och them wardt intet rwm funnet. Och
+iagh s&#x00E5;gh the d&#x00F6;dha stora och sm&#x00E5;, st&#x00E5; j Gudz
+&#x00E5;syyn, och b&#x00F6;kerna wordo vpl&#x00E4;tne. Och een annor book wardt
+vpl&#x00E4;ten, som &#x00E4;r lijffzens. Och the d&#x00F6;dhe wordo
+d&#x00F6;mde, effter som scriffuit war j b&#x00F6;kerna, effter theras
+gerningar. Och haffuet gaff igen the d&#x00F6;dha, som ther vthi woro, och
+d&#x00F6;dhen och heluetet g&#x00E5;ffuo igen the d&#x00F6;dha, som vthi them
+woro, och thet bleff d&#x00F6;mdt om hwar och en effter theras gerningar. Och
+heluetet och d&#x00F6;dhen wordo kastadhe vthi then brinnande si&#x00F6;n.
+Thenne &#x00E4;r then andre d&#x00F6;dhen. Och then ther icke wardt funnen
+scriffuen j lijffzens book, han wardt kastat j then brinnande
+si&#x00F6;n.</para><para/><para>&#x009;&#x009;XXI.
+Capitel.</para><para/><para>Och iagh s&#x00E5;gh en ny himmel och een ny iord,
+Ty then f&#x00F6;rsta himmelen och then f&#x00F6;rsta iorden f&#x00F6;rgingos,
+och haffuet &#x00E4;r icke meer. Och iagh Johannes s&#x00E5;gh then helgha
+stadhen, thet nyia Jerusalem nedherkomma aff himmelen, jfr&#x00E5; Gudhi,
+tilreedd, s&#x00E5;som een prydd Brudh til sin man. Och iagh h&#x00F6;rde ena
+stora r&#x00F6;st aff stolen s&#x00E4;ya, Sij, Gudz Tabernakel jbland
+menniskionar, och han skal boo medh them, och the skola wara hans folck, och
+sielffuer Gudh medh them, skal wara theras Gudh. Och Gudh skal afftorka alla
+t&#x00E5;rar aff theras &#x00F6;ghon, och ingen d&#x00F6;dh skal sedhan wara,
+icke heller</para><para/><para>#809</para><para>gr&#x00E5;&#x00E5;t, icke
+heller roop, icke heller n&#x00E5;ghon werck warder meer. Ty thet f&#x00F6;rsta
+&#x00E4;r f&#x00F6;rg&#x00E5;nget. Och then ther satt p&#x00E5; stolen, sadhe,
+Sij, iagh g&#x00F6;r all ting ny. Och han sadhe til migh, Scriff, Ty thenna ord
+&#x00E4;ro wiss och sann.</para><para/><para>&#x009;Och han sadhe til migh,
+Thet &#x00E4;r giordt. Jagh &#x00E4;r A och O, begynnelsen och enden, Jagh skal
+giffua honom som t&#x00F6;rster aff leffuande watnens kello f&#x00F6;rgeffues.
+Then som winner, han skal alt thetta f&#x00E5; &#x00E4;gha, och iagh skal wara
+honom hans Gud, och han skal wara min son. Men them reddom, och otroghnom, och
+gruffuelighom, och mandr&#x00E5;parom, och bolarom, och trulkarlom, och
+affgudhadyrkarom, och allom l&#x00F6;gnachtighom, theras deel skal wara vthi
+then si&#x00F6;n som brinner med eeld och swaffuel, Huilket &#x00E4;r then
+andre d&#x00F6;dhen.</para><para/><para>&#x009;Och til migh kom en aff the siw
+&#x00C4;nglar, som hadhe siw sk&#x00E5;lar fulla medh the siw ytersta
+pl&#x00E5;ghor, och han taladhe medh migh, och sadhe, Kom, och iagh wil wisa
+tigh Brudhena Lambsens hustru. Och han f&#x00F6;rde migh j andanom p&#x00E5;
+itt</para><para/><para>#810</para><para>stoort och h&#x00F6;gt bergh, och
+wijste migh then stora stadhen thet helgha Jerusalem, nedherkomma aff himmelen
+jfr&#x00E5; Gudh, och hadhe Gudz herligheet. Och hans liws war lijka som then
+alra&#x00E4;dhlasta stenen, en klar Jaspis. Och han hadhe en stoor och
+h&#x00F6;gh mwr, then ther tolff portar hadhe, och j portanar tolff
+&#x00C4;nglar, och inscriffuen nampn, hwilken &#x00E4;ro the tolff Jsraels
+s&#x00F6;ners slechters nampn. &#x00D6;stan til tree portar, Nordan til tree
+portar, Sunnan til tree portar, Westan til tree portar. Och stadzmuren hadhe
+tolff grundwalar, och j them the tolff Lambsens Apostlars
+nampn.</para><para/><para>&#x009;Och then som taladhe medh migh, hadhe ena
+gyllene r&#x00F6;&#x00F6;, ther han medh m&#x00E4;la skulle stadhen och hans
+portar, och hans mwr. Och stadhen ligger fyrkant, Och hans lengd &#x00E4;r
+s&#x00E5; stoor som breedden. Och han m&#x00E4;lte stadhen medh gyllene
+r&#x00F6;&#x00F6;n, tolff tusend stadier. Och hans lengd och breedd och
+h&#x00F6;gd &#x00E4;ro lijka. Och han m&#x00E4;lte hans mwr hundhradhe fyra och
+fyratiyo alnar, effter eens menniskios m&#x00E5;tt som &#x00C4;ngelen hadhe.
+Och hans mwrs bygning war aff Jaspis, men sielffue stadhen aff klart gull, lijk
+widh reent glasz. Och stadzmwrens grundwalar woro prydde medh all dyrbar steen.
+F&#x00F6;rsta grundwalen war en Jaspis, Then andre en Saphir, Then tridie en
+Calcedonier, Then fierde en Smaragd, Then femte en Sardonyx, Then siette en
+Sardis, Then siwnde en</para><para/><para>#811</para><para>Chrysolit, Then
+ottonde en Berill, Then niyonde en Topazier, Then tiyonde en Chrysoprass, Then
+elloffte en Hyacinth, Then tolffte en Amethist.</para><para/><para>&#x009;Och
+the tolff portar, woro tolff perlor, hwar f&#x00F6;r sigh, Och hwar port war
+aff eenne perlo, och stadzens gator woro klart gull, s&#x00E5;som genomskinande
+glasz. Och iagh s&#x00E5;gh ther intet Tempel vthi, Ty Herren alzwolligh Gudh
+&#x00E4;r Templet ther vthi, och Lambet. Och stadhen beh&#x00F6;ffuer icke sool
+eller m&#x00E5;na, at the skola lysa ther vthi, Ty Gudz herligheet vplyser
+honom, och hans liws &#x00E4;r Lambet. Och Hedhninganar som salighe warda,
+skola wandra j hans liws, och Konunganar p&#x00E5; iordenne skola f&#x00F6;ra
+sina herligheet in vthi honom. Och hans portar l&#x00E4;tas intet til om
+daghen, Ty ther warder ingen natt.  Ther skal intet inkomma som besmittelighit
+&#x00E4;r, eller thet styggelse g&#x00F6;r och l&#x00F6;gn, Vthan the som
+scriffne &#x00E4;ro j Lambsens leffuande
+book.</para><para/><para>&#x009;&#x009;XXII. Capitel.</para><para/><para>Och
+han wijste migh ena klara elff medh leffuande watn, klaar som Crystall, then
+gick jfr&#x00E5; Gudz stool och Lambsens, mitt vpp&#x00E5; hans gator. Och
+p&#x00E5; b&#x00E5;dha sidhor widh elffuena stoodh lijffzens
+tr&#x00E4;&#x00E4;, b&#x00E4;randes tolff f&#x00E5;ll frucht, och baar sina
+frucht alla m&#x00E5;nadher, Och l&#x00F6;ffuen aff tr&#x00E4;dh tiente til
+Hedhninganars helbregdo. Och intet f&#x00F6;rbannat skal wara
+meer,</para><para/><para>#812</para><para>vthan Gudz och Lambsens stool, skal
+bliffua ther vthi, och hans tienare skola honom tiena, och the skola see hans
+ansichte, och hans nampn skal wara p&#x00E5; theras anlete. Och natt bliffuer
+icke meer, och the beh&#x00F6;ffua icke liws, icke heller solennes liws, Ty
+Herren Gudh vplyser them, och the skola regnera jfr&#x00E5; ewigheet til
+ewigheet.</para><para/><para>&#x009;Och han sadhe til migh, Thenna ord
+&#x00E4;ro wiss och sann, Och Gudh the helgha Propheters Herre sende sin
+&#x00C4;ngel, at wijsa sina tienare hwadh skee skal innan kortt tijdh, Och sij,
+iagh kommer snarligha. Saligh &#x00E4;r then som h&#x00E5;ller Prophetiennes
+ord j thesso book. Och iagh &#x00E4;r Johannes som h&#x00F6;rde och s&#x00E5;gh
+thetta. Och sedhan iagh hadhe thet h&#x00F6;rdt och seedt, f&#x00F6;ll iagh
+nedh at tilbidhia f&#x00F6;r &#x00C4;ngelens f&#x00F6;tter, som migh thetta
+wijste. Och han sadhe til migh, See til at tu g&#x00F6;r thet icke, Ty iagh
+&#x00E4;r tin medhtienare och tina br&#x00F6;dhers Propheternars, och theras
+som h&#x00E5;lla thenna books ord, Tilbedh Gudh.</para><para/><para>&#x009;Och
+han sadhe til migh, Besegla icke thenna Propheties ord j thesso book. Ty
+tijdhen &#x00E4;r n&#x00E4;r. Then som onder &#x00E4;r, han ware onder. Och
+then som oreen &#x00E4;r, han ware oreen. Men then som from &#x00E4;r, han
+warde &#x00E4;n nu fromare, Och then heligh &#x00E4;r, warde &#x00E4;n nu
+helighare. Och sij, iagh kommer snart, och mijn l&#x00F6;&#x00F6;n medh migh,
+til at wedhergella hwariom</para><para/><para>#813</para><para>och enom
+s&#x00E5;som hans gerning &#x00E4;r. Jagh &#x00E4;r A och O, then f&#x00F6;rste
+och then sidste, begynnelsen och enden. Salighe &#x00E4;ro the som h&#x00E5;lla
+hans bodh, P&#x00E5; thet theras macht skal wara j lijffzens
+tr&#x00E4;&#x00E4;, och ing&#x00E5; genom portanar j stadhen. Ty vthan til
+&#x00E4;ro hundar och trulkarlar, och bolare, och mandr&#x00E5;pare, och
+affgudhadyrckare, och alle the som elska och g&#x00F6;ra
+l&#x00F6;gnen.</para><para/><para>&#x009;Jagh Jesus sende min &#x00C4;ngel, at
+han skulle betygha idher thetta j F&#x00F6;rsamlinganar, Jagh &#x00E4;r aff
+Dauidz root och slechte, een klaar morghonstierna. Och Anden och Brudhen
+s&#x00E4;ya, Kom. Och then thet h&#x00F6;rer, han s&#x00E4;ye, Kom. Och then
+ther t&#x00F6;rster, han komme, Och then ther wil, han taghe lijffzens watn
+f&#x00F6;r intet.</para><para/><para>&#x009;Men iagh betyghar hwar och en som
+h&#x00F6;rer Prophetiennes ord j thesso book, Hoo som legger n&#x00E5;ghot
+h&#x00E4;r til, p&#x00E5; honom skal Gudh leggia the pl&#x00E5;ghor, som
+screffna &#x00E4;ro j thenna book. Och om n&#x00E5;ghor tagher n&#x00E5;ghot
+jfr&#x00E5; thenna books Propheties ord, hans deel skal Gudh borttagha vthu
+lijffzens book, och vthu then helgha stadhen, och vthu thet scriffuit &#x00E4;r
+j thenna book. Thet s&#x00E4;gher han som witnesbyrd b&#x00E4;&#x00E4;r
+h&#x00E4;r til, Ja, Jagh kommer snart, Amen, Ja, kom Herre Jesu. W&#x00E5;rs
+Herras Jesu Christi n&#x00E5;dh ware medh idher allom,
+Amen.</para><para/><para>&#x009;&#x009;Enden p&#x00E5; S. Johannis
+vppenbarelse.</para></paragraph-definition></section></body></doc>

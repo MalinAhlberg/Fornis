@@ -27,8 +27,8 @@ font-style="Times"
 widow-control="true"/></styles-in-body></style-table><doc-information>
 
 <title>
-[Gregorius av Armenien A]
-</title>
+Gregorius av Armenien A
+</title><year>"1420"</year>
 <author>Lars-Olof Delsing</author><operator>Lars-Olof Delsing</operator>
 
 <creation-time
@@ -46,7 +46,6 @@ margin-right="140.95"/></preamble>
 style-number="s0001" adjust-right="true" font-size="10.00" font-style="Times"
 widow-control="true">
 <para><inline font-style="Courier New">
-[Gregorius av Armenien A]
 </inline></para>
 
 

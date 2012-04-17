@@ -1,0 +1,184 @@
+vilken översätting, andra eller första redaktionen (båda html-sidorna länkar till denna fil)?
+m processed/Birg1-3.xml:<text title="[Birgittas uppenbarelser Bok 1-3, ur Codex Skokloster 136 fol]" year="">
+
+vilket år?
+n processed/MP1.xml:<text title="Svenska Medeltidspostillor 1, enligt AM 787" year="">
+n processed/MP5.xml:<text title="Svenska Medeltidspostillor 5" year="">
+n processed/Ordsprak.xml:<text title="Fornsvenska Ordspråk" year="">
+n processed/RegS.xml:<text title="Regula Salvatoris och Revelationes Extravagantes, ur Berlin KB 3762" year="">
+n processed/StrLegBil-I.xml:<text title="Codex Bildstenianus; strödda legender Hand I" year="">
+m processed/Germ-Gen.xml:<text title="Legenden om Sankt Germanus och Genoveva, från Nådendals klosterbok" year="">
+m processed/ErikReg.xml:<text title="[Om Erik den helige, efter Codex Vat Reg Lat 525]" year="">
+m processed/Karl.xml:<text title="# 1" year="">
+      (Holm D2/D6, 1520 - Ups C 62, 1400-talet - Linch 1600-talet, Lund 1480) 
+
+finns redan samma uppdelad i legender, ska vi ha med sammanställningrna också?:
+n processed/Link-NR.xml:<text title="Femton legender ur Linc B70a,översatta av Nils Ragvaldi" year="">
+n processed/NordBil.xml:<text title="Nordiska helgonledgender, ur Codex Bildstenianus" year="1400-tal">
+
+nästan samma som PauloJoh, olika slut. Samma codex? Samma namn?
+n processed/StrLegBil-IV.xml:<text title="Legenden om Paulus och Johannes, Codex Bildstenianus, hand IV" year="">
+
+samma som Anna9, ta bort?
+processed/Anna1a.xml:<text title="[Sankta Anna enligt Codex Benz 9]" year="">
+
+?
+processed/KrL-Andr.xml:<text title="[Kristoffers Landslag, innehållsligtändrade flockar i förhållande til MEL]" year="">
+processed/KrL-MEL.xml:<text title="[Kristoffers Landslag, flockar direkt hämtade från MELL]" year="">
+processed/KrL-Ny.xml:<text title="[Kristoffers Landslag, nyskrivna flockar i förhållande till MEL]" year="">
+      (en bit av Kristofferslandslag, MEL = Magnus Erikssons Landslag)
+
+
+x processed/AngDikt.xml:<text title="Ängelens diktamen, ur Codex Oxenstiernianus" year="1385">
+x processed/ApG-A.xml:<text title="Apostla gernigar, ur Codex Oxenstiernianus" year="1385">
+x processed/AVgL.xml:<text title="Äldre Västgötalagen" year="ca 1280">
+x processed/Barbara.xml:<text title="Heliga Barbara, ur Codex Oxenstiernianus" year="1385">
+x processed/Birg-Ox.xml:<text title="Heliga Birgittas uppenbarelser ur Codex Oxenstiernianus" year="1385">
+x processed/Blasius.xml:<text title="Sagan om den helige Blasius, ur Codex Oxenstiernianus" year="1385">
+x processed/Clara.xml:<text title="Sancta Clara, ur Codex Oxenstiernianus" year="1385">
+x processed/DL.xml:<text title="Dalalagen (Äldre Västmannalagen)" year="ca 1330">
+x processed/GL-Add.xml:<text title="Gutalagens additamenta enligt AM 54" year="1587">
+x processed/GL.xml:<text title="Gutalagen enligt Holm B 64" year="ca 1350">
+x processed/HML.xml:<text title="Vitæpatrum - Helga manna lefverne, ur Codex Oxenstiernianus" year="1385">
+x processed/Jart.xml:<text title="Järteckensboken, ur Codex Oxenstiernianus" year="1385">
+x processed/OgL-A.xml:<text title="Östgötalagen A" year="ca 1350">
+x processed/OgL-C.xml:<text title="Östgötalagen, fragment C" year="ca 1350">
+x processed/OgL-D.xml:<text title="Östgötalagen, fragment D" year="ca 1350">
+x processed/OgL-E.xml:<text title="Östgötalagen, fragment E" year="ca 1350">
+x processed/OgL-H.xml:<text title="Östgötalagen, fragment H" year="ca 1350">
+x processed/OgL-M.xml:<text title="Östgötalagen, fragment M" year="ca 1350">
+x processed/OgL-N.xml:<text title="Östgötalagen, fragment N" year="ca 1350">
+x processed/SkaL.xml:<text title="Skånelagen" year="1203-1212">
+x processed/UL-A.xml:<text title="Upplandslagen enl Schlyters utgåva och Codex Ups C 12, hskr A" year="ca 1350">
+x processed/Vidhem.xml:<text title="Vidhemsprästens anteckningar" year="ca 1280">
+x processed/YVgL-add.xml:<text title="Yngre Västgötalagen, tillägg, enligt Holm B 58" year="ca 1350">
+x processed/Yvgl.xml:<text title="Yngre Västgötalagen, enligt Holm B 58" year="ca 1350">
+x processed/UL-B.xml:<text title="Upplandslagen enligt Cod Holm B 199, Schlyters hskr B" year="ca 1350">
+x processed/MEL.xml:<text title="Magnus Erikssons Landslag" year="ca 1350">
+x processed/MESt.xml:<text title="Magnus Erikssons Stadslag, exklusiva stadslagsflockar" year="1357">
+x processed/Nic-A.xml:<text title="Nicodemi evangelium enligt Codex Oxenstiernianus" year="1385">
+
+
+m processed/Albinus.xml:<text title="# 262 Häräpther staar thäs wärdogha herras hälga liffuerne sancti albini" year="">
+m processed/Alexius.xml:<text title="[Legenden om Sankt Alexius ur Lic B 70b]" year="">
+m processed/Amalberga.xml:<text title="# 276 [‡‡1r] Rwbrica" year="">
+m processed/Anna9.xml:<text title="[Sankta Anna; enligt Codex Benz 9]" year="">
+m processed/Ansgar.xml:<text title="[Sankt Ansgarii leverne av Rimbertus, efter Cod Holm A 49, från mitten av 1400-talet" year="">
+m processed/Apd26SLundversion.xml:<text title="+0001 Jesus" year="">
+m processed/Apo41SLundversion.xml:<text title="+0100 S" year="">
+m processed/Barl.xml:<text title="[Barlaam och Josaphat, ur Cod" year="">
+m processed/BartMod.xml:<text title="[Sanct Bartholomei moder, eller Kvinnan utan händer, ur Linc B 70a,översatt av Karl Benedictsson]" year="">
+m processed/Birg4-8.xml:<text title="#1" year="">
+m processed/Birg7-C61.xml:<text title="1015" year="">
+m processed/Birg-8.xml:<text title="[Birgittas uppenbarelser,åttonde boken, ur Cod Holm A 44]" year="">
+m processed/Birg-aut.xml:<text title="[Birgittaautograferna]" year="">
+m processed/Birg-Bergm.xml:<text title="[Sju stycken; fordom i Codex Bergmannius]" year="">
+m processed/Birg-no.xml:<text title="[Birgittinernorska efter Skokloster 5 kvart]" year="">
+m processed/BirgVita.xml:<text title="[Vita abbreviata ur Holm A 33]" year="">
+m processed/BjR.xml:<text title="[Bjärköarätten]" year="">
+m processed/BlasiusBil.xml:<text title="# 899" year="">
+m processed/Bo6.xml:<text title="# 340" year="">
+m processed/Bo63.xml:<text title="# 329" year="">
+m processed/Bo7.xml:<text title="[Bonaventuras betraktelser, Kapitel 7 ur Holm A 3]" year="">
+m processed/Bond.xml:<text title="[Bondakonst av Peder Månsson]" year="">
+m processed/Bo.xml:<text title="[Bonaventuras betraktelser]" year="">
+m processed/Briccius.xml:<text title="# 635" year="">
+m processed/ChrPina.xml:<text title="[Jesu lidandes bägare och hans blods utgjutelse]" year="">
+m processed/Did-A.xml:<text title="[Didrik av Bern, hand A]" year="">
+m processed/Did-B.xml:<text title="[Didrik av Bern, hand B]" year="">
+m processed/ElisBra.xml:<text title="# 478" year="">
+m processed/ElisUngUppA.xml:<text title="# 807" year="">
+m processed/ElisUngUppB.xml:<text title="# 405" year="">
+m processed/ElisUng.xml:<text title="# 405" year="">
+m processed/EmAnna.xml:<text title="[Sankt Emerentia och Sankt Anna;översatt från tyska av Lars Elfsson i Linc B 70a]" year="">
+m processed/ErikBil.xml:<text title="# 883" year="">
+m processed/Exodus16.xml:<text title="[Exodus 16, ur Holm A3]" year="">
+m processed/Fara.xml:<text title="# 271 Aff enne häloghe iomffru som hether sancta phara huilken mykytälskadhe renleken" year="">
+m processed/FelPetr.xml:<text title="# I:331" year="">
+m processed/flores.xml:<text title="This electronic version, distributed by Språkbanken, may only be used as a" year="">
+m processed/fredrik.xml:<text title="This electronic version, distributed by Språkbanken, may only be used as a" year="">
+m processed/Genoveva.xml:<text title="# 237 [Om Sankt Genoveva början fattas]" year="">
+m processed/GermBil.xml:<text title="# 904" year="">
+m processed/Germ.xml:<text title="# 197" year="">
+m processed/Greg-A.xml:<text title="[Gregorius av Armenien A]" year="">
+m processed/Greg-B.xml:<text title="[Gregorius av Armenien B - ur Holm A 49]" year="">
+m processed/GregStyl.xml:<text title="[Gregorius Stylista, eller Gregorius påstenen, ur Linc B70a,översatt från tyskan av Christina Elafsdotter]" year="">
+m processed/ivan.xml:<text title="Herr Ivan" year="">
+m processed/Jakelina.xml:<text title="# 386" year="">
+m processed/Joakim.xml:<text title="# 38" year="">
+m processed/JohChris.xml:<text title="# II:660 [‡‡36v] Häräpther skriffwas aff thäz hälga herrans oc wärdogha kännefadhersens hälga liffwerne sancti iohannis crisos" year="">
+m processed/JohDop.xml:<text title="# 891" year="">
+m processed/Joleida.xml:<text title="# 448" year="">
+m processed/Judit.xml:<text title="[Judith]" year="">
+m processed/KatEgMir.xml:<text title="# 269" year="">
+m processed/KatSv.xml:<text title="[Katarina av Sverige]" year="">
+m processed/KrL.xml:<text title="[Kristoffers Landslag]" year="">
+
+Två datum 1300/1430
+m processed/KarlMagnus-A.xml:<text title="[Karl Magnus, enl Cod Holm D 4]" year="">
+
+Osäkert datum
+processed/Macarius.xml:<text title="Legenden om Sankt Macarius Romanus" year="1500-tal">
+
+Rätt version?
+n processed/Laek-Benz22.xml:<text title="Läkedomar, codex Ups Benz 22" year="1400">
+
+n processed/KS-Bu.xml:<text title="Konungastyrelsen, Bureus utgåva" year="1632">
+n processed/Laek10.xml:<text title="Läkebok 10: Zoodiaken, månaderna m m, efter hskr i Rålambska samlingen" year="1400-tal">
+n processed/Laek11.xml:<text title="Läkebok 11: Månaderna, efter KBs handskrift med gammal signatur K 45, supplerad på Danska ur codex Grensholmensis" year="1500-tal">
+n processed/Laek1.xml:<text title="Läkebok 1: blandad läkedom, ur Codex AM" year="1500-tal">
+n processed/Laek2.xml:<text title="Läkebok 2, ur pappershandskriften Ups C 601" year="1400-tal">
+n processed/Laek3.xml:<text title="Läkebok 3, ur codex Huss" year="1400-tal">
+n processed/Laek4.xml:<text title="Läkebok 4, ur Codex Holm A 49" year="1400-tal">
+n processed/Laek5-6.xml:<text title="Läkebok 5 och 6, ur Codex 19 Benz" year="1400-tal">
+n processed/Laek7.xml:<text title="Läkebok 7, efter Codex linc M 5" year="1500-tal">
+n processed/Laek8.xml:<text title="Läkebok, 8 ur codex Grensholmensis i Linköping" year="1500-tal">
+n processed/Laek9.xml:<text title="Läkedom, efter Peder Månssons handskrift i Linköpings Stiftsbibliotek" year="1500-tal">
+n processed/LegBil.xml:<text title="Fornsvenska legendariet enligt Codex Bildstenianus" year="1400-1450">
+n processed/LegBu.xml:<text title="Fornsvenska legendariet enligt Codex Bureanus" year="1350">
+n processed/Luc-JB.xml:<text title="Lucidarius, redaktion B, ur Holm A 58, Jöns Buddes bok" year="1487">
+n processed/Luk41SLundversion.xml:<text title="Gustav Vasas Bibel, Lukasevangeliet" year="1541">
+n processed/Lydekin.xml:<text title="Yngre Västgötalagens äldsta fragment, Lydekini excerpter och anteckningar" year="1280-tal">
+n processed/Macra.rft.xml:<text title="Legenden om Sankta Macra, ur Nådendals klosterbok" year="1400-tal">
+n processed/Magnus.xml:<text title="Legeneden om Magnus Jarl av Okenöarna" year="1400-tal">
+n processed/Mar26SLundversion.xml:<text title="Sancit Marci Euangelium" year="1526">
+n processed/Mar41SLundversion.xml:<text title="Gustav Vasas Bibel, Markusevanguliet" year="1541">
+n processed/MariaE.xml:<text title="Legenden om Sankta Maria (E), ur Codex Holm A 3" year="1502">
+n processed/MariaF.xml:<text title="Legenden om Sankta Maria (F)" year="1500-tal">
+n processed/MariaOe.xml:<text title="Legenden om Maria ov Oegnies" year="1500-tal">
+n processed/Mektild20.xml:<text title="Utdrag ur Legenden om St Mektild, ur Lund Mh 20" year="ca 1420">
+n processed/Moses-A.xml:<text title="Pentateuchparafrasen, enligt MB I A" year="1400-1450">
+n processed/Moses-B.xml:<text title="Pentateuchparafrasen B, enligt MB I B" year="1526">
+n processed/MP2-fragm.xml:<text title="Svenska Medeltidspostillor 2, enligt Lund Mh 51 och HUB" year="1500-tal">
+n processed/Olav.xml:<text title="Legenden om Olav den helige" year="1400">
+n processed/Otilia.xml:<text title="Legenden om Sankta Otilia" year="1500">
+n processed/PatrikBil.xml:<text title="Patrikssagan, efter Codex Bildstenianus (Ups C 528)" year="1400">
+n processed/PauloJoh.xml:<text title="Legenden om Paulus och Johannes, Codex Bildstenianus, hand IV" year="1400-tal">
+n processed/PaulOmv.xml:<text title="Legenden om Sankt Paulus omvändelse" year="1400-tal">
+n processed/Proskron.xml:<text title="Sverige krönika, eller Prosaiska krönikan efter Holm D 26" year="1400-tal">
+n processed/Rakel.xml:<text title="Legenden om Sankta Rakel, ur Linc B 70a" year="1500-tal">
+n processed/Ronigk.xml:<text title="Mag. Joh. Qvirfelds himmelska örtegårds-sällskap" year="1778">
+n processed/SdmL-Add.xml:<text title="Södermannalagens additamenta, efter NKS 2237" year="ca 1330">
+n processed/SdmL-A.xml:<text title="Södermannalagen, enligt Codex iuris Sudermannici" year="ca 1330">
+n processed/Ruth.xml:<text title="Ruths bok, enligt Holm A 1" year="1526">
+n processed/SdmL-conf.xml:<text title="Södermannalagen stadsfästelse - Confirmatio, enligt NKS 2237" year="ca 1330">
+n processed/Sigfrid.xml:<text title="Legenden om Sankt Sigfrid, ur Codex Bilstenianus" year="1400-tal">
+n processed/Servacius.xml:<text title="Legenden om Sankt Servacius" year="1500-tal">
+n processed/Sjusov.xml:<text title="Sjusovaresagan, ur Linc B 70a" year="1500-tal">
+n processed/SK.xml:<text title="Själens kloster,översatt av Jöns Budde" year="1480">
+n processed/SmLKB.xml:<text title="Smålandslagens kyrkobalk" year="1300-tal">
+n processed/Stefan.xml:<text title="S Stephani saga, ur Linc B 70a,översatt av Johannes Mathei" year="1500-tal">
+n processed/StefP.xml:<text title="Legenden om Stephanus påve, ur Linc B 70a,översatt av Herr Jöns Ewangelista" year="1500-tal">
+n processed/StimAm.xml:<text title="Stimulus Amoris, efter Cod Holm A 9" year="1498-1502">
+n processed/SVM-A.xml:<text title="Sju vise mästare A, ur Codex Holm D 4" year="1430-tal">
+n processed/SVM-B.xml:<text title="Sju vise mästare B, Nådendals klosterbok, Codex Holm A 49" year="1440-tal">
+n processed/SVM-C.xml:<text title="Sju vise mästare C, efter Codex Askabyensis" year="1492">
+n processed/Tekla.xml:<text title="Legenden om Sankta Tekla, ur Linc B 70a" year="1500-tal">
+n processed/TreKung.xml:<text title="Legenden om tre konungar, ur Ups C 528" year="1400-tal">
+n processed/Troja.xml:<text title="Historia Trojana, ur Codex Holm D 3a" year="1529">
+n processed/Trost.xml:<text title="Själens tröst, ur Codex Holm A 108" year="1430-1450">
+n processed/UL-Add.xml:<text title="Tillägg till Upplandslagen, hskr A (Ups B 12)" year="1300-tal">
+n processed/Val.xml:<text title="Namnlös och Valentin, ur Codex Holm D 4a" year="1450-tal">
+n processed/VmL.xml:<text title="Yngre Västmannalagen, enl Holm B 57" year="1318-1347">
+
+

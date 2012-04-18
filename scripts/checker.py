@@ -1,8 +1,14 @@
 # -*- coding: utf_8 -*-
 import re
+import os
 import glob
 import threading
 from xml.etree import ElementTree as etree
+
+# OK kolla om titel stämmer
+#    lägga till tag om innehåll
+#    lägga till år och namn med rätt encoding och antal fnuttar, add begin end
+#    do not care about new lines
 
 # checks if the file contains the title elsewhere
 def containsTitle(fil):
@@ -11,7 +17,8 @@ def containsTitle(fil):
     tree = etree.fromstring(xml)
     info = tree.find(prefix+'preamble').find(prefix+'doc-information')
     tit1 = info.find(prefix+'title')
-    tit = tit1.text
+    tit = "" 
+    if not tit1 is None: tit = tit1.text
     text = findtext(tree.find(prefix+'body'))
     if not text.startswith(tit):
        print fil,"Title:",tit
@@ -38,7 +45,7 @@ filesNy = glob.glob('../filerXNy/*.xml')
 # for adding info to a list of xml files
 # Each line of the input should contain first the filename
 # and then a list of elements to add
-# Eg. "file.xml year=2012 title=Rubriken" as input
+# Eg. "file.xml | year=2012 | title=Rubriken" as input
 def readAndAddInfo(uri):
    text = open(uri,'r').readlines()
    for uri in text:
@@ -46,35 +53,46 @@ def readAndAddInfo(uri):
         t.start()
 
 # add a new information to a file
-# takes a line such as "file.xml year=2012 title=Rubriken" as input
+# takes a line such as "file.xml | year=2012 | title=Rubriken" as input
 # prints the new xml
 def addInfo(line):
-    xs = line.split()
+    xs = line.split('|')
+    xs = map(lambda x: x.strip(), xs)
     etree.register_namespace('',prefix)
     etree.register_namespace('','ns0')
-    fil = open(xs[0],'r').read()
+    fil = open(os.path.join('../filerX/',xs[0]),'r').read()
     tree = etree.fromstring(fil)
     info = tree.find(prefix+'preamble').find(prefix+'doc-information')
     addTag(xs[1:],info)
-    open('ny/'+xs[0],'w').write(tree)
+    print etree.tostring(info)
+    open('ny/'+xs[0],'w').write(etree.tostring(tree))
 
 # saves the info (a list of keys and values: ['key1=val1','key2=val2']
 # to the tree. Updates the tags if the already exists, otherwise adds them
 def addTag(info,tree):
     info = map(lambda x: x.split('='),info)
     for (tag,val) in info:
-        tit = tree.find(prefix+tag)
-        if tit is not None:
-           tit.text = val
-        else:
-           new = etree.SubElement(tree,tag)
-           new.text = val
-
+        # if it is a year tag, split it into start and begin
+        # TODO which encoding? string? int?
+        if tag=="year":
+           # if the year is not an interval, use same start and end date
+           if val.rfind('-')==-1:
+              print 'change val'
+              val = val+'-'+val
+           print val
+           interval = val.split('-')
+           info += [("begin",interval[0]),("end",interval[1])]
+        # else add tag
+        else: 
+          tit = tree.find(prefix+tag)
+          if tit is None:
+             tit = etree.SubElement(tree,tag)
+          tit.text = val.decode('utf-8')
 
 prefix = "{http://rtf2xml.sourceforge.net/}"
 
 def test2():
-    return addInfo("../filerX/Nic-A.xml title=hej year=44")
+    return addInfo("Nic-A.xml |  year=44")
 def test():
     return findtext(etree.fromstring(testxml))
 

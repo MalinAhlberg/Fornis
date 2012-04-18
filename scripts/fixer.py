@@ -23,7 +23,7 @@ def opener(uri):
     ok1 = re.sub('ns0:','',newer)  
     ok  = re.sub(r'&#x009;','',ok1)  
     # write file
-    print 'writing to', out
+    # to do remove ns0 stuff? or later?
     open(out,'w').write(ok)
 
 files   = glob.glob('../filerX/*.xml')

@@ -1,4 +1,3 @@
-vilken översätting, andra eller första redaktionen (båda html-sidorna länkar till denna fil)?
 m processed/Birg1-3.xml:<text title="Birgittas uppenbarelser Bok 1-3, ur Codex Holm A 33" year="1400-1499">
 
 vilket år?
@@ -10,18 +9,18 @@ n processed/StrLegBil-I.xml:<text title="Codex Bildstenianus; strödda legender 
 m processed/Germ-Gen.xml:<text title="Legenden om Sankt Germanus och Genoveva, från Nådendals klosterbok" year="">
 m processed/ErikReg.xml:<text title="[Om Erik den helige, efter Codex Vat Reg Lat 525]" year="">
 
-m processed/Karl.xml:<text title="# 1" year="">
+-- m processed/Karl.xml:<text title="# 1" year="">
       (Holm D2/D6, 1520 - Ups C 62, 1400-talet - Linch 1600-talet, Lund 1480) 
 
 finns redan samma uppdelad i legender, ska vi ha med sammanställningrna också?:
-n processed/Link-NR.xml:<text title="Femton legender ur , ur Linköpingslegendariet, Benz 39,översatta av Nils Ragvaldi" year="">
-n processed/NordBil.xml:<text title="Nordiska helgonledgender, ur Codex Bildstenianus" year="1400-tal">
+-- n processed/Link-NR.xml:<text title="Femton legender ur , ur Linköpingslegendariet, Benz 39,översatta av Nils Ragvaldi" year="">
+-- n processed/NordBil.xml:<text title="Nordiska helgonledgender, ur Codex Bildstenianus" year="1400-tal">
 
 nästan samma som PauloJoh, olika slut. Samma codex? Samma namn?
 n processed/StrLegBil-IV.xml:<text title="Legenden om Paulus och Johannes, Codex Bildstenianus, hand IV" year="">
 
-samma som Anna9, ta bort?
-ta bort: processed/Anna1a.xml:<text title="[Sankta Anna enligt Codex Benz 9]" year="">
+samma som Anna9
+--ta bort: processed/Anna1a.xml:<text title="[Sankta Anna enligt Codex Benz 9]" year="">
 n processed/Anna9.xml:<text title="Sankta Anna, enligt Codex Benz 9" year="1375-1464">
 
 

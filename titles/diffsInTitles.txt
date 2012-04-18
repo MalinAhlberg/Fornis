@@ -1,0 +1,149 @@
+../filerX/Troja.xml Title: 
+[Historia Trojana, halva texten]
+
+text 
+	# 1		Hystoria troy 
+
+../filerX/Mar41SLundversion.xml Title: +0100 S
+text Kurztitel 
+
+../filerX/Apd26SLundversion.xml Title: +0001 Jesus
+text Kurztitel 
+
+../filerX/Apo41SLundversion.xml Title: +0100 S
+text Kurztitel 
+
+../filerX/Mar26SLundversion.xml Title: +0100 Sancit Marci Euangelium
+text Kurztitel 
+
+../filerX/Laek1.xml Title: 
+[Läkebok 1, blandad läkedom ur Codex AM]
+
+text 
+
+
+# 3
+
+	Här byrias  
+
+../filerX/fredrik.xml Title: This electronic version, distributed by Språkbanken, may only be used as a
+text Hertig Fredrik av No 
+
+../filerX/Ordsprak.xml Title: FORNSVENSKA ORDSPRÅK
+text [Fornsvenska ordsprå 
+
+../filerX/Laek9.xml Title: 
+[Läkedom, efter Peder Månssons handskrift i Linköpings Stiftsbibliotek, sign. Juridik 8.]
+
+text 
+
+
+# 411
+	Peder Måns 
+
+../filerX/UL-A.xml Title: [Upplandslagen enl Schlytersss utgåva och Codex Ups C 12, hskr A]
+text [Upplandslagen enl S 
+
+../filerX/OgL-A.xml Title: Hær byrias ræfsta balkær i hanum tælias flokka: siax och tiughu:
+text [Östgötalagen] 
+
+../filerX/Barbara.xml Title: [Heliga Barbara, enl Holm A 110]
+text [Heliga Barbara 
+
+../filerX/KrL.xml Title: 
+[Kristoffers Landslag]
+
+text 
+Konung  Christoffer 
+
+../filerX/Ronigk.xml Title: RÖNIGH
+text MAG. JOH. QVIRSFELDS 
+
+../filerX/Laek5-6.xml Title: [Läkebok 4 och 5 ur Codex 19 Benz]
+text [Läkebok 5 och 6 ur  
+
+../filerX/AVgL.xml Title: #
+1
+text # 1	Kirkiu
+Bolkær 
+
+../filerX/Genoveva.xml Title: # 237 [Om Sankt Genoveva början fattas]
+text # 237 [Om Sankt Geno 
+
+../filerX/Birg7-C61.xml Title: 1015
+text ‡‡ 1015 Hær børyas s 
+
+../filerX/Albinus.xml Title: #
+262 Här äpther staar thäs wärdogha herras
+hälga liffuerne sancti albini
+text #
+262 Här äpther sta 
+
+../filerX/flores.xml Title: This electronic version, distributed by Språkbanken, may only be used as a
+text Flores och Blanzeflo 
+
+../filerX/BirgVita.xml Title: [Vita
+abbreviata ur Holm A 33]
+text [Vita abbreviata ur
+
+
+../filerX/Anna1a.xml Title: [Sankta Anna enligt Codex Benz 9]
+text Jacobus Voragine sig 
+
+../filerXNy/Argus.xml Title: Dalin: Then Swänska Argus>
+text THEN SWÄNSKA 
+
+../filerXNy/Stalham.xml Title: Jon Stålhammars brev
+text #1a1 
+
+../filerXNy/Swart.xml Title: Peder Swarts krönika
+text #1 
+
+../filerXNy/Petri.xml Title: 
+Olaus Petris Krönika
+text [1] Allom them som t 
+
+../filerXNy/PetriA.xml Title: 
+Olaus Petris Krönika, stil A
+text [1] Allom them som t 
+
+../filerXNy/Gyllenb.xml Title: Gyllenborg: Svenska sprätthöken
+text #20  
+
+../filerXNy/GB-1734.xml Title: Giftermåls balk (1734)
+text GIFTERMÅLS BALK (173 
+
+../filerXNy/Brahe.xml Title: Per Brahes krönika
+text #1 
+
+../filerXNy/Hogstrom-Lm.xml Title: Beskrifning öfwer Sweriges Lapmarker 1747 av Pehr Högström, kap 1-4
+text [Beskrifning öfwer S 
+
+../filerXNy/Horn.xml Title: Agneta Horns levnadsbeskrivning
+text #3 
+
+../filerXNy/Gyllh.xml Title: Carl Carlsson Gyllenhielms anteckningar
+text #258  
+
+../filerXNy/Columb.xml Title: Samuel Columbus: Mål-roo eller Roo-mål
+text #1 
+
+../filerXNy/Runius.xml Title: Runius: Prosastycken
+text #28 
+
+../filerXNy/AnnaVasa.xml Title: Anna
+Vasas brev
+text Brev
+1 
+
+../filerXNy/PetriB.xml Title: 
+Olaus Petris Krönika, stil B
+text Men en part mena [B] 
+
+../filerXNy/Spegel.xml Title: Haqvin Spegel: Dagbok
+text #1 
+
+../filerXNy/Hiarne.xml Title: Urban
+Hiärne: Stratonice
+text #5
+

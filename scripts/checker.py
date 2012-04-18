@@ -6,7 +6,6 @@ from xml.etree import ElementTree as etree
 
 # checks if the file contains the title elsewhere
 def containsTitle(fil):
-    print "start on",fil
     xml = open(fil,'r').read()
     etree.register_namespace('',"http://rtf2xml.sourceforge.net/")
     tree = etree.fromstring(xml)
@@ -17,7 +16,6 @@ def containsTitle(fil):
     if not text.startswith(tit):
        print fil,"Title:",tit
        print "text",text[:20],"\n"
-    print "finished",fil
     return fil
 
 def findtext(tree):
@@ -98,5 +96,26 @@ testxml = '''
           </body>
           </doc>
             '''
+
+def hittaTitel(fil):
+    print "start on",fil
+    xml = open(fil,'r').read()
+    etree.register_namespace('',"http://rtf2xml.sourceforge.net/")
+    tree = etree.fromstring(xml)
+    info = tree.find(prefix+'preamble').find(prefix+'doc-information')
+    tit1 = info.find(prefix+'title')
+    year = info.find(prefix+'year')
+    tit = ""
+    y   = ""
+    if not tit1 is None: tit = tit1.text
+    if not year is None : y = year.text
+    return (fil,tit,y)
+
+filerna1 = [glob.glob("../filerX/"+a+"*xml") for a in list('abcdefghijABCDEFGHIJ')]
+filerna = glob.glob("../filerXNy/*")
+def findthem():
+    for lst in filerna1:
+       for uri in lst:
+        print hittaTitel(uri)
 
 

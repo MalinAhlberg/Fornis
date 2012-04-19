@@ -31,7 +31,11 @@ filesNy = glob.glob('../filerXNy/*.xml')
 # ['../filerX/Troja.xml'] # 
 
 def doAll():
-    for uri in files+filesNy:
+    # add titles etc to xmls
+    newDir = checker.readAndAddInfo("../titles/titelsExtract.txt") 
+    # TODO add lables here
+    # titles are not added to NySvenska files
+    for uri in newDir+filesNy #files+filesNy:
         t = threading.Thread(target=opener,args=(uri,))
         t.start()
 

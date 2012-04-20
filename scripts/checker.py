@@ -4,60 +4,29 @@ import os
 import glob
 import threading
 from xml.etree import ElementTree as etree
-
-# TODO what will happen to ns0 usw when reading file many times?
-# OK kolla om titel stämmer
-# Test   lägga till tag om innehåll
-# OK lägga till år och namn med rätt encoding och antal fnuttar, add begin end
-# OK do not care about new lines
+from usefuls import *
 
 
-# adding label-tag, should read section/*
-# (not tested)
+# add label tags, as specified in tagUri
+# reads and writes to files in toDir
 def addLabel(tagUri,toDir):
-    files = open(fil,'r').readlines()
+    print "reading labels from",tagUri
+    files = open(tagUri,'r').readlines()
     tag = ""
     if files[0].startswith('#'):
        tag = files[0][1:].strip()
+       print "will add tag",tag
        files = files[1:]
-    for fil in files:
-       xml = etree.fromstring(open(fil,'r').read())
-       doc = tree.find(prefix+'preamble').find(prefix+'doc-information')
-       addTag(['label='+tag],doc)
-       open(os.path.join(toDir,fil)).write(etree.toString(xml)
+       for fil in files:
+         if fil.strip():
+           fil = fil.strip()
+           path = os.path.join(toDir,fil+'.xml')
+           print "adding tag to file",path
+           xml = etree.fromstring(open(path,'r').read())
+           doc = xml.find(prefix+'preamble').find(prefix+'doc-information')
+           addTag(['label='+tag],doc)
+           open(path,'w').write(etree.tostring(xml))
        
-
-    
-# checks if the file contains the title elsewhere
-def containsTitle(fil):
-    xml = open(fil,'r').read()
-    etree.register_namespace('',prefix)
-    tree = etree.fromstring(xml)
-    info = tree.find(prefix+'preamble').find(prefix+'doc-information')
-    tit1 = info.find(prefix+'title')
-    tit = "" 
-    if not tit1 is None: tit = tit1.text
-    text = findtext(tree.find(prefix+'body'))
-    if not text.startswith(tit):
-       print fil,"Title:",tit
-       print "text",text[:20],"\n"
-    return fil
-
-def findtext(tree):
-    for e in tree:
-        if e.text and e.text.strip():
-           return e.text 
-        elif findtext(e):
-             return findtext(e)
-
-def checkAll():
-    for uri in files+filesNy:
-        containsTitle(uri)
-#        t = threading.Thread(target=containsTitle,args=(uri,))
-#        t.start()
-
-files   = glob.glob('../filerX/*.xml')
-filesNy = glob.glob('../filerXNy/*.xml')
 
 # for adding info to a list of xml files
 # Each line of the input should contain first the filename
@@ -66,24 +35,25 @@ filesNy = glob.glob('../filerXNy/*.xml')
 def readAndAddInfo(uri):
    text  = open(uri,'r').readlines()
    toDir = os.path.join('..','titled')
-   for uri in text:
-        t = threading.Thread(target=addInfo,args=(uri,toDir))
-        t.start()
+   for line in text:
+        addInfo(line,toDir)
    return toDir
 
 # add a new information to a file
 # takes a line such as "file.xml | year=2012 | title=Rubriken" as input
 # prints the new xml
 def addInfo(line,toDir):
+    print "Info",line
     xs = line.split('|')
     xs = map(lambda x: x.strip(), xs)
     etree.register_namespace('',prefix)
-    fil = open(os.path.join(filerX,xs[0]),'r').read()
-    tree = etree.fromstring(fil)
-    info = tree.find(prefix+'preamble').find(prefix+'doc-information')
-    addTag(xs[1:],info)
-    print etree.tostring(info)
-    open(os.path.join(toDir,xs[0]),'w').write(etree.tostring(tree))
+    path = xs[0]
+    if path.strip():
+      fil  = open(os.path.join(filerX,path),'r').read()
+      tree = etree.fromstring(fil)
+      docinfo = tree.find(prefix+'preamble').find(prefix+'doc-information')
+      addTag(xs[1:],docinfo)
+      open(os.path.join(toDir,xs[0]),'w').write(etree.tostring(tree))
 
 # saves the info (a list of keys and values: ['key1=val1','key2=val2']
 # to the tree. Updates the tags if the already exists, otherwise adds them
@@ -91,13 +61,13 @@ def addTag(info,tree):
     info = map(lambda x: x.split('='),info)
     for (tag,val) in info:
         # if it is a year tag, split it into start and begin
-        # TODO which encoding? string? int?
         if tag=="year":
            # if the year is not an interval, use same start and end date
            if val.rfind('-')==-1:
-              print 'change val'
+              #print 'change val'
               val = val+'-'+val
-           print val
+           val = filter(lambda x: x!='"' and x!="'",val)
+           #print 'year interval',val
            interval = val.split('-')
            info += [("begin",interval[0]),("end",interval[1])]
         # else add tag
@@ -106,9 +76,6 @@ def addTag(info,tree):
           if tit is None:
              tit = etree.SubElement(tree,prefix+tag)
           tit.text = val.decode('utf-8')
-
-filerX = '../filerX/'
-prefix = '{http://rtf2xml.sourceforge.net/}'
 
 def test2():
     return addInfo("Nic-A.xml | title=u\"hallå eller\" |  year=44","ny")
@@ -133,7 +100,40 @@ testxml = '''
           </body>
           </doc>
             '''
+###############################################################################
+# For checking the title, is repeated in the body text?
+###############################################################################
 
+def checkAll():
+    for uri in allFiles
+        containsTitle(uri)
+
+
+# checks if the file contains the title elsewhere
+def containsTitle(fil):
+    xml = open(fil,'r').read()
+    etree.register_namespace('',prefix)
+    tree = etree.fromstring(xml)
+    info = tree.find(prefix+'preamble').find(prefix+'doc-information') # used to use findtext()
+    tit1 = info.find(prefix+'title')
+    tit = "" 
+    if not tit1 is None: tit = tit1.text
+    text = tree.find(prefix+'body').itertext()
+    if not text.startswith(tit):
+       print fil,"Title:",tit
+       print "text",text[:20],"\n"
+    return fil
+
+#
+#def findtext(tree):
+#    alltxt = body.itertext()
+#    for e in tree:
+#        if e.text and e.text.strip():
+#           return e.text 
+#        elif findtext(e):
+#             return findtext(e)
+
+# prints the set titel and year
 def hittaTitel(fil):
     print "start on",fil
     xml = open(fil,'r').read()
@@ -148,8 +148,8 @@ def hittaTitel(fil):
     if not year is None : y = year.text
     return (fil,tit,y)
 
+
 filerna1 = [glob.glob("../filerX/"+a+"*xml") for a in list('abcdefghijABCDEFGHIJ')]
-filerna = glob.glob("../filerXNy/*")
 def findthem():
     for lst in filerna1:
        for uri in lst:

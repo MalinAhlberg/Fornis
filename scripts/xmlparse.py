@@ -2,6 +2,7 @@
 
 import re
 from xml.etree import ElementTree as etree
+from usefuls import *
 
 fil  =  "../filerX/Alexius.xml"
 
@@ -24,11 +25,9 @@ testxml = '''
           </doc>
             '''
 
-prefix = "{http://rtf2xml.sourceforge.net/}"
-
 # makes sure that a paraghraph is not interrupted by a pagebreak
 def use(xmls):
-    etree.register_namespace('',"http://rtf2xml.sourceforge.net/")
+    etree.register_namespace('',prefix)
     tree = etree.fromstring(xmls)
     _ = concatTags(tree.find(prefix+'body'))
     return etree.tostring(tree)
@@ -67,15 +66,7 @@ def tagPageN(tree):
 # maunal subsitution in xml. not safe, produces nested tags which are
 # not accepted in standard xml
 def tagPageNo(tree):
-         # re1 is an expression for 'utgåvesidonummer':  # 324 
-         re1 = r'[ >]#\s*[0-9]*'
-         # re2 is an expression for 'handskriftssidonummer': [ ‡‡ 31r ] 
-         # may be surrounded by  '[' ...']' and uses ascii or utf-8 encoding
-         re2 = re.compile(r"""(\[\s*&\#x2021;&\#x2021;\s*[0-9]*[abrv]*\s*\])|(&\#x2021;&\#x2021;\s*[0-9]*[abrv])|
-                      (\[\s*&\#8225;&\#8225;\s*[0-9]*[abrv]*\s*\]) |(&\#8225;&\#8225;\s*[0-9]*[abrv])""",re.X)
-         
          i = 0 # position in string
-
          # inserts an element surrounded by text
          def insert(txt,pos,pos2,elem):
              return txt[:pos]+elem+txt[pos2:]
@@ -131,14 +122,7 @@ def extractNo(s):
     
 
              
-# Tests and to do
-# TODO
-#tag1 = r'[ >]#\s*[0-9]*'
-##innertag2 = ""
-#innertag2 = re.compile("""(&\#x2021;&\#x2021;|&\#8225;&\#8225;)  # the alternative '#'-sign
-#                           \s*[0-9]*[abrv]*                       # the page number""",re.X)
-#tag2 = re.compile(r'(\[\s*'+innertag2+'\s*\])|'+innertag2)
-
+# Tests
 hskTag = r'(&#x2021;&#x2021;)|(&#8225;&#8225;)' 
 utfilen = "kalas.xml"
 #open(utfilen,'w').write(use(open(fil).read()))

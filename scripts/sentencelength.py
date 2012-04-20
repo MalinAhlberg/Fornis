@@ -2,10 +2,22 @@
 import re
 import usefuls
 from xml.etree import ElementTree as etree
+from padnums import pprint_table
 
-# encoding? must be ok for getting last controll right
-# check that there is no other tag?
 
+# ranks all files
+def rankAll():
+    ranks = []
+    for fil in usefuls.allFiles:
+       print "fil",fil
+       res = rankText(fil)
+       ranks += [res]
+       if res is None:
+          print "Noo",res
+    printres(ranks)
+
+
+# extracts the relevant text from the xmls
 def extractText(fil):
     inp  = open(fil,'r').read() 
     xml  = etree.fromstring(inp)
@@ -17,14 +29,10 @@ def extractText(fil):
     alltxt = body.itertext()
     for t in alltxt:
        txt += ' '+t 
-    # addText(body,txt)
-    # #sections = body.findall(usefuls.prefix+'section')
-    # paras    = body.iterfind(usefuls.prefix+'para')
-    # for p in paras:
-    #   addText(p,txt)
-    #   p.findall(usefuls.prefix+'inline')
     return txt 
 
+# counts the length of the sentences and if they are followed
+# by an upper case letter
 def countSentence(txt,punkt):
     if len(punkt)==1:
        ss  = txt.split(punkt)
@@ -43,7 +51,7 @@ def countSentence(txt,punkt):
         uppers += [sent.strip()[0].isupper()]
     return lens,uppers
 
-
+# remove page numbering from text, so that it is not counted as a word
 def removePageN(sent):
     m  = re.search(usefuls.re1,sent)
     if not m is None:
@@ -53,40 +61,52 @@ def removePageN(sent):
        sent = sent[:m.start()]+sent[m.start():]
     return sent
 
-# TODO START Fara gets None here why?
+# classifies a file wrt the sentence length
 def rankText(fil):
     txt = extractText(fil)
-#   print txt[:80]+txt[-20:]
-#   txt = fil
     def mediumLen(xs):
         return reduce(lambda x, y: x+y,xs)/float(len(xs))
     def okLength(x):
         return x>9 and x<31
+    # first count the sentences separated by '.'
     lens,caps = countSentence(txt,'.')
     rank1 = []
     mlen = mediumLen(lens)
-    mediumCap = len(filter(lambda x: x, caps))/float(len(caps))
-    res = {'rank' : 1,'Pleng' : mlen, 'caps' : mediumCap, 'file' : fil}
+    mediumCap1 = len(filter(lambda x: x, caps))/float(len(caps))
+    res = {'rank' : 1,'Pleng' : mlen, 'caps' : mediumCap1, 'file' : fil}
+    # returns rank 1, super good sentences
     if okLength(mlen):
         return res
     
+    # then count the sentences separated by ','
     (klen,caps) = countSentence(txt,',')
     mklen = mediumLen(klen)
+    mediumCap2 = len(filter(lambda x: x, caps))/float(len(caps))
+    res.update({'rank' : 2,'Cleng' : mklen, 'caps' : mediumCap2})
+    # returns rank 2, good sentences
     if okLength(mklen):
-        mediumCap = len(filter(lambda x: x, caps))/float(len(caps))
-        res.update({'rank' : 2,'Cleng' : mklen, 'caps' : mediumCap, 'file' : fil})
         return res
 
+    # then count the sentences separated by capitalized words
     (xlen,_) = countSentence(txt,uppers)
     mxlen = mediumLen(xlen)
+    res.update({'rank' : 3, 'Uleng' : mxlen, 'caps' : mediumCap1})
+    # returns rank 3, ok sentenecs
     if okLength(mxlen):
-       res.update({'rank' : 3, 'Uleng' : mxlen})
        return res
 
-    return res.update({'rank':4})
+    # then count the sentences separated by tabs
+    (tlen,_) = countSentence(txt,'\t')
+    mtlen = mediumLen(tlen)
+    res.update({'rank': 4, 'tleng': mtlen})
+    # returns rank 4, hard sentences
+    return res
 
           
+# upper case letters
 uppers = u"ABCDEFGHIJKLMNOPQRSTUVXYZÅÄÖ"
+
+# splits a text by some of a number of splitters
 def splitBy(txt,stoppers):
     parts = []
     j = 0 
@@ -97,40 +117,47 @@ def splitBy(txt,stoppers):
     parts += [txt[j:]]
     return parts
            
-
-def rankAll():
-    ranks = []
-    for fil in ["../filerX/Fara.xml"]: #usefuls.allFiles:
-       print "fil",fil
-       res = rankText(fil)
-       ranks += [res]
-       if res is None:
-          print "Woo",res
-    printres(ranks)
-
+# formatting the output
 def printres(res):
-   best = good = ok = bad = ''
    res.sort()
-   s = ""
-   print res
+   s =  ""
+   best = []
+   good = []
+   ok = []
+   bad = []
    for b in res:
      fil   = b.get('file')
      pLeng = str(b.get('Pleng'))
      caps  = str(b.get('caps'))
      if b.get('rank')==1:
-            best += fil+'\t'+pLeng+'\t'+caps
+            best.append([fil,pLeng,caps])
      elif b.get('rank')==2:
-        good += fil+'\t'+str(b.get('Cleng'))+'\t'+caps+'\t'+pLeng
+        good.append([fil,str(b.get('Cleng')),caps,pLeng])
      else:
-        s = file+'\t'+str(b.get('Uleng'))+'\t'+caps+'\t' +pLeng+'\t'+b.get('Cleng')
+        s = [fil,str(b.get('Uleng')),caps,pLeng,str(b.get('Cleng'))]
         if b.get('rank')==3:
-            ok += s
+            ok.append(s)
         else:
-          bad += s
-   
-   open('best.txt','w').write(best)
-   open('good.txt','w').write(good)
-   open('ok.txt'  ,'w').write(ok)
-   open('bad.txt' ,'w').write(bad)
+          s = s+[str(b.get('tleng'))]
+          bad.append(s)
 
+     # sort 'best' by number of capitals after '.'
+     best = sorted(best, key=lambda x: float(x[2]),reverse=True) 
+     # sort the others by sentence length
+     good = sorted(good, key=lambda x: float(x[1]),reverse=True) 
+     ok   = sorted(ok  , key=lambda x: float(x[1]),reverse=True) 
+     bad  = sorted(bad , key=lambda x: float(x[1]),reverse=True) 
 
+     bests = [["File","Sentence length for '.'","Capital after punctuation"]]+best
+     goods = [["File","Sentence length for ','","Capital after ','"
+              ,"Sentence length for '.'"]]+good
+     oks   = [["File","Sentence length for capitals","Capital after '.'"
+              ,"Sentence length for '.'","Sentence length for ','"]]+ok
+     bads  = [["File","Sentence length for capitals","Capital after '.'"
+              ,"Sentence length for '.'","Sentence length for ','","Sentence length for tab"]]+bad
+     pprint_table(open('best.txt' ,'w'),bests)
+     pprint_table(open('good.txt' ,'w'),goods)
+     pprint_table(open('ok.txt'   ,'w'),oks)
+     pprint_table(open('bad.txt' ,'w'),bads)
+
+testfiles = ['../filerX/Birg-8.xml','../filerX/Bo.xml','../filerX/OgL-C.xml']

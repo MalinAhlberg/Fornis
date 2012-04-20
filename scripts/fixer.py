@@ -4,39 +4,44 @@ import re
 import glob
 import os.path
 import xmlparse
+import checker
+import usefuls
 from xml.etree import ElementTree as etree
 
-txt = ''' super
-          sträng (bra för lines)'''
 
-
-def opener(uri):
+def pagenumberfixer(uri):
     # read file
     inp = open(uri).read()
     (_,path) = os.path.split(uri)
-    out = '../fixedTagged/'+encode(path)
+    out = 'fixedTaggedTest/'+encode(path)
     # concat tags if they are separated by a newpage
     new = xmlparse.use(inp)
     # fix page numbers
     newer = xmlparse.tagPageN(new)
-    # remove ugly tags
-    ok1 = re.sub('ns0:','',newer)  
-    ok  = re.sub(r'&#x009;','',ok1)  
+    # remove bad characters (TODO remove this? might be useful, although dangerous for kark)
+    ok  = re.sub(r'&#x009;','',newer)  
     # write file
-    # to do remove ns0 stuff? or later?
     open(out,'w').write(ok)
 
-files   = glob.glob('../filerX/*.xml')
-filesNy = glob.glob('../filerXNy/*.xml')
-# ['../filerX/Troja.xml'] # 
-
 def doAll():
+    # remove name register
+    #for uri in files+filesNy:
+    #  fil = open(uri).read()
+    #  ok  = re.sub('xmlns="http://rtf2xml.sourceforge.net/"','',fil)  
+    #  open(uri,'w').write(ok)
+
     # add titles etc to xmls
-    newDir = checker.readAndAddInfo("../titles/titelsExtract.txt") 
-    # TODO add lables here
     # titles are not added to NySvenska files
-    for uri in newDir+filesNy #files+filesNy:
-        t = threading.Thread(target=opener,args=(uri,))
+    print "extracting titles"
+    newDir = checker.readAndAddInfo("../titles/titelsExtract.txt") 
+    # add lables as specified in sections/
+    for sec in glob.glob('../sections/*'):
+         print "adding label for",sec
+         checker.addLabel(sec,newDir)
+    # fix the page number issue
+    # titles are not added to NySvenska files (newfiles)
+    for uri in glob.glob(newDir+'/*') +usefuls.newfiles:  
+        t = threading.Thread(target=pagenumberfixer,args=(uri,))
         t.start()
 
 # fixes weird file paths

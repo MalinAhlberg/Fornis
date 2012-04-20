@@ -1,0 +1,31 @@
+File                               Sentence length for '.'   Capital after punctuation
+../filerXNy/Swart.xml                        24.3202247191              0.988764044944
+../filerX/Mar41SLundversion.xml              19.0614754098              0.982240437158
+../filerX/Luk41SLundversion.xml              19.5053497942              0.981893004115
+../filerX/Apo41SLundversion.xml              22.3319238901              0.978858350951
+../filerX/Ronigk.xml                         20.6829268293              0.975609756098
+../filerX/KS-Bu.xml                           29.090296496              0.969002695418
+../filerXNy/AnnaVasa.xml                     22.9772727273              0.957386363636
+../filerXNy/Horn.xml                         21.3027282267              0.900314795383
+../filerXNy/Columb.xml                       19.0469924812              0.882518796992
+../filerXNy/Hiarne.xml                       27.6902439024              0.878048780488
+../filerXNy/Argus.xml                        23.0823529412              0.806152185645
+../filerXNy/Gyllenb.xml                      18.1558935361               0.78010139417
+../filerX/MEL.xml                            18.4881632653              0.722040816327
+../filerX/MESt.xml                           25.5634824667              0.529625151149
+../filerX/flores.xml                         25.3428571429              0.721428571429
+../filerXNy/Stalham.xml                      14.0322382561              0.708013509364
+../filerX/fredrik.xml                        28.5022091311              0.703976435935
+../filerXNy/Hogstrom-Lm.xml                  25.3478873239              0.701408450704
+../filerX/ivan.xml                           30.9838472834              0.652716593245
+../filerXNy/Spegel.xml                       13.4498023715              0.481027667984
+../filerXNy/GB-1734.xml                      10.4749536178              0.463821892393
+../filerX/Nic-A.xml                          9.32271944923              0.436316695353
+../filerXNy/MB-1734.xml                      11.1455319149              0.543829787234
+
+File                               Sentence length for capitals   Capital after '.'   Sentence length for '.'   Sentence length for ','
+../filerXNy/Runius.xml                            11.6887774778      0.905021834061             32.9967248908             56.7073170732
+
+File                       Sentence length for ','   Capital after ','   Sentence length for '.'
+../filerXNy/Gyllh.xml                12.2123853211     0.0183486238532             33.8499682136
+../filerXNy/Brahe.xml                11.7804551539     0.0240963855422             43.5643564356

@@ -1,0 +1,20 @@
+"Fornsvenska legendariet"
+LegFragm
+LegOx
+LexPass
+
+"konunga styrelsen"
+KSFragm
+
+"Birgittas uppenbarelser"
+BUJul
+
+"Erikskrönikan"
+tillagd: A-Erik (html finns) 
+
+"Legenden om Vår Herres födelse"
+tillagd: VHF (html finns)
+
+
+annat:
+SVM-A & KarlMagnus-A både yngreProsa och äldre vers

@@ -1,0 +1,12 @@
+# Prosa 
+
+KarlMagnus-A
+SVM-A
+SVM-B   
+SVM-C
+Barl
+Did-A
+Did-B
+Val
+Proskron
+Troja

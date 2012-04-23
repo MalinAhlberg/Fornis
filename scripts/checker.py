@@ -5,6 +5,7 @@ import glob
 import threading
 from xml.etree import ElementTree as etree
 from usefuls import *
+import pickle
 
 
 # add label tags, as specified in tagUri
@@ -105,7 +106,7 @@ testxml = '''
 ###############################################################################
 
 def checkAll():
-    for uri in allFiles
+    for uri in allfiles:
         containsTitle(uri)
 
 
@@ -156,3 +157,21 @@ def findthem():
         print hittaTitel(uri)
 
 
+def hittavals(fil):
+     s = open(fil, "r").read()
+     lexicon = etree.fromstring(s)
+     #entries = lexicon.find('Lexicon')
+     #print 'lexicon',etree.tostring(lms)
+     l = []
+     for s in lexicon.iter():
+         for e in s.findall('feat'):
+             l.append(e.get('att')) 
+       
+     #for entry in entries: 
+     #  for s in entry:
+     #   #for j in i:  # j = feat
+     #    print etree.tostring(i)
+     #    for e in i.find('feat'):
+     #        l.append(e.get('att')) 
+     print (set(l))
+    

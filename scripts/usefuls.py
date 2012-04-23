@@ -1,3 +1,4 @@
+# -*- coding: utf_8 -*-
 import re
 import glob
 
@@ -12,7 +13,7 @@ re2 = re.compile(r"""(\[\s*&\#x2021;&\#x2021;\s*[0-9]*[abrv]*\s*\])|(&\#x2021;&\
 # old prefix in xml
 prefix = '' # "{http://rtf2xml.sourceforge.net/}"
 
-allFiles = glob.glob("../filerX/*xml")+newfiles
 newfiles = glob.glob("../filerXNy/*")
+allFiles = glob.glob("../filerX/*xml")+newfiles
 
 filerX = '../filerX/'

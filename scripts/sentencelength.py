@@ -10,12 +10,15 @@ def rankAll():
     ranks = []
     for fil in usefuls.allFiles:
        print "fil",fil
-       res = rankText(fil)
+       res = rankOne(fil,r'\xb6')
+      # res = rankText(fil)
        ranks += [res]
        if res is None:
           print "Noo",res
-    printres(ranks)
+    printres(ranks,all=False)
 
+minLength = 1    # 10
+maxLength = 5000 # 30
 
 # extracts the relevant text from the xmls
 def extractText(fil):
@@ -29,12 +32,12 @@ def extractText(fil):
     alltxt = body.itertext()
     for t in alltxt:
        txt += ' '+t 
-    return txt 
+    return txt[200:1000]
 
 # counts the length of the sentences and if they are followed
 # by an upper case letter
-def countSentence(txt,punkt):
-    if len(punkt)==1:
+def countSentence(txt,punkt, keep = False):
+    if len(punkt)==1 or keep:
        ss  = txt.split(punkt)
     else:
        ss  = splitBy(txt,punkt)
@@ -64,13 +67,8 @@ def removePageN(sent):
 # classifies a file wrt the sentence length
 def rankText(fil):
     txt = extractText(fil)
-    def mediumLen(xs):
-        return reduce(lambda x, y: x+y,xs)/float(len(xs))
-    def okLength(x):
-        return x>9 and x<31
     # first count the sentences separated by '.'
     lens,caps = countSentence(txt,'.')
-    rank1 = []
     mlen = mediumLen(lens)
     mediumCap1 = len(filter(lambda x: x, caps))/float(len(caps))
     res = {'rank' : 1,'Pleng' : mlen, 'caps' : mediumCap1, 'file' : fil}
@@ -102,7 +100,24 @@ def rankText(fil):
     # returns rank 4, hard sentences
     return res
 
-          
+def mediumLen(xs):
+    return reduce(lambda x, y: x+y,xs)/float(len(xs))
+def okLength(x):
+    return x>=minLength and x<=maxLength
+
+# count the sentences separated by 'stop'
+def rankOne(fil,stop):
+    txt = extractText(fil)
+    lens,caps = countSentence(txt,stop,keep = True)
+    mlen = mediumLen(lens)
+    mediumCap1 = len(filter(lambda x: x, caps))/float(len(caps))
+    res = {'rank' : 1,'Pleng' : mlen, 'caps' : mediumCap1, 'file' : fil}
+    # returns rank 1, super good sentences
+    if okLength(mlen):
+        return res
+    else: return {}
+ 
+
 # upper case letters
 uppers = u"ABCDEFGHIJKLMNOPQRSTUVXYZÅÄÖ"
 
@@ -118,7 +133,7 @@ def splitBy(txt,stoppers):
     return parts
            
 # formatting the output
-def printres(res):
+def printres(res, all=True):
    res.sort()
    s =  ""
    best = []
@@ -143,21 +158,23 @@ def printres(res):
 
      # sort 'best' by number of capitals after '.'
      best = sorted(best, key=lambda x: float(x[2]),reverse=True) 
-     # sort the others by sentence length
-     good = sorted(good, key=lambda x: float(x[1]),reverse=True) 
-     ok   = sorted(ok  , key=lambda x: float(x[1]),reverse=True) 
-     bad  = sorted(bad , key=lambda x: float(x[1]),reverse=True) 
+     if all:
+       # sort the others by sentence length
+       good = sorted(good, key=lambda x: float(x[1]),reverse=True) 
+       ok   = sorted(ok  , key=lambda x: float(x[1]),reverse=True) 
+       bad  = sorted(bad , key=lambda x: float(x[1]),reverse=True) 
+
+       goods = [["File","Sentence length for ','","Capital after ','"
+                ,"Sentence length for '.'"]]+good
+       oks   = [["File","Sentence length for capitals","Capital after '.'"
+                ,"Sentence length for '.'","Sentence length for ','"]]+ok
+       bads  = [["File","Sentence length for capitals","Capital after '.'"
+                ,"Sentence length for '.'","Sentence length for ','","Sentence length for tab"]]+bad
+       pprint_table(open('good.txt' ,'w'),goods)
+       pprint_table(open('ok.txt'   ,'w'),oks)
+       pprint_table(open('bad.txt' ,'w'),bads)
 
      bests = [["File","Sentence length for '.'","Capital after punctuation"]]+best
-     goods = [["File","Sentence length for ','","Capital after ','"
-              ,"Sentence length for '.'"]]+good
-     oks   = [["File","Sentence length for capitals","Capital after '.'"
-              ,"Sentence length for '.'","Sentence length for ','"]]+ok
-     bads  = [["File","Sentence length for capitals","Capital after '.'"
-              ,"Sentence length for '.'","Sentence length for ','","Sentence length for tab"]]+bad
      pprint_table(open('best.txt' ,'w'),bests)
-     pprint_table(open('good.txt' ,'w'),goods)
-     pprint_table(open('ok.txt'   ,'w'),oks)
-     pprint_table(open('bad.txt' ,'w'),bads)
 
 testfiles = ['../filerX/Birg-8.xml','../filerX/Bo.xml','../filerX/OgL-C.xml']

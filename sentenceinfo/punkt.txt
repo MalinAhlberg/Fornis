@@ -29,3 +29,24 @@ File                               Sentence length for capitals   Capital after 
 File                       Sentence length for ','   Capital after ','   Sentence length for '.'
 ../filerXNy/Gyllh.xml                12.2123853211     0.0183486238532             33.8499682136
 ../filerXNy/Brahe.xml                11.7804551539     0.0240963855422             43.5643564356
+../filerX/KrL.xml                    23.2876712329      0.139726027397             67.4603174603
+
+other
+p (kapitel ,C) ../filerX/Did-B.xml  22.0509433962     0.0509433962264             47.6048879837
+
+'.,' som punkt, '.' som komma:
+p C St ../filerX/SmLKB.xml          25.0551181102      0.338582677165             5.56293706294
+
+p or C ../filerX/KatEgMir.xml       12.3766233766     0.0519480519481                   59.5625
+p C ¶ ../filerX/Ruth.xml            27.7974683544     0.0759493670886                      61.0
+p C ../filerX/Judit.xml             23.2821917808       0.13698630137             67.4444444444
+
+C , capitulum ../filerX/Birg-Ox.xml    28.5869565217      0.521739130435             404.615384615
+
+C ../filerX/Laek4.xml                  27.5795454545      0.159090909091                     485.4
+C ../filerX/Bond.xml                   16.0536058619      0.356729656768             95.6942528736
+
+,C ../filerX/StefP.xml                          11.2                0.15                     224.0
+,C .C ../filerX/Laek10.xml             10.1440677966      0.177966101695                     199.5
+.C ,C ../filerX/Laek7.xml              9.82580514482      0.388292485315             113.873239437
+,C? ../filerX/EmAnna.xml               9.44296729593      0.139856421165                   17757.5

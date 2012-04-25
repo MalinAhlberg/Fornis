@@ -1,15 +1,14 @@
 vilken översätting, andra eller första redaktionen (båda html-sidorna länkar till denna fil)?
 m processed/Birg1-3.xml:<text title="Birgittas uppenbarelser Bok 1-3, ur Codex Holm A 33" year="1400-1499">
 
-vilket år?
-n processed/MP1.xml:<text title="Svenska Medeltidspostillor 1, enligt AM 787" year="">
-n processed/MP5.xml:<text title="Svenska Medeltidspostillor 5" year="">
-n processed/Ordsprak.xml:<text title="Fornsvenska Ordspråk" year="">
-n processed/RegS.xml:<text title="Regula Salvatoris och Revelationes Extravagantes, ur Berlin KB 3762" year="">
-n processed/StrLegBil-I.xml:<text title="Codex Bildstenianus; strödda legender Hand I" year="">
-m processed/Germ-Gen.xml:<text title="Legenden om Sankt Germanus och Genoveva, från Nådendals klosterbok" year="">
-m processed/ErikReg.xml:<text title="[Om Erik den helige, efter Codex Vat Reg Lat 525]" year="">
-
+vilket år? ALL FIXED
+1300-1450 n processed/MP1.xml:<text title="Svenska Medeltidspostillor 1, enligt AM 787" year="">
+1325-1525 n processed/MP5.xml:<text title="Svenska Medeltidspostillor 5" year="">
+1325-1525 n processed/Ordsprak.xml:<text title="Fornsvenska Ordspråk" year="">
+1325-1525 n processed/RegS.xml:<text title="Regula Salvatoris och Revelationes Extravagantes, ur Berlin KB 3762" year="">
+1400-1450 n processed/StrLegBil-I.xml:<text title="Codex Bildstenianus; strödda legender Hand I" year="">
+1255-1525 m processed/ErikReg.xml:<text title="[Om Erik den helige, efter Codex Vat Reg Lat 525]" year="">
+Karl.xml | title="Karlskrönikan" | year="1389-1452"
 m processed/Karl.xml:<text title="# 1" year="">
       (Holm D2/D6, 1520 - Ups C 62, 1400-talet - Linch 1600-talet, Lund 1480) 
 

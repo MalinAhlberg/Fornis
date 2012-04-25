@@ -1,0 +1,47 @@
+File                               Sentence length for . or , followed by capital
+../filerX/Alexius.xml                        39.7058823529  
+../filerX/MP5.xml                            38.7053915276  
+../filerX/Sjusov.xml                         38.6041666667  
+../filerX/OgL-M.xml                          38.1090909091  
+../filerX/BjR.xml                            37.8431372549  
+../filerX/OgL-A.xml                          37.7923728814  
+../filerX/MP2-fragm.xml                      35.1231884058  
+../filerX/SmLKB.xml                          34.6703296703  
+../filerX/Macra.xml                                   34.5  
+../filerX/Genoveva.xml                       34.1773049645  
+../filerX/Germ-Gen.xml                       33.8712871287  
+../filerX/Germ.xml                            33.605313093  
+../filerX/SK.xml                             33.1986842105  
+../filerX/Birg-8.xml                          32.901777362  
+../filerX/OgL-E.xml                          31.2727272727  
+../filerX/Apd26SLundversion.xml              29.7676767677  
+
+../filerX/Clara.xml                          29.2395061728  
+../filerX/Greg-A.xml                         27.0347551343  
+../filerX/Exodus16.xml                                26.8  
+../filerX/ChrPina.xml                        26.7598684211  
+../filerX/Bo.xml                             26.2465062112  
+../filerXNy/PetriA.xml                       25.9572308808  
+../filerXNy/Petri.xml                        24.6717679306  
+../filerX/Birg-no.xml                        24.3252688172  
+../filerXNy/GB-1734.xml                      23.8903508772  
+../filerX/Vidhem.xml                         22.8376383764  
+../filerX/HL.xml                             22.8186462324  
+../filerX/Mar26SLundversion.xml              22.6497764531  
+../filerX/AVgL.xml                           22.5602409639  
+../filerXNy/PetriB.xml                        22.475308642  
+../filerXNy/Spegel.xml                       22.2252858104  
+../filerX/Laek7.xml                          21.9867398262  
+../filerX/Birg-Bergm.xml                      21.306122449  
+../filerX/RegS.xml                           21.1956009427  
+../filerX/Laek9.xml                          20.9803921569  
+../filerXNy/MB-1734.xml                      20.5874799358  
+../filerX/Nic-A.xml                          20.5593869732  
+../filerX/OgL-H.xml                          20.4398148148  
+../filerX/Yvgl.xml                           20.3913043478  
+../filerX/Blasius.xml                        20.1216216216  
+../filerX/VmL.xml                            19.9115138593  
+../filerX/SdmL-A.xml                         16.2266443234  
+../filerX/Barbara.xml                        14.6828193833  
+
+

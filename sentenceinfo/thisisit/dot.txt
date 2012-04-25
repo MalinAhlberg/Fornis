@@ -1,0 +1,21 @@
+File                               Sentence length for '.'   Capital after punctuation
+../filerXNy/Swart.xml                        24.2467228464              0.998595505618
+../filerX/Luk41SLundversion.xml              19.4411522634              0.997530864198
+../filerX/KS-Bu.xml                          28.9716981132               0.99730458221
+../filerX/Mar41SLundversion.xml              18.9754098361              0.995901639344
+../filerX/Apo41SLundversion.xml               22.221987315              0.993657505285
+../filerX/Ronigk.xml                         20.6829268293              0.975609756098
+../filerXNy/AnnaVasa.xml                     22.9772727273              0.957386363636
+../filerXNy/Gyllh.xml                        33.7622377622              0.928798474253
+../filerXNy/Runius.xml                       32.8864628821              0.918122270742
+../filerXNy/Horn.xml                         21.2444910808              0.906086044071
+../filerXNy/Columb.xml                       18.9793233083               0.90037593985
+../filerXNy/Hiarne.xml                       27.5536585366              0.885365853659
+../filerXNy/Argus.xml                         22.990717755              0.823313545602
+../filerXNy/Gyllenb.xml                      18.0956907478              0.798479087452
+../filerX/flores.xml                         24.8410714286              0.771428571429
+../filerX/fredrik.xml                        28.0014727541              0.746686303387
+../filerX/MEL.xml                            18.4881632653              0.722040816327
+../filerXNy/Hogstrom-Lm.xml                  25.0929577465              0.711267605634
+../filerXNy/Stalham.xml                      14.0322382561              0.708013509364
+../filerX/ivan.xml                           30.4437086093               0.70787343635

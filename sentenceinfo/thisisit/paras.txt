@@ -1,0 +1,13 @@
+File                                    Sentence length for paragraphs
+../filerX/SkaL.xml                           42.6584821429   
+../filerX/Laek5-6.xml                               34.392   
+../filerX/Val.xml                            34.1519274376   
+../filerX/Laek8.xml                          33.4776119403   
+../filerX/Lydekin.xml                        32.7544642857   
+../filerX/Luc-JB.xml                         32.5483119907   
+../filerX/Laek10.xml                         27.8588235294   
+../filerX/Laek2.xml                           19.195473251   
+../filerX/UL-Add.xml                         19.1081081081   
+../filerX/Laek-Benz22.xml                    12.1639344262   
+../filerX/Ordsprak.xml                       8.70257826888   
+../filerX/Karl.xml                           6.02902181856   

@@ -76,7 +76,7 @@ def addTag(info,tree):
           tit = tree.find(prefix+tag)
           if tit is None:
              tit = etree.SubElement(tree,prefix+tag)
-          tit.text = val.decode('utf-8')
+          tit.text = val.strip('"').decode('utf-8')
 
 def test2():
     return addInfo("Nic-A.xml | title=u\"hallå eller\" |  year=44","ny")

@@ -29,7 +29,7 @@ testxml = '''
 def use(xmls):
     etree.register_namespace('',prefix)
     tree = etree.fromstring(xmls)
-    _ = concatTags(tree.find(prefix+'body'))
+    concatTags(tree.find(prefix+'body'))
     return etree.tostring(tree)
 
 # concatenates text in tags if they are interrupted by pagebreak

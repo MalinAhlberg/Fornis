@@ -8,6 +8,17 @@ import checker
 import usefuls
 from xml.etree import ElementTree as etree
 
+def concatFiles():
+    def concater(fil):
+      inp = open(uri).read()
+      (_,path) = os.path.split(uri)
+      out = 'fixedTaggedTest/'+encode(path)
+      # concat tags if they are separated by a newpage
+      new = xmlparse.use(inp)
+      open(out,'w').write(new)
+    for uri in usefuls.allFiles:  
+        t = threading.Thread(target=concater,args=(uri,))
+        t.start()
 
 def pagenumberfixer(uri):
     # read file

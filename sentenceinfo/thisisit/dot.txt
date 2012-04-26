@@ -19,3 +19,4 @@ File                               Sentence length for '.'   Capital after punct
 ../filerXNy/Hogstrom-Lm.xml                  25.0929577465              0.711267605634
 ../filerXNy/Stalham.xml                      14.0322382561              0.708013509364
 ../filerX/ivan.xml                           30.4437086093               0.70787343635
+

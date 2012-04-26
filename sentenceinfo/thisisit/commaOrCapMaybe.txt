@@ -1,12 +1,12 @@
 File                               Sentence length for capitals    Sentence length for '.'   Sentence length for ','   Sentence length for tab   Sentence length for para
 ../filerX/SVM-C.xml                               81.9746835443                     6473.0             86.3066666667             497.923076923
 ../filerX/UL-B.xml                                57.4507575758              5.55562339724             1978.04347826             229.772727273
-../filerX/Birg-aut.xml                            56.2121212121              123.333333333                    231.25             132.142857143
+x ../filerX/Birg-aut.xml                            56.2121212121              123.333333333                    231.25             132.142857143
 ../filerX/Servacius.xml                                    55.2                     4002.0             8.22610483042                    8004.0
 ../filerX/Laek11.xml                               51.301369863                      935.0             113.333333333             65.6140350877               65.6140350877   
 ../filerX/GregStyl.xml                            49.9345794393                     5342.0             7.97313432836                    5342.0
 ../filerX/Albinus.xml                             49.6764705882                     1689.0              9.0320855615                    1689.0
-../filerX/LegBu.xml                               49.0188679245               11.215299198                   12120.0             172.322274882
+x ../filerX/LegBu.xml                               49.0188679245               11.215299198                   12120.0             172.322274882
 ../filerX/MariaOe.xml                             43.7040358744                     9740.0             8.25423728814             1623.33333333
 ../filerX/Fara.xml                                42.8333333333                     1028.0              8.4958677686             342.666666667
 ../filerX/JohDop.xml                              42.5333333333                      382.6             57.9696969697                    1913.0

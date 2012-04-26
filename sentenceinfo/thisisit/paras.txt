@@ -11,3 +11,6 @@ File                                    Sentence length for paragraphs
 ../filerX/Laek-Benz22.xml                    12.1639344262   
 ../filerX/Ordsprak.xml                       8.70257826888   
 ../filerX/Karl.xml                           6.02902181856   
+
+File                               Sentence length for capitals    Sentence length for '.'   Sentence length for ','   Sentence length for tab   Sentence length for para
+../filerX/Laek11.xml                               51.301369863                      935.0             113.333333333             65.6140350877               65.6140350877   

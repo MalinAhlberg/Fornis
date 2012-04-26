@@ -90,5 +90,16 @@ File                               Sentence length for capitals   Capital after 
 ../filerX/HML.xml                                  11.295583239      0.317567567568             13.4121621622             607.653061224             109.870848708
 ../filerX/OgL-N.xml                               11.2083333333                 0.2             11.8461538462                     770.0                     770.0
 
+File                               Sentence length for capitals    Sentence length for '.'   Sentence length for ','   Sentence length for tab
+../filerX/SVM-C.xml                               81.9746835443                     6473.0             86.3066666667             497.923076923
+../filerX/UL-B.xml                                57.4507575758              5.55562339724             1978.04347826             229.772727273
+../filerX/Servacius.xml                                    55.2                     4002.0             8.22610483042                    8004.0
+../filerX/GregStyl.xml                            49.9345794393                     5342.0             7.97313432836                    5342.0
+../filerX/Albinus.xml                             49.6764705882                     1689.0              9.0320855615                    1689.0
+../filerX/MariaOe.xml                             43.7040358744                     9740.0             8.25423728814             1623.33333333
+../filerX/Fara.xml                                42.8333333333                     1028.0              8.4958677686             342.666666667
+../filerX/Tekla.xml                               40.5263157895                      770.0             8.65168539326                     770.0
+../filerX/Joleida.xml                             40.0952380952                      842.0             7.38596491228                     842.0
+../filerX/Rakel.xml                               41.5660377358                     2202.0             7.75352112676                     550.5
 
-
+# make sure romerska siffror is not capitals..

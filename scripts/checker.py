@@ -33,11 +33,12 @@ def addLabel(tagUri,toDir):
 # Each line of the input should contain first the filename
 # and then a list of elements to add
 # Eg. "file.xml | year=2012 | title=Rubriken" as input
-def readAndAddInfo(uri):
-   text  = open(uri,'r').readlines()
+def readAndAddInfo(uris):
    toDir = os.path.join('..','titled')
-   for line in text:
-        addInfo(line,toDir)
+   for uri in uris:
+      text  = open(uri,'r').readlines()
+      for line in text:
+           addInfo(line,toDir)
    return toDir
 
 # add a new information to a file
@@ -50,7 +51,7 @@ def addInfo(line,toDir):
     etree.register_namespace('',prefix)
     path = xs[0]
     if path.strip():
-      fil  = open(os.path.join(filerX,path),'r').read()
+      fil  = open(os.path.join('..',path),'r').read()
       tree = etree.fromstring(fil)
       docinfo = tree.find(prefix+'preamble').find(prefix+'doc-information')
       addTag(xs[1:],docinfo)
@@ -152,8 +153,7 @@ def hittaTitel(fil):
 
 filerna1 = [glob.glob("../filerX/"+a+"*xml") for a in list('abcdefghijABCDEFGHIJ')]
 def findthem():
-    for lst in filerna1:
-       for uri in lst:
+    for uri in newfiles: # filerna1:
         print hittaTitel(uri)
 
 

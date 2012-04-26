@@ -44,7 +44,7 @@ def doAll():
     # add titles etc to xmls
     # titles are not added to NySvenska files
     print "extracting titles"
-    newDir = checker.readAndAddInfo("../titles/titelsExtract.txt") 
+    newDir = checker.readAndAddInfo(["../titles/titelsExtract.txt","../titles/tilesNyExtract.txt"]) 
     # add lables as specified in sections/
     for sec in glob.glob('../sections/*'):
          print "adding label for",sec

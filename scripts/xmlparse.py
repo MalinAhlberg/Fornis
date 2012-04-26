@@ -115,7 +115,7 @@ def makeelem(tag,att,opt,close):
        closer = '</'+tag+'>'
     return x+closer+'<'+tag+' num=\"'+att+'\" >'
 
-# extracts the pagenumber from a handskriftssidonummer
+# extracts the pagenumber from a handskriftssidonummer and pagenumber
 def extractNo(s):
     ok  = re.sub(hskTag,'',s)  
     return ''.join(filter(lambda x: x.isdigit() or x.isalpha(),ok))

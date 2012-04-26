@@ -5,37 +5,62 @@ import glob
 import codecs
 from xml.etree import ElementTree as etree
 
+# read file and return list of entries and reference to the whole lexicon
 def readIt(fil):
      s = open(fil, "r").read()
      lexicon = etree.fromstring(s)
      lex     = lexicon.find('Lexicon')
      entries = lex.findall('LexicalEntry')
      return (entries,lexicon)
-    
-def references():
-    (entries,lex) = readIt('../../Lexicon/schlyter.xml')
-    lst = []
-    saves = False # True
 
-    for entry in entries: 
-        (pos,l) = getTag(entry)
-        # if it is has an e tag, try to fix it
-        if pos == 'e':
-          print 'tag is e!'
-          ref = findReference(l,entry,entries,save=saves)
-          if ref is not None: lst.append((l,ref))
+# prints words that (easily) refers to others
+# saves the updated version, with replaced tags for successful e-words
+# to file if 'saves' is set to true.
+def references():
+    errFile = 'error.txt'
+    saves   = True # False # 
+    lexicon = '../../Lexicon/schlyter.xml' #'../../Lexicon/test.xml' 'testRef2.xml' #
+    outFile = 'testRef3.xml'
+    refFile = 'refer.txt'
+    open(refFile,'w').write('') # empty old references
+
+
+    def run(lexicon,outFile,i):
+        print 'round',i
+        errs = [] # empty errors
+        lst  = []
+        print 'reading',lexicon
+        (entries,lex) = readIt(lexicon)
+        for entry in entries: 
+            (pos,l) = getTag(entry)
+            (lem,_) = getAtt(getFormRepresentation(entry),'lem')[0]
+            # if it is has an e tag, try to fix it
+            if pos == 'e':
+              ref = findReference(l,entry,entries,errs,save=saves)
+              if ref is not None: lst.append((lem,ref))
+        if saves:
+          print 'writing lexicon',outFile
+          open(outFile,'w').write(etree.tostring(lex,encoding='utf-8'))
+        print 'new references',len(lst)
+        codecs.open(refFile,'a','utf-8').write(format(lst))
+        updates = len(lst)
+        print 'errors',len(errs)
+        if saves and updates != 0:
+           print 'rerunning...'
+           return run(outFile,'rerunlex'+str(i)+'.xml',i+1)
+        else: return errs
 
     def format(lst):
         ss = ''
         for (a,b) in lst:
             ss += a+'\t'+b+'\n'
         return ss
-    if saves:
-      open('testRef.xml','w').write(etree.tostring(lex,encoding='utf-8'))
-    codecs.open('refs2.txt','w','utf-8').write(format(lst))
+    err = run(lexicon,outFile,0)
+    codecs.open(errFile,'w','utf-8').write('\n'.join(err))
+       
          
 
-
+# replaces e:s with pos-tags from gram-information
 def makeTags():
     (entries,lex) = readIt('../../Lexicon/schlyter.xml')
     counter =  []
@@ -82,7 +107,9 @@ def findHW(lem):
           print hw
           print l
      
-def findReference(lem,entry,lex,save=False):
+# searches for information about references. 'lem' is the lemgram where the
+# information should be saved, 'entry' the whole entry, 'lex' the whole lexicon
+def findReference(lem,entry,lex,errs,save=False):
    # kolla om det står se i Sense -Definition - text
     sense  = entry.find('Sense')
     if not sense is None:
@@ -97,31 +124,26 @@ def findReference(lem,entry,lex,save=False):
               # finns det bara en, visa den
               if len(lems)==1:
                 (pos,_) = getTag(lems[0])
-                #print 'got tag',pos
                 if pos != 'e':
                    (reflem,_) = getAtt(getFormRepresentation(lems[0]),'lem')[0]
                    if save:
-                     print 'saving',pos
                      lem.set('val',re.sub('\.\.e\.','..'+pos+'.',lem.get('val')))
                    return reflem
-                else: print 'refererence to "e"',lems[0],txt
-              else: print 'too many or few references',lems,txt
+                else: errs += ['refererence to "e" '+lem.get('val')+' '+txt]
+              else: errs += ['too many or few references '+str(len(lems))+' '+txt]
             elif words and words[0]=='se': 
-              print 'bad reference',txt
+              errs += ['bad reference '+txt]
 
 def normalize(words):
     return (words[3:]).lower()  # remove 'se '
-    #return re.sub(' ','_',word.lower())
 
 def lookup(e,lex,typ):
-    #print 'lookup',e
     res = []
     for entry in lex:
         form = getFormRepresentation(entry)
         eres = getAtt(form,typ)
         for (txt,elem) in eres:
             if txt==e:
-              #print 'a match!',txt
               res.append(entry)
     return res
 
@@ -159,7 +181,6 @@ def setNewTag(elem,entry,counter):
            elem.set('val',re.sub('\.\.e\.','..kn.',old))
 
 # only in beginning of string? other word classes
-# 'se Xxx'
 def isNoun(t):
   return t.startswith('n.') or t.startswith('f.') or t.startswith('m.')
 def isPrep(t):
@@ -173,6 +194,7 @@ def isVerb(t):
 def isConj(t):
   return t.startswith('conj.')
 
+# gets the value of 'val' in 'elem'
 def getAtt(elem,val):
     res = []
     if not elem is None:

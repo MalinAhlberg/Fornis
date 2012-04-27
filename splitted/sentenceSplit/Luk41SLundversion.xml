@@ -1,0 +1,2315 @@
+<doc><preamble><rtf-definition code-page="ansicpg1252" default-font="Times New Roman" platform="Windows" /><font-table><font-in-table name="Times New Roman" num="0" /><font-in-table name="Times" num="4" /><font-in-table name="Tms Rmn" num="8" /><font-in-table name="Cardo" num="27" /><font-in-table name="Times New Roman CE" num="194" /><font-in-table name="Times New Roman Cyr" num="195" /><font-in-table name="Times New Roman Greek" num="197" /><font-in-table name="Times New Roman Tur" num="198" /><font-in-table name="Times New Roman (Hebrew)" num="199" /><font-in-table name="Times New Roman (Arabic)" num="200" /><font-in-table name="Times New Roman Baltic" num="201" /><font-in-table name="Times CE" num="226" /><font-in-table name="Times Tur" num="230" /><font-in-table name="Times Baltic" num="233" /><font-in-table name="Cardo CE" num="410" /><font-in-table name="Cardo Greek" num="413" /><font-in-table name="Cardo Tur" num="414" /><font-in-table name="Cardo (Hebrew)" num="415" /><font-in-table name="Cardo Baltic" num="417" /></font-table><color-table><color-in-table num="1" value="#000000" /><color-in-table num="2" value="#0000FF" /><color-in-table num="3" value="#00FFFF" /><color-in-table num="4" value="#00FF00" /><color-in-table num="5" value="#FF00FF" /><color-in-table num="6" value="#FF0000" /><color-in-table num="7" value="#FFFF00" /><color-in-table num="8" value="#FFFFFF" /><color-in-table num="9" value="#000080" /><color-in-table num="10" value="#008080" /><color-in-table num="11" value="#008000" /><color-in-table num="12" value="#800080" /><color-in-table num="13" value="#800000" /><color-in-table num="14" value="#808000" /><color-in-table num="15" value="#808080" /><color-in-table num="16" value="#C0C0C0" /></color-table><style-table><paragraph-styles><paragraph-style-in-table adjust-right="true" align="left" font-size="10.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-12.00" name="Format Kopfzeile" nest-level="0" next-style="Format Kopfzeile" num="23" right-indent="0.00" tabs="center:216.00;left:360.00;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="left" based-on-style="Normal" font-size="12.00" font-style="Cardo" language="German" left-indent="0.00" name="Body Text" nest-level="0" next-style="Body Text" num="15" right-indent="0.00" space-after="6.00" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="left" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Standardabsatz" nest-level="0" next-style="Standardabsatz" num="21" right-indent="0.00" tabs="left:155.95;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="left" based-on-style="Normal" font-size="12.00" language="German" left-indent="0.00" name="header" nest-level="0" next-style="header" num="17" right-indent="0.00" tabs="center:226.80;right:453.60;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="cent" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Überschrift 11" nest-level="0" next-style="Überschrift 11" num="16" right-indent="0.00" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="just" based-on-style="Anfangsabsatz" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" line-spacing="-18.00" name="Absatzanfang" nest-level="0" next-style="Absatzanfang" num="19" right-indent="0.00" tabs="left:35.45;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="left" based-on-style="Normal" font-size="12.00" language="German" left-indent="0.00" name="footer" nest-level="0" next-style="footer" num="18" right-indent="0.00" tabs="center:226.80;right:453.60;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="cent" font-size="14.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Überschrift" nest-level="0" next-style="Überschrift" num="22" right-indent="0.00" space-after="12.00" space-before="18.00" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="left" font-size="12.00" language="German" left-indent="0.00" name="Normal" nest-level="0" next-style="Normal" num="0" right-indent="0.00" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="just" first-line-indent="21.25" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Anfangsabsatz" nest-level="0" next-style="Anfangsabsatz" num="20" right-indent="0.00" tabs="left:177.20;left:216.00;" widow-control="true" /></paragraph-styles><character-styles><character-style-in-table name="Default Paragraph Font" num="10" /></character-styles><styles-in-body><paragraph-style-in-body adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Überschrift 11" right-indent="0.00" style-number="s0001" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Überschrift 11" nest-level="0" right-indent="0.00" style-number="s0002" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" first-line-indent="35.40" font-style="Times New Roman" left-indent="35.40" line-spacing="-18.00" name="Überschrift 11" nest-level="0" right-indent="0.00" style-number="s0003" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Standardabsatz" nest-level="0" right-indent="0.00" style-number="s0004" tabs="left:155.95;" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" line-spacing="-18.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0005" tabs="left:35.45;" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0006" tabs="left:177.20;left:216.00;" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" first-line-indent="21.25" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0007" tabs="left:177.20;left:216.00;" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" line-spacing="-18.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0008" tabs="left:177.20;left:216.00;" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" first-line-indent="35.40" font-size="14.00" font-style="Tms Rmn" language="German" left-indent="35.40" line-spacing="-18.00" name="Überschrift" nest-level="0" right-indent="0.00" space-after="12.00" space-before="18.00" style-number="s0009" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-size="12.00" font-style="Times New Roman" language="German" left-indent="0.00" name="Normal" nest-level="0" right-indent="0.00" style-number="s0010" widow-control="true" /></styles-in-body></style-table><doc-information><title>Gustav Vasas Bibel, Lukasevangeliet</title><author>hkh3</author><operator>hkh3</operator><creation-time day="11" minute="9" month="1" year="2006" /><revision-time day="11" minute="9" month="1" year="2006" /><editing-time editing-time="0" /><number-of-pages number-of-pages="54" /><number-of-words number-of-words="19837" /><number-of-characters number-of-characters="113075" /><begin>1541</begin><end>1541</end></doc-information><page-definition gutter="0" margin-bottom="56.70" margin-left="56.70" margin-right="56.70" margin-top="56.70" paper-height="842.00" paper-width="595.35" /></preamble><body><section level="0" num="1" num-in-level="1" type="rtf-native"><paragraph-definition adjust-right="true" align="just" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Überschrift 11" nest-level="0" right-indent="0.00" style-number="s0002" widow-control="true"><para /><para><inline font-size="12.00" font-style="Times"><s>[S. Luce Euangelium] #33</s></inline></para><para /><para><inline font-size="12.00" font-style="Times" /></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" first-line-indent="35.40" font-style="Times New Roman" left-indent="35.40" line-spacing="-18.00" name="Überschrift 11" nest-level="0" right-indent="0.00" style-number="s0003" widow-control="true"><para><inline font-size="12.00" font-style="Times"><s>FÖRSTA
+CAPITEL</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Standardabsatz" nest-level="0" right-indent="0.00" style-number="s0004" tabs="left:155.95;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" line-spacing="-18.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0005" tabs="left:35.45;" widow-control="true"><para><s><s>Efter monge haffua taghit sigh före, at
+bescriffua the ting, som jbland oss aldrawissast äro, såsom the
+oss sagdt haffua, som aff begynnelsen thet medh sijn öghon sågho,
+och sielffue en deel woro aff thet the sadhe, syntes ock migh, sedhan iagh aff
+begynnelsen all ting grannerligha vthfråghat haffuer, scriffua tigh til,
+min godhe Theophile, at tu må förfara wissa sanningen, om the
+stycker, ther tu om vnderwijster är.</s></s></para><para /><para><s><s>	Vthi
+Herodis Judee Konungs tijd, war en Prest vthaff Abie skiffte, benemd Zacharias,
+och hans hustru aff Aarons döttrar, benemd Elizabeth.</s></s><s><s>The woro
+bådhen retferdigh för Gudh, wandrandes j all Herrans bodh och
+stadhgar ostraffelighe.</s></s><s><s>Och the hadhe ingen barn, Ty Elizabeth war ofruchtsam,
+och bådhen woro the framlidhin j sin
+ålder.</s></s></para><para /><para><s><s>	Så begaff thet sigh, tå
+han j sitt skiffte skulle hålla sitt Prestaembete för Gudhi,
+effter Presterskapens sedh, och thet föll på honom, at han skulle
+vptenda rökelse, Gick #34</s></s></para><para /><para /><para><s><s>han in j
+Herrans Tempel.</s></s><s><s>Och alt folcket war vthan til, och badh, så lenge
+rökelsen skeedde.</s></s></para><para /><para><s><s>	Så syntes honom
+Herrans Ängel, ståndandes på höghro sidhon widh
+Rökaltaret.</s></s><s><s>Och Zacharias wardt förskreckt tå han
+sågh honom, och en redhoghe föll offuer honom.</s></s><s><s>Tå sadhe
+Ängelen til honom, War icke förfärat Zacharia, Ty tijn
+böön är hörd.</s></s><s><s>Och tijn hustru Elizabeth skal
+födha tigh en son, hwilkens nampn tu skalt kalla Johannes, och tigh skal
+warda glädhi och frögd.</s></s><s><s>Och monge skola frögdas aff hans
+födhelse.</s></s><s><s>Han skal warda stoor för Herranom.</s></s><s><s>Wijn och starcka
+drycker skal han icke dricka.</s></s><s><s>Och skal strax j modherlijffuet vpfylt warda medh
+them helgha Anda.</s></s><s><s>Och han skal vmwenda monga aff Jsraels barn til Herran theras
+Gudh.</s></s><s><s>Och han skal gå för honom medh Elie Anda och krafft, til at
+vmwenda fädhernars hierta til barnen, och the ohörigha til the
+rettferdighas snilheet, och göra Herranom itt bereedt
+folck.</s></s></para><para /><para><s><s>	Tå sadhe Zacharias til Ängelen,
+Hwar aff skal iagh thetta weta?</s></s><s><s>Ty iagh är gammal, och mijn hustru
+är framlidhin j åldren.</s></s><s><s>Ängelen swaradhe och sadhe til
+honom, Jagh är Gabriel, som ståår j Gudz åsyyn, och
+är vthsend til at tala tigh til, och bodha tigh thenna godha tijdhenden.</s></s><s><s>Och sij, tu skalt warda måållös, och skalt intet kunna
+tala, in til then daghen tå thetta skeer, Therföre at tu icke
+troodde minom ordom, hwilken skola fulkompnat warda j sin
+tijdh.</s></s></para><para /><para><s><s>	Och folcket förbijdde Zachariam, och
+förundradhe sigh, at han så lenge dwaldes j Templet.</s></s><s><s>Men
+tå han vthgick, kunde han intet tala medh them.</s></s><s><s>Och så
+förmerckte the, at han hadhe seedt någhon syyn j Templet.</s></s><s><s>Och han
+teknadhe them, och bleff
+måållös.</s></s></para><para /><para><s><s>	Och thet begaff sigh,
+tå hans embetes daghar vthe woro, gick han heem j sitt hws.</s></s><s><s>Och effter
+the daghar, wardt hans hustru Elizabeth haffuandes, och fördolde sigh j
+fem månadhe, och sadhe, Så haffuer nu
+Herren #35</s></s></para><para /><para /><para><s><s>giordt medh migh j the daghar
+tå han sågh til migh, på thet han skulle borttagha mijn
+försmädhelse jbland menniskionar.</s></s></para><para /><para><s><s>	Vthi
+siette månadhen, wardt Gabriel Ängel vthsend aff Gudhi, vthi en
+stadh j Galileen, benemd Nazareth, til een Jungfru, som förloffuat war
+enom man, hwilkens nampn war Joseph aff Dauidz hws, och Jungfrwnes nampn Maria.</s></s><s><s>Och Ängelen kom in til henne, och sadhe, Heel full medh nådh,
+Herren är medh tigh, Welsignat tu jbland
+quinnor.</s></s></para><para /><para><inline small-caps="true"><s>Herren</s></inline> Gudh skal giffua honom hans fadhers Dauidz
+säte, och han skal wara en Konung offuer Jacobs hws j ewigh tijdh, och
+på hans Rike skal ingen ende wara.<s><s>	Tå hon sågh honom, wardt hon
+förfärat aff hans taal, och tenckte vppå, hurudana
+helsning thetta war.</s></s><s><s>Tå sadhe Ängelen til henne, Fruchta tigh
+icke Maria, Ty tu haffuer funnet nådh för Gudhi.</s></s><s><s>Sij, tu skalt
+affla j titt lijff och födha en Son, hwilkens nampn tu skalt kalla
+Jesus.</s></s><s><s>Han skal warda stoor, och kallas thens Högsta Son.</s></s><s><s>Och </s></s></para><para /><para><s><s>	Tå
+sadhe Maria til Ängelen, Huru skal thetta tilgå?</s></s><s><s>Ty iagh weet aff
+ingen man.</s></s><s><s>Ängelen swaradhe, och sadhe til henne, Then helghe Ande skal
+komma offuer tigh, och thens Högstas krafft skal offuerskyggia tigh.</s></s><s><s>Therföre ock thet Helgha, som aff tigh födt warder, skal kallas
+Gudz Son.</s></s><s><s>Och sij, Elizabeth tijn frenka haffuer ock afflat en son j sin
+ålderdom, och thetta är siette månadhen, åt henne
+som hetes wara ofruchtsam, Ty för Gudh är ingen ting
+omögeligh.</s></s><s><s>Tå sadhe Maria, Sij, Herrans tienarinna, warde migh
+effter titt taal.</s></s><s><s>Och Ängelen skildes jfrå
+henne.</s></s></para><para /><para><s><s>	Vthi the daghar stoodh Maria vp, och gick vp j
+bergsbygdena medh hast, vthi Jude stadh, och kom vthi Zacharie hws, och
+helsadhe Elizabeth.</s></s><s><s>Och thet begaff sigh, tå Elizabeth hörde
+Marie helsning, språng barnet vthi hennes lijff.</s></s><s><s>Och Elizabeth wardt
+vpfylt medh them helgha #36</s></s></para><para /><para /><para><s><s>Anda, och ropadhe
+medh högha röst, och sadhe, Welsignat tu jbland quinnor, och
+welsignat tins lijffs frucht.</s></s><s><s>Och hwadhan kommer migh thetta, at mins Herras
+modher kommer til migh?</s></s><s><s>Sij, tå rösten aff tinne helsning kom j
+mijn öron, språng barnet aff glädhi j mitt lijff.</s></s><s><s>Och
+saligh ästu som troodde, Ty all ting warda fulbordat, som tigh sagd
+äro aff Herranom.</s></s></para><para /><para><s><s>		Och Maria
+sadhe.</s></s></para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Standardabsatz" nest-level="0" right-indent="0.00" style-number="s0004" tabs="left:155.95;" widow-control="true"><para><s><s>Mijn siäl prisar
+stoorligha Herran.</s></s><s><s>Och min Ande frögdar sigh j Gudhi minom
+Frelsare.</s></s></para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" line-spacing="-18.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0005" tabs="left:35.45;" widow-control="true"><para><s><s>	Ty han haffuer seedt til sinne tienarinnos
+ringheet.</s></s><s><s>Sij, här effter warda all slechte migh saligha
+kallandes.</s></s></para><para /><para><s><s>	Ty then Mechtighe haffuer giordt mechtigh
+ting medh migh, och hans nampn är heligt,</s></s></para><para /><para><s><s>	Och
+hans barmhertigheet warar jfrå slechte til slechte, offuer them som
+fruchta honom.</s></s></para><para /><para><s><s>	Han haffuer bedriffuit macht medh
+sinom arm, och förskingrat them som höghferdighe äro vthi
+theras hiertas sinne.</s></s></para><para /><para><s><s>	The mechtigha haffuer han satt
+aff sätet, och vpsatt the ringa.</s></s></para><para /><para><s><s>	The hungrogha
+haffuer han medh godh ting vpfylt, och the rijka haffuer han låtit toma
+bliffua.</s></s></para><para /><para><s><s>	Han haffuer vptaghit sin tienare Jsrael,
+tenckiandes på sina
+barmhertigheet.</s></s></para><para /><para><s><s>	Såsom han sagdt haffuer til
+wåra Fädher, Abraham och hans sädh til ewigh tijdh.</s></s><s><s>Och
+Maria bleff när henne widh tree månadher, Och gick så heem
+j sitt hws igen.</s></s></para><para /><para><s><s>	Så wardt tå Elizabeth
+tijdhen fulbordat, at hon skulle födha.</s></s><s><s>Och hon födde en son.</s></s><s><s>Och
+hennes grannar och frender fingo höra, at Herren hadhe giordt stoor
+barmhertigheet medh henne, och frögdadhe sigh medh
+henne.</s></s></para><para /><para><s><s>	Och thet begaff sigh, på ottonde daghen
+komo the til at #37</s></s></para><para /><para /><para><s><s>omskära barnet, och
+kallade honom effter hans fadher Zachariam.</s></s><s><s>Tå swaradhe hans modher och
+sadhe, Jngalunda, men han skal heta Johannes.</s></s><s><s>Tå sadhe the til henne,
+Vthi tinne slecht är ingen som haffuer thet nampnet.</s></s><s><s>Så teknadhe
+the hans fadher, hwadh han wille kalla honom.</s></s><s><s>Och han eskadhe ena tafflo, ther
+han vthi screff, säyandes, Johannes är hans nampn.</s></s><s><s>Och alle
+förundradhe sigh ther på.</s></s><s><s>Och strax öpnadhes hans munn och
+hans tunga, och taladhe, loffuandes Gudh, Och stoor fruchtan kom offuer alla
+theras grannar.</s></s><s><s>Och thetta rychtet gick vth offuer alla Judeska bergsbygdena.</s></s><s><s>Och alla the som thet hörde, satte j sitt hierta, säyandes, Hwadh
+mon warda vthaff thetta barnet?</s></s><s><s>Ty Herrans hand war medh
+honom.</s></s></para><para /><para><s><s>	Och hans fadher Zacharias wardt vpfylt medh
+them helgha Anda, propheteradhe och sadhe.</s></s></para><para /><para><s><s>	Loffuat
+ware Herren Jsraels Gudh, Ty han haffuer besökt och förlossat
+sitt folck.</s></s></para><para /><para><s><s>	Och haffuer vprettat oss salighetennes
+Horn, vthi sins tienares Dauidz hws.</s></s></para><para /><para><s><s>	Såsom han
+j förtijdhen talat haffuer, genom sina helgha Propheters
+munn.</s></s></para><para /><para><s><s>	At han skulle frelsa oss jfrå
+wåra owener, och vthu allas theras hand som hata
+oss.</s></s></para><para /><para><s><s>	Och bewisa barmhertighet medh wåra
+fädher, och minnas på sitt helgha
+Testamente.</s></s></para><para /><para><s><s>	Och på then eedh, som han sworit
+haffuer wårom fadher Abraham, at giffua
+oss.</s></s></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0006" tabs="left:177.20;left:216.00;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" line-spacing="-18.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0005" tabs="left:35.45;" widow-control="true"><para><s><s>	At wij frelste vthu wåra oweners hand,
+måtte honom tiena vthan fruchtan, j heligheet och rettferdigheet
+för honom, j alla wåra
+lijffzdaghar.</s></s><s><s>#38</s></s></para><para /><para /><para><s><s>	Och tu barn skalt
+kallas thens Högstas Prophete, Tu skalt gå för Herranom,
+til at beredha hans wäghar.</s></s></para><para /><para><s><s>	Och giffua hans
+folcke salighetennes kundskap, til theras synders
+förlåtelse.</s></s></para><para /><para><s><s>	Genom wår Gudz
+innerligha barmhertigheet, genom hwilka Vpgången aff högdenne
+haffuer oss besökt.</s></s></para><para /><para><s><s>	Til at vppenbaras them,
+som sittia j mörkret och dödzens skugga, och styra wåra
+fötter på fridzens wägh.</s></s></para><para /><para><s><s>	Och
+barnet wexte vp, och stercktes i Andanom.</s></s><s><s>Och wistadhes j öknenne, til
+then daghen han skulle fram komma för Jsraels
+folck.</s></s></para><para /><para><s><s>		ANNAT CAPITEL</s></s></para><para /><para><s><s>Thet
+begaff sigh j then tijdhen, at aff Keysar Augusto vthgick itt bodh, at all
+werlden skulle beskattas.</s></s><s><s>Och thenna beskatning war then första, och
+skeedde vnder then Höffdingen offuer Syrien, Kyrenio.</s></s><s><s>Och the gingo alle
+hwar vthi sin stadh, til at läta beskatta sigh.</s></s><s><s>Så foor ock
+Joseph vp aff Galilea, aff then stadhen Nazareth in vthi Judeska landet, til
+Dauidz stadh, som heter Bethlehem, Ty han war aff Dauidz hws och slecht,
+på thet han skulle låta beskatta sigh medh Maria sijn
+troloffuadha hustru, hwilken haffuandes
+war.</s></s></para><para /><para><s><s>	Så begaff sigh medhan the woro ther,
+wordo daghanar fulbordadhe, at hon skulle födha.</s></s><s><s>Och hon födde
+sin förstfödda Son, och swepte honom j lindaklädher, och
+ladhe honom nedher j een krubbo, Ty them war icke rwm j
+herberghena.</s></s></para><para /><para><s><s>	Och j then samma egnden woro
+någhre Heerdar, the ther wakadhe och höllo wård om nattena
+offuer sin hiord.</s></s><s><s>#39</s></s></para><para /><para /><para><s><s>Och sij, Herrans
+Ängel stoodh när them, och Herrans klarheet kringskeen them, och
+the wordo stoorligha förfäradhe.</s></s><s><s>Och sadhe Ängelen til
+them, Warer icke förfäradhe, Sij, iagh bodhar idher stoor
+glädhi, hwilken allo folckena widerfaras skal, Ty jdagh är idher
+födder Frelsaren, som är Christus Herren, j Dauidz stadh.</s></s><s><s>Och
+thetta skal wara idher för tekn.</s></s><s><s>J skole finna Barnet swept j
+lindaklädher, nedherlagdt j een krubbo.</s></s><s><s>Och strax wardt medh
+Ängelen itt stoort taal aff then himmelska häärskaran, the
+ther loffuadhe Gudh, och sadhe, Ära ware Gudh j högden, Och
+på jordenne fridh, Och menniskiomen en godh
+wilie.</s></s></para><para /><para><s><s>	Och thet begaff sigh, at Änglanar foro
+jfrå them vp j himmelen, och Heerdanar begynte säya emellan sigh,
+Lät oss nu gå til Bethlehem, och see thet som wij haffue
+hördt skeedt wara, thet Herren oss vppenbarat haffuer.</s></s><s><s>Och the gingo
+hasteligha, och funno Mariam och Joseph, och Barnet nedherlagdt j krubbon.</s></s><s><s>Och
+tå the thet seedt hadhe, berychtadhe the vth hwadh them sagdt war om
+thetta Barnet.</s></s><s><s>Och alle the thet hörde, förundradhe sigh
+på the ting, som them sagd woro aff Heerdanar.</s></s><s><s>Men Maria gömde
+all thenna ord, betrachtandes them j sitt hierta.</s></s><s><s>Och Heerdanar gingo tilbaka
+igen, prijsadhe och loffuadhe Gudh, offuer alt thet the hördt och seedt
+hadhe, såsom them sagdt war.</s></s></para><para /><para><s><s>	Och tå
+otta daghar woro framgångne, at Barnet skulle omskäras, kalladhes
+hans nampn Jesus.</s></s><s><s>Hwilket så kallat war aff Ängelen, förr
+än han afflat wardt j modherlijffuet.</s></s></para><para /><para><inline small-caps="true"><s>Herran</s></inline>, såsom scriffuit
+är j <inline small-caps="true"><s>Herrans</s></inline> Lagh, Alt mankön
+som först öpnar modherlijffuet, skal kallas heligt <inline small-caps="true"><s>Herranom #40</s></inline>. Och på thet
+the<s><s>	Och
+tå theras renselsedaghar woro fulkompnadhe effter Mosi Lagh, hadhe the
+honom til Jerusalem, på thet the skulle bära honom fram
+för </s></s></para><para /><para /><para><inline small-caps="true"><s>Herrans</s></inline> Lagh, itt par Turturduffuor eller
+twå vnga duffuor.<s><s>skulle offra, såsom sagdt war j
+</s></s></para><para /><para><inline small-caps="true"><s>Herrans</s></inline> Christ. Och han kom aff Andans tilskyndelse
+j Templet.<s><s>	Och sij, J Jerusalem war en
+man benemd Simeon, och then mannen war rettferdigh och gudhfruchtigh, och wente
+effter Jsraels tröst.</s></s><s><s>Och then helghe Ande war medh honom.</s></s><s><s>Och han hadhe
+fått swar aff them helgha Anda, at han icke skulle see dödhen,
+vthan han hadhe seedt tilförenna </s></s></para><para /><para><s><s>	Och tå föräldranar
+båro in Barnet Jesum, at the skulle göra för honom,
+såsom sidhwenia war j Laghen, toogh han honom j sin fampn, och loffuadhe
+Gudh, och sadhe.</s></s></para><para /><para><s><s>	HErre, Nu låter tu tin
+tienare fara j fridh, effter som tu sagdt haffuer.</s></s></para><para /><para><s><s>	Ty
+mijn öghon haffua seedt tina saligheet.</s></s></para><para /><para><s><s>	Hwilka
+tu bereedt haffuer för allo folcke.</s></s></para><para /><para><s><s>	Jtt Liws
+til Hedhninganars vplysning, och titt folck Jsrael til
+prijs.</s></s></para><para /><para><s><s>	Och hans fadher och modher förundradhe
+sigh på thet som sadhes om honom.</s></s><s><s>Och Simeon welsignadhe them, och sadhe
+til Mariam hans modher, Sij, thenne är satt til itt fall och
+vpståndelse mongom j Jsrael, och til itt tekn, hwilko emoot sagdt
+warder.</s></s><s><s>Ja, itt swerd skal ock gå j genom tina siäl, på
+thet mong hiertas tanckar skola vppenbaras.</s></s></para><para /><para><s><s>	Och ther
+war een Prophetissa, benemd Hanna, Phanuels dotter aff Aser slechte, hon war
+kommen til en stoor ålder, och hadhe leffuat siw åår medh
+sin man jfrå sin iungfrwdom, och war nu een änkia widh fyra och
+ottatiyo åår, hon kom aldrigh bortt vthu Templet, tienandes Gudhi
+medh fasto och böner natt och dagh.</s></s><s><s>Hon kom ock ther til j samma
+stundenne, och prisadhe Herran, och
+taladhe #41</s></s></para><para /><para /><para><inline italics="true"><s>o</s></inline>m til alla them som j Jerusalem wente
+förlosning.<s><s>om hon</s></s></para><para /><para><s><s>	Och tå the all ting
+fulbordat hadhe effter Herrans Lagh, drogho the in j Galileen igen, vthi sin
+stadh Nazareth.</s></s><s><s>Och Barnet wexte vp och förstercktes j Andanom, och
+vpfyltes medh wijsheet, och Gudz nådh war medh honom.</s></s><s><s>Och hans
+föräldrar gingo årligha til Jerusalem til
+Påschahögtijdhen.</s></s><s><s>Och tå han wardt tolff åra
+gammal, och the vpfarne woro til Jerusalem, effter Högtijdhennes
+sidhwenio, och the fulkompnat hadhe daghanar, och gingo heem igen, bleff Pilten
+Jesus quarr j Jerusalem, och hans föräldrar wiste ther intet aff.</s></s><s><s>Men the meente at han war j selskapet.</s></s><s><s>The gingo ena dagsleed, och sökte
+honom jbland frender och wener.</s></s><s><s>Och tå the icke funno honom, gingo the
+til Jerusalem igen, och sökte honom.</s></s><s><s>Så begaff thet sigh effter
+tree daghar, funno the honom j Templet, sittiandes mitt jbland the
+Lärare, hörandes them och frågandes them.</s></s><s><s>Och alle the
+honom hörde, förskreckte sigh offuer hans förstånd
+och swar.</s></s></para><para /><para><s><s>	Och tå the sågho honom,
+förundradhe the sigh.</s></s><s><s>Och hans modher sadhe til honom, Min Son, hwj
+giorde tu oss thetta?</s></s><s><s>Sij, tin fadher och iagh haffue sökt effter tigh,
+söriandes.</s></s><s><s>Och han sadhe til them, Hwadh är thet at j
+sökte migh?</s></s><s><s>Wisten j icke, at vthi the stycker som min Fadher
+tilhöra, bör migh wara?</s></s><s><s>Och the förstodho icke ordet, som
+han medh them taladhe.</s></s><s><s>Och så foor han nedh medh them, och kom til
+Nazareth, och war them vnderdånigh.</s></s><s><s>Men hans modher gömde all
+thessa ord vthi sitt hierta.</s></s><s><s>Och Jesus wexte til j wijsdom, ålder och
+nådhe för Gudh och
+menniskior.</s></s></para><para /><para><s><s>		TRIDIE
+CAPITEL</s></s></para><para /><para><s><s>Vthi femtonde årena, aff Tyberij
+Keysaredöme, tå Pontius Pilatus war Landzhöffding j Judea,
+och Herodes war Tetrarcha j Galilea, och Philippus hans brodher
+Tetrarcha #42</s></s></para><para /><para /><para><s><s>j Jturea, och j then egnden
+Trachonitidis, och Lysania Tetrarcha j Abilene, vnder the öffuersta
+Presterna Hanna och Caipha, kom Gudz befalning til Johannem Zacharie son j
+öknenne.</s></s><s><s>Och han kom j alla then egnden widh Jordan, och predicadhe
+bätringennes döpelse til syndernas förlåtelse.</s></s><s><s>Såsom scriffuit är j then boken aff Jsaie Prophetes ordom, then
+ther sägher, Vthi öknen är een ropande röst,
+Beredher Herrans wägh, görer hans stighar retta.</s></s><s><s>Alla dalar skola
+vpfyllas, och all bergh och backar skola förnedhras, och thet krokot
+är, skal rett warda, och thet oiemt är, skal wendas j sletta
+wäghar, och alt kött skal see Gudz
+saligheet.</s></s></para><para /><para><s><s>	Så sadhe han tå til folcket
+som vthgick til at döpas aff honom, J Huggormars afffödha, hoo
+haffuer idher föregiffuit, at j vndkomma skolen then tilkommande wredhe?</s></s><s><s>Görer för then skul tilbörligh bätrings frucht, och
+tagher idher icke före at säya widh idher sielff, Wij haffue
+Abraham til fadher, Ty iagh sägher idher, Gudh är mechtigh
+vpweckia Abrahe söner aff thenna stenar.</s></s><s><s>Och nu är allaredho yxen
+satt til rotena på trään, Huart och itt
+trää, som icke bäär godha frucht, warder affhugget
+och kastat j eelden.</s></s></para><para /><para><s><s>	Och folcket frågadhe
+honom, säyande, Hwadh skole wij tå göra?</s></s><s><s>Swaradhe han, och
+sadhe til them, Then ther twå kiortlar haffuer, han giffue then som
+ingen haffuer.</s></s><s><s>Och then ther maat haffuer, göre
+sammalund.</s></s></para><para /><para><s><s>	Så komo ock the Publicaner til at
+döpas, och sadhe til honom, Mestar, hwadh skole tå wij
+göra?</s></s><s><s>Sadhe han til them, Kräffuer icke meer vth än idher
+förelagdt är.</s></s></para><para /><para><s><s>	Frågadhe ock
+krijgsmän honom säyandes, Hwadh skole tå wij göra?</s></s><s><s>Sadhe han til them, Görer ingom offuerwold och orett, och låter
+idher nöya åt idhor
+löön.</s></s><s><s>#43</s></s></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" first-line-indent="21.25" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0007" tabs="left:177.20;left:216.00;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" line-spacing="-18.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0008" tabs="left:177.20;left:216.00;" widow-control="true"><para /><para><inline font-style="Times" /></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" line-spacing="-18.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0005" tabs="left:35.45;" widow-control="true"><para><s><s>	Så begynte tå folcket haffua
+een gissan, och alle tenckte j sijn hierta om Johanne, om han icke war
+Christus.</s></s><s><s>Tå swaradhe Johannes och sadhe til alla, Jagh döper
+idher j watn, men en warder kommande som starckare är än iagh,
+hwilkens skoremar iagh icke werd är at vplösa, Han skal
+döpa idher med them helgha Anda och medh eeld, Hwilkens kastoskoffuel
+är vthi hans hand, och han skal rensa sin logha, och församla
+hwetet vthi sina ladho, men agnanar skal han vpbrenna vthi ewigh eeld.</s></s><s><s>Och mong
+annor stycke förmanadhe han, och predicadhe för
+folcket.</s></s></para><para /><para><s><s>	Tå Herodes Tetrarcha wardt straffat
+aff honom för Herodias sins brodhers hustru skul, och för alt
+thet onda som Herodes giorde, offuer alt thetta ladhe han Johannem j
+hechtelse.</s></s></para><para /><para><inline small-caps="true"><s>Tv äst mjn elskeljghe son</s></inline>,
+vthi tigh behaghar migh.<s><s>	Och thet begaff sigh, tå alt
+folcket lät sigh döpa, och Jesus wardt ock döpt, och badh,
+öpnadhes himmelen.</s></s><s><s>Och then helghe Ande kom nedh j lekamligh hampn,
+såsom een duffua på honom, Och een röst kom aff himmelen,
+som sadhe, </s></s></para><para /><para><s><s>	Och Jesus war widh tretiyo
+åår tå han begynte.</s></s><s><s>Och han wardt hållen för
+Josephs son, hwilken war Elj
+son.</s></s></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Standardabsatz" nest-level="0" right-indent="0.00" style-number="s0004" tabs="left:155.95;" widow-control="true"><para><inline font-style="Times"><s>Hwilken war Mathath
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Leuj
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Melchi
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Janna
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Joseph
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Mathathie
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Amos
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Nahum
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Hesli
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Nange
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Maath
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Mathathie
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Semei
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Josech
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Juda
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Johanna
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Resia
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Zorobabel
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Salathiel
+son #44</s></inline></para><para /><para><inline font-style="Times" /></para><para><inline font-style="Times"><s>Hwilken
+war Neri son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war
+Melchi son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Addi
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Kosam
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Elmadam
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Her
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Jeso
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Eliezer
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Jorem
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Mattha
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Leui
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Simeon
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Juda
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Joseph
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Jonam
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Eliakim
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Melea
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Menam
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Mathathan
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Nathan
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Dauid
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Jesse
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Obed
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Boos
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Salmon
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Nahasson
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Aminadab
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Aram
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Esrom
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Pharez
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Juda
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Jacob
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Jsaac
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Abraham
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Thara
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Nachor
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Saruch
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Ragahu
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Phaleg
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Eber
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Sala
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Cainan
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Arphaxad
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Sem
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Noe
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Lamech
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Mathusala
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Enoch
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Jared
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Maleleel
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Cainan
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Enos
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Seth
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war Adam
+son.</s></inline></para><para><inline font-style="Times"><s>Hwilken war
+Gudz.</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" first-line-indent="35.40" font-size="14.00" font-style="Tms Rmn" language="German" left-indent="35.40" line-spacing="-18.00" name="Überschrift" nest-level="0" right-indent="0.00" space-after="12.00" space-before="18.00" style-number="s0009" widow-control="true"><para><inline font-size="12.00" font-style="Times"><s>IIII.</s><s>CAPITEL</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" line-spacing="-18.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0005" tabs="left:35.45;" widow-control="true"><para><s><s>Sedhan gick Jesus jfrå Jordan igen, full med
+then helgha Anda.</s></s><s><s>Och wardt haffder aff Andanom vthi öknena, och
+frestadhes j fyratiyo daghar aff dieffuulen.</s></s><s><s>Och ååt intet j the
+daghar, Vthan tå the endadhe woro, sedhan
+hungradhe #45</s></s></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Standardabsatz" nest-level="0" right-indent="0.00" style-number="s0004" tabs="left:155.95;" widow-control="true"><para /><para><inline font-style="Times" /></para><para><s><s>honom.</s></s><s><s>Tå sadhe dieffuulen
+til honom, Äst tu Gudz Son, så sägh til thenna stenen, at
+han warder brödh.</s></s><s><s>Tå swaradhe Jesus, och sadhe til honom, Thet
+är scriffuit, Menniskian leffuer icke allenast aff brödh, vthan
+aff hwart och itt Gudz
+ord.</s></s></para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" line-spacing="-18.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0005" tabs="left:35.45;" widow-control="true"><para><inline small-caps="true"><s>Herra</s></inline> Gudh skalt tu tilbidhia, och honom
+allena skalt tu dyrka.<s><s>	Och dieffuulen hadhe honom på itt
+högt bergh, och wijste honom all Rike j werldenne vthi itt
+ögnableck.</s></s><s><s>Och dieffuulen sadhe til honom, Tigh wil iagh giffua all
+thenna machten, och theras herligheet, Ty the äro migh j hender giffuin,
+och hwem iagh wil, giffuer iagh them.</s></s><s><s>Wilt tu nu falla nedh och tilbidhia migh,
+så skola the all höra tigh til.</s></s><s><s>Jesus swaradhe, och sadhe til
+honom, Gack bortt jfrå migh Satan, Ty thet är scriffuit, Tin
+</s></s></para><para /><para><inline small-caps="true"><s>Herran</s></inline> tin Gudh. Och sedan dieffuulen hadhe
+fulkompnat all frestelsen, foor han jfrå honom til en
+tijdh.<s><s>	Och hadhe han honom til
+Jerusalem, och satte honom vp på tinnanar aff Templet, och sadhe til
+honom, Äst tu Gudz Son, så giff tigh här nedh före.</s></s><s><s>Ty thet är scriffuit, Han skal befala sina Änglar om tigh, at the
+skola förwara tigh, och bära tigh på sina hender, at tu
+icke stöter tin foot emoot stenen.</s></s><s><s>Tå swaradhe Jesus, och sadhe
+til honom, Thet är sagdt, Tu skalt icke fresta </s></s></para><para /><para><s><s>	Och Jesus kom genom Andans krafft, in j
+Galileen igen.</s></s><s><s>Och rychtet gick vth om honom j all then egnden ther om kring.</s></s><s><s>Och han lärde j theras Synagogor, och wardt prijsat aff
+allom.</s></s></para><para /><para><inline small-caps="true"><s>Herrans #46</s></inline> Ande är offuer migh, therföre
+at han haffuer smoordt migh, til at förkunna Euangelium them fattighom
+haffuer han sendt migh, til at läkia the förkrossadha hierta, til
+at predica<s><s>	Och han kom til Nazareth, ther han
+vpfödder war, och gick om Sabbaths daghen in j Synagogon, som hans
+sidhwenia war, och stoodh vp och wille läsa.</s></s><s><s>Tå wardt honom
+fången Jsaie Prophetes book.</s></s><s><s>Och tå han lät vp bokena,
+fann han thet rwmet, ther scriffuit ståår, </s></s></para><para /><para /><para><inline small-caps="true"><s>Herrans</s></inline>
+behagheligha åår.<s><s>the fångar
+förlosning, och them blindom syyn, och them sönderslaghnom
+förlosning, til at predica </s></s></para><para /><para><s><s>	Sedhan ladhe han
+boken til hopa och fick tienarenom, och satte sigh.</s></s><s><s>Och allas theras
+öghon som j Synagogonne woro, achtadhe på honom.</s></s><s><s>Tå
+begynte han til at säya til them, J dagh är thenna scrifft
+fulbordat för idhor öron.</s></s><s><s>Och the båro honom alle
+witnesbyrd, och förundradhe sigh på the nådhefulla ord,
+som gingo aff hans munn, och sadhe, Är icke thenne Josephs
+son?</s></s></para><para /><para><s><s>	Tå sadhe han til them, Wisseligha
+må j säya til migh thenna lijknelsen, Läkiare
+lääk tigh sielffuan.</s></s><s><s>Huru stoor ting wij hördt haffue j
+Capernaum skeedd wara, gör ock sådana här j titt
+fädhernes land.</s></s><s><s>Sadhe han, Sannerligha sägher iagh idher, Jngen
+Prophete är affhållen j sitt fädhernes
+land.</s></s></para><para /><para><s><s>	Men iagh sägher idher j sanning, Monga
+änkior woro j Jsrael vthi Elie tijdh, tå himmelen igenlyckt war j
+try åår och sex månadher, tå stoor hunger war
+offuer hela landet, och til ingen aff them wardt Elias send, vthan til ena
+änkio vthi Sarephtha Sidonis.</s></s><s><s>Och monge spitelske woro j Jsrael j
+Helisej Prophetes tijdh, och ingen aff them wardt reen giord, förnthan
+Naaman aff Syrien.</s></s></para><para /><para><s><s>	Och alle the j Synagogon woro
+vpfyltes medh wredhe, tå the thetta hörde.</s></s><s><s>Och vpreeste sigh
+emoot honom, och driffuo honom vthu stadhen, och leedde honom vth offuerst
+på klinten aff berghet, ther theras stadh på bygder war, och
+wille stört honom ther vth före.</s></s><s><s>Men han gick mitt jgenom them
+sin wägh.</s></s><s><s>Och kom nedh til then stadhen Capernaum j Galilea, Och ther
+lärde han them om Sabbatherna.</s></s><s><s>Och the förundradhe sigh på
+hans lärdom, Ty medh hans taal war
+welligheet.</s></s></para><para /><para><s><s>	Och vthi Synagogon war een menniskia
+besatt medh en oreens dieffuuls Anda, Och han ropadhe med högha
+röst, säyandes, Hey, hwadh haffue wij medh tigh Jesu
+Nazarene?</s></s><s><s>#47</s></s></para><para /><para /><para><s><s>Äst tu kommen til at
+förderffua oss?</s></s><s><s>Jagh weet hoo tu äst, nemligh, then Gudz Helighe.</s></s><s><s>Och Jesus nepste honom, säyandes, War tyst, och gack vthaff honom.</s></s><s><s>Och
+dieffuulen kastadhe honom mitt jbland them, och gick vthaff honom, och giorde
+honom ingen skadha.</s></s><s><s>Och een förfärelse kom offuer them alla, och
+the taladhe inbyrdes medh huar annan, säyandes, Hwadh skal thetta wara?</s></s><s><s>Ty han biudher the orena Andar medh macht och welligheet, och the gå
+vth.</s></s><s><s>Och rychtet gick vth om honom allestädz j the landzendar ther om
+kring.</s></s></para><para /><para><s><s>	Tå Jesus vpstoodh vthu Synagogon, gick
+han in j Simons hws, Och Simons swära betwingadhes medh stora
+skelffuosott.</s></s><s><s>Tå bådho the honom för henne.</s></s><s><s>Och han
+trädde in til henne och nepste skelffuonne.</s></s><s><s>Och skelffuan offuergaff
+henne, Och hon stoodh strax vp, och tiente
+them.</s></s></para><para /><para><s><s>	Tå solen nedhergick, alle the som hadhe
+siwkt folck aff allahanda siukor, leedde them til honom.</s></s><s><s>Och han ladhe henderna
+på hwar och en, och giorde them helbregda.</s></s><s><s>Foro ock så diefflanar
+vth aff mongom, ropadhe och sadhe, Tu äst Christus Gudz Son.</s></s><s><s>Tå
+nepste han them, och stadde icke til at the skulle tala, Ty the wiste, at han
+war Christus.</s></s></para><para /><para><s><s>	Tå dagher wardt, gick han vth j
+ödhemarken.</s></s><s><s>Och folcket sökte honom, och komo til honom, och
+förhöllo honom, at han icke skulle gå jfrå them.</s></s><s><s>Tå sadhe han til them, Andra städher moste iagh ock predica Gudz
+Rike, Ty iagh är ther til send.</s></s><s><s>Och han predicadhe vthi the Synagogor j
+Galilea.</s></s></para><para /><para><s><s>		FEMTE CAPITEL</s></s></para><para /><para><s><s>Och
+thet begaff sigh, tå folcket föll honom offuer, på thet
+the skulle höra Gudz ord, Och han stoodh vth medh siön
+Genezareth.</s></s><s><s>Och han sågh twå båtar stå j
+siöstranden.</s></s><s><s>#48</s></s></para><para /><para /><para><s><s>Men fiskarenar woro
+vthgångne aff them, til at twå sijn näät.</s></s><s><s>Tå
+gick han in vthi en båten som war Simons, och badh honom, at han skulle
+leggia litet vth jfrå landet.</s></s><s><s>Och han satte sigh, och lärde
+folcket vthu båten.</s></s></para><para /><para><s><s>	Tå han wende igen
+tala, sadhe han til Simon, Legg vth på diupet, och kaster idhor
+näät vth til dräght.</s></s><s><s>Tå swaradhe Simon, och sadhe
+til honom, Mestar, wij haffue arbetat hela nattena, och fått intet, Men
+på tijn ord wil iagh kasta vth näten.</s></s><s><s>Och tå the thet
+giorde, besluto the en mechta stoor hoop fiskar, och theras näät
+gick sönder.</s></s><s><s>Och the winkadhe til sina stalbrödher, som woro vthi
+then andra båten, at the skulle komma och hielpa them.</s></s><s><s>Och the komo och
+vpfylte bådha båtanar, så at the begynte
+siwnka.</s></s></para><para /><para><s><s>	Tå Simon Petrus thet sågh,
+föll han til Jesu knää, säyandes, Herre, gack vth
+jfrå migh, Ty iagh är een syndigh menniskia.</s></s><s><s>Ty een
+förskreckelse war kommen offuer honom, och offuer alla the medh honom
+woro, för thetta fiskafenget skul, som the fått hadhe.</s></s><s><s>Sammalunda
+ock offuer Jacobum och Johannem Zebedei söner, som Simons
+stalbrödher woro.</s></s><s><s>Tå sadhe Jesus til Simon, war icke
+förfärat, Här effter skalt tu tagha menniskior.</s></s><s><s>Och the
+förde båtanar j land, och offuergåffuo altsammans, och
+folgde honom.</s></s></para><para /><para><s><s>	Så begaff thet sigh, tå
+han war vthi en stadh, Och sij, ther war en man full medh spitelsko.</s></s><s><s>När
+han fick see Jesum, föll han nedh på sitt ansichte, och badh
+honom, säyandes, Herre, om tu wilt, kant tu göra migh renan.</s></s><s><s>Tå reckte han vth handena, och toogh på honom, säyandes,
+Jagh wil, war reen.</s></s><s><s>Och strax gick spitelskan bortt aff honom.</s></s><s><s>Och han
+bödh honom at han thet för ingom säya skulle, Vthan gack
+(sadhe han) och wijsa tigh Prestenom, och offra för tijn renselse,
+effter som Moses budhit haffuer, them til
+witnesbyrd.</s></s></para><para /><para><s><s>	Och rychtet gick än tå
+wijdhare vth om honom, och #49</s></s></para><para /><para /><para><s><s>mykit folck
+församladhe sigh, at the skulle höra honom, och bliffua botadhe
+aff honom jfrå theras kranckheter.</s></s><s><s>Men han gick affsidhes bortt j
+ödhemarkena, och badh.</s></s></para><para /><para><s><s>	Och thet begaff sigh
+på en dagh tå han lärde, och ther woro the Phariseer och
+Scrifftlärde sittiandes, som kompne woro vthaff alla städher j
+Galilea och Judea, och aff Jerusalem.</s></s><s><s>Och Herrans krafft war til at göra
+them helbregda.</s></s><s><s>Och sij, någhre män båro ena menniskio
+på een säng, hwilken Borttaghen war, och the sökte effter,
+huru the skulle komma honom in, och leggian fram för honom.</s></s><s><s>Och
+tå the icke funno för folcket skul, på hwilko sidhon the
+skulle best komma honom in, stigho the vppå taket, och slepte honom nedh
+genom taket, medh sängen mitt för Jesum.</s></s><s><s>Och tå han
+sågh theras troo, sadhe han til honom, Menniskia, tina synder warda tigh
+förlåtna.</s></s><s><s>Och the Scrifftlärde och Phariseer begynte
+tenckia, säyandes, Hoo är thenne som talar Gudz hädhelse?</s></s><s><s>Hoo kan förlåta synder vthan Gudh
+allena?</s></s></para><para /><para><s><s>	Tå Jesus förmerckte theras
+tanckar, swaradhe han, och sadhe til them, Hwadh tencken j vthi idhor hierta,
+Hwilket är lettare säya, Tina synder warda tigh
+förlåtna, eller säya, Statt vp och gack?</s></s><s><s>Men på
+thet j skolen weta, at menniskionnes Son haffuer macht på jordenne
+förlåta synder, sadhe han til then Borttagna, Tigh sägher
+iagh, statt vp, tagh tina säng, och gack j titt hws.</s></s><s><s>Och han stoodh
+strax vp för theras öghon, toogh sängena ther han vthi
+leghat hadhe, och gick sina ferde heem j sitt hws, och prijsadhe Gudh.</s></s><s><s>Och the
+förskrecktes alle, och loffuadhe Gudh, och wordo fulle medh fruchtan,
+säyandes, Wij haffue seedt jdagh selsyyn
+ting.</s></s></para><para /><para><s><s>	Sedhan gick han vth, och fick see en Publican
+benemd Leuj, sittiandes widh tollen, och sadhe til honom, Fölgh migh.</s></s><s><s>Han stoodh vp och folgde honom, och offuergaff altsamman.</s></s><s><s>Och Leuj giorde honom
+itt stoort gästabodh j sitt hws.</s></s><s><s>Och ther woro en stoor hoop Publicaner,
+och #50</s></s></para><para /><para /><para><s><s>andre som medh them til boordz
+såto.</s></s><s><s>Och the Scrifftlärde och Phariseer knorradhe emoot hans
+Läriungar, säyandes, Hwj äten j och dricken medh
+Publicaner och syndare?</s></s><s><s>Tå swaradhe Jesus, och sadhe til them, The
+behöffua icke läkiare som helbregda äro, vthan the som
+krancke äro.</s></s><s><s>Jagh är icke kommen til at kalla the rettferdigha,
+vthan syndare til bätring.</s></s></para><para /><para><s><s>	Tå sadhe the
+til honom, Hwj fasta Johannis Läriungar så offta, och bidhia
+så mykit, sammalunda ock the Phariseers Läriungar, Men tine
+Läriungar äta och dricka?</s></s><s><s>Sadhe han til them, Jcke kunnen j
+driffua bröllops folcket til at fasta, så lenge Brudhgummen
+är när them.</s></s><s><s>Men the daghar skola komma, at Brudhgummen warder
+taghen jfrå them, tå skola the fasta j the
+daghar.</s></s></para><para /><para><s><s>	Och han sadhe til them een lijknelse, Jngen
+setter en klwt aff nytt klädhe på gammalt klädhe, annars
+söndersliter han thet nyia, och then kluten aff thet nyia, skickar sigh
+icke effter thet gamla.</s></s><s><s>Och ingen läter nytt wijn vthi gamla flaskor,
+annars slåår thet nyia wijnet flaskonar sönder, och
+spilles vth, och flaskonar bliffua förderffuadhe.</s></s><s><s>Vthan nytt wijn skal
+man läta vthi nyia flaskor, och så bliffua the bådhen
+förwarat.</s></s><s><s>Och ingen som dricker gammalt wijn, begärar strax nytt,
+Ty han sägher, Thet gamla är
+bätre.</s></s></para><para /><para><s><s>		VI.</s></s><s><s>CAPITEL</s></s></para><para /><para><s><s>Och thet begaff sigh på en Efftersabbath, at
+han gick jgenom sädh, och hans Läriungar ryckte vp ax och
+gnuggadhe sönder medh henderna, och åto.</s></s><s><s>Tå sadhe somlighe
+aff the Phariseer til them, Hwj gören j thet som icke är
+lofflighit göra om Sabbathen?</s></s><s><s>Swaradhe Jesus, och sadhe til them,
+Haffuen j icke läsit hwadh Dauid giorde, tå han hungradhe, och
+the medh honom woro?</s></s><s><s>Huru han gick #51</s></s></para><para /><para /><para><s><s>in j Gudz
+Hws, och toogh Skodhobrödhen och ååt, och gaff teslikes
+them som medh honom woro, hwilken ingom loffuat war at äta, vthan
+allenast Prestomen.</s></s><s><s>Och sadhe han til them, Menniskionnes Son är en
+Herre, teslikes ock offuer Sabbathen.</s></s></para><para /><para><s><s>	Och thet begaff
+sigh på en annan Sabbath, at han gick in vthi Synagogon och
+lärde, Och ther war een menniskia, huilkens högra hand war
+borttwinat.</s></s><s><s>Och the Scrifftlärde och Phariseer wachtadhe på
+honom, om han någhon helbregda giorde på Sabbathen, at the
+måtte finna någhot, ther the kunde beklaghan före.</s></s><s><s>Men han
+förstoodh theras tanckar, och sadhe til menniskiona, som then twinadha
+handen hadhe, Statt vp, och gack fram.</s></s><s><s>Han stoodh vp, och gick fram.</s></s><s><s>Tå
+sadhe Jesus til them, Jagh skal spöria idher, Må man göra
+wel om Sabbatherna eller göra illa?</s></s><s><s>Hielpa lijffuet eller
+förspillat?</s></s><s><s>Och han sågh sigh om på them alla, och sadhe
+til menniskiona, Reck vth tina hand.</s></s><s><s>Han ock så giorde.</s></s><s><s>Och hans hand
+wardt honom ferdigh såsom then andra.</s></s><s><s>Men the wordo vrsinnighe, och
+taladhes widh emellan sigh, hwadh the skulle göra åt
+Jesum.</s></s></para><para /><para><s><s>	Så hende thet vthi the daghar, at han
+vthgick vppå itt bergh til at bidhia, och bleff ther offuer nattena j
+bönen til Gudh.</s></s><s><s>Och tå dagher wardt, kalladhe han sina
+Läriungar, och vthwalde tolff aff them, hwilka han ock kalladhe
+Apostlar, Simonem, then han ock kalladhe Petrum, och Andream hans brodher,
+Jacobum och Johannem, Philippum och Bartholomeum, Mattheum och Thomam, Jacobum
+Alphei son, och Simonem som kallas Zelotes, och Judam Jacobs son, och Judam
+Jschariothen, then ock förrädharen
+war.</s></s></para><para /><para><s><s>	Och han gick nedher medh them, och stoodh
+på en platz j markenne, och hele hopen aff hans Läriungar, och
+ganska mykit folck vthaff alt Judeska landet, och Jerusalem, och jfrå
+Tyro och Sidon, som widh haffuet
+liggia, #52</s></s></para><para /><para /><para><s><s>Hwilke kompne woro, på thet
+the wille höra honom, och warda botadhe aff sina siwkdomar.</s></s><s><s>Och the som
+qualde wordo aff the orena Andar, wordo helbregda.</s></s><s><s>Och alt folcket foor effter
+at tagha på honom, Ty aff honom gick krafft som alla
+botadhe.</s></s></para><para /><para><s><s>	Och han lyffte vp sijn öghon offuer
+sina Läriungar, och sadhe, Salighe ären j fattighe, ty Gudz Rike
+hörer idher til.</s></s><s><s>Salighe ären j som nu hungren, ty j skolen
+bliffua mättadhe.</s></s><s><s>Salighe ären j som nu gråten, ty j
+skolen lee.</s></s><s><s>Salighe warden j tå menniskionar hata idher, och affskilia
+idher och banna idher, och bortkasta idhart nampn såsom thet ondt wore,
+för menniskionnes Son skul, Glädhens och frögdens
+på then daghen, Ty sij, idhor löön är mykin j
+himmelen.</s></s><s><s>Sammalunda haffua theras fädher ock giordt
+Prophetomen.</s></s></para><para /><para><s><s>	Men wee idher som rijke ären, ty
+j haffuen idhar hugnat.</s></s><s><s>Wee idher som mätte ären, ty j skolen
+hungra.</s></s><s><s>Wee idher som nu leen, ty j skolen gråta och söria.</s></s><s><s>Wee
+idher tå alla menniskior loffua idher, ty sammalunda haffua ock theras
+fädher giordt them falska Prophetomen.</s></s></para><para /><para><s><s>	Men
+idher som hören, sägher iagh, Elsker idhra owener.</s></s><s><s>Görer
+them gott som hata idher.</s></s><s><s>Welsigner them som idher banna.</s></s><s><s>Och bedher för
+them som idher orett göra.</s></s><s><s>Then tigh slåår på thet
+ena kindbenet, them hålt ock thet andra til.</s></s><s><s>Och then tigh tagher
+mantelen jfrå, honom förhålt icke heller kiortelen.</s></s><s><s>Hwariom och enom som någhot begärar aff tigh, honom giff.</s></s><s><s>Och aff
+then som tijn ting tagher jfrå tigh, bedz intet igen.</s></s><s><s>Och såsom j
+welen at menniskionar skola göra idher, görer ock j them
+sammalunda.</s></s></para><para /><para><s><s>	Och om j elsken them som idher elska,
+hwadh tack haffuen j ther före?</s></s><s><s>Ty syndarenar elska ock them, aff hwilka
+the elskadhe warda.</s></s><s><s>Och om j gören them gott som idher gott göra,
+hwad tack haffuen j ther före?</s></s><s><s>Ty syndarenar göra thet ock.</s></s><s><s>Och
+om j länen them ther j #53</s></s></para><para /><para /><para><s><s>hoppens
+få någhot igen, hwadh tack haffuen j ther före?</s></s><s><s>Ty
+syndarenar läna ock syndarom, på thet the skola få lijka
+igen.</s></s><s><s>Vthan heller elsker idhra owener, och görer wel, och läner,
+förhopandes ther intet aff, Och idhor löön skal wara
+mykin, och j skolen wara thens Högstas barn.</s></s><s><s>Ty han är mild emoot
+the otacksama och onda.</s></s></para><para /><para><s><s>	Warer för then skul
+barmhertighe, såsom idhar Fadher ock barmhertigh är.</s></s><s><s>Dömer
+icke, så warden j icke dömde.</s></s><s><s>Fördömer icke,
+så warden j icke fördömde.</s></s><s><s>Förlåten,
+så warder idher förlåtit.</s></s><s><s>Giffuer, så warder idher
+giffuit.</s></s><s><s>Jtt gott mått, wel stoppat, skakat och
+öffuerflödhande skal man giffua vthi idhart skööt.</s></s><s><s>Ty medh samma mått som j mäten, skola andra mäta
+idher.</s></s></para><para /><para><s><s>	Och han sadhe til them een lijknelse, Kan ock
+en blinder ledha en blindan, falla the icke bådhe j gropena?</s></s><s><s>Läriungen är icke offuer sin Mestare, Men hwar och en är
+fulkommen, tå han är såsom hans Mestare.</s></s><s><s>Hwadh seer tu itt
+grand vthi tins brodhers ögha, men en bielka vthi titt eghit ögha
+warder tu intet warse?</s></s><s><s>Eller huru kant tu säya til tin brodher, Brodher
+hålt, iagh wil borttagha grandet, som vthi titt ögha är,
+och tu seer icke sielff bielkan vthi titt ögha?</s></s><s><s>Tu skrymtare, tagh
+först bortt bielkan vthu titt ögha, och sedhan see til, at tu
+kant vthtagha grandet som är j tins brodhers
+ögha.</s></s></para><para /><para><s><s>	Ty thet är icke gott
+trää som gör onda frucht, Ey heller ondt
+trää, som gör godha frucht.</s></s><s><s>Ty hwart och itt
+trää warder kendt aff sinne frucht.</s></s><s><s>Ty icke hemtar man heller
+fikon aff törne, Ey heller hemtar man wijnbäär aff
+tijstelen.</s></s><s><s>Een godh menniskia bär gott fram vthaff sins hiertas godha
+fatabwr, och een ond menniskia bär ondt fram vthaff sins hiertas onda
+fatabwr.</s></s><s><s>Ty ther aff hiertat fult är, ther talar munnen
+aff.</s></s></para><para /><para><s><s>	Hwadh kallen j migh Herra Herra, och
+gören doch icke hwadh iagh sägher idher?</s></s><s><s>Hwilken som kommer til
+migh, och hörer mijn ord och gör ther effter, iagh wil
+läta idher #54</s></s></para><para /><para /><para><s><s>see hwem han lijk
+är.</s></s><s><s>Han är lijk enom man som bygger itt hws, hwilken grooff
+diwpt, och ladhe grundwalen på helleberghet.</s></s><s><s>Tå flodhen kom,
+strömadhe hon in på hwset, och kunde doch intet röra thet,
+Ty thet war grundat på helleberghet.</s></s><s><s>Men then ther hörer, och
+icke gör, Han är lijk enom man som bygde sitt hws på
+jordena vthan grundwal.</s></s><s><s>Ther strömadhe flodhen in på, och strax
+föll thet, Och thes hwsz fall war
+stoort.</s></s></para><para /><para><s><s>		VII.</s></s><s><s>CAPITEL</s></s></para><para /><para><s><s>Tå han all sijn ord vthtalat hadhe för
+folcket, gick han til Capernaum.</s></s><s><s>Och en Höffuitzmanz tienare lågh
+dödhsiwk, och han war honom käär.</s></s><s><s>Tå han
+hörde aff Jesu, sende han the Äldsta aff Judanar til honom, och
+badh honom, At han wille komma, och göra hans tienare helbregda.</s></s><s><s>Tå the komo til Jesum, bådho the honom flijteligha,
+säyandes, Han är werd, at tu gör honom thet, Ty han
+haffuer wårt folck käärt, och haffuer bygdt oss Synagogon.</s></s><s><s>Tå gick Jesus medh them.</s></s></para><para><s><s>	Och tå han nu icke
+longt war jfrå hwset, sende Höffuitzmannen sina wener til honom,
+och sadhe, Herre, gör tigh icke omak, ty iagh är icke werdigh, at
+tu gåår vnder mitt taak, Hwarföre iagh ock icke reknadhe
+migh siellfuan werdighan til at komma til tigh, Vthan sägh medh itt ord,
+så warder min tienare helbregda.</s></s><s><s>Ty iagh är ock en man stadder
+vnder Herskap, och haffuer krijgsknechter vnder migh, Och iagh sägher
+til then ena, Gack, och han gåår.</s></s><s><s>Och til then andra, Kom, och
+han kommer.</s></s><s><s>Och til min tienare, Gör thet, och han gör så.</s></s><s><s>Tå Jesus thetta hörde, förundradhe han sigh på
+honom, och wende sigh om, och sadhe til folcket som folgde honom, Thet
+sägher iagh idher, Så stora troo haffuer iagh icke funnet j
+Jsrael.</s></s><s><s>Och the som vthsende woro, gingo heem igen, och funno tienaren
+helbregda som siwk war.</s></s><s><s>#55</s></s></para><para /><para /><para><s><s>	Så
+begaff thet sigh, sedhan han gick vthi then stadhen som kallas Nain, och medh
+honom gingo monge hans Läriungar och mykit folck.</s></s><s><s>Tå han nu kom
+in til stadzporten, Sij, tå bars ther vth en dödher, sinne
+modhers eende son, och hon war änkia.</s></s><s><s>Och en stoor hoop folck aff
+stadhen medh henne.</s></s><s><s>Tå Herren sågh henne, warkunnadhe han sigh
+offuer henne, och sadhe til henne, Grååt icke.</s></s><s><s>Och han gick til,
+och toogh på bårena.</s></s><s><s>Och the som båro, stadhnadhe.</s></s><s><s>Tå sadhe han, Jagh sägher tigh vnger man, statt vp.</s></s><s><s>Och then
+dödhe satte sigh vp, och begynte tala.</s></s><s><s>Och han fick honom hans modher.</s></s><s><s>Och en reddhoghe kom offuer alla, och the prijsadhe Gudh, säyandes, En
+stoor Prophete är vpkommen jbland oss, och Gudh haffuer sökt sitt
+folck.</s></s><s><s>Och thetta rychtet om honom, gick vth offuer alt Judeska landet, och all
+the land ther om kring.</s></s></para><para /><para><s><s>	Och Johannis Läriungar
+vnderwijste honom om alt thetta.</s></s><s><s>Och han kalladhe til sigh twå aff sina
+Läriungar, och sende them til Jesum, säyandes, Ästu then
+som komma skal, eller skole wij wenta någhon annan?</s></s><s><s>Tå
+männenar komo til honom, sadhe the, Johannes Baptista sende oss til
+tigh, säyandes, Ästu then som komma skal, eller skole wij wenta
+en annan?</s></s><s><s>På samma tijdhen giorde han monga helbregda aff siwkdomar, och
+plåghor, och onda Andar, och gaff mongom blindom syyn.</s></s><s><s>Tå
+swaradhe Jesus, och sadhe til them, Gåår och sägher
+Johanni igen, hwadh j seedt och hördt haffuen.</s></s><s><s>The blinde see, the halte
+gå, the spitelske warda rene, the döffue höra, the
+dödhe stå vp igen, them fattighom warder Euangelium predicat.</s></s><s><s>Och
+saligh är then som icke förarghas på
+migh.</s></s></para><para /><para><s><s>	Och tå Johannis sendebodh woro sin
+wägh gångne, begynte Jesus tala til folcket om Johannem, Hwadh
+gingen j vth j öknen til at see?</s></s><s><s>Willen j see een röö som
+drijffs aff wädhret?</s></s><s><s>Eller hwad gingen j vth til at see?</s></s><s><s>Willen j see
+een menniskio klädd j len klädher?</s></s><s><s>Sij, the som haffua herligh
+klädher vppå, och leffua j kräszligheet, äro
+j #56</s></s></para><para /><para /><para><s><s>Konungs gårdanar, Eller huadh
+gingen j vth til at see?</s></s><s><s>Willen j see en Prophet?</s></s><s><s>Ja, sägher iagh idher,
+Ock meer än en Prophet.</s></s><s><s>Han är then ther om scriffuit är,
+Sij, iagh sender min Ängel för titt ansichte, hwilken tin
+wägh beredha skal för tigh.</s></s><s><s>Ty iagh sägher idher, at
+jbland them som aff quinnor födde äro, är ingen
+större Prophete vpkommen än Johannes Baptista.</s></s><s><s>Doch likwel then
+ther mindre är j Gudz Rike, han är större än
+han.</s></s></para><para /><para><s><s>	Och alt folcket som honom hörde, och the
+Publicaner, gåffuo Gudhi rett, och läto sigh döpa medh
+Johannis döpelse.</s></s><s><s>Men the Phariseer och the Lagkloke förachtadhe
+Gudz rådh emoot sigh siellfua, och läto sigh intet döpa
+aff honom.</s></s></para><para /><para><s><s>	Sedhan sadhe Herren, Hwem skal iagh doch
+lijkna menniskionar aff thetta slechtet, och hwem äro the lijke?</s></s><s><s>The
+äro lijke widh barn, som sittia på torghet, och ropa emoot hwar
+annan, och säya, Wij haffue pipat för idher, och j haffuen intet
+dantzat.</s></s><s><s>Wij haffue sunget sorghasong för idher, och j greten intet.</s></s><s><s>Ty
+Johannes Baptista kom, och hwarken ååt brödh eller drack
+wijn, Och j säyen, Han haffuer dieffuulen.</s></s><s><s>Menniskionnes Son är
+kommen, äter och dricker, Och j säyen, Sij, then mannen är
+en fråtzare och wijndrinckare, the Publicaners och syndares wen.</s></s><s><s>Och
+wijsdomenom warder rett giffuit aff all sijn
+barn.</s></s></para><para /><para><s><s>	Så badh honom en aff the Phariseer, at
+han skulle få sigh maat medh honom.</s></s><s><s>Och han gick vthi Phariseens hws,
+och satt ther til boordz.</s></s><s><s>Och sij, een quinna som hadhe warit een synderska j
+stadhen, tå hon förnam at han til boordz satt j Phariseens hws,
+baar hon tijt itt glasz medh smörielse, och stoodh baak för honom
+widh hans fötter gråtandes, och begynte wäta hans
+fötter medh tårar, och torkadhe medh sitt
+hoffuudhåår, och kyste hans fötter, och smoorde them medh
+smörielsen.</s></s></para><para /><para><s><s>	Tå then Phariseen som honom
+budhit hadhe, sågh thetta, sadhe han widh sigh sielff, Wore thenne en
+Prophet, #57</s></s></para><para /><para /><para><s><s>wisseligha wiste han, hoo och
+hurudana thenna quinnan är, som handterar honom, Ty hon är een
+synderska.</s></s><s><s>Tå swaradhe Jesus, och sadhe til honom, Simon, iagh haffuer
+någhot säya tigh.</s></s><s><s>Han sadhe, Mestar, sägh.</s></s><s><s>En man hadhe
+twå gellenärar, En war honom skylligh femhundradhe penningar, och
+then andre femtiyo.</s></s><s><s>När the icke macht hadhe at betala, gaff han them
+bådhom til.</s></s><s><s>Sägh nu, Hwilken aff them warder honom mera elskande?</s></s><s><s>Swaradhe Simon, och sadhe, Jagh menar at then som han gaff mera til.</s></s><s><s>Tå
+sadhe han til honom, Rett dömde tu.</s></s></para><para /><para><s><s>	Och
+så wende han sigh til quinnona, och sadhe til Simon, Seer tu thenna
+quinnona?</s></s><s><s>Jagh gick in j titt hws, tu haffuer intet watn giffuit migh til mina
+fötter, Men hon haffuer wätt mina fötter medh
+tårar, och torkat med sitt hoffuudhåår.</s></s><s><s>Tu haffuer icke
+kyst migh, Men hon, sedhan iagh här ingick, haffuer icke låtet
+aff at kyssa mina fötter.</s></s><s><s>Mitt hoffuudh haffuer tu icke smoordt medh
+olio, Men hon haffuer smoordt mina fötter medh smörielse.</s></s><s><s>Hwarföre sägher iagh tigh, Henne warda monga synder
+förlåtna, Ty hon elskadhe mykit.</s></s><s><s>Men then som mindre
+förlåtes, han elskar mindre.</s></s></para><para /><para><s><s>	Sedhan
+sadhe han til henne, Synderna förlåtas tigh.</s></s><s><s>Tå begynte
+the som medh honom til boordz såto, säya widh sigh, Hoo är
+thenne som ock synder förlåter?</s></s><s><s>Tå sadhe han til quinnona,
+Tijn troo haffuer frelst tigh, Gack medh
+fridh.</s></s></para><para /><para><s><s>		VIII.</s></s><s><s>CAPITEL</s></s></para><para /><para><s><s>Och
+thet begaff sigh ther effter, at han wandradhe j städher och byiar,
+predicadhe och förkunnadhe Euangelium om Gudz Rike, och the Tolff medh
+honom.</s></s><s><s>Ther til någhra quinnor, som han hadhe helbregda giordt
+jfrå the onda Andar och kranckheter, nemligha, Maria som kallas
+Magdalene, aff hwilka siw diefflar vthgångne woro, och
+Johanna #58</s></s></para><para /><para /><para><s><s>Chuse hustru Herodis Fogtes, och
+Susanna, och monga andra som honom tiente aff sina
+äghodelar.</s></s></para><para /><para><s><s>	Tå nu mykit folck kom
+tilhopa, och vthaff städhernar sökte til honom, taladhe han genom
+lijknelse.</s></s><s><s>En Sädhesman gick vth til at såå sina
+sädh.</s></s><s><s>Och widh han sådde, föll somt widh wäghen och
+wardt förtrampat, och foghlanar vnder himmelen åto thet.</s></s><s><s>Och somt
+föll på helleberghet, och tå thet vpgick,
+förtorkadhes thet, Ty thet hadhe ingen wätsko.</s></s><s><s>Och somt
+föll jbland törne, och törnen gingo medh vp, och
+förquaffde thet.</s></s><s><s>Och somt föll j godha jord, och thet gick vp,
+och giorde hundradhefall frucht.</s></s><s><s>Tå han thetta sadhe, ropadhe han, Then
+ther haffuer öron til at höra, han
+höre.</s></s></para><para /><para><s><s>	Tå frågadhe honom hans
+Läriungar, hurudana thenna lijknelsen war.</s></s><s><s>Han sadhe til them, Jdher
+är giffuit weta Gudz Rikes hemligheet, Men them androm genom lijknelse,
+På thet at ändoch the see, skola the likwel icke see, Och
+ändoch the höra, skola the likwel icke
+förstå.</s></s></para><para /><para><s><s>	Så är nu thenna
+lijknelsen.</s></s><s><s>Sädhen är Gudz ord.</s></s><s><s>Men the som widh wäghen,
+thet äro the som höra, sedhan kommer dieffuulen, och tagher bort
+ordet vthu theras hierta, at the icke troo skola och bliffua frelste.</s></s><s><s>Men the
+som på helleberghet, thet äro the som, när the
+höra, anamma the ordet medh glädhe, och the haffua inga
+röter, the ther troo til en tijdh, och tå frestelsen på
+kommer, falla the ther jfrå.</s></s><s><s>Men thet som föll jbland
+törnen, äro the som höra, och gå bortt, och warda
+förquaffde aff vmsorgher och rijkedomar, och lijffzens wellust, och
+bära ingen frucht.</s></s><s><s>Men thet vthi godha jord, äro the som
+höra ordet, och behålla thet vthi itt ganska gott hierta, och
+bära frucht j tolamodh.</s></s></para><para><s><s>	Men ingen vptender itt liws
+och skyler thet vnder någhot kaar, eller setter vnder bencken, Vthan
+setter thet på liwsastakan, at the som ingå, skola få see
+liwset.</s></s><s><s>Ty thet är intet lönlighit, som icke skal warda
+vppenbart, Och #59</s></s></para><para /><para /><para><s><s>intet fördoldt, thet
+icke skal kunnogt warda, och vpkomma skal j liwset.</s></s><s><s>Seer för then skul
+til, huru j hören.</s></s><s><s>Ty then ther haffuer honom warder giffuit, och then
+ther intet haffuer, thet han menar sigh haffua, thet skal ock taghas
+jfrå honom.</s></s></para><para /><para><s><s>	Så gingo til honom hans
+modher och hans brödher, och kunde doch icke komma til honom för
+folcket skul.</s></s><s><s>Tå wardt honom bodhat, och sagdt, Tijn modher och tine
+brödher stå här vthe och wilia see tigh.</s></s><s><s>Swaradhe han och
+sadhe til them, Mijn modher och mine brödher äro thesse, som
+höra Gudz ord och görat.</s></s></para><para /><para><s><s>	Så
+begaff thet sigh på en dagh, at han steegh vthi itt skep medh sina
+Läriungar, och sadhe til them, Lät oss fara offuer siön,
+Och the ladhe vthaff.</s></s><s><s>Sedhan widh the foro offuer, sompnadhe han.</s></s><s><s>Och ther
+reeste vp itt stoort wädher på siön, och the
+förfyltes, och woro j stoor fara.</s></s><s><s>Tå gingo the til och weckte
+honom vp, säyandes, Mestar, Mestar, wij förgåås.</s></s><s><s>Tå stoodh han vp, och nepste wädhret och watnens wågh.</s></s><s><s>Och
+så wende thet igen, och bleff stilla.</s></s><s><s>Och han sadhe til them, Hwar
+är idhor troo?</s></s><s><s>Men the fruchtadhe och förundradhe,
+säyandes emellan sigh, Hoo må thenne wara?</s></s><s><s>Ty han biwdher
+bådhe wädhrena och watnena, och the lydha honom?</s></s><s><s>Och the foro til
+the Gadareners egnd, hwilken är twert offuer
+Galileen.</s></s></para><para /><para><s><s>	Och tå han vthgången war aff
+skepet på landet, mötte honom en man vthaff stadhen, hwilken
+dieffuulen hafft hadhe j long tijdh, och han hadhe ingen klädher
+på, ey heller bleff j hwsen, vthan j griffter.</s></s><s><s>Tå han sågh
+Jesum, ropadhe han och föll fram för honom, och sadhe medh
+högha röst, Hwadh haffuer iagh göra medh tigh Jesu thens
+Högsta Gudz Son?</s></s><s><s>Jagh bedher tigh, at tu icke quäl migh, Ty han
+bödh them orena Andanom, at han skulle fara vthaff mannenom, Ty han
+hadhe lenge plåghat honom.</s></s><s><s>Och han wardt bunden j kädhior, och
+förwarat j #60</s></s></para><para /><para /><para><s><s>fiätrar, och sleet
+sönder banden, och wardt driffuen aff dieffuulen bortt j
+öknen.</s></s></para><para /><para><s><s>	Tå frågadhe Jesus honom,
+och sadhe, Hwadh är titt nampn?</s></s><s><s>Han sadhe, Legio, Ty monge diefflar woro
+inkompne j honom.</s></s><s><s>Och the bådho honom, at han icke skulle biwdha them
+fara vthi affgrunden.</s></s><s><s>Men ther war en stoor swijna hiord, som ther gick och
+födde sigh på berghet.</s></s><s><s>Tå bådho the honom, at han
+wille tilstädhia them fara in j swijnen.</s></s><s><s>Och han tilstadde them thet.</s></s><s><s>Tå foro diefflanar vthu menniskionne, och foro in vthi swijnen.</s></s><s><s>Och
+hiorden brådstörte sigh vthi siön, och fördrenckte
+sigh.</s></s><s><s>Men när the som wachtadhe swijnen, sågho hwadh ther
+skeedde, flydde the, och båro tijdhenden j stadhen och på
+bygdena.</s></s></para><para /><para><s><s>	Tå gingo the vth, til at see hwadh
+ther skeedt war, och komo til Jesum, och funno mannen ther diefflanar vthaff
+farne woro, klädd och widh sijn sinne, sittiande widh Jesu
+fötter, och wordo förfäradhe.</s></s><s><s>Och the som thet seedt
+hadhe, förkunnadhe them teslikes, huruledes then besatte war helbregda
+worden.</s></s><s><s>Och hele hopen aff the Gadarener bådho honom, at han wille fara
+jfrå them.</s></s><s><s>Ty them war en stoor reddhoghe på kommen.</s></s><s><s>Tå
+steegh han til skeps, och foor tilbaka igen.</s></s><s><s>Men mannen ther diefflanar woro
+vthaff farne, badh honom, at han måtte bliffua när honom.</s></s><s><s>Men
+Jesus sende honom jfrå sigh, säyandes, Gack vthi titt hws igen,
+och sägh vthaff, huru stoor ting Gudh medh tigh giordt haffuer.</s></s><s><s>Och han
+gick bortt och förkunnadhe offuer hela stadhen, huru stoor ting Jesus
+hadhe giordt medh honom.</s></s></para><para /><para><s><s>	Och thet begaff sigh,
+tå Jesus kom igen, vndfick honom folcket, Ty alle wente effter honom.</s></s><s><s>Och sij, ther kom en man som heet Jairus, och war en Öffuerste
+för Synagogon, han föll nedh för Jesu fötter,
+bidhiandes #61</s></s></para><para /><para /><para><s><s>honom, at han wille gå j
+hans hws, Ty han hadhe ena eenda dotter widh tolff åra gammul, och hon
+begynte siälas.</s></s><s><s>Men j wäghen widh han gick tijt, trengde honom
+folcket.</s></s></para><para /><para><s><s>	Och een quinna som blodhgång hadhe
+hafft j tolff åår, och hadhe förtäärdt alt
+thet hon åtte på läkiare, och kunde doch botas aff ingom,
+gick baak effter, och toogh på hans klädhefåll, Och strax
+stilladhes hennes blodhgång.</s></s><s><s>Och Jesus sadhe, Hoo är then som
+toogh på migh?</s></s><s><s>Tå the alle nekadhe, sadhe Petrus, och the medh
+honom woro, Mestar, Folcket trenger tigh och omakar tigh, och tu sägher,
+Hoo toogh på migh?</s></s><s><s>Tå sadhe Jesus, Någhor haffuer jw
+taghit på migh, Ty iagh kende, at krafft gick aff migh.</s></s><s><s>Tå
+quinnan sågh, at thet icke war lönlighit, kom hon skelffuande,
+och föll nedh för hans fötter, och förkunnadhe
+för allo folckena, för hwadh saak skul hon hadhe taghit på
+honom, och huruledhes hon bleff strax helbregda.</s></s><s><s>Tå sadhe han til henne,
+War tröst mijn dotter, tijn troo haffuer frelst tigh, Gack medh
+fridh.</s></s></para><para /><para><s><s>	Widh han än nu taladhe, kom en vthaff
+Öffuerstans hws för Synagogon, säyandes til honom, Tijn
+dotter är dödh, gör icke Mestaren omak.</s></s><s><s>Tå Jesus
+hörde thet ordet, sadhe han til pijghonnes fadher, Rädz intet,
+vthan troo allenast, och hon warder helbregda.</s></s><s><s>Tå han kom j hwset,
+stadde han ingom ingå medh sigh, vthan Petrum, Jacobum och Johannem, och
+fadhren och modhren til pijghona.</s></s><s><s>Men the greto alle och jämradhe sigh
+offuer henne.</s></s><s><s>Tå sadhe han, Gråter icke, pijghan är icke
+dödh, men hon soffuer.</s></s><s><s>Tå giorde the spee aff honom, wel wetandes
+at hon war dödh.</s></s><s><s>Men han dreff them alla vth, och toogh henne widh
+handena, och ropadhe seyandes, Pijgha statt vp.</s></s><s><s>Och hennes Ande kom igen, och
+hon stoodh strax vp.</s></s><s><s>Och han bödh giffua henne maat.</s></s><s><s>Och hennes
+föräldrar förskrecktes.</s></s><s><s>Men han bödh them, at the
+ingom säya skulle, hwadh ther skeedt
+war.</s></s><s><s>#62</s></s></para><para /><para /><para><s><s>		IX.</s></s><s><s>CAPITEL</s></s></para><para /><para><s><s>Sedhan kalladhe (Jesus) tilhopa the Tolff, och gaff
+them macht och wold offuer alla diefflar, och at the siwkdomar bota kunde.</s></s><s><s>Och
+sende them vth til at predica Gudz Rike, och göra the siwka helbregda.</s></s><s><s>Och sadhe til them, Tagher intet medh idher til wägs, icke käp
+eller skräppo, icke brödh, icke penningar, haffuer ey heller
+twå kiortlar.</s></s><s><s>Och j hwadh hws j ingåån, ther bliffuer til
+tess j draghen tädhan.</s></s><s><s>Och hwilke icke anamma idher, så
+gåår vthaff then stadhen, och skudden ock stofftet aff idhra
+fötter, til witnesbyrd offuer them.</s></s><s><s>Och the gingo vth och wandradhe om
+kring j byianar, predicadhe Euangelium, och giorde helbregda
+allestädz.</s></s></para><para /><para><s><s>	Tå fick Herodes Tetrarcha
+höra alt thet som bedreffs aff honom.</s></s><s><s>Och honom begynte mishagha.</s></s><s><s>Ty
+thet sadhes aff somlighom, at Johannes war vpstånden aff dödha.</s></s><s><s>Aff somlighom, at Elias war vppenbarat.</s></s><s><s>Aff somlighom, at någhon Prophet
+aff the gamla war vpstånden.</s></s><s><s>Och Herodes sadhe, Johannem haffuer iagh
+halshugget.</s></s><s><s>Men hoo är thenne, ther iagh sådant aff hörer?</s></s><s><s>Och begäradhe see honom.</s></s></para><para /><para><s><s>	Och Apostlanar komo
+igen, och förtalde honom alt thet the giordt hadhe.</s></s><s><s>Tå toogh han
+them medh sigh, och gick affsidhes vthi ena ödhemark, som ligger widh
+then stadhen, som kallas Bethsaida.</s></s><s><s>Tå folcket thet förnam, komo
+the effter honom.</s></s><s><s>Och han vndfick them, och taladhe medh them om Gudz Rike, och
+giorde them helbregda som thet behöffde.</s></s><s><s>Men daghen begynte warda
+framlidhen.</s></s></para><para /><para><s><s>	Tå gingo the Tolff fram, och sadhe
+til honom, Lät folcket jfrå tigh, at the gå vthi
+köpstädherna och nesta bygdena, ther the mågha
+gästa och finna maat, Ty wij äre här j
+ödhemarkenne.</s></s><s><s>Han sadhe til them, Giffuer j them äta.</s></s><s><s>Tå
+sadhe the, Wij haffue icke flere brödh
+än #63</s></s></para><para /><para /><para><s><s>fem, och twå fiskar, vthan
+at wij gå bortt, och köpe maat til alt thetta folcket (Och woro
+the icke longt jfrå fem tusend män) Tå sadhe han til sina
+Läriungar, Läter them settia sigh nedh, j hwart maatskapet
+femtiyo.</s></s><s><s>Och the giorde så, och läto them alla settia sigh nedh.</s></s><s><s>Tå toogh han the fem brödh, och the twå fiskar, vplyffte
+sijn öghon j himmelen, tackadhe ther offuer, brööt, och
+fick Läriunganar, at the skulle sedhan leggiat fram för folcket.</s></s><s><s>Och the åto alle, och wordo mätte.</s></s><s><s>Sedhan wardt vptaghit thet som
+them offuerlop, tolff korghar fulle medh stycker.</s></s></para><para /><para><s><s>	Och
+thet begaff sigh, tå han war allena j sina böner, woro ock
+någhre hans Läriungar medh honom, them frågadhe han, och
+sadhe, Hwem säya folcket migh wara?</s></s><s><s>Tå swaradhe the, och sadhe,
+Johannem Baptistam.</s></s><s><s>Somlighe Eliam.</s></s><s><s>Och somlighe, at någhon Prophet aff
+the gamla är vpstånden.</s></s><s><s>Tå sadhe han til them, Hwem
+säyen tå j migh wara?</s></s><s><s>Swaradhe Petrus, och sadhe, Tu äst
+Gudz Christ.</s></s><s><s>Och han hotadhe them, och förbödh, at the skulle
+thet någhrom säya, och sadhe, Menniskionnes Son moste mykit
+lijdha, och bortkastas aff the Äldsta och öffuersta Presterna och
+Scrifftlärda, och dräpas, och tridie daghen vpstå
+igen.</s></s></para><para /><para><s><s>	Sadhe han ock til them alla, Hwilken migh
+effterfölia wil, han wedhersäye sigh sielff, och taghe sitt korsz
+på sigh hwar dagh, och fölie migh.</s></s><s><s>Ty then som wil behålla
+sitt lijff, han skal mista thet.</s></s><s><s>Och hoo som mister sitt lijff för mina
+skul, han skal thet behålla.</s></s><s><s>Och hwadh kommer thet menniskionne til
+godho, om hon wunne hela werldena, och förtapar sigh sielff, eller
+gör skadha på sigh sielff?</s></s><s><s>Hwilken som blyies widh migh och mijn
+ord, widh honom skal ock menniskionnes Son blyias, tå han kommer j sijn
+och sins Fadhers, och the helgha Änglars herlighet.</s></s><s><s>Men iagh
+sägher idher för wisso, at någhre äro aff them som
+här stå, the ther icke skola smaka dödhen, til tess the
+få see Gudz Rike.</s></s><s><s>#64</s></s></para><para /><para /><para><s><s>	Så
+begaff thet sigh widh otta daghar effter thenna orden, at han toogh til sigh
+Petrum och Johannem och Jacobum, och gick vp på itt bergh til at bidhia.</s></s><s><s>Och widh han badh, wardt hans ansichte förwandlat, och hans
+klädnat war hwijt och skijnande.</s></s><s><s>Och sij, twå män taladhe
+medh honom, som woro Moses och Elias, och syntes j herligheet, och taladhe om
+hans affgång som han fulborda skulle j Jerusalem.</s></s><s><s>Men Petrus och the
+medh honom woro, förtyngdes aff sömpn.</s></s><s><s>Tå the vpwakadhe,
+sågho the hans klarheet, och the twå män stå
+när honom.</s></s></para><para /><para><inline small-caps="true"><s>Honom</s></inline> hörer. Och j
+thet samma rösten hördes, funno the Jesum wara allena. Och the
+tijgde, och förkunnadhe ingom j the daghar någhot aff thet the
+seedt hadhe.<s><s>	Och thet begaff sigh, tå the
+gingo jfrå honom, sadhe Petrus til Jesum, Mestar, oss är gott
+här wara, Lät oss göra här tree hyddor, een til
+tigh, och een til Mosen, och een til Eliam.</s></s><s><s>Och wiste icke hwadh han sadhe.</s></s><s><s>Och
+widh han så sadhe, kom en skyy, och kringskygde them.</s></s><s><s>Och the wordo
+förfäradhe widh the wordo inweffuadhe j skyyn.</s></s><s><s>Och een
+röst hördes vthu skynom, then ther sadhe, Thenne är min
+elskelighe Son, </s></s></para><para /><para><s><s>	Så hende sigh daghen ther effter,
+tå the gingo nedh aff berghet, mötte honom mykit folck.</s></s><s><s>Och sij,
+en man aff folcket ropadhe, och sadhe Mestar, iagh bedher tigh see til min son,
+Ty han är mitt eenda barn, Sij, Anden begriper honom, och strax ropar
+han, och han sliter honom, så at han fradhgas, och han faar medh
+nödh jfrå honom, tå han honom slitit haffuer.</s></s><s><s>Och iagh
+badh tina Läriungar, at the skulle vthdriffua honom, och the kunde icke.</s></s><s><s>Tå swaradhe Jesus, och sadhe, O tu otroghna och genstortigha slechte,
+huru lenge skal iagh wara när idher, och lijdha idher?</s></s><s><s>Haff tin son
+hijt.</s></s><s><s>Och widh han nu framgick, reeff och sleet dieffuulen honom.</s></s><s><s>Men Jesus
+nepste then orena Andan och giorde pilten helbregda, och
+fick #65</s></s></para><para /><para /><para><s><s>honom sinom fadher igen.</s></s><s><s>Och alle wordo
+förskreckte offuer Gudz herligheet.</s></s></para><para /><para><s><s>	Tå
+alle vndradhe på alt thet han giorde, sadhe han til sina
+Läriungar, Fatter thessa orden vthi idhor öron, Ty thet skal
+skee, Menniskionnes Son warder offuerantwardat j menniskiors hender.</s></s><s><s>Men the
+förstodho icke thetta ordet, och thet war fördoldt för
+them, at the thet icke kunde förstå.</s></s><s><s>Och the fruchtadhe at
+frågha honom om thet ordet.</s></s></para><para /><para><s><s>	Och kom jbland
+them en tancke, hwilken thera skulle störst wara.</s></s><s><s>Tå Jesus
+sågh theras hiertas tanckar, toogh han itt barn, och stelte thet
+när sigh, och sadhe til them, Hwilken som anammar thetta barnet j mitt
+nampn, han anammar migh.</s></s><s><s>Och then migh anammar, han anammar honom som migh
+sendt haffuer.</s></s><s><s>Men then ther minst är jbland idher alla, han skal wara
+störst.</s></s></para><para /><para><s><s>	Tå swaradhe Johannes, och
+sadhe, Mestar, Wij sågho en som vthdreff diefflar vnder titt nampn, och
+wij förbudhom honom thet, effter thet han icke fölier medh oss.</s></s><s><s>Sadhe Jesus til honom, Förbiudher honom intet, Ty then ther icke emoot
+oss är, han är medh oss.</s></s></para><para /><para><s><s>	Och thet
+begaff sigh, tå tijdhen fulbordat war, at han skulle hädhan
+taghen warda, wende han sitt ansichte til at fara åt Jerusalem.</s></s><s><s>Och han
+sende bodh fram för sigh.</s></s><s><s>The gingo och komo in til en stadh, som the
+Samariter vthi boodde, at the skulle redha för honom.</s></s><s><s>Och the vndfingo
+honom intet, Ty han hadhe wendt sitt ansichte til at dragha til Jerusalem.</s></s><s><s>Tå hans Läriungar, Jacobus och Johannes thet sågho, sadhe
+the, Herre, wilt tu, så wilie wij säya, at eelden måtte
+komma nedh aff himmelen, och förtära them, såsom ock Elias
+giorde?</s></s><s><s>Men Jesus wende sigh om, och nepste them, säyandes, J weten icke
+hwars Andas j ären?</s></s><s><s>Ty menniskionnes Son är icke kommen
+til #66</s></s></para><para /><para /><para><s><s>at förderffua menniskionars
+siälar, vthan til at frelsa them.</s></s><s><s>Och the gingo tädhan vthi en
+annan byy.</s></s></para><para /><para><s><s>	Och thet begaff sigh, widh the gingo
+på wäghen, sadhe en til honom, Jagh wil fölia tigh hwart
+tu gåår.</s></s><s><s>Sadhe Jesus til honom, Räffuanar haffua kulor,
+och foghlanar vnder himmelen neste, Men menniskionnes Son haffuer icke, ther
+han kan luta sitt hoffuudh til.</s></s></para><para /><para><s><s>	Men han sadhe til en
+annan, Fölgh migh.</s></s><s><s>Tå sadhe han, Herre, lät migh
+först gå bortt, och begraffua min fadher.</s></s><s><s>Tå sadhe Jesus
+til honom, Lät the dödha begraffua sina dödha, Men tu
+gack, och förkunna Gudz Rike.</s></s></para><para /><para><s><s>	En annar sadhe,
+Herre, Jagh wil fölia tigh, Men lät migh först gå
+och skilia migh jfrå them som j mitt hws äro.</s></s><s><s>Sadhe Jesus til
+honom, Hwilken som setter sijn hand til ploghen och seer tilbaka, han är
+icke bequem til Gudz Rike.</s></s></para><para /><para><s><s>		X.
+CAPITEL</s></s></para><para /><para><s><s>Sedhan skickadhe Herren vth andra siwtiyo, och sende
+them twå och twå fram för sigh j alla städher och
+rwm, tijt han komma wille, och sadhe til them, Sädhen är stoor,
+men arbetarenar äro fåå, Bedher för then skul
+Sädhennes Herra, at han vthsender arbetare j sina Sädh,
+Gåår, sij, iagh sender idher såsom Lamb jbland Vlffuar.</s></s><s><s>Bärer ingen säck, ey heller skreppo, ey heller skoor, och helser
+ingen j wäghen.</s></s><s><s>Vthi hwadh hws j kommen, sägher först,
+Fridh ware thesso huse.</s></s><s><s>Och om ther någhor är fridzens barn,
+så skal idhar fridh bliffua på honom.</s></s><s><s>Hwar ock icke, så
+kommer han til idher igen.</s></s><s><s>Vthi thet samma hws bliffuer, äter och
+dricker hwadh idher föresets, Ty arbetaren är sijn
+löön werd.</s></s></para><para /><para><s><s>	Gåår icke vthu
+hws j hws.</s></s><s><s>Och vthi hwadh stadh j kommen och the anamma idher, äter
+hwadh idher föresets, och görer the siwka helbregda, som ther
+äro, Och sägher til them, Gudz Rike är kommet hardt
+när idher.</s></s><s><s>#67</s></s></para><para /><para /><para><s><s>Vthi hwadh stadh j kommen,
+och the icke anamma idher, så gåår vth på hans
+gator, och sägher, Thet stofft som lodde widh oss aff idhar stadh, skake
+wij aff på idher.</s></s><s><s>Doch skolen j weta, at Gudz Rike war kommet hardt
+när idher.</s></s><s><s>Jagh sägher idher, at Sodome skal dreghelighare warda
+på then daghen, än them stadhenom.</s></s></para><para /><para><s><s>	Wee
+tigh Chorazin, wee tigh Bethsaida, Ty hadhe sådana kraffter warit giorda
+vthi Tyro och Sidon, som the giorda äro vthi idher, longo sedhan hadhe
+the sittit vthi säck och asko, och giordt synda bätring.</s></s><s><s>Doch
+skal Tyro och Sidoni drägelighare warda på Domenom än
+idher.</s></s><s><s>Och tu Capernaum, som vphäffuen äst alt in til himmelen,
+tu skalt nedherstördt warda til heluete.</s></s><s><s>Hwilken idher hörer, han
+hörer migh.</s></s><s><s>Och then idher förachtar, han förachtar migh,
+Men then migh förachtar, han förachtar honom som migh sendt
+haffuer.</s></s></para><para /><para><s><s>	Men the siwtiyo komo igen med glädhi,
+och sadhe, Herre, Diefflanar äro oss ock vnderdånighe j titt
+nampn.</s></s><s><s>Tå sadhe han til them, Jagh sågh Satanam falla aff
+himmelen, såsom en liungeeld.</s></s><s><s>Sij, iagh haffuer giffuit idher macht at
+trampa på Ormar och Scorpioner, och offuer all fiendans krafft, och
+idher skal intet warda skadhandes.</s></s><s><s>Doch frögder idher icke ther aff, at
+Andanar äro idher vnderdånighe, Vthan frögder idher, at
+idhor nampn äro scriffuin j himmelen.</s></s></para><para /><para><inline small-caps="true"><s>Herre</s></inline>, at tu
+haffuer thetta fördoldt för the wijsa och kloka, och haffuer thet
+vppenbarat för the fåkunnigha, Ja Fadher, Ty så haffuer
+warit behaghelighit för tigh. All ting äro migh antwardat aff
+minom Fadher. Och ingen weet hoo Sonen är, vthan Fadhren, Och hoo
+Fadhren är, vthan Sonen, och then som Sonen wil thet
+vppenbara.<s><s>	J samma
+stundenne, frögdadhe sigh Jesus j Andanom, och sadhe, Jagh prijsar tigh
+Fadher, himmelens och jordennes </s></s></para><para /><para><s><s>	Och han wende sigh om til sina
+Läriungar affsidhes.</s></s><s><s>#68</s></s></para><para /><para /><para><s><s>och sadhe,
+Saligh äro the öghon, som see thet j seen, Ty iagh sägher
+idher, Monge Propheter och Konungar, åstundadhe see thet j seen, och
+fingo doch icke seet, och höra thet j hören, och fingo doch icke
+hörat.</s></s></para><para /><para><s><s>	Och sij, en Lagklook stoodh vp, och
+frestadhe honom, säyandes, Mestar, hwadh skal iagh göra, at iagh
+må få ewinnerlighit lijff?</s></s><s><s>Tå sadhe han til honom, Hwadh
+är scriffuit j Laghen?</s></s><s><s>Huru lääs tu?</s></s><s><s>Swaradhe han och
+sadhe, Tu skalt elska tin Herra Gudh aff alt titt hierta, och aff allo tinne
+siäl, och aff alla tina kraffter, och aff allom tinom hogh.</s></s><s><s>Och tin
+nästa som tigh sielff.</s></s><s><s>Tå sadhe han til honom, Retteligha
+swaradhe tu, gör thet, så fåår tu leffua.</s></s><s><s>Tå
+wille han göra sigh siellfuan rettferdighan, och sadhe til Jesum,
+Hwilken är tå min
+näste?</s></s></para><para /><para><s><s>	Tå swaradhe Jesus, och sadhe, En
+man foor nedh aff Jerusalem til Jericho, och kom j röffuare hender, Och
+the klädde aff honom, och sargadhe honom, och gingo tädhan, och
+läto honom liggia halffdödhan.</s></s><s><s>Så hende sigh, at en Prest
+foor nedher åt samma wäghen, och tå han fick see honom,
+gick han fram om honom.</s></s><s><s>Sammalunda ock en Leuit, tå han kom til thet
+samma rwmet, gick han fram, och sågh på honom, och gick sedhan
+fram om honom.</s></s><s><s>Men en Samaritan kom samma wäghen, och kom til honom.</s></s><s><s>Och
+när han sågh honom, warkunnadhe han sigh offuer honom, och gick
+til, och förbandt hans såår, och gööt ther
+olio och wijn in, och ladhe på sin öök, och förde
+honom til herberghe, och skötte honom.</s></s><s><s>Then andra daghen foor han
+tädhan, och toogh fram twå penningar, och gaff werdenom, och
+sadhe til honom, Skööt honom, och hwadh tu meer kostar på
+honom, wil iagh betala tigh, när iagh kommer igen.</s></s><s><s>Hwilken aff thessa
+tree, synes tigh nu haffua warit hans näste, som för
+röffuarenar kommen war?</s></s><s><s>Sadhe han, Then som bewijste honom
+barmhertigheet.</s></s><s><s>#69</s></s></para><para /><para /><para><s><s>Tå sadhe Jesus til
+honom, Gack, och gör tu sammaledhes.</s></s></para><para /><para><inline superscript="3.00"><s>1039</s></inline>Och hon hadhe een syster benemd Maria, Hon
+satte sigh widh Jesu fötter, och hörde hans ord. Men Martha
+bekymradhes medh ijdkeligh tienst. Hon gick fram, och sadhe, Herre,
+Sköter tu intet ther om, at mijn syster läter migh tiena allena?
+Så sägh henne nu, at hon hielper migh. Swaradhe Jesus, och sadhe
+til henne, Martha, Martha, tu haffuer vmsorgh och bekymmer om mongahanda, Men
+itt är nödhtorfftigt. Maria haffuer vthkorat then godha delen,
+hwilken henne icke skal jfrå
+taghas.<s><s>	Men thet
+begaff sigh tå the wandradhe, gick han vthi en liten stadh, och een
+quinna benemd Martha, vndfick honom vthi sitt hws. </s></s></para><para /><para><s><s>		XI.</s></s><s><s>CAPITEL</s></s></para><para /><para><s><s>Och
+thet begaff sigh, at han badh vthi itt rwm.</s></s><s><s>Tå han wende igen, sadhe en
+aff hans Läriungar til honom, Herre, lär oss bidhia, såsom
+ock Johannes lärde sina Läriungar.</s></s><s><s>Tå sadhe han til them,
+När j bidhien, säyen så.</s></s><s><s>Fadher wår, som äst
+j himmelen.</s></s><s><s>Helghat warde titt nampn.</s></s><s><s>Tilkomme titt Rike.</s></s><s><s>Skee tin wilie,
+så på jordenne som j himmelen.</s></s><s><s>Giff oss altijdh wårdt
+daghligha brödh.</s></s><s><s>Och förlåt oss wåra synder, ty ock
+wij förlåte allom som oss skyllighe äro.</s></s><s><s>Och inleedh oss
+icke vthi frestelse.</s></s><s><s>Vthan frels oss jfrå
+ondo.</s></s></para><para /><para><s><s>	Och sadhe han til them, Hwilken är
+jbland idher som haffuer en wen, och han gåår til honom om
+midnatz tijdh, och sägher til honom, Käre wen, låna migh
+try brödh, Ty min wen är kommen til migh, wäghfarande, och
+iagh haffuer intet leggia för honom.</s></s><s><s>Och then som innan före
+är, swarar och sägher, Gör migh icke omak, dören
+är nu stengd, och mijn barn äro med migh j säng, iagh kan
+icke stå vp och få tigh thet.</s></s><s><s>Jagh sägher idher, Om han
+än icke vpståår, och fåår honom thet,
+therföre at han är hans #70</s></s></para><para /><para /><para><s><s>wen,
+likwel therföre at han så träghen är,
+ståår han vp, och fåår honom så mykit han
+behöffuer.</s></s></para><para /><para><s><s>	Så sägher ock iagh
+idher, Bedher, och idher skal giffuit warda.</s></s><s><s>Söker, och j skolen finna.</s></s><s><s>Klapper, och idher skal warda vplätit.</s></s><s><s>Ty then ther bedher, han
+fåår, och then ther söker, han finner, och then ther
+klappar, honom warder vplåtet.</s></s><s><s>Huilken jbland idher är then
+fadher, om hans son bedhes brödh aff honom, som giffuer honom en steen?</s></s><s><s>Eller om han bedhes fisk, mon han giffua honom en Orm för fisk?</s></s><s><s>Eller om
+han bedhes ägg, mon han få honom en Scorpion?</s></s><s><s>Kunnen nu j som
+onde ären, giffua idhor barn godha gåffuor, Huru mykit meer skal
+idhar himmelske Fadher giffua then helgha Anda, them som bidhia
+honom.</s></s></para><para /><para><s><s>	Och han vthdreff en dieffuul som war en dumbe.</s></s><s><s>Och när dieffuulen war vthdriffuen, taladhe dumben.</s></s><s><s>Och folcket
+förundradhe sigh.</s></s><s><s>Men somlighe aff them sadhe, Han vthdriffuer diefflar
+medh Beelzebub, diefflanars Öffuersta.</s></s><s><s>Och somlighe frestadhe honom,
+begärandes aff honom tekn aff himmelen.</s></s><s><s>Men effter han wiste theras
+tanckar, sadhe han til them, Huart och itt Rike, som syndrar sigh emoot sigh
+sielfft, thet warder förödt, och hws faller på hws.</s></s><s><s>Är ock nu Satan syndrat emoot sigh sielff, Huru warder tå hans
+Rike ståndandes?</s></s><s><s>effter j säyen at iagh vthdriffuer diefflar medh
+Beelzebub.</s></s><s><s>Men om iagh vthdriffuer diefflar medh Beelzebub, medh hwem driffua
+tå idhor barn them vth?</s></s><s><s>Therföre skola the wara idhre Domare, Men
+om iagh vthdriffuer diefflar medh Gudz finger, så är jw Gudz Rike
+kommet til idher.</s></s></para><para /><para><s><s>	Tå en starck bewäpnat
+bewarar sitt hws, så bliffuer thet j fridh som han ågher.</s></s><s><s>Men
+ther en starckare tilkommer, och offuerwinner honom, tagher han bortt all hans
+wapn ther han tröste vppå, och skiffter hans rooff.</s></s><s><s>Then icke
+medh migh är, han är emoot migh, och then icke församlar
+medh migh, han förskingrar.</s></s></para><para /><para><s><s>	När then
+orene Anden gåår vth aff menniskionne,
+wandrar #71</s></s></para><para /><para /><para><s><s>han kring om torra platzer,
+söker effter huilo och finner ingen.</s></s><s><s>Tå sägher han, Jagh
+wil komma igen vthi mitt hws ther iagh vthgick.</s></s><s><s>Och när han kommer,
+finner han thet reent sopat, och wel tilpyntat.</s></s><s><s>Tå gåår
+han åstadh, och tagher til sigh siw andra Andar, som skadheligharen
+äro än han, och the gå ther in och boo ther, Och then
+menniskionnes sijdsta, warder werre än thet
+första.</s></s></para><para /><para><s><s>	Och thet begaff sigh, tå han
+thetta sadhe, hooff een quinna sina röst vp jbland folcket, och sadhe
+til honom, Saligh är then quedhen som tigh burit haffuer, och the spenar
+som tu dijt haffuer.</s></s><s><s>Men han sadhe, Ja, Salighe äro the som höra
+Gudz ord, och göma thet.</s></s></para><para /><para><s><s>	Tå folcket
+trengdes in til, begynte han säya, Thetta är itt ondt slechte,
+The begära tekn, och tekn skal them icke giffuit warda, vthan Jone
+Prophetes tekn.</s></s><s><s>Ty såsom Jonas war the Niniuiter itt tekn, så
+skal ock menniskionnes Son wara thesso slechte.</s></s><s><s>Drotningen aff
+Södherlanden, skal vpstå på Domen medh the män aff
+thetta slechtet, och skal fördöma them.</s></s><s><s>Ty hon kom jfrå
+werldennes enda til at höra Salomons wijsdom.</s></s><s><s>Och sij, här
+är meer än Salomon.</s></s><s><s>The Niniuitiske män skola vpstå
+på Domen medh thetta slechtet, och skola fördöma thet, Ty
+the giorde bätring effter Jone predican.</s></s><s><s>Och sij, här är
+meer än Jonas.</s></s></para><para /><para><s><s>	Jngen vptender itt liws, och
+setter thet vthi någhot heemlighit rwm, eller vnder een skeppo, Vthan
+på liwsastakan, at the som inkomma, skola få see aff liwset.</s></s><s><s>Öghat är kropsens liws, När nu titt ögha är
+enfalligt, så warder ock all tin krop liws.</s></s><s><s>Är thet ock argt,
+så warder ock tin krop mörk.</s></s><s><s>Therföre see til, at liwset
+som j tigh är, icke warder mörker.</s></s><s><s>Om nu tin krop är
+allsammans liws, och haffuer ingen deel aff mörkret, så warder
+han allersamman liws, och vplyser tigh såsom en klaar
+liungeeld.</s></s></para><para /><para><s><s>	Och widh han taladhe, badh honom en
+Pharisee, at han skulle få sigh maat medh honom.</s></s><s><s>Tå gick Jesus in
+medh #72</s></s></para><para /><para /><para><s><s>honom, och satte sigh til boordz.</s></s><s><s>Men
+tå Phariseen sågh, at han icke twådde sigh förr
+än han gick til boordz, förundradhe han sigh.</s></s><s><s>Tå sadhe
+Herren til honom, J Phariseer gören reent thet som vthwertes är
+på dryckekaret och fatet, och thet inwertes är j idher, är
+fult medh rooff och ondsko.</s></s><s><s>J dårar, then som giorde thet vthwertes
+är, haffuer han ock icke giordt thet inwertes är?</s></s><s><s>Doch giffuer
+almoso aff thet j haffue, Och sij, så äro idher all ting
+reen.</s></s></para><para /><para><s><s>	Men wee idher Phariseer, Ty j gören
+tiyend aff mynto och rwto och allahanda kåål, och Domen och Gudz
+kärleek läten j bliffua tilbaka.</s></s><s><s>Ja, man moste thetta
+göra, och doch thet andra icke
+låta.</s></s></para><para /><para><s><s>	Wee idher Phariseer, Ty j sittien gerna
+fremst j Synagogorna, och wilien helsadhe warda på
+torghet.</s></s></para><para /><para><s><s>	Wee idher Scrifftlärde och Phariseer,
+j skrymtare, Ty j ären såsom the griffter som intet synas, ther
+folcket gåår vppå, och weet ther intet aff.</s></s><s><s>Tå
+swaradhe en aff the Lagkloka, och sadhe til honom, Mestar, Tu
+försmädher ock oss medh thenna orden.</s></s><s><s>Tå sadhe han, Wee
+ock idher j Laghkloke, Ty j leggen byrdor på menniskionar, hwilka the
+icke dragha kunna, och j taghen icke siellfue på byrdona, medh itt
+idhart finger.</s></s></para><para /><para><s><s>	Wee idher j som byggen the Propheters
+griffter, Men idhre fädher slogho them jhiäl.</s></s><s><s>Sannerligha j
+betyghen, at j hållen ther aff som idhre fädher giordt haffua, Ty
+the slogho them jhiäl, och j byggen theras griffter
+vp.</s></s></para><para /><para><s><s>	Therföre sägher ock Gudz wijsdom,
+Jagh skal senda til them Propheter och Apostlar, och aff them skola the
+någhra dödha och förfölia, På thet at aff
+thetta slechtet skal vthkraffdt warda alla Propheters blodh, som vthgutin
+är, sedhan werlden war skapat, jfrå Abels blodh in til Zacharie
+blodh, som förgiordes emellan Altaret och Templet.</s></s><s><s>Wisseligha,
+sägher iagh idher, warder thet vthkraffdt aff thetta
+slechtet.</s></s></para><para /><para><s><s>	Wee idher j Lagkloke, Ty j haffuen
+fått nyckelen
+til #73</s></s></para><para /><para /><para><s><s>förståndet, siellfue
+gå j intet in, och förweghren them som ingå
+wilia.</s></s></para><para /><para><s><s>	När han nu thetta sadhe til them,
+begynte the Lagkloke och Phariseer gå hårdt åt honom, och
+listeligha frågha honom om mong stycker med
+försååt, sökiandes effter at the någhot
+weedha kunde aff hans munn, ther the måtte beklagha honom
+före.</s></s></para><para /><para><s><s>		XII.</s></s><s><s>CAPITEL</s></s></para><para /><para><s><s>När nu församlat wardt otaligha mykit
+folck, så at the trampadhe på hwar annan, begynte han säya
+til sina Läriungar först, Tagher idher wara för the
+Phariseers swrdeegh, som är skrymterij, Ty intet är
+fördoldt som icke warder vppenbarat, och intet lönlighit, som
+icke vpkommer.</s></s><s><s>Therföre huadh j sagdt haffuen j mörkret, thet
+skal warda hördt j liwset, och thet j talat haffuen j örat j
+kamranar, thet skal predicat warda offuan på
+taken.</s></s></para><para /><para><s><s>	Men iagh sägher idher minom wenom,
+Rädhens icke för them som dödha kroppen, och sedhan haffua
+the intet hwadh the meer göra kunna.</s></s><s><s>Men iagh wil wisa idher hwem j
+skolen rädhas.</s></s><s><s>Rädhens honom, som sedhan han dödhat
+haffuer, haffuer han ock macht at bortkasta til heluete.</s></s><s><s>Ja, sägher iagh
+idher, honom rädhens.</s></s><s><s>Köpas icke fem sperffuer för
+twå småpenningar?</s></s><s><s>Och en aff them är icke
+förgäten för Gudhi.</s></s><s><s>Ja, idhor hoffuudhhåår
+äro ock all reknat.</s></s><s><s>Therföre fruchter idher intet, j ären
+bätre än monga sperffuer.</s></s></para><para /><para><s><s>	Men iagh
+sägher idher, Hwilken migh bekenner för menniskior, honom skal
+ock menniskionnes Son bekenna in för Gudz Änglar, Men then migh
+nekar för menniskior, han skal ock nekat warda för Gudz
+Änglar.</s></s><s><s>Och then ther talar itt ord emoot menniskionnes Son, thet skal
+warda honom förlåtit.</s></s><s><s>Men then som hädher then helgha
+Anda, thet skal icke
+förlåtas.</s></s><s><s>#74</s></s></para><para /><para /><para><s><s>	När
+the nu dragha idher fram j Synagogorna och för Offuerheten, och
+för the Welligha, Haffuer ingen vmsorgh, hwadh och huruledhes j swara,
+eller hwadh j säya skolen, Ty then helghe Ande skal lära idher j
+samma stundenne hwadh j säya skolen.</s></s></para><para /><para><s><s>	Tå
+sadhe en aff folcket til honom, Mestar, sägh minom brodher, at han byter
+medh migh arffuedelen.</s></s><s><s>Sadhe han til honom, Menniskia, hoo haffuer skickat migh
+til Domare eller skifftare offuer idher?</s></s><s><s>Och han sadhe til them, Seer til, och
+tagher idher wara för girigheet, Ty eens menniskios lijff henger icke
+ther på, at hon monga äghodelar haffuer.</s></s><s><s>Och sadhe han een
+lijknelse til them, säyandes.</s></s></para><para /><para><s><s>	Thet war en
+rijker man, hwilkens åker baar frucht noogh, Tå tenckte han widh
+sigh sielff, säyandes, Hwadh skal iagh göra?</s></s><s><s>Ty iagh haffuer icke
+ther iagh kan leggia mina frucht vthi.</s></s><s><s>Och sadhe, Thetta wil iagh göra,
+Jagh wil rijffua om kull mina ladhor, och byggia vp större, och tijt wil
+iagh församla alt thet migh wext är, och mina äghodelar.</s></s><s><s>Och säya til mina siäl, Siäl, tu haffuer mykit gott
+förwarat in til mong åår, gör tigh godha daghar,
+äät, drick, war gladh.</s></s><s><s>Men Gudh sadhe til honom, Tu dåre,
+j thenna natt skal man kalla tina siäl jfrå tigh, Hoo skal
+tå få thet tu tilreedt haffuer?</s></s><s><s>Altså gåår
+thet ock honom, som sigh församlar äghodelar, och icke är
+rijk för Gudhi.</s></s></para><para /><para><s><s>	Och han sadhe til sina
+Läriungar, Therföre sägher iagh idher, haffuer icke
+vmsorgh för idhart lijff, hwadh j äta skolen, Eller för
+idhar krop, hwadh j skolen klädha idher medh.</s></s><s><s>Lijffuet är meer
+än maten, och kroppen meer än klädhen.</s></s><s><s>Seer på
+korpanar, ty the såå intet, ey heller vpskära, the haffua
+huarken kellare eller ladho, och Gudh födher them, Huru mykit äre
+j bätre än foghlanar?</s></s></para><para /><para><s><s>	Hwilken aff idher
+kan medh sijn vmsorgh föröka til sin wäxt en alen?</s></s><s><s>Kunnen
+j nu icke thet som minst är, Hwarföre haffuen j tå vmsorgh
+för thet andra?</s></s><s><s>Seer på Lilionar huru the wexa, the arbeta intet,
+och ey heller #75</s></s></para><para /><para /><para><s><s>spinna.</s></s><s><s>Men iagh sägher
+idher, Jcke Salomon j all sijn herligheet war så klädd, som een
+aff them.</s></s></para><para /><para><s><s>	Effter thet Gudh så klädher
+gräset, som jdagh wexer på markenne, och j morghon kastas j
+vgnen, Huru mykit meer skal han klädha idher, j kleentroghne?</s></s><s><s>Therföre frågher ock j intet effter, hwadh j skolen äta
+eller dricka, Och farer icke j högdena, Ty effter alt thetta
+sökia Hedhninganar j werldenne.</s></s><s><s>Men idhar Fadher weet wel, at j
+sådant behöffuen.</s></s><s><s>Vthan söker heller effter Gudz Rike,
+så faller idher alt thetta til.</s></s></para><para /><para><s><s>	Fruchta tigh
+icke tu klene hiord, Ty idhars Fadhers godhwilie är så, at han
+wil giffua idher Riket.</s></s><s><s>Sälier hwadh j haffuen, och giffuer almoso.</s></s><s><s>Görer idher säcker som icke föråldras, en skatt som
+aldrigh minskas j himmelen, ther tiuffuen aldrigh tilkommer, ey heller
+någhon maal förderffuar.</s></s><s><s>Ty ther idhar skatt är, ther
+bliffuer ock idhart hierta.</s></s></para><para /><para><s><s>	Läter idhra lender
+wara vmgiordadhe, och idhor liws brinnande.</s></s><s><s>Och warer j the menniskior lijke
+som wenta sin Herra, tå han igen komma skal jfrå
+bröllopet, At när han kommer och klappar, låta the honom
+strax vp.</s></s><s><s>Salighe äro the tienare, huilka Herren finner wakandes,
+tå han kommer.</s></s><s><s>Sannerligha sägher iagh idher, Han skal
+vpskörta sigh, och läta them sittia til boordz, och han skal
+tå gå och tiena them.</s></s></para><para /><para><s><s>	Och om han kommer
+vthi then andra wäckten, och vthi then tridie wäckten, och finner
+så, Salighe äro the tienare.</s></s><s><s>Men thetta skolen j weta, at om
+Hwszbonden wiste på hwadh stund tiuffuen komma skulle, förwisso
+wakadhe han, och icke tilstadde vpbryta sitt hws.</s></s><s><s>Therföre warer ock j
+redho.</s></s><s><s>Ty then stund j icke tencken, skal menniskionnes Son
+komma.</s></s><s><s>#76</s></s></para><para /><para /><para><s><s>	Tå sadhe Petrus til
+honom, Herre, sägher tu til oss thenna lijknelsen, eller ock til alla?</s></s><s><s>Tå sadhe Herren, Hwar finner man en troghen och snell Skaffare, then
+hans Herre setter offuer sitt tienistafolck, at han them j rettan tijdh giffuer
+hwadh them behörer, Saligh är then tienaren, then Herren finner
+så göra, tå han kommer, Sannerligha sägher iagh
+idher, han skal settia honom offuer alt thet han ågher.</s></s><s><s>Men om then
+tienaren sadhe j sitt hierta, Min Herre dröyer fast at komma igen, Och
+begynte slå tienarenar, och tienarinnonar, och äta och dricka och
+warda drucken, Så kommer thens tienarens Herre, på then daghen
+han thet sigh icke förmodhar, och på then stundenne then han icke
+weet, och skal hugga honom j stycker, och skal settia hans lott medh the
+otroghna.</s></s></para><para /><para><s><s>	Men then tienaren som wiste sins Herras
+wilia, och icke bereedde sigh, och icke giorde effter hans wilia, han skal
+lijdha mykin hugg.</s></s><s><s>Men then ther icke wiste, och giorde doch thet som hugg
+werdt war, han skal fåå hugg lijdha.</s></s><s><s>Ty them som mykit giffuit
+är, aff honom skal mykit warda vthkraffdt, Och hwem mykit befalt
+är, aff honom skal warda mykit eskat.</s></s></para><para /><para><s><s>	Jagh
+är kommen til at vptenda en eeld på jordenne, och hwadh wil iagh
+heller, än at han allaredho brunne, Men iagh moste medh een
+döpelse döpas, och huru ängslas iagh til tess hon
+fulbordat warder?</s></s><s><s>Menen j at iagh är kommen til at senda fridh på
+jordena?</s></s><s><s>Ney sägher iagh idher, Vthan wisseligha twedregt.</s></s><s><s>Ty här
+effter skola fem wara skilachtighe vthi itt hws, tree emoot twå, och
+twå emoot tree.</s></s><s><s>Fadhren skal wara emoot sonen, och sonen emoot fadhren,
+Modhren emoot dotterna, och dottren emoot modherna, Swäran emoot sina
+sonahustru, och sonahustrun emoot sina
+swäro.</s></s><s><s>#77</s></s></para><para /><para /><para><s><s>	Sadhe han ock til
+folcket, När j få see en skyy vpgå wester vth, strax
+säyen j, Regn kommer, och thet skeer så.</s></s><s><s>Och när j see
+sönnanwädher blåsa, säyen j, Thet bliffuer warmt,
+och thet skeer så.</s></s><s><s>J skrymtare, Himmelens och jordennes skepelse kunnen
+j bepröffua, Hwj pröffuen j icke tå thenna tijdhen, Hwj
+dömen j icke ock vthaff idher siellfua hwadh rett
+är?</s></s></para><para /><para><s><s>	När tu nu gåår medh
+tin trättobrodher til Öffuerstan, så winlegg tigh j
+wäghen, at tu bliffuer honom frij, At han til ewentyrs icke dragher tigh
+fram för Domaren, och Domaren antwardar tigh Stockmestaren, och
+Stockmestaren kastar tigh j fängelsen.</s></s><s><s>Jagh sägher tigh, Tu
+warder ther icke vthkommandes, til tess tu betalat haffuer then yttersta
+skärffuen.</s></s></para><para /><para><s><s>		XIII.</s></s><s><s>CAPITEL</s></s></para><para /><para><s><s>På samma tijdh, woro ther någhre
+tilstädhes, som bodadhe honom om the Galileer, hwilkas blodh Pilatus
+hadhe blandat medh theras offer.</s></s><s><s>Tå swaradhe Jesus, och sadhe til them,
+Menen j at thenne Galileer woro syndare för alla Galileer, effter the
+sådant lidho?</s></s><s><s>Ney sägher iagh idher, Vthan om j icke
+bätren idher, skolen j alle sammalunda förgåås,
+Eller the adherton som tornet j Siloha föll vppå, och drap them,
+Menen j at the brotzlighe woro för alla menniskior som boo j Jerusalem?</s></s><s><s>Ney sägher iagh idher, Vthan om j icke bätren idher, skolen j
+alle sammalunda förgåås.</s></s></para><para /><para><s><s>	Sadhe
+han ock thenna lijknelsen.</s></s><s><s>En man hadhe itt Fikonaträä planterat
+j sin wijngård, och han kom och sökte frucht ther på, och
+fann ingen.</s></s><s><s>Tå sadhe han til wijngårdzmannen, Sij, nu j try
+åår haffuer iagh kommet, och sökt frucht på thetta
+Fikonaträdh, och iagh finner #78</s></s></para><para /><para /><para><s><s>ingen,
+Hugg thet bortt, Hwar effter skal thet förhindra jordena?</s></s><s><s>Han swaradhe,
+och sadhe til honom, Herre, lät stå thet än nu j thetta
+året, så lenge iagh graffuer om kring thet, och gödher
+thet, om thet så kunde bära frucht, Hwar och icke, så hugg
+thet sedhan bortt.</s></s></para><para /><para><s><s>	Och han lärde om Sabbathen
+vthi een Synagogo, Och sij, ther war een quinna, som hadhe hafft kranckhetennes
+Anda j adherton åår, och war krompen, och förmåtte
+icke vplyffta hoffuudhet.</s></s><s><s>När Jesus sågh henne, kalladhe han
+henne til sigh, och sadhe til henne, Quinna, war frij aff tinne kranckheet.</s></s><s><s>Och
+han ladhe sina hender på henne.</s></s><s><s>Och strax reeste hon sigh vp, och
+prijsadhe Gudh.</s></s><s><s>Tå swaradhe Öffuersten för Synagogon, och
+war wreedh, at Jesus heladhe på Sabbathen, och sadhe til folcket, Sex
+daghar äro ther j måghen arbeta på, kommen på them
+och låten hela idher, icke på
+Sabbathen.</s></s></para><para /><para><s><s>	Tå swaradhe Herren honom, och
+sadhe, Tu skrymtare, löser icke hwar och en aff idher om Sabbathen sin
+oxa eller åszna jfrå krubbonne, och ledher bortt at watna?</s></s><s><s>Måtte man tå icke lösa aff thetta bandet på
+Sabbathen thenna Abrahams dotter, hwilka Satan bundet haffuer, sij, nu j
+adherton åår?</s></s><s><s>Och tå han thetta sadhe, skemde sigh alle,
+som honom emoot ståndet hadhe.</s></s><s><s>Och alt folcket gladde sigh aff the
+herligha gerningar som giordes aff honom.</s></s></para><para /><para><s><s>	Så
+sadhe han tå, Hwem är Gudz Rike lijkt, och widh hwadh skal iagh
+lijkna thet?</s></s><s><s>Thet är lijkt widh itt Sinaps korn, som en man toogh och
+sådde j sin örtagård, och thet wexte och bleff itt stoort
+trää, och foghlanar vnder himmelen boodde på thes
+quistar.</s></s></para><para /><para><s><s>	Och åter sadhe han, Widh hwadh skal
+iagh lijkna Gudz Rike?</s></s><s><s>Thet är lijkt enom swrdeegh, hwilken een quinna
+toogh, och ladhe in vthi tree skeppor miöl, til tess thet swrnadhe
+altsammans.</s></s><s><s>Och han gick jgenom städher och byiar och lärde, Och
+toogh wäghen åt
+Jerusalem.</s></s><s><s>#79</s></s></para><para /><para /><para><s><s>	Och en sadhe til honom,
+Herre, äro the ock fåå som warda salighe?</s></s><s><s>Tå sadhe
+han til them, Winlegger idher ther om, at j kunnen ingå jgenom then
+trånga porten, Ty monge (sägher iagh idher) skola sökia
+ther effter, at the må inkomma, och skola doch icke kunna.</s></s><s><s>Sedhan
+Hwszbonden haffuer vpståndet, och lätet dören igen, och j
+begynnen stå vthe, och bulta på dören, säyandes,
+Herre, Herre, lät vp för oss.</s></s><s><s>Och han swarar och sägher
+til idher, Jagh weet intet aff idher hwadhan j ären.</s></s><s><s>Tå skolen j
+begynna säya, Wij haffuom ätit och drucket medh tigh, och tu
+haffuer lärdt på wåra gator.</s></s><s><s>Och han skal säya,
+Jagh sägher idher, Jagh weet intet aff idher hwadhan j ären,
+Gåår jfrå migh alle j ogerningsmän, Och ther skal
+wara grååt och tandagniszlan, när j få see Abraham,
+Jsaac och Jacob och alla Propheterna j Gudz Rike, och idher vthdriffuas.</s></s><s><s>Och
+the skola komma jfrå östan och westan, och noordan och
+sönnan, och skola sittia j Gudz Rike.</s></s><s><s>Och sij, thet äro
+någhre ytterste, som skola warda the fremste, och någhre fremste,
+som skola warda the ytterste.</s></s><s><s>Samma daghen gingo någhre Phariseer fram,
+och sadhe til honom, Skynda tigh, och gack hädhan, Ty Herodes wil
+dräpa tigh.</s></s><s><s>Tå sadhe han tit them, Gåår och
+sägher them Räffuenom, Sij, iagh vthdriffuer diefflar, och helar
+j dagh och j morghon, och tridie daghen warder thet endat medh migh.</s></s><s><s>Doch
+likwel moste iagh än nu wandra j dagh och j morghon, och offuermorghon,
+Ty thet kan icke wara, at en Prophet förgåås
+annorstädz än j Jerusalem.</s></s></para><para /><para><inline small-caps="true"><s>Herrans #80</s></inline>
+nampn.<s><s>	Jerusalem
+Jerusalem, tu som dräper Propheterna, och stenar them som sendas til
+tigh, Huru offta wille iagh församla tijn barn, lijkawist som foghlen
+sitt neste vnder sina wingar, och j willen icke?</s></s><s><s>Sij, idhart hws skal warda
+idher ödhe, Och sägher iagh idher, at j skolen icke see migh til
+tess tijdhen kommer, at j warden säyandes, Welsignat är han som
+kommer j </s></s></para><para /><para /><para><s><s>		XIIII.</s></s><s><s>CAPITEL</s></s></para><para /><para><s><s>Och thet hende sigh, at han kom vthi eens manz hws,
+som war en Öffuerste för the Phariseer om en Sabbath, til at
+få sigh maat, och the wachtadhe på honom.</s></s><s><s>Och sij, een
+watusychtigh menniskia war ther för honom.</s></s><s><s>Tå swaradhe Jesus, och
+sadhe til the Lagkloka och Phariseer, Må man någhon hela om
+Sabbathen?</s></s><s><s>Och the tijgde.</s></s><s><s>Men han toogh honom til sigh, och giorde honom
+helbregda, och lät gåån.</s></s><s><s>Och han swaradhe, säyandes
+til them, Hwilkens idhars åszne eller oxe faller vthi brunnen, och
+gåår han icke strax til at dragha honom vth om Sabbaths daghen?</s></s><s><s>Och the kunde intet swara honom ther til.</s></s></para><para /><para><s><s>	Tå
+sadhe han ock til them som bodhne woro een lijknelse, merkiandes huru the
+sökte effter at sittia fremst, säyandes til them, När tu
+bliffuer budhin aff någhrom til bröllop, sett tigh icke j fremsta
+rwmet, at icke til ewentyrs någhor kommer som budhin är aff
+honom, och är ärligharen än tu, och tå kommer han
+som bådhe honom och tigh budhit haffuer, och sägher til tigh,
+Giff thenna rum.</s></s><s><s>Och tå moste tu medh blygd begynna sittia nedh
+bäter.</s></s><s><s>Vthan heller när tu warder budhin, gack och sett tigh j
+yttersta rwmet.</s></s><s><s>At tå han kommer som tigh budhit haffuer, må han
+säya til tigh, Min wen sitt vp bäter, Och tå skeer tigh
+hedher för them som ther medh tigh til boordz sittia.</s></s><s><s>Ty hwar och en som
+vphöyer sigh, han skal warda förnedrat, Och then sigh
+förnedrar, han skal warda vphögd.</s></s></para><para /><para><s><s>	Sadhe
+han ock teslikes til honom som honom budhit hadhe, När tu gör
+middags måltijdh eller natward, biwdh icke tina wener, eller tina
+brödher, eller tina frender, eller tina grannar som rijke äro, at
+the icke biudha tigh igen, och löna tigh tina welgerning.</s></s><s><s>Vthan heller
+tå tu gör gästabodh kalla the fattigha, siwka, halta,
+blinda, och saligh #81</s></s></para><para /><para /><para><s><s>ästu, ty the
+förmå icke löna tigh igen, Men tigh warder igen
+lönt j the rettferdighas
+vpståndelse.</s></s></para><para /><para><s><s>	Men tå en aff them som
+widh boordet såto, thetta hörde, sadhe han til honom, Saligh
+är then som äter brödh j Gudz Rike.</s></s><s><s>Tå sadhe han
+til honom, En man hadhe tilreedt en stoor natward, och bödh monga, och
+vthsende sin tienare, then stund natwarden skulle stå, at han skulle
+säya them som bodhne woro, Kommer, ty all ting äro nu redho.</s></s><s><s>Och
+the begynte allesammans vrsaka sigh.</s></s><s><s>Then förste sadhe til honom, Jagh
+haffuer köpt itt jordagodz, och iagh moste gå vth och besee thet,
+Jagh bedher tigh, gör mijn vrsekt.</s></s><s><s>Och then andre sadhe, Jagh haffuer
+köpt fem paar oxar, och iagh moste gå bortt och
+försökia them, Jagh bedher tigh, gör mijn vrsekt.</s></s><s><s>Och then
+tridie sadhe, Jag haffuer taghit migh hustru, och therföre kan iagh icke
+komma.</s></s><s><s>Och tienaren kom, och sadhe sin Herra alt thetta
+igen.</s></s></para><para /><para><s><s>	Tå wardt Huszbonden wreedh, och sadhe
+til sin tienare, Gack snarligha vth på gator och grender j stadhen, och
+the fattigha och siwka, halta och blinda haff här in.</s></s><s><s>Och tienaren
+sadhe, Herre, iagh haffuer giordt som tu bödh, och här är
+än nu rwm.</s></s><s><s>Tå sadhe Herren til tienaren, Gack vth på
+wäghar och gårdar, och nödga them til at komma här
+in, på thet at mitt hws måtte warda fult.</s></s><s><s>Ty iagh sägher
+idher, att ingen aff the män som bodhne woro, skal smaka min
+natward.</s></s></para><para /><para><s><s>	Och gick mykit folck medh honom.</s></s><s><s>Och han
+wende sigh om, och sadhe til them, Hwilken som kommer til migh, och icke hatar
+sin fadher och modher, och hustru, och barn, och brödher, och systrar,
+och ther til sitt eghit lijff, han kan icke wara min
+Läriunge.</s></s><s><s>#82</s></s></para><para /><para /><para><s><s>	Och hwilken som icke
+bäär sitt korsz och fölier migh, han kan icke wara min
+Läriunge.</s></s></para><para /><para><s><s>	Hwilken är then aff idher,
+som wil byggia itt torn, och icke först sitter och offuerlegger
+bekostningen, om han haffuer thet han behöffuer, til at fulborda thet
+medh?</s></s><s><s>At tå han haffuer lagdt grundwalen, och icke kan fulborda thet,
+alle the som få seet, icke skola begynna göra spee aff honom, och
+säya, Thenne mannen haffuer begynt byggia, och förmåtte
+icke fulbordat.</s></s><s><s>Eller hwadh Konung wil giffua sigh til örligs, och
+stridha emoot en annan Konung, sitter han icke först och tencker, om han
+förmå medh tiyotusend möta honom, som kommer emoot honom
+medh tiwghutusend?</s></s><s><s>Annars mädhan hin än nu longt bortto
+är, sender han bodhskap til honom och bedher om fridh.</s></s><s><s>Sammalunda, huar
+och en aff idher, som icke wedhersakar alt thet han ågher, han kan icke
+wara min Läriunge.</s></s></para><para /><para><s><s>	Saltet är gott, Men
+om saltet mister sijn sälto, medh hwadh skal man salta?</s></s><s><s>Thet är
+hwarken nyttigt j jordena eller j dyngiona, vthan man kastar thet bortt.</s></s><s><s>Then
+ther öron haffuer til at höra, han
+höre.</s></s></para><para /><para><s><s>		XV.</s></s><s><s>CAPITEL</s></s></para><para /><para><s><s>Och til honom gingo allahanda Publicaner och
+syndare, at the måtte höra honom.</s></s><s><s>Och the Phariseer och
+Scrifftlärde knorradhe och sadhe, Thenne vndfåår syndare
+och äter medh them.</s></s><s><s>Tå sadhe han til them thenna lijknelsen,
+säyandes, Hwilken är then man jbland idher, som haffuer hundradhe
+fåår, och om han tapar bortt itt aff them, läter han icke
+the niyo och niyotiyo vthi öknenne, och gåår effter thet
+som bortto är, til tess han finner thet?</s></s><s><s>Och tå han haffuer thet
+funnet, legger han thet på sina
+axlar #83</s></s></para><para /><para /><para><s><s>medh glädhi.</s></s><s><s>Och när han
+kommer heem j sitt hws, kallar han tilhopa sina wener och grannar, och
+sägher til them, Glädhens medh migh, Ty iagh haffuer funnet mitt
+fåår, som borttapat war.</s></s><s><s>Jagh sägher idher, at sammalunda
+warder ock glädhi j himmelen, offuer en syndare then sigh bätrar,
+meer än offuer niyo och niyotiyo rettferdigha, som ingen bätring
+behöffua.</s></s></para><para /><para><s><s>	Eller hwadh quinna är som
+haffuer tiyo penningar, om hon borttapar en aff them, tender hon icke vp liws,
+och sopar huset, och söker grannerligha til tess hon finner honom?</s></s><s><s>Och
+tå hon funnet haffuer, kallar hon tilhopa sina wener och granquinnor,
+och sägher, Glädhens medh migh, Ty iagh haffuer funnet min
+penning som iagh tapat hadhe.</s></s><s><s>Sammalunda sägher iagh idher, warder
+glädhi för Gudz Änglom offuer en syndare som sigh
+bätrar.</s></s></para><para /><para><s><s>	Och han sadhe, En man hadhe twå
+söner, och then yngre aff them sadhe til fadhren, Fadher, få migh
+then parten aff äghodelarna som migh tilkommer.</s></s><s><s>Och han bytte
+äghodelarna them emellan.</s></s><s><s>Och icke monga daghar ther effter, tå
+then yngre sonen hadhe lagdt all sijn ting til hopa, foor han longt bortt j
+fremmande land, och ther förfoor han sina äghodelar, och leffde
+offuerflödeligha.</s></s><s><s>Och sedhan han alt förtärdt hadhe, wardt
+en stoor hunger j thet landet, Och han begynte lijdha nödh.</s></s><s><s>Och gick
+bortt och gaff sigh til en borghare ther j landet, och han sende honom til sin
+affwels gård, at han skulle sköta hans swijn.</s></s><s><s>Tå
+begäradhe han vpfylla sin bwk medh draaff ther swijnen medh
+föddes, och honom gaff ingen.</s></s></para><para /><para><s><s>	Tå
+besinnadhe han sigh sielff, och sadhe.</s></s><s><s>Huru monge mins fadhers leghodrenger
+haffua brödh noogh, och iagh förgåås här j
+hunger, Jagh wil stå vp, och gå til min fader, och säya
+til honom, Fadher, iagh haffuer syndat j himmelen och för tigh, Jagh
+är icke nu werd kallas tin son, Gör migh såsom en aff tina
+leghodrenger.</s></s><s><s>Och så stoodh han vp, och kom til sin fadher.</s></s><s><s>Och
+tå han än nu longt #84</s></s></para><para /><para /><para><s><s>jfrå
+war, sågh honom hans fadher, och begynte warkunna sigh offuer honom, och
+lop emoot honom, föll honom om halsen och kyste honom.</s></s><s><s>Och sonen sadhe
+til honom, Fadher, iagh haffuer syndat j himmelen och för tigh, Och
+är icke werd här effter kallas tin son.</s></s><s><s>Tå sadhe fadhren
+til sina tienare, Bärer fram then yppersta klädhningen, och
+klädher honom ther vthi, och fåår honom en ring på
+hans hand, och skoor på hans fötter, och haffuer hijt then
+gödda kalffuen, och slachter honom, Wij wilie äta, och
+göra oss gladh, Ty thenne min son war dödh, och haffuer
+fått lijff igen.</s></s><s><s>Han war borttapat, och är funnen igen.</s></s><s><s>Och the
+begynte göra sigh gladh.</s></s></para><para /><para><s><s>	Men then äldre
+hans son war vthe på markenne.</s></s><s><s>Och när han kom och nalkadhes
+hwsena, hörde han siungas och dantzas.</s></s><s><s>Och kalladhe en aff sina tienare,
+och frågadhe honom hwadh thet war.</s></s><s><s>Tå sadhe han til honom, Tin
+brodher är kommen, och tin fadher lät slachta then gödda
+kalffuen, at han haffuer honom helbregda igen.</s></s><s><s>Tå wardt han wreedh, och
+wille icke gå in.</s></s><s><s>Tå gick hans fadher vth och badh honom.</s></s><s><s>Swaradhe han, och sadhe til fadhren, Sij, iagh tienar tigh j så mong
+åår, och haffuer aldrigh gånget aff titt bodh, och tu gaff
+migh aldrigh itt kidh, at iagh måtte göra migh gladh medh mina
+wener.</s></s><s><s>Men sedhan thenne tin son kommen är, som sina äghodelar
+haffuer förtärdt medh skökior, haffuer tu til honom
+slachtat then gödda kalffuen.</s></s><s><s>Tå sadhe han til honom, Min son, tu
+äst altijdh när migh, och alt thet mitt är, thet är
+titt.</s></s><s><s>Man moste nu glädhias och frögdas, Ty thenne tin brodher
+war dödh, och fick lijff igen, Och war borttapat, och är igen
+funnen.</s></s></para><para /><para><s><s>		XVI.</s></s><s><s>CAPITEL</s></s></para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Standardabsatz" nest-level="0" right-indent="0.00" style-number="s0004" tabs="left:155.95;" widow-control="true"><para><inline font-style="Times"><s>S</s></inline><inline font-style="Times"><s>adhe han ock til sina
+Läriungar, Thet war en rijker man som hadhe en Gårdzfogda, then
+wardt berychtat för honom, #85</s></inline></para><para /><para><inline font-style="Times" /></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" line-spacing="-18.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0005" tabs="left:35.45;" widow-control="true"><para><s><s>at han förfoor hans äghodelar.</s></s><s><s>Tå kalladhe han honom och sadhe til honom, Hwj hörer iagh
+sådant aff tigh?</s></s><s><s>Gör rekenskap aff titt Fögderij, Ty tu
+moste icke lenger wara min Fogde.</s></s><s><s>Tå sadhe Fogden widh sigh sielff,
+Hwadh skal iagh göra?</s></s><s><s>Ty min Herre tagher jfrå migh
+Fögderijt, Graffua orkar iagh icke, tiggia blyies iagh.</s></s><s><s>Nu wel, iagh
+weet hwadh iagh wil göra, at tå iagh warder satt aff mitt
+Fögderij, mågha the anamma migh vthi sijn
+hws.</s></s></para><para /><para><s><s>	Tå kalladhe han til sigh alla sins Herras
+gellenärar, och sadhe til then första, Huru mykit ästu min
+Herra skylligh?</s></s><s><s>Sadhe han, Hundradhe tunnor olio.</s></s><s><s>Tå sadhe han til
+honom, Tagh titt breff, och sett tigh snart nedh, och scriff femtiyo.</s></s><s><s>Sedhan
+sadhe han til then andra, Huru mykit ästu skylligh?</s></s><s><s>Sadhe han til honom,
+Hundradhe pund hwete.</s></s><s><s>Sadhe han til honom, Tagh titt breff, och scriff
+ottatiyo.</s></s><s><s>Och Herren prijsadhe then oretta Fogdan, at han wijsligha giorde, Ty
+thenna werldennes barn äro wijsare än liwsens barn vthi sitt
+slechte.</s></s><s><s>Och iagh sägher idher, Görer idher wener aff then oretta
+Mammon, På thet at när j behöffuen, skola the anamma idher
+vthi ewinnerligha hyddor.</s></s></para><para /><para><s><s>	Then ther troghen är
+j thet minsta, han är ock troghen j thet mer är, Och then j thet
+minsta orett är, han är ock orett j thet meer är.</s></s><s><s>Ären j nu icke troghne vthi then oretta Mammon, Hoo wil tå betroo
+idher om thet sanskylligha?</s></s><s><s>Och om j ären icke troghne vthi eens annars,
+hoo wil få idher thet idhart är?</s></s><s><s>Jngen tienare kan tiena
+twå #86</s></s></para><para /><para /><para><s><s>Herrar, Ty antingen skal han hata
+then ena, och elska then andra, Eller ock hålla sigh in til then ena,
+och förachta then andra.</s></s><s><s>J kunnen icke tiena Gudhi och
+Mammon.</s></s></para><para /><para><s><s>	Alt thetta hörde the Phariseer som
+girighe woro, och giorde spee aff honom.</s></s><s><s>Och han sadhe til them, J ären
+the som gören idher siellfua rettferdigha för menniskiom, Men
+Gudh weet idhor hierta, Ty thet som för menniskiom högt
+är, ther stygges Gudh widh.</s></s></para><para /><para><s><s>	Laghen och
+Propheterna haffua propheterat in til Johannem, jfrå then tijdhen warder
+Gudz Rike förkunnat genom Euangelium, och hwar man gör wold
+på thet.</s></s><s><s>Men snarare skola himmel och jord förgåås,
+än en tytel aff Laghen falla.</s></s><s><s>Then ther offuergiffuer sina hustru, och
+tagher ena andra, han bedriffuer hoor.</s></s><s><s>Och then ther tagher henne som
+offuergiffuen är, han bedriffuer hoor.</s></s></para><para /><para><s><s>	Thet
+war en rijker man som klädde sigh j purpur och kostelighit
+lijnklädhe, och leffde hwar dagh kräszeligha.</s></s><s><s>Och thet war ock en
+fattigh, benemd Lazarus, then ther lågh för hans dör full
+medh såår, begärandes sleckia sin hunger aff the smolor,
+som föllo aff thens rijka manzens boord.</s></s><s><s>Doch komo hundar, och sleekte
+hans såår.</s></s><s><s>Så hende thet sigh, at then fattighe bleff
+dödh, och wardt förder aff Änglanar vthi Abrahams
+skööt.</s></s><s><s>Bleff ock then rijke dödh, och wardt
+begraffuen.</s></s></para><para /><para><s><s>	Som han nu j heluete och j pijnonne war,
+lyffte han sijn öghon vp, och fick see Abraham longt jfrå, och
+Lazarum j hans skööt, ropadhe han, och sadhe, Fadher Abraham,
+warkunna tigh offuer migh, och sendt Lazarum, at han doppar thet yttersta aff
+sitt finger j watn, och swalar mina tungo, Ty iagh pijnas swårligha j
+thenna loghanom.</s></s><s><s>Tå sadhe Abraham, Min son, tenck vppå, at tu
+hadhe gott medhan tu leffde, och Lazarus hadhe ther emoot ondt.</s></s><s><s>Nu haffuer han
+hugnat, och tu pijnas.</s></s><s><s>Och offuer alt thetta, är emellan oss och idher
+befest itt stoort swalg, så #87</s></s></para><para /><para /><para><s><s>at the
+som wilia fara hädhan til idher, the komma thes icke widh, ey heller
+fara tädhan och hijt offuer.</s></s></para><para /><para><s><s>	Tå sadhe
+han, Så bedher iagh tå tigh fadher, at tu sender honom vthi mins
+fadhers hws, Ty iagh haffuer fem brödher, at han förwarar them,
+at the ock icke komma vthi thetta pijno rwmet.</s></s><s><s>Sadhe Abraham til honom, The
+haffua Mosen och Propheterna, höre them.</s></s><s><s>Tå sadhe han, Ney fadher
+Abraham, Men kommer någhor til them aff the dödha, tå
+bätra the sigh.</s></s><s><s>Tå sadhe han til honom, Höra the icke
+Mosen och Propheterna, så troo the icke heller, om någhor aff the
+dödha vpstodhe.</s></s></para><para /><para><s><s>		XVII.</s></s><s><s>CAPITEL</s></s></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Standardabsatz" nest-level="0" right-indent="0.00" style-number="s0004" tabs="left:155.95;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" line-spacing="-18.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0005" tabs="left:35.45;" widow-control="true"><para><s><s>Och han sadhe til sina Läriungar, Thet
+är omögelighit, at icke skulle komma förarghelse.</s></s><s><s>Men wee
+honom, genom hwilken the komma, Bätre wore honom at en quernsteen
+hengdes widh hans hals, och worde kastat j haffuet, än han skulle
+förargha en af thessa små.</s></s><s><s>Wachter idher.</s></s><s><s>Om tin brodher bryter
+tigh emoot, så straffa honom, och om han bätrar sigh, så
+förlåt honom thet.</s></s><s><s>Och om han bryter tigh emoot siw resor om
+daghen, och han siw resor om daghen wender sigh om igen til tigh,
+säyandes, Migh ångrar thet, så förlåt
+honom.</s></s></para><para /><para><s><s>	Och Apostlanar sadhe til Herran,
+Föröka oss trona.</s></s><s><s>Tå sadhe Herren, Om j hadhe trona
+såsom itt Sinaps korn, och sadhen til thetta Mulbärträdh,
+Ryck tigh vp, och försett tigh j haffuet, Tå lydde thet
+idher.</s></s></para><para /><para><s><s>	Hwilken aff idher haffuer en tienare, som
+gåår widh #88</s></s></para><para /><para /><para><s><s>ploghen eller
+wachtar booskap, tå han kommer heem aff markenne, at han sägher
+til honom, Gack strax och sitt til boordz?</s></s><s><s>Vthan säger han icke heller
+til honom?</s></s><s><s>Reedh til natwarden, och vpskörta tigh, och tiena migh medhan
+iagh äter och dricker, och sedhan äät tu och drick.</s></s><s><s>Mon
+han tacka them samma tienarenom, at han giorde som honom budhit war?</s></s><s><s>Ney menar
+iagh.</s></s><s><s>Sammalunda ock j, När j haffuen giordt alt thet som idher budhit
+är, sägher, Wij äre onyttighe tienare, wij haffue giordt
+thet wij worom plichtighe at göra.</s></s></para><para /><para><s><s>	Och thet
+begaff sigh, tå han gick til Jerusalem, foor han mitt genom Samariam och
+Galileam.</s></s><s><s>Och tå han kom vthi en byy, mötte honom tiyo spitelske
+män, the stodho longt jfrå, och vphögde sina röst,
+säyandes, Jesu Mestar, warkunna tigh offuer oss.</s></s><s><s>När han them
+sågh, sadhe han til them, Gåår, och wijser idher
+Presterna.</s></s><s><s>Och hende sigh, widh the gingo wordo the rene.</s></s><s><s>Men en aff them,
+tå han sågh, at han war reen worden, kom han igen, och prijsadhe
+Gudh medh högha röst, och föll på sitt ansichte
+för hans fötter, tackandes honom.</s></s><s><s>Och han war en Samarit.</s></s><s><s>Tå swaradhe Jesus, och sadhe, Woro icke tiyo rene giorde?</s></s><s><s>Hwar
+äro tå the niyo?</s></s><s><s>Jngen är funnen som kom igen til at
+prijsa Gudh, vthan thenne fremlingen?</s></s><s><s>Och sadhe til honom, Statt vp, gack, tijn
+troo haffuer frelst tigh.</s></s></para><para /><para><s><s>	Och tå han
+fråghat wardt aff the Phariseer, när Gudz Rike komma skulle,
+Swaradhe han, och sadhe, Gudz Rike kommer icke medh vthwertes
+åthäffuor, ey heller
+warder #89</s></s></para><para /><para /><para><s><s>man säyandes, Sij här,
+eller sij ther äret.</s></s><s><s>Ty sij, Gudz Rike är inwertes j
+idher.</s></s></para><para /><para><s><s>	Och han sadhe til Läriunganar, Then
+tijdh skal komma, at j skolen begära see en aff menniskionnes Sons
+daghar, och j skolen icke få seen.</s></s><s><s>Och the skola säya til idher,
+Sij här, sij ther, Gåår icke åstadh, och
+fölier icke heller.</s></s><s><s>Ty såsom liungeelden liungar offuan aff
+himmelen, och lyser offuer alt thet vnder himmelen är, Altså skal
+ock menniskionnes Son wara på sin dagh.</s></s><s><s>Men tilförenna moste han
+mykit lijdha, och förkastas aff thetta
+slechtet.</s></s></para><para /><para><s><s>	Och såsom thet skeedde vthi Noe
+tijdh, så skal thet ock skee vthi menniskionnes Sons daghar.</s></s><s><s>The
+åto, drucko, männ togho hustrur, och quinnor gåffuos
+mannom, Jn til then daghen tå Noe gick in j Arken, och flodhen kom och
+förgiorde them alla.</s></s><s><s>Sammalunda ock, så som thet skeedde vthi
+Lots tijdh, The åto, drucko, köpte, sålde, planteradhe och
+bygde.</s></s><s><s>Men then daghen, tå Lot gick vthaff Sodoma, regnadhe eeld och
+swaffuel aff himmelen, och förgiorde them alla.</s></s><s><s>Effter thet settet
+warder thet ock gående på then daghen, när menniskionnes
+Son skal vppenbaras.</s></s></para><para /><para><s><s>	På then daghen, then som
+är på taket, och hans booting j hwset, han stighe icke nedher til
+at tagha them.</s></s><s><s>Sammalunda ock, then j markenne är, gånge icke til
+baka igen effter thet han leeffdt haffuer.</s></s><s><s>Kommer jhogh Lots hustru.</s></s><s><s>Hwilken
+som faar effter at förwara sijn siäl, han skal mista henne, Och
+then som mister henne, han foordrar henne til
+lijffs.</s></s></para><para /><para><s><s>	Jagh sägher idher, J then natten skola
+twå liggia vthi eenne säng, then ene warder vptaghen, och then
+andre warder quarr låten.</s></s><s><s>Twå skola mala til hopa, then ena
+warder vptaghen, och then andra warder quarr låten.</s></s><s><s>Tå swaradhe
+the och sadhe til honom, Hwar tå Herre?</s></s><s><s>Sadhe han til them, Ther som
+åtelen är, tijt församlas ock
+örnenar.</s></s><s><s>#90</s></s></para><para /><para /><para><s><s>		XVIII.</s></s><s><s>CAPITEL</s></s></para><para /><para><s><s>Sadhe han ock een lijknelse til them, ther om, at
+man skal altijdh bidhia och icke förtröttas, säyandes.</s></s><s><s>En
+Domare war vthi en stadh then icke fruchtadhe Gudh, och ey heller hadhe
+försyyn för någhra menniskio.</s></s><s><s>Så war j samma stadh
+een änkia, hon kom til honom, och sadhe, Hielp migh jfrå min
+trättobrodher.</s></s><s><s>Och han wille icke til någhon tijdh.</s></s><s><s>Sedhan sadhe
+han widh sigh, Ändoch iagh icke fruchtar Gudh, ey heller haffuer
+försyyn för någhon menniskio, Doch för then skul,
+at thenna änkian offuerfaller migh så swåra, moste iagh
+fly henne rett, at hon icke skal komma på thet sijdsta, och ropa
+på migh.</s></s></para><para /><para><s><s>	Och sadhe Herren, Hörer
+här hwadh then orette Domaren sägher, Skulle ock icke Gudh
+hempnas sina vthkoradhe, som ropa til honom dagh och natt, skulle han haffua
+tolamodh ther medh?</s></s><s><s>Jagh sägher idher, at han skal hempnas them
+snarligha.</s></s><s><s>Doch likwel tå menniskionnes Son kommer, mon han skola finna
+troo på jordenne?</s></s></para><para /><para><s><s>	Sadhe han ock til somligha
+som tröste på sigh siellfua, at the woro rettferdighe, och
+försmådde andra, thenna lijknelsen.</s></s><s><s>Twå män gingo
+vp j Templet til at bidhia, en Pharisee, och then andre en Publican.</s></s><s><s>Phariseen
+stoodh och badh så widh sigh sielff, Jagh tackar tigh Gudh, at iagh
+är icke såsom andra menniskior, röffuare, orettferdighe,
+hoorkarla, eller ock såsom thenne Publicanen.</s></s><s><s>Jagh fastar twå
+resor j wekonne, och giffuer tiyend aff alt thet iagh ågher.</s></s><s><s>Och
+Publicanen stoodh longt jfrå, och wille icke lyffta sijn öghon vp
+til himmelen, vthan sloogh sigh för sitt bryst, och sadhe, Gudh miskunde
+sigh offuer migh syndare.</s></s><s><s>Jagh sägher idher, thenne gick tädhan
+heem igen rettferdighat, meer än then andre.</s></s><s><s>Ty then sigh
+vphöyer, han warder förnedrat, Och then sigh förnedrar,
+han warder vphögd.</s></s></para><para /><para><s><s>	Så båro the
+ock barn til honom, at han skulle tagha
+på #91</s></s></para><para /><para /><para><s><s>them.</s></s><s><s>Tå hans
+Läriungar thet sågho, nepste the them.</s></s><s><s>Men Jesus kalladhe them
+til sigh, och sadhe, Läter barnen komma til migh, och förmener
+them icke, Ty sådana hörer Gudz Rike til.</s></s><s><s>Sannerligha
+sägher iagh idher, Hwilken som icke tagher Gudz Rike som itt barn, han
+skal icke komma ther in.</s></s></para><para /><para><s><s>	Och frågadhe honom en
+Öffuerste, säyandes, Godhe Mestar, Hwadh skal iagh göra,
+at iagh må få ewinnerlighit lijff?</s></s><s><s>Sadhe Jesus til honom, Hwj
+kallar tu migh godhan?</s></s><s><s>Jngen är godh vthan allena Gudh.</s></s><s><s>Bodhorden weest
+tu, Tu skalt icke bedriffua hoor.</s></s><s><s>Tu skalt icke dräpa.</s></s><s><s>Tu skalt icke
+stiela.</s></s><s><s>Tu skalt icke säya falskt witnesbyrd.</s></s><s><s>Tu skalt ära tin
+fadher och tina modher.</s></s><s><s>Tå sadhe han, Alt thetta haffuer iagh
+hållet aff min vngdom.</s></s><s><s>Tå Jesus thet hörde, sadhe han til
+honom, Än fattas tigh itt, Säl bortt alt thet tu haffuer, och
+skifft emellan the fattigha, och tu skalt få en skatt j himmelen, och
+kom och fölgh migh.</s></s><s><s>Tå han thet hörde, wardt han
+bedröffuat, Ty han war ganska rijk.</s></s></para><para /><para><s><s>	Tå
+Jesus sågh honom wara bedröffuat, sadhe han, O medh huru stoort
+platz komma the j Gudz Rike, som penningar haffua, Ty snarare kan en Kameel
+gå jgenom itt nåålsögha, än en rijker komma
+in j Gudz Rike.</s></s><s><s>Tå sadhe the som thet hörde, Hoo kan tå
+warda saligh?</s></s><s><s>Men han sadhe, Thet omögelighit är för
+menniskiom, thet är möghelighit för
+Gudh.</s></s></para><para /><para><s><s>	Tå sadhe Petrus, Sij, wij haffue all
+ting offuergiffuit, och folgdt tigh.</s></s><s><s>Sadhe han til them, Sannerligha
+sägher iagh idher, Jngen är then som haffuer offuergiffuit hws,
+eller föräldrar, eller brödher, eller hustru, eller barn
+för Gudz Rike skul, then icke skal igen få mykit meer j thenna
+tijdhen, Och j tilkommande werld ewinnerlighit
+lijff.</s></s></para><para /><para><s><s>	Tå toogh Jesus til sigh the Tolff, och
+sadhe til them, Sij, wij gååm vp til Jerusalem, och all ting
+skola fulbordat warda, som scriffuin äro aff Propheterna om
+menniskionnes Son, Ty han skal offuerantwardas Hedhningom,
+och #92</s></s></para><para /><para /><para><s><s>begabbas och försmädhas
+och bespottas, Och sedhan the haffua hudhflengt honom, skola the dödha
+honom, och tridie daghen skal han vpstå igen.</s></s><s><s>Men the förstodho
+ther intet aff, och orden woro them så fördold, at the icke
+förstodho hwadh som sadhes.</s></s></para><para /><para><s><s>	Så hende
+sigh, at när han kom in moot Jericho, satt en blinder widh wäghen
+och tiggde, och när han hörde folcket fram gå,
+fråghadhe han hwadh thet war.</s></s><s><s>Tå sadhe the til honom, at Jesus
+aff Nazareth gick ther fram.</s></s><s><s>Tå ropadhe han och sadhe, Jesu Dauidz Son,
+warkunna tigh offuer migh.</s></s><s><s>Men the som före gingo, nepste honom, at han
+skulle tiya.</s></s><s><s>Men han ropadhe thes meer, Dauidz Son, warkunna tigh offuer migh.</s></s><s><s>Tå stadhnadhe Jesus, och bödh ledha honom til sigh.</s></s><s><s>Tå han
+kom fram, frågadhe han honom, säyandes, Hwadh wilt tu, at iagh
+skal göra tigh?</s></s><s><s>Tå sadhe han, Herre, at iagh måtte
+få mijn syyn.</s></s><s><s>Och Jesus sadhe til honom, Haff tina syyn, Tijn troo
+haffuer frelst tigh.</s></s><s><s>Och strax fick han sijn syyn igen, och folgde honom
+prijsandes Gudh.</s></s><s><s>Och alt folcket som thetta sågho, loffuadhe
+Gudh.</s></s></para><para /><para><s><s>		XIX.</s></s><s><s>CAPITEL</s></s></para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Standardabsatz" nest-level="0" right-indent="0.00" style-number="s0004" tabs="left:155.95;" widow-control="true"><para><inline font-style="Times"><s>O</s></inline><inline font-style="Times"><s>ch han droogh in, och
+gick genom Jericho, Och sij, ther war en man benemd Zacheus, han war en
+Öffuerste för the Publicaner, och war rijk. </s></inline><inline font-style="Times"><s>Och sökte effter at han skulle få see Jesum
+hoo han war.</s><s>Men han kom icke thes widh för folcket skul, Ty han war
+liten til wext.</s><s>Så lop han fram före, och steegh vp vthi itt
+Mulbärträä, på thet han skulle få see honom,
+Ty han skulle gå ther fram.</s><s>Och när Jesus kom til then platzen,
+sågh han vp och fick see honom, och sadhe til honom, Zachee stijgh
+snarligha nedh Ty jdagh moste iagh gästa j titt hws.</s><s>Han steegh
+snarligha nedh, och vndfick honom gladheligha. </s></inline><inline font-style="Times"><s>Och när the thet #93</s></inline></para><para /><para><inline font-style="Times" /></para><para><s><s>sågho, knorradhe the alle at
+han ingången war til at gästa när en
+syndare.</s></s></para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" line-spacing="-18.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0005" tabs="left:35.45;" widow-control="true"><para><s><s>	Men Zacheus steegh fram, och sadhe til
+Herran, Sij, Herre, helfftena aff mina äghodelar giffuer iagh the
+fattigha, och om iagh haffuer någhon bedraghit, thet giffuer iagh
+fyradobbelt igen.</s></s><s><s>Tå sadhe Jesus til honom, Jdagh är thesso hwse
+saligheet widherfaren, effter han är ock Abrahams son, Ty menniskionnes
+Son är kommen, til at vpsökia och frelsa thet som förtapat
+war.</s></s></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Standardabsatz" nest-level="0" right-indent="0.00" style-number="s0004" tabs="left:155.95;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" line-spacing="-18.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0005" tabs="left:35.45;" widow-control="true"><para><s><s>	När the nu thetta hörde, sadhe
+han än tå een lijknelse, effter han war hardt widh Jerusalem, och
+the meente at Gudz Rike skulle strax vppenbarat warda.</s></s><s><s>Så sadhe han
+tå, En ädhla man foor longt bort j fremmande land, til at intagha
+sigh itt Rike, och komma igen.</s></s><s><s>Tå kalladhe han til sigh tiyo sina
+tienare, och fick them tiyo pund, och sadhe til them, Handler här medh
+til tess iagh igen kommer.</s></s><s><s>Men hans borghare hatadhe honom, och sende bodhskap
+effter honom, säyandes, Wij wilie icke at thenne skal rådha
+offuer oss.</s></s></para><para /><para><s><s>	Och thet begaff sigh, at han kom igen och
+hadhe fått Rjket, tå bödh han kalla the tienare til sigh,
+som han hadhe fått penninganar, at han måtte weta, huru hwar och
+en aff them handlat hadhe.</s></s><s><s>Så kom then förste, och sadhe, Herre
+titt pund haffuer förwerffuat tiyo pund.</s></s><s><s>Och han sadhe til honom, Ah tu
+godhe tienare, vthi een liten ting haffuer tu warit troghen, tu skalt haffua
+macht offuer tiyo städher.</s></s><s><s>Och then andre kom och sadhe, Herre, titt
+pund haffuer wunnet fem pund.</s></s><s><s>Och han sadhe til honom, War ock tu satter offuer
+fem städher.</s></s><s><s>Och then tridie kom och sadhe, Herre, see här titt
+pund, som iagh hadhe bewarat vthi en swettedwk, Jagh war rädder
+för tigh, ty tu äst en streng man, Tu tagher thet vp, som tu icke
+haffuer nedher lagdt, och vpskäär thet tu icke haffuer
+såådt.</s></s><s><s>Sadhe han til honom, Aff tin eghen munn dömer iagh
+tigh, tu onde tienare, Wiste tu, at iagh är en streng
+man, #94</s></s></para><para /><para /><para><s><s>vptagher thet iagh intet nedherladhe,
+och vpskäär thet iagh intet sådde, Hwj fick tu tå
+icke mina penningar in j weszlobencken?</s></s><s><s>At när iagh komme, måtte
+iagh jw kraffdt them igen medh ocker?</s></s></para><para /><para><s><s>	Och han sadhe
+til them som ther när stodho, Tagher thet pundet jfrå honom, och
+fåår honom som haffuer tiyo pund.</s></s><s><s>Tå sadhe the til honom,
+Herre, han haffuer tiyo pund.</s></s><s><s>Ty iagh sägher idher, at then som haffuer,
+honom skal warda giffuit.</s></s><s><s>Och then som icke haffuer, honom skal ock warda
+jfrå taghit thet han haffuer.</s></s><s><s>Doch the mina owener, som icke wille at
+iagh skulle rådha offuer them, ledher hijt, och dräper them
+här för migh.</s></s><s><s>Och tå han thetta sagdt hadhe, gick han
+tädhan, och reeste vp åt Jerusalem.</s></s></para><para /><para><s><s>	Och
+thet begaff sigh, at när han kom til Bethphage och Bethanien, widh thet
+berghet som kallas Olioberghet, sende han twå sina Läriungar,
+säyandes, Gåår in j byyn som för idher ligger,
+När j kommen ther in, skolen j finna en åsznafola bunden, ther
+än nu ingen menniskia på sittit haffuer, Löser honom, och
+haffuer honom hijt.</s></s><s><s>Och om någhor fråghar idher, hwj j
+lösen honom, så sägher til honom, Ty Herren
+behöffuer honom.</s></s><s><s>Så gingo the åstadh som sende woro, och
+funno som han hadhe sagdt them.</s></s><s><s>Och när the löste folan, sadhe
+hans Herrar til them, Hwj lösen j folan?</s></s><s><s>Tå sadhe the, Ty Herren
+behöffuer honom.</s></s><s><s>Och the leedde honom till Jesum, och ladhe sijn
+klädher på folan, och satte Jesum ther vppå.</s></s><s><s>Och ther han
+fram foor, breedde the sijn klädher på
+wäghen.</s></s></para><para /><para><inline small-caps="true"><s>Herrans</s></inline> nampn,
+Fridh ware j himmelen, och ära i högden. Och någhre jbland
+folcket som woro aff the Phariseer sadhe til honom, Mestar, neps tina
+Läriungar. Sadhe han til them, Jagh sägher idher, Om the tijgde,
+skulle stenanar ropa.<s><s>	Och tå han när kom, och
+droogh nedh för Olioberghet, begynte hele hopen aff hans
+Läriungar medh frögd och högha röst loffua Gudh,
+offuer alla the kraffter, som the seedt hadhe, säyandes, Welsignat ware
+han som kommer en Konung j </s></s></para><para /><para><s><s>	Och tå han kom fram och
+fick see stadhen, greet han offuer honom, och sadhe, Om tu ock wiste hwadh tin
+fridh tilhörer, så worde tu thet wisseligha j thenna tinom dagh
+betenckiande.</s></s><s><s>Men nu är thet fördoldt för tijn
+öghon.</s></s><s><s>Ty then tijdh skal komma offuer tigh, at tine owener skola tigh
+beleggia, och tijn barn som j tigh äro, och skantza kring om tigh, och
+trengia tigh på alla sidhor, och nedherslå tigh til jorden, och
+the skola icke låta igen j tigh steen på steen, Therföre
+at tu icke kenna kunde then tijdhen, ther tu vthi sökt
+war.</s></s></para><para /><para><s><s>	Så gick han in j Templet, och begynte
+vthdriffua the ther inne sålde och köpte, säyandes til
+them, Thet är scriffuit, Mitt Hws är itt Bönehws, Men j
+haffuen thet giordt til een röffuarekulo.</s></s><s><s>Och han lärde hwar dagh
+j Templet.</s></s><s><s>Men the öffuerste Presterna och the Scrifftlärde, och
+the ypperste jbland folcket, sökte effter at the kunde
+förgöra honom.</s></s><s><s>Och the kunde icke finna, hwadh the skulle
+göra, Ty alt folcket hölt sigh in til honom, och hörde
+honom.</s></s></para><para /><para><s><s>		XX.</s></s><s><s>CAPITEL</s></s></para><para /><para><s><s>Och thet
+begaff sigh på en aff the daghar, at han lärde folcket j Templet,
+och predicadhe Euangelium.</s></s><s><s>Tå församladhe sigh the
+öffuerste Presterna, och the Scrifftlärde medh the Äldsta,
+och sadhe til honom, Sägh oss, aff hwadh macht gör tu thetta?</s></s><s><s>Eller hoo är then som haffuer tigh giffuit thenna machten?</s></s><s><s>Swaradhe
+Jesus, och sadhe til them, Jagh wil ock spöria idher itt ord, swarer j
+migh, War Johannis döpelse aff himmelen, eller aff menniskior?</s></s><s><s>Tå
+begynte the tenckia widh sigh, säyandes, Säyom wij, Aff himmelen,
+tå sägher han, Hwj troodden j icke honom tå?</s></s><s><s>Men
+säyom wij, aff menniskior, tå stenar oss alt folcket, Ty the
+haffua thet jw så före, at Johannes war
+en #96</s></s></para><para /><para /><para><s><s>Prophet.</s></s><s><s>Ty swaradhe the, at the icke
+wiste hwadhan thet war.</s></s><s><s>Tå sadhe Jesus til them, Jcke heller
+sägher iagh idher, medh hwadh macht iagh thetta
+gör.</s></s></para><para /><para><s><s>	Och han begynte säya til folcket
+thenna lijknelsen.</s></s><s><s>En man planteradhe en wijngård, och fick honom vth
+wijngårdzmannom, och foor bortt j fremmande land j long tijdh.</s></s><s><s>När tijdh war, sende han en tienare til wijngårdzmännenar,
+at the skulle läta honom få aff wijngårdzens frucht.</s></s><s><s>Men
+the hudhflengde honom, och senden jfrå sigh medh toma hender.</s></s><s><s>Sedhan
+sende han ock en annan tienare, then hudhflengde the ock, och
+försmädde honom, och senden jfrå sigh medh toma hender.</s></s><s><s>Åter sende han then tridie, then giorde the ock såran, och
+driffuo honom vth.</s></s><s><s>Tå sadhe wijngårdzherren, Hwadh skal iagh
+göra?</s></s><s><s>Jagh wil senda min elskeligha Son, kan henda, at tå the see
+honom, haffua the försyyn för
+honom.</s></s></para><para /><para><s><s>	Tå wijngårdzmännenar
+fingo see honom, tenckte the widh sigh siellfua, säyandes, Thenne
+är arffuingen, kommer, wij wilie slå honom jhiäl, at
+arffuedelen må bliffua wår.</s></s><s><s>Och så driffuo the honom vthu
+wijngården, och dråpo honom.</s></s><s><s>Hwadh skal nu wijngårdzherren
+göra them samma?</s></s><s><s>Han skal komma och förgöra thenna
+wijngårdzmännenar, och vthfå wijngården androm.</s></s><s><s>När the thetta hörde, sadhe the, Bortt thet.</s></s><s><s>Tå
+sågh han på them, och sadhe, Hwadh är tå thet som
+scriffuit ståår, Then stenen som bygningsmännenar
+bortkastadhe, han är worden en hörnsteen?</s></s><s><s>Hwilken som faller
+vppå then stenen, han warder krossat, Men then han vppå faller,
+honom slåår han all sönder j stycker.</s></s><s><s>Och öffuersta
+Presterna medh the Scrifftlärda, sökte effter at the kunde
+få tagha fatt på honom j samma stunden, Men the räddes
+för folcket, Ty the förstodho, at han hadhe sagdt thenna
+lijknelsen emoot them.</s></s></para><para /><para><s><s>	Och the achtadhe på
+honom, och sende vth wachtare, som lätos wara rettferdighe, på
+thet the skulle tagha #97</s></s></para><para /><para /><para><s><s>honom widh orden, och
+offuerantwarda honom Herskapet och j Landzherrans wold.</s></s><s><s>Och the frågadhe
+honom, säyandes, Mestar, wij wete at tu sägher och lärer
+thet rett är, och seer icke til personen, vthan lärer Gudz
+wägh rett.</s></s><s><s>Är thet rett at wij giffue Keysaren skatt eller ey?</s></s><s><s>Tå han förmerckte theras illfundigheet, sadhe han til them, Hwj
+fresten j migh?</s></s><s><s>Läter migh see penningen, hwars belete och offuerscrifft
+haffuer han?</s></s><s><s>Swaradhe the, och sadhe, Keysarens.</s></s><s><s>Sadhe han til them, Så
+giffuer nu Keysarenom thet Keysarenom tilhörer, och Gudhi, thet Gudhi
+tilhörer.</s></s><s><s>Och the kunde icke straffa hans taal för folcket, vthan
+förundradhe sigh på hans swar, och
+tijgde.</s></s></para><para /><para><s><s>	Tå gingo någhre fram til honom
+aff the Saduceer, hwilke ther neka vpståndelsen, och frågadhe
+honom, säyandes, Mestar, Moses haffuer scriffuit oss, at om
+någhors manz brodher bliffuer dödh then hustru haffuer, och
+döör barnlöös, at hans brodher skal tagha hans
+hustru, och vpweckia sinom brodher sädh.</s></s><s><s>Så woro nu siw
+brödher, Och then förste toogh sigh hustru, och bleff dödh
+barnlöös.</s></s><s><s>Och then andre toogh henne, och bleff ock teslikes
+dödh barnlöös.</s></s><s><s>Then tridie toogh henne.</s></s><s><s>Sammalunda ock
+alle siw, och läto ingen barn effter sigh, och bliffuo dödhe.</s></s><s><s>Sijdst effter them alla bleff ock quinnan dödh.</s></s><s><s>Vthi
+vpståndelsen, hwilkens theras hustru skal hon wara?</s></s><s><s>effter thet siw
+hadhe hafft henne til hustru.</s></s></para><para /><para><inline small-caps="true"><s>Herran #98</s></inline>, Abrahams Gudh, och Jsaacs Gudh, och Jacobs
+Gudh. Gudh är icke the dödhas, vthan the
+leffuandes<s><s>	Tå swaradhe
+Jesus, och sadhe til them, Thenna werldennes barn tagha sigh hustrur, och
+giffuas mannom.</s></s><s><s>Men the som warda werdighe til then werldena, och til
+vpståndelsen jfrå the dödha, the hwarken tagha hustrur
+eller giffuas manne, och ey heller kunna the mera döö, Ty the
+warda lijka medh Änglanar, och äro Gudz barn, medhan the
+äro vpståndelsens barn.</s></s><s><s>Men at the dödhe vpstå,
+bewijsadhe Moses widh buskan, tå han kalladhe </s></s></para><para /><para /><para><s><s>Gudh, Ty honom leffua alle.</s></s><s><s>Tå swaradhe någhre aff the Scrifftlärda, säyandes,
+Mestar, tu sadhe rett.</s></s><s><s>Och the dyrffdes icke ytermera någhot
+frågha honom.</s></s></para><para /><para><inline small-caps="true"><s>Herren</s></inline> sadhe til min Herra,
+sett tigh på mina höghra hand, til tess iagh nedherlegger tina
+owener tigh til en fotapal? Så kallar nu Dauid honom Herra, huru
+är han tå hans Son?<s><s>	Men han sadhe til them, Huru
+säya the Christum wara Dauidz Son, och siellfuer Dauid sägher j
+Psalmabokenne, </s></s></para><para /><para><s><s>	Tå sadhe han
+til sina Läriungar vthi alt folckens åhöro, Tagher idher
+wara för the Scrifftlärda, som wilia gå vthi sijdh
+klädher, och wilia gerna warda helsadhe på torgen, och sittia
+fremst j Synagogonar, och sittia fremst j gästabodhen.</s></s><s><s>The
+vpfräta änkiors hws, förebärandes longa
+böner, the skola få thes större
+fördömelse.</s></s></para><para /><para><s><s>		XXI.</s></s><s><s>CAPITEL</s></s></para><para /><para><s><s>Och han sågh til, achtandes på huru
+the rijke ladhe sina gåffuor vthi Offerkistona.</s></s><s><s>Så fick han ock
+see ena fattigha änkio som ladhe ther twå skärffuer in.</s></s><s><s>Och han sadhe, Sannerligha sägher iagh idher, Thenna fattigha
+änkian ladhe meer in, än alle the andre, Ty the haffua alle
+inlagdt til Gudz offer, aff thet them til offuerlops är, Men hon haffuer
+aff sin fattigdom inlagdt alt thet hon
+åtte.</s></s></para><para /><para><s><s>	Och tå somlighe sadhe om Templet,
+at thet war prydt medh herligha stenar och klenodier, sadhe han, The daghar
+warda kommandes, at vthaff alt thet j seen, skal icke låtas steen
+vppå steen, then icke skal affbrutin warda.</s></s><s><s>Tå frågadhe
+the honom, och sadhe, Mestar, när skal thetta skee, och huad tekn
+är när thetta skee skal?</s></s><s><s>Sadhe han, Seer til, at j icke warden
+förförde, Ty monge skola komma vnder mitt nampn, och säya,
+Jagh äret, och tijdhen instundar, Fölier them icke effter.</s></s><s><s>Men
+när j hören örligh och vproor, warer icke
+förfäradhe, Ty sådant moste
+först #99</s></s></para><para /><para /><para><s><s>skee, Men thet är icke
+strax enden.</s></s><s><s>Och han sadhe til them, Folck skal resa sigh vp emoot folck, och
+Rike emoot Rike, och stoor jordbäffning skal warda mongastädz,
+och hunger och pestilentier, och förskreckelse, och stoor tekn skola
+skee vthaff himmelen.</s></s></para><para /><para><s><s>	Men för alt thetta,
+skola the tagha fatt på idher, och förfölia idher, och
+offuerantwarda idher in på sijn Rådh och j hechtelse, dragandes
+idher för Konungar och Förstar för mit nampn skul, Och
+thet skal idher widherfaras til een witnesbyrd.</s></s><s><s>Så håller thet
+fast vthi idhor hierta, at j ingen vmsorgh haffuen, huru j skolen
+förswara idher, Ty iagh skal giffua idher munn och wijsdom, ther alle
+the som settia sigh emot idher, icke skola kunna emoot säya, ey heller
+emoot stå.</s></s><s><s>J skolen ock offuerantwardas aff föräldrar, och
+aff brödher, frender och wener, och the skola dödha somligha aff
+idher.</s></s><s><s>Och j skolen warda hatadhe aff allom för mitt nampn skul, och itt
+håår aff idhart hoffuudh skal icke förgåås.</s></s><s><s>J skolen behålla idhra siälar genom idhart
+tolamoodh.</s></s></para><para /><para><s><s>	När j nu seen, at Jerusalem warder
+belagdt medh en häär, tå skolen j weta, at thes
+förödhelse är för handen.</s></s><s><s>The tå äro
+j Judea, the fly vp åt berghen, och the ther mitt inne äro, the
+gånge vth, och the som vthe j landet äro the gånge icke
+ther in.</s></s><s><s>Ty at tå äro hemdadaghanar, at fulbordas skal alt thet
+som scriffuit är.</s></s><s><s>Men wee them som haffuandes äro, och them som
+diya giffua j the daghar.</s></s><s><s>Ty stoor plågha warder på jordenne, och
+wredhe offuer thetta folck, och the skola falla för swerdz ägg,
+och fångne bortförde warda til allahanda folck.</s></s><s><s>Och Jerusalem
+skal förtrampat warda aff Hedhningom, til tess Hedhninganars tijdh
+fulkompnat warder.</s></s></para><para /><para><s><s>	Och skola skee tekn j solen, och j
+månan, och j stiernonar.</s></s><s><s>#100</s></s></para><para /><para /><para><s><s>Och
+på jordenne warder folckena ångest, och skola förtwiffla.</s></s><s><s>Och haffuet och wåghen skola mykit bulra.</s></s><s><s>Och menniskionar borttorkas
+för reddhogha skul, ther aff at the förbijdha thet som hela
+werldenne offuergå skal, Ty himmelens kraffter skola bäffua.</s></s><s><s>Och
+tå skola the få see menniskionnes Son komma j skyyn medh macht
+och stora herligheet.</s></s><s><s>Men tå thetta begynnar skee, seer vp, och lyffter
+idhor hoffuudh vp, Ty tå nalkas idhor
+förlosning.</s></s></para><para /><para><s><s>	Och han sadhe them een lijknelse,
+Seer på Fikonaträdh och all trää, när the
+knoppas, kunnen j tå see och weta aff idher sielff, at sommaren
+är när.</s></s><s><s>Altså ock j, när j seen thetta skee, skolen
+j weta, at Gudz Rike är när.</s></s><s><s>Sannerligha sägher iagh
+idher, Thetta slechtet skal icke förgåås, förr
+än thet alt skeedt är, Himmel och jord skola
+förgåås, men mijn ord skola icke
+förgåås.</s></s></para><para /><para><s><s>	Men wachter idher, at
+idhor hierta icke förtungat warda medh swalgh och dryckenskap, och medh
+thetta leffuernes vmsorgh, så at then daghen kommer idher
+förhastigt vppå.</s></s><s><s>Ty han warder kommande såsom een snara
+offuer alla som boo på jordenne.</s></s><s><s>Så waker nu altijdh och bedher,
+at j måghen vndfly alt thetta som komma skal, och stå för
+menniskionnes Son.</s></s></para><para /><para><s><s>	Och han lärde om daghen j
+Templet, Men om nattena gick han vth, och wistadhes på Olioberghet.</s></s><s><s>Och
+alt folcket war bittijdha vppe til honom j Templet, til at höra
+honom.</s></s></para><para /><para><s><s>		XXII.</s></s><s><s>CAPITEL</s></s></para><para /><para><s><s>Tå tilstundadhe
+Sötbrödzhöghtijden, then Påscha kallas.</s></s><s><s>Och the
+öffuerste Presterna och the Scrifftlärde sökte effter,
+huru the kunde dräpa honom.</s></s><s><s>Men the fruchtadhe för folcket.</s></s><s><s>Och
+gick Satanas in vthi Judam, som kalladhes Jscharioth, och war en aff the Tolff.</s></s><s><s>Han gick bortt, och taladhe medh the öffuersta Presterna och
+Förståndarenar, #101</s></s></para><para /><para /><para><s><s>huruledhes
+han skulle fly honom them j hender.</s></s><s><s>Och the gladdes, och woro offuer eens medh
+honom, at the skulle giffua honom penningar.</s></s><s><s>Och han loffuadhe them thet, och
+sökte effter läghligheet, at han måtte offuerantwarda
+honom them vthan buller.</s></s></para><para /><para><s><s>	Så kom tå
+Sötbrödzdaghen, på hwilkom man moste offra
+Påschalambet.</s></s><s><s>Tå sende han Petrum och Johannem, säyandes,
+Gåår, och beredher oss Påschalambet, at wij thet
+äte.</s></s><s><s>Tå sadhe the til honom, Hwar wilt tu, at wij skole beredha
+thet?</s></s><s><s>Sadhe han til them, Sij, när j kommen in j staden warder idher
+mötandes en man som bäär ena watukruko, Fölier
+honom j hwset ther han ingåår, och sägher Huszbondanom,
+Mestaren låter säya tigh, Huar är herberghet, ther iagh
+må äta Påschalambet medh mina
+Läriungar?</s></s></para><para /><para><s><s>	Och han skal wijsa idher en storan
+saal breeddan, redher ther til.</s></s><s><s>The gingo åstadh, och funno som han them
+sagdt hadhe, och reedde til Påschalambet.</s></s></para><para /><para><s><s>	Och
+tå tijdh war, satte han sigh nedh, och the tolff Apostlar medh honom.</s></s><s><s>Och han sadhe til them, Jagh haffuer medh mykin åstundan begärat
+äta thetta Påschalambet med idher, förr än iagh
+lijdher, Ty iagh sägher idher, at iagh här effter icke skal
+äta ther aff, til tess thet fulkompnat warder j Gudz Rike.</s></s><s><s>Och han toogh
+kalken, tackadhe och sadhe, Tagher honom, och skiffter idher emellan, Ty iagh
+sägher idher, at iagh icke skal dricka thet aff wijnträä
+kommet är, til tess Gudz Rike kommer.</s></s></para><para /><para><s><s>	Och han
+toogh brödhet, tackadhe, och brööt, och gaff them,
+säyandes, Thetta är min lekamen, som för idher giffuin
+warder, Thet görer til mijn åminnelse.</s></s><s><s>Sammalunda ock kalken
+effter natwarden, säyandes, Thetta är kalken, thet niya
+Testamentet j mitt blodh, som för idher vthgutet
+warder.</s></s><s><s>#102</s></s></para><para /><para /><para><s><s>	Doch sij, mins
+förrädhares hand är medh migh på boordet, och
+menniskionnes Son warder gångandes effter som thet beslutit är,
+Doch wee then menniskio, aff hwilko han warder
+förrådder.</s></s></para><para /><para><s><s>	Och the begynte
+frågha emellan sigh, hwilken then war aff them som thet göra
+skulle.</s></s></para><para /><para><s><s>	Så wardt ock een trätta emellan
+them, hwilken thera skulle synas wara ypperst.</s></s><s><s>Tå sadhe han til them,
+Werldzlighe Konungar regera, och the som machtena haffua offuer them, kallas
+nådhighe Herrar.</s></s><s><s>Men j icke så, vthan then som störst
+är jbland idher, han skal wara som then yngste, Och then ther ypperst
+är, han ware såsom en tienare, Ty hwilken thera är
+större, then som sitter, eller then som tienar?</s></s><s><s>Är icke han som
+sitter?</s></s><s><s>Men iagh är mitt jbland idher, såsom then som tienar.</s></s><s><s>Men
+j ären the samma som medh migh bliffuit haffuen vthi mijn frestelse.</s></s><s><s>Och
+iagh wil bestella idher Riket, såsom min Fadher haffuer thet bestelt
+migh, at j skolen äta och dricka offuer mitt boord j mitt Rike, och
+skolen sittia på stolar, och döma tolff Jsraels
+slechter.</s></s></para><para /><para><s><s>	Och Herren sadhe, Simon, Simon, sij,
+Satanas haffuer begärat idher, at han skulle sella idher såsom
+hwete.</s></s><s><s>Men iagh haffuer bidhit för tigh, at tijn troo skal icke om intet
+warda.</s></s><s><s>Och när tu nu vmwender äst, så styrck tina
+brödher.</s></s><s><s>Tå sadhe han til honom, Herre, iagh är
+redhoboghen gå medh tigh, bådhe j hechtelse och j dödhen.</s></s><s><s>Tå sadhe han, Jagh sägher tigh Petre, J dagh skal icke hanen
+gala, förr än tu tree resor nekar at kenna
+migh.</s></s></para><para /><para><s><s>	Och han sadhe til them, När iagh sende
+idher vthan säck, vthan skreppo, och vthan skoor, haffuer idher
+någhot fattas?</s></s><s><s>Tå sadhe the, Jntet.</s></s><s><s>Tå sadhe han til them,
+Men nu hoo som säck haffuer, han taghe honom, sammalunda ock skreppo,
+och then ther icke haffuer, han sälie sin kiortel och köpe swerd.</s></s><s><s>Ty iagh sägher idher, at thet än nu moste fulbordas på
+migh som scriffuit är, Han
+är #103</s></s></para><para /><para /><para><s><s>reknat jbland
+ogerningsmän, Ty hwadh som scriffuit är om migh, thet haffuer en
+enda.</s></s><s><s>Tå sadhe the, Herre, sij, här äro tw swerd.</s></s><s><s>Tå sadhe han til them, Thet är
+noogh.</s></s></para><para /><para><s><s>	Och han gick vth som hans sedher war til
+Olioberghet, och hans Läriungar folgde honom til thet rwmet.</s></s><s><s>Och
+tå han kom tijt, sadhe han til them, Bedher, at j icke kommen vthi
+frestelse.</s></s><s><s>Och han gick jfrå them widh pass itt steenkast, och
+föll nedh på sijn knä, och badh säyandes, Fadher,
+är så tin wilie, tagh thenna drycken jfrå migh, Doch
+likwel skee icke min wilie, vthan tin. Och syntes honom Ängelen aff
+himmelen, och styrckte honom.</s></s><s><s>Och han wardt betaghen aff een mechta stoor
+ångest, och badh lenge.</s></s><s><s>Och hans swett war såsom blodzdropar,
+löpandes nedh på jorden.</s></s><s><s>Och tå han vpstoodh aff
+bönenne, och kom til sina Läriungar, fann han them soffuande aff
+bedröffuelse, och sadhe til them, Hwj soffuen j?</s></s><s><s>Ståår vp
+och bedher, at j icke kommen vthi frestelse.</s></s></para><para /><para><s><s>	Widh han
+än nu taladhe, sij, en hoop medh folck, och en vthaff the Tolff som heet
+Judas, gick för them, och trädde fram til Jesum, til at kyssa
+honom.</s></s><s><s>Men Jesus sadhe til honom, Juda, förråder tu menniskionnes
+Son medh kyssande?</s></s><s><s>Tå sågho the som när woro, hwadh
+på ferde war, och sadhe til honom, Herre, skole wij tagha til swerdz?</s></s><s><s>Och en aff them sloogh öffuersta Prestens tienare, och högg aff
+hans höghra öra.</s></s><s><s>Tå swaradhe Jesus, och sadhe,
+Läter kommat här til, och så toogh han på hans
+öra och heladhe honom.</s></s></para><para /><para><s><s>	Och Jesus sadhe til the
+öffuerste Presterna, och
+Förståndarena #104</s></s></para><para /><para /><para><s><s>j Templet, och
+til the Äldsta som til honom kompne woro, Såsom til en
+röffuare ären j vthgångne medh swerd och medh staffwrar,
+Ändoch iagh haffuer dagligha warit med idher j Templet, och j komen
+idhra hender intet widh migh, Men thetta är idhar stund och
+mörkersens macht.</s></s><s><s>Så gripo the honom, och leedden, och hadhen in
+j öffuersta Prestens hws.</s></s><s><s>Men Petrus folgde longt
+effter.</s></s></para><para /><para><s><s>	Tå giorde the en eeld mitt j Palatzet,
+och såto ther widh, Och Petrus satte sigh jbland them.</s></s><s><s>Tå een
+tienistequinna fick see honom sittiandes widh liwset, sågh hon på
+honom, och sadhe, Thenne war ock medh honom.</s></s><s><s>Tå nekadhe han honom, och
+sadhe, Quinna, iagh kenner honom intet.</s></s><s><s>Och litet effter, sågh honom en
+annar, och sadhe, Tu äst ock aff them.</s></s><s><s>Men Petrus sadhe, Menniskia, iagh
+är thet icke.</s></s><s><s>Och litet ther effter widh en tijma, kom en annar, och
+sannadhe thet samma, säyandes, Sannerligha war han ock medh honom, Ty
+han är ock en Galileesk man.</s></s><s><s>Och Petrus sadhe, Menniskia, iagh weet icke
+hwadh tu sägher.</s></s><s><s>Och j thet samma widh han än nu taladhe, gool
+hanen.</s></s><s><s>Och Herren wende sigh om, och sågh på Petrum.</s></s><s><s>Och
+tå begynte Petrus tenckia på Herrans ord, huru han honom sagdt
+hadhe, Förr är hanen haffuer galit, skalt tu tree resor neka
+migh.</s></s><s><s>Och Petrus gick vth, och greet bitterligha.</s></s></para><para /><para><s><s>	Och
+the män som höllo Jesum, begabbadhe honom, och slogho honom,
+bundo för hans öghon, slogho hans ansichte, och frågadhe
+honom, säyandes, Spå, Hoo är then som tigh sloogh?</s></s><s><s>Och
+mykin annor förhädelse sadhe the til
+honom.</s></s></para><para /><para><s><s>	Och som thet dagadhes, församladhe sigh
+the Äldste j folcket, och the öffuerste Presterna, och the
+Scrifftlärde, och hadhe honom in för sitt Rådh,
+säyandes, Ästu Christus, sägh thet oss?</s></s><s><s>Och han sadhe til
+them, Om iagh idher thet sägher, så troo j thet intet,
+Fråghar iagh ock, så #105</s></s></para><para /><para /><para><s><s>swaren j
+intet, ey heller sleppen j migh.</s></s><s><s>Här effter skal menniskionnes Son
+sittia på Gudz krafftz höghra hand.</s></s><s><s>Tå sadhe the alle,
+Så ästu jw Gudz Son?</s></s><s><s>Sadhe han, J säyen at iagh så
+är.</s></s><s><s>Tå sadhe the, Hwar effter begärom wij än nu
+witnesbyrd?</s></s><s><s>Wij haffue siellfue hördt thet aff hans
+munn.</s></s></para><para /><para><s><s>		XXIII.</s></s><s><s>CAPITEL</s></s></para><para /><para><s><s>Tå stoodh vp hele hopen aff them, och leedde
+honom bortt til Pilatum, och begynte til at klagha på honom,
+säyandes, Thenna haffue wij beslaghet ther med, at han förwender
+folcket, och förbiudher giffua Keysarenom skatt, och sägher sigh
+wara Christum en Konung.</s></s><s><s>Och Pilatus frågadhe honom, säyandes,
+Ästu Juda Konung?</s></s><s><s>Tå swaradhe han honom, och sadhe, Tu
+sägher thet.</s></s><s><s>Tå sadhe Pilatus til öffuersta Presterna, och
+til folcket, Jagh finner ingen brott medh thenna mannen.</s></s><s><s>Men the höllo
+sitt taal fram, säyandes, Han gör vproor jbland folcket,
+lärandes offuer alt Judeska landet, begynnandes j Galileen, och sedhan
+alt hijt.</s></s></para><para /><para><s><s>	Tå Pilatus hörde nempnas
+Galileen, frågadhe han, om han war en Galileesk man.</s></s><s><s>Och tå han
+förnam, at han war vnder Herodis welle, försende han honom till
+Herodem, Ty han war ock j Jerusalem på then tijdhen.</s></s><s><s>Tå Herodes
+fick see Jesum, wardt han ganska gladh, Ty han hadhe j long tijdh hafft
+åstundan til at see honom, Ty han hadhe mykit hördt om honom, och
+hoppadhes få see någhot tekn göras aff honom.</s></s><s><s>Och han
+frågadhe honom om mong stycker, Men han swaradhe honom intet.</s></s><s><s>Stodho ock
+öffuerste Presterna och the Scrifftlärde, och klagadhe
+swårligha på honom.</s></s><s><s>Men Herodes medh sitt folck
+förachtadhe honom, och begabbadhe honom, och klädde honom vthi
+itt hwijtt klädhe, och sende honom igen til Pilatum.</s></s><s><s>Och Pilatus och
+Herodes wordo wener emellan #106</s></s></para><para /><para /><para><s><s>sigh på
+samma dagh, Ty emellan them hadhe tilförenna warit
+owenskap.</s></s></para><para /><para><s><s>	Tå kalladhe Pilatus tilhopa the
+öffuersta Presterna och Förståndarenar, och folcket, och
+sadhe til them, J haffuen fått migh thenna mannen, såsom then
+ther haffuer förwendt folcket, Och sij, iagh haffuer
+förhördt honom j idhor närwaru, och finner doch ingen aff
+the ogerningar medh thenna mannen, ther j beklaghe honom före.</s></s><s><s>Och ey
+heller Herodes, Ty iagh försende idher til honom, Och sij, man kunde
+intet komma på honom thet dödhen werdt war, Therföre wil
+iagh nepsan och sleppan.</s></s><s><s>Ty han skulle om Högtijdhena giffua them en
+löös.</s></s></para><para /><para><s><s>	Tå ropadhe hele hopen och
+sadhe, Tagh thenna aff wäghen, och giff oss Barrabam löös.</s></s><s><s>Then ther lågh j fängelse för itt vplop skul, som j
+stadhen skeedt war, och för itt mandråp.</s></s><s><s>Åter taladhe
+Pilatus til them, och wille giffua Jesum löös.</s></s><s><s>Tå ropadhe
+the, och sadhe, Korszfest, korszfest honom.</s></s><s><s>Tå sadhe han tridie resona
+til them, Hwadh haffuer han tå illa giordt?</s></s><s><s>Jagh finner ingen
+dödzsaak medh honom, Therföre wil iagh nepsan och giffuan
+löös.</s></s><s><s>Men the ladhe åt med stoort roop, och
+begäradhe, at han skulle korszfestas.</s></s><s><s>Och theras, och the
+öffuersta Presternars roop, wardt jw meer och
+meer.</s></s></para><para /><para><s><s>	Tå dömde Pilatus, at så
+skee skulle som the begäradhe, och gaff them löös then j
+fängelset satt war för vplopet och dråpet skul, then the
+begärat hadhe.</s></s><s><s>Men Jesum offuerantwardadhe han theras wilia.</s></s><s><s>Och
+tå the leedde honom vth, fingo the en fatt som heet Simon aff Cyrene,
+then ther kom aff markenne, honom ladhe the korszet vppå, at han skulle
+bära thet effter Jesum.</s></s></para><para /><para><s><s>	Men honom folgde en
+stoor hoop folck och quinnor, the ther greto och ömkadhe sigh offuer
+honom.</s></s><s><s>Tå wende sigh Jesus om til them, och sadhe, Jerusalems
+döttrar, gråter icke offuer migh, vthan gråter offuer
+idher sielffua, och offuer idhor barn.</s></s><s><s>Ty sij, the daghar warda
+kommandes, #107</s></s></para><para /><para /><para><s><s>j hwilkom the skola säya,
+Saligha äro the ofruchtsama, och the quedher som intet födt
+haffua, och the spenar som ingom hadhe diya giffuit.</s></s><s><s>Tå skola the
+begynna säya til berghen, Faller offuer oss, Och til höghanar,
+skyler oss.</s></s><s><s>Ty är thetta skeedt på thet ferska
+träädh, Hwadh skal tå skee på thet
+torra?</s></s></para><para /><para><s><s>	Leeddes ther ock vth twå andra
+ogerningsmän medh honom til at afflijffuas.</s></s><s><s>Och tå the komo til
+thet rwmet, som kallas Hoffuudskallaplatzen, ther korszfeste the honom, och the
+ogerningsmän medh honom, then ena på then höghro sidhon,
+then andra på then wenstro.</s></s><s><s>Och sadhe Jesus, Fadher,
+förlåt them thet, Ty the weta icke hwadh the göra.</s></s><s><s>Och the
+bytte hans klädher, kastandes lott på them.</s></s><s><s>Och folcket stoodh
+och sågh vppå.</s></s></para><para /><para><s><s>	Och the Öffuerste
+samt medh them, begabbadhe honom, säyandes, Androm haffuer han holpet,
+hielpe sigh nu siellfuom, om han är Christus then Gudz uthkoradhe.</s></s><s><s>Begabbadhe ock honom krijgsknechterna, och gingo til och reckte ätickio
+til honom, säyandes, Ästu Juda Konung, så hielp tigh
+sielff.</s></s><s><s>War ock een offuerscrifft scriffuin offuer honom medh Grekiska,
+Latiniska och Ebreiska bookstaffuer, Thenne är Juda
+Konung.</s></s></para><para /><para><s><s>	Men en aff the ogerningsmän som
+vphengde woro, hädde honom, och sadhe, Ästu Christus, så
+hielp tigh sielff och oss.</s></s><s><s>Tå swaradhe then andre, straffadhe honom, och
+sadhe, Fruchtar tu icke heller Gudh, tu som äst j samma
+fördömelsen?</s></s><s><s>Och är thet wel rett medh oss, Ty wij lijdhe
+thet wåra gerningar werda äro, Men thenne haffuer intet ondt
+giordt.</s></s><s><s>Och sadhe han til Jesum, Herre, tenck på migh tå tu
+kommer vthi titt Rike.</s></s><s><s>Och sadhe Jesus til honom, Sannerligha sägher
+iagh tigh, Jdagh skalt tu wara medh migh j
+Paradijs.</s></s></para><para /><para><s><s>	Och war thetta widh siette tijman, och itt
+mörker wardt offuer hela landet, alt in til niyonde tijman, Och solen
+miste sitt sken, och förloten j Templet rempnadhe
+mitt #108</s></s></para><para /><para /><para><s><s>j tw.</s></s><s><s>Och Jesus ropadhe medh
+högha röst, och sadhe, Fadher, Jagh befaler min anda j tina
+hender.</s></s><s><s>Och tå han hadhe thet sagdt, gaff han vp andan.</s></s><s><s>Tå
+Höffuitzmannen sågh hwadh ther skeedde, prijsadhe han Gudh, och
+sadhe, Sannerligha war thenne en retferdigh man.</s></s><s><s>Och alt folcket som tijt
+gånget war at see här på, tå the seedt hadhe huad
+ther skeedde, slogho the sigh för sijn bryst, och gingo heem igen.</s></s><s><s>Men
+alle hans kende wener, och quinnor, som honom folgt hadhe aff Galileen, stodho
+longt jfrå och sågho ther
+på.</s></s></para><para /><para><s><s>	Och sij, en man benemd Joseph en
+Rådherre, then war en godh och retferdigh man, och hadhe icke samtyckt
+theras rådh och gerning, och han war bördigh aff then Judanars
+stadh Arimathia, then ther ock åstundadhe effter Gudz Rike, Han gick til
+Pilatum och beeddes Jesu lekamen.</s></s><s><s>Och toogh honom nedh, swepte honom vthi itt
+linklädhe, och ladhen nedh j ena graff, som vthuggen war vthi steen,
+ther än tå ingen hadhe vthi lagd warit.</s></s><s><s>Och thet war
+Tilredhelsedaghen, och Sabbathen begynte gå vppå.</s></s><s><s>Och folgde ther
+någhra quinnor effter, som medh honom kompna woro aff Galileen, och
+besågho graffuena, och huruledes hans lekamen lagd war.</s></s><s><s>Och gingo sedhan
+tilbaka igen, och tilreedde welluchtandes krydder och smörielse.</s></s><s><s>Men om
+Sabbathen woro the stilla, som budhit war j
+Laghen.</s></s></para><para /><para><s><s>		XXIIII.</s></s><s><s>CAPITEL</s></s></para><para /><para><s><s>På then ena Sabbathen, ganska bittijdha om
+morghonen, komo the til graffuena, bärandes the welluchtande krydder som
+the tilreedt hadhe, och någhra medh them.</s></s><s><s>Så funno the stenen
+affweltan jfrå graffuenne, och gingo in, och funno intet Herrans Jesu
+lekamen.</s></s><s><s>Och thet begaff sigh, at tå the ther om bekymradha woro, Sij,
+så stodho när them twå män vthi skinande
+klädher.</s></s><s><s>Tå wordo the förfäradha, och slogho sijn
+ansichte nedher åt
+jordenne.</s></s><s><s>#109</s></s></para><para /><para /><para><s><s>Tå sadhe the til them, Hwj
+söken j then leffuande jbland the dödha?</s></s><s><s>Han är icke
+här, han är vpstånden.</s></s><s><s>Kommer jhogh huru han sadhe idher,
+tå han än nu war j Galileen, säyandes, Menniskionnes Son
+moste offuerantwardas j syndigha menniskiors hender, och korszfestas, och
+vpstå på tridie daghen.</s></s><s><s>Och så begynte the komma jhogh
+hans ord, och gingo tilbaka jfrå graffuenne, och bodadhe thetta alt them
+Elloffua, och allom them androm.</s></s></para><para /><para><s><s>	Och thet war Maria
+Magdalene, och Johanna, och Maria Jacobi, och andra som medh them woro, the
+thetta sadhe til Apostlanar.</s></s><s><s>Och theras ord syntes för them såsom
+galenskap, och the troodde them intet.</s></s><s><s>Men Petrus stoodh vp, och lop til
+graffuena, Och tå han lutadhe sigh ther in, fick han see
+linklädhen liggiandes allena, och gick sina ferde, förundrandes
+widh sigh sielff hwadh ther skeedt war.</s></s></para><para /><para><s><s>	Och sij,
+twå aff them gingo på samma daghen til en byy, som lågh
+widh sextiyo stadier wäghs jfrå Jerusalem, benemd Emaus, och the
+taladhe hwar medh annan, om alt thetta som skeedt war.</s></s><s><s>Och hende sigh,
+tå the taladhes widh och befrågadhe hwar annan, nalkadhes ock
+Jesus, och gick medh them.</s></s><s><s>Men theras öghon woro
+förhållen, at the icke kende honom.</s></s><s><s>Tå sadhe han til them,
+Hwadh är thet för taal, som j haffuen idher emellan, widh j
+gåån och ären bedröffuadhe?</s></s><s><s>Tå swaradhe en
+thera som heet Cleophas, och sadhe til honom, Ästu allena jbland
+fremmande män j Jerusalem, som icke weet hwadh ther skeedt är j
+thessa daghar?</s></s><s><s>Sadhe han til them, Hwadh?</s></s><s><s>Sadhe the til honom, Om Jesu
+Nazareno, som war en Prophet, mechtigh bådhe j gerningar och ord,
+för Gudhi och allo folckena, Och huruledes the öffuerste
+Presterna och wåre Förmän offuerantwardadhe honom j
+dödzens fördömelse, och korszfeste honom.</s></s><s><s>Men wij
+hoppadhes, #110</s></s></para><para /><para /><para><s><s>at han skulle wara then, som
+förlossa skulle Jsrael.</s></s><s><s>Och offuer alt thetta är nu tridie
+daghen, sedhan thet skeedde.</s></s><s><s>Och någhra quinnor aff wåra, haffua
+förskreckt oss, the ther bittijdha om morghonen hadhe kommet til
+graffuena, och tå the icke funno hans lekamen, kommo the och sadhe, at
+the ock Ängla syyn seedt hadhe, huilke sagdt hadhe, at han leffuer.</s></s><s><s>Och
+någhre aff them som medh oss woro, gingo bortt til graffuen, och funno
+såsom quinnonar sagdt hadhe, Men honom funno the
+intet.</s></s></para><para /><para><s><s>	Tå sadhe han til them, O j galne och
+seenhiertadhe til at troo, vthi alt thet som Propheterna sagdt haffua.</s></s><s><s>Skulle
+icke Christus sådant lijdha, och sedhan ingå vthi sijn
+herligheet?</s></s><s><s>Och han begynte på Mose och alla Propheterna, och giorde
+vthtydhelse för them j alla Scriffter, som woro om honom.</s></s><s><s>Och the
+begynte nalkas in til byyn tijt the wille, och han lätz som han wille
+gå lenger fram.</s></s><s><s>Och the nödhgadhe honom, säyandes, Bliff
+när oss, ty thet lijdher åt afftonen, och daghen är
+förlijdhen.</s></s><s><s>Och så gick han in til at bliffua när
+them.</s></s></para><para /><para><s><s>	Och thet begaff sigh, tå han satt til
+boordz medh them, toogh han brödhet, tackadhe, brööt thet,
+och fick them.</s></s><s><s>Och theras öghon öpnadhes, at the kende honom.</s></s><s><s>Och
+så förswan han vthu theras åsyyn.</s></s><s><s>Och the sadhe emellan
+sigh, War icke wårt hierta brinnande j oss, tå han taladhe medh
+oss j wäghen, och vthtydde oss scriffterna?</s></s><s><s>Och j samma stundenne stodho
+the vp, och gingo til Jerusalem igen, och funno församladha the
+Elloffua, och the som medh them woro, the ther sadhe, Herren är
+sannerligha vpstånden, och är synter aff Simone.</s></s><s><s>Och the
+förtalde hwadh skeedt war j wäghen, och huru han wardt kend aff
+them, j thet han brööt
+brödhet.</s></s></para><para /><para><s><s>	Som the nu här om taladhe,
+stoodh Jesus sielff mitt jbland them, och sadhe til them, Fridh ware idher.</s></s><s><s>Tå wordo the förfäradhe och fruchtadhe, menandes, at the
+sågho en Anda.</s></s><s><s>Tå sadhe han til them, Hwj ären j
+förfäradhe, #111</s></s></para><para /><para /><para><s><s>och hwj vpstigha
+sådana tanckar vthi idhor hierta?</s></s><s><s>Seer mina hender och mina
+fötter, at thet är iagh sielff, Tagher på migh och
+skodher, Ty Anden haffuer icke kött och been, såsom j seen migh
+haffua.</s></s><s><s>Och tå han hadhe thet sagdt, wijste han them hender och
+fötter.</s></s><s><s>Och som the än nu icke troodde för glädhi
+skul, vthan förundradhe sigh, sadhe han til them, Haffuen j här
+någhot at äta?</s></s><s><s>Tå fingo the honom fram itt stycke steekt
+fisk, och någhot aff een hannogskako.</s></s><s><s>Och han toogh thet, och
+ååt ther aff j theras åsyyn.</s></s></para><para /><para><s><s>	Och
+han sadhe til them, Thetta äro the ord som iagh sadhe til idher,
+tå iagh än nu war medh idher, at alt moste fulbordas som
+scriffuit är j Mosi Lagh, och j Propheterna, och j Psalmarna om migh.</s></s><s><s>Tå öpnadhe han theras sinne, at the förstodho scriffterna,
+och sadhe til them, Så är thet scriffuit, och så moste
+Christus lijdha, och tridie daghen vpstå jfrå the dödha,
+och predicas j hans nampn bätring och syndernas förlåtelse
+jbland all folck, begynnande på Jerusalem.</s></s><s><s>Och j ären wittne til
+alt thetta.</s></s><s><s>Och sij, iagh wil senda offuer idher mins Fadhers löffte.</s></s><s><s>Men j skolen bliffua j Jerusalem, til tess j warden beklädde medh krafft
+aff höghdenne.</s></s><s><s>Och han hadhe them vth til Bethanien, och vplyffte sina
+hender, och welsignadhe them.</s></s><s><s>Och skeedde, at tå han them welsignat
+hadhe, skildes han jfrå them, och vpfoor j himmelen.</s></s><s><s>Och the
+tilbådho honom, och gingo sedhan in j Jerusalem igen medh stora
+glädhi, och woro altijdh j Templet, prijsadhe och loffuadhe Gudh,
+Amen.</s></s></para><para /><para><s><s>		Enden på S. Luce
+Euangelium.</s></s></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Standardabsatz" nest-level="0" right-indent="0.00" style-number="s0004" tabs="left:155.95;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times New Roman" language="German" left-indent="0.00" name="Normal" nest-level="0" right-indent="0.00" style-number="s0010" widow-control="true"><para /></paragraph-definition></section></body></doc>

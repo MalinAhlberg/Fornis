@@ -34,7 +34,7 @@ def addLabel(tagUri,toDir):
 # and then a list of elements to add
 # Eg. "file.xml | year=2012 | title=Rubriken" as input
 def readAndAddInfo(uris):
-   toDir = os.path.join('..','titled')
+   toDir = 'toBeP' #os.path.join('..','titled')
    for uri in uris:
       text  = open(uri,'r').readlines()
       for line in text:
@@ -55,7 +55,8 @@ def addInfo(line,toDir):
       tree = etree.fromstring(fil)
       docinfo = tree.find(prefix+'preamble').find(prefix+'doc-information')
       addTag(xs[1:],docinfo)
-      open(os.path.join(toDir,xs[0]),'w').write(etree.tostring(tree))
+      filename = os.path.basename(xs[0])
+      open(os.path.join(toDir,filename),'w').write(etree.tostring(tree))
 
 # saves the info (a list of keys and values: ['key1=val1','key2=val2']
 # to the tree. Updates the tags if the already exists, otherwise adds them

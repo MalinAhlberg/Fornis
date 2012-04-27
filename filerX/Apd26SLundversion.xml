@@ -107,8 +107,8 @@ align="just" font-size="16.00" font-style="Tms Rmn" language="German"
 left-indent="0.00" line-spacing="-18.00" right-indent="0.00"
 widow-control="true">
 <para><inline font-style="Times"
-font-size="12.00">[</inline><inline font-style="Times"
-font-size="12.00">&#x2021;&#x2021;
+font-size="12.00"></inline><inline font-style="Times"
+font-size="12.00">[&#x2021;&#x2021;
 69a]</inline></para>
 <para><inline font-style="Times" font-size="12.00">Jesus.
 F&#x00F6;rspr&#x00E5;k vthi Sancti Joannis
@@ -607,7 +607,7 @@ rube</inline><inline italics="true" font-style="Times">n</inline><inline
 font-style="Times"> slecte tolff tusend teeknadhe, Vthaff Gad slecte tolff
 tusent teeknadhe, Vthaff Aser slecte tolff tusent
 teeknadhe,</inline></para><para/><para><inline
-font-style="Times">[</inline><inline font-style="Times">&#x2021;&#x2021;
+font-style="Times"></inline><inline font-style="Times">[&#x2021;&#x2021;
 72b]</inline></para><para>Vthaff Neptalims slecte tolff tusend teeknadhe,
 Vthaff Manasse slecte tolff tusent teeknadhe, Vthaff Simeo<inline
 italics="true">n</inline> slecte tolff tusent teeknadhe, Vthaff Leui slecte

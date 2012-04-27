@@ -1,0 +1,769 @@
+<doc><preamble><rtf-definition code-page="mac_roman" default-font="DTI" platform="Macintosh" /><font-table><font-in-table name="Times New Roman" num="0" /><font-in-table name="Symbol" num="3" /><font-in-table name="Times" num="4" /><font-in-table name="DTI" num="20" /></font-table><color-table><color-in-table num="1" value="#000000" /><color-in-table num="2" value="#0000FF" /><color-in-table num="3" value="#00FFFF" /><color-in-table num="4" value="#00FF00" /><color-in-table num="5" value="#FF00FF" /><color-in-table num="6" value="#FF0000" /><color-in-table num="7" value="#FFFF00" /><color-in-table num="8" value="#FFFFFF" /><color-in-table num="9" value="#000080" /><color-in-table num="10" value="#008080" /><color-in-table num="11" value="#008000" /><color-in-table num="12" value="#800080" /><color-in-table num="13" value="#800000" /><color-in-table num="14" value="#808000" /><color-in-table num="15" value="#808080" /><color-in-table num="16" value="#C0C0C0" /></color-table><style-table><paragraph-styles><paragraph-style-in-table adjust-right="true" align="cent" based-on-style="Normal" font-size="13.00" font-style="DTI" italics="true" keep-with-next="true" language="Swedish" name="heading 1" nest-level="0" next-style="Normal" num="1" widow-control="true" /><paragraph-style-in-table adjust-right="true" font-size="10.00" font-style="DTI" language="Swedish" name="Normal" nest-level="0" next-style="Normal" num="0" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="just" based-on-style="Normal" first-line-indent="35.40" font-style="DTI" keep-with-next="true" language="Swedish" line-spacing="18.00" name="heading 3" nest-level="0" next-style="Normal" num="3" widow-control="true" /><paragraph-style-in-table adjust-right="true" based-on-style="Normal" font-style="DTI" keep-with-next="true" language="Swedish" name="heading 2" nest-level="0" next-style="Normal" num="2" widow-control="true" /><paragraph-style-in-table adjust-right="true" based-on-style="Normal" font-style="Times" language="English British" name="header" nest-level="0" next-style="header" num="15" tabs="center:226.80;right:453.60;" widow-control="true" /></paragraph-styles><character-styles><character-style-in-table name="Default Paragraph Font" num="10" /><character-style-in-table based-on-style="Default Paragraph Font" bold="true" name="Strong" num="16" /></character-styles><styles-in-body><paragraph-style-in-body adjust-right="true" font-size="10.00" font-style="DTI" language="Swedish" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0001" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true" /><paragraph-style-in-body adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true" /><paragraph-style-in-body adjust-right="true" font-style="DTI" keep-with-next="true" language="Swedish" line-spacing="18.00" name="heading 2" nest-level="0" style-number="s0004" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-size="10.00" font-style="DTI" language="Swedish" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0005" widow-control="true" /></styles-in-body></style-table><list-table><list-in-table list-table-id="216354957" list-template-id="-859565850"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="20" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="618611908" list-template-id="68485137"><level-in-table first-line-indent="-18.00" left-indent="18.00" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="1" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="692802593" list-template-id="-1632840430"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="25" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="1018003364" list-template-id="990532838"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="95" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="1151865918" list-template-id="1695424792"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="70" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="1334719863" list-template-id="-1621970180"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="40" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="1356273402" list-template-id="942967194"><level-in-table first-line-indent="-35.40" left-indent="35.40" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="5" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="1871912560" list-template-id="-419774810"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="15" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table></list-table><override-table><override-list list-id="1" list-table-id="618611908" /><override-list list-id="2" list-table-id="1356273402" /><override-list list-id="3" list-table-id="692802593" /><override-list list-id="4" list-table-id="1334719863" /><override-list list-id="5" list-table-id="1871912560" /><override-list list-id="6" list-table-id="1018003364" /><override-list list-id="7" list-table-id="1151865918" /><override-list list-id="8" list-table-id="216354957" /></override-table><doc-information><title>Anna
+Vasas brev</title><year>"1519-1612"</year><author>Mariann Saurow</author><operator>Lars Olof
+Delsing</operator><creation-time day="2" minute="33" month="1" year="2004" /><revision-time day="2" month="1" year="2004" /><editing-time editing-time="3" /><number-of-pages number-of-pages="16" /><number-of-words number-of-words="7675" /><number-of-characters number-of-characters="32235" /></doc-information><page-definition gutter="0" margin-bottom="70.85" margin-left="70.85" margin-right="70.85" margin-top="70.85" paper-height="841.90" paper-width="595.30" /></preamble><body><section level="0" num="1" num-in-level="1" type="rtf-native"><paragraph-definition adjust-right="true" font-size="10.00" font-style="DTI" language="Swedish" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0001" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman" /></para><para /><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev
+1</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Wår nådige helsen
+besÿnnerlig ÿnnest och nådige benägenhet med Gud till
+förende.</s><s>Wij wele eder käre,</s></inline><inline font-size="12.00" font-style="Times New Roman" subscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s> frencke fröken Sigrid, nådeligen icke
+förhålle, att den edle welborne, her Christoffer Skenck, Frijherre
+till Tautenborg hafuer flijteligen begäred af oß, att wij wille
+wittne till hans vnge Sons och lifz erfwinges döpellse som Gud
+Alzmechtig honom med sin elskelige käre hwsfru gifuit och
+förlänt hafuer och hielpe honom till Christendomen, Så efter
+ded wij icke kunne på denne tid ware der tillstedes och sielfue
+göre welb[or]ne her Christoffer Skenckz begären fÿllest,
+Är wår nådige begären att i på wåre wegne wele
+förmelle förelderne mÿken lÿcke till samme deres unge
+lifzerfuinge att han motte opwexe Gud till ähre och dem till hugnad och
+gledie, och seden udi lijke motto på wåre wegne hielpe barned till
+döpellsen och Cristendomen.</s><s>Wij äre eder igen med all ÿnnest
+och nåde benegne, Gud Alzmechtig eder befa</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>lendes.</s><s>Datum Stockholm denn
+12 Martij Anno Domini
+1591</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para /><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev
+2</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" keep-with-next="true" language="Swedish" line-spacing="18.00" name="heading 2" nest-level="0" style-number="s0004" widow-control="true"><para><inline font-style="Times New Roman"><s>Wår
+ÿnesth och nådige benegenhet alltidh till förende.</s><s>Kere
+dåter, iagh kan er icke för hålle ath gwdh allzmectig hawer
+så nådigth och well för låßedh
+dråningen</s></inline><inline font-style="Times New Roman" superscript="true"> </inline><inline font-style="Times New Roman"><s>och gewedh
+hanß maiestedh en stor lång dåter.</s><s>Hanß allzmegtihet
+heneß maiestedh och mith lille grÿn enw widere hiellpe och
+stÿrcke sith namn till ere och oß alle till hwgnedh.</s><s>Kere siridh,
+hwrw gladh tro i ath iagh er såm nw får någedh giöre
+åm dagen och lecke medh den lille.</s><s>Di ha banedh meg rede för dedh
+iagh taller så mÿcked medh hene, men iag för swarer meg dedh
+beste iagh kan ath iag måste giöre kwnskap medh hene.</s><s>Hon er
+så nÿllige kåmen, men dedh er dedh werste hon swarer intedh
+wten wrider sin lille mwn och sticker wth twgen. </s></inline><inline font-style="Times New Roman" superscript="true"> </inline><inline font-style="Times New Roman"><s>Der aff kan iagh fwlle tencke ath hon
+förstår intedh hwadh iagh seger, och har waredh i storth siellff
+swål her till.</s><s>Hon har reth inge iåmfrw later på segh och
+leter manfållcken se segh nacken och anedh sådenth mer såm
+för långth wore ath skriwe .</s><s>Kere siridh, så kan iagh er icke
+för hålle ath dråningen har gewedh meg någed ath
+giöre åth segh, tw kårnet och en barne linde, och skwlle dedh
+fwlle ware medh dedh snareste giorth och megh omögelligedh ath
+giöre så hastigt ferdigt en samen.</s><s>Så har iagh och någre
+kårneth såm iag wille gerne hawe för megh siellff såm i
+fwlle wete.</s><s>Så ber iagh er ath i wille skÿnde er medh dedh snareste
+hith och hiellpe meg arbete, för iagh har ingen såm kan och
+elliesth tÿcker megh i hawe waredh så lenge bårte, och seger
+er sÿster frw ebbe ath iag er intedh well till fredz medh hene ath hon
+har intedh hålledh ordh.</s><s>Hon låwede megh ath i skwlle intedh ware
+lenger bårte en i fiorten dager, och dedh er 5 wecker seden i droge
+bårt.</s><s>Iag skriwer dråningen och till der åm åch ber
+hanß konglighet will nw intedh hålle er länger åpe
+så och åm || andre ere sacker så ath man tör intedh
+frwchte för kongens onåde.</s><s>Iagh håpeß hanß
+konglighet later er fwlle se mith breff.</s><s>I wille och så lage ath ner
+dedh er lesedh ath dedh måte bliwe åp brenth.</s><s>Nw far well min
+hiertenß siridh.</s><s>Kåmer dw icke snarth så skall iagh allrig
+pase på degh och will fwllth och fasth tro ath dedh er din skwl
+</s></inline><inline font-style="Times New Roman"><s>dw will intedh kåme.
+</s></inline><inline font-style="Times New Roman"><s>Hellze din sÿster och
+fröcken brite på mine wegne.</s></inline></para><para /><para><inline font-style="Times New Roman"><s>Brev
+3</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="10.00" font-style="DTI" language="Swedish" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0005" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Min kere siridh.</s><s>Iagh önsker er mÿcken lÿcke
+och kan er icke för hålle ath frw mor encke dråningen hawer
+skrewedh megh till ath hon hawer gewedh erick biellcke eth entlliged swar
+på hanß till tall,  men på hwadh seth weth iagh intedh.</s><s>Heneß konglighet</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>skriwer intedh der åm, wten så ath her
+gustaff skall berete åß.</s><s>Så efter någre dager ere
+för lwpne och iag får ingen widere beskedh, kan iagh icke hawe
+för dragh ath skriwe er till och begerer intedh mere wete en dedh
+åm i lete er nöie medh de swar heller icke.</s><s>Eredh såm i
+ger</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>ne se
+så wille wÿ hiertellige gledeß medh er, </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>men hwar och icke så weth
+gwdh ath dedh går åß hårth till hiertedh.</s><s>Min alle
+kereste siridh, haff intedh fördollth för megh.</s><s>Iagh skall allrigh
+swicke degh så lenge iag lewer wten gerne se din lÿcke och hiellpe
+der till så mÿckedh iag kan.</s><s>Så hiellpe meg gwdh den iag och
+will </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>ha deg
+befalledh min alle kereste siridh. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Seden dene sedell war skrewen fick iagh först
+</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>wete ath i
+ere her, men </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>lell måste iagh senden åstadh.</s><s>Estw gladh så
+lat meg medh eth ord wete så såwer iag medh ro i
+nath.</s></inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev
+4</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Wår ÿnesth och
+nådige benägenhet medh gwdh allzmectigh alltidh till förende.</s><s>Alle kereste siri </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>iagh kan er icke för hålle dedh iagh till
+</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>dene tidh
+hawer waredh wedh godh hellze. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Gwdh gewe megh de same tidender i f[r]å er igen.</s><s>Och
+weth gwdh hwrw hårth i lige megh på sinedh och hwrw månge
+tancker iagh har giorth megh om er ath ÿ</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+</inline><inline font-size="12.00" font-style="Times New Roman"><s>intedh skwlle
+må well efter i hawe icke latedh megh wete i så långh tidh
+hwrw i må heller åm i äre well fram kåmen.</s><s>Och der
+före hawer iagh intedh länger welledh för dröie wten
+afferdige dene min tienere till er ath för wete megh hwrw er
+lägenheth är.</s><s>Och der i icke årcke siellff skriwe så ber
+er man, för iagh kan allrigh ware till fredz för en iagh weth hwrw
+ded står till medh er.</s><s>Min hiertenß siridh, dedh moderllige och
+kere hierte iagh har alltid hafth till er och i sÿnerhet seden i
+kåme i mith wmgenge dedh på miner megh er alle d[ager] [...]ath,
+tencke efter allth dedh er kan lände till </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>-</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>[...]barbro [...]re er </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>[…]ia</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s> -</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>|| </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+</inline><inline font-size="12.00" font-style="Times New Roman"><s>Läter
+megh och wete om erick biellcke har wnder skrewedh den för segllingen
+heller icke så och om dedh andre iag badh er ner wi skilldeß
+åth. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Här medh befaller iagh er och er kere man den trogn[e]
+</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>gwdh till
+liff och siell.</s><s>Han late sin hellige wellsignellse ware och bliwe öwer
+er såm en stark skiölld moth alle dem er onth mene och late er
+förnime ath han har er ker för dedh trogne hierte i hawe alltidh
+hafth till megh dedh iagh  allrig skall för gäte wten till dedh
+beste i hwgh kåme så länge iagh lewer. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Nw ade mein hertz alle libeste
+siri zw hwdert zw tawsent mahll gwter nacht.</s><s>Gwdh beware degh och late megh
+skee den </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>gleden ath iag måte så frith hawe dith
+dÿgdellige wmgenge här äfte[r]</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+</inline><inline font-size="12.00" font-style="Times New Roman"><s> såm
+hert till och fine dem alle såm dedh welle för hindre.</s><s>Datum stecke
+bårg den 3 december
+[...]</s></inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev
+5</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Min hiertenß alle kereste
+sirid. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Dedh i
+moto ware [wedh] hellzen och all lÿckelligh well måge begåwedh
+wore ded [...] megh weth gwdh daff allth meth hierte kerth ath
+förnim[me.</s><s>] </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Der hoß kan iagh icke hawe er oför mellth dedh
+iagh </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>gwdh
+teß loff er wedh godh hellze.</s><s>Gwdh allzmectigh hiellpe megh till allth
+dedh megh nÿtichth och sallicht er.</s><s>Den neß later iagh er
+förnime ath kongelighe maiestedh min kere herr broder har senth
+artziewskÿ till megh och later megh wete dedh hanß kongelighe
+maiestedh och droningh ere wedh godh hellze, dedh megh har waredh en stor
+frögdh ath förnime. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Der hoß ath om gwdh teckeß spare hanß
+kongelighe maiesteß liff och hellze då will hanß kongelighe
+maiestedh wisth i dene såmer besöcke sith kere federneß landh
+dedh gwdh late skee i en lÿckesalligh sthwndh, och i sin skriwellze
+lower och till seger megh dedh ath efter hanz kongelighe maiesteß breff
+och befallningh intedh gorde till sacken i söderköpingh ath erick
+bielke och de andre såm så oför skemth hawe bode skrefwedh och
+talledh er och mith frwgentimer och megh siellff till störste wanheder
+och för klenningh will hanß kongelighe maiestedh icke late bliwe
+ostraffedh, wten medh reten fwll föllie, der före hanß
+kongelighe maiestedh icke nogh samth er till ath tacke wten högellige
+till beröme och will hopeß ath den harm och förtreth iagh har
+lededh der före skall </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>kåme dem swrth efter såm billicht er.</s><s>D[er]
+nesth, min hiertenß siridh, later iagh er förnime ath hanß
+kongelighe maiestedh hawer efter </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>eth långth och tidicht betenckende giorth eth
+entlligedh beslwth medh den sacken. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Er well</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>weterlligedh gwdh såm hawer </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>låwedh ware alle
+faderllöseß fader och alles ellendeß för swar, han
+werdigesth late ware sketh i en godh och lÿckesam stwndh, hanß
+allzmectighet till ere och megh staker till glede.</s><s>Hwrw hiertellige hepen och
+bekÿmredh iagh er kan iagh allrig klage, men gwdh såm min
+hiertenß sorgh och ellendighet en tidh longh har seth wende min sorgh i
+gllede om möge</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>ligedh er ath bedie. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Och sender iagh er min hiertenß nosewiß
+någre pomeranß till ongefär 33 qvintin stÿcke.</s><s>Tar
+för goth ner iagh kan|| bekåme flere och elliesth anedh såm er
+kan ware tienelliged will iagh intedh förswme. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Sender er nw thwsen hwndrede
+godh nath mïn hiertekorn. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Gwdh beware er till liff och siell.</s><s>Hellser er herre medh
+min nådige benegenheth och mÿckedh gåth på mine wegne.</s><s>Datum stecke bårgh den </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>22 aprill.</s><s>Iagh sender er hwith samet och en bage
+och ber i wille giöre twå der aff till dråningenß behoff
+så långe såm den er men så låge såm dedh er
+medh swart afftecknedh.</s><s>Iagh hade gerne siellff giorth dem och intedh
+bemöth er efter iagh weth er legenhet men dedh tar intedh lagh.</s><s>Far well
+min sirid.</s><s>Bren op
+brefedh.</s></inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev
+6</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Wår ÿnesth och
+nådige benägenhet medh gwdh alltidh till förende .</s><s>Wÿ
+hawe i dag bekåmedh er skriwellze herr iahan gÿllenstierne och der
+aff medh stor hiertenß frögdh förnwmedh ath gwdh allzmectigh
+hawer så nådellige och well för låsedh eder kere hws frw
+och hwgnedh er både medh en wngh sån.</s><s>Hanß allzmechtigheth
+ware ewinerllige låff såm så nådellige har seth till hene
+och hwllpedh hene aff medh den swåre börden.</s><s>Han werdigesth och
+snarth hiellpe häne till sin före hällze och stÿrcke igen
+widere.</s><s>Dedh i begäre ath wÿ wille medh wår ner warellze
+hiellpe er lille sån till dop och kristendom så twiwlle wÿ
+inted ath i både ere medh wår nådige benegenheth nogsamt
+för säckrede ath wÿ gärne giöre för
+bägeß ere skwl allth dedh åß är mögelligedh
+icke diß minder äfter såm wår lägenhet nw är
+måste wÿ dedh gönåm någen anen wth räte.</s><s>En
+dogh  dedh wore så ath wÿ medh wår person kwne ware der
+på den tidh skwlle den wegen intedh ware oß för långh
+häller beswerlligh.</s><s>Men  äfter dedh för någre orsacker
+skÿ icke kan skee håpeß wÿ ath i hawe oß
+änthskÿlledh.</s><s>Älliesth ath bewise er all nådigh
+benägenhet ere wÿ alldelleß benegne och wille hawe er her med
+gwdh befalledh.</s><s>Hellser er hwsfru medh wår nådige benägenhet.</s><s>Datum stecke bårg den 5
+iulÿ</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev 7</s></inline></para><para><inline font-size="12.00" font-style="Times New Roman"><s>Min alle käreste frw siridh.</s><s>Iagh hawer
+bekåmedh eder skriwellze dedh gwdh allzmectigh hawer nådellige seth
+till er och hwllpedh er till någen stÿrcke igen, der före iagh
+gwdh daff hiertedh inerlligen tacker och der hoß flitelligen
+bediendeß ath i måte kåme till fwll kåmellig hällze
+i gen.</s><s>Och har iagh waredh så mÿckedh bedröwedh och frwchtedh
+hwrw dedh skwlle nw ware medh er, äfter frw margrete så
+ÿnckellige skreff hith om er swage lägenhet, der före torde
+iagh intedh sende bwdh till er.</s><s>Iagh war redh ath wår häre hade
+tagedh deg från </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>mägh, min hiertenß alle kereste siridh, men gwdh
+ware </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>låwedh såm dedh till bätring har för
+andredh.</s><s>Men dedh i hawe skrewedh medh egen hån skwlle i ingen tack ha
+före, för i kåme well i hwgh ath iagh badh er ath ner gwdh
+wille för låse er ath i ingen tingh skwlle arbete häller
+skriwe för än de 6 wecker wore wte, men min näsewis paß
+intedh på mith för bwdh.</s><s>Der skwlle hon ha riß före, min
+hierte korn</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>.</s><s>Dedh i begere wete om min lägenhet så tacker
+iagh gwdh för hällzen.</s><s>Älliesth är intedh
+sÿnerlligedh före falledh dedh iag kan skriwe, men när gwdh
+will iagh får någedh wete om min lägenhet så will iagh
+intedh för swme ath skriwe.</s><s>Här mädh twsen godh nath min
+hiertenß </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>sirid.</s><s>Den ewige gwdh befaller iagh degh.</s><s>Han
+werdi</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>gest
+beware deg och din kere man och lite hiertekorn från all olÿcke
+till liff och siell.</s><s>War intedh wred på drängen ath iag har så
+läne hålledh hånåm
+åpe</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para /><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev
+8</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Min alle kereste siridh.</s><s>Gwdh
+weth hwrw gerne iagh </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>wille skriwe er ofte och mÿckedh till, men iagh kan
+intedh kåme der till för mÿcken swår hwfedh werck, men
+på dedh ath i icke skwlle tencke ath iag intedh kåmer wener i hwgh
+längre än iagh ser dem wi[ll]</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s> iag besöcke er medh dene
+lille sedell och tacker er så gerne min hierte för dedh i hawe
+så åfte skreffed megh till och will medh dedh förste megh
+är mögelligedh skriwe swar, men hwadh er bror her abrahamß
+sack till kåmer har her nillß skrewedh megh till och begerer meth
+rådh, och har iag skrewedh håm till och rår der till hwadh iag
+kan.</s><s>Gwdh gewe sin hellige wellsignellse der till ath ded må skee
+såm gwdh är till äre och dem på bäge sider till
+långwarigh glede . </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Far  well min alle kerste hierten[ß] </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>sirid.</s><s>Gwdh late deg alltid
+må well och wne meg den gleden om iag icke må se ath  iag då
+alltid måte spörie dedh degh måte gå well, och mith
+moderllige hierte skall iag allrig för andre så länge iagh
+lewer</s></inline></para><para /><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev 9</s></inline></para><para><inline font-size="12.00" font-style="Times New Roman"><s>Min alle kiereste frw siridh.</s><s>Gwdh allzmectigh
+beware er till liff och siell och late er giöre en så godh och
+lÿcksam rese ath iag måte allrig se er i sådenth
+ÿnckeligedh till ståndh såm nw någre reser sket är,
+wten ath i nw giönåm di medell måte kåme till er
+fwllkåmellige hellze och well måge.</s><s>För megh tacker iagh gwdh
+allzmectigh ath iagh er nw mÿckedh bätre till paß än
+når i droge bårth.</s><s>Både i brÿstedh och hwfwd er iagh
+mÿ</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>mÿckedh betre och håpeß ath iagh her på
+låbsåw skall ha mÿcken betre hellze än i ckracko och ber
+ath i wist wille tro ath iag må well.</s><s>Gwdh late megh så santh
+få höre ath i och iåmf[r]w karin måte taff erth badh kene
+er förbetring till er hellze och ber er både ath i wille skriwe
+megh saningen till, för iag tror så paselige når i skriwe.</s><s>Iag
+räß i giöre intedh anedh wten giöre megh godh hwg.</s><s>Iagh
+har bekåmedh tw breff frå er seden i droge heden och dedh tredie
+med dene breff wisere, och har iagh förnwmedh ath i hawe lecht er wagner
+från breslow.</s><s>Gwdh gewe ath i icke ångre, försth i siellff och
+så iåmfrw karin för sin onde side.</s><s>Dedh hade waredh
+mÿckedh bätre i hade legt wagn för tingestedh och siellffwe
+setedh i wagnen.</s><s>Fast dedh hade kåstedh någedh mer så hade
+dedh lell</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>waredh betre.</s><s>Iagh är intedh well till fredz der medh.</s><s>Der till medh så har iåmfrw karin ingen och sende äfter
+dåchtere </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>om di intedh ere ner wedh hånd.</s><s>Derföre
+sänder iagh hanß till backe igen, ath han blir hoß iåmfrw
+karin och ber ath i wille skriwe megh medh eth aned bwdh till hwrw er rese
+är gången.</s><s>För ere barn skwlle i intedh tage er någen
+ånger.</s><s>Di må alle well gwdh ware låff och håpeß i
+skwlle intedh kene dåm igen når i kåme, sådane
+höwllige drenger skwlle di ware.</s><s>Annusia</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+</inline><inline font-size="12.00" font-style="Times New Roman"><s>leter seie
+frw silla god nat och kåme taß hem.|| Hon twchter så sine
+bröder dedh är nw welledh kåmedh i heneß hender.</s><s>Nw min
+frw sirid, gwdh befaller iagh er till liff och siell.</s><s>Han late oß
+fineß medh hellze och gläde.</s><s>Datum kracko den 11 maÿ.
+</s></inline></para><para /><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev 10.</s></inline></para><para><inline font-size="12.00" font-style="Times New Roman"><s>Min Kaise.</s><s>Iagh har bekåmedh er skriwellze och
+de[r] </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>aff
+förnwmedh ath i  skwlle ware wedh hellzen. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Dedh wore well om dedh er
+sant, men iag tror hallff parten för er skwll, för i wille intedh
+bedröwe meg, men iagh later er medh saning  wete dedh iagh må gwdh
+skee låff well.</s><s>Gwdh late megh de same tidender höre frå frw
+</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>siridh och
+er. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Men dedh
+i ha sent wagnen och hanß i från er der er iag sleth intedh well
+till fredz med.</s><s>Iag weth fwlle hwrw er både lerer gå når i
+begÿne skacke er i de lede tÿske wagner.</s><s>Gwd för låte frw
+siridh, så ille hon har giorth och i med.</s><s>Nw kan iag intedh ware till
+fredz för än iagh får bwd från er .</s><s>Mester andreseß
+hwstrw har i dagh fot en dåter och er äfter den lägenheten
+tämellig starck.</s><s>Nw gwdh beware deg min kasiw.</s><s>Iagh årcker dene
+gången intedh mere skriwe för iagh har lwped megh så
+tröth i trägår </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>den .</s><s>Datum 11
+maÿ.</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev 11</s></inline></para><para><inline font-size="12.00" font-style="Times New Roman"><s>Min hiertenß kaise.</s><s>Gwdh beware degh både
+till liff och siell och late megh få de glade tidender ath dedh wore
+någed håp på din lång warige siwckdom  till en  godh och
+beståndig hellze.</s><s>Då will iagh intedh ångre
+ath</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>ath iagh hade sänth degh från megh så
+lång en weg, och äfter iagh weth hwrw dw  åstwnder wete om min
+well måge så tacker iagh gwdh för temllig godh hällze och
+läter megh gerne nöie der medh.</s><s>Gwdh allzmectigh late åß
+fineß både medh glede igen.</s><s>Der nest later iagh degh wete min kasiw
+dedh dine kotker må well, allene den ene har waredh någedh swag,
+för hon har giorth eth mord sprwng giönåm skårstenen i
+kongenß kamer, men så har iagh lated dåchteren ge hene
+någedh in.</s><s>Så bleff dedh strax betre, men på dedh ath
+sådenth icke måte skee åftere har iag letedh sath iärn
+gallrer för fänstredh på dedh widere o lägenheth icke
+måte der aff förorsackeß .</s><s>Och befaller degh båded till
+liff och siell den öwerste läckeren i hender såm kan gewe
+medlledh krafth  till ath wthräte dedh iagh i så lång tidh
+hawer aff hiertedh åstwndedh.</s><s>Datum 21
+maÿ.</s></inline></para><para /><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev 12</s></inline></para><para><inline font-size="12.00" font-style="Times New Roman"><s>Min frw siridh.</s><s>Gwdh beware er till liff och siell
+och hiellpe er till er hellze och swnhet igen och late megh nw snarth få
+si er medh gläde och kan iagh er icke för hålle ath iagh har
+bekåmedh er skriwellze datum den 5 junÿ i karllz badh och
+förnimer ath badh later segh well ansi medh er både så ath
+till ath håpeß i skwlle kåme till er fwll kåmellige
+hellze igen, hwillcken skriwellze har waredh megh så hwgnelligh och ker
+ath dedh er megh omögelligedh i penen ath för fate.</s><s>Gwdh skee
+för dedh såm för alle andre sine gwdhdomellige wellgerninger
+ewigth låff och tack. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Han werdigesth ware begeß ereß öwerste
+läckere och gewe </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>medh medledh sin gwdomellige wellsignellze till en
+långwarig och beståndigh hellze och well måge.</s><s>Dedh
+önsker iagh taff  </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>allth mith hierte och later er her medh förnime
+ath iagh är gwdh skee låff medh godh hällze och
+håpeß her äfter bätre seden iagh har bekåmedh er
+skriwellze för den hiertenß gläde iagh fick då iagh
+för nam ath dedh er eth gåth håp till er och iåmfrw
+caiseß hellze.</s><s>Gwdh weth iagh har allrigh waredh glad seden i droge
+heden för ennw.</s><s>Gwdh hiellpe oß på bege sider en nw widere
+för sith hellige namn skwll.</s><s>Och tacker er min frw siri så gerne
+för dedh i kåme megh i hwgh och wille och gerne ath iagh skwlle
+kåme till hellzen.</s><s>Och dedh i begere wete om i må talle medh
+dachteren om min siwckdom och seie för hånåm om megh så
+will iagh er till swar icke förhålle ath der dedh wore gwdz willie
+hiellpe megh till min fwllkåmellige hellze igen både iagh inerllige
+gwdh åm ath dedh </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>gönåm någre gode medell måte
+skee, men ath nemne m[in] person will iagh intedh gerne om man kan gå
+dedh för bi.</s><s>Men kan dedh intedh anerß ware då må i talle
+medh hånåm, dågh medh di för ordh ath ingen måte
+få wetedh heller få megh i mwnen.</s><s>Och dedh i begere wete min
+siwckdom till pricke täncker iagh ath ï skwlle fwlle wetedh mesth
+siellff, men på dedh ath i må wete dedh meste och förnemste
+på dedh han må deste bätre gewe sith rådh der till
+så är ath iagh alltid för min tidh har inågre dager,
+stwndåm fler och minder, äfter || såm dedh kåmer, så
+onth i hwfwdedh och i magen medh såden köldh i kråpen såm
+dedh wore febriß och ath iagh gör intedh aned en gesper och recker
+megh och ath wnder tiden klöckeß.</s><s>Och om han will wete om dedh och
+ellest pleger så kåme så säger at stwndåm dogh
+intedh alltidh, men i den tiden såm i well wete - alltidh, och ath dedh
+icke gerne kåmer wten iagh måste brwcke</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+</inline><inline font-size="12.00" font-style="Times New Roman"><s>der
+före.</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>I tem ath min mage är så för derwedh ath
+iagh kan ingen math förtäre såm någedh groff är
+så och ingen frwchth hwadh namn di kwne hawe ochath iagh ïntedh kan
+för drage rwgh brödh.</s><s>Stracht iagh råcker äte någen
+ting såm magen kan intedh lide så kåmer megh den fråse
+och gespningh på endå.</s><s>I må gewe wetneß bördh der
+åm ath iagh intedh anedh äter wten dedh en siwck well måte
+äte aff så och om den sallte katar iagh har såm megh så
+faller på brÿstedh och ath iagh alltidh har så onth både
+nath och dagh äwen på hwfwdedh och ath dedh pläger swelle och
+klape såm en klapede medh en hamer och er så ömth ath iagh
+intedh kan lide eth sillckeß bånd der på än seden anedh
+doch intedh alltidh licke.</s><s>Dedh har och ingen wiß tidh wten stwndom were
+stwndom betre.</s><s>I skwlle och seie ath iagh intedh win kan dricke för
+kataren faller mÿckedh starckere och intedh heller medh örter.</s><s>Men
+när iagh tencker stwndåm ath hiellpe magen der medh iagh dricker
+någre skeder då har iag i någre dager en såden smack i
+mwnen såm mesing, och dedh drager twngen till samen och blir så
+tör ath iagh weth allrig hwarth iagh will för en dedh kan för
+gå</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s> Dete er nw nogh om min o lägen heth.</s><s>Gwdh gewe han
+måte fine megh rådh och will nw her medh befalle er gwdh både
+till liff och siell. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Datumkrackow den 22 iunÿ. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>för all tingh skoner er
+äfter badh och håller er såm i taff gode menisker bliwe
+råde och ger er intedh för snarth äfter badh på resen
+hem, hwille well wth.</s><s>Dedh är bätre kåme långsamtän
+drage snarth och för derwe hwad gåth er blewed.|| Min frw silla,
+dedh i skriwe om den swr brwnen ath så månge bliwe hwllpne med, om
+han will råde megh der till will iagh gerne brwcke och late före
+hith.</s></inline></para><para /><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev 13</s></inline></para><para><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>-</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>till mineß hwadh frw
+sirid skall bestelle.</s><s>Et snöre liff dedh skall giöreß hoß
+hoffskrederen i dresen.</s><s>I prag skall frw sirid köpe bemeske rwbiner och
+demanter och, om der fineß wackre bwndne krwß heller mÿnster
+taff sådant rå silcke, en stor hop både groft och
+grant.</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>-</s></inline><inline font-size="12.00" font-style="Times New Roman"> </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>-</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Ett snöreliff thill</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>-</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>.</s></inline></para><para /><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev 14</s></inline></para><para><inline font-size="12.00" font-style="Times New Roman"><s>om hon har förståped
+liff.</s><s>Om dedh låser wel i brÿsted.</s><s>Om hon er lätere om
+hiärted.</s><s>Om heneß mage er god.</s><s>Om hon blir så het seden hon
+har ätedh såm för.</s><s>Om hon får såwe för hoste
+och sager hwadh iagh har </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>lated säie her gustaff. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Och bede häne ath hon
+</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>will fly meg
+dedh waten </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>beskrewed såm gör hwite tänder inted på
+mine wegne wten på sine egne.</s></inline></para><para /><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev
+15</s></inline></para><para><inline font-size="12.00" font-style="Times New Roman"><s>Min hiertenß frw sirid.</s><s>Iagh kan intedh mÿckedh
+skriwe både för dene hastige rese såm åß är
+på kåmen så och för bedröwellse.</s><s>Skwll ath iagh
+frwchter dene resen är kongelige maiesteß och alleß wåre
+för derf.</s><s>Gwdh betre ath sådane råd gew</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>ere skwlle bliwe hörde.</s><s>Hwarth wÿ skwlle tage wegen weth iagh intedh så hiellpe meg gwd der
+[medh]. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>I
+mårån skwlle wÿ åstadh.</s><s>Her är sådant allar[m]
+i staden och  iblant kongenß håff, di äre så ille till
+fredz.</s><s>Både wete di inted hwarth icke helle[r] ha di kwnedh lage seg
+till wegß, för i gå[r] sadeß di först till.</s><s>Nw gwd
+wende allting ti[ll] dedh bäste och strafe oß inetdh såm
+wÿ förtiene.</s><s>Iagh är daff hiertedh be kÿmred fö[r]
+e[r] skwll, äfter iagh weth hwrw er tidh lider, a[th] wÿ icke kwne
+kåme till hope. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Gwdh allzmectig[h] </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>ware er hiellp och stå er bi, så trollige
+iagh dedh önsker aff allth mith hierte, och late åß
+</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>fineß
+medh hellzen. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Och befaller er här medh gwdh allzmectigh till liff
+och siäll.</s><s>Hällzer ere barn på mine wegne och i sÿner het
+hanuse. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Datum
+warso den 13 iunÿ.</s><s>iag sänder er 100 gÿllen medh dochter
+herna. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Tar
+till gode min frw silla.</s><s>Iagh har inted mere rådh på däne
+tidh.</s><s>Iåmfrw karin later på dedh flitigeste telbiwde er sin
+tiänst.</s></inline></para><para /><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev 16</s></inline></para><para><inline font-size="12.00" font-style="Times New Roman"><s>min hiertenß frw sila.</s><s>Gwdh allzmectig
+hiälpe </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>er til er hellse och stÿrcke igen såm iag wisth
+håpeß med gwdz hällp, för dene hwstrwn ger så godh
+förtröstning ath ded skall bliwe gåt allth samenß.</s><s>Iag
+sender er di mårseller såm dene hwstrwn har giort.</s><s>Di brwne
+såm wnder lige skwlle i äte om morgonen såm hon sade i
+gå[r], och di hwite skwlle i äte om dagen heller når i bliwe
+swag.</s><s>Dene olien i dete lille glased skwlle  i dråpe tre dråper i
+så mÿcked win i wille dricke om målltiden.</s><s>Dåg må i
+lel dricke öll och om i wille. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Nw gwdh beware er min alle kereste hierte korn.
+</s></inline></para><para /><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev 17</s></inline></para><para><inline font-size="12.00" font-style="Times New Roman"><s>dene kackerne skwlle i brwcke når i bliwe swag.
+</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Gwd
+allzmectig gewe sin hellge welsignellze ath dene läcke</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>dom må ware er till
+hällze och god.</s><s>Min hiertenß frw silla far well.</s><s>Twsen godh
+nath</s></inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev
+18</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>min hiertenß kere frw
+sila.</s><s>Iagh har med stor hiertenß ånger förnwmedh daff
+iåmfrw karin er store swaghet och ath i genom hene hawe latedh megh wete
+hwadh er siste bön och begeren är. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Der</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+</inline><inline font-size="12.00" font-style="Times New Roman"><s>gwdh nw
+tächteß kalle er daff dene bedröwede </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>werden så wil iag er
+icke förhålle ath hwadh er man till kåmer så wil iagh
+låwe och till seie er ath iagh will alltidh late hånåm ware
+megh till dedh bäste befaled för er skwll och gerne fårdre
+hånåm till a[l]th gåth så mÿcke megh är
+mögelliged.</s><s>Och hwadh de månadh peni</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>nger til kåmer will iag
+gerne äfterllate ere sön</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>er till ath hiällper dem till stwdere, för
+om iag elest finge dem från meg så frwchter iag at di blewe wende
+på någedh aned.</s><s>Om anwse lile och casemir skwlle i gewe er till
+fredz och ingen sårg hawe om dem, så länge gwdh will iagh skal
+lewe her i werden, och </s></inline><inline font-size="12.00" font-style="Times New Roman"><inline font-size="12.00" font-style="Symbol">[</inline></inline><inline font-size="12.00" font-style="Times New Roman"><s>iagh</s></inline><inline font-size="12.00" font-style="Times New Roman"><inline font-size="12.00" font-style="Symbol">]</inline></inline><inline font-size="12.00" font-style="Times New Roman"><s> will och i min well macht tencke der efter ath om meg
+kåme någed[h] wed</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>at anne lile skall kåme på en godh stad,
+men så länge iagh lewer skall hon allrig sackne mor.</s><s>Dete skwlle i
+ware wiß på och inted twiwlle he[l]ler tencke ath i[ag] [s]kriwer
+er dedh till at tröste er medh wten ath iag will hålle met
+lÿfte ded iag nw gör och åfte har giort, en då iagh
+håpeß till den allzmectige gwdh såm allth för må at
+i skwlle medh hanß till hiällp kåme till hällzen, || der
+om iagh inerllige will bed[i]e gwdh </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>och håpeß ath gwd
+skall höre min bön och ber er för allth dedh gode iag har wnth
+er i alle mine dager och än wner.</s><s>Stÿrcker er siällff så
+mÿckedh i kwne och achter icke heten så stort ath i icke skwlle
+stÿrcke er medh dedh såm iag sender dith.</s><s>För om i wiste hwrw
+hiärtellige iagh bedröwer meg når iagh hörer ath i
+så gärne wille dö i gorde dedh allrig.</s><s>Nw gwd för sin
+sånß iesu cristi skwll stÿrcke er till liff och siäll och
+hiellpe er till allt ded  hånåm er till är och er nÿticht
+till liff och  siäll.</s><s>Hwadh aned i hawe begered der bekÿmrer er
+inted om.</s><s>Iag skall allrig förlate</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>er hwarken lewendeß
+heller död så lenge i</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>iagh
+lewer.</s></inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev
+19</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Wÿ gewe er till kene her
+iahan ded wÿ hawe förnwmed </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>daff frw margrete her iahan spareß ath i begere
+ath </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>wÿ
+skwlle för klare oß imot er hwillcken aff di twå personer
+såm den dåchteren i </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>franckfort har i sin skriwellze namn gewedh.</s><s>Så
+kune wÿ oß icke anerß ichug kåme wten dedh ath en dog
+wÿ </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>sate
+i ert skön ath wtwellie en daff deße twå ath </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>wÿ då lell sate
+wår mening der brede wed ath oß tÿchte dedh den ällste
+taff di bröderne såm tiäner hertigen aff pomeren skulle ware
+tiänelligest , men do han kune icke tage wed dene tiänsten ath i
+då wille sände äfter den andre.</s><s>Och på dedh ath icke
+någed drögsmåll måte skee sände wÿ strax tere
+peninger på ded tiden icke skwlle bliwe för swmed.</s><s>I hawe och
+skrewed parfnowskÿ till ded i wille sände medh dedh förste
+äfter en aff dene bröder.</s><s>Hwrw i nw hawe drögt der medh kwne
+wÿ icke wete.</s><s>Men ille giöre i mot ere barnn</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+</inline><inline font-size="12.00" font-style="Times New Roman"><s>såm
+tiden för swme, och inted beter mot oß.</s><s>För allt dedh på
+ere barn kåsteß er om inted, dedh wÿ icke wille reckne
+för någen wmkåst der di lerde der hoß.</s><s>Så ath
+wÿ hadee äre der aff, och för wndre [wÿ oß] ath i nw
+så lång efter seden wÿ skrewe wende dene beswerlligheten
+före.</s><s>Förmane och bede er her medh ath i wille nw inted dröge
+wten läte kalle en aff deß.</s><s>Der di sker dedh åß er
+behagelliged och ere barn både nw och i fram tiden nÿtigt.</s><s>Och
+begere [wÿ]</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s> medh dedh förste swar igen på dedh
+wÿ wiste åß widere äfter räte.</s><s>Datum dancik 17
+iullÿ.</s><s>Oloff swercker sånß barn hawe skrewed </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+</inline><inline font-size="12.00" font-style="Times New Roman"><s>åß
+någre reser</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>till och begered ath wÿ wille tage den
+ÿngste sånen i wår åm wårdned och hiellpe
+hånåm till ath studere.</s><s>Så begere wÿ ath i wille talle
+med feller man ath han besteller der åm både om kåst så
+och om hanß lärdom, så wille wÿ gerne betalle äfter
+såm tilbörliged
+är.</s></inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev
+20</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Wår besynerllige
+ÿnest och benägenhet medh gwdh allzmechtig alltidh till
+förende. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Wÿ hawe bekåmedh er skriwell</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>se her iahan
+gÿllenstierne datum den 14 maÿ och er aff förnwmedh hwadh
+werff klaß ionsån har haft från kongen i danemark till er
+swenske her wte äre stade.</s><s>Der på kwne wÿ er till swar icke
+för hålle ath åß kåmer wndersamt före ded
+kongen i danemark läter anmode er der om äfter han enw intedh weth
+hwad ände dedh will tage medh hanß op såt fast han gör
+segh så wiß.</s><s>Der på kan han då icke wete om hanß
+willie och er confirmered i himellen hoß den heren såm kongericker
+och mÿndigheter wth deller.</s><s>Hanß her far giorde säg och nogh
+wiß der på ath han skwlle bäre den swenske kronen, men gwdh
+bewarede hånåm der före.</s><s>Så kan gwdh och lage medh dene
+ath den swenske kronen intedh trÿcker hanß hwfedh.</s><s>Men er dedh
+hånåm beskert så måste härenß willie hawe sin
+fram gång, men intedh hade klaß bort tage seg dete ärendedh
+på.</s><s>Kongen hade well haft siäll sin tiänere till ath sende om
+han hade welledh haft sådene werff till er.</s><s>Samtligen så er och
+twiwellß måll om hånåm er såden befallning gewen
+efter han intedh har någedh skreftlligedh bewiß.</s><s>Till
+ewentÿrß har han siellff till bwdedh seg kåme sådant till
+wege, för i wete well hwadh han er för en man och alltid har wared
+ath han der i gönåm mener hiellpe seg åp om icke i swerge ath
+do kongen i danemark gör håm stor.</s><s>För i wete siellff hwrw
+girig och hög ferdig han er.</s><s>Men oß sÿneß ded beste ware
+ath man stellte seg licke såm man hölle för
+faboll</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>hwadh han före gewer och slät intedh sware.</s><s>Der
+till och kwne intedh skade ath kongen min her bror läte hålle
+hånåm an ath han intedh finge d[r]age till backe igen i medler tid.</s><s>Om i bliwe medh bwdh och breff åftere an modedh kan man på alle
+sider betencke sägh hwadh swar der på kwne falle äfter
+såm lägenheten då kan medh gewe.</s><s>Hwadh ere söner till
+kåmer tÿcker åß best ath di bliwe i torn efter i
+tÿslad er så osäckert.</s><s>I prÿsen tÿcker oß och
+föge lägenhet ware för dåm, men dedh sÿneß
+åß rådelliged såm wÿ och || till förende hawe
+gewed er till kiäne ath i säge äfter en lär[d] och
+alwarsam preceptor, för dene är rät en tock bode i dede ene
+och and[r]e twngemåll äfter såm wÿ daff ere barnß
+breff hawe ath si dem.</s><s>Di hawe skrewed åß till.</s><s>Hwad han lön
+skwlle ware wille wÿ gerne för sörie efter såm i kwne bli
+öwer enß med hånåm, för fast di wore i någen
+academiæ moste di lell hawe en stedz hoß seg den di bere fare
+före. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Dene di nw h[awe] </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>den ere di intedh rede före.</s><s>Di bere mere fare
+för greger än för den andre.</s><s>Iagh tacker er och flitigt
+för ert omack ath i hawe bemödedh er der om och flÿ medh kamer
+tieneriner.</s><s>Efter dedh icke kwne ware, så måste iag si hwar gwdh
+besker meg dem såm gode ere.</s><s>Oloff swerker sånß dåter har
+iag fwlle föge tienst aff i 2 hell[er] 3 år till deß hon kan
+någedh läre om hon ellest har någen willie der till.</s><s>Men hwadh
+ded till kåmer dedh peter got berg har lofed flÿ oß twå
+kamer tiäneriner dedh wore fwlle well om han ellest råcker på
+dedh såm gåt är, men om di intedh dwge och wÿ moste ge
+dem orlof så föllier der intedh aned wten onth namn äfter,
+för sådent partÿ wille allrig heteß för tiäne
+oläter, wten öwer heten moste alltid hawe skwll såm i
+siällff well wete ath dedh går till.</s><s>Der före wet gwdh hwad
+wÿ skwlle tage åß före, för katoliske wÿlle
+wÿ nödigt tage.</s><s>Om wÿ der före icke hade för
+sÿn, kwne wÿ fwll få flere än wÿ behöwe.</s><s>Hwad
+den pigen till kåmer såm er dåter skwlle ha, ath i den icke
+kwne bekåme för wndre wÿ intedh,  för mine egne
+tiäneriner målle meg så wth ath ded er intedh wnder dedh
+fållck frwchte seg ath kåme hith.</s><s>Di hawe haft i sined alle tre
+kåme bårt i sender och till ath lage så gönåm wener
+och wenß wener ath wÿ inge skwlle få igen såm di och
+göre.</s><s>Di spare inted sin flit.</s><s>Dedh hawe wÿ till tack dedh wÿ
+ha föt dem åp och giort fållck aff dem, men der om wore
+mÿcked at skriwe, men wÿ håpeß dedh otrohet slår sin
+egen here på hallsen.</s><s>Hwadh tidender från muskow till kåmer
+er inted tröstelliged ath skriwe.</s><s>Gwd gewe min her broder allrig hade
+taged säg den resen före, hade dedh waredh mÿckedh
+</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>bätre</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>.</s><s>Kere her iahan i wete er well i hwg kåme ath
+wÿ i kracko || tallede medh er ath i wille göre ert testemente och
+der wdÿ och för fate er sallige dÿgdesame hwstrwß sidzte
+willie. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Äfter såm i då lote oß si en aff
+kopie</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s> der aff och äfter wÿ intedh seden hawe der om
+förnwmed wille wÿ gerne wete hwrw i der om kwne ware till
+sineß, äfter wÿ si dagellige hwrw hedsk och förgiftig er
+bror er mot wår relligion och sancker siw skadellige ander till seg
+än han er siällff.</s><s>Och der aff förnime wÿ om er kåme
+någed wed ath han skwlle brwcke di personer der till dem wÿ inted
+kwne göre mot stånd om wår lifftid skwlle ware länger
+än er</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>, der för i såm en trogen far later göre en
+ornig meden i llewe och namn ger dem.</s><s>I tro ere barn.</s><s>Om hwad på
+wår  dell kåmer wÿlle </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>wÿ göre allth dedh
+mögelliged er.</s><s>Och later åß få swar medh dedh
+förste.</s><s>Hellzer her iören påse på wåre wegne och
+görer wår entskÿllen dedh wÿ intedh h[a]we skrewedh
+hånåm i så långh tid till. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Gwd wet ath ded
+</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>icke är
+sket för någen obenegenhet skwll wten der före ath wÿ
+intedh hawe haft någedh tröstelliged at skriwe der medh wÿ
+hawe kwnedh hwgne hånå[m] med, för wÿ wete hwrw
+sårggewen han har alltid wared ded sackorne intedh hawe gåt
+såm nöd törftene.</s><s>Har kraft och befaller er her medh gwd
+allzmectig. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Datum willna 31
+maÿ.</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para /><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev
+21</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Wÿ kwne er kere her iahan
+gÿllenstiärne icke för hålle dedh wÿ för
+någre wecker seden finge breff från her iören påse och
+der aff förnwmed ath den stwdenten har wared hoß ere barn och har
+blant aned för kllared seg ath han ingellwnde will bliwe hoß dem i
+torn vten will ha dem ot danczick först och seden widere till
+tÿsland.</s><s>Och tÿcker oß sådant noged sellsÿnt ath han
+seger seg intedh kune bliwe hoß dom her, uten di skwlle ware der han
+will ha dem.</s><s>Er han så well lerd såm follck håller
+hånåm före så kwne han fwlle lere dom her.</s><s>Di hade intedh
+behoft för den orsack skwll drage länger bårt.</s><s>Hwad ded ti[ll
+k]åmer ath wÿ och hawe lated för mane hånåm ath han
+håller dem flitigt till gwdz frwchtan såm er wißheteneß
+begÿnellze och der hoß late dem lere luterÿ catekismuß
+der på har han blant anedh swared ath han kune inted hålle seg wedh
+lwterÿ cate kismum, för han har felled i mÿcked.</s><s>Nw mercke
+wÿ ath han låß ware mÿcked wisere och kwned betre, men
+han feller frwchte wÿ.</s><s>För lwterÿ bekenellse och
+catekismuß belleff well taff hånåm och Dominus mellanton
+skrewen.</s><s>Men der wore så månge höge och låge såm
+dedh öwer såge och fwne dor inted sådant såm dene lag
+klocke.</s><s>Hade ded waredh så då hade lwter inted beståt för
+</s></inline><inline font-color="#000000" font-size="12.00" font-style="Times New Roman"><s>ceiser carll</s></inline><inline font-size="12.00" font-style="Times New Roman"><s> och så monge förster och herer såm
+då på den tid till samen wore.</s><s>Wÿ frwchte at den er seg
+siellff  för wiß och för fine noged nÿt på dedh
+oß enw er okwnigt.</s><s>Wÿ förwndre oß ath i intedh hawe
+</s></inline><inline font-color="#000000" font-size="12.00" font-style="Times New Roman"><s>skrewe</s></inline><inline font-size="12.00" font-style="Times New Roman"><s> åß till seden i wore i torn, och begere wÿ
+her medh ath i om den stwdenten gewe er mening.</s><s>Kan inted dene för sin
+öwer flödige wißdom bliwe dereß preceptor så sir er
+om en anen i tid, för dereß|| år di lide.</s><s>Når di bliwe
+störe så få di lÿst till aned en site wedh bocken.</s><s>Dedh
+wined i hawe sent ha wÿ intedh smacke efter dedh er åp rört.</s><s>Om dedh är inted gåt så är såne skÿllig,
+för ded sÿneß ware omögliged ath rewen skwlle well
+tiäne till gåse wachtere.</s><s>Peningerne sende wÿ intedh medh
+hånåm för dedh er oseckert på wegen, men från
+straß bwrg wille wÿ late sände er. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Her medh er gwd
+bfallendeß.</s><s>Datum warsöw den 27
+iulÿ.</s></inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev
+22</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Vår ÿnest
+nådige willie och benegen het medh gwd [allz]mechtig alltidh till
+förende .</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s> Wÿ kune er icke [ha]we för hålledh dedh
+greger är hit kåmen medh mine kåmisarier såm från
+brodnicza kåmne äre och [har] bllant anedh sacht åß dedh
+den stwdenten såm i h[awe] så mÿckedh bemöt er om skwlle
+ware her i warsow för tre wecker seden hwillcked meg kåm mechte
+underllige före ath han icke hade latedh sege seg an hoß meg.</s><s>Men
+do han förnam ath greger war her och såg hånåm bad han
+ath greger gönåm någen wille lage ath han måte få
+talle medh åß dedh wÿ gerne äfter lote och lote fordre
+hånåm till åß, och till dedh förste sporde wÿ
+hånåm hwadh hanß erende war hit till håwed.</s><s>Der på
+gaff han till swar ath efter i icke wore blewen wedh den förste menigen
+ath han medh ere barn skwlle drage wth lendeß war hanß åp
+såt der före ath begere tiänst hoß kongelig maiestedh
+wår her bror.</s><s>Dor på frågede wÿ hwad tiänst han
+wille late seg brwcke [i].  </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Do gaff an till swar at han wille late brwcke seg i
+andellig </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>heller werslig tiänst hwar vdi hanß kongelige
+maiesteß högt betrode tiänere di swenske hanß landz
+män kwne fine hånåm tiänellig till.</s><s>Der på swarede
+wÿ ath i andellige sacker at tiäne kwne han inted, för han er
+ingen prest, der till medh såm han her till hade get seg wth icke heller
+någen papist.</s><s>Der på gaff han till swar ath hanß
+åpsåt war till ath läre dedh han icke kwne och skwlle allrig
+gewe öwer för än han måte läre saningen.</s><s>Fast han
+war kåmen till åller höllt han dedh för ingen
+sk</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>am ath
+läre. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Do
+gåwe wÿ oß widere i tall medh hånå[m]
+</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>och för
+nwme ath dedh är en såden såm ingen tro enw har vten will
+först läre han håller och medh flit på.</s><s>Och skwlle i inen
+en kårt tidh för nime ath wÿ få der en såden papist
+såm were blir än alle di andre wåre|| lanß men.</s><s>Gwdh skee
+låff dedh han intedh kåm till ere barn.</s><s>Wÿ mene han skwlle ha
+fört dem hwfwd på in i papisteried.</s><s>Wÿ wille önske i hade
+ståt i en wrå och hört wårt tall.</s><s>I skwlle ha för
+wndred er öwer wår sammen gång</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+</inline><inline font-size="12.00" font-style="Times New Roman"><s>.</s><s>Och
+äfter gwdh så wnderllige har bewared dom dene gången ath di
+äre icke icke så för förde blewne måste wi si
+åß beter före och begere her medh taff er flitelligen ath i
+wille medh flit bestelle en anen hwad nacion han do kan ware.</s><s>Först han
+är daff den räte außburgske kånfesion och är well
+lärd.</s><s>Wÿ wille ingen wnkåst spare om elliest mögell wore
+en sådan ath bekåmä.</s><s>Tiden lider för dem.</s><s>Hwad di skulle
+läre do moste dedh ware snart, för her äfter frwchte wÿ
+di wille råde för mÿckedh siällff.</s><s>Wÿ hawe befallt
+dirick ath lewerere er i dancick 70 daller.</s><s>Dem skwlle i sende till ion
+drawante höweß man sån och fårdre hånåm till
+åß, </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>för wÿ wille late hånåm lere casemir.
+</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>För
+wÿ wille intedh gerne än late hånåm kåme från
+åß för orsacker dem wÿ intedh kwne dene gången
+skriwe.</s><s>Och lager så ath han medh dedh allre förste kåmer hit.</s><s>Iag will icke gerne late dene såm her till har lärt hånåm
+länger bliwe hoß hånåm, för wÿ få der wist
+en liten papist om icke medh flit blir förekåmedh dete wÿ er i
+en hast icke hawe kwnedh för hålle.</s><s>Och begere ath i såm en
+trogen far wille i dete icke ware för swmellig.</s><s>Der wdÿ göre i
+åß eth sÿnerlligedh behoff.</s><s>Wÿ hawe och för
+någen tidh seden skrewedh er till men ingen swar der på
+bekåmedh hwillcked oß mÿck</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>ed wndrer.</s><s>Her medh er gwdh befallendeß.</s><s>Datum warso den 28 september ano
+1612</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para /><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev
+23</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Wÿ hawe för 4 wecker
+seden skrewed er till om ere barn</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>hwrw wÿ gerne soge dedh
+dereß stwdering ginge för </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>seg och ath i willi skriwe efter drawant
+höweß manenß sån ath han kåmer hit medh dedh
+förste för casemirß skwll.</s><s>Och hawe wÿ befallt dirick
+skwlle lewerere er 70 rigß daller till hanß behoff, för
+wÿ hawe låwed hånåm dedh ärllige.</s><s>Wÿ hawe
+för nwmedh ath i skulle ware siuck aff guartan hwillckedh oß er
+taff hiärtedh.</s><s>Let gwd hiellpe er till er hällse igen.</s><s>Later
+oß wete hwrw i må, och om wÿ kune wete någen råd
+wille wÿ gerne medelle.</s><s>Iåmfrw lisebet har begered låff ath
+skriwe till swerie och begere låff ath kåme in.</s><s>Gwd gewe till
+lÿck medh ded.</s><s>Läre ångreß medh tiden.</s><s>Rosen skriwe
+wÿ och aff.</s><s>Hwrw widere will gå ger tiden
+medh.</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman"><s>Brev 24</s></inline></para><para><inline font-size="12.00" font-style="Times New Roman"><s>Kere her iahan gÿllenstiärne.</s><s>Iagh har
+bekåmed er skriwellze datum den 22 nowember och blant aned förnwmed
+ded i taff min före skriwellze skulle hawe för ståt licke som
+iag.</s><s>Noged mishag skulle hawe fated till </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>-</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>…</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>-</s></inline><inline font-size="12.00" font-style="Times New Roman"><s> wet iag inted hwar der skule ware orsack till, för
+iag har </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>-</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>….</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>-</s></inline><inline font-size="12.00" font-style="Times New Roman"><s> [m]ed förnwmedh wten ded i äre meg medh
+all trohet </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>-</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>...</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">   </inline><inline font-size="12.00" font-style="Times New Roman"><s>[der]</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s> -</s></inline><inline font-size="12.00" font-style="Times New Roman"><s> före har iag icke orsack
+till ath för andre min före benegenhet imot er och ber er wele der
+före inted hawe någen få feng ånger.</s><s>Hwad ere barnß
+preczeptor till kåmer kan iag er till swar icke för hålle ath
+iag heller hade sit ath dedh hade wared en tÿsk en dene och i
+sÿnerhet efter han er föd i nericke.</s><s>Tu ting frwchter iag.</s><s>Före eth ath han icke er en carllist heller en calwenist der före
+dem gwd beware.</s><s>Ded andre ath han intedh er wth giord till ath kåme hit
+och bliwe hoß ere barn, men efter ded oloff swerckesån mener och i
+siällff ath om dete skall man inted hawe till ath befruchte hem
+steller</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>iag gwd och er.</s><s>Såm er sÿneß så
+görer, för iag kan om dote inted döme, för iag kener
+personen ïnted, och fast iag en soge honom kan meg lel inte geweß
+till felle så mÿcke talle med hånåm såm andre di
+hanß grwnd och mening beter för fare</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+</inline><inline font-size="12.00" font-style="Times New Roman"><s>kwne en iag
+och beter för stå seg på hanß lerdom.</s><s>Hwad tidender
+från swergie till kåmer hawe di hiertellige bedröwedh meg.</s><s>Gwdh allzmechtig si oß nådellige till och tröste worth fatige
+federneß land och hiellpe dem ifrån dereß mechtige för
+fölliere både in och wten rickeß och aff wende dedh
+gifftermåll mellen di tu ner skÿlle för sit hellige namn
+skwll.</s><s>Dedh wined är och hith kåmed oför der wed.</s><s>Iag har ennw
+inted smacked.</s><s>Betallningen sender iag och medh dene köpman.</s><s>Iag sende
+med per 40 florener till olloff swercker sån till ion drawante
+höweß man sånß behoff den iag håller till studering
+och wet iag inted om olloff har bekåmed heller icke.</s><s>Iag begerede och
+wete hurw mÿcked iagh har låwed hånåm om åred och
+når hanß år begÿneß.</s><s>I welle lage så ath iag
+får wetedh  för iag har för geted.</s><s>I welle och tacke oloff
+swercker sån för den warning han gör meg om den
+knÿpllerskan iag har från dancick.</s><s>Så har
+polikarpuß</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>sacht om hene når han war her ath hon skulle
+hawe haft 2 barn.|| Så trode iag intedh, för han skemer hellir 3 en
+han hedrer en, men så är dedh och taff andre sagt och ath hon
+skulle hawe haft dedh ene hoß seg och let hene knÿplle, och nw
+skulle dedh barnedh tiäne</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>hoß en hindrick h</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>-</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>…</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>-</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>ke in der langen gasen.</s><s>Iag wille gerne wete
+</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>hwrw her om
+er </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>-</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>…</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>-</s></inline><inline font-size="12.00" font-style="Times New Roman"><s> sant så wore iag till fredz ath hon wore der
+</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>peperen wexer
+</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>-</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>… </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>- </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>er. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Iagh ber er i wille göre er flit </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+</inline><inline font-size="12.00" font-style="Times New Roman"><s>ath för
+fare hwrw he </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>-</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>...</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"><s>-</s></inline><inline font-size="12.00" font-style="Times New Roman"><s> ng. </s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>Later er och förnime ath per gråben och
+hanß hwstrw hawe både skrewedh dråningen till och för
+klaged den såm hene har stöt wr tiänsten och hwrw stor oreth
+dom er </s></inline><inline font-color="#000000" font-size="12.00" font-style="Times New Roman"><s>skedt och medh så däne ord såm iag har
+grwfed meg före.</s><s>Drån</s></inline><inline font-size="12.00" font-style="Times New Roman"><s>ingen har sent meg dereß breff, men efter iag icke wet
+om dråningen will ath iag skall late meg mercke ded iag weth her om,
+will iag tige stille och ber ath i wille i medler tid för fare
+gönåm någen för trogen om hon er medh barn heller icke.</s><s>För her hade hon alle fachter såm så dane plege ha, och meg er
+och till skrewedh från danczik ath hon er så rådh miellcken
+signede släth bårt, så den</s></inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"><s>stackeß barne[d]h war
+så mager och twinede sleth sin köst och di skriwe ath di äre
+wten all orsack bort stöte wr tiänsten för blot afwnd skwll
+och medh flere ord såm di i sinom tid fwlle skwlle få wete och lere
+seg en anen gong ware för sichtigere.</s><s>Iag hörer di både skwlle
+och wellicht brwcke munen på meg hwar di kåme.</s><s>Sådant kan med
+tiden bliwe weder gwlled. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Och befaller er her medh gwdh allzmechtig.</s><s>Ere barn late
+hellse er medh dereß </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>ödmiwcke tiänst.</s><s>Datum warso den 17 december anno
+1612.</s><s>I wille tacke fachtoren casper wiber för d[i] sacker han har sent
+meg med per och ber hånåm ath han will bestelle meg gåt lin
+från nederland. </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>Dedh war intedh sÿnerllige </s></inline><inline font-size="12.00" font-style="Times New Roman"><s>gåt dedh han sende meg nw
+op me[dh]  [p]er.</s></inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para /></paragraph-definition></section></body></doc>

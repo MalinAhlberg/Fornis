@@ -26,6 +26,7 @@ File                               Sentence length for . or , followed by capita
 ../filerX/Birg-no.xml                        24.3252688172  
 ../filerXNy/GB-1734.xml                      23.8903508772  
 ../filerX/Vidhem.xml                         22.8376383764  
+
 ../filerX/HL.xml                             22.8186462324  
 ../filerX/Mar26SLundversion.xml              22.6497764531  
 ../filerX/AVgL.xml                           22.5602409639  
@@ -48,4 +49,5 @@ File                               Sentence length for . or , followed by capita
 File                               Sentence length for capitals    Sentence length for '.'   Sentence length for ','   Sentence length for tab   Sentence length for para
 ../filerX/EmAnna.xml                              41.3130128957                    17614.5             9.36692369051             800.659090909
 ../filerX/JohDop.xml                              42.5333333333                      382.6             57.9696969697                    1913.0
+../filerX/SkaL.xml                                50.186351706      0.147868561279             8.48623445826                    3822.2             84.1894273128
 ¶ räknas också (om stor bokstav efter)

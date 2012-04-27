@@ -34,11 +34,28 @@ def use(xmls):
     #return etree.tostring(tree)
 
 # concatenates text in tags if they are interrupted by pagebreak
+def concatTags2(tree,p = None):
+# TODO do this on paras only
+# do this before concatTags
+    for elem in tree:
+      # if the last tag is appendable and if this start with # ...
+      if p!=None:
+         p.text = p.text +' '+ elem.text 
+         
+      # if this is only a page numbering, move next text to it
+      elif elem.text and isonlypagebreak(elem.text):
+         p = elem
+
+    return p
+
+
+# concatenates text in tags if they are interrupted by pagebreak
 def concatTags(tree,p = None):
+# TODO do this on paras only
     pOld = p
     for elem in tree:
       # if the last tag is appendable and if this start with # ...
-      if p!=None and elem.text and elem.text.strip()[0:1]=='#':
+      if p!=None and elem.text and ispagebreak(elem.text):
          # then move text to last element and empty this
          p.text = p.text +' '+ elem.text 
          elem.text = ""
@@ -50,6 +67,11 @@ def concatTags(tree,p = None):
       p = p1
     return p
 
+def ispagebreak(text):
+    stripped = text.strip()
+    p1 = stripped[0:1]=='#'
+    p2 = re.match(u'\[*\s*‡',stripped,re.U)
+    return p1 or p2
 
 # creates tags for pagenumbering in body
 # maunal subsitution in xml. not safe, produces nested tags which are

@@ -39,7 +39,8 @@ def pagenumberfixer(uri,segmenter):
     # fix page numbers
     newer = xmlparse.tagPageN(string)
     # remove bad characters (TODO remove this? might be useful, although dangerous for kark)
-    ok  = re.sub(r'&#x009;','',newer)
+    ok1 = re.sub(r'&#x009;','',newer)
+    ok  = re.sub(u'¶','',ok1)
     # write file
     print "write file",out
     open(out,'w').write(ok)
@@ -55,14 +56,14 @@ def doAll():
     # titles are not added to NySvenska files
     print "extracting titles"
     newDir = checker.readAndAddInfo(["../titles/titelsExtract.txt","../titles/titelsNyExtract.txt"]) 
-    # add lables as specified in sections/
+     add lables as specified in sections/
     for sec in glob.glob('../sections/*'):
          print "adding label for",sec
          checker.addLabel(sec,newDir)
     # fix the page number issue
     # titles are not added to NySvenska files (newfiles)
     segmenter = getModel()
-    for uri in glob.glob(newDir+'/*') +usefuls.newfiles:  
+    for uri in ['../filerX/Apd26SLundversion.xml']: #glob.glob(newDir+'/*') +usefuls.newfiles:  
         t = threading.Thread(target=pagenumberfixer,args=(uri,segmenter))
         t.start()
 

@@ -51,11 +51,13 @@ def findmode(fil):
       print fil,'default'
       return 'punkt'
 
+def testStop(uri,out,mode):
+    fil = open(uri,'r').read()
+    xml = etree.fromstring(fil)
+    putStops(xml,mode,None)
+    open(out,'w').write(etree.tostring(xml))
 
 def putStops(xml,mode,segmenter):
-#    fil = open(uri,'r').read()
-#    xml = etree.fromstring(fil)
-    print 'reading model...'
 
     body  = xml.find('body')
     sect  = body.find(prefix+'section').findall(prefix+'paragraph-definition')
@@ -71,7 +73,6 @@ def putStops(xml,mode,segmenter):
 #        if txt is not None and len(txt)>0:
 #          ss.append(' '.join(txt))
 #    ss = filter(lambda x : len(x.strip())>0,ss)
-    #open(out,'w').write(etree.tostring(xml))
 
 # segments all text in xml node
 # returns list of sentences
@@ -80,9 +81,7 @@ def segmenttext(node,mode,segmenter):
     txt = ''.join(list(node.itertext()))
     if txt is not None and len(txt.strip())>0:
       # clear all text
-      node.text = ''
-      for elem in node:
-          elem.text = ''
+      node.clear()
       ss = groupbyreg(txt,regex(mode),mode,segmenter)
       for s in ss:
        sub = etree.SubElement(node, 's')
@@ -107,26 +106,40 @@ def groupbyreg(txt,reg,mode,segmenter):
       if mode=='para':   # segmented by paragraphs, do not segment further
         return [txt] 
 
+ 
       else:
         chunks = []
         nxtchunk  = '' 
+        def breakIt(match,nxtchunk,txt,chunks,mode):
+           (st,end)    = match.span()
+           (first,sec) = extractStartAndStop(match.group(),mode)
+           chunk       = nxtchunk+txt[:st]+first
+           chunks      += [chunk]
+           nxtchunk    = sec
+           txt         = txt[end:]
+           return (nxtchunk,txt)
+ 
         while True:
-          m = re.search(reg,txt,flags=re.UNICODE)
-          if m:
-            (st,end)    = m.span()
-            if not ignore(m.group(),mode):
-             (st,end)    = m.span()
-             (first,sec) = extractStartAndStop(m.group(),mode)
-             chunk       = nxtchunk+txt[:st]+first
-             chunks      += [chunk]
-             nxtchunk    = sec
-             txt         = txt[end:]
+          # look for § 1. 
+          n = re.search(parastring,txt,flags=re.UNICODE)
+          # if we find it, split here
+          if n:
+            (nxtchunk,txt) = breakIt(n,nxtchunk,txt,chunks,'cap')
+          # else look for our normal sentence splitter
+          else:
+            m = re.search(reg,txt,flags=re.UNICODE)
+            if m:
+              (st,end)    = m.span()
+              # roman numbers etc. can be ignored
+              if not ignore(m.group(),mode):
+                (nxtchunk,txt) = breakIt(m,nxtchunk,txt,chunks,mode)
+              else: 
+               nxtchunk = nxtchunk+ txt[:end]
+               txt = txt[end:]
             else: 
-             nxtchunk = nxtchunk+ txt[:end]
-             txt = txt[end:]
-          else: 
-             chunks += [nxtchunk+txt]
-             break
+               chunks += [nxtchunk+txt]
+               break
+
         return chunks 
 
 # defines which part of the stop-section that belong to the new vs. old sentence
@@ -158,6 +171,8 @@ pagenumbers = p1+'|'+p2+'|'+p3
 
 startstring = u'(^|\s)'
 punkt = u"[.,¶]\s*(" 
+parastring = u'§\.*\s*[0-9]+\.*' # §. 1. 
+
 cap = startstring+uppers+'\w*'
 cpC = punkt+pagenumbers+u')*\s*'+uppers+'\w*'
 

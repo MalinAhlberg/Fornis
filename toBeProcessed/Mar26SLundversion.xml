@@ -1,0 +1,1498 @@
+<doc><preamble><rtf-definition code-page="ansicpg1252" default-font="Times New Roman" platform="Windows" /><font-table><font-in-table name="Times New Roman" num="0" /><font-in-table name="Times" num="4" /><font-in-table name="Tms Rmn" num="8" /><font-in-table name="Cardo" num="27" /><font-in-table name="Times New Roman CE" num="194" /><font-in-table name="Times New Roman Cyr" num="195" /><font-in-table name="Times New Roman Greek" num="197" /><font-in-table name="Times New Roman Tur" num="198" /><font-in-table name="Times New Roman (Hebrew)" num="199" /><font-in-table name="Times New Roman (Arabic)" num="200" /><font-in-table name="Times New Roman Baltic" num="201" /><font-in-table name="Times CE" num="226" /><font-in-table name="Times Tur" num="230" /><font-in-table name="Times Baltic" num="233" /><font-in-table name="Cardo CE" num="410" /><font-in-table name="Cardo Greek" num="413" /><font-in-table name="Cardo Tur" num="414" /><font-in-table name="Cardo (Hebrew)" num="415" /><font-in-table name="Cardo Baltic" num="417" /></font-table><color-table><color-in-table num="1" value="#000000" /><color-in-table num="2" value="#0000FF" /><color-in-table num="3" value="#00FFFF" /><color-in-table num="4" value="#00FF00" /><color-in-table num="5" value="#FF00FF" /><color-in-table num="6" value="#FF0000" /><color-in-table num="7" value="#FFFF00" /><color-in-table num="8" value="#FFFFFF" /><color-in-table num="9" value="#000080" /><color-in-table num="10" value="#008080" /><color-in-table num="11" value="#008000" /><color-in-table num="12" value="#800080" /><color-in-table num="13" value="#800000" /><color-in-table num="14" value="#808000" /><color-in-table num="15" value="#808080" /><color-in-table num="16" value="#C0C0C0" /></color-table><style-table><paragraph-styles><paragraph-style-in-table adjust-right="true" align="left" based-on-style="Normal" font-size="12.00" font-style="Cardo" language="German" left-indent="0.00" name="Body Text" nest-level="0" next-style="Body Text" num="15" right-indent="0.00" space-after="6.00" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="just" based-on-style="&#220;berschrift 11" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" next-style="&#220;berschriftLund" num="21" right-indent="0.00" space-before="12.00" tabs="left:35.45;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="left" based-on-style="Normal" font-size="12.00" language="German" left-indent="0.00" name="header" nest-level="0" next-style="header" num="17" right-indent="0.00" tabs="center:226.80;right:453.60;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="cent" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-12.00" name="&#220;berschrift 11" nest-level="0" next-style="&#220;berschrift 11" num="16" right-indent="0.00" space-before="12.00" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="just" based-on-style="Anfangsabsatz" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" next-style="Absatzanfang" num="19" right-indent="0.00" tabs="left:0.00;left:35.45;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="left" based-on-style="Normal" font-size="12.00" language="German" left-indent="0.00" name="footer" nest-level="0" next-style="footer" num="18" right-indent="0.00" tabs="center:226.80;right:453.60;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="left" font-size="10.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-12.00" name="Format Kopfzeile" nest-level="0" next-style="Format Kopfzeile" num="22" right-indent="0.00" tabs="center:216.00;left:360.00;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="left" font-size="12.00" language="German" left-indent="0.00" name="Normal" nest-level="0" next-style="Normal" num="0" right-indent="0.00" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="just" first-line-indent="21.25" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-12.00" name="Anfangsabsatz" nest-level="0" next-style="Anfangsabsatz" num="20" right-indent="0.00" tabs="left:177.20;left:216.00;" widow-control="true" /></paragraph-styles><character-styles><character-style-in-table name="Default Paragraph Font" num="10" /></character-styles><styles-in-body><paragraph-style-in-body adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-12.00" name="&#220;berschrift 11" right-indent="0.00" space-before="12.00" style-number="s0001" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" name="&#220;berschrift 11" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0002" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" first-line-indent="35.40" font-style="Times New Roman" left-indent="35.40" name="&#220;berschrift 11" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0003" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="&#220;berschrift 11" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0004" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" first-line-indent="35.40" font-style="Times New Roman" left-indent="0.00" name="&#220;berschrift 11" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0005" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0006" tabs="left:177.20;left:216.00;" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0007" tabs="left:0.00;" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0008" tabs="left:177.20;left:216.00;" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0009" tabs="left:0.00;left:35.45;" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0010" tabs="left:35.45;" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0012" tabs="left:35.45;" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0013" tabs="left:0.00;left:35.45;" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" first-line-indent="21.25" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0014" tabs="left:177.20;left:216.00;" widow-control="true" /></styles-in-body></style-table><doc-information><title>"Sancit Marci Euangelium"</title><author>hkh3</author><operator>hkh3</operator><creation-time day="11" minute="29" month="1" year="2006" /><revision-time day="11" minute="46" month="1" year="2006" /><editing-time editing-time="0" /><number-of-pages number-of-pages="23" /><number-of-words number-of-words="12034" /><number-of-characters number-of-characters="-32766" /><begin>1526</begin><end>1526</end></doc-information><page-definition gutter="0" margin-bottom="56.70" margin-left="56.70" margin-right="56.70" margin-top="56.70" paper-height="842.00" paper-width="595.35" /></preamble><body><section level="0" num="1" num-in-level="1" type="rtf-native"><paragraph-definition adjust-right="true" align="just" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" name="&#220;berschrift 11" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times">
+[</inline><inline font-size="12.00" font-style="Times"><hskr num="22a" >]</inline></para><para><inline font-size="12.00" font-style="Times">[Sancti
+Marci Euangelium.]</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" first-line-indent="35.40" font-style="Times New Roman" left-indent="35.40" name="&#220;berschrift 11" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0003" widow-control="true"><para><inline font-size="12.00" font-style="Times">F&#246;rsta
+Capitel.</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="&#220;berschrift 11" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0004" widow-control="true"><para><inline font-size="12.00" font-style="Times">Thetta &#228;r begynnilsen aff Jesu
+Christi gudz sons euangelio, s&#229;som scriffuit &#228;r j propheterna,
+Sy, iach sender min engel fram f&#246;r titt ansichte, huilkin beredha skal
+thin w&#228;gh f&#246;r tich, En ropa</inline><inline font-size="12.00" font-style="Times" italics="true">n</inline><inline font-size="12.00" font-style="Times">de r&#246;st &#228;r j &#246;knen, bereedher
+herra</inline><inline font-size="12.00" font-style="Times" italics="true">n</inline><inline font-size="12.00" font-style="Times">s
+w&#228;gh, g&#246;rer hans stijghar
+retta.</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" first-line-indent="35.40" font-style="Times New Roman" left-indent="0.00" name="&#220;berschrift 11" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0005" widow-control="true"><para><inline font-size="12.00" font-style="Times">Joannes
+d&#246;pte j &#246;knen och predicade b&#228;tri</inline><inline font-size="12.00" font-style="Times" italics="true">n</inline><inline font-size="12.00" font-style="Times">genes d&#246;pelse till syndernes
+f&#246;rl&#229;tilse, Och till hono</inline><inline font-size="12.00" font-style="Times" italics="true">m</inline><inline font-size="12.00" font-style="Times"> vtgingo hela Judhae landit, och the vtaff Hierusalem, och
+d&#246;ptes alle aff honom j Jordans floodh, wedherkennandes theres
+synder.</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0006" tabs="left:177.20;left:216.00;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0007" tabs="left:0.00;" widow-control="true"><para>	<inline font-style="Times">Och Joannes war kl&#228;dder medh camele
+h&#229;&#229;r, och medh en l&#228;dergiording om hans l&#228;nder, och
+&#229;&#229;t gr&#228;&#223;hoppor och villho</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">nugh,
+och predicadhe och sagde, En kommer effter mich som starkare &#228;r
+&#228;n iach, th</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">n iach icke
+w&#228;rdugh &#228;r, ath iach mich nedh</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">rb&#246;yer och
+vpl&#246;ser ha</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">s skooremar Jach
+d&#246;per idher j watn, men han warder idher d&#246;pa</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">des j
+th</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">m helgha
+anda.</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0008" tabs="left:177.20;left:216.00;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0007" tabs="left:0.00;" widow-control="true"><para>	<inline font-style="Times">Och thet begaff sich j the daghar, ath Jesus kom vtaff
+Galileam fr&#229; Nazaret, och wart d&#246;pt aff Joa</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">ne, vthi
+Jordans floodh, och strax th&#229; han steegh vpp vthwr watnet, s&#229;gh
+han himblanar ypnas, och andan s&#229;&#229;som ena duffuo
+nedherko</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times">mandes &#246;ffuer honom, och en r&#246;st kom vtaff
+hi</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times">melen, Tw &#228;st min k&#228;ra son, vthi huilkom mich
+w&#228;lbehagar.</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0008" tabs="left:177.20;left:216.00;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0007" tabs="left:0.00;" widow-control="true"><para>	<inline font-style="Times">Och anden dreeff hon</inline><inline font-style="Times" italics="true">om</inline><inline font-style="Times"> strax vthi
+&#246;knen, och han war j &#246;knen fyratiyo daghar, och frestadhes aff
+satana, och war medh wildiuren, och englanar tiente
+honom.</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0008" tabs="left:177.20;left:216.00;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0007" tabs="left:0.00;" widow-control="true"><para>	<inline font-style="Times">Men sedhan Joannes wort fongen, kom Jesus vthi
+Galilea</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times"> och predicadhe euangeliu</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times"> om gudz rijke,
+s&#228;yandes, tijdhen &#228;r vpfylt, och gudz rijke &#228;r f&#246;r
+handen, b&#228;tren idher, och troon
+euangelio.</inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0009" tabs="left:0.00;left:35.45;" widow-control="true"><para>	<inline font-style="Times">N&#228;r han
+gick vth medh thet Galileeske haffuet, s&#229;gh han Symonem och Andream hans
+brodher kastandes sin n&#228;t j haffuet, ty the woro fiskare, och Jesus
+sagde till them, f&#246;lier mich, och iach will g&#246;ra idher
+me</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">niskiors fiskare, strax g&#229;ffuo the theres n&#228;t
+vt&#246;ffuer, och f&#246;lgde hono</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times">.</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0008" tabs="left:177.20;left:216.00;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0009" tabs="left:0.00;left:35.45;" widow-control="true"><para>	<inline font-style="Times">Och th&#229; han
+gick t&#228;dhan litith fram b&#228;ter, s&#229;gh han Jacobum Zebedei
+son, och Joannem hans brodher, the och j b&#229;tenom till hopa lagde theres
+n&#228;t, och strax kalladhe han them, th&#229; &#246;ffuerg&#229;ffuo
+the theres fadher Zebedeum vti b&#229;ten medh legodr&#228;ngianar, och
+f&#246;lgde
+honom.</inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0010" tabs="left:35.45;" widow-control="true"><para>	<inline font-style="Times">Och the gingo in
+vthi Capernau</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times">, och strax om sabatz
+daghanar gick han in j synagoganar, och l&#228;rde, och the
+f&#246;rundradhe stoorligha p&#229; ha</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">s l&#228;rdom,
+f&#246;r ty han l&#228;rde s&#229;som, th</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">n ther wellugh war, och
+icke s&#229;som the
+scrifftl&#228;rdhe.</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0008" tabs="left:177.20;left:216.00;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para>	Och j theres sinagoga war en me<inline italics="true">n</inline>niskia besatt medh th<inline italics="true">e</inline>n fula andan, och ha<inline italics="true">n</inline>
+ropadhe, ah huad haffue wij medh tigh bestella Jesu Nazarene? &#228;st tw
+ko<inline italics="true">m</inline>men till ath f&#246;rderff<inline italics="true">u</inline>a oss? Jach weeth ath tw &#228;st then gudz helighe,
+och Jesus nepste hono<inline italics="true">m</inline> s&#228;yandes, Tijgh
+och gack vthaff me<inline italics="true">n</inline>niskione, Th&#229; reeff
+then fule anden honom, och alle f&#246;rundradhe sich sw&#229;rligha,
+s&#229; ath the sporde hwar anna<inline italics="true">n</inline> till, huad
+&#228;r thetta?, huad ny l&#228;rdo<inline italics="true">m</inline>
+&#228;r thetta?, ty han biwdher medh welligheet them fula andomen,
+och</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline>
+22b]</para><para>lydha honom, och hans rykte gick strax alle stedz kringom hela
+landith som grenzar in p&#229; Galileam.</para><para /><para>	Och gingo
+the vthwr synagogen och komo strax vthi Symonis och Andree hws medh Jacobo och
+Joa<inline italics="true">n</inline>ne, och Symonis sw&#228;ra l&#229;gh
+siwk j sk&#228;lffuo, och strax sadhe the honom vthaff henne, Th&#229; gick
+han till och reeste he<inline italics="true">n</inline>ne vpp, och toogh henne
+vidh ha<inline italics="true">n</inline>den, och j thet samma gaff
+sk&#228;lffwosiwkan henne vth&#246;ffuer, och hon gick sedhan och tiente
+them.</para><para /><para>	Om afftone<inline italics="true">n</inline>
+th&#229; solen nedh<inline italics="true">e</inline>rg&#229;ngen war, hadhe
+the till hono<inline italics="true">m</inline> allaha<inline italics="true">n</inline>dra siwkar, och the som qwaldes aff dieflar, och hela
+stadhe<inline italics="true">n</inline> war f&#246;rsamblath f&#246;r
+d&#246;rena, och han giordhe monga helbreghda som kranke w&#229;ro aff
+allahanda siwkdom, och dreff vth mo<inline italics="true">n</inline>ga dieflar,
+och ha icke tilstadde dieflana tala f&#246;r ty the k&#228;nde
+honom.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0006" tabs="left:177.20;left:216.00;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para>	Och om morgone<inline italics="true">n</inline> ganska bittidha f&#246;r dagh, stoodh han vpp, och
+n&#228;r han war vthgongen, gick han bort vthi it &#246;dherum och ther
+badh han, Och Symon kom effterfarandes och the medh hono<inline italics="true">m</inline> w&#229;ro, och th&#229; the funno hono<inline italics="true">m</inline>, sadhe the till hono<inline italics="true">m</inline>, alle s&#246;kia tich, Sadhe han them, l&#228;t
+oss g&#229; vthi n&#228;sta byianar, ath iach och th<inline italics="true">e</inline>r predicar, ty f&#246;r th<inline italics="true">e</inline>n skul &#228;r iach kommen, Och han predicade j
+theres synagogor, vt&#246;ffuer hela Galilee landit, och vthdreff
+dieflanar.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0006" tabs="left:177.20;left:216.00;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0012" tabs="left:35.45;" widow-control="true"><para>	Och till hono<inline italics="true">m</inline> kom en spitt&#228;lsk man och badh hono<inline italics="true">m</inline>, fallandes p&#229; sin kn&#228;, och sagde til
+hono<inline italics="true">m</inline>, Vill tw s&#229; kan tw g&#246;ra
+mich reen, Th&#229; varku<inline italics="true">n</inline>nadhe Jesus sich
+&#246;ffuer hono<inline italics="true">m</inline>, och vthr&#228;kte sina
+hand, och toogh vpp&#229; hono<inline italics="true">m</inline>, och sagde,
+Jach vill, war reen, Och n&#228;r han thet sagt hafde, gick strax
+spitt&#228;lskan vthaff hono<inline italics="true">m</inline>, och wart reen,
+Och Jesus hotadhe hono<inline italics="true">m</inline> och senden strax j
+fr&#229; sich och sagde hono<inline italics="true">m</inline>, See till ath
+tw segher ingen thetta, vtan gaak bort, och wisa tich presteno<inline italics="true">m</inline>, och offra f&#246;r thina reenilse thet Moses
+budhit haffuer them till itt witnesbyrdh, Men th&#229; han vthgonge<inline italics="true">n</inline> war begy<inline italics="true">n</inline>te han
+f&#246;rku<inline italics="true">n</inline>na och berychta th<inline italics="true">et</inline> som skeedt war, s&#229; ath Jesus icke nw meer
+kunde openbarligha g&#229; in vthi stadhen, vthan bleeff vthe j
+&#246;dheru<inline italics="true">m</inline>men, och the komo till honom aff
+alla endar.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0013" tabs="left:0.00;left:35.45;" widow-control="true"><para>		Annat
+Capitel.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" first-line-indent="21.25" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0014" tabs="left:177.20;left:216.00;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0008" tabs="left:177.20;left:216.00;" widow-control="true"><para><inline font-style="Times">OCh sedhan effter
+n&#229;ghra daghar gick han &#229;ter in j Capernau</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times">, och
+th</inline><inline font-style="Times" italics="true">et</inline><inline font-style="Times"> spoordes ath han war j hwset, strax f&#246;rsamblades
+ther mo</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">ge, s&#229; ath rwmet som ther f&#246;r d&#246;ren
+war, r&#228;kte th</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">m icke heller til, och
+hafde han tall f&#246;r them, och the hafde fram f&#246;r
+hono</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times"> en borttaghen man, th</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">n th</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">r
+frambure</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times"> war vthaff fyra, och th&#229; the icke ku</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">de
+ko</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times">ma til hono</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times"> f&#246;r folkit
+skul, refuo the taket p&#229; hwset ther han war, och giorde it holl
+p&#229; taket, och medh togh slepte nedher sengena, th</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">r
+th</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">n borttaghne manne</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times"> vthi l&#229;gh,
+N&#228;r Jesus s&#229;gh theres troo, sagde han till then borttaghna, Min
+son tina synder ware tich
+f&#246;rl&#229;tna.</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para>	S&#229; w&#229;ro ther noghre vthaff the
+scrifftl&#228;rde, sitiandes och tenkte j theres hierta, Hwi talar the<inline italics="true">n</inline>ne s&#229;dana h&#228;dhilse? hoo kan
+f&#246;rl&#229;ta synderna vtan allenast gudh? Och strax Jesus
+f&#246;rnam th<inline italics="true">et</inline> j sinom anda ath the
+s&#229;dant tenkte vidh sigh sielffwa sagde han th<inline italics="true">e</inline>m, Hwi tenken j s&#229;da<inline italics="true">n</inline>t j idh<inline italics="true">e</inline>r hierta?
+huilkit &#228;r l&#228;ttare s&#228;ya th<inline italics="true">e</inline>m borttaghno manneno<inline italics="true">m</inline>,
+tina synd<inline italics="true">er</inline> wari tich f&#246;rl&#229;tna,
+eller s&#228;ya, statt vp och tagh tina seng och gack? doch vpp&#229;
+th<inline italics="true">et</inline> j skole<inline italics="true">n</inline>
+weta ath me<inline italics="true">n</inline>niskio<inline italics="true">n</inline>ne son hafuer makt p&#229; iordena til ath
+f&#246;rl&#229;ta synd<inline italics="true">er</inline>na, sagde ha<inline italics="true">n</inline> til th<inline italics="true">e</inline>n borttagna
+ma<inline italics="true">n</inline>ne<inline italics="true">n</inline>, Tich
+s&#228;gh<inline italics="true">e</inline>r iach, stat vp och tagh tina seng,
+och gack j tit hus, och strax stod</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline> 23a]</para><para>han vpp, och toogh
+sina sengh, och gick vth j allas theras &#229;syn s&#229; ath alle vndradhe
+stoorligha och prijsadhe gudh, seyandes, s&#229;dant s&#229;gho wij
+aldrigh.</para><para /><para>	Och han gick &#229;ter vth till haffuet,
+och alt folkit kom till honom och han l&#228;rde them, och th&#229; Jesus
+gick fram &#246;ffuer, s&#229;&#229;gh han Leui Alphei son sitiandes widh
+tollen, och sagde til honom f&#246;lgh mich, och han stoodh vpp och folgde
+honom, och thet begaff sich, ath th&#229; han satt tilbordh j hans hwse,
+s&#229;to och teslikes monge publicaner och syndare till bordz medh Jesu och
+hans l&#228;ryungar, ty the w&#229;ro monge som haffde folgt honom, och
+th&#229; the scrifftl&#228;rde och phariseer s&#229;gho, ath han
+&#229;&#229;t medh the publicaner och syndare, sagde the till hans
+l&#228;ryungar, huad &#228;r thet ath han &#228;ter och dricker medh
+publicaner och syndare? N&#228;r Jesus thet h&#246;rde sagde han till them,
+The ther helbryghda &#228;ro, beh&#246;ffua icke l&#228;kiaren, vtan the
+som kranche &#228;ro, iach &#228;r icke kommen till ath kalla the
+retferdugha, vtan syndare till b&#228;tring.</para><para /><para>	Och
+Joannis l&#228;ryungar och the phariseer pl&#228;gadhe fasta, och the
+ko<inline italics="true">m</inline>mo och sagde till honom, Hwi fasta Joannis
+l&#228;ryungar och the phariseer, och thina l&#228;ryungar fasta intit?,
+Sagde Jesus till them, br&#246;llops barnen kunna the fasta s&#229; lenge
+bruddgu<inline italics="true">m</inline>men &#228;r medh them?, S&#229;
+lenge the hafua brudgu<inline italics="true">m</inline>man n&#228;r sich
+kunna the icke fasta, the dagha wardha ko<inline italics="true">m</inline>mandes ath brudgu<inline italics="true">m</inline>men
+skal wardha fr&#229; th<inline italics="true">e</inline>m taghen, och
+th&#229; skola the fasta j the daghar, och ingen widh<inline italics="true">e</inline>rs&#246;mer ena boot aff nygiordt kl&#228;dhe vthi
+n&#229;ghon ga<inline italics="true">m</inline>mul kl&#228;dning,
+f&#246;r ty han rijffwer doch thet ny ins&#228;tta stycket fr&#229; the
+gambla, och reffwan wardher werre, och ingen l&#229;ther ny wijnmost vthi
+gambla flaskor, annars slaar wijnmosten flaskonar synder, och wijnet spilles
+vth, och flaskonar f&#246;rderffwas, vtan wijnmost skal slaas vthi nyia
+flaskor.</para><para /><para>	Och th<inline italics="true">et</inline>
+begaff sich, ath han p&#229; Sabbatz daghanar gick &#246;fwer s&#229;dh,
+och hans l&#228;ryungar begynte j v&#228;ghen vppryckia ax, och the
+phariseer sagde till honom, Sy, hwi g&#246;ra the om sabbatz daghanar thet
+som icke loflighit &#228;r? och sagde han till them, hafwen j aldrich
+l&#228;sit huad Dauid giordhe th&#229; honom vmtr&#228;ngde, och war
+hungrogh, han och the ther medh honom w&#229;ro, hurw han gick in vthi gudz
+hws, vnder then &#246;ffwerste presten abiathar, och &#229;&#229;t the
+framliggiandes br&#246;dh, huilken ingom w&#229;ro loflighen ath &#228;ta
+vtan prestomen, och gaff teslikes th<inline italics="true">e</inline>m som medh
+honom w&#229;ro, och han sagde till them, sabbatz daghen &#228;r giordh
+f&#246;r menniskio<inline italics="true">n</inline>ne skul, och icke
+me<inline italics="true">n</inline>niskian f&#246;r sabbatz daghe<inline italics="true">n</inline>, S&#229; &#228;r nw menniskio<inline italics="true">n</inline>ne son en herre, och teslikes &#246;ffwer sabbatz
+daghen.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0012" tabs="left:35.45;" widow-control="true"><para>		Tridie
+Capitel.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" first-line-indent="21.25" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0014" tabs="left:177.20;left:216.00;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0008" tabs="left:177.20;left:216.00;" widow-control="true"><para><inline font-style="Times">OCh gick han &#229;ter
+in vthi synagogan, och ther war en man som hafde ena bortwisnadha hand, och the
+togho wara p&#229; honom, om han skulle bota hono</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times"> om
+sabbatzdaghe</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">, p&#229; thet ath
+the skulle f&#229; beklagha hono</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times">, Th&#229; sagde han
+till manne</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times"> som then wisnadha handen haffde, Statt hijt fram, och sagde
+han till them, huilkit thera &#228;r loflighit, antingen g&#246;ra
+w&#228;l om sabbatz daghanar, eller g&#246;ra illa?, hielpa liffwet eller
+dr&#228;pa? th&#229; tijgde the, Th&#229; s&#229;gh han vpp&#229;
+them medh wredhe, och f&#246;rynkadhe sich vt&#246;ffwer theres hiertes
+blindheet, och sagde till mannen, r&#228;ck vth thina
+hand,</inline></para><para /><para>[<inline font-size="14.00" font-style="Times">&#8225;&#8225;</inline> 23b]</para><para><inline font-style="Times">han r&#228;ckte henne vth, och handen wart honom ferdugh
+jgen s&#229; som then
+andra.</inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para>	Men the phariseer gingo strax vth, och
+h&#246;llo itt r&#229;&#229;dh medh the Herodianer emoot honom, ath the
+kunde f&#246;rg&#246;ra honom, Men Jesus medh sina l&#228;ryungar gick
+&#229;ff sijdhes bort moot haffuet, och folghde honom itt stort tal folk, aff
+Galilea land och aff Judea land, och vthaff Hierusalem, och vthaff Jdumea, och
+vthaff hinsidhen Jorda<inline italics="true">n</inline>s floodh och the
+th<inline italics="true">e</inline>r boodde widh Tyrum och Sidone<inline italics="true">m</inline> en ganska stoor hoop folk som komo till honom
+n&#228;r the h&#246;rde aff hans gerningar, Och sagde han till sina
+l&#228;ryungar, ath the skulle fly honom en b&#229;&#229;t f&#246;r
+folkit skull, ath the icke skulle tr&#228;ngia honom, f&#246;r ty han
+haffde giordt mo<inline italics="true">n</inline>ga helbregda, s&#229; ath
+the &#246;ffuerf&#246;llo honom, och wille tagha p&#229; honom, s&#229;
+monga som n&#229;ghro pl&#229;gho haffde, och the fula andar n&#228;r the
+s&#229;gho honom f&#246;llo the fram f&#246;r hono<inline italics="true">m</inline>, och ropadhe s&#228;yandes, Tw &#228;st gudz son,
+och han hootadhe th<inline italics="true">e</inline>m hardeligha, ath the icke
+skulle openbara hono<inline italics="true">m</inline>, Och steegh han vpp
+p&#229; itt b&#228;rgh, och kalladhe till sich hwem han wille, och the komo
+till honom, och th&#229; skickadhe han tolff ath the skulle wara medh honom,
+och ath han skulle vthsenda them till ath predika, och ath the skulle hafua
+makt, till ath bota siwkdomar, och vthdriffua dieflar, och gaff Simoni thet
+nampnet Petrus, och Jacobum Zebedei son, och Joha<inline italics="true">n</inline>nem Jacobs brodher, och nempde them boanerges, thet
+&#228;r saght, tord&#246;nsens barn, och Andream och Philippum, och
+Bartholomeum och Mattheum, och Thomam, och Jacobum Alphei son, och Taddeum, och
+Simonem Chananeum, och Judam Jschariothen, then hono<inline italics="true">m</inline> och
+f&#246;rr&#229;dde.</para><para /><para>	Och the komo j hwset, och
+folkit f&#246;rsambladhe sich &#229;ther, s&#229; ath the icke tijdh
+haffde till ath &#228;ta, och n&#228;r the thetta h&#246;rdhe som honom
+affkomne waro, gingo the vth och wille tagha fatt p&#229; honom, och sagde
+han &#228;r willer worden, Och the scrifftl&#228;rdhe som aff
+Hierusale<inline italics="true">m</inline> nedherko<inline italics="true">m</inline>ne w&#229;ro, sagde, han haffuer en Beelzebub, och
+medh then &#246;ffuersta dieffwulen driffwer, han diefflanar vth, Th&#229;
+kalladhe han th<inline italics="true">e</inline>m til sich och sagde till them
+j lijknilse, huru kan en satanas then andra vthdriffwa?, och wardher itt rike
+syndrat emoot sich sielfft, th&#229; kan thet rijkit icke st&#229;&#229;,
+och ther itt hws &#228;r syndrat emoot sich sielfft, thet hwset kan icke
+bliffua st&#229;ndandes, S&#228;ter nw satanas sich vpp emoot sich sielff,
+och &#228;r syndrat, th&#229; kan han icke bliffua best&#229;nda<inline italics="true">n</inline>des, vtan thet &#228;r th&#229; vthe medh honom,
+Jngen kan infalla vthi en starckmandz hws, och tagha hans hw&#223;tygh bort,
+vtan han f&#246;rst binder then starka, och s&#229; skinnar han hans
+hws.</para><para /><para>	Sannerligha s&#228;gher iach idher, alla
+synder och gudz h&#228;dhelse th<inline italics="true">e</inline>r the gudh
+medh h&#228;dha, wardha f&#246;rl&#229;tna me<inline italics="true">n</inline>niskers barnom, men then th<inline italics="true">e</inline>r h&#228;dher then helgha anda, han haffuer ingen
+f&#246;rl&#229;tilse j ewogh tijdh, vtan bliffuer saker till ewogh
+f&#246;rd&#246;milse, f&#246;r ty the sagde han hafuer th<inline italics="true">e</inline>n fula andan.</para><para /><para>	Och th&#229;
+kom hans modher och ha<inline italics="true">n</inline>s br&#246;dhra, och
+stodho vthe, och sende n&#229;ghra till hono<inline italics="true">m</inline>, som hono<inline italics="true">m</inline> vthkalla
+skulle, och folkit sat n&#228;r honom och the sagde til hono<inline italics="true">m</inline>, Sy, thijn modh<inline italics="true">e</inline>r och
+thina br&#246;dhra &#228;ro th<inline italics="true">e</inline>r vthe och
+s&#246;kia effter tich, han swaradhe them och sagde, hoo &#228;r mijn
+modher och mina br&#246;dhra? Och th&#229; han omkringhseeth haffde
+p&#229; l&#228;ryunganar</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline> 24a]</para><para>som ther kring om
+honom s&#229;tho, sagde han, Sy, mijn modher och mine br&#246;dhra,
+f&#246;rty then ther g&#246;r gudz wilia, han &#228;r min brodher och
+mijn syster och mijn modher.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0012" tabs="left:35.45;" widow-control="true"><para>		Fierde
+Capitel.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0006" tabs="left:177.20;left:216.00;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para>OCh begynte han &#229;ter l&#228;ra vidh
+haffuet, och f&#246;rsamblades till honom mykit folk, s&#229; ath han steeg
+in vthi itt skip, och satt ther p&#229; haffuet, och alt folkit bleeff
+p&#229; landet vidh haffuet, och han l&#228;rde them mong stycke
+geno<inline italics="true">m</inline> lijknelse, och sagde them vthi sin
+l&#228;rdo<inline italics="true">m</inline>, h&#246;rer till, Sy, en
+s&#228;dhesma<inline italics="true">n</inline> gick vth till ath
+s&#229;&#229;, och hende sich vidh han s&#229;dde, ath sompt f&#246;ll
+vidh v&#228;gen, och foghlana vnder himmelen komo och &#229;to thet vpp,
+Thet andra f&#246;ll p&#229; steen &#246;ren, ther icke mykin iordh war,
+och thet gick strax vpp, ty th<inline italics="true">e</inline>r war icke diwp
+iord Men th&#229; solen gick vpp f&#246;rbran thet, och
+f&#246;rt&#246;rkades, effter thet war icke w&#228;l berotath, och sompt
+f&#246;ll j t&#246;rne, och t&#246;rnebuskana wexte vpp, och
+nedhertryckte th<inline italics="true">et</inline>, och thet gaff ingen fruct,
+och sompt f&#246;ll j godha iordh, och thet gaff fruct vppgongandes och
+vppw&#228;xandes, thet ena baar tretiyo, och itt sextiyo, och itt hu<inline italics="true">n</inline>dradhe, och sagde han th<inline italics="true">e</inline>m, then ther &#246;ron haffuer till ath h&#246;ra
+han h&#246;re.</para><para /><para>	Th&#229; han nw allena war sporde
+the honom till om thenne lijknilsen, the som medh honom w&#229;ro, medh the
+tolff, och han sagde til them, Jdher &#228;r giffuit, ath weta gudz rikes
+hemlicheet, men them ther vtanf&#246;re &#228;ro, skeer all ting genom
+lijknilse, p&#229; thet ath the skola medh &#246;ghon see, och doch
+likaw&#228;l icke besinnath, och medh h&#246;randes &#246;ron
+h&#246;ra, och doch icke f&#246;rst&#229;th, p&#229; thet ath the sich
+icke eens skola omwe<inline italics="true">n</inline>da, och synderna them
+f&#246;rl&#229;tna warda, och sagde han till them, f&#246;rst&#229; j
+icke thenna lijknilsen, huru vilien j th&#229; f&#246;rst<inline italics="true">&#229;</inline> all lijk<inline italics="true">n</inline>ilse?</para><para /><para>	S&#228;dhe&#223;manne<inline italics="true">n</inline> s&#229;&#229;r ordhit, men thenne &#228;re the
+som s&#228;yas somlighe wara widh w&#228;ghen ther ordith
+s&#229;&#229;s, och th&#229; the hafua thet h&#246;rt, strax ko<inline italics="true">m</inline>mer satanas, och tagh<inline italics="true">e</inline>r bort ordith, som s&#229;&#229;dt &#228;r j
+theres hierta, och somlighe &#228;ro sammelunda, the som j steen&#246;ren
+bes&#229;&#229;dda wardha, th&#229; the haffua h&#246;rt ordith, anamma
+the thet strax medh fr&#246;gd, och the haffua inga r&#246;ter j sich, vtan
+st&#229; till en tijdh, th&#229; n&#229;ghor bedr&#246;ffwilse kommer
+vpp&#229; eller f&#246;rf&#246;lielse f&#246;r ordit skull, strax
+f&#246;rarghas the, Och somlighe &#228;ro the ther j t&#246;rnen
+bes&#229;dde warda, tesse h&#246;ra ordit och the<inline italics="true">n</inline>ne werlde<inline italics="true">n</inline>nes
+omsorgher och rijkedomes bedr&#228;gerij, och andre tings beg&#228;rilse,
+g&#229; ther jn och f&#246;rtryckia ordit, och wardher ofructsamt, och
+andra &#228;ro the som vthi godha iordh bes&#229;dde &#228;ro, the ther
+ordit h&#246;ra och ana<inline italics="true">m</inline>mat, och b&#228;ra
+fruct, s&#229; ath sompt korn g&#246;r aff sich tr&#228;tiyo, och sompt
+sextiyo, och sompt hundradhe.</para><para /><para>	Och sadhe han till
+th<inline italics="true">e</inline>m, Jcke warder itt liws vptendt ther
+vpp&#229; ath man skal s&#228;tia thet vnder ena skeppo, eller vnder
+s&#228;ngena? Skeer thet icke f&#246;r then skul ath thet skal
+vps&#228;tias p&#229; liwsastachan? ty ath thet &#228;r intith doldt som
+icke openbaras skal, ey heller war hemlighit, vtan ath thet skal ko<inline italics="true">m</inline>ma fram, then th<inline italics="true">e</inline>r
+&#246;ron hafuer til ath h&#246;ra han h&#246;re, och sagde han till
+them, Seer till huad j h&#246;ren, medh huad m&#229;tt j m&#228;len, ther
+skola andra m&#228;la idher medh, och idh<inline italics="true">e</inline>r
+wardher &#228;n th&#229; tilgiffuit, j som h&#246;ren, ty then ther
+n&#229;ghot haffuer, honom wardher giffuit, och then ther icke haffuer, aff
+honom wardher och taghit thet han haffuer.</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline> 24b]</para><para>	Och sagde
+han, s&#229; &#228;r gudz rijke som en man kastadhe ena s&#228;dh j
+iordhena, och lagde sigh sidhan soffua, och thet vpstigher dagh och nath, och
+s&#228;dhen gr&#246;nskas, och wardher h&#246;gh, th&#229; han ther
+intit aff weeth, ty iordhen hon b&#228;r, vthaff sich sielff, f&#246;rst
+brudden, sedhan axet, sedhan bulbordath hwetit j axena, n&#228;r nw fruchten
+moghen &#228;r, strax kastar han liy&#228;n vpp&#229;, thy sk&#246;rde
+tijdhen &#228;r p&#229; f&#228;rde.</para><para /><para>	Och sagde
+han, hwem skola wij likna gudz rijke? och medh huad lijknilse wilia wij betekna
+thet, Thet &#228;r s&#229;som itt sinaps korn, huilkit th&#229; th<inline italics="true">et</inline> s&#229;ghet wardher j iordhena, &#228;r thet
+mindre &#228;n all annor fr&#246;&#246; som p&#229; iordhen &#228;r,
+och th&#229; th<inline italics="true">et</inline> s&#229;ghet &#228;r,
+vpp g&#229;r th<inline italics="true">et</inline>, och wardh<inline italics="true">e</inline>r st&#246;rre &#228;n all annor k&#229;lkrydder,
+och g&#246;r stora greenar s&#229; ath foghlanar som vnder himmelen
+&#228;ra, m&#229;gha boo, vnder tess skugga, Och medh mo<inline italics="true">n</inline>ga s&#229;dana lijknilse sagde han them ordith,
+effter som the f&#246;rmotte h&#246;ra, och vtan lijknilse taladhe han
+intit till them, men l&#228;ryungomen vthtydde han allting &#229;ff sidhes,
+Och th<inline italics="true">e</inline>n samma daghen, th&#229;
+afftone<inline italics="true">n</inline> wart, sagde han till them, wij wilia
+fara vth&#246;fuer, p&#229; then andra stranden, s&#229; lotho the folkit
+bliffua, och togho honom medh skepit, ther han redho vthi war, woro och
+teslikes n&#229;ghor annor skep medh honom.</para><para /><para>	Och
+ther vpw&#228;xte en storm, och v&#229;ghen sloogh in j skipet s&#229;
+ath thet f&#246;rfyltes, och han war soffwandes, baak j skipet, p&#229; itt
+hyiende, s&#229; wekte the vpp honom, och sagde, Mestar sk&#246;ter tw
+intitt ther om ath wij f&#246;rg&#229;s?, Och th&#229; han vpwekt war
+nepste han v&#228;dhrit, och sagde till hafuidh, tijgh och war stilla, och
+v&#228;dhrit saktadhe sich och wort en stoor stilheet, och sagde han till
+them, hwar f&#246;re &#228;ren j s&#229; r&#228;dde, huru ko<inline italics="true">m</inline>mer thet till ath j icke haffue<inline italics="true">n</inline> troona? och the wordho ganska
+f&#246;rskr&#228;kte, och sagde emellan sigh, hoo &#228;r the<inline italics="true">n</inline>na ty ath w&#228;dhret och hafuidh &#228;ra
+hono<inline italics="true">m</inline>
+lydoghe.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0012" tabs="left:35.45;" widow-control="true"><para>		Femte
+Capitel.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" first-line-indent="21.25" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0014" tabs="left:177.20;left:216.00;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="Times New Roman" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0008" tabs="left:177.20;left:216.00;" widow-control="true"><para><inline font-style="Times">S</inline><inline font-style="Times" italics="true">&#197;</inline><inline font-style="Times">&#229; komo the vth &#246;ffuer haffuedh in j then
+landzendan som gadarenis til h&#246;rde, och strax han steegh vthwr skepet
+lopp emoot honom vthwr griffter en man, besett medh then fula
+anda</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">, then ther pl&#228;gade boo vthi griffter, och
+ku</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">de honom ingen binda j k&#228;dhor, f&#246;r ty han
+hafde monga resor warit bunden medh fi&#228;trar och k&#228;dhor, och
+k&#228;dhonar wordo slitna aff honom, och fi&#228;trana synderslaghne, och
+ingen kunde sp&#228;ckia honom, Och han war altijdh dagh och natt p&#229;
+berghen, och j grifftenar, ropandis och sloogh sich sielfuan medh steenar,
+th&#229; ha</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times"> nw s&#229;gh Jesum
+fierran fr&#229; sich, lopp han till och f&#246;ll nedh</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">r
+f&#246;r honom och ropadhe medh h&#246;gha r&#246;st, och sagde, huad
+haffuer iach medh tich g&#246;ra Jesu h&#246;xte gudz son?, Jach
+besw&#228;r tich widh gudh, ath tw icke qw&#228;lier mich, Th&#229; sagde
+han till honom, faar vth aff menniskione tw fule ande, och spoorde han honom,
+huad &#228;r titt nampn, Swaradhe han, legio &#228;r mitt nampn, F&#246;r
+ty wij &#228;re monge, och han badh hono</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times"> stoorliga, ath han
+icke skulle driffua honom bort vthwr then
+landzendan.</inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para>	Och ther war icke longt fr&#229; berghit en
+stoor swina hiord, then ther gick och f&#246;dde sich, och diefflana
+b&#229;dho hono<inline italics="true">m</inline> alle seyandes, Sendt oss j
+swinen ath wij m&#229; g&#229; in vthi them, och Jesus vnte them thet
+strax, och the f<inline italics="true">u</inline>la andar drogho strax vth, och
+foro jn vthi swinen och hiorde<inline italics="true">n</inline></para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline>
+25a]</para><para>br&#229;dhst&#246;rte sich j haffuet, och w&#229;ro widh
+tw tusend, och wordo f&#246;rdr&#228;nkte vthi haffuet, Men the som
+sk&#246;tte swinen, flydde och forkunnadhe thet in j stadhen och om landit,
+Och the gingo vth ath see til huadh som skeedt war, och kommo till Jesum, och
+s&#229;gho honom som haffde bes&#228;tt varith och hafft legionen
+sitiandes, och kl&#228;ddan, och vidh sin sk&#228;l, och wordo
+f&#246;rf&#228;rade, Och f&#246;rtelde them the som seet haffde hwrw them
+bes&#228;tta skeedt war, och om swinen, Och the begynte bidhia hono<inline italics="true">m</inline> ath han skulle fara vthwr theres landz&#228;ndar,
+Och th&#229; han war stighe<inline italics="true">n</inline> til skips, badh
+hono<inline italics="true">m</inline> then som haffde bes&#228;tt warith, ath
+han motte wara n&#228;r honom, Men Jesus tilstadde thet icke, vtan sagde
+hono<inline italics="true">m</inline>, Gack thina f&#228;rde vthi titt hws
+till thina och f&#246;rkunna them hwrw stoor ting herren haffuer giordt medh
+tigh, och haffuer miskundat sich &#246;ffuer tich, Och han gick sina
+f&#228;rde, och begynte f&#246;rkunna vthi the tiyo st&#228;dher hwad
+stoor tingh Jesus medh hono<inline italics="true">m</inline> giordt haffdhe,
+och alla f&#246;rundradhe sigh.</para><para /><para>	Och th&#229;
+jesus war &#246;ffuerfaren igen medh skipet p&#229; thet andra landit,
+f&#246;rsambladhes till honom it stoort taall folk, och war hart widh
+haffuet, Och sy, ther kom en &#246;ffuerste &#246;ffuer synagogan benemd
+Jairos, och th&#229; han fich see honom f&#246;l han honom till
+f&#246;tterna, och badh honom stoorligha och sadhe, Myn dotter &#228;r j
+hennes ytersta, iach bidher tigh ath tw kommer, och legger hender p&#229;
+henne ath hon motte widherf&#229;&#229;s och leffua, och han gick medh
+honom, och folgdhe honom mykit folk och the tr&#228;ngde honom, Och en quinna
+som hadhe hafft bloodhg&#229;ng j tolff &#229;&#229;r, och hadhe mykit
+lidhit vthaff mongom l&#228;kiaro<inline italics="true">m</inline> och
+f&#246;rt&#228;rt ther medh alt sitt, och haffde doch ingen hielp
+f&#246;rnommit, vtan heller wart verre medh henne, Th&#229; hon
+h&#246;rde om Jesum, gaff hon sich in j folkit baak effter, och toogh
+p&#229; hans kl&#228;dher, och sadhe, Kunde iach ath minsto tagha p&#229;
+hans kl&#228;dher, th&#229; worde iach helbregda, Och strax
+f&#246;rt&#246;rkades he<inline italics="true">n</inline>nes
+bloodzk&#228;lla, Och k&#228;nde thet j kroppen ath hon botadh war vthaff
+then pl&#229;ghon.</para><para /><para>	Och Jesus f&#246;rnam strax j
+sich sielff at krafft vtgick aff honom, och wende sich om j bland folkit och
+sadhe, Hoo kom widh min kl&#228;dher? Och ha<inline italics="true">n</inline>s l&#228;ryu<inline italics="true">n</inline>gar
+sadhe til hono<inline italics="true">m</inline>, Seer tw icke folkit
+tr&#228;nger tich p&#229; alla sidhor, och tw s&#228;gher, hoo kom vidh
+mich? Och han s&#229;&#229;gh om kring effter henne som thet giord hadhe,
+Men quinna<inline italics="true">n</inline> hon fructadhe och b&#228;wadhe,
+ty hon viste hwadh medh henne skeedt war, och kom och f&#246;ll nidher
+f&#246;r honom, och sadhe honom alla sanninghen, Th&#229; sadhe han till
+henne, Dotter thin troo haffuer giordt tick helbr&#246;gda, gaak medh fridh
+och war helbregda aff thina pl&#229;gho.</para><para /><para>	Vidh han
+&#228;n nw taladhe komo n&#229;ghre fr&#229; th<inline italics="true">e</inline>n &#246;ffuersta f&#246;r synagogan the th<inline italics="true">e</inline>r sadhe, Thin dotter &#228;r d&#246;dh, hwi
+g&#246;r tw mestaren vtemerra omaak, Men Jesus strax th&#229; han
+h&#246;rde thetta taal, sadhe han till offuersten f&#246;r synagogen,
+Fructa tich intet allenast troo, Och han ey tilstadde ath honom noghor
+f&#246;lya skulle f&#246;r vtan Petrus och Jacobus och Joannes Jacobi
+brodher, Och s&#229; kom han j then &#246;westens hwss for synagogen, Och
+fich see bulret, och them som mykit <inline italics="true">s</inline>&#246;rgde och gr&#228;<inline italics="true">t</inline>e, och gick han in och sadhe till them, Huadh bulren j
+och gr&#229;ten?, Pigha<inline italics="true">n</inline> &#228;r icke
+d&#246;dh, men hon soffuer, Och the gi&#246;rde g&#228;ck vthaff honom,
+Th&#229; dreeff han alla vth, f&#246;r vtan fadheren och modheren till
+pighona, och the ther medh honom w&#229;ro, och gick in ther pighan
+l&#229;&#229;gh, och toogh</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline> 25b]</para><para>pighona vidh
+ha<inline italics="true">n</inline>den s&#228;yandes till he<inline italics="true">n</inline>ne, Tabitha cumi, th<inline italics="true">et</inline>
+&#228;r s&#229; mykit vthsag<inline italics="true">t</inline>, Pigha iach
+s&#228;gher tigh, statt vpp, Och strax stoodh pighan vpp och gick, och hon
+war vidh tolff &#229;&#229;r gammul, och the vorde &#246;fuerm&#229;ten
+f&#246;rskr&#228;kte, Och han f&#246;<inline italics="true">r</inline>b&#246;dh them strengeligha ath ingen skulle thet
+weta, och b&#246;dh giffua henne
+&#228;ta.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0012" tabs="left:35.45;" widow-control="true"><para>		Siette
+Capitel.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0006" tabs="left:177.20;left:216.00;" widow-control="true"><para><inline font-style="Times">OCh gick han
+t&#228;dhan, och kom in vthi sitt f&#228;dernes land, och hans
+l&#228;riungar f&#246;lgde honom, Och n&#228;r sabbatzdaghen kom begynte
+han ath l&#228;ra j synagogan, och monge aff them som h&#246;rde honom
+f&#246;rvndradhe stoorligha s&#228;yandes, Hwadhan ko</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times">mer
+honom thetta? Och hwadh vijsdom &#228;r thenne som honom giffuen &#228;r,
+och s&#229;dana kraffter skee geno</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times"> hans h&#228;nder?
+&#228;r icke thetta then timbermannen, Maries son, Jacobi brodher och Jose
+och Juda och Symonis?, &#228;ra och icke hans systrar h&#228;r n&#228;r
+oss?, Och the f&#246;rargadhes j honom, Th&#229; sadhe Jesus till them, En
+prophete warder icke f&#246;ractadh vta</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times"> j sitt
+f&#228;dhernes land, och jbla</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">d sina fr&#228;nder
+och j bla</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">d sitt folk, Och han kunde ther ingen krafft g&#246;ra,
+vtan thet ath han lagde henderna p&#229; noghra f&#229;&#229; siwka och
+botadhe them, och han forwndradhe sich f&#246;r theras otroheet
+skull.</inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para>	Och han gick om kring j byyanar alla
+st&#228;dz th<inline italics="true">e</inline>r om kringliggiandes och
+l&#228;rde, Och han kalladhe f&#246;re sigh the tolff, och begynte vthsenda
+them tw&#229; och tw&#229;, giffuandes them makt emoot the fula andar, och
+han b&#246;dh them ath the intit skulle tagha medh sich till w&#228;gs,
+vta<inline italics="true">n</inline> keppe<inline italics="true">n</inline>
+allena, icke skreppo, icke br&#246;dh, ingha p&#228;ni<inline italics="true">n</inline>ga j giordinghen, ey skoodde annars &#228;n medh
+solor, och ath the icke skulle kl&#228;dha sich vthi tw&#229; kiortlar, och
+sagde till them, Huar som h&#228;lst j ing&#229;&#229;n vthi it hws,
+bliffwer ther till t&#228;ss j vthg&#229;&#229;n t&#228;dhan, Och hoo
+som helst icke anammar idher, eller icke h&#246;rer idher, g&#229;&#229;r
+ther vth, och skudder aff idher thet stofft som &#228;r vnder idhra
+f&#246;ter, til itt vitnissbyrd &#246;ffuer them, Sannerligha s&#228;gher
+iach idher, dr&#228;gheligaren warder Sodomer och Gomorrer p&#229;
+domadagh, &#228;n them stadhenom.</para><para /><para>	Och the gingo vth
+och predikade ath the skulle b&#228;tra sich, och the vthdriffuo m&#229;ngo
+diefflar, och smoorde manga kranka medh olio och botadhe
+them.</para><para /><para>	Och fick ko<inline italics="true">n</inline>nung Herodes thetta h&#246;ra (ty hans nampn war
+reedho kunnokt) och sadhe, Then Joannes som d&#246;pte, han &#228;r
+vpstonden aff d&#246;dha, och ther f&#246;re werka kraffterna vthi
+hono<inline italics="true">m</inline> Somligha sadhe, Th<inline italics="true">et</inline> &#228;r Helyas, och somlighe sadhe, thet &#228;r
+en prophete, eller s&#229; som en aff propheterna, Th&#229; Herodes
+s&#229;dant h&#246;rde, sagde han, Thenne &#228;r Joannes som iach
+hal&#223;h&#246;g, han &#228;r vpst&#229;nde<inline italics="true">n</inline> aff
+d&#246;dha,</para><para /><para>	F&#246;rty Herodes haffde s&#228;nt
+sina ti&#228;nara och gripit Joannem och s&#228;tt hono<inline italics="true">m</inline> j fengilse f&#246;r herodiade<inline italics="true">m</inline> ha<inline italics="true">n</inline>s brodhers
+Philippi hustru skul, ty han haffde taghit henne till hustru, ty Joannes sadhe
+till Herodem, Tich &#228;r icke loffligit ath haffua thin brodhers hustru,
+Men Herodias gick effter hans arghesta, och hadhe gerna dr&#228;pit honom,
+och ku<inline italics="true">n</inline>de doch icke koma t&#228;ss vidher, ty
+herodes fructadhe Joannem, wetandes ath han war en froom och heligh man, och
+aktadhe honom, och lydde honom j mong styke, och h&#246;rde honom
+gerna.</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline>
+26a]</para><para>	Th&#229; nw kom en bel&#228;ghen dagh, ath Herodes
+p&#229; hans f&#246;dhilse dagh gaff sine &#246;ffuerste och
+h&#246;uidzmen och the ypperste j Galilee la<inline italics="true">n</inline>dit en afftonkost, gick herodiadis dotter in och
+dan&#223;adhe, och th<inline italics="true">et</inline> behagadhe Herodi och
+th<inline italics="true">e</inline>m ther medh honom s&#229;&#229;to vidh
+bordit, Th&#229; sadhe ko<inline italics="true">n</inline>nu<inline italics="true">n</inline>gen till pijghona, Bedh vthaff mich huad tw vill iach
+vill giffua tigh thet, Och swoor henne, huadh tw bidiandes warder aff mich,
+vill iach giffua tigh alt in til helfften aff mitt rijke, Hon gick vth och
+sadhe til sina modher, huad skal iach bedia?, Hon sadhe, Joannis Baptiste
+huffwudh, S&#229; gick hon strax vtan ijlan in til konnu<inline italics="true">n</inline>gen, och badh s&#228;ya<inline italics="true">n</inline>des, Jach vill ath tw giffuer mich strax p&#229; itt
+faat Joannis baptiste huffwudh Th&#229; wart konnu<inline italics="true">n</inline>gen bedr&#246;fuat, och f&#246;r edhe<inline italics="true">n</inline> skul och f&#246;r theres skul som ther s&#229;to
+widh bordhit wille han icke wisa henne aff, vtan strax s&#228;nde ko<inline italics="true">n</inline>nunge<inline italics="true">n</inline>
+b&#246;dhele<inline italics="true">n</inline>, och b&#246;dh inhemta
+ha<inline italics="true">n</inline>s huffwud, Han gick &#229;stad, och
+hal&#223;hug hono<inline italics="true">m</inline> j fongahuset, och baar
+fram hans huffwdh p&#229; itt faat, och fick pighone, och pighan fick
+th<inline italics="true">et</inline> he<inline italics="true">n</inline>nes
+modher, Th&#229; hans l&#228;ryungar th<inline italics="true">et</inline>
+sporde, ko<inline italics="true">m</inline>mo the och togho ha<inline italics="true">n</inline>s leka<inline italics="true">m</inline>men vpp och
+begroffuo th<inline italics="true">et</inline>.</para><para /><para>	Och
+apostlana f&#246;rsamladhes til Jesum <inline italics="true">o</inline>ch
+f&#246;rku<inline italics="true">n</inline>nadhe hono<inline italics="true">m</inline> all stycke och huad the giort hadhe, och huadh the
+l&#228;rdt hadhe, Th&#229; sadhe han till th<inline italics="true">e</inline>m, Ko<inline italics="true">m</inline>mer j allena
+affsides medh mich vthi &#246;dhemarken, Och hwilen idh<inline italics="true">e</inline>r naghot litit, ty ther woro mo<inline italics="true">n</inline>ga som gingo til och fr&#229;&#229;, s&#229; ath
+the hadhe icke tijdh till ath &#228;ta, Och s&#229; foor han bort aff
+sidhes til skeps vthi &#246;dhe marken, och folkit s&#229;gh ath the foro
+sina f&#228;rde, och mongo kende honom, Th&#229; lupo the tijt till foot
+vthaff alla stedh<inline italics="true">e</inline>r, och komo fra<inline italics="true">m</inline> f&#246;rra &#228;n the, och f&#246;rsambladhes
+til honom, S&#229; gick Jesus vth och fick see th<inline italics="true">et</inline> mykla folkit, och warku<inline italics="true">n</inline>nade sich vth&#246;ffuer th<inline italics="true">e</inline>m, f&#246;rty the w&#229;ro s&#229; som
+f&#229;&#229;r ther ingin heerdan hadhe, och begynte l&#228;ra th<inline italics="true">e</inline>m mong stycke.</para><para /><para>	Och
+th&#229; en stoor deel vthaff daghen war framlidhen, gingo hans
+l&#228;ryu<inline italics="true">n</inline>gar till hono<inline italics="true">m</inline> och sadhe, H&#228;r &#228;r &#246;knen, och
+tijdhen &#228;r fast fra<inline italics="true">m</inline>lidhen, slepp
+th<inline italics="true">e</inline>m j fr&#229; tich, ath the m&#229;gha
+g&#229; bort j byianer och torpen h&#228;r om kri<inline italics="true">n</inline>gligia<inline italics="true">n</inline>des och
+k&#246;pa sich br&#246;dh, ty the hafua intit at &#228;ta, Th&#229;
+swaradhe han th<inline italics="true">e</inline>m och sadhe, Giffuer j
+th<inline italics="true">e</inline>m &#228;ta, Th&#229; sadhe the, Skole
+wij g&#229; h&#228;dha<inline italics="true">n</inline> och k&#246;pa
+f&#246;r tw hu<inline italics="true">n</inline>dradhe peni<inline italics="true">n</inline>ga br&#246;dh och geffua th<inline italics="true">e</inline>m &#228;ta?, th&#229; sadhe han til th<inline italics="true">e</inline>m Mong br&#246;dh haffue<inline italics="true">n</inline> j?, g&#229;r och seer til, Och sidha<inline italics="true">n</inline> the hadhe seedt til, sadhe the, F&#228;m, och
+tw&#229; fiskar, Th&#229; b&#246;dh han th<inline italics="true">e</inline>m ath the skulle lata them alla s&#228;tia sigh,
+skickandes sigh j maatskap h&#228;r och ther j gr&#246;na gra&#223;it,
+Och the satte sich j roota taal p&#229; gr&#228;&#223;platzanar hu<inline italics="true">n</inline>dradhe och hundradhe, f&#228;mtiyo och
+f&#228;mtiyo, Och s&#229; toogh ha<inline italics="true">n</inline> the
+f&#228;m br&#246;dhen, och the tw&#229; fiskar, och vplyffte sin
+&#246;ghon till himmelen, w&#228;lsignadhe gudh, och br&#246;&#246;t
+br&#246;dit, och fich sinom l&#228;ryungo<inline italics="true">m</inline>
+ath the skulle l&#228;ggia f&#246;r th<inline italics="true">e</inline>m,
+och the tw&#229; fiskar bytte han emellan them alla, Och the &#229;to alle
+och wordo m&#228;tte, och togho sidhan vpp tolff korghar fulla medh styckiom
+och vthaff fiskomen, Och the ther &#229;to w&#229;ro vidh f&#228;m
+twsendt men.</para><para /><para>	Och strax dreeff han sina
+l&#228;ryungar ath the skulle g&#229; til skips och fara vth&#246;ffuer
+haffuit till Bethsaidam m&#228;dhan han skilde folkit j fr&#229; sigh, Och
+n&#228;r han hadhe skildt them j fr&#229; sigh, gick han t&#228;dhan
+vpp&#229; itt b&#228;rgh til ath bidhia, Och th&#229; afftone<inline italics="true">n</inline> kom war skepit mitt p&#229; haffwith, och han
+p&#229; landith allena, och s&#229;gh ath the hadhe platz medh roende, ty
+ath w&#228;dhrit war them j moot, och widh fierde wecten
+om</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline>
+26b]</para><para>nattena kom han til them, gongandes p&#229; haffuet och
+wille g&#229; fram om them Och n&#228;r the s&#229;gho hono<inline italics="true">m</inline> gongande p&#229; haffuet meente the thet hadhe
+warit itt spook, och begy<inline italics="true">n</inline>te till ath roopa, ty
+the s&#229;gho hono<inline italics="true">m</inline> alle, och wordo
+f&#246;rskr&#228;cte, Th&#229; taladhe han the<inline italics="true">m</inline> strax till, och sadhe til the<inline italics="true">m</inline>, Waren vidh en godh tr&#246;st, jach &#228;rith,
+ware<inline italics="true">n</inline> icke r&#228;dde, Och han steegh vp til
+them j skipit, och w&#228;dhrit stilladhe sigh, och the wordo stoorligha
+f&#246;rskrecte f&#246;rwndrandes vidh sigh sielffua &#246;ffuer
+m&#229;ten, ty the hadhe icke f&#246;rstondit om br&#246;dhen, f&#246;r
+then skull ath theres hierta war
+f&#246;rblindath.</para><para /><para>	Och th&#229; the ouerfarne
+woro, kommo the till thet landit Genezaret, och lagde ther j hampn, Och
+n&#228;r the gingo vthur skipit ke<inline italics="true">n</inline>de the
+hono<inline italics="true">m</inline> strax, och lopo om kring allan th<inline italics="true">e</inline>n landz&#228;ndan, och begynte omcringf&#246;ra
+the ther siuke w&#229;ro p&#229; s&#228;ngar n&#228;r the h&#246;rde
+honom wara ther ko<inline italics="true">m</inline>men, Och hwar han ingick j
+byianar eller st&#228;dherna eller torpe<inline italics="true">n</inline>
+lagde the the kranka p&#229; gatonar, och b&#229;dho honom, ath the
+&#229;t minsto motte tagha p&#229; hans kl&#228;dhe foll, och s&#229;
+monge som komo vidh honom the wordo
+helbr&#246;gda.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0012" tabs="left:35.45;" widow-control="true"><para>		Siwnde
+Capitel.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para /><para>OCh til honom f&#246;rsambladhes the
+Phariseer, och noghre aff the scrifftl&#228;rde som fr&#229; Hierusalem
+komne w&#229;ro, och th&#229; the fingo see ath sombligha hans
+l&#228;ryu<inline italics="true">n</inline>gar &#229;to br&#246;dh medh
+meenligha (thet &#228;r) medh otwagna hender, straffadhe the thet, ty the
+phariseer och alla iudanar &#228;ta icke vtan the altijdh tilf&#246;rende
+tw&#229; theras hender, hollandes f&#228;dhernas stadgar, och n&#228;r
+the komne &#228;ro vthaff torgith, &#228;ta the icke vtan the &#228;ra
+twagne, och mo<inline italics="true">n</inline>ga s&#229;dana styckier
+&#228;ro som the haffua taghit sigh vpp&#229; ath holla, som &#228;r, om
+dryckekars, och embars, och koperkars, och sengers
+twaghning.</para><para /><para>	Sidhan f<inline italics="true">r</inline>&#229;ghadhe honom the Phariseer och the
+scrifftl&#228;rde, Hwi wandra icke thina l&#228;ryungar effter thet
+s&#228;tt som f&#228;dherna vpp&#229; budit haffua, vtan &#228;ta
+br&#246;d<inline italics="true">ith</inline> medh otwaghna hender?,
+Th&#229; swaradhe han och sadhe till th<inline italics="true">e</inline>m,
+Well haffuer Esaias propheteradh om idher j skrymtare, s&#229; som
+scriff<inline italics="true">u</inline>ith &#228;r, Thetta folkit &#228;rar
+mich medh leppanar, men theras hierta &#228;r longt jfr&#229; mich,
+f&#229;fengt dyrka the mich, l&#228;randes th<inline italics="true">e</inline>n l&#228;rdom som &#228;r menniskios bodh,
+f&#246;r ty j bortkasten gudz bodh, och hollen menniskers stadga, som
+&#228;r medh embors och dryckekars tuaghning, och mykit s&#229;dant
+g&#246;ren j.</para><para /><para>	Och sadhe han til them,
+Sk&#246;nligha bortkasten j gudz bodh, p&#229; thet ath j skolen holla
+idhan stadga, ty Moses haffuer sagt, &#228;ra thin fadher och thina modher,
+och hoo ther bannar fadher eller modher han skall d&#246;dhas medh
+d&#246;dhen, Men j s&#228;yien, En menniskia m&#229; s&#228;ya till
+fadher och modher Corban, thet &#228;r sagt, gudhi &#228;r thet giffuit som
+tigh aff mich skulle haffua kommit till nytto, och st&#228;dhen icke ath han
+noghot g&#246;r sinom fadher eller si<inline italics="true">n</inline>ne
+modher, och g&#246;ren gudzordh om intit medh idhar stadga som j vpp&#229;
+lagt haffuen, och mykit s&#229;dant g&#246;ren
+j.</para><para /><para>	Och han kalladhe til sigh alt folkit, och sadhe
+til them, H&#246;rer mich alle och f&#246;rst&#229;n, Jngen ting
+&#228;r vthw&#228;rtes medh menniskio<inline italics="true">n</inline>ne
+som g&#229;r in vthi henne thet henne besmitta kan, m&#228;n the stycker
+som g&#229; vthur me<inline italics="true">n</inline>niskionne the &#228;ro
+the som besmitta menniskiona, Then ther haffwer &#246;ron til ath
+h&#246;ra, han h&#246;re, Och th&#229; han skildes fr&#229; folkit, och
+kom j huset,</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline> 27a]</para><para>fr&#229;ghade
+hans l&#228;ryu<inline italics="true">n</inline>gar hono<inline italics="true">m</inline> om liknelsen, Sadhe han til th<inline italics="true">e</inline>m, &#228;re<inline italics="true">n</inline> j
+&#228;n nw of&#246;rstondighe?, F&#246;rst&#229; j icke en nw, ath alt
+th<inline italics="true">et</inline> vthuertes ing&#229;r vthi menniskiona,
+thet kan icke besmitta henne, ty thet g&#229;&#229;r icke vthi he<inline italics="true">n</inline>nes hierta, vtan j buken, och haffuer sin naturligha
+vthg&#229;ng ther all maten medh rensas, Och sadhe han, Thet vthur
+menniskionne g&#229;&#229;r th<inline italics="true">et</inline> besmittar
+menniskiona, f&#246;rty innaneffter vthur menniskiors hierta vthg&#229;
+onda tankar, hoordom, bolerij, ma<inline italics="true">n</inline>dr&#229;&#229;p, st&#246;ld girugheet, swik,
+listugheet, otuchtogheet, ondt &#246;gha, h&#228;dhelse,
+h&#246;gf&#228;rd, galenskap, All thenna onda stycke g&#229;&#229;
+innaneffter och the besmitta menniskiona.</para><para /><para>	S&#229;
+stoodh han vpp t&#228;dhan, och gick in til gren&#223;en widh Tyru<inline italics="true">m</inline> och Sydon, och gick in vthi it hws och wille ath thet
+ingen veta skulle, och ku<inline italics="true">n</inline>de doch icke
+f&#246;rdoldt bliffua, Ty en qui<inline italics="true">n</inline>na hwes
+dotter hadhe en fwl anda, strax hon fick h&#246;ra om honom kom hon och
+f&#246;ll nidh f&#246;r hans f&#246;ther, och thet war en grekisch
+quinna, b&#246;rdugh vth&#229;ff Syrophenice, och badh hono<inline italics="true">m</inline> ath han skulle vthdriffua dieffwulen vthaff hennes
+dotter, Men Jesus sadhe til henne, L&#228;t barnen f&#246;rst m&#228;tt
+wardha, Thet &#228;r icke h&#246;ueligit ath man tagher barnanas
+br&#246;dh, och kastar f&#246;r hundana, Th&#229; swaradhe hon och sadhe,
+Ach ia herre, &#228;ta doch hundana vnder boordit vthaff barnanes smulor,
+Th&#229; sadhe han til he<inline italics="true">n</inline>ne f&#246;r
+thetta taleth skul gack dieffwulen &#228;r vth gongen vthaff thine dotter,
+Och th&#229; hon kom j sitt hws, fan hon dieffwulen vthgongen wara, och
+dottrena liggiandes p&#229; s&#228;ngene.</para><para /><para>	Och
+th&#229; han &#229;ter ingick fr&#229; then gren&#223;en Tyri och
+Sydonis, kom han till thet galileeske haffuet, mitt genom the landzendar vidh
+the tiyo st&#228;dher, och the hadhe fram f&#246;re honom en d&#246;ffuan
+man, then ther och hinder hadhe j m&#229;let, och b&#229;dho honom ath han
+skulle l&#228;ggia h&#228;nder vpp&#229; hono<inline italics="true">m</inline>, Th&#229; toogh han honom affsidhes vth fr&#229;
+folkith, och satte sin finger j hans &#246;ren, och sputtadhe vth th<inline italics="true">e</inline>r han medh toogh p&#229; ha<inline italics="true">n</inline>s tungo, och s&#229;gh vpp j himmelen suckandes och
+s&#228;yiandes till honom, Ephphatha, thet &#228;r sagt, vplyck tigh, Och
+strax &#246;pnadhes hans &#246;ren och hans tungos band wort l&#246;st,
+och taladhe redeligha, Och b&#246;dh han them ath the skulle ingom
+s&#228;yadh, Men iw meer han thet f&#246;rb&#246;dh, iw meer the
+f&#246;rkunnadhe thet, och the f&#246;rundradhe sich &#246;ffuer
+m&#229;ton s&#228;yiandes, Alt haffuer han v&#228;l best&#228;lt,
+b&#229;dhe lather han d&#246;ffua h&#246;ra, och dumbar
+tala.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0012" tabs="left:35.45;" widow-control="true"><para>		Ottonde
+Capitel.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para /><para>VThi the daghar th&#229; folkit war ganska
+mykit, och hadhe intit thet the &#228;ta kunde, kalladhe Jesus till sigh sina
+l&#228;ryu<inline italics="true">n</inline>gar, och sadhe til th<inline italics="true">e</inline>m, Jach warkunnar mich vth&#246;ffuer folkit,
+f&#246;r ty the haffua nw j tre daghar t&#246;ffuat n&#228;r mich och
+haffua intit ath &#228;ta, och later iach them fastandis g&#229; till sitt
+hema<inline italics="true">n</inline> giffuas the vpp j w&#228;ghen,
+f&#246;rty somlighe vthaff them w&#229;ro komne longw&#228;gha, Och hans
+l&#228;riungar swaradhe honom, Hwar tagher ma<inline italics="true">n</inline> br&#246;dh h&#228;r j &#246;kne<inline italics="true">n</inline>ne ther man them medh metta kan?, Th&#229; spoorde
+han th<inline italics="true">e</inline>m, Huru mong br&#246;dh haffuen j?
+Swaradhe the, siw, Och han b&#246;dh folkit s&#228;tia sigh p&#229;
+jordena til ath &#228;ta, och toogh the siw br&#246;dh, taks&#228;yandes
+gudhi, br&#246;t, och gaff sina l&#228;ryungar ath the skulle l&#228;ggia
+fra<inline italics="true">m</inline>, som the och th<inline italics="true">et</inline> fra<inline italics="true">m</inline>lagde f&#246;r
+folkith, Hadhe the och naghra f&#229;&#229; fi<inline italics="true">s</inline>kar,</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline> 27b]</para><para>och th&#229; han
+v&#228;lsignadh hadhe, badh ha<inline italics="true">n</inline> och
+l&#228;ggia th<inline italics="true">e</inline>m fram, S&#229; &#229;to
+the och wordo mettadhe, och the togho vpp siw korghar medh &#229;ffleuor som
+&#246;ffuer w&#229;ro, Och the ther &#229;to, w&#229;ro vidh
+fyratusend, och s&#229; loth han fara them.</para><para /><para>	Och
+strax steegh han til skips medh sina l&#228;ryungar, och kom in till the
+landz&#228;ndar Dalmanutha, Och the phariseer gingo vth och begy<inline italics="true">n</inline>te disputera medh honom, frestandes honom, och
+beg&#228;randes aff hono<inline italics="true">m</inline> teekn vthaff
+himmelen, Th&#229; suckadhe han j hans anda, och sadhe, Hwi s&#246;ker
+thetta slectit teekn?, Sannerligha s&#228;gher iach idh<inline italics="true">e</inline>r, thesso slecte skall intit teekn giffuas, S&#229;
+gaff han them vth&#246;ffuer, och gick &#229;ter j skipit och foor
+vth&#246;ffuer sy&#246;n igen.</para><para /><para>	Och the hadhe
+forg&#228;tit tagha br&#246;dh, s&#229; ath the hadhe icke meer &#228;n
+itt br&#246;dh medh sich j skepit, Th&#229; b&#246;dh han them
+s&#228;yandes, Seer til vacter idher f&#246;r the phariseers surdeegh, och
+f&#246;r Herodis surdeegh, Och the tenkte hijt och tijt s&#228;yandes
+emella<inline italics="true">n</inline> sigh, Wij haffuo<inline italics="true">m</inline> intit br&#246;dith, Th&#229; Jesus f&#246;rnam
+thet, sadhe han till them, Huadh bekymbre j idher ath j haffuen icke
+br&#246;dh?, Kunnen j &#228;n nw intit acta eller f&#246;rst&#229;?
+Haffuen j &#228;n nw idhor hierta f&#246;rblindat? haffuandes &#246;ghon
+och doch intit seendes, och haffuandes &#246;ron och doch intit
+h&#246;randes, och minnens j icke ath th&#229; iach br&#246;t f&#228;m
+br&#246;dh j bland f&#228;m tusend, huru mongo korghar j vpptogh<inline italics="true">e</inline>n fulla medh afflewor?, Sadhe the, Tolff, Och tha iach
+br&#246;th siw br&#246;dh j bland fyratwsend, hwrw monga korghar j
+vpptoghen vthaff the &#229;fflewor och styckiom? The sadhe, siw, Och han
+sadhe till them Hwrw kommer thet till ath j intit f&#246;rst&#229;<inline italics="true">?</inline></para><para /><para>	Och han kom till
+Bethsaidam, och the hadhe fram f&#246;re hono<inline italics="true">m</inline> en blindan, och b&#229;dho honom ath han wille
+tagha p&#229; hono<inline italics="true">m</inline>, och s&#229; toogh han
+honom widh handena, och leedde honom vthwr byn, och spottadhe j hans
+&#246;ghon, och lade hender p&#229; hono<inline italics="true">m</inline>,
+och fr&#229;ghade hono<inline italics="true">m</inline> om han n&#229;ghot
+s&#229;gh, Th&#229; s&#229;gh han vpp och sadhe, Jach seer menniskiorna
+g&#229;endes lijkerwijss som thet wore tr&#228;&#228;, Sedhan ladhe han
+&#229;ter henderna p&#229; hans &#246;ghon, och giorde thet s&#229; ath
+han fick synen igen, och wart s&#229; botadh ath han sidhan s&#229;gh
+klarligha alla, och han loth g&#229; hono<inline italics="true">m</inline>
+heem j sitt hws, och sadhe, Gack intit in vthi byn, och s&#228;gh icke heller
+th<inline italics="true">et</inline> n&#229;ghrom ther
+inne.</para><para /><para>	Och gick Jesus vth och hans l&#228;ryungar
+till the byiar vidh Cesarea som kallas Philippi, och j w&#228;ghen sporde han
+sine l&#228;ryungar till s&#228;yandes till them, Hwem s&#228;ya
+menniskionar mich wara?, The swaradhe Joannem baptistam, och somlighe Heliam,
+och somlighe en aff prophetener, Th&#229; sadhe han till them, Hwem
+s&#228;ye j mich wara?, Swaradhe Petrus och sadhe till hono<inline italics="true">m</inline>, Tw &#228;st Christus, Th&#229; hotadhe han them
+ath the skulle ingom s&#228;ya om honom, Och begynte till ath vnderwijsa them
+ath menniskionne son skulle mykit lijdha, och vthkastas vthaff the
+&#229;ldersm&#228;n, och vthaff the &#246;ffuersta presterna, och vth aff
+the scrifftl&#228;rda, och d&#246;dhas, och effter tridie daghe<inline italics="true">n</inline> vppst&#229; igen, och taladhe han thet talet
+openbart, th&#229; fick Petrus honom fatt, och begynte nepsa honom,
+Th&#229; wende han sich om, och s&#229;&#229;gh p&#229; sina
+l&#228;ryungar, och nepste petrum s&#228;yandes, Gaak effter mich thw
+satanas, f&#246;r ty tw besinnar icke thet gudhi till h&#246;rer, vtan thet
+menniskier till h&#246;rer.</para><para /><para>	Och kalladhe han till
+sigh folkit medh hans l&#228;ryungar och sadhe till
+</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline>
+28a]</para><para>them, Hoo som h&#228;lst mich will f&#246;lia, han
+f&#246;rsake sigh sielfua<inline italics="true">n</inline>, och taghe sitt
+kors vpp&#229; sigh och f&#246;lie mich, F&#246;r ty hoo som will beholla
+sitt lijff, han moste mista thet, Och hoo som mister sitt lijff f&#246;r mina
+och euangelij skull, han wardher thet behollandes, Huad hielper thet
+menniskio<inline italics="true">n</inline>ne, om hon kunde winna hela
+w&#228;rldena, och toghe skada till sitt lijff, eller huad kan en menniskia
+giffua ther hon sitt lijff medh l&#246;sa m&#229;?, Hoo som h&#228;lst
+blyies widh mich och min oord vthi thetta trobr&#228;kirska och syndogha
+slektet, widh hono<inline italics="true">m</inline> skal och me<inline italics="true">n</inline>niskiones son blyias, n&#228;r han kommer j sin
+fadhers herligheet medh the helga
+englar.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0012" tabs="left:35.45;" widow-control="true"><para>		Niyonde
+Capitel.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para /><para>OCh han sadhe till them, Sannerligha
+s&#228;gher iach idher, somlighe &#228;re, ibland them som h&#228;r
+st&#229;, the ther icke skola smaka d&#246;dhen, till tess the f&#229;
+see gudz rijke kommit wara medh krafft Och effter sex daghar toogh Jesus Petrum
+till sigh, och Jacobum, och Joannem, och hadhe them allena vpp&#229; itt
+h&#246;gt bergh affsidhes, och f&#229;rskapadhe sigh f<inline italics="true">&#246;</inline>re them, och hans cl&#228;dher wordo
+kl&#229;r och ganska hwijt s&#229; som sny&#246;, ath ingen
+f&#228;rghare p&#229; Jordena kunde g&#246;ra them s&#229; hwijt, och
+them syntes Helias medh Moses, och the taladhe medh Jesu, Th&#229; swaradhe
+Petrus s&#228;yandes till Jesum, Mester h&#228;r &#228;r oss gott ath
+wara, l&#229;th oss g&#246;ra h&#228;r try tabernacula, tigh itt, och
+Mosi itt, och Helie itt, ty han wiste icke huad han sadhe, f&#246;r ty the
+woro h&#228;pne wordne, Och en sky kom som &#246;ffuerskygde them, och en
+r&#246;st kom vthaff skyn s&#228;yandes, Thetta &#228;r min k&#228;ra
+son, h&#246;rer hono<inline italics="true">m</inline>, Och j thet samma som
+the s&#229;gho sigh om kring, s&#229;gho the ingen wara ther n&#228;r
+them, vtan allena Jesum.</para><para /><para>	Men th&#229; the gingo
+nedher vthaff berghit, b&#246;dh han them ath the skulle ingom s&#228;ya
+huad the seedt hadhe, f&#246;rra en menniskione son w&#229;re vppstanden
+aff d&#246;dha, Och the beh&#246;ldo thet ordith n&#229;r sigh, och
+befr&#229;gadhe emellan sigh huad thet skulle wara, ath han sadhe
+vppst&#229; aff d&#246;dha, och the sporde hon om s&#228;yandes, Huad
+&#228;r thet som the scrifftl&#228;rde s&#228;ya, ath Helias moste komma
+f&#246;rst, Men han swaradhe och sadhe till them, Helias skal iw komma
+f&#246;rst, och setia all ting j retta lagith igen, och ath menniskione son
+(s&#229; som scriffwit &#228;r) skall mykit lijdha, och f&#246;raktas,
+Men iach s&#228;gher idher, Helias &#228;r kommen, och the giorde honom alt
+thet the wille, s&#229; som scriffwit war om
+honom.</para><para /><para>	Th&#229; han kom till sina
+l&#228;ryu<inline italics="true">n</inline>gar, s&#229;gh han mykit folk
+kringom th<inline italics="true">e</inline>m, och the scriftl&#228;rda
+befr&#229;ga<inline italics="true">n</inline>des sich medh th<inline italics="true">e</inline>m, Och strax alt folkit s&#229;gh honom, wordo the
+h&#228;pne, och lopo till och helsadhe hono<inline italics="true">m</inline>,
+och han sporde the scrifftl&#228;rde, huad befr&#229;ge j emella<inline italics="true">n</inline> idh<inline italics="true">e</inline>r? Och en vthaff
+folkit swar<inline italics="true">a</inline>dhe och sadhe, Mestar iach haffuer
+hafft min son hijt till tigh, then ther haffuer en dumbisk anda, och th&#229;
+han tagher hono<inline italics="true">m</inline> fatt faar han illa medh
+hono<inline italics="true">m</inline>, och han fr&#229;dhgas, och
+gni&#223;lar medh sina tender, och f&#246;rtwinar, och iach sadhe tina
+l&#228;ryungar, ath the skulle driffua honom vth, och the kunde
+icke.</para><para /><para>	Th&#229; swaradhe han honom och sadhe, O j
+otroghit slechte, hurw lenge skall iach wara n&#228;r idher?, hurw lenge
+skall iach lijdha idher?</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline> 28b]</para><para>Leedher
+hono<inline italics="true">m</inline> hijt till mich, Och the leedde honom fram
+till hono<inline italics="true">m</inline>, Th&#229; han fick see honom,
+strax foor anden illa medh hono<inline italics="true">m</inline> s&#229; ath
+han f&#246;ll nedher p&#229; Jorden och w&#228;ltradhe sigh, och
+fradgadhes, Th&#229; sporde han hans fadher till, Huru lenge &#228;r sidhan
+ath thetta kom honom vpp&#229;?, Th&#229; sadhe han, Vthaff barnsdoom, och
+han haffuer offta kastadh honom bort j eelden, och j watnet, s&#229; ath han
+wille f&#246;rg&#246;ra hono<inline italics="true">m</inline>, men
+f&#246;rm&#229;&#229; tw n&#229;g<inline italics="true">h</inline>ot
+s&#229; hielp oss, och varkunna tigh &#246;ffuer oss, Jesus sadhe till
+honom, Om tw troo kan, all ting &#228;ro m&#246;geligh honom som troor, Och
+strax ropadhe drengsens fadher medh gr&#229;tande t&#229;rar
+s&#228;yandes, Herre iach troor, hielp mina
+otroheet.</para><para /><para>	N&#228;r Jesus s&#229;gh ath folkit
+lopp och till medh, nepste han th<inline italics="true">e</inline>n fula andan,
+och sadhe till hono<inline italics="true">m</inline>, Tw ande d&#246;wer och
+dumbe iach biwdher tigh gack vtaff honom, och gack intit meer h&#228;r effter
+in vthi honom, S&#229; ropadhe anden, foor ganska illa medh honom, och gick
+vth, och han wart som han hadhe warit d&#246;dh, s&#229; ath mo<inline italics="true">n</inline>ge sadhe han &#228;r d&#246;dh, Th&#229; toog
+Jesus honom widh handena och reeste hono<inline italics="true">m</inline> vpp,
+och han stoodh vpp, och n&#228;r han kom heem j husit, fr&#229;gadhe han
+l&#228;ryungar honom aff sidhes, Hwij f&#246;rmottom icke wij vthdriffua
+hono<inline italics="true">m</inline>, Sadhe han till them Thetta slektit kan
+medh ingen ting vthko<inline italics="true">m</inline>ma, vta<inline italics="true">n</inline> medh b&#246;n och
+fasto</para><para /><para>	Och the gingo t&#228;dhan och wandradhe
+ghenom Galilee land, och wille doch icke ath noghor skulle wetath, ty han
+vnderwiste sina l&#228;ryu<inline italics="true">n</inline>gar och sadhe till
+them, Menniskiones son han &#246;ffuerantwardas j me<inline italics="true">n</inline>niskiors hender, och the skola d&#246;dha honom, och
+th&#229; han &#228;r d&#246;dhader wardher han p&#229; tridie
+daghe<inline italics="true">n</inline> vpstonda<inline italics="true">n</inline>des, Men the f&#246;rstodho intit huad han sadhe,
+och toorde icke sp&#246;ria honom.</para><para /><para>	S&#229; kom
+han till Capernau<inline italics="true">m</inline>, och n&#228;r han war
+kommen j hwset sporde han them, Huad befr&#229;gadhen j idher emellan j
+w&#228;ghen, Men the tijgde, f&#246;r ty the hadhe emellan sich
+befr&#229;gath j w&#228;gheno<inline italics="true">m</inline>, hwilkin aff
+th<inline italics="true">e</inline>m yppare war, och th&#229; han hadhe sat
+sich, kalladhe han the tolff och sadhe till them, Huilkin som vill then
+fr&#228;mste wara, han skall wara yterst aff allom, och alles tienare, Och
+s&#229; toogh han itt barn vpp, och stelte thet mit ibland th<inline italics="true">e</inline>m, och th&#229; han hadhe thet j sin fampn, sadhe
+han till th<inline italics="true">e</inline>m Hoo som h&#228;lst ana<inline italics="true">m</inline>mar itt barn s&#229;dant vthi mit nampn, han
+ana<inline italics="true">m</inline>mar mich, och hoo som h&#228;lst
+ana<inline italics="true">m</inline>mar mich, han ana<inline italics="true">m</inline>mar icke mich vtan honom som mich vthsendt
+haffuer.</para><para /><para>	Men Joannes swaradhe honom s&#228;yandes,
+Mester wij s&#229;ghom en vthi titt nampn vthdriffua diefla, och han
+f&#246;lyer oss icke, och wij f&#246;rbudhom honom thet, effter han icke
+f&#246;lier oss, Th&#229; sadhe Jesus, F&#246;rbiudher hono<inline italics="true">m</inline> icke, ty ath ingen &#228;r th<inline italics="true">e</inline>n som g&#246;r kraffter j mit nampn, som snarligha
+kan tala ondt p&#229; mich, F&#246;r ty th<inline italics="true">e</inline>n ther icke &#228;r emoot oss han &#228;r medh
+oss, Hoo som helst giffuer idher dricka en beghare watn j mit nampn
+therf&#246;re ath j Christo till h&#246;ren, sannerligha s&#228;gher iach
+idher, ath han skal ingelunda mista sin
+l&#246;n.</para><para /><para>	Och hoo ther f&#246;rarghar en vthaff
+the sm&#229; som tro p&#229; mich, b&#228;tre w&#229;re hono<inline italics="true">m</inline>, ath widh hans hals hengdes en qw&#228;rnasteen,
+och borthkastadhes vthi haffuit, Nw om thin hand wore tich till
+f&#246;rargilse, hug henne aff, B&#228;tre &#228;r tich enhendtan
+ing&#229; vthi liffwidt, &#228;n ath tw haffuer tw&#229; he<inline italics="true">n</inline>der, och g&#229;r bort till helwite vthi ewogh
+eeldh, ther theres matk icke d&#246;&#246;r, och elden icke vthsleckes, Och
+om thin foot w&#229;re tich till f&#246;rargilse, hwg honom vthaff, Tich
+&#228;r b&#228;tre ath tw ing&#229;r vthi</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline> 29a]</para><para>liffweth halter,
+heller &#228;n ath tw hafuer tw&#229; f&#246;ter, och wardher kastadh
+till h&#228;luite vthi ewogh eeldh, ther theres matk icke d&#246;&#246;r,
+och eelden icke vthsleckes, Och om titt &#246;gha w&#229;re tich till
+f&#246;rargilse, sl&#229; thet vth, B&#228;tre &#228;r tigh ath tw
+en&#246;ghder ing&#229;r vthi gudz rijke, &#228;n ath tw skulle hafua tw
+&#246;ghon och bortkastas, j helwites eeldh, ther theres matk icke
+d&#246;&#246;r och eelden icke
+vthsleckes.</para><para /><para>	F&#246;r ty ath hwar och en moste medh
+eeldh saltat warda, och alt offer moste medh salte saltat warda, Salt &#228;r
+itt gott ting, hwar nw saltet osalt &#228;r, vthi huad wilie j th&#229;
+th<inline italics="true">et</inline> f&#246;rmengia?, Haffuer salteth vthi
+idher sielffua, och haffuer fredh emellan idher
+inbyrdes.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0012" tabs="left:35.45;" widow-control="true"><para>		Tiyonde
+Capitel.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para /><para>OCh th&#229; han stoodh vpp t&#228;dhan
+kom han vthi Judee landz &#228;nda p&#229; hinsidhon widh Jordanem, och
+folkit f&#246;rsambladis, &#229;ter till honom, och &#229;ter
+l&#228;rdhe han th<inline italics="true">e</inline>m, s&#229; som hans
+sedh<inline italics="true">e</inline>r war, Och s&#229; gingo the phariseer
+till, och fr&#229;gadhe honom, &#228;r thet och loflighit mannenom skilia
+sina hustru j fr&#229; sigh?, frestandes honom, Th&#229; swaradhe han och
+sadhe till them, Huad haffuer Moses budith idher? Sadhe the, Moses
+tillst&#228;dde ath scriffua itt &#229;thskilielse breff och
+&#246;ffuergiffua henne, Swaradhe Jesus och sadhe till them, F&#246;r idher
+hiertes hardheet skull, skreff han idher thetta bodhit, men aff f&#246;rsta
+skapelsen haffuer gudh giordt them man och qwi<inline italics="true">n</inline>na, F&#246;r th<inline italics="true">e</inline>n
+skull skall man &#246;ffuergifua sin fadher och modher, och blifua widh sina
+hustru och the tw warda itt k&#246;th, S&#229; &#228;ro the icke nw tw,
+vtan itt k&#246;&#246;t, Ther f&#246;re, huad gudh haffuer till hoopa
+f&#246;ghat, thet skal menniskian icke &#229;th
+skilia.</para><para /><para>	Och j hwsit fr&#229;gadhe hans
+l&#228;ryu<inline italics="true">n</inline>gar hono<inline italics="true">m</inline> p&#229; nytt om samma &#228;rende, och han sadhe
+till th<inline italics="true">e</inline>m, Huilkin som h&#228;lst skilier
+sina hustru j fr&#229; sich och tagher ena andra, han bedrifuer hoordom emoot
+he<inline italics="true">n</inline>ne, och om qwi<inline italics="true">n</inline>nan &#246;ffuergiffwer sin ma<inline italics="true">n</inline> och tagher sich en anna<inline italics="true">n</inline>, hon bedriffuer
+hoordom.</para><para /><para>	Och the hadhe barn fram f&#246;r
+hono<inline italics="true">m</inline>, ath han skulle tagha p&#229; them, men
+l&#228;ryu<inline italics="true">n</inline>ganar nepste them, som them fram
+hadhe, Th&#229; Jesus thet s&#229;gh wort han mislynt, och sadhe till them,
+L&#229;ter barnen komma till mich, och f&#246;rmener them icke, f&#246;r
+ty s&#229;dana h&#246;rer gudz rike till, Sannerligha s&#228;gher iach
+idher, Hoo som h&#228;lst icke vnfaar gudz rijke s&#229;som itt barn, han
+ko<inline italics="true">m</inline>mer th<inline italics="true">e</inline>r
+aldrigh in, Och han toog th<inline italics="true">e</inline>m vpp j fampnen,
+och lagde henderna p&#229; them, och w&#228;lsignadhe
+them.</para><para /><para>	Och th&#229; han t&#228;dhan vthgongen war
+p&#229; v&#228;ghen, lopp en till och f&#246;ll p&#229; kn&#228;
+f&#246;r honom, och fr&#229;gadhe honom, Godhe mester, huad skal iach
+g&#246;ra, ath iach motte f&#229; ewinnerlighit lijff?, Jesus sadhe till
+hono<inline italics="true">m</inline>, Hwi kallar tw mich godhan?, ingen
+&#228;r godh vtan en, thet &#228;r gudh, Bodhorden weest tw, bedriff icke
+hoordo<inline italics="true">m</inline>, dr&#228;p icke, sti&#228;l icke,
+b&#228;r icke falsk witnesbyrd, bedr&#228;gh ingen, &#228;ra thin fadher
+och modher, Th&#229; swaradhe han och sadhe hono<inline italics="true">m</inline>, Mester thet hafuer iach alt holdit vthaff min
+vngdom, Jesus s&#229;gh p&#229; hono<inline italics="true">m</inline>, och
+elskadhe hono<inline italics="true">m</inline> och sadhe til hono<inline italics="true">m</inline>, Jtt fattas tich, gack bort och s&#228;l alt
+th<inline italics="true">et</inline> tw hafuer och giff fatigo folke, och tw
+skall f&#229; en skatt j hi<inline italics="true">m</inline>melen, och kom
+och f&#246;lg mich, taghandes korsit p&#229; tich, Och han wart
+bedr&#246;ffuat aff talith, och gick s&#246;ryandes t&#228;dhan, ty han
+hadhe monga &#228;godelar.</para><para /><para>	Och Jesus s&#229;gh om
+kring sigh, och sadhe til sina l&#228;ryungar,
+Huru</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline>
+29b]</para><para>sw&#229;rligha kunna the rijke komma in vthi gudz rijke, Men
+hans l&#228;ryungar wordo f&#246;rskrekte aff hans oordhom, Th&#229;
+swaradhe Jesus igen, och sadhe till th<inline italics="true">e</inline>m, Huru
+sw&#229;rt &#228;r thet k&#228;re barn th<inline italics="true">e</inline>m som theres tr&#246;st s&#228;tia p&#229;
+theres rikedoma ing&#229; vthi gudz rike, l&#228;ttare &#228;r en camel
+g&#229; genom itt n&#229;&#229;ls &#246;gha, &#228;n en rijk
+me<inline italics="true">n</inline>niskio g&#229; in vthi gudz rike, Men the
+f&#246;rundradhe sigh &#246;ffuer motte<inline italics="true">n</inline>,
+seyandes widh sigh sielffue, Hoo kan th&#229; warda salogh, Jesus s&#229;gh
+p&#229; them, och sadhe, F&#246;r menniskionar &#228;r th<inline italics="true">et</inline> om&#246;gelighit, icke f&#246;r gudh, f&#246;r
+ty n&#228;r gudhi &#228;r all ting
+m&#246;geligh.</para><para /><para>	Och Petrus begynte s&#228;ya till
+honom, Sy, wij haffue &#246;ffuergiffuit all ting och folgt tigh Swaradhe
+Jesus sannerligha s&#228;gher iach idher, Jngen &#228;r then som haffuer
+&#246;ffuergiffwit hws, eller br&#246;dher, eller systrar, eller fadher,
+eller modher, eller hustru, eller barn eller &#229;krar, f&#246;r mijn och
+euangelij skull, vtan han f&#229;&#229;r hundradhe f&#229;lt igen, nw j
+thenne tijdhe<inline italics="true">n</inline> hws, och br&#246;dhra, och
+systrar, och m&#246;dhrar, och barn, och &#229;krar, medh
+f&#246;rf&#246;lielsen, och j tillkommande werldh ewinnerlighit lijff, Men
+monge the ther fremste &#228;ro, the warda the yterste, och the yterste, the
+fremste, Och the w&#229;ro p&#229; w&#228;ghen gongandes vpp till
+Hierusalem, och Jesus gick f&#246;r them, och the woro
+f&#246;rskr&#228;kte, och gingo effter honom fruktandes
+sigh.</para><para /><para>	S&#229; toogh Jesus till sigh &#229;ther
+the tolff, och begynte s&#228;ya them huad honom
+&#246;ffuerg&#229;&#229; skulle, Sy, wij g&#229;&#229; vpp till
+Hierusalem, och menniskio<inline italics="true">n</inline>ne son wardher
+&#246;ffuerantwardat the &#246;ffuerste presterne j he<inline italics="true">n</inline>der, och the scrifftl&#228;rdhe, och the skola
+f&#246;rd&#246;ma hono<inline italics="true">m</inline> till d&#246;dhz,
+och the skola &#246;ffuerantwarda honom hedningomen, och the skola begabba
+hono<inline italics="true">m</inline>, och the skola hwdhflengia hono<inline italics="true">m</inline>, spotta p&#229; honom, och skola d&#246;dha
+honom, och tredie daghen skal han vppst&#229;
+igen.</para><para /><para>	Th&#229; gingo till honom Jacobus och
+Johannes Zebedei s&#246;ner s&#228;ya<inline italics="true">n</inline>des,
+Mester wij wilie ath tw g&#246;r oss huad som h&#228;lst wij bidie, Sadhe
+han till them, Huad wilien j iach skal g&#246;ra idher?, Sadhe the till
+honom, Vn oss ath wij sitiom then ene p&#229; thina h&#246;gre sidho, och
+then andre p&#229; thine wenstro vthi thin herligheet, Men Jesus sadhe till
+them, J weten icke huad j bidhia skolen, kunnen j dricka then sk&#229;len som
+iach dricker?, och d&#246;pas vthi then d&#246;pelsen ther iach medh
+d&#246;pes?, Th&#229; sadhe the till honom, Ja kunnom wij s&#229;, Sadhe
+Jesus till them, Then sk&#229;l iach dricker then skolen j och dricka, och
+medh thet d&#246;pelse ther iach medh d&#246;pes skolen j och d&#246;pas,
+men sitia mich p&#229; h&#246;gre heller p&#229; wenstra sidhon thet
+&#228;r icke j min makt ath giffua, vtan them hender thet, som thet bereedt
+&#228;r.</para><para /><para>	N&#228;r the tyio h&#246;rde thetta,
+begynte the wara illa till fridz medh Jacobo och Joanne, Men Jesus kalladhe
+th<inline italics="true">e</inline>m till sigh, och sadhe till th<inline italics="true">e</inline>m J weten ath the som man seer h&#246;ffdingar wara
+f&#246;r folkit, the bruka theres h&#228;rskap p&#229; them, och the ther
+mektughe &#228;re j bland them the bruka theres makt &#246;ffuer them, men
+thet skal icke s&#229; wara ibland idher, vtan hoo som helst iblandt idher
+will ypper wardha, han skal wara idhar tienare, Och hoo som helst iblandt idher
+will wara then fremste, han skal wara allas dreng, F&#246;r ty menniskione
+son &#228;r icke ko<inline italics="true">m</inline>men p&#229; thet han
+skulle l&#228;ta tiena sigh, vtan p&#229; thet ath han wille tiena, och
+giffua sitt lijff till &#229;therl&#246;sning f&#246;r
+monga.</para><para /><para>	Och the komo till Hierico, och th&#229; han
+gick vthaff Hierico och hans</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline> 30a]</para><para>l&#228;ryungar,
+och en mektogh stoor hoop folk, th&#229; satt ther vidh v&#228;ghen en
+blinder Bartimeus Timei son tiggia<inline italics="true">n</inline>des, och
+n&#228;r han h&#246;rde ath th<inline italics="true">et</inline> war Jesus
+vthaff Nazareth, begy<inline italics="true">n</inline>te han ropa och
+s&#228;ya, Jesu Dauidz son varkunna tigh vth&#246;ffwer mich, och monge
+nepste honom ath han skulle tiya, Men han ropadhe testameer, Dauidz son
+varku<inline italics="true">n</inline>na tigh &#246;ffuer mich, S&#229;
+stadnadhe Jesus och l&#229;&#229;t kalla honom, och the kalladhe then
+blinda, och sadhe till honom, War vidh itt gott moodh, stat vpp <inline italics="true">h</inline>an kallar tigh, Han kastadhe fr&#229; sigh sin
+cl&#228;dhe, stoodh vpp, och kom till Jesum, Th&#229; swaradhe Jesus och
+sadhe till honom, huad will tw ath iach skal g&#246;ra tigh? Then blinde
+sadhe till honom, Mester ath iach motte f&#229; min syyn, Jesus sadhe til
+hono<inline italics="true">m</inline>, gack, thin troo hafuer giordt tigh
+helbreghda, och strax fick han sin syyn, och folgde Jesum j
+v&#228;ghen.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0012" tabs="left:35.45;" widow-control="true"><para>		Elloffte
+Capitel.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0006" tabs="left:177.20;left:216.00;" widow-control="true"><para><inline font-style="Times">OCh th&#229; the komo
+in moot Hierusalem till Bethfage, och Betaniam vidh olioberghit, vthsende han
+tw&#229; vthaff ha</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">s l&#228;ryungar, och
+sadhe til them, G&#229;&#229;r fram j byyn som f&#246;re
+idh</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">r &#228;r, och strax j kommen ther in, warden j finnandes
+en fola bunden, ther &#228;n nw ingen menniskia vpp&#229; sitit haffuer,
+l&#246;ser honom, och leedher till mich, och om n&#229;ghor s&#228;gher
+till idher, hwij g&#246;ren j thetta? S&#228;gher ath herren
+beh&#246;ffuer honom, och th&#229; skal han strax senda honom hijt,
+S&#229; gingo the bort, och funno folan bunden vtan f&#246;r d&#246;rena
+j v&#228;gamotith, och l&#246;ste honom, och somlighe som ther stodho sadhe
+till th</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">m, Huad g&#246;ren j ath j l&#246;sen folan, Th&#229;
+sadhe the till th</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">m som Jesus haffde
+budhit them, och s&#229; lotho the bete</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times">ma them, och the leedde
+folan till Jesum, och kastadhe sine cl&#228;dher p&#229; honom, och han
+satte sigh ther vpp&#229;, Och mo</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">ge breedde sine
+cl&#228;dh</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">r p&#229;
+v&#228;ghen, och somlighe sk&#229;ro qwistar vthaff tr&#228;&#228;n,
+och str&#246;&#246;dde p&#229; v&#228;ghen, och the th</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">r
+f&#246;re gingo och the th</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">r efter gingo, ropadhe
+och sadhe, Hosanna w&#228;lsignadh ware then som kommer j herrans nampn,
+w&#228;lsignadh ware thet w&#229;rs fadhers Dauidz rike som kommer j
+herrans nampn, hosanna j
+h&#246;ghdene.</inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para>	Och th&#229; herren inkom vthi Hierusalem,
+gick han in vthi templet och bes&#229;gh all ting, och n&#228;r thet leedh
+&#229;&#229;t afftonen, gick han vth till Betaniam medh the tolff, Och
+daghen ther effter th&#229; han gick vth fr&#229; Betania, hungradhe
+hono<inline italics="true">m</inline>, och fick see itt
+fikonatr&#228;&#228; ther longt j fr&#229; som l&#246;ff haffde, tijt
+kom han ath han till ewentyrs motte finna th<inline italics="true">e</inline>r
+n&#229;ghot vpp&#229;, och th&#229; han kom tijt, fan han th<inline italics="true">e</inline>r intit annat &#228;n l&#246;fwith, ty th<inline italics="true">et</inline> war icke th&#229; tijdh till fikon, Och Jesus
+swaradhe och sadhe till fikona tr&#228;dh, &#228;the aldrich n<inline italics="true">&#229;</inline>gon h&#228;r effter fruct vthaff tigh till
+ewogh tijdh, och hans l&#228;ryungar the h&#246;rde
+thet.</para><para /><para>	Och komo the till Hierusalem, och Jesus gick in
+vthi templit, och begynte vthdriffua th<inline italics="true">e</inline>m som
+s&#229;lde och k&#246;pte j te<inline italics="true">m</inline>plit, och
+f&#246;rst&#246;rte weslarennes bordh, och theras stolar som duffwor
+s&#229;lde, och stadde icke till ath n&#229;ghon baar sin tygh genom
+templit, och l&#228;rde han och sadhe th<inline italics="true">e</inline>m
+&#228;r icke scriffuit, Mit hws skal kallas b&#246;nahws allo folkeno?, men
+j haffuen giordt thet till en r&#246;fware
+kulo.</para><para /><para>	Och the scrifftl&#228;rde och
+&#246;ffuersta presterna fingo thet h&#246;ra, och begy<inline italics="true">n</inline>te s&#246;kia effter hurw the skulle
+f&#246;rg&#246;ra honom, ty the fructadhe honom, effter thet ath alt folkit
+f&#246;rundradhe p&#229; hans l&#228;rdom, och th&#229;
+afftonen</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline> 30b]</para><para>kom, gick Jesus
+vthwr stadhen, och om morgonen gingo the ther fram om, och s&#229;gho fikona
+tr&#228;dh f&#246;rt&#246;rkat wara in till roothe<inline italics="true">n</inline>, Th&#229; kom Petrus thet j hogh och sagde, Mester,
+Sy, thet fikone tr&#228;dh som tw bannadhe thet &#228;r
+f&#246;rt&#246;rkath, Jesus swaradhe och sagde till them, haffuer troona
+till gudh, Sannerligha s&#228;gher iach idher, ath hoo som helst sagde till
+thetta berg, l&#246;fft tich h&#228;dhan och kasta tich j hafuet, och han
+twifladhe intit j sitt hierta, vtan trodde s&#229; skee skola som han sagde,
+hono<inline italics="true">m</inline> skal skee alt thet han s&#228;gher,
+f&#246;r then skul s&#228;gher iach idher, ath alt thet j bidien j idhra
+b&#246;ner, troon ath j f&#229;&#229;n thet, och thet skal skee
+idh<inline italics="true">e</inline>r, Och n&#228;r j st&#229;n och
+bidhien, f&#246;rl&#229;ten om j n&#229;ghot haffuen emoot
+n&#229;ghrum, p&#229; thet ath idhar fadher som j hi<inline italics="true">m</inline>melen &#228;r, skal f&#246;rl&#229;ta idher
+idhra synder.</para><para /><para>	Och som the komo &#229;ter till
+Hierusalem och han gick j templit komo till honom the &#246;ffuerste
+presterna och the scrifftl&#228;rdhe, och the &#229;lder&#223;men, och
+sagde till hono<inline italics="true">m</inline>, Vthaff hwars
+v&#228;llogheet g&#246;r tw thetta, och hoo hafuer gifuit tigh the<inline italics="true">n</inline>na v&#228;llogheet ath tw thetta g&#246;ra skal?
+Jesus swaradhe och sagde till th<inline italics="true">e</inline>m, Jach will
+och n&#229;goth sp&#246;ria idh<inline italics="true">e</inline>r, swaren
+mich, och s&#229; will iach s&#228;ya idher medh hwars v&#228;llogheet
+iach thetta g&#246;r, Joannis d&#246;pelse, war thet vtaff himmelen eller
+vthaff menniskior?, Swaren mich, och the tenkte vidh sich och sagde,
+S&#228;ye wij vthaff himmelen th&#229; s&#228;gher han, hwij trodden j
+honom icke th&#229;?, haffde the och sagt vthaff menniskior, r&#228;ddes
+the f&#246;r folkit, ty alle haffde Joannem ther f&#246;re ath han
+sannerligha war en prophete, och s&#229;&#229; swaradhe the s&#228;yandes
+till Jesum, wij wethe thet icke, Swaradhe Jesus och sagde till them, Jcke
+heller will iach s&#228;ya idher vthaff huad v&#228;llogheet iach thetta
+g&#246;r.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0012" tabs="left:35.45;" widow-control="true"><para>		Tolffte
+Capitel.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para /><para>OCh han begynte tala them till j lijknilse,
+En man plantadhe en wijng&#229;rdh, och g&#228;rde ther om kring en
+g&#229;rd, och grooff en wijngroop, och bygde itt torn, och leegde
+hono<inline italics="true">m</inline> vth wijng&#229;rdzmannom, och foor
+s&#229; vth j fr&#228;mande land, och th&#229; r&#228;tta tijdhen war
+s&#228;nde han sin tienare till wijng&#229;rdzme<inline italics="true">n</inline>nena, ath han skulle ana<inline italics="true">m</inline>ma aff wijng&#229;rdzmennena vthaff
+wijng&#229;rdzens fruct, men the togho honom, och slogho honom, och sende
+honom heem igen blottan, <inline italics="true">&#197;</inline>&#229;ter
+sende han till them en annan tienare, th<inline italics="true">e</inline>n
+stenadhe the, och slogho hono<inline italics="true">m</inline> huffwudith
+s&#246;nder, och sende<inline italics="true">n</inline> heem igen
+f&#246;rsm&#228;ddan, och &#229;ter sende han en annan, then dr&#229;po
+the, och monga andra, somligha hudhflengde the, och somligha dr&#228;pte
+the.</para><para /><para>	S&#229; haffde han en nw en son th<inline italics="true">e</inline>n han k&#228;&#228;r haffde, honom sende han och
+till them p&#229; thet sij&#223;ta, s&#228;yandes, the haffua jw ena
+f&#246;rsyn f&#246;r min son, men thenne wyng&#229;rdzme<inline italics="true">n</inline>nener sadhe emellan sigh, thenne &#228;r erffwingen,
+kommer och l&#229;ther oss dr&#228;pa honom, och arffwodelen wardh<inline italics="true">e</inline>r w&#229;&#229;r, S&#229; togho the hono<inline italics="true">m</inline> och dr&#229;po hono<inline italics="true">m</inline> och kastadhen vthwr wijng&#229;rden, Huad skal nw
+wijng&#229;rdz herren g&#246;ra? Han skal ko<inline italics="true">m</inline>ma och f&#246;rg&#246;ra wijng&#229;rdzmennenar,
+och f&#229; wijng&#229;rden androm, haffuen j icke l&#228;sit thenne
+scrifften, Then stenen som bygningi&#223;me<inline italics="true">n</inline>nenar bortkastadhe han &#228;r worden en huffwudh
+steen j h&#246;rnet, aff herreno<inline italics="true">m</inline> &#228;r
+thetta giordt, och thet &#228;r vndersamt f&#246;r w&#229;r &#246;ghon,
+Och the s&#246;kte effter ath gripa honom, men the r&#228;ddes f&#246;r
+folkit, ty the f&#246;rstodho ath han sagde then
+lijknelsen</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline> 31a]</para><para>om them, S&#229;
+gaffuo the hono<inline italics="true">m</inline> vth&#246;ffuer, och gingo
+sin w&#228;gh.</para><para /><para>	Och s&#228;nde the til honom
+noghra vthaff the phariseer och the Herodianer ath the skulle begripa honom j
+orden, Th&#229; the kommo sadhe the till honom Mestar wij wethe ath tw
+&#228;st sanf&#228;rdigh, och sk&#246;ter ingen, ty tw seer icke effter
+menniskernes an&#223;eende, vtha<inline italics="true">n</inline>
+l&#228;rer gudz w&#228;gh j sanning, &#228;r thet och r&#228;tt ath man
+giffuer keisarenom skatt eller ey?, skulo<inline italics="true">m</inline> wij
+giffuan eller icke geffuan?, Men han f&#246;rstood theres scrymtan, och sadhe
+till th<inline italics="true">e</inline>m, Hwij fresten j mich?, Tagher hijt
+peningen ath iach m&#229; see honom, och the b&#229;ro honom fram,
+th&#229; sadhe han till them, huars bel&#228;the och offuerscrifft
+&#228;r thetta?, Sadhe the till honom, keysarens, Th&#229; swaradhe Jesus
+och sadhe till them, Giffuer keysaren huadh keysaren tilh&#246;rer, och gudhi
+thet gudhi tilh&#246;rer, och the f&#246;rwndradhe p&#229;&#229;
+honom.</para><para /><para>	S&#229; komo the Saduceer til honom, Hwilka
+s&#228;ya ath ingen vpstanddilse &#228;r, och sporde honom s&#228;yandes,
+Mester Moses haffuer scriffuit oss, om noghen mandz brodher d&#246;&#246;r,
+och l&#229;ther hustru effter sigh, och l&#229;ther inghen barn effter
+sigh, th&#229; skal ha<inline italics="true">n</inline>s brodher tagha hans
+hustru och vppw&#228;ckia sinom brodher s&#228;dh, Thet woro siw
+br&#246;dher och then f&#246;rste toogh sich hustru, och han bleeff
+d&#246;dh, och leeffde ingen s&#228;dh effter sigh, och then andre toogh
+henne och bleff d&#246;dh, then ey heller leeffde s&#228;dh effter sigh,
+och then tredie samalunda, s&#229; ath siw togho henne, och leeffde doch
+ingen s&#228;dh, sij&#223;t aff allo<inline italics="true">m</inline>
+d&#246;dde och hustrun, Huilke<inline italics="true">n</inline>s theras
+hustru skal hon nw wara j vpstondelsen th&#229; the skola vppst&#229; igen?
+ty siw hadhe hafft henne till hustru, Swaradhe Jesus och sadhe til th<inline italics="true">e</inline>m Faren j icke ville th<inline italics="true">e</inline>r &#229;ff ath j icke weten scriftena ey heller gudz
+krafft?, f&#246;r ty th&#229; the vppst&#229;ndna &#228;ra aff
+d&#246;dha, tagher icke man sich hustru och ey heller hustru giffues manne,
+vtan the &#228;ro s&#229; som &#228;nglanar som j himmelen &#228;ro,
+men om the d&#246;dha ath the warda vpst&#229;ndandes, haffuen j icke
+l&#228;sit j Mosi book, hurwledis gudh taladhe medh honom j boskanom
+s&#228;yandes Jach &#228;r abrahams gudh, och Jsaacs gudh och Jacobs gudh,
+han &#228;r icke the d&#246;dhas gudh, vthan theres som leffua, Saa faren j
+nw mykit wille.</para><para /><para>	Th&#229; gick en fram vth aff the
+scrifftl&#228;rde, then ther p&#229; h&#246;rdt hadhe, ath the till hopa
+disputeradh hadhe, och hadhe seet aht han hadhe w&#228;l swarath them, och
+spoorde honom till, Huilkit &#228;r thet yppesta aff allom bedhordomen?,
+Jesus swaradhe honom, Thet yppersta aff all bodhorden &#228;r thetta,
+H&#246;&#246;r Israel, herren w&#229;r gudh &#228;r allena herre, och
+tw skalt &#228;lska thin herra gwdh vthaff alt titt hierta, och vthaff alla
+thina si&#228;l, och vthaff all thin hogh, och vthaff alla thina makt, thet
+&#228;r ypperste bodith, Och thet andra &#228;r tesso lijkt, Elska thin
+n&#228;sta som tigh sieluan, jntit annat bodh &#228;r st&#246;rre
+&#228;n thenna.</para><para /><para>	Och then scrifftl&#228;rde sadhe
+till honom, Mestar tw haffuer all r&#228;tt sagt medh sanningen ath gudh
+&#228;r een, och ingen annan &#228;r f&#246;rutan honom, och ath elska
+honom vthaff alt hierta, och vthaff alt ff&#246;rst&#229;nd, och vthaff
+alla si&#228;l, och vthaff alla makt, och elska sin n&#228;sta som sigh
+si&#228;lff, thet &#228;r meer &#228;n all br&#228;nne offer och offer,
+Th&#229; Jesus s&#229;gh ath han wijsligha swaradh hadhe, sadhe han till
+honom, Tw &#228;r icke l&#229;ngt j ffr&#229; gudz rijke, Och sidhan
+toorde ingen ffr&#229;gha honom.</para><para /><para>	Och swaradhe Jesus
+och sadhe l&#228;rendhes j templit, Hwrw s&#228;ya
+the</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline>
+31b]</para><para>scrifftl&#228;rde Christum wara dauids son?, f&#246;r ty
+dauid genom then h&#228;lgha andha segher, Herren sadhe till min herra, sitt
+p&#229; min h&#246;ghra ha<inline italics="true">n</inline>d till
+t&#228;ss ath iach haffwer satt thina owener, tigh till en fotapall,
+S&#229; kallar nw dauid honom herra, hwadhan &#228;r han th&#229; hans
+son?, Och en stoor deel aff folkith h&#246;rde honom
+gerna.</para><para /><para>	Och sadhe han till them j sin l&#228;rdom,
+Wacten idher f&#246;r the scrifftl&#228;rda, the g&#229; gerna j sidhom
+kl&#228;dhom, och l&#229;ta gerna helsa sigh p&#229; torghit och sitia
+gerna fr&#228;mst j f&#246;rsamlinganar, och fr&#228;mst vidh bordhit,
+huilka ther vpp&#228;ta &#228;nkiors hws f&#246;reb&#228;randes longa
+b&#246;ner, thenne f&#229; testa sw&#229;rare
+f&#246;rd&#246;milse.</para><para /><para>	Och satte Jesus sigh
+tw&#228;rt emoot offerkistona och s&#229;gh vpp&#229; hwruledhes folkit
+lagde penningar j kistona, och monge rike lagde mykit in, och en fatigh
+&#228;nkia kom och lagde in tw&#229; sk&#228;rffwar, thet war en
+pe<inline italics="true">n</inline>ning, Th&#229; kalladhe han sina
+l&#228;riungar till sigh, och sadhe till them, Sannerligha s&#228;gher iach
+idher, ath thenna fatigha &#228;nkian, laghde meer in j kistona &#228;n
+alle the andre som ther inlagde, for ty alla som inlagde, the lagde vthaff thet
+them owerlop, m&#228;n hon inlagde vthaff hennes fatighdom alt thet hon hadhe
+alla sina n&#228;ring.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0012" tabs="left:35.45;" widow-control="true"><para>		Trettonde
+Capitel.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para /><para>OCh th&#229; han gick vthaff templit, sadhe
+honom en vthaff hans l&#228;ryungar, Mestar see hurudana stenar, och hwrwdana
+bygning, Jesus swaradhe och sadhe till honom, Seer tw thenna stora bygningar,
+en steen warder icke qwarliggiandes p&#229; then andra, then icke aff broten
+wardher.</para><para /><para>	Och th&#229; han satt p&#229;
+olieb&#228;rgith tw&#228;rt emoot templit, fr&#229;gadhe honom heemligha
+Petrus och Jacobus och Joannes och Andreas, S&#228;gh oss n&#228;r thetta
+skal skee?, och hwadh tekn &#228;r ther till, n&#228;r thetta skal alt
+fulbordas, Swaradhe Jesus och begynte s&#228;ya, Seer till ath inghen idher
+bedr&#228;gher, ty monge warde kommande j mitt nampn s&#228;yandes, Jach
+&#228;r Christus, och the skola bedragha monga.</para><para /><para>	Men
+n&#228;r j f&#229; h&#246;ra &#246;rligh och &#246;rlighs rykte,
+waren icke bedr&#246;ffwadhe, ty thet motte skee, men thet &#228;r icke
+strax enden, thet warder wppresande thet ena f&#246;lkit emoot thet andra,
+och thet ena rikit emoot thet andra, Och jordb&#228;wning skal warda
+mo<inline italics="true">n</inline>ga stadz, och hunger och bedr&#246;fwilse
+skola warda, thetta &#228;r begynnilsen til
+widherm&#246;dhon.</para><para /><para>	Men taghen j idher wara, ty the
+skola &#246;ffuerantwarda idher in p&#229; r&#229;dhwsen, och in vthi the
+synagogor, och j warden slagne, och framdragne f&#246;r f&#246;rstar och
+konungar f&#246;r mina skull, till itt vitnesbyrd &#246;ffuer them, Och
+Euangelium moste f&#246;rst predicat warda f&#246;r alt
+folk.</para><para /><para>	N&#228;r the nw dragha idher fram och
+&#246;ffwerantwarda idher, tenker intet framf&#246;re &#229;&#229;t,
+hwadh j skolen s&#228;ya, vtan hwadh idher ingiffwit wardaer j samma stvnden
+thet taler, ty thet &#228;ren icke j som talen, vtan then helge ande, och
+warder then ena brodhren &#246;ffwerantwardandes then andra j d&#246;den,
+och fadhren sonen, Och s&#246;nenar skola falla f&#246;reldrena emoot, och
+hielpa till ath d&#246;dha them, Och j skolen warda f&#246;rhatadhe aff
+allom f&#246;r mitt nampn skull, men then som h&#228;rder in till
+&#228;ndan han warder saligh,</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline> 32a]</para><para>	Men
+th&#229; j f&#229;&#229;n see then &#246;dehligha f&#246;rstyggilsen
+ther aff saght &#228;r genom prophetan Daniel stondandes ther som icke
+tilborlighit &#228;r, then thet l&#228;ss, han f&#246;rst&#229; thet,
+The th&#229; &#228;ro vthi Judee landit the flye vpp&#229; berghen, men
+th<inline italics="true">e</inline>n ther &#228;r vpp&#229; takith han
+g&#229; icke nidher j hwsit, och g&#229; icke in till ath tagha nogoth
+vthur sitt hws, Och then som &#228;r p&#229; &#229;kren han w&#228;nde
+icke om igen till thet han haffuer till baka latit till ath tagha sine
+kl&#228;dher, Wee them som haffwandes eller deggiandes &#228;ro j the
+daghar, men bedher ath idher fl&#246;kt icke skeer om wintren, ty ath j the
+daghar wardher s&#229;dana bedr&#246;ffwilse ath slijk haffuer icke warith
+j fr&#229; creaturens begy<inline italics="true">n</inline>nilse th<inline italics="true">e</inline>n gudh skapath haffuer in till nw, och ey heller
+wardher, Och hwar herren icke hadhe f&#246;rkortadh the daghar, hadhe intit
+k&#246;t wordhit salight, men f&#246;r the vth koradhe skull som han wth
+koradh hadhe f&#246;rkortadhe han
+dagharna.</para><para /><para>	N&#228;r th&#229; noghor wille
+s&#228;ya till idher Sy h&#228;r &#228;r Christus Sy han &#228;r ther,
+troon thet intit, ty falska christi och falske propheter warda sigh
+vph&#228;ffwande, och the skola g&#246;ra teekn och wijdhunder till ath
+bedr&#228;gha (ja om m&#246;gheleghit wore) th<inline italics="true">e</inline>m ther vthkoradhe &#228;ro, men taghen j idher till
+wara, sy iach haffwer sagt idher all ting fram
+f&#246;re.</para><para /><para>	Ytermera j the daghar effter then
+bedr&#246;wilsen, skal solen f&#246;rm&#246;rkias, och m&#229;nen skall
+icke giffwa sitt sken, och himmelsens stiernor warda nidher fallandes, och
+himblanas kraffter skola b&#228;ffua, och th&#229; skola the f&#229; see
+menniskionne son kommandes j skyn medh stoor makt och herligheet, och
+th&#229; wardher han senda<inline italics="true">n</inline>des sina
+&#228;nglar till ath f&#246;rsambla hans vthkoradha fr&#229; fyra
+w&#228;dher nedherst j fr&#229; iordhenne och &#246;ffuerst vpp j
+himmelen.</para><para /><para>	L&#228;rer vthaff fikona tr&#228;dh een
+liknilse, N&#228;r tess quister &#228;r kleen och begynnar b&#228;ra
+l&#246;ff s&#229; weten j ath sommaren &#228;r n&#228;r, Sammalunda och
+n&#228;r j seen thetta skee, s&#229; wether ath thet &#228;r n&#228;r
+f&#246;r d&#246;rena, Sannerligha s&#228;gher iach idher, ath thetta
+slectit skall icke f&#246;rg&#229;&#229;&#223;, f&#246;rra &#228;n
+alt thetta skeedt &#228;r, Himmel och iordh warda f&#246;rgongandis, men
+min ordh warda icke f&#246;rgongande, Men om then daghen eller then stunden
+wet inghen, icke &#228;nglanar som j himmelen &#228;ro ey heller sielffwer
+sonne<inline italics="true">n</inline> vtan fadheren
+allena.</para><para /><para>	Wacthen idher vaken och bedhen, ty j weten
+icke n&#228;r tijdhen &#228;r, S&#229; som en man then ther wandrar j
+fremmande la<inline italics="true">n</inline>d, och haffwer
+&#246;ffwergiffwit sitt hws, och f&#229;tt sina ti&#228;nara sina
+&#228;ghodelar, och hwariom och enom sitt arbete, och haffwer bwdhit
+d&#246;rawaktarenom ath han skulle waka, Waker f&#246;r then skull, ty j
+wethen icke n&#228;r hw&#223;herren kommandes warder, antingen om afftonen,
+eller midhnatz tijdh, eller j h&#246;n&#223;g&#228;ldhen, eller j
+daghningen, ath om han k<inline italics="true">o</inline>mmer hastelig<inline italics="true">h</inline>a, icke skall finna idher soffwandes, Nu, hwadh iach
+segher idher, thet s&#228;gher iach allom,
+waker.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0012" tabs="left:35.45;" widow-control="true"><para>		Fiortonde
+Capitel.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline> 32b]</para><para>TW&#229; dagha
+ther effter instundadhe p&#229;scha och the s&#246;tabr&#246;dzdaghar,
+och the &#246;ffuerste presterna och the scrifftl&#228;rde s&#246;chte
+effter hwrw the kunde swikligha f&#229; fatt p&#229; honom, och
+d&#246;dha honom, Men the sadhe, Jcke om h&#246;gtidhes daghen, ath itt
+vplop icke skeer j blandt ffolkit.</para><para /><para>	Och th&#229; han
+war j Bethania j then spet&#228;lske Symons huse, widh han sat til bordh, kom
+en qwinna haffwandes itt glaass medh of&#246;rfalskat och kosteligh nardus
+sm&#246;rielse, hon br&#246;t glasit s&#246;nder, och vthg&#246;t thet
+p&#229; hans huffwdh.</para><para /><para>	S&#229; woro ther nogre som
+thet mistykte vidh sigh sielffua och sadhe, Hwar effter f&#246;rspilles
+thenne sm&#246;rielsen?, f&#246;r ty thet motthe w&#228;l warit
+s&#229;ldt meer &#228;n f&#246;r tryhundradhe peningar, och giffwas
+fattighom, och l&#228;to illa p&#229;
+henne.</para><para /><para>	Th&#229; sadhe Jesus, Later henne medh
+fridh, hwi &#228;ren j henne ansinnoghe?, hon haffwer giordt ena godha
+gerning emoot mich, ty j haffwen altijdh fattigha n&#228;r idher, och
+n&#228;r som helst j wilien, kunnen j g&#246;ra them till godho, men mich
+haffwen j icke alltijdh, thet hon kunde thet giorde hon, hon &#228;r
+f&#246;re&#229;t kommen ath sm&#246;ria min likamme till begraffning,
+Sannerligha s&#228;gher iach idher, Hwar thetta ewangelium predicat wardher
+vthi heela werldhen skall och thetta som hon giorde sagt wardha, henne till
+&#229;minnilse.</para><para /><para>	Och Judas Jscariot en vth aff the
+tolff gick bort till the &#246;ffwerste presterna, p&#229; thet ath han
+skwlle f&#246;rr&#229;dha honom them j hender, N&#228;r the thet
+h&#246;rde wordo the gladhe, och loffwadhe honom ath the wille giffwa honom
+penninga, och han s&#246;cte hwrw han l&#228;mpeligest honom
+f&#246;rr&#229;dha kunde.</para><para /><para>	P&#229; f&#246;rsta
+s&#246;tzbr&#246;dz daghen th&#229; man offradhe p&#229;schalambith,
+sadhe hans l&#228;ryungar till honom, Hwar will tw ther wij skole g&#229;
+och redha till ath tw &#228;ther p&#229;schalambith?, Och han fram sende
+tw&#229; vthaff sine l&#228;ryungar, och sadhe them, G&#229;r in j
+stadhen och ther m&#246;ter idher en man b&#228;randes ena kruko watn,
+f&#246;lier honom effter, och hwar han ing&#229;r s&#228;gher
+hw&#223;bondanom, Mestaren later s&#228;ya tigh, Hwar &#228;r
+g&#228;stahuseth, ther iach medh minom l&#228;ryu<inline italics="true">n</inline>gom kan &#228;ta p&#229;schalambith? Och han
+wardher idher wisande en stoor saal breddan och tillpyntadhan, ther reedher
+till f&#246;re oss, Och hans l&#228;ryungar gingo vth och komo in j
+stadhen, och funno som han them sagt hadhe, och tillreedhe
+paschalambith.</para><para /><para>	Th&#229; nw afftonen wort, kom han
+medh the tolff, och vidh the s&#229;to till bordz och &#229;to, sadhe Jesus
+Sannerligha s&#228;gher iach idher, En vthaff idher som &#228;ther medh
+mich, han wardher mich f&#246;rr&#229;dha<inline italics="true">n</inline>des, Men the begynte wara illa till fridz och sadhe
+till hono<inline italics="true">m</inline> hwar f&#246;r sigh, &#228;r thet
+iach?, Och then andre, &#228;r thet iach?, Han swaradhe och sadhe till
+th<inline italics="true">e</inline>m En vthaff the tolff then som tagher j
+fatith medh mich, Ja menniskionne son wardher g&#229;endis s&#229;som
+scriffuit &#228;r om hono<inline italics="true">m</inline>, men wee then
+me<inline italics="true">n</inline>niskionne genom huilken menniskio<inline italics="true">n</inline>ne son wardher f&#246;rr&#229;dder, the
+menniskionne wore b&#228;tre ath hon icke wore
+f&#246;dd.</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline> 33a]</para><para>	Och widh
+the &#229;to, toogh Jesus br&#246;dit, och th&#229; han
+w&#228;lsighnadh hadhe, br&#246;&#246;t han, och gaff them och sadhe,
+Taghen, &#228;ten, thetta &#228;r min lekamen, Och toogh han kalken, Och
+th&#229; han tackadh hadhe gaff han them, och the drucko ther vthaff alle,
+och sadhe han till them, Thetta &#228;r min blodh tess nyia testamentzens,
+hwilken f&#246;r monga vthgiwtes, Sannerligha segher iach idher, H&#228;r
+effter wardher iach ecke drickandes vth aff vijntr&#228;s fruct, in till then
+daghen ath iach thet drickandes wardher nytt j gudz rijke, Och th&#229; the
+hadhe hollit loffsongin, gingo the vth p&#229;
+olieberghit,</para><para /><para>	Och sadhe Jesus til them, J alle warden
+lidhandes f&#246;rargilse f&#246;r mina skull j thenna natten, f&#246;r
+ty thet &#228;r scriffwit, Jach warder sl&#229;endis heerdan, och f<inline italics="true">&#229;</inline>ren warde f&#246;rskingrath, men th&#229;
+iach &#228;r vppsto<inline italics="true">n</inline>den j gen, vill iach
+g&#229; fram f&#246;re idher vthi galileam, Th&#229; sadhe petrus till
+honom, Om the &#228;n alle f&#246;rarghadhes, icke skal iach g&#246;rath,
+Sadhe Jesus till honom, Sannerligha s&#228;gher iach tigh, ath j dagh j
+thenna natt f&#246;rra &#228;n hanen haffuer tw&#229; resor galith,
+warder tw tree resor mich f&#246;rsakande, Th&#229; sadhe han &#228;n
+th&#229; ytherlighare, Ja, skulle iach &#228;n d&#246;&#246; medh tigh,
+icke skal iach f&#246;rsaka tigh, Sammalunda sadhe the och
+alle.</para><para /><para>	Och the kommo p&#229; then platzen som
+kalladhes getsemani, och th&#229; sadhe han till sina l&#228;riungar,
+Sither h&#228;r s&#229; lenge iach g&#229;&#229;r aff sidhes till ath
+bidia, Och s&#229; toogh han medh sigh Petrum och Jacobum och Joannem, och
+begynte till ath f&#246;rskr&#228;ckias och engzslas, och sadhe till them,
+Mijn si&#228;l &#228;r bedr&#246;wadh alt in till d&#246;dhen, bliffwer
+h&#228;r och waken, Och han gick litith fram b&#228;ther och f&#246;ll
+nidher p&#229; iordena och badh, ath om m&#246;ghelighit wore skulle then
+stunden vndtg&#229; honom, och sadhe, Abba fadher, all tingh &#228;ro tigh
+m&#246;ghelighen, vmdragh mich thenne drycken, doch icke hwadh iach will vtan
+thet tw will.</para><para /><para>	Sedhan kom han och fan them soffwandes,
+och sadhe till Petrum Simon soffwer tw?, kunde tw icke waka ena stund?, waken
+och bedhen, ath j icke kommen vthi frestelse, Anden &#228;r viliogh, men
+k&#246;tit &#228;r swaght, Och s&#229; gick han &#229;ther bort
+&#229;ff sidhes ath bidia, och taladhe samma oordhen, Och th&#229; han kom
+igen, fan han them &#229;ther soffwandes, f&#246;rty theres &#246;ghon
+w&#229;ro tung, och the viste icke hwadh the honom swara skulle, och han kom
+tridhie gongen och sadhe till them, Ja soffwer nw och hwilen idher, thet
+&#228;r noogh, stunden &#228;r kommen, sy menniskionnes son warder
+&#246;ffuerantwardat vthi syndares hendher St&#229;&#229;r vpp,
+l&#228;th oss g&#229;&#229;, sy, then ther f&#246;rr&#229;dher mich
+han &#228;r h&#228;r hart n&#228;r.</para><para /><para>	Och strax
+medh samma oordhen steegh Judas fram, then ther en war vthaff the tolff, och
+medh honom itt stoort tall folch medh sw&#228;rdh och staffrar fr&#229; the
+&#246;ffwersta presterna och fr&#229; the scrifftl&#228;rda och
+fr&#229; the &#229;ldersm&#228;n, S&#229; hadhe then som
+f&#246;rr&#229;dde honom giffwit them itt teekn, s&#228;yandes, Hwilkin
+som helst iach kysser then &#228;reth, tagher fatt p&#229; honom, och
+f&#246;ren honom warligha, Och som han kom <inline italics="true">t</inline>r&#228;dde han hasteligha fram till honom och sadhe
+till honom, Mester Mester, och kyste honom, Th&#229; b&#229;ro the hender
+p&#229; honom och g<inline italics="true">ri</inline>po honom Men en vthaff
+the ther n&#228;r stodho, droogh sitt sw&#228;rdh vth och sloogh
+&#246;ffuerste prestens ti&#228;nare, och h&#246;g honom &#246;rath
+vthaff.</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline>
+33b]</para><para>	Och swaradhe Jesus och sadhe till them, s&#229; som
+till en r&#246;ffuare &#228;ren j vthg&#229;ngne medh sw&#228;rdh och
+staffrar till ath gripa mich, Jach hafuer hwar dagh warith n&#228;r idher j
+templet och l&#228;rdt, och j tooghe<inline italics="true">n</inline> intit
+fatt p&#229; mich, m&#228;n thetta skeer p&#229; thet ath scrifftenar
+skola fulboordas, Och l&#228;riunganar g&#229;ffuo honom th&#229; alle
+vth&#246;ffwer, och flydde, Men en vnger man folgde honom, <inline italics="true">k</inline>l&#228;dder p&#229; blotta kroppen vthi jtt
+lijnkl&#228;dhe, och vnge men gripo honom, men han looth fara
+lijnkl&#228;dhit och kom vndan fr&#229; them
+naken.</para><para /><para>	S&#229; leedde the Jesum till then
+&#246;ffwersta presten, och medh honom f&#246;rsambladhes alle
+&#246;ffuerste presterna, och the &#229;ldersm&#228;n och the
+skrifftl&#228;rde, Och Petrus folgde longt effter honom, till tess han kom
+vthi then &#246;ffuerste prestens f&#246;rpalatz, och satte sigh j bland
+ti&#228;narena vidh eldhen och vermade sigh.</para><para /><para>	Men
+the &#246;ffuerste prestenar och hela r&#229;dhit s&#246;kte effter vitne
+emoot Jesum, ath the motte lata d&#246;dha honom, och kunde doch ingen finna,
+f&#246;rty monge hadhe burith falsk witne emoot hono<inline italics="true">m</inline>, doch giorde theres vithnesbyrd icke fyllest,
+Th&#229; stodho noghre vpp, och b&#229;ro fals<inline italics="true">k</inline>t vitnisbyrdh emoot honom, och sadhe, Wij
+h&#246;rdom honom s&#228;ya, Jach will nedhersl&#229;&#229; thetta
+templet som &#228;r med hender vppbygt, och j tre daghar will iach
+s&#228;tia itt annat vpp jghen, vtan hender vppbygt, Och theras vitnesbyrdh
+giorde &#228;n th&#229; icke fyllest.</para><para /><para>	Th&#229;
+stood then &#246;ffuerste presten vpp j blandt them, och fr&#229;ghadhe
+Jesum s&#228;yiandes, Swarar tw intet?, Hwadh witna thenne emoot tigh? Men
+han tijgdhe, och swaradhe platt intit, <inline italics="true">&#197;</inline>&#229;ther sporde then &#246;ffuerste
+presten, och sadhe till honom, &#228;st tw Christus then w&#228;lsighnadhes
+son? Jesus sadhe, Jach &#228;r s&#229;, och j skolen f&#229; see
+menniskionnes son sitia<inline italics="true">n</inline>des p&#229;
+crafftenes h&#246;ghra sidho, och kommandes j himmelens sky, Th&#229; reeff
+then &#246;ffuerste presten sin kl&#228;dher s&#246;nder, och sadhe,
+Hwadh beh&#246;ffue wij nw mera vitne? J h&#246;rden gudz h&#228;dhilse,
+hwadh synes idher? Th&#229; f&#246;rd&#246;mde the honom alle ath han war
+saker till d&#246;dhen, och somblighe begynte till ath spotta p&#229; honom
+och f&#246;rt&#228;ckia hans ansichte, och sl&#229; honom medh
+n&#228;ffuanar, s&#228;yandis till honom, Sp&#229;&#229; til, Och
+ti&#228;narena kindpustadhe honom.</para><para /><para>	Och Petrus war
+nidhan til j f&#246;rpalatzit, th<inline italics="true">e</inline>r kom en
+&#246;ffuerste prestens tienista qui<inline italics="true">n</inline>na, och
+th&#229; hon s&#229;gh Petru<inline italics="true">m</inline> verma<inline italics="true">n</inline>de sigh, s&#229;gh hon p&#229; honom och sadhe,
+Wast tw och medh Jesu nazareno? Th&#229; nekadhe han och sadhe, Jach kenner
+honom intit, ey heller weet iach hwadh tw s&#228;gher, Och s&#229; gick han
+vth j f&#246;rhusit, och hane<inline italics="true">n</inline> gool, Och
+quinnan s&#229;gh honom igen, och begynte s&#228;ya till the ther
+n&#228;r stodho, Thenne &#228;r vthaff them, Th&#229; nekadhe han
+&#229;ther, Och litit ther effter, taladhe the &#229;ther till Petrum som
+n&#228;r stodho, Sannerligha &#228;st tw vthaff them ty tw &#228;r och en
+galileesch man, och titt m&#229;&#229;l lydh<inline italics="true">e</inline>r ther effter, Th&#229; begynte han till ath
+f&#246;rbanna sich och sw&#228;ria, Jach kenner icke thenna mannen ther j
+om talen, och &#229;ther gool hanen, Th&#229; begynte Petrus dragha till
+minnes thet oordith som Jesus hadhe sagt till honom, f&#246;rra en hanen
+haffwer galith tw&#229; reesor, skall tw f&#246;rsaka mich tre resor, och
+begynte till ath
+gr&#229;ta.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0012" tabs="left:35.45;" widow-control="true"><para>		Femtonde
+Capitel.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline>
+34a]</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0006" tabs="left:177.20;left:216.00;" widow-control="true"><para><inline font-style="Times">OCh strax j daghningene
+h&#246;llo the &#246;ffuersta presterna r&#229;&#229;dh medh the
+&#229;ldersm&#228;n och medh the scriftl&#228;rda och medh hela
+r&#229;dith, och bundo Jesum och leedde honom bort och antwardadhe honom
+Pilato, Och Pilatus fr&#229;gadhe hono</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times">, &#228;st tw then
+Judha konnungen? Th&#229; swaradhe han och sadhe till hono</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times">, Tw
+s&#228;gher thet, Och &#246;ffuerste presterna beklagadhe honom om mong
+ting, Th&#229; fr&#229;gadhe &#229;ther Pilatus honom och sadhe, Swarar
+tw intitt? see hurw mong stycke the witna p&#229; tich?, Men Jesus swaradhe
+sedhan plat intit, s&#229; ath Pilatus f&#246;rundradhe
+sich.</inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para>	S&#229; pl&#228;gadhe han j
+p&#229;schah&#246;gtidhe<inline italics="true">n</inline>ne giffua them en
+fonga l&#246;&#223; th<inline italics="true">e</inline>n the h&#228;lst
+beg&#228;radhe, S&#229; war ther th&#229; en benemd Barrabas, som gripen
+war medh somligha ther vplop giordt hadhe, och hadhe vthi vplopit bedriffuit
+itt dr&#229;&#229;p, Th&#229; gick folkit vpp och begynte bidia ath han
+skulle g&#246;ra them som hans pl&#228;gsidh altidh war, Swaradhe Pilatus
+s&#228;yandes, Wilien j ath iach skal idher &#246;ffuergiffua then Judha
+konnu<inline italics="true">n</inline>gen?, ty ath han wiste ath the
+&#246;fuerste presterna vthaff awundh hadhe &#246;ffuerantwardat honom, Men
+&#246;fuerste presterna eggiadhe almoghan ath han heller skulle giffua them
+Barrabam
+l&#246;&#246;&#223;.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" name="Anfangsabsatz" nest-level="0" right-indent="0.00" style-number="s0006" tabs="left:177.20;left:216.00;" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para>	Pilatus swaradhe &#229;ther och sadhe till
+them, Huad wilien j th&#229; ath iach skall g&#246;ra honom then j kallen
+Judha konnungen?, Th&#229; ropadhe the &#229;ther, Cor&#223;fest honom,
+Pilatus sadhe till th<inline italics="true">e</inline>m, Huad haffuer han
+th&#229; illa giordt, Th&#229; ropadhe the en th&#229; fastare,
+Cor&#223;fest honom, S&#229; wille tho Pilatus g&#246;ra folkena fyllest,
+och &#246;ffuergaff th<inline italics="true">e</inline>m Barrabam, och
+hudhflengde Jesum, &#246;ffuerantwardandes sidhan till ath
+Cor&#223;festas.</para><para /><para>	Th&#229; leedde
+krig&#223;me<inline italics="true">n</inline>nena hono<inline italics="true">m</inline> bort vthi rett hwsit, och kalladhe till hopa hela
+rootan, och cl&#228;dde hono<inline italics="true">m</inline> vthi purpur
+cl&#228;dhe och wridho till hopa ena crono aff t&#246;rne, och satte
+p&#229; honom, och begynte till ath helsa honom, Hel Judha konnung, Och
+slogho hans huffwudh medh en r&#246;&#246;r, och spottadhe p&#229;
+hono<inline italics="true">m</inline>, fullo p&#229; kn&#228; och
+b&#229;dho till hono<inline italics="true">m</inline>.</para><para /><para>	Och n&#228;r the hadhe
+s&#229; begabbadh honom, affcl&#228;dde the honom vthwr purpur
+cl&#228;dhet och incl&#228;dde honom vthi sin eghen cl&#228;dher, och
+leedde vth hono<inline italics="true">m</inline> till ath cor&#223;festan,
+Th&#229; twingadhe the en man som th<inline italics="true">e</inline>r fram
+gick benempd Simon Cirenensis Alexandri och Ruffi fadher, then vthaff markena
+inkom, ath han motte dragha hans kors, Och the ledde hono<inline italics="true">m</inline> p&#229; thet rumeth Golgatha, thet &#228;r om
+ma<inline italics="true">n</inline> thet vthtydher p&#229; huffwudh skalla
+platzen, och the g&#229;ffuo honom bemirrat wijn til ath dricka men han toogh
+thet intit till sigh.</para><para /><para>	Och n&#228;r the hadhe
+kor&#223;fest honom bytte the hans cl&#228;dher kastandes lot p&#229;
+th<inline italics="true">e</inline>m, huad hwar f&#229; skulle, och thet war
+tridhie timen p&#229; daghe<inline italics="true">n</inline>, och the
+kor&#223;feste honom, och &#246;ffuerscrifften vthaff hans saak war
+scriffwen offwan till, Judha konnu<inline italics="true">n</inline>ger, Och the
+kor&#223;feste medh honom tw&#229; r&#246;ffware, en p&#229; hans
+h&#246;ghra, och then andra p&#229; hans wenstre sidho, och s&#229;
+bleeff scrifften fullbordat som s&#228;gher, Jbland og<inline italics="true">e</inline>rni<inline italics="true">n</inline>genes men vorth
+han reknath.</para><para /><para>	Och the som gingo ther fram om,
+h&#228;dde honom, och riste theres huffwudh och sadhe, Twy tigh,
+sk&#246;nligha sl&#229;r tw om kwll te<inline italics="true">m</inline>plet
+och j tree daghar vpbygger thet, Friya tigh sielffuan, och stijgh nedher vthaff
+korsith, Sammalunda och the &#246;ffuerste presterna giorde spee vthaff honom
+emellan sigh medh the scrifftl&#228;rdhe och sadhe, androm hafuer
+han</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline>
+34b]</para><para>hulpit, sigh sielffuan kan han icke hielpa, Christus th<inline italics="true">e</inline>n Jsraels konnu<inline italics="true">n</inline>g
+stighe nw nedher aff korsit, ath wij motte thet see och troo, Och the ther
+kor&#223;feste woro medh honom f&#246;rsm&#228;dde
+honom.</para><para /><para>	Th&#229; then s&#228;tte thimen kom, wart
+itt m&#246;rker vth&#246;ffuer thet hela landit in till nyionde thiman, Och
+j nytonde thiman ropadhe Jesus medh h&#246;gha r&#246;st s&#228;yandes,
+Eloi eloi, lamazabactani, thet &#228;r vth tydt, Min gudh hwij haffuer tw
+&#246;ffuergiffwit mich?, Och somlighe the ther n&#228;r stodho och
+h&#246;rde thet, sadhe, Sy, Heliam kallar han, S&#229; lopp en till medh en
+swamp vpfyltan medh &#228;tikio, then satte han p&#229; ena
+r&#246;&#246;, och rekte honom vpp till ath dricka och sadhe, Holdt, lat
+see om Helias kommer till ath tagha honom
+nedher.</para><para /><para>	Th&#229; ropadhe Jesus medh h&#246;gha
+r&#246;st och gaff vpp andan, Och tempelduken rem<inline italics="true">n</inline>adhe j tw styckie fr&#229; &#246;ffwerst och
+nedher j genom, Th&#229; h&#246;ffwidzmannen som stoodh ther n&#228;r
+fram f&#246;re honom s&#229;gh ath han medh itt s&#229;dant roop gaff vpp
+andan, sadhe han Sa<inline italics="true">n</inline>nerligha war the<inline italics="true">n</inline>ne man gudz son, Och woro ther qwinnor langt j
+fr&#229; st&#229;ndandes, skodhandes ther vpp&#229;, jblandt huilka war
+Maria Magdalene och Maria litzle Jacobs och Jose modher, och Salome, huilka och
+m&#228;dhan the woro j Galilea landit hadhe folgt honom, och tient honom, och
+mo<inline italics="true">n</inline>ga andra som medh honom vpfarit hadhe till
+Hierusalem.</para><para /><para>	Th&#229; afftonen kom, effter thet war
+tillredhilse daghen th<inline italics="true">en </inline>som g&#229;&#229;r
+f&#246;re Sabbatz daghen, kom Joseph b&#246;rdugh aff then stadhen Arimatia
+en &#228;rligh r&#229;dherre, then och f&#246;rbidde effter gudz rijke,
+han toogh sigh dristugheet till och gick in till Pylatum, och beddes vthaff
+honom Jesu lekame<inline italics="true">n</inline>, Th&#229;
+f&#246;rundradhe Pylatus ath han all redho war d&#246;dh, och kalladhe till
+sigh h&#246;ffwitzmannen, och fr&#229;ghade om han lenge sidhan d&#246;dh
+war, och th&#229; han thet s&#229; f&#246;rstondith hadhe vthaff
+h&#246;ffwidzmanneno<inline italics="true">m</inline>, gaff han Joseph
+lekamene<inline italics="true">n</inline>, och han k&#246;pte it linnedh
+cl&#228;dhe, toogh honom nedher och swepte vthi linnecl&#228;dith och lagde
+nedher vthi ena graff som vthhuggen war vthi itt hellebergh, och veltradhe til
+en steen f&#246;r graffwenes d&#246;r, Men Maria magdalene, och Maria Jose
+s&#229;gho till hwart han
+lagdes.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0012" tabs="left:35.45;" widow-control="true"><para>		Sextonde
+Capitel.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0011" tabs="left:0.00;left:35.45;" widow-control="true"><para /><para>OCH th&#229; sabbatz daghen fra<inline italics="true">m</inline>gongen war, gingo Maria magdalene, och Maria Jacobi,
+och Salome, och k&#246;pte w&#228;llukta<inline italics="true">n</inline>dis krydder, p&#229; thet ath the skulle komma och
+sm&#246;ria honom, Och p&#229; then ena sabbatz daghen komo the till
+graffwen ganska bittidha th&#229; solen redho vpgick, och sadhe emellan sigh
+sielffwa Hoo skall affweltra oss stenen fr&#229; graffwe<inline italics="true">n</inline>nes d&#246;r?, och th&#229; the s&#229;gho till,
+s&#229;gho the steenen wara affweltradhan, then ganska stoor war, och
+n&#228;r the ingongne woro vthi graffwen, s&#229;gho the en vng man
+sitia<inline italics="true">n</inline>des p&#229; h&#246;gra sidhon
+cl&#228;ddan vthi herlighit hwit cl&#228;dhe, och the wordo
+f&#246;rf&#228;radhe.</para><para /><para>	Th&#229; sadhe han till
+them, Warer icke f&#246;rf&#228;radhe j s&#246;ken Jesum aff Nazareth som
+kor&#223;fester war han &#228;r vpstonden, han &#228;r icke h&#228;r,
+Sy rumeth ther the hadhe lagt honom, men g&#229;&#229;r bort och
+s&#228;gher hans l&#228;ryungar och Petro, ath han g&#229;&#229;r fram
+f&#246;re idher vthi Galileam, ther skolen j f&#229; see honom, s&#229;
+som han idher sagt haffuer, Och the gingo hasteligha ther vth, och flydde j
+fr&#229; graffwen, ty them war</para><para /><para>[<inline font-size="14.00">&#8225;&#8225;</inline> 35a]</para><para>beffwing och
+hepenheet p&#229; kommen, icke heller sadhe the noghot f&#246;r noghrom, ty
+the r&#228;ddes.</para><para /><para>	Th&#229; Jesus vpst&#229;ndit
+hadhe om morghonen p&#229; f&#246;rsta Sabbatz daghen, syntes han
+f&#246;rst Marie Magdalene vthaff huilka han vthdriffwit hadhe siw dieflar,
+hon lopp bort och bodhadhe them som pl&#228;gadhe wara medh honom, the ther
+s&#246;ryandes och gr&#229;tandes w&#229;ro, N&#228;r the h&#246;rde
+ath han war liffuandes och war seedder vthaff he<inline italics="true">n</inline>ne troodde the intit, Ther effter th&#229;
+tw&#229; vthaff them wandradhe vth &#229;&#229;t landzbygden, syntes han
+them vthi en annor skapilse, och the gingo bort och bodadhe thet them androm,
+och the troodde icke heller them.</para><para /><para>	Sidhan n&#228;r
+the elloffua s&#229;to till bordz syntes han them, och f&#246;rkastadhe
+them theres otroheet och hierta<inline italics="true">n</inline>s hardheet ath
+the icke troodt hadhe them som hadhe seet hono<inline italics="true">m</inline>
+wara vpst&#229;ndnan, och sadhe til them, G&#229;nger vthi hela werldhen
+och prediker euangeliu<inline italics="true">m</inline> allom creaturom, Then
+ther troor och bliffuer d&#246;pt han skall wardha salig, Men then ther icke
+troor han skall wardha f&#246;rd&#246;mder.</para><para /><para>	Them
+som troo wardha thenna teeknen effterf&#246;liande, Genom mit nampn wardha
+the vthdriffwande dieflanar, the warda talande medh nyia tungor, the warda
+f&#246;rdriffua<inline italics="true">n</inline>des ormar, och om the dricka
+noghot thet d&#246;dhelighit &#228;r, wardher them thet intit skadhandes,
+p&#229; the kranka skola the leggia theres hender och s&#229; wardher thet
+b&#228;tre medh them.</para><para /><para>	Th&#229; nw herren Jesus
+medh them taladh hadhe, wort han vptaghen j himmelen, och &#228;r sitiandes
+p&#229; gudz h&#246;ghre sidho, Men the gingo vth och predicade alle stedz,
+och herren werkadhe medh them, och stadhfeste oordhen medh
+effterf&#246;liande teekn.</para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="Italian" left-indent="0.00" name="&#220;berschriftLund" nest-level="0" right-indent="0.00" space-before="12.00" style-number="s0012" tabs="left:35.45;" widow-control="true"><para>		Enden p&#229;
+Sancti Marci Euangelio.</para></paragraph-definition></section></hskr></body></doc>

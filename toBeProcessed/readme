@@ -1,0 +1,12 @@
+newest version (20/4)
+to be fixed:
+rerun fixer to get better page numbering
+            and to remove " in titles
+some files (Petri and LegBil/Bu) have different page numbering..:(
+all files don't have page numbers
+lydekin has a 'm-runa' (&#xF*FF)
+
+
+to korp:
+cannot use '.' (word.pagenum)
+add labels

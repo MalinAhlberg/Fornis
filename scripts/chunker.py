@@ -64,19 +64,25 @@ def putStops(xml,mode,segmenter):
         allPs += s.iterfind('para')
     for para in allPs:
         segmenttext(para,mode,segmenter)
-        for elem in para:
-            segmenttext(elem,mode,segmenter)
     return xml
+
+
+#        txt = list(para.itertext())
+#        if txt is not None and len(txt)>0:
+#          ss.append(' '.join(txt))
+#    ss = filter(lambda x : len(x.strip())>0,ss)
     #open(out,'w').write(etree.tostring(xml))
 
 # segments all text in xml node
 # returns list of sentences
 def segmenttext(node,mode,segmenter):
-    txt = node.text
+    #txt = node.text
+    txt = ''.join(list(node.itertext()))
     if txt is not None and len(txt.strip())>0:
-      #print 'segmenting'
+      # clear all text
       node.text = ''
-      #print 'will decode'
+      for elem in node:
+          elem.text = ''
       ss = groupbyreg(txt,regex(mode),mode,segmenter)
       for s in ss:
        sub = etree.SubElement(node, 's')

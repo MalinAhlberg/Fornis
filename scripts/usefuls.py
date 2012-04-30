@@ -19,3 +19,9 @@ allFiles = glob.glob("../filerX/*xml")+newfiles
 concatFiles = glob.glob("concattedParas/*xml")
 
 filerX = '../filerX/'
+
+p1  = u'\[[\s>]#\s*[0-9]+\]'
+p1a =   u'[\s>]#\s*[0-9]+'
+p2  = u'\[\s*‡‡\s*[0-9]+\s*[abrv]*\s*\]'
+p3  =      u'‡‡\s*[0-9]+[abrv]*'
+pagenumbers = '('+p1+')|('+p2+')|('+p3+')'

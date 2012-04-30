@@ -29,13 +29,17 @@ def pagenumberfixer(uri,segmenter):
     (_,path) = os.path.split(uri)
     out = 'fixedTaggedTest/'+encode(path)
     bak = 'sentenceSplit/'+encode(path)
-    # concat tags if they are separated by a newpage
+    # group paragraphs together if they are separated by a newpage
     new = xmlparse.use(inp)
-    # add here: sentence segmentation
-    mode = chunker.findmode(uri)
-    chunker.putStops(new,mode,segmenter)
+
+    # this should be done later, by nice kark-tools
+    ## add here: sentence segmentation
+    #mode = chunker.findmode(uri)
+    #chunker.putStops(new,mode,segmenter)
+
     string = etree.tostring(new,encoding='utf-8')
     open(bak,'w').write(string)
+
     # fix page numbers
     newer = xmlparse.tagPageN(string)
     # remove bad characters (TODO remove this? might be useful, although dangerous for kark)

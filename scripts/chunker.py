@@ -1,7 +1,6 @@
 # -*- coding: utf_8 -*-
 import re
 import os
-from usefuls import *
 from xml.etree import ElementTree as etree
 from nltk.tokenize import PunktSentenceTokenizer
 import cPickle as pickle
@@ -13,15 +12,16 @@ import cPickle as pickle
 #           if the following word is capitalized
 # 'punkt' splits at punctuation, uses nltk
 # 'para'  uses predefined paragraphs, does not split further
-
 # 'cap' and 'cpC' ignores page numberings and roman numbers.
-def byt(uri,out):
-    fil = open(uri,'r').read()
-    xml = etree.fromstring(fil)
-    open(out,'w').write(etree.tostring(xml,encoding='utf-8'))
 
-sentence_dir = '../sentenceinfo/thisisit/'
 
+# for makefile. put segmentF and chunker in the directory, as well as sentenceinfo
+#custom_common = sentence
+#%.sentence: %.TEXT %.$(sentence_chunk)
+#	python -m segmentF --element s --out $@ --text $(1) --chunk $(2) --segmenter $(sentence_segmenter) --model
+# 
+
+sentence_dir = 'sentenceinfo'
 
 # reads files in sentence_dir and adds the correct encoding
 def findmode(fil):
@@ -36,56 +36,34 @@ def findmode(fil):
       return isInFile
 
     if findFile(os.path.join(sentence_dir,'dot.txt')):
-      print fil,'punkt'
       return 'punkt'
     elif findFile(os.path.join(sentence_dir,'dotComma.txt')):
-      print fil,'cpC'
       return 'cpC'
     elif findFile(os.path.join(sentence_dir,'paras.txt')):
-      print fil,'para'
       return 'para'
     elif findFile(os.path.join(sentence_dir,'capital.txt')):
-      print fil,'cap'
       return 'cap'
     else:
-      print fil,'default'
       return 'punkt'
 
-def testStop(uri,out,mode):
-    fil = open(uri,'r').read()
-    xml = etree.fromstring(fil)
-    putStops(xml,mode,None)
-    open(out,'w').write(etree.tostring(xml))
+def span_tokenize(text,mode,segmenter=None):
+    """
+    Given a text, returns a list of the (start, end) spans of sentences
+    in the text.
+    """
+    mode = 'cpC'
+    if segmenter is not None:
+        lst = segmenter.span_tokenize(text)
+    else:
+        slices = groupbyreg(text,regex(mode),mode,segmenter)
+        i = 0
+        lst = []
+        for sl in slices:
+            j = i+len(sl)-1
+            lst += [(i,j)]
+            i   = j+1
+    return lst
 
-def putStops(xml,mode,segmenter):
-
-    body  = xml.find('body')
-    sect  = body.find(prefix+'section').findall(prefix+'paragraph-definition')
-    allPs = []
-    for s in sect:
-        allPs += s.iterfind('para')
-    for para in allPs:
-        segmenttext(para,mode,segmenter)
-    return xml
-
-
-#        txt = list(para.itertext())
-#        if txt is not None and len(txt)>0:
-#          ss.append(' '.join(txt))
-#    ss = filter(lambda x : len(x.strip())>0,ss)
-
-# segments all text in xml node
-# returns list of sentences
-def segmenttext(node,mode,segmenter):
-    #txt = node.text
-    txt = ''.join(list(node.itertext()))
-    if txt is not None and len(txt.strip())>0:
-      # clear all text
-      node.clear()
-      ss = groupbyreg(txt,regex(mode),mode,segmenter)
-      for s in ss:
-       sub = etree.SubElement(node, 's')
-       sub.text = s
 
 # returs appropiate regex for the modes
 def regex(mode):
@@ -106,7 +84,6 @@ def groupbyreg(txt,reg,mode,segmenter):
       if mode=='para':   # segmented by paragraphs, do not segment further
         return [txt] 
 
- 
       else:
         chunks = []
         nxtchunk  = '' 
@@ -117,14 +94,14 @@ def groupbyreg(txt,reg,mode,segmenter):
            chunks      += [chunk]
            nxtchunk    = sec
            txt         = txt[end:]
-           return (nxtchunk,txt)
+           return (nxtchunk,txt,len(chunk))
  
         while True:
           # look for § 1. 
           n = re.search(parastring,txt,flags=re.UNICODE)
           # if we find it, split here
           if n:
-            (nxtchunk,txt) = breakIt(n,nxtchunk,txt,chunks,'cap')
+            (nxtchunk,txt,l) = breakIt(n,nxtchunk,txt,chunks,'cap')
           # else look for our normal sentence splitter
           else:
             m = re.search(reg,txt,flags=re.UNICODE)
@@ -132,7 +109,7 @@ def groupbyreg(txt,reg,mode,segmenter):
               (st,end)    = m.span()
               # roman numbers etc. can be ignored
               if not ignore(m.group(),mode):
-                (nxtchunk,txt) = breakIt(m,nxtchunk,txt,chunks,mode)
+                (nxtchunk,txt,l) = breakIt(m,nxtchunk,txt,chunks,mode)
               else: 
                nxtchunk = nxtchunk+ txt[:end]
                txt = txt[end:]
@@ -161,6 +138,10 @@ def ignore(string,mode):
     
     
 
+################################################################################
+# Regular expressions
+################################################################################
+
 # upper case letters
 uppers = u"[ABCDEFGHIJKLMNOPQRSTUVXYZÅÄÖÞÆ]"
 
@@ -170,8 +151,8 @@ p3 =      u'‡‡\s*[0-9]+[abrv]*'
 pagenumbers = p1+'|'+p2+'|'+p3 
 
 startstring = u'(^|\s)'
-punkt = u"[.,¶]\s*(" 
-parastring = u'§\.*\s*[0-9]+\.*' # §. 1. 
+punkt       = u"[.,¶]\s*(" 
+parastring  = u'§\.*\s*[0-9]+\.*' # §. 1. 
 
 cap = startstring+uppers+'\w*'
 cpC = punkt+pagenumbers+u')*\s*'+uppers+'\w*'
@@ -179,7 +160,6 @@ cpC = punkt+pagenumbers+u')*\s*'+uppers+'\w*'
 # roman numbers, may use j instead of i. 
 romanpattern = 'M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})([IJ]X|[IV|V?[IJ]{0,3})'
 
-test =    punkt+pagenumbers+'u)*\s*'+romanpattern+'$'
 #############################################################################
 # For normal sentences, use nltk
 #############################################################################

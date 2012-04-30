@@ -9,18 +9,21 @@ fil  =  "../filerX/Alexius.xml"
 testxml = '''
           <doc>
           <body>
-          <para1><inline1 font-size="12.00"
+          <para><inline1 font-size="12.00"
           font-style="Times"># 219 jak h&#xF6;rde aaf tinom wisdom och deylighet sakth,
-          </inline1></para1>
-          <para2><inline2 font-size="12.00"
-          font-style="Times"># 220 två
-          </inline2></para2>
-          <para3><inline3 font-size="12.00"
+          </inline1></para>
+          <para><inline2 font-size="12.00"
+          font-style="Times"># 220 
+          </inline2></para>
+          <para><inline3 font-size="12.00"
           font-style="Times"># 221 tre
-          </inline3></para3>
-          <para3><inline3 font-size="12.00"
+          </inline3></para>
+          <para><inline3 font-size="12.00"
           font-style="Times">221 tre
-          </inline3></para3>
+          </inline3></para>
+          <para><inline3 font-size="12.00"
+          font-style="Times">hej hu
+          </inline3></para>
           </body>
           </doc>
             '''
@@ -29,49 +32,61 @@ testxml = '''
 def use(xmls):
     etree.register_namespace('',prefix)
     tree = etree.fromstring(xmls)
-    concatTags(tree.find(prefix+'body'))
+    makeParagraphs(tree.find(prefix+'body'))
     return tree
     #return etree.tostring(tree)
 
-# concatenates text in tags if they are interrupted by pagebreak
-def concatTags2(tree,p = None):
-# TODO do this on paras only
-# do this before concatTags
-    for elem in tree:
-      # if the last tag is appendable and if this start with # ...
-      if p!=None:
-         p.text = p.text +' '+ elem.text 
-         
-      # if this is only a page numbering, move next text to it
-      elif elem.text and isonlypagebreak(elem.text):
-         p = elem
+###############################################################################
+# Groups 'para's into 'paragraphs', where paras split by pagebreaks
+# are put into the same paragraph
+###############################################################################
 
-    return p
+def makeParagraphs(body):
+    # find all paras
+    paras = body.findall('section/paragraph-definition/para')
+    appendNext = False
+    paralist = []
+    thispara = []
+    print len(paras)
+    for para in paras:
+        #print 'paragraph',list(para.itertext())
+        if len(list(para.itertext()))!=0:
+            if ispagebreak(para) or appendNext:
+                print 'do appending'
+                # append this element to last list
+                thispara.append(para)
+                # if this element is only a pagebreak, continue with next element
+                if isonlypagebreak(para):
+                    print 'only pagebreak'
+                    appendNext = True
+                else:
+                    # otherwise, we don't need to append
+                    print 'no pagebreak'
+                    #paralist.append(thispara)
+                    #thispara = []
+                    appendNext = False
+            else:
+                # end last paragraph, and start a new containing this element
+                paralist.append(thispara)
+                thispara = [para]
 
 
-# concatenates text in tags if they are interrupted by pagebreak
-def concatTags(tree,p = None):
-# TODO do this on paras only
-    pOld = p
-    for elem in tree:
-      # if the last tag is appendable and if this start with # ...
-      if p!=None and elem.text and ispagebreak(elem.text):
-         # then move text to last element and empty this
-         p.text = p.text +' '+ elem.text 
-         elem.text = ""
-      # else, check whether this element is appendable
-      elif elem.text and elem.text.strip():
-         p = elem
-      # then go through inner trees
-      p1 = concatTags(elem,p)
-      p = p1
-    return p
+    # add the last paragraph to the list
+    paralist.append(thispara)
 
-def ispagebreak(text):
-    stripped = text.strip()
-    p1 = stripped[0:1]=='#'
-    p2 = re.match(u'\[*\s*‡',stripped,re.U)
-    return p1 or p2
+    # remove all old paragraphs from the body
+    paras = body.findall('section')
+    for para in paras:
+        body.remove(para)
+
+    # now add all paragraphs enclosed in 'paragraph' elements
+    for para in paralist:
+        elem = etree.SubElement(body,'paragraph')
+        map(lambda p: elem.append(p), para)
+
+###############################################################################
+# Creates pagenumber tags
+###############################################################################
 
 # creates tags for pagenumbering in body
 # maunal subsitution in xml. not safe, produces nested tags which are
@@ -128,6 +143,31 @@ def tagPageNo(tree):
          return t4
 
 
+##############################################################################
+# Help functions
+##############################################################################
+
+
+# decides whether an element consists of more than just a pagebreak-symbol
+def isonlypagebreak(elem):
+    s = extractText(elem).strip()
+    print 'isonly?',s[:10]+'...'
+    pagnumbers = '(\s*'+p1+'\s*$)|'+'(\s*'+p2+'\s*$)|'+'(\s*'+p3+'\s*$)'
+    pnum = re.search('\s*'+pagenumbers+'\s*$',' '+s,re.U)
+    print pnum is not None
+    return pnum is not None
+
+def ispagebreak(elem):
+    text = extractText(elem)
+    stripped = text.strip()
+    p1 = stripped[0:1]=='#'
+    p2 = re.match(u'\[*\s*‡',stripped,re.U)
+    return p1 or p2
+
+# extracts all texts from an element
+def extractText(elem):    
+    return ''.join(list(elem.itertext()))
+
 # creates a tag, possibly after having closed earlier tag
 # and reinserting end-brackets ('>')
 def makeelem(tag,att,opt,close):
@@ -145,11 +185,14 @@ def extractNo(s):
     
 
              
-# Tests
 hskTag = r'(&#x2021;&#x2021;)|(&#8225;&#8225;)' 
 utfilen = "kalas.xml"
 #open(utfilen,'w').write(use(open(fil).read()))
 
+
+##############################################################################
+# Tests
+##############################################################################
 
 def test():
     tree = etree.fromstring(testxml)
@@ -163,7 +206,38 @@ def test2():
     return etree.tostring(tree)
     #print etree.tostring(tree)
 
+def test3(uri):
+    fil = open(uri,'r').read()
+    tree = etree.fromstring(fil)
+    makeParagraphs(tree.find('body'))
+    open('kast.xml','w').write(etree.tostring(tree))
+
+
 def makeelemm(tag,att,val):
     return '<'+tag+att+'='+val+'>'
+
+
+##############################################################################
+# Not used
+##############################################################################
+
+# concatenates text in tags if they are interrupted by pagebreak
+# not used atm
+def concatTags(tree,p = None):
+# TODO do this on paras only
+    pOld = p
+    for elem in tree:
+      # if the last element is appendable and if this one start with # ...
+      if p!=None and elem.text and ispagebreak(elem.text):
+         # then move text to last element and empty this
+         p.text = p.text +' '+ elem.text 
+         elem.text = ""
+      # else, check whether this element is appendable
+      elif elem.text and elem.text.strip():
+         p = elem
+      # then go through inner trees
+      p1 = concatTags(elem,p)
+      p = p1
+    return p
 
 

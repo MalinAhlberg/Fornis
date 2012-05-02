@@ -55,7 +55,7 @@ def do_segmentation(text, element, out, chunk, segmenter, existing_segments=None
         OUT = {}
 
     # Now we can segment each chunk span into tokens
-    mode = chunker.findmodel(out) # ^^
+    mode = chunker.findmode(out) # ^^
     for start, end in chunk_spans:
         for spanstart, spanend in chunker.span_tokenize(corpus_text[start:end],mode,segmenter):
             spanstart += start

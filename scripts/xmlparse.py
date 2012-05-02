@@ -47,21 +47,17 @@ def makeParagraphs(body):
     appendNext = False
     paralist = []
     thispara = []
-    print len(paras)
     for para in paras:
         #print 'paragraph',list(para.itertext())
         if len(list(para.itertext()))!=0:
             if ispagebreak(para) or appendNext:
-                print 'do appending'
                 # append this element to last list
                 thispara.append(para)
                 # if this element is only a pagebreak, continue with next element
                 if isonlypagebreak(para):
-                    print 'only pagebreak'
                     appendNext = True
                 else:
                     # otherwise, we don't need to append
-                    print 'no pagebreak'
                     #paralist.append(thispara)
                     #thispara = []
                     appendNext = False
@@ -87,6 +83,21 @@ def makeParagraphs(body):
 ###############################################################################
 # Creates pagenumber tags
 ###############################################################################
+
+# TODO nicer pagenumbering! not be nested with para-tag (end before and add
+# one if necessary. or can we just add simple nodes and let karkish deal with
+# it?
+#def addPageNum(tree):
+#    tagPageNum(tree.find(prefix+'body'))
+#    paras = body.findall('section/paragraph-definition/para')
+#    pnum = None
+#    hnum = None
+#    for para in paras:
+#        # move all in para to a num (pnum, hnum tag)
+#        # put this in para
+
+
+
 
 # creates tags for pagenumbering in body
 # maunal subsitution in xml. not safe, produces nested tags which are
@@ -151,10 +162,8 @@ def tagPageNo(tree):
 # decides whether an element consists of more than just a pagebreak-symbol
 def isonlypagebreak(elem):
     s = extractText(elem).strip()
-    print 'isonly?',s[:10]+'...'
     pagnumbers = '(\s*'+p1+'\s*$)|'+'(\s*'+p2+'\s*$)|'+'(\s*'+p3+'\s*$)'
     pnum = re.search('\s*'+pagenumbers+'\s*$',' '+s,re.U)
-    print pnum is not None
     return pnum is not None
 
 def ispagebreak(elem):

@@ -2,11 +2,16 @@
 import re
 import itertools
 import usefuls
+import glob
+from nltk.tokenize import PunktSentenceTokenizer
+import cPickle as pickle
 from xml.etree import ElementTree as etree
 from padnums import pprint_table
+import chunker
 
 # dot or comma followed by a capital
-pOrC = list(itertools.chain(*[[',\s*'+c,'\.\s*'+c] for c in uppers]))
+#pOrC = list(itertools.chain(*[[',\s*'+c,'\.\s*'+c] for c in uppers]))
+
 
 # ranks all files
 def rankAll():
@@ -29,7 +34,7 @@ def rankSpecial(stops,fil):
     txt     = removePageN(extractText(fil))
     words   = groupwords(txt)
     whiteSpace = "\n\r\f\t\v"
-    boundaries = whiteSpace+":;?!"
+    boundaries = whiteSpace+":;?!/"
     for s in boundaries:
        txt = map(lambda t: t.replace(s,' '),txt)
     stoptxt = putStops(stops,''.join(txt))
@@ -134,8 +139,8 @@ def rankText(fil):
     mediumCap1 = len(filter(lambda x: x, caps))/float(len(caps))
     res = {'rank' : 1,'Pleng' : mlen, 'caps' : mediumCap1, 'file' : fil}
     # returns rank 1, super good sentences
-    #if okLength(mlen):
-    #    return res
+    if okLength(mlen):
+        return res
     
     # then count the sentences separated by ','
     (klen,caps) = countSentence(txt,',')
@@ -143,16 +148,16 @@ def rankText(fil):
     mediumCap2 = len(filter(lambda x: x, caps))/float(len(caps))
     res.update({'rank' : 2,'Cleng' : mklen, 'caps' : mediumCap2})
     # returns rank 2, good sentences
-    #if okLength(mklen):
-#        return res
+    if okLength(mklen):
+        return res
 
     # then count the sentences separated by capitalized words
     (xlen,_) = countSentence(txt,uppers)
     mxlen = mediumLen(xlen)
     res.update({'rank' : 3, 'Uleng' : mxlen, 'caps' : mediumCap1})
     # returns rank 3, ok sentenecs
-    #if okLength(mxlen):
-#       return res
+    if okLength(mxlen):
+       return res
 
     # then count the sentences separated by tabs
     (tlen,_) = countSentence(txt,'\t')
@@ -181,6 +186,100 @@ def rankOne(fil,stop):
         return res
     else: return {}
  
+# classifies a file wrt the sentence length
+def rankSuper():
+    fils = glob.glob('sentenceSplit/*')
+    lengs = ["File\tnltk sentence\tlength by '.'\t% capitalized after '.'\tlength by ','\t% capitalized after ','\t"
+              +". or , and capital\tlength by capitals\tlength by tab\tparagraph length\ttotal length"""]
+    model = getModel()
+    for fil in fils:
+      print 'file',fil
+      inp   = open(fil,'r').read()
+      xml   = etree.fromstring(inp)
+      body  = xml.find(usefuls.prefix+'body')
+      paras = body.findall('paragraph')
+      ss = ""
+      len1,len2,cleng,caps,caps2,cpC,cap,tlen = [[] for x in range(8)]
+      for para in paras:
+
+          txt = list(para.itertext())
+          if txt is not None and len(txt)>0:
+            txt = ' '.join(txt)
+ 
+            # first count the sentences with nltk
+            ss    = model.tokenize(txt)
+            (l,_) = countWords(ss)
+            len1 += (l)
+    
+            # then rank '.'
+            l,c = countSentence(txt,'.')
+            len2 += (l)
+            caps += (c)
+            
+            # then count the sentences separated by ','
+            (klen,capsC) = countSentence(txt,',')
+            cleng += (klen)
+            caps2 += (capsC)
+    
+            # then count the sentences separated by cpC
+            ss = chunker.grouptext(txt,'cpC')
+            (l,_) = countWords(ss)
+            cpC += l
+    
+            # then count the sentences separated by capitalized words
+            ss = chunker.grouptext(txt,'cap')
+            (l,_) = countWords(ss)
+            cap += (l)
+    
+            # then count the sentences separated by tabs
+            (l,_) = countSentence(txt,'\t')
+            tlen += (l)
+
+            ss.append(' '.join(txt))
+ 
+      # calculate medium for the file
+      normalleng = mediumLen(len1)
+      dotleng = mediumLen(len2)
+      caps = 0 if float(len(caps))==0 else len(filter(lambda x: x, caps))/float(len(caps))
+      cleng = mediumLen(klen)
+      caps2 = 0 if float(len(capsC))==0 else len(filter(lambda x: x, capsC))/float(len(capsC))
+      cpCleng = mediumLen(cpC)
+      capleng = mediumLen(cap)
+      tleng = mediumLen(tlen)
+
+      txt = extractText(fil)
+      (tot,_) = countWords([txt])
+      totleng = mediumLen(tot)
+      # then count the sentences separated by paras
+     # inp   = open(fil,'r').read()
+     # xml   = etree.fromstring(inp)
+     # body  = xml.find(usefuls.prefix+'body')
+     # paras = body.findall('paragraph')
+     # for para in paras:
+     #     txt = list(para.itertext())
+     #     if txt is not None and len(txt)>0:
+     #       ss.append(' '.join(txt))
+      ss = filter(lambda x : len(x.strip())>0,ss)
+      (lens,_) =  countWords(ss)
+      paraleng = mediumLen(lens)
+
+      row = [fil,normalleng,dotleng,caps,cleng,caps2,cpCleng,capleng,tleng,paraleng,totleng]
+      lengs += ['\t'.join(map(lambda x: str(x),row))]
+
+    table = '\n'.join(lengs)
+    open('data3.txt','w').write(table)
+    #pprint_table(open('data.txt','w'),lengs)
+
+# read swedish model for segmenting
+def getModel():
+    model = "punkt-nltk-svenska.pickle"
+    segmenter = PunktSentenceTokenizer
+    with open(model, "rb") as M:
+        model = pickle.load(M)
+    segmenter_args = (model,)
+    segmenter = segmenter(*segmenter_args)
+    return segmenter
+
 
 # upper case letters
 uppers = list(u"ABCDEFGHIJKLMNOPQRSTUVXYZÅÄÖ")

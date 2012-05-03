@@ -175,4 +175,9 @@ def hittavals(fil):
      #    for e in i.find('feat'):
      #        l.append(e.get('att')) 
      print (set(l))
-    
+   
+
+
+# Lydekin [Kb \.*] (så lite som möjligt)
+# .. kan vara allt möjligt inte bara Kb :(
+#

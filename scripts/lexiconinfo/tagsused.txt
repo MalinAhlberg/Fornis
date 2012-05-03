@@ -1,0 +1,219 @@
+How many * and ? in lemgrams?
+soederwallarna: 9008 (see badlemsSoeder.txt)
+schlyter:       0
+
+
+How many e?
+../../Lexicon/schlyter.xml 
+   number of 'e's 2717
+../../Lexicon/soederwall_ny/soederwall_supp_ONSDAG.xml 
+   number of 'e's 19167
+../../Lexicon/soederwall_ny/soederwall_main_ONSDAG.xml 
+   number of 'e's 22326
+
+
+Which tags in lemgram?
+printPOS('../../Lexicon/soederwall_ny/soederwall_main_ONSDAG.xml')
+       ({'e': 22326, u'nn': 246})
+printPOS('../../Lexicon/soederwall_ny/soederwall_supp_ONSDAG.xml')
+       ({'e': 19167, u'nn': 5})
+printPOS('../../schlyter/schlyter.xml')
+       ({'nn': 4935, 'e': 2717, u'vb': 1176, 'av': 857, u'ab': 359, 'pp': 20, u'kn': 3})
+
+Which pos-tags in gram?
+getGrams('../../schlyter/schlyter.xml')
+       ({'m.': 1823, 'f.': 1560, 'n.': 1537, 'v. a.': 960, 'adj.': 855, 'adv.': 358,
+         'pl.': 194, 'v. n.': 126, '( ': 62, 'v.': 53, 'v. dep.': 28, u'pr\xe6p.': 20,
+         'conj.': 3, 'v. pass.': 2, 'v. aux.': 2, 
+         u'v. a. bebo, bo p\xe5 (jordegendom).  SM. * bor hvarghin a, om ingendera har kommit i besittning af jorden, U. J. 6: 1. \xfe\xe6n att ( ': 1, 
+         u'adv. = frammi. grip f. lhava,  VG. * Ih. anser, lika med \xe4ldre f\xf6rf., d. o. s\xe5som ': 1
+         u'pl. (Isl. sk\xf6p)': 1,
+         u'n. \xfe\xe6ssu (\xfeissu, G.); acc. m. \xfe\xe6nna (\xfeinna, G.), ': 1
+         u'n. \xfe\xe6tta (\xfeitta, G.); pl. lm. \xfe\xe6ssir, \xfe\xe6ssi, \xfe\xe6s\xe6, f. \xfe\xe6ss\xe6 (thenna, St.), ': 1
+         'v. n. (Isl. sofa, ': 1
+         u'v. a. orka, f\xf6rm\xe5. lo. (at) halda, b\xf6ta, \xe6rvo\xfea l\xf6sa  & c.  VG. *  \xd6G.* U. *  SM. *  VM. *  G. * Sk. V. l3: 5. o. e\xfe gangit,  VM. * \xfe\xe6t (n. barn) sum orkar (n. k\xf6pa),  H. * ei o til ting (n. koma),  Chr.*-nar (han) egh (\xfey), ': 1
+         u'f. (Isl. sp\xe4nn)': 1
+         u'pl. (n. lyd, T. llente, Holl. lieden; jfr. Ly\xfebiskuper) n\xe4nniskor, olk. allir ly\xfeir, hela folket (p\xe5 Gotland), ': 1
+         'f. (N. vargestova, D. lulvete) ': 1
+         u'(pl. sunar-, suna b\xf6rn, VG.)': 1
+         'f. (Isl. kjalta, kilting)': 1
+         u'(mugh@, mughu,  Sk. * ; jfr. Isl. inf. munu, skulu; inf. f\xf6rekommer annars icke;  ': 1
+         u'f. (af laut, se L\xf6t) ': 1
+         u'v. a. 1) l\xe4gga (i egl. l. mindre l. mera oeg. bem.). l. lhatt a altare, l. hylli (n. a kirkiu), l. barn i kietta  & c.  U. *  Sm. *  G. *  St. * i vaggu lag\xfeer,  VG. * l. arf (i skoghi), se Arf, f. -as (\u0254: l. lsik) hos konu,  VG. * siuker -as,  Sm. * \xfea skal \xfe\xe6t barn qvart l., n. p\xe5 st\xe4llet d\xe4r det har d\xf6tt,  VM. * l. man i torn, St. R. 35. helgi olaver leg\xfeis 8\u0254: leg\xfei sik) i hamn,  G. * l. man i l. utan kirkiugar\xfe, l. barn i vigh\xfea ior\xfe,  & c., \u0254: begrafva, \xd6G. * U.  SM. *  Sm.*  Sk. * kan (utl\xe6nsker) h\xe6r til lands, l. (l. -as, St.), ': 1
+         u'(pl. ni\xfeiar, -ia, dat. -ium)': 1
+         u'v. a. tappa (vin  & c.). t. vin (\xe6ller \xf6l ud), ': 1
+         u'adv. (Isl. ofanver\xf0r, upp\xe5tv\xe4nd, \xf6fre; Mht. ufwert, AS. upwards, E. upward, Nht. aufw\xe4rts, upp\xe5t; jfr. Var\xfeer), ': 1
+         u'f. arbete, eg. med h\xf6- och s\xb9desb\xe4rgning, prov. b\xe4rgsel.  ME. * b. a aker ok \xe6ng,  U. * VM. II. B. l8: rubr. taka b. hans (n. \xfeiufs), ': 1
+         u'n. (af sv\xe6ria, ': 1
+         u'f. en v\xe4g i sj\xf6n d\xe4r vrak. gods pl\xe4gar drifva med str\xf6mmen; f\xf6rekommer h\xe4r om den v\xe4g d\xe4r sillstimmarne vanligen komma. s\xe6ti\xe6 sin garn i s\xf6en i -den,  Sk. * H\xe4rmed kan jfs. det som s\xe4ges om fiskare som drifue vele vragledes, \u0254: med str\xf6mmen, )( sette theres garn fore ackere oc steene (Christ. II. verldsl. lov, cap. 48, KR. GDL. IV. 100), \xe4fvensom hit synes b\xf6ra h\xe4nf\xf6ras Isl. raklei\xf0, raklei\xf0is, d\xe5 dessa ord m\xe5ste h\xe4rledas fr\xe5n reka, ': 1
+         'm. 1) ': 1
+         u'f. \xfe\xe6ssa, \xfe\xe6ssin (\xfeissa, G.), ': 1
+         u'f. ? (af ual; Isl. vesald, vesld, ves\xf6ld) uselhet, ': 1
+         u'm. (af \xe6gha, ': 1
+         'v. a. med dat. l. acc. ': 1
+         u'v. a. tillbjuda, erbjuda. e\xfe, kost, fult  & c. t., \xd6G. B. l17: l1; 34: 1;  U. *  SM. * Sk. I. l42;  St. * Chr. J. 31: 2. r\xe6t t. (jfr. R\xe6tter 1), \xd6G. B. 17: not. 61;  SM. * ME. B. 37: pr. \xe6n han biu\xfeer til (n. v\xe6r\xfe), biu\xfeer \xfe\xe6n ei (n. lv\xe6r\xfe) til,  U. *  ME. * han skal t. (n. va\xfea e\xfe), t. sik at f\xf6\xfea  & c. VG. II. Add. 11: 10; III. 76; U. V. 10: 2; Chr. B. 14: 4. til biu\xfeas, dep. ( ': 1
+         'm. och n.': 1
+         u'f. (Isl. v\xe1\xf0, D. Vod) ': 1
+         'm. (AS. cyfes, cefes, Ght. kebis, Mht. kebes, Nht. kebsweib, frilla, Nht. kebsche, concubinat) ': 1
+         u'adj. (Isl. framr) som \xe4r framme l. framf\xf6r. framt (frampt), ': 1
+         u'(pl. -\xfei f\xf6r -\xfeir)': 1
+         u'm. 1) r\xe4tt, det som \xe4r r\xe4ttvist l. b\xf6r g\xf6ras. sk\xe6l m\xe6llum r\xe6t ok ur\xe6t,  VG. *  U. *  SM. * g\xf6ra (manni, \xfe\xe6n sama, \xe6ngin) r\xe6t,  VG. * \xd6G. *  U. *  SM. *  VM. *  H. * Bj. *Sk. * (u. G\xf6r\xe6); ME. Kg. 29; B. 8: pr; 24. 4.  & c.;  St. * Chr. B. ind. 31. g\xf6ra lika ok r\xe6t, Chr. Kp. l7: l1. r\xe6t g\xf6ra um tiunda, s\xe6kt, utlaghor, VG.@ r\xe6t g\xe6ra firi huvu\xfesmalit (m\xe6\xfe e\xfee \xe6lla botum),  \xd6G. * r\xe6t g\xf6ra m\xe6\xfe (botum \xe6ller) laghum, utbetala b\xf6ter l. fria sig med ed,  VG. * B. 39: 1. g\xe6ra l. b\xf6ta kunungi  & c. fullan r\xe6t, \xd6G. * g\xf6ra l. biu\xfea r. firi sik, \xd6G. *  U. *  H. * SM. Kp. 11: pr; \xdeg. l4: pr; ME. \xdeg. 21: pr; Chr. * r\xe6t g\xf6ra (af sino godse), ': 1
+         u'f. bolagsgods, i synn. fr\xe4mmande egendom som man i s\xe5dan egenskap inehar. taka v., emottaga en annans gods och sammanl\xe4gga det med sitt eget s\xe5som bolagsgods, St. Kg. 15: 5, 8. b\xf6te . . the v. han hver utan til takit ok sina si\xe6lfs (n. v.) ther til vidher laghda, hava (nokors mans), ': 1
+         u'm. hufvudlott; 1) en af de lotter, hvari ett arf f\xf6rst de- las.  VG. *  \xd6G.* hel, halver h.,  \xd6G.* skif- te l\xf6s\xf6rum sinum i -lyti (acc. pl.), ': 1
+         'adj. (Isl. gngr)': 1
+         'f.?': 1
+         u'adj. (af pr\xe6p. for, fore, s\xe5som Lat. antiquus af ante) forn, gammal.  SM. *  VM. * () nyr, VG. II. K. l10;  G. * iak havir \xfe\xe6tta at ( ': 1
+         'v. a. i ': 1
+         u'f. (f\xf6r ympning, jfr. Ymnungas, Ympnas; R-t II. l427, 428) ': 1
+         u'm. (Isl. b\xf6rkr)': 1})
+
+getGrams(['../../Lexicon/soederwall_ny/soederwall_main_ONSDAG.xml','../../Lexicon/soederwall_ny/soederwall_supp_ONSDAG.xml'])
+       ({'v.': 7463, 'adj.': 4425, 'adv.': 1592, 'p. adj.': 1093, 'v. L.': 384, 'pl.': 152, 'adj. L.': 142, 'adv. L.': 79, 
+         u'r\xe4kn.': 76, 'pl.?': 68, 'prep.': 49, 'p. adj. L.': 47, 'pron.': 47, 'v. L:': 36, u'r\xe4kn. L.': 33, 
+         'prep. och adv.': 27, 'konj.': 27, 'adv. och konj.': 22, 'adv. och prep.': 14, 'adv. och adj.': 11, 'interj.': 11, 
+         'adj. komp.': 10, 'adj. superl.': 10, 'adj. och adv.': 9, 'pl. och f. ': 8, 'adj.?': 7, u'r\xe4kneord.': 6, 
+         'subst.': 6, 'v. refl. ': 5, 'pron. L.': 5, 'adv. och adj. komp.': 5, 'v. refl.': 4, '( ': 4, 'konj. L.': 4, 
+         'adj. ? ': 4, 'pl. och f.? ': 4, 'prep. L.': 4, 'adv. , ': 4, 'prep., adv. och konj.': 4, 'adv. komp.': 4, 
+         'v. part. pret. ': 3, 'adj. komp. och ': 3, 'v. - part. pret. ': 3, 'adv., prep. och adj.': 3, 'v. L. ': 3, 
+         'prep. och adv. A) ': 3, 'pron. poss.': 3, 'pron. adj.': 2, 'adv. ? ': 2, 'adv., konj. och interj.': 2, 'v. L ': 2, 
+         'adv.?': 2, 'pron. pers.': 2, 'pron. poss. L.': 2, 'v. , ': 2, 'pl.? och f. ': 2, 'pl. L. ': 2, 'adj. L:': 2, 
+         'pron. pers. refl.': 2, 'pron. pers. L.': 2, 
+         u'adv. och prep. L. B) prep. s\xf6der om. med gen . . . the norske . . . alt synan fielss  HSH 17: l117 (1523, Brask). - med ack. dyket, som liggher sonnan skoghen  VKJ 51 . 1/2 \xf6reslandh jord s\xf6nan sandhin i bi\xf6rn\xf6\xf6  ib 229 .  &quot; en gardh som ligher synan ana &quot; ATb 1: 3 ( 1451) .  &quot; pedar smidh synan aa ib. ib 2: 161 (1481). liggher thenne . . . bodh sonnan anna &quot; NMU 1: 144 ( 1485) . ': 1
+         u'prep. L. = i bland 1. med dat. ther waro diwr them ormom bland  Al 9587 . - med ack. bland the riddara the fingo ther  Fl 29 .  Al 7302 .  RK 2: 5221 .  &quot; m\xe4ngide thz bland mi\xf6l &quot; Di 48 . ': 1
+         u'v. - part. pret. utli\xfein, L.': 1
+         'adv. L. Jfr inrikis. ': 1
+         u'v. . 1) kl\xe4da, bekl\xe4da, smycka. med ack. och prep. m\xe4dh med f\xf6lj. subst. lianna natur \xe4r swa skipat, at thwem sinom m arith, thz \xe4 mz thwenne blomstir, lkl\xe4dhir (estiant) hop sin bood  SpV 24 . kl\xe4da, pryda. bildl. lmed ack. m\xe4dhan iak th\xe4nna rensilse ekte widhertorffte kl\xe4dde (excornait) th\xe4n kirkkogangen mina h\xe4laghet  Mecht 170 . ': 1
+         'adv. och prep. L. A) ': 1
+         'pl. (Bo 216;  Bir 1: 227, 295 ;  Al 1777)  &quot; och f. sing. (Pa 10, 21; &quot; Bo 217, 218 ;  Bir 1: 227, 4: 84 ;  Su 224 ) ': 1
+         u'adj. [\xc4ldre Dan. beneget. Jfr Nht. geneigt] ': 1
+         'prep. och adv. L. A) ': 1
+         'konj. och adv.': 1
+         u'adj. L. Se A. Lindqvist, Ark. f. Nord. Fil. 25: 269 ff. 1) g\xe4v, g\xe5ngbar, bruklig. thiughu mark redha p\xe4ninga swa dana minth, som nw g\xe4ue oc g\xe4ngleke \xe4ro  SD NS 3: 247 (  1417) .  ib 267m (1417). peninge, som nw j rykit gensze ok geffue ere STb 2: 386 (1489).  SJ 2: 154 (  1489) .  STb 3: 430 (  1499) . fore iic mark stocholmske rede peninga, som nw j rikit gengxe och geue ere  ib 452 (  1499) .  Rydberg Tr 3: 558 (  1510) . - ss adv. vanligen, ofta. framdelis ath sighia \xe4r the spit\xe4lska sottin mykit besmittelikin aff sik swa ath th\xe4n ena far hona g\xe4fft aff them andra  MP 4: 192 . 2) fullgod, f\xf6rtr\xe4fflig; st\xe5tlig, h\xe4rlig. Se Sdw 2: 1231. superl. n. ': 1
+         'konj. samt': 1
+         u'v. [Isl. strengia. Fdan. str\xe6ngje] eg. h\xe5rt \xe5tdraga, sp\xe4nna. - tvinga. str\xe4nghins (constringentur) the til ordinem \xe4llir reghlonna, hwilke wt wilia ganga \xe4llir wilia fordarffwa sik  SpV 433 . d\xf6dzsins porthir nar han st\xe4ngdhis (sannol. fel fr st\xe4ngghis), sidhan til nakra omskiptelikhet, war stadhge ok liff aldirgh str\xe4ngis (porta morits dum clauditur, nec esse nostrum mutabitur)  ib 590 . ': 1
+         u'pl. f\xf6rbund, f\xf6rening. them k\xe4rligheet, tr\xf6st och bebindelse som . . .wara skal emellan rijken danmarck och swerige  BtRK 105 (  1436) .  FM 59 (  1457) . ': 1
+         u'adv. komp. och konj. L. A) adv. 4) antea, f\xf6rut, tilf\xf6rene. thz smakare henne s\xf6theligare, \xe4n for  Mecht 319 ). B) konj. f\xf6rr. \xe4n. hinrik olsson . . . wyderkendes sich haffua giort d\xf6rabrotit, som hanom appenbarlica pa vitnades, for han tet widerkendes  STb 3: 320 ( 1426) . - Jfr for. ': 1
+         'adj. n. ': 1
+         'prep. L. ': 1
+         'p. adj. och adv.': 1
+         'pron. indef.': 1
+         'adv., prep. och konj. Jfr Sdw 2: 1325. B) ': 1
+         u'adv. och prep. A) adv. i nordvest. tv\xe5 b\xe4lgher med hyttone som h\xe4r i str\xf6men west-nordan n\xe4st grufvobergena ligger  DD 1: 52 (  1396, nyare afskr.) . B) ': 1
+         'prep. och adv. A) prep. ': 1
+         u'r\xe4kn. adv.': 1
+         u'v. - \xe5lderman i ett gille el. skr\xe5. som alderman war i h\xe4lghakors oc sancti olafs gilde  SJ 60 (  1436) .  &quot; ib 126 ( 1446). olderman och forstandere i sancta barbara gylla &quot; ib 305 ( 1462) .  &quot; som nw olderman \xe4r for sancte karine gylla &quot; ib 298 ( 1462) .  ib299 (  1462) .  &quot; oldermen och f\xf6rstandare fore sancta barbara gyll\xe4 &quot; ib 314 ( 1459) . loth vpp helge likama gylle i nerwaro her olaff pauli som ther til forstandare och alderman var  ib 386 ( 1472) . loto vp . . . the samma bodhen . . . sancta katarine gille oc aldramannom  ib 125 ( 1444) .  &quot; sancte katrine olderman &quot; ib 286 ( 1460) .  &quot; oldermannen i scomagara kompany &quot; SO 32 .  &quot; gillebr\xf6dher skulle sig aldherman wellia &quot; SGGK 103 .  ib 104, 105, 106, 108, 109 .  SEG 111, 112 o. s. v.  SO 5, 7 . 26 o. s. v. ': 1
+         'v. Mnt. vorplichten] ': 1
+         'adv., konj. och pron.': 1
+         u'prep. och adv. L. A) prep. I. med dat., som dock ofta utbytes mot ack. 1) vid rumsbeteckningar, f\xf6r att uttrycka ett varande e el. inom n\xe5got, i det inre av n\xe5got: i. tygade guttorm . . . ad rawid sagde ad magus kak fan en m\xf6rding hi enne lasa twnno  ATb 1: 29 (  1454) .  &quot; magus kak stod jnne for mins h\xe4rre nad hi maked pa \xf6rebro ib. lgaff honum fore the iordh . . . ok ena ferdinx orthog hi brunvalbodhum ok hi brunvalby ena ferdinx ortogh mina en ij ortogher &quot; SD NS 3: 40 ( 1415) .  ib. ': 1
+         u'pl. och f. f\xf6rebr\xe5else(r), skymfande ord; sm\xe4delse(r); f\xf6rol\xe4mpning(ar), skymf. jak h\xf6rde al obrygdilse (opprobria) ok gabbilse mz minom \xf6rom  Bir 1: 5 .  ib 267 . at atirgiua oc gi\xe4lla ordh for ordh oc obrygdhilse for obrygdhelse  ib 2: 88 .  ib 1: 277 .  &quot; nidhir kasta obryfdilse rasklika othologha m\xe4nniskio &quot; ib 276 .  &quot; sigh ey obrygdhilse (contumeliam) them thik afwite &quot; Ber 64 . th\xe4nk han . . . m\xe4ttan giordhan af vpbrygdhilsom (opprobriis)  ib 269 .  &quot; g\xf6m thina godha fr\xe4gdh swa at hon af \xe4ngom obrygdhilsom sarghas (tua bona fama nullis opprobriis laceretur) &quot; ib 57 .  &quot; bryt syndher obrygdhilsinna strala (sagittas contumeli\xe6) och skot mz thulimodhinna ski\xf6ld &quot; ib 116 .  &quot; han . . . tholde mang obrygdhilse (opproboria) &quot; Bo 175 .  Lg 586, 3: 41 . giordo the honum sm\xe4lik oc obryxils\xe4 j fyra handha motta ib 80. al obrygdilse ok al sorgh jns\xe4tz them ok till\xe4x  Bir 1: 16 .  &quot; hulkin som hona sk\xe4mmir mz alle fylsko ok obrydilse &quot; ib 73 . - skymf, sm\xe4lek, van\xe4ra. r\xe4knande sm\xe4lekin \xe4ro. obrygdhilse (opprobrium) gl\xe4dhi  Bo 110 .  &quot; at han ey at enast tok a sik fatikdomsins pinsamu vidhir m\xf6dho. vtan \xe4mu\xe4l hans obrygdhilse ok sm\xe4leek (ejus opprobrium assumpsit) &quot; ib 128 .  &quot; fatidomin ther man hawir n\xf6doghir . . . gifwir obryghilse ok forsm\xe4ilse (parit opprobrium et contemptum) &quot; ib.  &quot; han skal ey r\xe4dhas w\xe4rldinna last \xe4lla skam \xe4lla obrygdilse (non timebit mundi opprobrium) &quot; Bir 1: 267 .  &quot; min hughir astundahde al the thing som ey fulgdho v\xe4rldinna blygdh oc obrygdhilse (pudor et oppbrobrium mundi) &quot; ib 2: 94 .  ib 165 .  &quot; the skulu . . . vp fyllas mz ysold ok \xe4werdhelikom obrygdilsom (opprobrio sempiterno) &quot; ib 1: 246 .  ib 3: 286 .  &quot; f\xf6r bort var obrygdhilse (aufer opprobrium nostrum) &quot; ib 2: 47 . at hans h\xe4lga hws ey skulle komma til gb oc obrygdilse  MB 2: 287 .  &quot; skalt thu finna kroppin fullan wara mz skam och obrygdhilse (ignominia) &quot; Ber 207 . hwar skal thik fr\xe4lsa af th\xe4ssa obrygdhilsinna (improperii) bande  ib 238 . ': 1
+         'v.?': 1
+         'v. [Jfr fol, ': 1
+         'p. adj.?': 1
+         'adv. komp. och superl.': 1
+         'prep. adv. och konj.': 1
+         'adv., prep. och subst.': 1
+         u'pron. (n. af annar i f\xf6rening med gen. af r\xe4kneordet tver) och konj. ': 1
+         u'v. Jfr O. Thorell, Fem Moseb\xf6cker p\xe5 fornsvenska 169 f., 205. ': 1
+         'konj. och pron.': 1
+         u'adv. [\xc4ldre Dan. hvarledes, hureledis]  L.': 1
+         'adj. -- ': 1
+         'pron. och obest. art.': 1
+         'adv. komp. och konj. och ': 1
+         u'adj. (eg. part. pret. af r\xe4\xfea] ': 1
+         'adv. och adj. L. A) ': 1
+         'p. adj. n.': 1
+         u'v. Jfr utstr\xe4kkia. ': 1
+         u'v. (Sv. dial. h\xe4gda. N. hegda. Jfr Isl. heg\xf0a] ': 1
+         'pl. och ': 1
+         'pron. och adv.': 1
+         'p. adj. och ': 1
+         u'v. (antr\xe4ffadt blott i 3 pers. sing.) ': 1
+         u'prep. I: med dat,. hvilken dock stundom, i sht i yngre skrifter, ers\xe4ttes af ack. ': 1
+         u'adj. komp. och m\xe4ster (mester), superl. ': 1
+         u'p. adj. = oskapadher. eth permantz breff oskrapt och ostunghet  DD 1: 201 (  1506) . oskripta\xfeer (v-  Bil 275 ), ': 1
+         'pl. och f. (RK 2: 5460;  DD 1: 74 (1417, afskr.)) ': 1
+         'adj.? L.': 1
+         'v. L,': 1
+         'med dat.': 1
+         'v. - refl. ': 1
+         'prep.?': 1
+         u'pl.? nypon. the \xe4ru like tornsins fruct som kallas hiupun  Bir 1: 156 . like hiupumen  ib 157 . ': 1
+         u'v. L. - refl. stangas, st\xe5ngas. arietare staangas  GU C 20 s. 35 . faren stangadis ganska hardelika sik til saman thera m\xe4llan  MP 4: 148 . skwla the (\u0254 korna) waktas at the ey stangas \xe4ller slas  PMSkr 219 . ': 1
+         u'(er-. \xe4nde. -ende. -enne  BSH 3: 153 (1464; p\xe5 tv\xe5s t.). -inde. -indi. -ynde: -om  VKR 72 .  ': 1
+         u"adj. [Mt. titlik] timlig. the andrafruct som forbudhin war, war en sak ok tilf'lle tiltidelikin d\xf6dh SkrtUpb 116. tha grata the mera sinn wina tidhelikinskadha . . . \xe4n' thera siala wadha ok synda fald  ib 123 . ": 1, u'adj. ob\xf6jl. och adv. A) ': 1
+         'interj. L.': 1
+         'v. refl. L.': 1
+         u'pl. och f. [\xc4. Dan. vederqw\xe6gelse] vederqvickelse, f\xf6rfriskning, st\xe4rkande; n\xe4ring. tok hon optan fran sik si\xe4lue th\xe4n kost som kr\xe4selikin var, ok s\xe4nde han . . . thijt hon viste vara fatik ok fadhirl\xf6s barn. th\xf6m til f\xf6dho oc vidhirquekilse  KL 322 . ': 1
+         u'v. - refl. *smulas, s\xf6ndersmulas. asius \xe4r en sten hwither . . . krammas han m\xe4dh handommen tha smwlas han som my\xf6l  PMSkr 460 .  ib 463 . iordenn sm\xe5lades och skildes \xe5tt  ib 593 (senare avskr.). i eldenom br\xe4nder bliffwer kalker aff them (\u0254: stenarna) och the smolas ib 595 (d.o).  ib 612 (d:o). bakara hws, j hwilko si\xe4lana smoladhos swa som my\xf6l JMPs 256. ': 1
+         u'r\xe4kn.?': 1
+         u'v. L. pl\xf6ja. delirare smedha \xe4ria ok tr\xe4dha  GU C 20 s. 173 . lirare \xe4rya oc tr\xe4da  ib  ib (hand 2) s. 90. ': 1
+         u'adj. ; \xe4fven nyttjadt ss part. af d\xf6ia. ': 1
+         u'adv. och adj. L. A) adv. 1) inombords, ombord. hoo ther annan inbyrdis dr\xe4per j saadan resa  Arnell Brask Bi\u1d35 20. 2) inb\xf6rdes, \xf6msesidigt, sinemellan. mutno . . . inbyrdis oc ymse  GU C 20 (hand 2) s. 169. B) ': 1
+         'p. adj. o. subst. m.': 1
+         'adv. [Jfr Mnt. umberaden] ': 1
+         u'adj. [\xc4ldre Dan. medstandig] ': 1
+         'pl. (KL 160;  Gr 299 ;  Bir 1: 63, 227, 3: 460, 4: (Avt) 178, 180;  Di 28, 253 ;  Lg 3: 246), ': 1
+         'adv., konj. och prep.': 1
+         'med dat. och ack.': 1
+         'v. och ': 1
+         u'pl. (\xe5tminstone i de funna ex. ingen sing.) b\xe4ra fikon enom \xe4rnita  KL 253 .  &quot; funnos . . . fikonen all heel n\xe4r them &quot; ib.  &quot; godh fikon &quot; ST 426 .  &quot; fwl fikon ib. &quot; ib 422, 489 .  MP 1: 232, 2: 186 .  MB 2: 343 .  LB 3: 171 . fikona tr\xe4, ': 1
+         'v. - refl. bangas ': 1
+         u'v. [Fdan. v\xe6rve. \xc4. Dan. hv\xe6rve, v\xe6rve. Mnt. werven. Jfr hv\xe4rva]  L.': 1
+         u'v. Jfr D. Kornhall, Den fornsvenska sagan om Karl Magnus 275 f. 1) t\xe4nka, t\xe4nka p\xe5, hava f\xf6r el. i tankarna. - t\xe4nak, i sina tankar s\xe4ga. han th\xe4nkte widh sik jak weth han dara mik ey  Prosadikter (Sju vise mB) 212 . - t\xe4nnka (p\xe5), v\xe4nda tanketn (till), giva akt (p\xe5). med pep. til \xe5tf\xf6ljd av en indirekt fr\xe5gesats. klokkan manar til ath tu t\xe4nk til huad tinne si\xe4l kan nyttogast wara  Prosadikter (Sju vise m C) 240 . - t\xe4nak (p\xe5), rikta tanken (p\xe5). med prep. um. togh hon til ath tenckie om sama nychil  STb 4: 51 (  1505) . - t\xe4nka p\xe5, bet\xe4nka, begrunda, betrakta. md ack. peruigil cura semper meditare futura tenk altiidh tilkommande tingh mz waghra akth  GU C 20 (hand 2) s. 128. b\xe4tra \xe4r at t\xe4nkia christi mandoms anammilse JMPs 500. - t\xe4nka, t\xe4nka efter, eftersinna, \xf6verv\xe4ga. \xe5tf\xf6ljt av en sats inledd av at. wi haffdom th\xe4yngt ok warom allaledhes ther om beradde, ath wi willom hawa hindrath ok affk\xe4rdht risabergh clostre . . . f\xe4mptan \xf6rtughland jordh  SD NS 3: 312 (  1418) . - \xe5tf\xf6ljt av en indirekt fr\xe5gesats. h\xe4nne th\xe4nkiandis huru hon skulde thz g\xf6ra sagde h\xe4lgasta iomfrun  Mecht 165 . 3) t\xe4nka p\xe5, bry sig om. o h\xe4rra ihesu christe . . . th\xe4t ware min jnarsta dr\xf6ffwilse naghoth annath th\xe4nkia wthan thik  SkrtUppb 9 . 4) t\xe4nka, med t\xe4nken fatta, f\xf6rest\xe4lla sig, g\xf6ra sig en f\xf6rest\xe4llning om. hwilka enhetz \xe4llir tillydilse trappo enkte kan h\xf6ras \xe4llir sighias stadogharen ok h\xe4lgharen, ok ey th\xe4kkias (excogitari)  SpV 190 . 6) t\xe4nka, utt\xe4nka el. uppg\xf6ra planen till. molior . . . iri haardelika wedher vaka onth t\xe4nka tilskicha  GU C 20 (hand 2) s. 151. at han ytirlikare thenkte flere fundhir til sin skadha  Hel m\xe4n 227 . - part. pret. *th\xe4nkter, bet\xe4nkt, sinnad, besluten. thet iak . . . th\xe4nkt \xe4r . . . erike ingemarsoni . . . vplata xiii \xf6rislandh iordh i nosta  SD NS 2: 729 (  1413) . ': 1
+         'adv. och prep.?': 1
+         'v. = forsambla.  RK 1: (Yngre red. af LRK) s. 276 .  &quot; vii haffue her nw varet forsampnade i lincopingh &quot; BSH 4: 188 (1495, samt. afskr.) .  FM 165 (  1504) .  HSH 22: 34 (  1491), 44 ( 1493). ': 1
+         'pron. art. och subst. m.': 1
+         'v. Jfr kringum -, undir- (Sdw 2: 823) stytta. ': 1
+         'adj. komp. , och ': 1
+         'adj. komp. bakre och ': 1
+         'adv. L:': 1
+         u'prep. och adv. L. A) prep. lmed dat. el. i dess st\xe4lle ack. 1) om r\xf6relse fr\xe5n l\xe4ge under el. nedanf\xf6r ngt: undan, fr\xe5n, bort fr\xe5n. manghe blodz str\xf6ma nidher rwnno wndhan h\xe4nne (\u0254 t\xf6rnekronan) om hans \xe4nlete  SkrtUppb 317 . 2) om r\xf6relse fr\xe5n ett st\xe4lle som t\xe4nkes ss l\xe4gre liggande el. \xf6ver huvud om en r\xf6relse fr\xe5n ett st\xe4lle vilken g\xe5r i riktning upp\xe5t: fr\xe5n, upp fr\xe5n. . . . med theris nye ewangelium som luther haffver dragit under benken  HSH 16: 125 (1527, Brask) (jfr undr b\xe4nker). 3) om l\xf6sg\xf6rande el. befriande o.sv.v.: fr\xe5n. thy farum wy thee sam\xe4 gooz vnd\xe4n oos ok warum arfwm vndir herr\xe4 mathios . . . ok hans arfw\xe4  SD 8: 43 (  1361) . ath iak l\xf6th \xf6stralandhit . . . wndher mik ok myna arfwa, oc wndhan henne ok henna arfwom  J\xe4mtlDipl 140 (  1386) .  ib 142 (1391-1406). l5) om en r\xf6relse varigenom man avl\xe4gnsar sig el. s\xf6ker undkomma: undan, bort fr\xe5n. manga troyaner . . . kwnno ey jnkomma (i staden) wndan fiendena Troj115. B) ': 1
+         u'pl. (Bir 4: 45, 47;  Su 171 ) och f. hugsvalelse, tr\xf6st. then hugswalilsse iach aff tik h\xf6rde  Va 41 .  &quot; hugswalilse j frestilsomen &quot; Bir 4: 93 .  Su 171 .  LfK 87, 88 . hugnad, vederqvickelse. gjorde gud sancte ioachim stora hugswalilse, nar han war j dr\xf6ffwilsom, thy at han om w\xe4ndhe forbannilse j w\xe4lsignilse  Lg 3: 42 .  &quot; iak thogh swa stora hoghswalilse gl\xe4dhi och fr\xf6gdh &quot; Lg 812 . ib 814.  Bir 4: 45, 47 .  &quot; haffwin twa tima at \xe4ta oc drikka wm qw\xe4llin, oc til kropsins h\xf6ffuidzska hugswalilse oc l\xe4ttilse &quot; ib 118 . - uppr\xe4ttelse. ath jach kwnne fasa hwgswalilse for thet hommoth, megh giort \xe4r  BSH 5: 389 (  1510) .  &quot; jag far \xe4 nagra hugswalilse ther fore &quot; ib 541 (1514?). at mik matte vedherfaras nagon r\xe4th ok saa en hoswalelse for thet ofwerual mik \xe4r sket  DD 1: 183 (1503, eft. aftr. hos Langebek) . them tycker ganske ylle wara, ath eder swadant hoffmot skee skulle helst i ene fellugh dag, forhopendis till gud och alle swerigis patroner, ati faa ther en god hwgswalelsse fore  FM 665 ( 1547) . ': 1
+         'pl. och f. (Lg 3: 235;  Su 288 ) ': 1
+         u'r\xe4kneord, pron. och obest. art.': 1
+         'pron. indef. L.': 1
+         'pron. adj. L.': 1
+         'pl. (Su 409, 454) och f. ': 1
+         u'adj. (eg. part. pret. af b\xe4lghia) ': 1
+         u'v. (antr\xe4ffadt blott i ': 1
+         'v. L. I ': 1
+         u'v. L. Se T. Johannisson, Meijerbergs ark. f. lsv. ordforskn. 4: 6 ff. 5: 57 f. 1) trans. hinna, upphinna. the \xe4ru nw swa fi\xe4rre at wi gitom them ey int  Prosadikter (Karl M) 285 .  PMSkr 270 . 3) komma till slut med, genomg\xe5. - fullg\xf6ra, utf\xf6ra. faren nw oc innen thz i sagdhen.  Prosadikter (Karl M) 259 . ib.  ib 260 .  ib. ': 1
+         'adv. [Jfr Mnt. untuchtichliken] ': 1
+         u'adv. och prep. L. A) adv. 1) uppifr\xe5n, ovanifr\xe5n, ned. tha komo ther thri korpar ok \xf6pte owan ywer th\xf6m  Prosadikter (Sju vis m B) 215 (m\xf6jl. att f\xf6a till 2). klinthin ok ogr\xe4sanit som offwan saddis j hosbondans hwete  MP 5: 138 . 2) ovan, ovanp\xe5, ovantill, upptill.  PMSkr 504 .  &quot; tridzor swarffwadhe bredhe affwan oc smale n\xe4dhan &quot; ib 505 .  ib 569, 581 . B) prep. med dat. el. (vanligen) med ack. 2) ovan, ovanf\xf6r, \xf6ver. thz som offan ok nidhan \xe4r himlana  SpV 378 . 3) ovanf\xf6r, bortom. huilken tompt som ligger . . . westan offuan skypper symons gard  SJ 2: 127 (  1488) . ': 1
+         'v. L. Jfr Sdw 2: 1343. Jfr fordobla. ': 1
+         'adj. (och subst. m.) ': 1
+         u'v. |Sv. dial. tr\xe4da, tr\xe4a. Jfn N. tr\xe6da] L. ': 1
+         u'(Bu 6, 7, 8 o. s. v.; H\xe4stl\xe4ked. i  AS 136 .  ': 1
+         u'prep. [f\xf6rkortad form af up a. Fdan. paa]  L.': 1
+         u'p. adj. n. adv. of\xf6rt\xf6vat, ': 1
+         'prep., adv. och konj. L.': 1
+         'm.?': 1
+         u'gn\xe4gga.': 1
+         'adj. [Fdan. myndig. Mnt. mundich] ': 1
+         'adj. ': 1
+         'f.': 1
+         'v. ': 1
+         u'pl. och f. besk\xe4rm, skydd, f\xf6rsvar. til wora oc alla wora rikes inbyggiara beskermilse  BSH 3: 45 (  1452, nyare afskr.) . haffde enghen besk\xe4rmilse f\xf6r sny\xf6, r\xe4ghn, w\xe4dher \xe4llar hagel  Lg 3: 338 .  &quot; thu \xe4st . . . min beesk\xe4rmilse &quot; Su 207 . ': 1
+         u'v. , se \xf6nskia. ': 1
+         'v. [Isl. studera. Jfr Mht. studieren. Lat. studere] ': 1
+         u'adj. Arnhemisk, fr\xe5n Arnheim. mon arniska (m\xf6jl. f\xf6r arriska) kiortil giffwer [jak] til helgalikamma gille i stokholme HLG 1: 58 (1452). s\xe4rsk. ': 1
+         'adj. n. sing.': 1
+         'v. L. - part. ': 1
+         u'pl. f\xf6rbund, f\xf6rening.  BtRK 138 (  1439), 139. ': 1
+         u'v. - refl. atras, \xe5tra sig, \xe4ndra beslut, \xe4ndra sig, draga sig tillbaka. a proposito desistere atras ok l\xe4tias  GU C 20 s. 178 . deorsum a proposito stare aatras  ib 179 . haffwer pelegrimmen betalath skiparenom skipl\xf6nen, oc sidhan aathras ey wilyandis fara the resona  PMSkr 37 . hwro m\xe4sta delen aff gresca h\xe4ren wille \xe5traass  Troj 229 . ': 1
+         'v. - part. ': 1
+         'v. opersonl.': 1
+         u'v. - part. pret. rotadher, rotad, rotfast. eg. och bildl. gudz k\xe4rleker war rothadher i iomffrunnas i\xe4l  JM\xd6 93 .  &quot; \xe4n tha at s\xe4den rotath warder PMskr 199. ': 1
+         u'adj. L. Sm\xe5l\xe4ndks. vnum legisterium smalentz  SD 4: 710 (1340?). sw\xe4nst l\xe4ript allr smal\xe4nzt  ib 5: 637 ( 1347) .  &quot; en smalensker swen &quot; RK 1: 2592 . ': 1
+         'p. adj. - n. ': 1
+         u'pl. baktal. fly all bakmaal, kiff oc tr\xe4tta  Bil 809 .  ib 650 .  Bo 17 .  KL 123, 124 .  MP 1: 61, 172 .  VKR 16 .  Bir 2: 236, 3: 182 .  Ber 58, 59, 106, 107, 156 .  Lg 3: 239 .  &quot; mz bannom obrygdhilsom bakmalom ok androm dr\xf6fwelikom ordhom &quot; Su 459 . tala bakmaal oppa annars ryg  ST 148 .  ib 186 . ': 1
+         u'pl. [bark-karlar hos Peder Dass, Nordlands Trompet. s. 91 (uppl. 1873). Jfr Fdan. bi\xe6rk, birk. Se Schlyter Ordb. s. 72, Jurid. Afh. 2: s. 90; Hildebrand, Sv. Medeltid 1: s. 310]  L.': 1
+         u'prep. infintivm\xe4rke, adv. och konj.': 1
+         u'adj. [Jfr Isl. h\xe1\xf0uligr] ': 1
+         'adj. och subst. m. (afgjordt adjektiva former: obest. form ': 1
+         'adv., prep. och konj. ': 1
+         'adv. superl.': 1
+         u'pl. och f. utv\xe4ljande, val. si\xe4lffs uillandis vtu\xe4llisle (electio) goz ilz  Bir 3: 152 .  &quot; var thera vtu\xe4illse (electio) mot r\xe4tuisonne ib 401. at \xe4ldre sonin takir aff rikit oc yngre sonin komi til vtus\xe4lia &quot; ib.  &quot; jak sighir thik \xe4pted\xf6me aff twem rikom j andro \xe4r vtu\xe4llise oj j andro arff ib 402. hwar tvus\xe4llin \xe4b ib. ': 1
+         'adj. Lo': 1
+         'v. = koka? ': 1})
+

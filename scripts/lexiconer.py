@@ -33,7 +33,7 @@ def references():
         (entries,lex) = readIt(lexicon)
         for entry in entries: 
             (pos,l) = getTag(entry)
-            (lem,_) = getAtt(getFormRepresentation(entry),'lem')[0]
+            (lem,_) = getAtt(getFormRepresentation(entry),lemgram)[0]
             # if it is has an e tag, try to fix it
             if pos == 'e':
               ref = findReference(l,entry,entries,errs,save=saves)
@@ -58,7 +58,7 @@ def references():
     err = run(lexicon,outFile,0)
     codecs.open(errFile,'w','utf-8').write('\n'.join(err))
        
-         
+        
 
 # replaces e:s with pos-tags from gram-information
 def makeTags():
@@ -80,7 +80,7 @@ def getFormRepresentation(entry):
 # lexical entry -> (pos-tag, element containing pos-tag)
 def getTag(entry):
     form  = getFormRepresentation(entry)
-    lems  = getAtt(form,'lem')
+    lems  = getAtt(form,lemgram)
     return extractTag(lems)
 
 # lem -> (pos-tag, element containing pos-tag)
@@ -89,6 +89,19 @@ def extractTag(lem):
         (tag,elem) = lem[0]
         return (tag.split('.')[2],elem)
     else: return (None,None)
+
+# lexical entry -> lemgram
+def getLem(entry):
+    form  = getFormRepresentation(entry)
+    lems  = getAtt(form,lemgram)
+    return extractLem(lems)
+
+# lem -> lemgram-id
+def extractLem(lem):
+    if lem is not None:
+        (tag,elem) = lem[0]
+        return tag
+    else: return ""
 
 # check if there is unmatched paranthesis in hwtext
 def checkHW(fil):
@@ -100,7 +113,7 @@ def checkHW(fil):
 def findHW(lem):
     form = getFormRepresentation(lem)
     lems  = getAtt(form,'hwtext')
-    (l,_) = getAtt(form,'lem')[0]
+    (l,_) = getAtt(form,lemgram)[0]
     for (hw,x) in lems:
         #print hw
         if countP(hw)!=0:
@@ -125,7 +138,7 @@ def findReference(lem,entry,lex,errs,save=False):
               if len(lems)==1:
                 (pos,_) = getTag(lems[0])
                 if pos != 'e':
-                   (reflem,_) = getAtt(getFormRepresentation(lems[0]),'lem')[0]
+                   (reflem,_) = getAtt(getFormRepresentation(lems[0]),lemgram)[0]
                    if save:
                      lem.set('val',re.sub('\.\.e\.','..'+pos+'.',lem.get('val')))
                    return reflem
@@ -151,7 +164,7 @@ def lookup(e,lex,typ):
 
 def setNewTag(elem,entry,counter):
     form = getFormRepresentation(entry)
-    (l,_) = getAtt(form,'lem')[0]
+    (l,_) = getAtt(form,lemgram)[0]
     txt   = getAtt(form,'gram')
     old = elem.get('val')
     for (t,_) in txt:
@@ -213,4 +226,48 @@ def countP(w):
        if c==')':
          i = i-1
    return i              
+
+def countE(fil):         
+    (entries,lex) = readIt(fil)
+    counter = 0
+    for entry in entries: 
+        (pos,l) = getTag(entry)
+        if pos == 'e':
+           counter += 1
+    print fil,"number of 'e's",counter
+
+
+from collections import Counter
+def printPOS(fil):
+    (entries,lex) = readIt(fil)
+    poss = []
+    for entry in entries: 
+        (pos,l) = getTag(entry)
+        poss.append(pos)
+    print Counter(poss)
+
+def getGrams(fils):
+    grams = []
+    for fil in fils:
+      (entries,lex) = readIt(fil)
+      for entry in entries: 
+          form = getFormRepresentation(entry)
+          (l,_) = getAtt(form,lemgram)[0]
+          txt   = getAtt(form,'gram')
+          for (t,_) in txt:
+              grams.append(t)
+    print Counter(grams)
+
+def checklemgrams(fils):
+    grams = []
+    for fil in fils:
+      (entries,lex) = readIt(fil)
+      for entry in entries: 
+        l = getLem(entry)
+        if '*' in l or '?' in l:
+           grams.append(l) 
+    print grams
+
+lemgram = 'lemgram' # 'lem'
+# checklemgrams(['../../Lexicon/soederwall_ny/soederwall_main_ONSDAG.xml','../../Lexicon/soederwall_ny/soederwall_supp_ONSDAG.xml'])
 

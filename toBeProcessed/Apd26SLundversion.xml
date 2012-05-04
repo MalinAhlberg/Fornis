@@ -1,1166 +1,1175 @@
-<doc><preamble><rtf-definition code-page="ansicpg1252" default-font="Times New Roman" platform="Windows" /><font-table><font-in-table name="Times New Roman" num="0" /><font-in-table name="Times" num="4" /><font-in-table name="Tms Rmn" num="8" /><font-in-table name="Cardo" num="27" /><font-in-table name="Times New Roman CE" num="194" /><font-in-table name="Times New Roman Cyr" num="195" /><font-in-table name="Times New Roman Greek" num="197" /><font-in-table name="Times New Roman Tur" num="198" /><font-in-table name="Times New Roman (Hebrew)" num="199" /><font-in-table name="Times New Roman (Arabic)" num="200" /><font-in-table name="Times New Roman Baltic" num="201" /><font-in-table name="Times CE" num="226" /><font-in-table name="Times Tur" num="230" /><font-in-table name="Times Baltic" num="233" /><font-in-table name="Cardo CE" num="410" /><font-in-table name="Cardo Greek" num="413" /><font-in-table name="Cardo Tur" num="414" /><font-in-table name="Cardo (Hebrew)" num="415" /><font-in-table name="Cardo Baltic" num="417" /></font-table><color-table><color-in-table num="1" value="#000000" /><color-in-table num="2" value="#0000FF" /><color-in-table num="3" value="#00FFFF" /><color-in-table num="4" value="#00FF00" /><color-in-table num="5" value="#FF00FF" /><color-in-table num="6" value="#FF0000" /><color-in-table num="7" value="#FFFF00" /><color-in-table num="8" value="#FFFFFF" /><color-in-table num="9" value="#000080" /><color-in-table num="10" value="#008080" /><color-in-table num="11" value="#008000" /><color-in-table num="12" value="#800080" /><color-in-table num="13" value="#800000" /><color-in-table num="14" value="#808000" /><color-in-table num="15" value="#808080" /><color-in-table num="16" value="#C0C0C0" /></color-table><style-table><paragraph-styles><paragraph-style-in-table adjust-right="true" align="left" based-on-style="Normal" font-size="12.00" font-style="Cardo" language="German" left-indent="0.00" name="Body Text" nest-level="0" next-style="Body Text" num="15" right-indent="0.00" space-after="6.00" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="just" first-line-indent="21.25" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-12.00" name="Anfangsabsatz" nest-level="0" next-style="Anfangsabsatz" num="21" right-indent="0.00" tabs="left:177.20;left:216.00;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="just" based-on-style="Standardabsatz" font-size="12.00" font-style="Times" language="German" left-indent="0.00" line-spacing="-12.00" name="Absatzanfang" nest-level="0" next-style="Absatzanfang" num="17" right-indent="0.00" tabs="left:35.45;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="cent" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="&#220;berschrift 11" nest-level="0" next-style="&#220;berschrift 11" num="16" right-indent="0.00" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="left" based-on-style="Normal" font-size="12.00" language="German" left-indent="0.00" name="header" nest-level="0" next-style="header" num="19" right-indent="0.00" tabs="center:226.80;right:453.60;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-12.00" name="Standardabsatz" nest-level="0" next-style="Standardabsatz" num="18" right-indent="0.00" tabs="left:155.95;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="left" font-size="10.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-12.00" name="Format Kopfzeile" nest-level="0" next-style="Format Kopfzeile" num="22" right-indent="0.00" tabs="center:216.00;left:360.00;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="left" font-size="12.00" language="German" left-indent="0.00" name="Normal" nest-level="0" next-style="Normal" num="0" right-indent="0.00" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="left" based-on-style="Normal" font-size="12.00" language="German" left-indent="0.00" name="footer" nest-level="0" next-style="footer" num="20" right-indent="0.00" tabs="center:226.80;right:453.60;" widow-control="true" /></paragraph-styles><character-styles><character-style-in-table name="Default Paragraph Font" num="10" /></character-styles><styles-in-body><paragraph-style-in-body adjust-right="true" align="just" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="&#220;berschrift 11" right-indent="0.00" style-number="s0001" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="left" font-style="Times New Roman" left-indent="0.00" line-spacing="-18.00" name="&#220;berschrift 11" right-indent="0.00" style-number="s0002" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="&#220;berschrift 11" right-indent="0.00" style-number="s0003" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="left" first-line-indent="35.40" font-style="Times New Roman" left-indent="35.40" line-spacing="-18.00" name="&#220;berschrift 11" nest-level="0" right-indent="0.00" style-number="s0004" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-12.00" name="Standardabsatz" nest-level="0" right-indent="0.00" style-number="s0005" tabs="left:155.95;" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-size="12.00" font-style="Times" language="German" left-indent="0.00" line-spacing="-12.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0006" tabs="left:35.45;" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="left" font-size="12.00" font-style="Times New Roman" language="German" left-indent="0.00" name="Normal" nest-level="0" right-indent="0.00" style-number="s0007" widow-control="true" /></styles-in-body></style-table><doc-information><title>"Sancti Joannisoppenbarilse"</title><year>"1526"</year><author>hkh3</author><operator>hkh3</operator><creation-time day="16" minute="11" month="1" year="2006" /><revision-time day="16" minute="11" month="1" year="2006" /><editing-time editing-time="0" /><number-of-pages number-of-pages="17" /><number-of-words number-of-words="9631" /><number-of-characters number-of-characters="54898" /><begin>1526</begin><end>1526</end></doc-information><page-definition gutter="0" margin-bottom="56.70" margin-left="56.70" margin-right="56.70" margin-top="56.70" paper-height="842.00" paper-width="595.35" /></preamble><body><section level="0" num="1" num-in-level="1" type="rtf-native"><paragraph-definition adjust-right="true" align="just" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="&#220;berschrift 11" right-indent="0.00" style-number="s0001" widow-control="true">
-<para><inline font-size="12.00" font-style="Times">[</inline><inline font-size="12.00" font-style="Times"><hskr num="69a" >]</inline></para>
+<doc><preamble><rtf-definition code-page="ansicpg1252" default-font="Times New Roman" platform="Windows" /><font-table><font-in-table name="Times New Roman" num="0" /><font-in-table name="Times" num="4" /><font-in-table name="Tms Rmn" num="8" /><font-in-table name="Cardo" num="27" /><font-in-table name="Times New Roman CE" num="194" /><font-in-table name="Times New Roman Cyr" num="195" /><font-in-table name="Times New Roman Greek" num="197" /><font-in-table name="Times New Roman Tur" num="198" /><font-in-table name="Times New Roman (Hebrew)" num="199" /><font-in-table name="Times New Roman (Arabic)" num="200" /><font-in-table name="Times New Roman Baltic" num="201" /><font-in-table name="Times CE" num="226" /><font-in-table name="Times Tur" num="230" /><font-in-table name="Times Baltic" num="233" /><font-in-table name="Cardo CE" num="410" /><font-in-table name="Cardo Greek" num="413" /><font-in-table name="Cardo Tur" num="414" /><font-in-table name="Cardo (Hebrew)" num="415" /><font-in-table name="Cardo Baltic" num="417" /></font-table><color-table><color-in-table num="1" value="#000000" /><color-in-table num="2" value="#0000FF" /><color-in-table num="3" value="#00FFFF" /><color-in-table num="4" value="#00FF00" /><color-in-table num="5" value="#FF00FF" /><color-in-table num="6" value="#FF0000" /><color-in-table num="7" value="#FFFF00" /><color-in-table num="8" value="#FFFFFF" /><color-in-table num="9" value="#000080" /><color-in-table num="10" value="#008080" /><color-in-table num="11" value="#008000" /><color-in-table num="12" value="#800080" /><color-in-table num="13" value="#800000" /><color-in-table num="14" value="#808000" /><color-in-table num="15" value="#808080" /><color-in-table num="16" value="#C0C0C0" /></color-table><style-table><paragraph-styles><paragraph-style-in-table adjust-right="true" align="left" based-on-style="Normal" font-size="12.00" font-style="Cardo" language="German" left-indent="0.00" name="Body Text" nest-level="0" next-style="Body Text" num="15" right-indent="0.00" space-after="6.00" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="just" first-line-indent="21.25" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-12.00" name="Anfangsabsatz" nest-level="0" next-style="Anfangsabsatz" num="21" right-indent="0.00" tabs="left:177.20;left:216.00;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="just" based-on-style="Standardabsatz" font-size="12.00" font-style="Times" language="German" left-indent="0.00" line-spacing="-12.00" name="Absatzanfang" nest-level="0" next-style="Absatzanfang" num="17" right-indent="0.00" tabs="left:35.45;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="cent" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Überschrift 11" nest-level="0" next-style="Überschrift 11" num="16" right-indent="0.00" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="left" based-on-style="Normal" font-size="12.00" language="German" left-indent="0.00" name="header" nest-level="0" next-style="header" num="19" right-indent="0.00" tabs="center:226.80;right:453.60;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-12.00" name="Standardabsatz" nest-level="0" next-style="Standardabsatz" num="18" right-indent="0.00" tabs="left:155.95;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="left" font-size="10.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-12.00" name="Format Kopfzeile" nest-level="0" next-style="Format Kopfzeile" num="22" right-indent="0.00" tabs="center:216.00;left:360.00;" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="left" font-size="12.00" language="German" left-indent="0.00" name="Normal" nest-level="0" next-style="Normal" num="0" right-indent="0.00" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="left" based-on-style="Normal" font-size="12.00" language="German" left-indent="0.00" name="footer" nest-level="0" next-style="footer" num="20" right-indent="0.00" tabs="center:226.80;right:453.60;" widow-control="true" /></paragraph-styles><character-styles><character-style-in-table name="Default Paragraph Font" num="10" /></character-styles><styles-in-body><paragraph-style-in-body adjust-right="true" align="just" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Überschrift 11" right-indent="0.00" style-number="s0001" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="left" font-style="Times New Roman" left-indent="0.00" line-spacing="-18.00" name="Überschrift 11" right-indent="0.00" style-number="s0002" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="Überschrift 11" right-indent="0.00" style-number="s0003" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="left" first-line-indent="35.40" font-style="Times New Roman" left-indent="35.40" line-spacing="-18.00" name="Überschrift 11" nest-level="0" right-indent="0.00" style-number="s0004" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-12.00" name="Standardabsatz" nest-level="0" right-indent="0.00" style-number="s0005" tabs="left:155.95;" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-size="12.00" font-style="Times" language="German" left-indent="0.00" line-spacing="-12.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0006" tabs="left:35.45;" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="left" font-size="12.00" font-style="Times New Roman" language="German" left-indent="0.00" name="Normal" nest-level="0" right-indent="0.00" style-number="s0007" widow-control="true" /></styles-in-body></style-table><doc-information><title>Sancti Joannisoppenbarilse</title><year>"1526"</year><author>hkh3</author><operator>hkh3</operator><creation-time day="16" minute="11" month="1" year="2006" /><revision-time day="16" minute="11" month="1" year="2006" /><editing-time editing-time="0" /><number-of-pages number-of-pages="17" /><number-of-words number-of-words="9631" /><number-of-characters number-of-characters="54898" /><begin>1526</begin><end>1526</end></doc-information><page-definition gutter="0" margin-bottom="56.70" margin-left="56.70" margin-right="56.70" margin-top="56.70" paper-height="842.00" paper-width="595.35" /></preamble><body><paragraph><para><inline font-size="12.00" font-style="Times" /><inline font-size="12.00" font-style="Times">[‡‡
+69a]</inline></para>
 <para><inline font-size="12.00" font-style="Times">Jesus.
-F&#246;rspr&#229;k vthi Sancti Joannis
-oppenbarilse.</inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-12.00" name="Standardabsatz" nest-level="0" right-indent="0.00" style-number="s0005" tabs="left:155.95;" widow-control="true"><para>THessa book som kallas Sancti
+Förspråk vthi Sancti Joannis
+oppenbarilse.</inline></para></paragraph><paragraph><para>THessa book som kallas Sancti
 Joannis oppenbarilse haffua och the gamble icke fulleligha wiliat rekna j bland
-the huffuudhb&#246;ker j Biblien, och ther till haffua the thenne saker,
-F&#246;rst ath th<inline italics="true">e</inline>m synes thenna book icke
-wara apostolisk, mest f&#246;r ty ath apostlanar icke pl&#228;ghadhe
-vmg&#229; medh syner, vthan medh clarom och torrom oordhom s&#228;ya
-grunden vth om Christo, s&#229;som Sanctus Petrus Paulus och Christus sielff
+the huffuudhböker j Biblien, och ther till haffua the thenne saker,
+Först ath th<inline italics="true">e</inline>m synes thenna book icke
+wara apostolisk, mest för ty ath apostlanar icke pläghadhe
+vmgå medh syner, vthan medh clarom och torrom oordhom säya
+grunden vth om Christo, såsom Sanctus Petrus Paulus och Christus sielff
 j eua<inline italics="true">n</inline>gelio giordt haffua, Woro och apostlanar
-icke til annat vthsendhe &#228;n ath b&#228;ra clart witnesbyrd om Christo
-Joan. xviij., och hadhe Christus &#246;pnat them sinnet p&#229; thet som
+icke til annat vthsendhe än ath bära clart witnesbyrd om Christo
+Joan. xviij., och hadhe Christus öpnat them sinnet på thet som
 scriffuit war om honom j propheciener, och icke besynnerligha till ath
-n&#229;ghra nyia prophecier
-f&#246;ra.</para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="German" left-indent="0.00" line-spacing="-12.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0006" tabs="left:35.45;" widow-control="true"><para>	Finnes och ingen prophete s&#229; alstinges
+någhra nyia prophecier
+föra.</para></paragraph><paragraph><para>	Finnes och ingen prophete så alstinges
 j genom alt hans taal handlat haffua medh syner som thenna Joannes giordt
-haffuer.</para><para /><para>	Ther vth&#246;ffuer synes alt f&#246;r
-mykit wara, ath han s&#229; medh trugh h&#229;rdeligha befaler the<inline italics="true">n</inline>na sin book ath h&#229;lla, mera &#228;n
-n&#229;ghor annor helogh book g&#246;r, ther mykit meer macht p&#229;
-ligger, s&#229; ath han s&#228;gher, ath om n&#229;ghor legger h&#228;r
-n&#229;ghot bort, fr&#229; hono<inline italics="true">m</inline> skulle och
-gudh borttagha hans lott vthur lijffzens book, och om n&#229;ghor legger
-h&#228;r n&#229;ghot till, p&#229; honom skulle gudh leggia the
-pl&#229;ghor som scriffna &#228;ro j boke<inline italics="true">n</inline>ne, och twerdt emoot, ath salughe &#228;ro the som
-h&#229;lla huadh ther vthi st&#229;r, en doch ingen weet huadh thet
-&#228;r, huru skal ma<inline italics="true">n</inline> th&#229;
-h&#229;llat, och &#228;r en deels som wij thet intit hadhe, och &#228;ro
-doch m&#229;nga andra helgha b&#246;ker f&#246;r handen som man
-h&#229;lla skall.</para><para /><para>	Wardher och Christus h&#228;r
-vthinnan intit l&#228;rdher eller kender, huilkit doch en apostel
-tilh&#246;rer ath g&#246;ra som sagt &#228;r, och &#228;r f&#246;r
+haffuer.</para></paragraph><paragraph><para>	Ther vthöffuer synes alt för
+mykit wara, ath han så medh trugh hårdeligha befaler the<inline italics="true">n</inline>na sin book ath hålla, mera än
+någhor annor helogh book gör, ther mykit meer macht på
+ligger, så ath han sägher, ath om någhor legger här
+någhot bort, frå hono<inline italics="true">m</inline> skulle och
+gudh borttagha hans lott vthur lijffzens book, och om någhor legger
+här någhot till, på honom skulle gudh leggia the
+plåghor som scriffna äro j boke<inline italics="true">n</inline>ne, och twerdt emoot, ath salughe äro the som
+hålla huadh ther vthi står, en doch ingen weet huadh thet
+är, huru skal ma<inline italics="true">n</inline> thå
+hållat, och är en deels som wij thet intit hadhe, och äro
+doch många andra helgha böker för handen som man
+hålla skall.</para></paragraph><paragraph><para>	Wardher och Christus här
+vthinnan intit lärdher eller kender, huilkit doch en apostel
+tilhörer ath göra som sagt är, och är för
 then skul lijct ath thenna book haffuer icke Sanctus Joannes apostel giordt,
 vthan en annan Joannes Theologus, s<inline italics="true">o</inline>m j
-Grekiska b&#246;kerna finnes scriffuit
-wara.</para><para /><para>	<inline italics="true">&#196;</inline>&#228;r thet och itt annat teekn til, ath
-thet &#228;r icke S. Joannis apostels book, ath han h&#228;r s&#229;
-offta nempner sitt nampn, thet han doch icke pl&#228;ghar je eua<inline italics="true">n</inline>gelio eller sine Epistler, vtan heller tigher sitt
-nampn och s&#228;gher, Then discipulen som Jesus
-elskadhe.</para><para /><para>	W&#228;l &#228;r sandt ath Sanctus
-Jeronimus h&#229;ller mykit aff the<inline italics="true">n</inline>na book
-och s&#228;gher ath ther &#228;r s&#229;&#229; m&#229;ng heemligh
-ting vthi s&#229;&#229; som oord etc. Doch s&#228;gher han ther icke
+Grekiska bökerna finnes scriffuit
+wara.</para></paragraph><paragraph><para>	<inline italics="true">Ä</inline>är thet och itt annat teekn til, ath
+thet är icke S. Joannis apostels book, ath han här så
+offta nempner sitt nampn, thet han doch icke pläghar je eua<inline italics="true">n</inline>gelio eller sine Epistler, vtan heller tigher sitt
+nampn och sägher, Then discipulen som Jesus
+elskadhe.</para></paragraph><paragraph><para>	Wäl är sandt ath Sanctus
+Jeronimus håller mykit aff the<inline italics="true">n</inline>na book
+och sägher ath ther är såå mång heemligh
+ting vthi såå som oord etc. Doch sägher han ther icke
 bewijsning till, vtan elles rundeligha prijsar henne, som han och finnes
-m&#229;ngastadz warit mykit rund j hans
-prijs.</para><para /><para>	Beke<inline italics="true">n</inline>ner han
+mångastadz warit mykit rund j hans
+prijs.</para></paragraph><paragraph><para>	Beke<inline italics="true">n</inline>ner han
 doch likwel ath om the<inline italics="true">n</inline>na book haffuer en
-twekan warit huilkit b&#229;dhe han och Eusebius Cesarien<inline italics="true">sis</inline> och flera g&#246;ra, ey allenast h&#228;r om,
-vtan iamw&#228;l om the Epistler, Jacobi, Jude, och till the Hebreer, Doch
-effter the nw mest annammadhe &#228;ro och brukas j kyrkenes tidher och aff
-m&#229;nga l&#228;rare, s&#228;tias the och s&#229;&#229; h&#228;r
-medh the andra b&#246;ker, ath huar och en m&#229; ther aff tagha och
-besinna huadh hans ande honom geffuer.</para><para /><para></hskr><hskr num="69b" ></para></paragraph-definition><paragraph-definition adjust-right="true" align="left" font-size="16.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-18.00" name="&#220;berschrift 11" nest-level="0" right-indent="0.00" style-number="s0003" widow-control="true"><para><inline font-size="12.00" font-style="Times">[Jesus.
+twekan warit huilkit bådhe han och Eusebius Cesarien<inline italics="true">sis</inline> och flera göra, ey allenast här om,
+vtan iamwäl om the Epistler, Jacobi, Jude, och till the Hebreer, Doch
+effter the nw mest annammadhe äro och brukas j kyrkenes tidher och aff
+många lärare, sätias the och såå här
+medh the andra böker, ath huar och en må ther aff tagha och
+besinna huadh hans ande honom geffuer.</para><para>[‡‡
+69b]</para><para><inline font-size="12.00" font-style="Times">[Jesus.
 Sancti Joannis Theologi
-oppenbarilse.]</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="left" first-line-indent="35.40" font-style="Times New Roman" left-indent="35.40" line-spacing="-18.00" name="&#220;berschrift 11" nest-level="0" right-indent="0.00" style-number="s0004" widow-control="true"><para><inline font-size="12.00" font-style="Times">F&#246;rsta
-Capitel.</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-12.00" name="Standardabsatz" nest-level="0" right-indent="0.00" style-number="s0005" tabs="left:155.95;" widow-control="true"><para /><para>Thetta &#228;r Jesu
+oppenbarilse.]</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times">Första
+Capitel.</inline></para></paragraph><paragraph><para>Thetta är Jesu
 Christi oppe<inline italics="true">n</inline>barilse th<inline italics="true">e</inline>n gudh haffuer giffuit honom till ath
-f&#246;rk<inline italics="true">u</inline>nna sinom tienaro<inline italics="true">m</inline> huadh innan kort tijdh skee skal, och haffuer
+förk<inline italics="true">u</inline>nna sinom tienaro<inline italics="true">m</inline> huadh innan kort tijdh skee skal, och haffuer
 beteeknat sendandes medh sin engil til sin tienare Joanne<inline italics="true">m</inline>, huilkin betyghat haffuer gudz oord och witnesbyrdh
-till Jesu Christo, huadh som helst han seedt hadhe, Salugh &#228;r then ther
-l&#228;&#228;s, och then ther h&#246;rer the<inline italics="true">n</inline>ne prophecies oord, och h&#229;ller th<inline italics="true">et</inline> ther vthinna<inline italics="true">n</inline>
-scriffuit &#228;r, ty tidhe<inline italics="true">n</inline> &#228;r hart
-n&#228;r.</para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="German" left-indent="0.00" line-spacing="-12.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0006" tabs="left:35.45;" widow-control="true"><para>	Joannes.</para><para /><para>	The siw
-f&#246;rsamblinger som &#228;ro j
-Asia.</para><para /><para>	N&#229;dhe wari medh idher och fredh vthaff
-honom som &#228;r, och th<inline italics="true">e</inline>n som war, och
+till Jesu Christo, huadh som helst han seedt hadhe, Salugh är then ther
+lääs, och then ther hörer the<inline italics="true">n</inline>ne prophecies oord, och håller th<inline italics="true">et</inline> ther vthinna<inline italics="true">n</inline>
+scriffuit är, ty tidhe<inline italics="true">n</inline> är hart
+när.</para></paragraph><paragraph><para>	Joannes.</para></paragraph><paragraph><para>	The siw
+församblinger som äro j
+Asia.</para></paragraph><paragraph><para>	Nådhe wari medh idher och fredh vthaff
+honom som är, och th<inline italics="true">e</inline>n som war, och
 th<inline italics="true">e</inline>n som ko<inline italics="true">m</inline>ma
-skall, och vthaff the siw andar som f&#246;r ha<inline italics="true">n</inline>s stool &#228;ro, och vthaff Jesu Christo, huilkin
-ther &#228;r it trofast witne, och f&#246;rstf&#246;dder fr&#229; the
-d&#246;dha, och en f&#246;rste offuer konnu<inline italics="true">n</inline>garna p&#229; iordhe<inline italics="true">n</inline>ne, th<inline italics="true">e</inline>n oss elskat
-haffuer, och twaghit oss vthaff w&#229;ra synder j sitt blodh, och giordt oss
-till konnungar och prester f&#246;r gudhi och hans fadher, honom ware prijs
-och rike fr&#229; ewogheet till ewogheet Amen.</para><para /><para>	Sy
-han kommer medh skyn och all &#246;ghon warda honom seende, och the honom
-stungit haffua, och all slecte p&#229; iordhenne warda sigh gr&#229;tandes,
-Ja Amen, Jach &#228;r A och O, begynnelsen och enden s&#228;gher herren,
-then som &#228;r, och then som war, och then som tillkommande &#228;r then
-al&#223;mectughe.</para><para /><para>	Jach Joannes idhar brodher och
-deelactugher j bedr&#246;ffuilsen, och j rikit och j tolamodhit j Jesu
-Christo, war p&#229; then &#246;&#246;n bene<inline italics="true">m</inline>pd Pathmos f&#246;r gudz oord skull och f&#246;r
-Jesu Christi witnesbyrd skul, Jach war j andanom om en s&#246;ndagh, och
-h&#246;rde effter mich en stoor r&#246;st s&#229; som en baswn, och
-sadhe, Jach &#228;r A och O, then f&#246;rste och then ytterste, huad tu
-seer thet scriff vthi eno book, och sendt till the siw f&#246;rsamblinger som
-&#228;ro j Asia, j Epheso, och j Smirnen, och j Pergame, och j Thyatiras, och
-j Sardis, och j Philadelphia, och Laodicea.</para><para /><para>	Och iach
-wende mich om till ath see effter r&#246;sten som medh migh taladhe, och som
-iach migh wende s&#229;gh iach siw liwsastakar aff guld, och mitt j bland the
-gyldene liwsastakar en som war lijk me<inline italics="true">n</inline>niskionnes son, cl&#228;dd vthi it sidt
-lijncl&#228;dhe hengia<inline italics="true">n</inline>des nedher p&#229;
-foten, och begiordhat cring om brystet medh it gyllene b&#228;lte, ha<inline italics="true">n</inline>s huffuudh och ha<inline italics="true">n</inline>s
-h&#229;&#229;r war hwit som en hwijt vll, och s&#229; som sny&#246;,
-och hans &#246;ghen woro s&#229; som en eeldz loghe, och hans f&#246;ter
-woro s&#229; som en gl&#246;dhande malm, och hans r&#246;st s&#229; som
-en d&#246;n aff mykit watn, och han hadhe j sin h&#246;ghre hand siw
-stiernor, och vthaff hans mwn gick it swerd huast p&#229; b&#229;dha
-sidhor, och hans ansicte skeen s&#229; som clara solen vthi hennas
-crafft.</para><para /><para>	Och th&#229; iach s&#229;gh honom,
-f&#246;ll iach till hans f&#246;ter s&#229; som iach hadhe warit
-d&#246;dher, och han lagde sin h&#246;ghra hand p&#229;&#229; migh och
-sadhe</para><para /><para></hskr><hskr num="70a" ></para><para>till migh, War icke
-f&#246;rf&#228;rat, Jach &#228;r then f&#246;rste och then ytterste,
-och leffuandes, och iach war d&#246;dh, och sy iach &#228;r leffuandes
-fr&#229; ewogheet till ewogheet, och hafuer nyclanar til heluitet och
-d&#246;dhe<inline italics="true">n</inline>, S&#229; scriff nw huad tu
-seedt haffuer, och huad nw &#228;r, och huad som h&#228;r effter skee
-skall, Heemligheten vthaff the siw stiernor som tu seedt haffuer j mi<inline italics="true">n</inline>ne h&#246;ghre hand, och the siw gylden liwsastakar,
-The siw stiernor &#228;ro the siw f&#246;rsambli<inline italics="true">n</inline>gers englar, och the siw liwsastakar som tu seedt
-haffuer &#228;ro the siw
-f&#246;rsamblingar.</para><para /><para>		Annat
-Capitel.</para><para /><para>	OCh scriff th<inline italics="true">e</inline>n forsambli<inline italics="true">n</inline>ges engel
-j Epheso, Thetta s&#228;gh<inline italics="true">e</inline>r han som haffuer
-siw stiernor j sine h&#246;ghre hand, hwilkin ther wandrar mit ibland the siw
+skall, och vthaff the siw andar som för ha<inline italics="true">n</inline>s stool äro, och vthaff Jesu Christo, huilkin
+ther är it trofast witne, och förstfödder frå the
+dödha, och en förste offuer konnu<inline italics="true">n</inline>garna på iordhe<inline italics="true">n</inline>ne, th<inline italics="true">e</inline>n oss elskat
+haffuer, och twaghit oss vthaff wåra synder j sitt blodh, och giordt oss
+till konnungar och prester för gudhi och hans fadher, honom ware prijs
+och rike frå ewogheet till ewogheet Amen.</para></paragraph><paragraph><para>	Sy
+han kommer medh skyn och all öghon warda honom seende, och the honom
+stungit haffua, och all slecte på iordhenne warda sigh gråtandes,
+Ja Amen, Jach är A och O, begynnelsen och enden sägher herren,
+then som är, och then som war, och then som tillkommande är then
+alßmectughe.</para></paragraph><paragraph><para>	Jach Joannes idhar brodher och
+deelactugher j bedröffuilsen, och j rikit och j tolamodhit j Jesu
+Christo, war på then öön bene<inline italics="true">m</inline>pd Pathmos för gudz oord skull och för
+Jesu Christi witnesbyrd skul, Jach war j andanom om en söndagh, och
+hörde effter mich en stoor röst så som en baswn, och
+sadhe, Jach är A och O, then förste och then ytterste, huad tu
+seer thet scriff vthi eno book, och sendt till the siw församblinger som
+äro j Asia, j Epheso, och j Smirnen, och j Pergame, och j Thyatiras, och
+j Sardis, och j Philadelphia, och Laodicea.</para></paragraph><paragraph><para>	Och iach
+wende mich om till ath see effter rösten som medh migh taladhe, och som
+iach migh wende sågh iach siw liwsastakar aff guld, och mitt j bland the
+gyldene liwsastakar en som war lijk me<inline italics="true">n</inline>niskionnes son, clädd vthi it sidt
+lijnclädhe hengia<inline italics="true">n</inline>des nedher på
+foten, och begiordhat cring om brystet medh it gyllene bälte, ha<inline italics="true">n</inline>s huffuudh och ha<inline italics="true">n</inline>s
+håår war hwit som en hwijt vll, och så som snyö,
+och hans öghen woro så som en eeldz loghe, och hans föter
+woro så som en glödhande malm, och hans röst så som
+en dön aff mykit watn, och han hadhe j sin höghre hand siw
+stiernor, och vthaff hans mwn gick it swerd huast på bådha
+sidhor, och hans ansicte skeen så som clara solen vthi hennas
+crafft.</para></paragraph><paragraph><para>	Och thå iach sågh honom,
+föll iach till hans föter så som iach hadhe warit
+dödher, och han lagde sin höghra hand påå migh och
+sadhe</para><para>[‡‡ 70a]</para><para>till migh, War icke
+förfärat, Jach är then förste och then ytterste,
+och leffuandes, och iach war dödh, och sy iach är leffuandes
+frå ewogheet till ewogheet, och hafuer nyclanar til heluitet och
+dödhe<inline italics="true">n</inline>, Så scriff nw huad tu
+seedt haffuer, och huad nw är, och huad som här effter skee
+skall, Heemligheten vthaff the siw stiernor som tu seedt haffuer j mi<inline italics="true">n</inline>ne höghre hand, och the siw gylden liwsastakar,
+The siw stiernor äro the siw försambli<inline italics="true">n</inline>gers englar, och the siw liwsastakar som tu seedt
+haffuer äro the siw
+församblingar.</para></paragraph><paragraph><para>		Annat
+Capitel.</para></paragraph><paragraph><para>	OCh scriff th<inline italics="true">e</inline>n forsambli<inline italics="true">n</inline>ges engel
+j Epheso, Thetta sägh<inline italics="true">e</inline>r han som haffuer
+siw stiernor j sine höghre hand, hwilkin ther wandrar mit ibland the siw
 gyldene liwsastakar, Jach weet thina gerningar och arbete, och titt tolamoodh,
-och ath tu kan icke lidha the oonda, och haffuer f&#246;rs&#246;ct
-th<inline italics="true">e</inline>m som s&#228;ya ath the &#228;ro
-apostlar, och &#228;ro doch icke, och haffuer befunnit them l&#246;ghnare,
-och tu haffuer lidhit och tolamoodh hafft, och arbetat f&#246;r mit nampn
-skull, och &#228;r icke tr&#246;tt worden, men iach haffuer emoot tigh, ath
-tu then f&#246;rsta kerleken offuergiffuit haffuer, betenk hwar aff tu fallen
-&#228;r och b&#228;tra tigh, och g&#246;r the f&#246;rsta gerningana,
-hwar thet icke skeer, s&#229; wardher iach tigh snarligha komma<inline italics="true">n</inline>des, och skall r&#246;ra thin liwsastaka vthaff hans
-rwm, vtan tu b&#228;trar tigh, Men thetta haffuer tu, ath tu haffuer hatat
+och ath tu kan icke lidha the oonda, och haffuer försöct
+th<inline italics="true">e</inline>m som säya ath the äro
+apostlar, och äro doch icke, och haffuer befunnit them löghnare,
+och tu haffuer lidhit och tolamoodh hafft, och arbetat för mit nampn
+skull, och är icke trött worden, men iach haffuer emoot tigh, ath
+tu then första kerleken offuergiffuit haffuer, betenk hwar aff tu fallen
+är och bätra tigh, och gör the första gerningana,
+hwar thet icke skeer, så wardher iach tigh snarligha komma<inline italics="true">n</inline>des, och skall röra thin liwsastaka vthaff hans
+rwm, vtan tu bätrar tigh, Men thetta haffuer tu, ath tu haffuer hatat
 the Nicolaiters werk, huilka iach och hata<inline italics="true">r</inline>,
-Then ther &#246;ra haffuer han h&#246;re huadh anden s&#228;gher
-f&#246;rsamblinganar, Then ther winner then will iach geffua &#228;ta
-vthaff liffzens tr&#228;&#228;, som &#228;r mitt j gudz
-paradijs.</para><para /><para>	Och scriff then f&#246;rsamblinges engel
-j Smirnen, Thetta s&#228;gher then f&#246;rste och then ytterste, then
-d&#246;dh war och &#228;r leffuandhe wordin, Jach weet thina gerningar, och
-thin bedr&#246;ffuilse, och thin fattigdom (men tu &#228;st rijk) och
-theras h&#228;dhilse som sigh s&#228;ya wara Judhar, och &#228;ro icke,
-vtan &#228;ro dieffuulsens f&#246;rsambling, Fructa intit f&#246;r
-n&#229;ghot som tu lidha skalt, Sy, dieffuulen wardher kastandes
-n&#229;ghra vthaff idher j fengsle, p&#229; thet j skolen
-f&#246;rs&#246;cte wardha, och j skolen f&#229; bedr&#246;ffuilse j
-tiyo daghar, War trofast j d&#246;dhen, och iach skall geffua tigh liffzens
-crono, Then ther &#246;ra haffuer han h&#246;re huadh anden s&#228;gher
-f&#246;rsamblinganar, Then ther wi<inline italics="true">n</inline>ner han
-skall ingen scadha f&#229; vthaff th<inline italics="true">e</inline>n andra
-d&#246;dhen.</para><para /><para>	Och scriff then f&#246;rsamblinges
-engel j Pergame, Thetta s&#228;gher han som haffuer thet skarpa swerdh
-p&#229; b&#229;dha sidhor, Jach weet thina gerningar, och hwar tu boor, ath
-ther &#228;r dieffuulsens s&#228;te, och tu h&#229;ller mit nampn och
+Then ther öra haffuer han höre huadh anden sägher
+församblinganar, Then ther winner then will iach geffua äta
+vthaff liffzens trää, som är mitt j gudz
+paradijs.</para></paragraph><paragraph><para>	Och scriff then församblinges engel
+j Smirnen, Thetta sägher then förste och then ytterste, then
+dödh war och är leffuandhe wordin, Jach weet thina gerningar, och
+thin bedröffuilse, och thin fattigdom (men tu äst rijk) och
+theras hädhilse som sigh säya wara Judhar, och äro icke,
+vtan äro dieffuulsens försambling, Fructa intit för
+någhot som tu lidha skalt, Sy, dieffuulen wardher kastandes
+någhra vthaff idher j fengsle, på thet j skolen
+försöcte wardha, och j skolen få bedröffuilse j
+tiyo daghar, War trofast j dödhen, och iach skall geffua tigh liffzens
+crono, Then ther öra haffuer han höre huadh anden sägher
+församblinganar, Then ther wi<inline italics="true">n</inline>ner han
+skall ingen scadha få vthaff th<inline italics="true">e</inline>n andra
+dödhen.</para></paragraph><paragraph><para>	Och scriff then församblinges
+engel j Pergame, Thetta sägher han som haffuer thet skarpa swerdh
+på bådha sidhor, Jach weet thina gerningar, och hwar tu boor, ath
+ther är dieffuulsens säte, och tu håller mit nampn och
 haffuer icke nekat mina troo, och j mina daghar Antipas mitt troghna witne then
-ther d&#246;dadher &#228;r n&#228;r idher ther dieffuulen boor, men iach
-haffuer n&#229;ghot litit emoot tigh, ty tu haffuer th<inline italics="true">e</inline>r them som h&#229;lla Balaams l&#228;rdom, hwilkin
-ther l&#228;rde genom Balaach affstadh komma itt f&#246;rarghilse
-f&#246;r Jsraels barn, till ath &#228;ta aff thet affgudhom offrat war, och
-bedriffua bolerij, S&#229;&#229; haffuer och tu the som h&#229;lla the
-Nicolaiters l&#228;rdom, hwilkit iach hatar, B&#228;tra tigh, annars
+ther dödadher är när idher ther dieffuulen boor, men iach
+haffuer någhot litit emoot tigh, ty tu haffuer th<inline italics="true">e</inline>r them som hålla Balaams lärdom, hwilkin
+ther lärde genom Balaach affstadh komma itt förarghilse
+för Jsraels barn, till ath äta aff thet affgudhom offrat war, och
+bedriffua bolerij, Såå haffuer och tu the som hålla the
+Nicolaiters lärdom, hwilkit iach hatar, Bätra tigh, annars
 wardher iach tigh snarligha kommandes, och skall stridha medh them medh min
-mundz swerd, Then ther &#246;ra haffuer han h&#246;re huad anden
-s&#228;gher f&#246;rsamblinganar, Then ther wi<inline italics="true">n</inline>ner, honom will iach
-gefua</para><para /><para></hskr><hskr num="70b" ></para><para>&#228;ta vthaff
-thet f&#246;rdolda hi<inline italics="true">m</inline>melska br&#246;dh,
+mundz swerd, Then ther öra haffuer han höre huad anden
+sägher församblinganar, Then ther wi<inline italics="true">n</inline>ner, honom will iach
+gefua</para><para>[‡‡ 70b]</para><para>äta vthaff
+thet fördolda hi<inline italics="true">m</inline>melska brödh,
 och will geffua hono<inline italics="true">m</inline> en huitan steen, och
-vpp&#229; th<inline italics="true">e</inline>n huita stenen itt nytt nampn
+vppå th<inline italics="true">e</inline>n huita stenen itt nytt nampn
 scriffuit th<inline italics="true">et</inline> ingen kenner, vtan then thet
-f&#229;&#229;r.</para><para /><para>	Och scriff then
-f&#246;rsambli<inline italics="true">n</inline>ges engel j Thyatira, Thetta
-s&#228;gher gudz son som &#246;ghon haffuer som eeldzlogha, och hans
-f&#246;ter lika som malm, Jach weet thina gerni<inline italics="true">n</inline>gar, och thin kerlek, och thina tienist, och thina
+fåår.</para></paragraph><paragraph><para>	Och scriff then
+försambli<inline italics="true">n</inline>ges engel j Thyatira, Thetta
+sägher gudz son som öghon haffuer som eeldzlogha, och hans
+föter lika som malm, Jach weet thina gerni<inline italics="true">n</inline>gar, och thin kerlek, och thina tienist, och thina
 troo, och titt tolamoodh, och thina gerni<inline italics="true">n</inline>ga,
-the yttersta flere &#228;n the f&#246;rsta, men iach haffuer n&#229;ghot
-litit emoot tigh, ath tu tilst&#228;dh<inline italics="true">e</inline>r then
-qwi<inline italics="true">n</inline>nan Jesabel, som s&#228;gh<inline italics="true">e</inline>r ath hon &#228;r een prophetissa l&#228;ra och
-bedragha mina tienare, bedriffua bolerij, och &#228;ta aff thet affgudhom
-offrat &#228;r, Och iach haffuer giffuit henne tijdh ath hon skulle
-&#229;terwenda aff sitt bolerij, och hon haffuer intit b&#228;trat sigh,
+the yttersta flere än the första, men iach haffuer någhot
+litit emoot tigh, ath tu tilstädh<inline italics="true">e</inline>r then
+qwi<inline italics="true">n</inline>nan Jesabel, som sägh<inline italics="true">e</inline>r ath hon är een prophetissa lära och
+bedragha mina tienare, bedriffua bolerij, och äta aff thet affgudhom
+offrat är, Och iach haffuer giffuit henne tijdh ath hon skulle
+återwenda aff sitt bolerij, och hon haffuer intit bätrat sigh,
 Sy, iach skall leggia he<inline italics="true">n</inline>ne j sengena, och the
-medh he<inline italics="true">n</inline>ne horerij bedriffua skola ko<inline italics="true">m</inline>ma vthi aldra st&#246;rsta bedr&#246;ffuilse, om
-the icke b&#228;tra sigh vthaff theras gerningar, och theras barn skal iach
-d&#246;dha medh d&#246;dhe<inline italics="true">n</inline>, Och alla
-f&#246;rsambli<inline italics="true">n</inline>gar skola weta, ath iach
-&#228;r then som ran&#223;akar nywrar och hierta, och wardher giffua<inline italics="true">n</inline>des hwariom och enom ibland idher effter hans
-gerningar.</para><para /><para>	Men idher s&#228;gher iach och
-andro<inline italics="true">m</inline> som j Thyatire &#228;ren, som icke
-haffua s&#229;dana l&#228;rdo<inline italics="true">m</inline>, och icke
-hafua f&#246;rst&#229;ndit dieffuulsens diwpheet s&#229;som the
-s&#228;ya, Jach skal icke leggia p&#229; idher n&#229;ghra andra byrdo,
-doch huad j haffuen thet h&#229;ller s&#229; lenge iach ko<inline italics="true">m</inline>mer, Och then ther wi<inline italics="true">n</inline>ner och h&#229;ller mijn werk in till endan,
+medh he<inline italics="true">n</inline>ne horerij bedriffua skola ko<inline italics="true">m</inline>ma vthi aldra största bedröffuilse, om
+the icke bätra sigh vthaff theras gerningar, och theras barn skal iach
+dödha medh dödhe<inline italics="true">n</inline>, Och alla
+försambli<inline italics="true">n</inline>gar skola weta, ath iach
+är then som ranßakar nywrar och hierta, och wardher giffua<inline italics="true">n</inline>des hwariom och enom ibland idher effter hans
+gerningar.</para></paragraph><paragraph><para>	Men idher sägher iach och
+andro<inline italics="true">m</inline> som j Thyatire ären, som icke
+haffua sådana lärdo<inline italics="true">m</inline>, och icke
+hafua förståndit dieffuulsens diwpheet såsom the
+säya, Jach skal icke leggia på idher någhra andra byrdo,
+doch huad j haffuen thet håller så lenge iach ko<inline italics="true">m</inline>mer, Och then ther wi<inline italics="true">n</inline>ner och håller mijn werk in till endan,
 hono<inline italics="true">m</inline> skall iach geffua mact offuer
 hedni<inline italics="true">n</inline>ganar, och han skall styra them medh jern
-rijs, och han skall s&#246;ndercrossa them, s&#229;som en pottomakers
-k&#228;ril, s&#229;som iach och f&#229;tt haffuer vthaff mino<inline italics="true">m</inline> fadher, och will geffua honom morghonstiernona, Then
-ther &#246;ra haffuer han h&#246;re huad anden s&#228;gher
-f&#246;rsamblinganar.</para><para /><para>		Tridhie
-Capitel.</para><para /><para>SCriff och f&#246;rsamblinge<inline italics="true">n</inline>nes engel j Sardis, Thetta s&#228;gh<inline italics="true">e</inline>r th<inline italics="true">e</inline>n th<inline italics="true">e</inline>r hafuer the siw gudz andar, och the siw stiernor,
-Jach weet thina gerningar, ty tu haffuer nampnet ath tu leffuer, och &#228;st
-d&#246;dh, war wake<inline italics="true">n</inline>, och st&#228;rk
-th<inline italics="true">et</inline> andra som d&#246;&#246; will, ty iach
+rijs, och han skall söndercrossa them, såsom en pottomakers
+käril, såsom iach och fått haffuer vthaff mino<inline italics="true">m</inline> fadher, och will geffua honom morghonstiernona, Then
+ther öra haffuer han höre huad anden sägher
+församblinganar.</para></paragraph><paragraph><para>		Tridhie
+Capitel.</para></paragraph><paragraph><para>SCriff och församblinge<inline italics="true">n</inline>nes engel j Sardis, Thetta sägh<inline italics="true">e</inline>r th<inline italics="true">e</inline>n th<inline italics="true">e</inline>r hafuer the siw gudz andar, och the siw stiernor,
+Jach weet thina gerningar, ty tu haffuer nampnet ath tu leffuer, och äst
+dödh, war wake<inline italics="true">n</inline>, och stärk
+th<inline italics="true">et</inline> andra som döö will, ty iach
 haffuer icke befunnit thina gerni<inline italics="true">n</inline>gar
-fulkomligha f&#246;r gudhi, S&#229; tenck nw p&#229; huadh tu anna<inline italics="true">m</inline>mat och h&#246;rdt haffuer, och h&#229;lt thet och
-b&#228;tra tigh, &#228;st tu icke waken, skall iach ko<inline italics="true">m</inline>ma till tigh som en tiwff, och tu skall icke weta
+fulkomligha för gudhi, Så tenck nw på huadh tu anna<inline italics="true">m</inline>mat och hördt haffuer, och hålt thet och
+bätra tigh, äst tu icke waken, skall iach ko<inline italics="true">m</inline>ma till tigh som en tiwff, och tu skall icke weta
 hwilkin stunden iach ko<inline italics="true">m</inline>mande wardher, Tu
-haffuer f&#229; nampn j Sardis, the som theras cl&#228;dher icke besmittat
+haffuer få nampn j Sardis, the som theras clädher icke besmittat
 haffua, och the wardha medh migh wa<inline italics="true">n</inline>drande j
-hwit, ty the &#228;ro thes werdughe, Then som winner han skall s&#229;
-cl&#228;dder warda j hwit cl&#228;dher, och iach skall icke vthskrapa hans
-nampn vthwr liffzens book, och iach skall wedherkenna hans nampn f&#246;r min
-fadher och f&#246;r hans englar, Then ther &#246;ra haffuer han h&#246;re
-huadh anden s&#228;gher
-f&#246;rsamblinganar.</para><para /><para>	Scriff och then
-f&#246;rsamblinges engill j Philadelphia, Thetta s&#228;gher then helghe
-och then sanferdughe then som hafffuer Dauidz nykil, then ther vpl&#228;ter,
-och ingen me<inline italics="true">n</inline>niskia igen l&#228;ter th<inline italics="true">e</inline>n th<inline italics="true">e</inline>r
-igenl&#228;ter och ingen me<inline italics="true">n</inline>niskia
-vpl&#228;ter, Jach weet thina gerni<inline italics="true">n</inline>gar, Sy,
-iach hafuer l&#229;tit tich en ypen d&#246;&#246;r, och ingen kan lata
-henne igen, ty tu haffuer liten crafft, och tu haffuer h&#229;llit mijn
+hwit, ty the äro thes werdughe, Then som winner han skall så
+clädder warda j hwit clädher, och iach skall icke vthskrapa hans
+nampn vthwr liffzens book, och iach skall wedherkenna hans nampn för min
+fadher och för hans englar, Then ther öra haffuer han höre
+huadh anden sägher
+församblinganar.</para></paragraph><paragraph><para>	Scriff och then
+församblinges engill j Philadelphia, Thetta sägher then helghe
+och then sanferdughe then som hafffuer Dauidz nykil, then ther vpläter,
+och ingen me<inline italics="true">n</inline>niskia igen läter th<inline italics="true">e</inline>n th<inline italics="true">e</inline>r
+igenläter och ingen me<inline italics="true">n</inline>niskia
+vpläter, Jach weet thina gerni<inline italics="true">n</inline>gar, Sy,
+iach hafuer låtit tich en ypen döör, och ingen kan lata
+henne igen, ty tu haffuer liten crafft, och tu haffuer hållit mijn
 oordh, och haffuer icke nekat mitt nampn, Sy, iach will geffua tigh vthwr
-dieffuulsens f&#246;rsambli<inline italics="true">n</inline>g the sigh
-s&#228;ya</para><para /><para></hskr><hskr num="71a" ></para><para>wara Judhar,
-och &#228;ro icke, vtan liwga, Sy, iach will driffua th<inline italics="true">e</inline>m ther till ath the skola ko<inline italics="true">m</inline>ma och tilbidhia f&#246;r thina f&#246;ter, och
-skola weta ath iach haffuer elskat tigh, Effter tu hafuer h&#229;llit mit
-tolamoodz oord, wil iach bewara tigh f&#246;r frestilsens stund,
+dieffuulsens försambli<inline italics="true">n</inline>g the sigh
+säya</para><para>[‡‡ 71a]</para><para>wara Judhar,
+och äro icke, vtan liwga, Sy, iach will driffua th<inline italics="true">e</inline>m ther till ath the skola ko<inline italics="true">m</inline>ma och tilbidhia för thina föter, och
+skola weta ath iach haffuer elskat tigh, Effter tu hafuer hållit mit
+tolamoodz oord, wil iach bewara tigh för frestilsens stund,
 huilke<inline italics="true">n</inline> tilstu<inline italics="true">n</inline>dar allo werlde<inline italics="true">n</inline>ne,
-p&#229; th<inline italics="true">et</inline> han skal fresta the som boo
-p&#229; iordhe<inline italics="true">n</inline>ne, Sy, iach ko<inline italics="true">m</inline>mer snarligha, h&#229;ldt thet tu haffuer, ath ingen
+på th<inline italics="true">et</inline> han skal fresta the som boo
+på iordhe<inline italics="true">n</inline>ne, Sy, iach ko<inline italics="true">m</inline>mer snarligha, håldt thet tu haffuer, ath ingen
 borttagher thina crono, Then ther wi<inline italics="true">n</inline>ner, then
-will iach g&#246;ra till en pelare vthi min gudz te<inline italics="true">m</inline>pel, och han skall icke meer vthg&#229;, och iach
-skall scriffua p&#229; hono<inline italics="true">m</inline> min gudz nampn,
-och then min gudz nyia stadz Hierusalems nampn then ther nedherko<inline italics="true">m</inline>mer vthaff himmelen fr&#229; min gudh, och mit nyia
-nampn, Then ther &#246;ra haffuer han h&#246;re hwad anden s&#228;gher
-f&#246;rsamblinganar.</para><para /><para>	Scriff och then
-f&#246;rsamblinges engil j Laodicea, Thetta s&#228;gh<inline italics="true">e</inline>r Ame<inline italics="true">n</inline> th<inline italics="true">et</inline> troghna och sanna witnet, begy<inline italics="true">n</inline>nilsen till gudz creatwr, Jach weet thina gerni<inline italics="true">n</inline>gar, ath tu &#228;r huarken k&#229;ll eller warm,
-Jach wille ath tu wore antingen k&#229;ll eller warm, S&#229; efter tu
-&#228;st lyom, och huarken k&#229;ll eller warm, skall iach tigh vthspyia
-vthwr min mund, ty tu s&#228;gher Jach &#228;r riker och riker wordhen, och
-beh&#246;ffuer ingo, och weest icke ath tu &#228;st en armling och
+will iach göra till en pelare vthi min gudz te<inline italics="true">m</inline>pel, och han skall icke meer vthgå, och iach
+skall scriffua på hono<inline italics="true">m</inline> min gudz nampn,
+och then min gudz nyia stadz Hierusalems nampn then ther nedherko<inline italics="true">m</inline>mer vthaff himmelen frå min gudh, och mit nyia
+nampn, Then ther öra haffuer han höre hwad anden sägher
+församblinganar.</para></paragraph><paragraph><para>	Scriff och then
+församblinges engil j Laodicea, Thetta sägh<inline italics="true">e</inline>r Ame<inline italics="true">n</inline> th<inline italics="true">et</inline> troghna och sanna witnet, begy<inline italics="true">n</inline>nilsen till gudz creatwr, Jach weet thina gerni<inline italics="true">n</inline>gar, ath tu är huarken kåll eller warm,
+Jach wille ath tu wore antingen kåll eller warm, Så efter tu
+äst lyom, och huarken kåll eller warm, skall iach tigh vthspyia
+vthwr min mund, ty tu sägher Jach är riker och riker wordhen, och
+behöffuer ingo, och weest icke ath tu äst en armling och
 iemmerligh menniskia, och fattigh, och blind, och nakot, Jach
-r&#229;dh<inline italics="true">e</inline>r tigh ath tu k&#246;per gull
-vthaff migh thet eeldhat och bepr&#246;ffua &#228;r, ath tu m&#229;
-bliffua rijk, och cl&#228;dh tigh vthi hwit cl<inline italics="true">&#228;</inline>dher, p&#229; thet thine nakenheetz blygde
-icke skal synas, och sm&#246;r thin &#246;ghon medh &#246;ghna salua, ath
-tu m&#229; f&#229; see.</para><para /><para>	The iach elskar them
-aghar iach och nepser, S&#229; nijtelska nw och b&#228;tra tigh, Sy, iach
-st&#229;&#229;r f&#246;r d&#246;renne och clappar, om n&#229;ghor
-h&#246;rer mina r&#246;st och vpl&#229;ter d&#246;rena, skall iach
-ing&#229; till hono<inline italics="true">m</inline>, och h&#229;lla
+rådh<inline italics="true">e</inline>r tigh ath tu köper gull
+vthaff migh thet eeldhat och bepröffua är, ath tu må
+bliffua rijk, och clädh tigh vthi hwit cl<inline italics="true">ä</inline>dher, på thet thine nakenheetz blygde
+icke skal synas, och smör thin öghon medh öghna salua, ath
+tu må få see.</para></paragraph><paragraph><para>	The iach elskar them
+aghar iach och nepser, Så nijtelska nw och bätra tigh, Sy, iach
+ståår för dörenne och clappar, om någhor
+hörer mina röst och vplåter dörena, skall iach
+ingå till hono<inline italics="true">m</inline>, och hålla
 natward medh honom, och han medh migh, Then ther winner honom skall iach sitia
-lata medh migh p&#229; min stool, s&#229;som och iach wunnit haffuer, och
-&#228;r sitiandes worden medh minom fadher p&#229; hans stool, Then ther
-&#246;ra haffuer han h&#246;re huadh anden s&#228;gher
-f&#246;rsamblinganar.</para><para /><para>		Fierdhe
-Capitel.</para><para /><para>SEdhan s&#229;gh iach, och sy en
-d&#246;&#246;r war vpl&#228;te<inline italics="true">n</inline> j
-hi<inline italics="true">m</inline>melen, och th<inline italics="true">e</inline>n f&#246;rsta r&#246;sten som iach h&#246;rdhe
-s&#229;som en basun medh migh tala<inline italics="true">n</inline>des, och
-sadhe, Stigh h&#228;r vp iach will wisa tigh huad skee skal h&#228;r
-effter, och strax war iach j andanom, Och sy en stool war sett j hi<inline italics="true">m</inline>melen, och vpp&#229; stolen satt en, och then
+lata medh migh på min stool, såsom och iach wunnit haffuer, och
+är sitiandes worden medh minom fadher på hans stool, Then ther
+öra haffuer han höre huadh anden sägher
+församblinganar.</para></paragraph><paragraph><para>		Fierdhe
+Capitel.</para></paragraph><paragraph><para>SEdhan sågh iach, och sy en
+döör war vpläte<inline italics="true">n</inline> j
+hi<inline italics="true">m</inline>melen, och th<inline italics="true">e</inline>n första rösten som iach hördhe
+såsom en basun medh migh tala<inline italics="true">n</inline>des, och
+sadhe, Stigh här vp iach will wisa tigh huad skee skal här
+effter, och strax war iach j andanom, Och sy en stool war sett j hi<inline italics="true">m</inline>melen, och vppå stolen satt en, och then
 th<inline italics="true">e</inline>r satt han war j anseende lijk widh then
 stene<inline italics="true">n</inline> Jaspidi och Sardio, och en regnboghe war
-om stolen lijk j anseende widh Smaragdo, och om th<inline italics="true">e</inline>n stolen woro fyra och tiughu stolar, och p&#229;
-the stolar s&#229;to fyra och tiughu &#229;ldersm&#228;n, cl&#228;dde
-vthi hwijt cl&#228;dher, och p&#229; theras huffuudh woro
-gullcronor.</para><para /><para>	Och vthaff stoleno<inline italics="true">m</inline> vthgingo liwngeeld och tord&#246;n, och
-r&#246;ster, och siw lampor brinnandes f&#246;r stolen, hwilke &#228;ro
-the siw gudz andar, och fram f&#246;r stole<inline italics="true">n</inline>
-war s&#229;som it glaashaff lijkt widh cristal, och mit j stole<inline italics="true">n</inline> och cri<inline italics="true">n</inline>g om
-stole<inline italics="true">n</inline> fyra diwr full m<inline italics="true">edh</inline> &#246;ghon, b&#229;dhe f&#246;re och baak,
-och th<inline italics="true">et</inline> f&#246;rsta diwret war lijkt it
+om stolen lijk j anseende widh Smaragdo, och om th<inline italics="true">e</inline>n stolen woro fyra och tiughu stolar, och på
+the stolar såto fyra och tiughu åldersmän, clädde
+vthi hwijt clädher, och på theras huffuudh woro
+gullcronor.</para></paragraph><paragraph><para>	Och vthaff stoleno<inline italics="true">m</inline> vthgingo liwngeeld och tordön, och
+röster, och siw lampor brinnandes för stolen, hwilke äro
+the siw gudz andar, och fram för stole<inline italics="true">n</inline>
+war såsom it glaashaff lijkt widh cristal, och mit j stole<inline italics="true">n</inline> och cri<inline italics="true">n</inline>g om
+stole<inline italics="true">n</inline> fyra diwr full m<inline italics="true">edh</inline> öghon, bådhe före och baak,
+och th<inline italics="true">et</inline> första diwret war lijkt it
 leyon, och th<inline italics="true">et</inline> andra diwret lijkt eno<inline italics="true">m</inline> kalf, och th<inline italics="true">et</inline>
-tridhie diwret hadhe it andlete s<inline italics="true">&#229;</inline>som
-een me<inline italics="true">n</inline>niskia, och th<inline italics="true">et</inline> fierdhe diwret lijkt eno<inline italics="true">m</inline> flyghande &#246;rn, och the fyra diwr hadhe hwart
+tridhie diwret hadhe it andlete s<inline italics="true">å</inline>som
+een me<inline italics="true">n</inline>niskia, och th<inline italics="true">et</inline> fierdhe diwret lijkt eno<inline italics="true">m</inline> flyghande örn, och the fyra diwr hadhe hwart
 thera sex wi<inline italics="true">n</inline>gar, och the woro vthan om och
-innantill full medh &#246;ghon, och hadhe ingen roo dagh eller natt, och
-sadhe, Helugh, helugh, helugh &#228;r herre<inline italics="true">n</inline>
-gudh al&#223;mecctugher, then ther war, och then ther &#228;r, och then
+innantill full medh öghon, och hadhe ingen roo dagh eller natt, och
+sadhe, Helugh, helugh, helugh är herre<inline italics="true">n</inline>
+gudh alßmecctugher, then ther war, och then ther är, och then
 ther tillko<inline italics="true">m</inline>mande
-&#228;r.</para><para /><para></hskr><hskr num="71b" ></para><para>	Och
-th&#229; the fyra diwr g<inline italics="true">&#229;</inline>ffuo honom
-prijs och &#228;ra och tack som satt p&#229; stolen, then ther leffuer
-fr&#229; ewogheet til ewogheet, fullo the fyra och tiughu
-&#229;ldersm&#228;n fram f&#246;re honom som satt p&#229; stolen, och
-b&#229;dho till then ther leffuer fr&#229; ewogheet till ewogheet, och
-kastadhe theras cronor f&#246;r stolen och sadhe, Herre tu &#228;r werdugh
-tagha prijs och &#228;ra och kraft, ty tu haffuer skapat all ting, och
-f&#246;r thin wilia skull haffua the warilse, och &#228;ro
-skapte.</para><para /><para>		Femte Capitel</para><para /><para>OCh
-iach s&#229;gh j hans h&#246;ghra hand som satt p&#229;&#229; stolen
+är.</para><para>[‡‡ 71b]</para><para>	Och
+thå the fyra diwr g<inline italics="true">å</inline>ffuo honom
+prijs och ära och tack som satt på stolen, then ther leffuer
+frå ewogheet til ewogheet, fullo the fyra och tiughu
+åldersmän fram före honom som satt på stolen, och
+bådho till then ther leffuer frå ewogheet till ewogheet, och
+kastadhe theras cronor för stolen och sadhe, Herre tu är werdugh
+tagha prijs och ära och kraft, ty tu haffuer skapat all ting, och
+för thin wilia skull haffua the warilse, och äro
+skapte.</para></paragraph><paragraph><para>		Femte Capitel</para></paragraph><paragraph><para>OCh
+iach sågh j hans höghra hand som satt påå stolen
 ena book scriffuin innan till och vtan, besigld medh siw incigle, Och iach
-s&#229;gh en starkan engil som predicadhe medh en h&#246;gh r&#246;st,
-Hoo &#228;r verdugh vplata bokena och vpbryta he<inline italics="true">n</inline>nas incigle?, Och ingen j hi<inline italics="true">m</inline>melen, och ey heller p&#229; iordhenne, och ey
-heller vnder iordhenne kunde vplata bokena, och ey heller see p&#229; henne,
-Och iach gr&#228;t sw&#229;rligha, ath ther ingen wart funnen werdugh till
-ath vplata bokena och l&#228;sa henne eller see p&#229;
-henne.</para><para /><para>	Och en vthaff the &#229;ldersm&#228;n
-sadhe till migh, Gr&#229;t icke Sy leyonet vthaff Juda slecte Dauidz root
+sågh en starkan engil som predicadhe medh en högh röst,
+Hoo är verdugh vplata bokena och vpbryta he<inline italics="true">n</inline>nas incigle?, Och ingen j hi<inline italics="true">m</inline>melen, och ey heller på iordhenne, och ey
+heller vnder iordhenne kunde vplata bokena, och ey heller see på henne,
+Och iach grät swårligha, ath ther ingen wart funnen werdugh till
+ath vplata bokena och läsa henne eller see på
+henne.</para></paragraph><paragraph><para>	Och en vthaff the åldersmän
+sadhe till migh, Gråt icke Sy leyonet vthaff Juda slecte Dauidz root
 haffuer wunnit, till ath vplata bokena, och vpbryta hennes siw incigler, och
-iach s&#229;gh, och sy, mit j stolen och ibla<inline italics="true">n</inline>d the fyra diwren, och mit ibla<inline italics="true">n</inline>d the &#229;ldersm&#228;n stoodh it lamb,
-s&#229;som thet hadhe slactat warit, och hadhe siw horn, och siw
-&#246;ghon, huilke &#228;ro the siw gudz andar sende j all land, och thet
-kom och toogh bokena vthwr hans h&#246;ghra hand som satt p&#229;
-stolen.</para><para /><para>	Och th&#229; thet hadhe taghit bokena,
-th&#229; f&#246;llo the fyra diwr, och the fyra och tiughu
-&#229;ldersm&#228;n fram f&#246;r lambit, haffua<inline italics="true">n</inline>des hwar och en harpor och gullsk&#229;lar full medh
-w&#228;lluctandes r&#246;&#246;k, hwilke som &#228;ro the helghens
-b&#246;ner, och siwngo en ny s&#229;ng och sadhe, Tu &#228;st werdugh ath
+iach sågh, och sy, mit j stolen och ibla<inline italics="true">n</inline>d the fyra diwren, och mit ibla<inline italics="true">n</inline>d the åldersmän stoodh it lamb,
+såsom thet hadhe slactat warit, och hadhe siw horn, och siw
+öghon, huilke äro the siw gudz andar sende j all land, och thet
+kom och toogh bokena vthwr hans höghra hand som satt på
+stolen.</para></paragraph><paragraph><para>	Och thå thet hadhe taghit bokena,
+thå föllo the fyra diwr, och the fyra och tiughu
+åldersmän fram för lambit, haffua<inline italics="true">n</inline>des hwar och en harpor och gullskålar full medh
+wälluctandes röök, hwilke som äro the helghens
+böner, och siwngo en ny sång och sadhe, Tu äst werdugh ath
 tagha bokena och vpbryta he<inline italics="true">n</inline>nes incigle,
-f&#246;r ty tu &#228;st d&#246;dhat och haffuer igen l&#246;st oss medh
+för ty tu äst dödhat och haffuer igen löst oss medh
 thin blodh, vthaff allaha<inline italics="true">n</inline>da slecte, och
-tu<inline italics="true">n</inline>gom&#229;&#229;l, och folke, och
-landzskap, och haffuer giordt oss w&#229;rom gudhi till konnu<inline italics="true">n</inline>gar, och prester, och wij wardom reghner andes
-p&#229; iordhenne.</para><para /><para>	Och iach s&#229;gh och
-h&#246;rde ena r&#246;st aff m&#229;nga englar, cring om stolen, och
-cring om diwren, och cring om the &#229;ldersm&#228;n, och theras taal war
-tusendetusend, s&#228;yandes medh ene h&#246;gha r&#246;st, Lambet som
-d&#246;dath &#228;r thet &#228;r werdugt ath haffua krafft och rikedoma
-och wij&#223;dom, och starkheet, och &#228;ra, och prijs, och
-w&#228;lsignilse, Och all creatwr som j himmelen &#228;ro, och the
-p&#229; iordhenne, och the vnder iordhe<inline italics="true">n</inline>ne,
-och j haffuet, och alt thet vthi them &#228;r, h&#246;rdhe iach
-s&#228;yandes till honom som satt p&#229; stolen, och till lambet,
-W&#228;lsignilse och &#228;ra, och prijs, och krafft fr&#229; ewogheet
+tu<inline italics="true">n</inline>gomåål, och folke, och
+landzskap, och haffuer giordt oss wårom gudhi till konnu<inline italics="true">n</inline>gar, och prester, och wij wardom reghner andes
+på iordhenne.</para></paragraph><paragraph><para>	Och iach sågh och
+hörde ena röst aff många englar, cring om stolen, och
+cring om diwren, och cring om the åldersmän, och theras taal war
+tusendetusend, säyandes medh ene högha röst, Lambet som
+dödath är thet är werdugt ath haffua krafft och rikedoma
+och wijßdom, och starkheet, och ära, och prijs, och
+wälsignilse, Och all creatwr som j himmelen äro, och the
+på iordhenne, och the vnder iordhe<inline italics="true">n</inline>ne,
+och j haffuet, och alt thet vthi them är, hördhe iach
+säyandes till honom som satt på stolen, och till lambet,
+Wälsignilse och ära, och prijs, och krafft frå ewogheet
 till ewogheet, Och the fyra diwren sadhe, Amen, Och the fyra och tiwghu
-&#229;ldersm&#228;n f&#246;llo nedher p&#229; theras ansicte, och
-b&#229;dho till hono<inline italics="true">m</inline> som leffuer fr&#229;
-ewogheet till ewogheet.</para><para /><para>		Siette
-Capitel.</para><para /><para>OCh iach s&#229;gh ath th&#229; la<inline italics="true">m</inline>bet vpbr&#246;t itt aff inciglen, och iach
-h&#246;rdhe itt vthaff the fyra diwren s&#228;ya, s&#229;som medh en
-tord&#246;ns r&#246;st, kom och see, och iach s&#229;gh, och sy, en hwit
-hest, och then th<inline italics="true">e</inline>r p&#229; satt han hadhe en
+åldersmän föllo nedher på theras ansicte, och
+bådho till hono<inline italics="true">m</inline> som leffuer frå
+ewogheet till ewogheet.</para></paragraph><paragraph><para>		Siette
+Capitel.</para></paragraph><paragraph><para>OCh iach sågh ath thå la<inline italics="true">m</inline>bet vpbröt itt aff inciglen, och iach
+hördhe itt vthaff the fyra diwren säya, såsom medh en
+tordöns röst, kom och see, och iach sågh, och sy, en hwit
+hest, och then th<inline italics="true">e</inline>r på satt han hadhe en
 bogha, och hono<inline italics="true">m</inline> wort gifu<inline italics="true">in</inline> een crona, och gick vth winna<inline italics="true">n</inline>des till ath wi<inline italics="true">n</inline>na,
-och th&#229; han vpbr&#246;t th<inline italics="true">et</inline></para><para /><para></hskr><hskr num="72a" ></para><para>andra inciglet, h&#246;rdhe iach thet andra diwret
-s&#228;ya<inline italics="true">n</inline>des, kom och see, Och ther gick en
-annan hest vth r&#246;dh, och them ther satt vpp&#229; honom wort giffuit
+och thå han vpbröt th<inline italics="true">et</inline></para><para>[‡‡
+72a]</para><para>andra inciglet, hördhe iach thet andra diwret
+säya<inline italics="true">n</inline>des, kom och see, Och ther gick en
+annan hest vth rödh, och them ther satt vppå honom wort giffuit
 ath han skulle borttagha fredhen vthaff iordhenne, och ath the skulle
-sl&#229; sigh j h&#228;&#228;l inbyrdes, och honom wort giffuit itt
-stoort swerd.</para><para /><para>	Och th&#229; thet vpbr&#246;t thet
-tridhie inciglet, h&#246;rde iach thet tridhie diwret s&#228;ya, kom och
-see, Och iach s&#229;gh, Och sy, en swart hest, och then ther satt
-vpp&#229; honom hadhe ena w&#228;ghsk&#229;l j sina hand, och iach
-h&#246;rdhe ena r&#246;st mit ibland the fyra diwr, s&#228;yandes, Jtt
-m&#229;&#229;t hwete om en penning, och try m&#229;&#229;t biwgg om en
-penni<inline italics="true">n</inline>g, och olionne och winet g&#246;r ingen
-scadha</para><para /><para>	Och th&#229; thet vpbr&#246;t thet fierde
-inciglet h&#246;rde iach thet fierde diwrsens r&#246;st s&#228;ya<inline italics="true">n</inline>des, kom och see, Och iach s&#229;gh, och sy, en
-blackot hest, och then som p&#229; hono<inline italics="true">m</inline> satt
-hans nampn war d&#246;dhen, och heluitet f&#246;lgde honom effter, och
-honom wort mact giffuen vthoffuer fyra h&#246;rn p&#229; iordhe<inline italics="true">n</inline>ne, ath d&#246;dha medh swerd, och medh hu<inline italics="true">n</inline>ger, och medh d&#246;dhenom, vthaff the willdiwr
-p&#229; iordhenne &#228;ro.</para><para /><para>	Och th&#229; thet
-vpbr&#246;t th<inline italics="true">et</inline> femte inciglet s&#229;gh
-iach vnder altaret theras si&#228;lar som d&#246;dadhe woro f&#246;r gudz
-oord skul, och f&#246;r th<inline italics="true">e</inline>n witnesbyrd skul
-som the hadhe, och the ropadhe medh h&#246;gha r&#246;st och sadhe, Herre
-tu som &#228;r h&#228;lugh och sanferdugh, huru lenge d&#246;mer tu icke,
-och hempnes icke wort blodh p&#229; them som boo p&#229; iordhenne?, Och
+slå sigh j hääl inbyrdes, och honom wort giffuit itt
+stoort swerd.</para></paragraph><paragraph><para>	Och thå thet vpbröt thet
+tridhie inciglet, hörde iach thet tridhie diwret säya, kom och
+see, Och iach sågh, Och sy, en swart hest, och then ther satt
+vppå honom hadhe ena wäghskål j sina hand, och iach
+hördhe ena röst mit ibland the fyra diwr, säyandes, Jtt
+mååt hwete om en penning, och try mååt biwgg om en
+penni<inline italics="true">n</inline>g, och olionne och winet gör ingen
+scadha</para></paragraph><paragraph><para>	Och thå thet vpbröt thet fierde
+inciglet hörde iach thet fierde diwrsens röst säya<inline italics="true">n</inline>des, kom och see, Och iach sågh, och sy, en
+blackot hest, och then som på hono<inline italics="true">m</inline> satt
+hans nampn war dödhen, och heluitet fölgde honom effter, och
+honom wort mact giffuen vthoffuer fyra hörn på iordhe<inline italics="true">n</inline>ne, ath dödha medh swerd, och medh hu<inline italics="true">n</inline>ger, och medh dödhenom, vthaff the willdiwr
+på iordhenne äro.</para></paragraph><paragraph><para>	Och thå thet
+vpbröt th<inline italics="true">et</inline> femte inciglet sågh
+iach vnder altaret theras siälar som dödadhe woro för gudz
+oord skul, och för th<inline italics="true">e</inline>n witnesbyrd skul
+som the hadhe, och the ropadhe medh högha röst och sadhe, Herre
+tu som är hälugh och sanferdugh, huru lenge dömer tu icke,
+och hempnes icke wort blodh på them som boo på iordhenne?, Och
 them wort giffuit hwario<inline italics="true">m</inline> och enom itt hwit
-h&#246;gtidhes cl&#228;dhe, och till th<inline italics="true">e</inline>m
-wort sagt, ath the skulle &#228;n nw hwilas en liten tijdh, till thes talet
-bliffue fult aff theras medhtienare och br&#246;dhra, the ther och skola
-d&#246;dadhe warda s&#229;som och the.</para><para /><para>	Och iach
-s&#229;gh ath thet vpbr&#246;t th<inline italics="true">et</inline> siette
-inciglet, th&#229; wart en stoor iordb&#228;ffuing, och solen wort swart
-s&#229;som en h&#229;rsek, och m&#229;nen wort all sammans s&#229;som
-itt blodh, och stiernerna f&#246;llo vthaff himmele<inline italics="true">n</inline> nedher p&#229; iordhena, s&#229;som fikona
-tr&#228;dh sin fikon nedher slepper, th&#229; thet ristes vthaff stoort
-w&#228;dher, och hi<inline italics="true">m</inline>melen gick bort
-s&#229;som en tillslaghen book, och all berg och &#246;yar wordo
-r&#246;rde vthaff theras rwm, och konnungarna p&#229; iordhenne, och the
-&#246;ffuerste, och the rike, och the h&#246;ffuitzm&#228;n, och the
-w&#228;lloghe, och alle eeghne, och alle frije, the dolde sigh vthi
-iordkwlor, och j bergskrewor, och the s&#228;ya berghomen och clippome<inline italics="true">n</inline>, Faller vthoffuer oss och skyler oss, f&#246;r hans
-ansicte som sitter p&#229; stolen, och f&#246;r lambsens wredhe, f&#246;r
-ty then store hans wredhes dagh &#228;r kommen, och hoo kan
-best&#229;?</para><para /><para>		Siwnde
-Capitel.</para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Tms Rmn" language="German" left-indent="0.00" line-spacing="-12.00" name="Standardabsatz" nest-level="0" right-indent="0.00" style-number="s0005" tabs="left:155.95;" widow-control="true"><para><inline font-style="Times">S</inline><inline font-style="Times">Edhan s&#229;gh iach
-fyra englar st&#229;ndandes p&#229; fyra h&#246;rn &#229;&#229;
-iordhenne, h&#229;llandes fyra iorderikes w&#228;dher, ath intit
-w&#228;dher skulle bl&#228;sa p&#229; iordhena, eller p&#229; haffuet,
-eller p&#229; n&#229;ghot tr&#228;&#228;, och iach s&#229;gh en
-anna</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times"> engel vpstigha</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">des fr&#229; solenas
-vpg&#229;ng, han hadhe leffua</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">des gudz teekn, och
-ropadhe medh h&#246;gha r&#246;st till the fyra englar,
-hwilko</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times"> giffuit war skadha g&#246;ra iordhe</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">ne och
-haffueno, s&#228;ya</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">des, G&#246;rer icke
-iordhe</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">ne skadha ey heller haffuena, ey heller tr&#228;&#228;n,
-s&#229; lenge wij teeknom w&#229;r gudz tienare p&#229; theras andlete,
-Och iach h&#246;rdhe talet p&#229; th</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">m som teeknadhe woro,
+högtidhes clädhe, och till th<inline italics="true">e</inline>m
+wort sagt, ath the skulle än nw hwilas en liten tijdh, till thes talet
+bliffue fult aff theras medhtienare och brödhra, the ther och skola
+dödadhe warda såsom och the.</para></paragraph><paragraph><para>	Och iach
+sågh ath thet vpbröt th<inline italics="true">et</inline> siette
+inciglet, thå wart en stoor iordbäffuing, och solen wort swart
+såsom en hårsek, och månen wort all sammans såsom
+itt blodh, och stiernerna föllo vthaff himmele<inline italics="true">n</inline> nedher på iordhena, såsom fikona
+trädh sin fikon nedher slepper, thå thet ristes vthaff stoort
+wädher, och hi<inline italics="true">m</inline>melen gick bort
+såsom en tillslaghen book, och all berg och öyar wordo
+rörde vthaff theras rwm, och konnungarna på iordhenne, och the
+öffuerste, och the rike, och the höffuitzmän, och the
+wälloghe, och alle eeghne, och alle frije, the dolde sigh vthi
+iordkwlor, och j bergskrewor, och the säya berghomen och clippome<inline italics="true">n</inline>, Faller vthoffuer oss och skyler oss, för hans
+ansicte som sitter på stolen, och för lambsens wredhe, för
+ty then store hans wredhes dagh är kommen, och hoo kan
+bestå?</para></paragraph><paragraph><para>		Siwnde
+Capitel.</para></paragraph><paragraph><para><inline font-style="Times">S</inline><inline font-style="Times">Edhan sågh iach
+fyra englar ståndandes på fyra hörn åå
+iordhenne, hållandes fyra iorderikes wädher, ath intit
+wädher skulle bläsa på iordhena, eller på haffuet,
+eller på någhot trää, och iach sågh en
+anna</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times"> engel vpstigha</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">des frå solenas
+vpgång, han hadhe leffua</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">des gudz teekn, och
+ropadhe medh högha röst till the fyra englar,
+hwilko</inline><inline font-style="Times" italics="true">m</inline><inline font-style="Times"> giffuit war skadha göra iordhe</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">ne och
+haffueno, säya</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">des, Görer icke
+iordhe</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">ne skadha ey heller haffuena, ey heller trään,
+så lenge wij teeknom wår gudz tienare på theras andlete,
+Och iach hördhe talet på th</inline><inline font-style="Times" italics="true">e</inline><inline font-style="Times">m som teeknadhe woro,
 hu</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times">dradhefyratiyofyra tusend, som teeknadhe woro vthaff alla
 Jsraels barns slecte, Vthaff Juda slecte tolff tusend teeknadhe, Vthaff
 rube</inline><inline font-style="Times" italics="true">n</inline><inline font-style="Times"> slecte tolff tusend teeknadhe, Vthaff Gad slecte tolff
 tusent teeknadhe, Vthaff Aser slecte tolff tusent
-teeknadhe,</inline></para><para /><para><inline font-style="Times">[</inline><inline font-style="Times"></hskr><hskr num="72b" >]</inline></para><para>Vthaff Neptalims slecte tolff tusend teeknadhe,
+teeknadhe,</inline></para><para><inline font-style="Times" /><inline font-style="Times">[‡‡
+72b]</inline></para><para>Vthaff Neptalims slecte tolff tusend teeknadhe,
 Vthaff Manasse slecte tolff tusent teeknadhe, Vthaff Simeo<inline italics="true">n</inline> slecte tolff tusent teeknadhe, Vthaff Leui slecte
 tolff tusent teeknadhe, Vthaff Jsachar slecte tolff tusend teeknadhe, Vthaff
 Zabulon slecte tolff tusend teeknadhe, Vthaff Josephs slecte tolff tusend
 teeknadhe, Vthaff Beniamin slecte tolff tusend
-teeknadhe.</para><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="12.00" font-style="Times" language="German" left-indent="0.00" line-spacing="-12.00" name="Absatzanfang" nest-level="0" right-indent="0.00" style-number="s0006" tabs="left:35.45;" widow-control="true"><para>	Sedhan s&#229;gh iach, och sy, en stoor
+teeknadhe.</para></paragraph><paragraph><para>	Sedhan sågh iach, och sy, en stoor
 skare then ingen rekna kunde, aff allom hedningom och folkom, och
-tungom&#229;lom st&#229;ndandes f&#246;r stolen och f&#246;r lambena,
-cl&#228;dde vthi hwijt h&#246;ghtidhes cl&#228;dher, och palmar j theras
-hender, ropa<inline italics="true">n</inline>des medh h&#246;gha r&#246;st,
-och sadhe, Salugheet hono<inline italics="true">m</inline> som sitter p&#229;
-stolen w&#229;rom gudh och lamben<inline italics="true">om</inline>, Och alle
-englar stodho cring om stolen och om the &#229;ldersm&#228;n, och om the
-fyra diwren, och f&#246;llo p&#229; theras ansikte fram f&#246;r stolen,
-och b&#229;dho till gudh och sadhe, Amen, Welsignilse och prijs och
-wij&#223;heet, och tack, och &#228;ra, och craft, och starkheet, ware
-w&#229;rom gudhi fr&#229; ewogheet till ewogheet,
-Amen.</para><para /><para>	Och swaradhe en aff the &#229;ldersm&#228;n
-och sadhe till migh, Hoo &#228;ro the<inline italics="true">n</inline>ne som
-vthi the hwita h&#246;ghtidhes cl&#228;dher cl&#228;dde &#228;ro, och
-huadhan &#228;ro the kompne?, Och iach sadhe till honom, Herre tu weest
+tungomålom ståndandes för stolen och för lambena,
+clädde vthi hwijt höghtidhes clädher, och palmar j theras
+hender, ropa<inline italics="true">n</inline>des medh högha röst,
+och sadhe, Salugheet hono<inline italics="true">m</inline> som sitter på
+stolen wårom gudh och lamben<inline italics="true">om</inline>, Och alle
+englar stodho cring om stolen och om the åldersmän, och om the
+fyra diwren, och föllo på theras ansikte fram för stolen,
+och bådho till gudh och sadhe, Amen, Welsignilse och prijs och
+wijßheet, och tack, och ära, och craft, och starkheet, ware
+wårom gudhi frå ewogheet till ewogheet,
+Amen.</para></paragraph><paragraph><para>	Och swaradhe en aff the åldersmän
+och sadhe till migh, Hoo äro the<inline italics="true">n</inline>ne som
+vthi the hwita höghtidhes clädher clädde äro, och
+huadhan äro the kompne?, Och iach sadhe till honom, Herre tu weest
 th<inline italics="true">et</inline>, Och han sadhe till migh, Thenne
-&#228;ro the ther kompne &#228;ro vthwr stoor bedr&#246;fuilse, och hafua
-tuaghit theras h&#246;ghtides cl&#228;dh<inline italics="true">e</inline>r
+äro the ther kompne äro vthwr stoor bedröfuilse, och hafua
+tuaghit theras höghtides clädh<inline italics="true">e</inline>r
 och giordt th<inline italics="true">e</inline>m hwijt j lambsens blodh,
-th<inline italics="true">e</inline>rf&#246;re &#228;ro the f&#246;r gudz
+th<inline italics="true">e</inline>rföre äro the för gudz
 stool, och tiena hono<inline italics="true">m</inline> dagh och natt vthi hans
-tempel, och then p&#229; stolen sitter han skal boo vthoffuer th<inline italics="true">e</inline>m, them skall intit meer hu<inline italics="true">n</inline>gra eller t&#246;rsta, ey heller skall solen falla
-p&#229; th<inline italics="true">e</inline>m, ey heller n&#229;ghon hete,
-f&#246;r ty lambet som mit j stolen &#228;r, skall regera th<inline italics="true">e</inline>m och ledha them till leffua<inline italics="true">n</inline>des watns kellor, och gudh wardher bort torkandes alla
-t&#229;rar vthaff theras
-&#246;gon.</para><para /><para>		Ottonde
-Capitel.</para><para /><para>OCh t&#229; thet vpbr&#246;t thet siwnde
+tempel, och then på stolen sitter han skal boo vthoffuer th<inline italics="true">e</inline>m, them skall intit meer hu<inline italics="true">n</inline>gra eller törsta, ey heller skall solen falla
+på th<inline italics="true">e</inline>m, ey heller någhon hete,
+för ty lambet som mit j stolen är, skall regera th<inline italics="true">e</inline>m och ledha them till leffua<inline italics="true">n</inline>des watns kellor, och gudh wardher bort torkandes alla
+tårar vthaff theras
+ögon.</para></paragraph><paragraph><para>		Ottonde
+Capitel.</para></paragraph><paragraph><para>OCh tå thet vpbröt thet siwnde
 inciglet wort een tystheet vthi hi<inline italics="true">m</inline>melen widh
-ena halfua stund, och iach s&#229;gh siw englar st&#229;ndandes f&#246;re
+ena halfua stund, och iach sågh siw englar ståndandes före
 gudh, och them wordo giffuen siw basuner, och en annan engel kom och stoodh
-f&#246;r altaret och hadhe it gyllene r&#246;kilse kaar, och hono<inline italics="true">m</inline> wort giffuit mykit r&#246;kilse, p&#229; thet han
-skulle geffua vthaff alle helghens b&#246;ner p&#229; gyllene altarit som
-&#228;r f&#246;r stolenom, och r&#246;kilsens r&#246;ker aff helghonens
-b&#246;ner gick vp vthaff engelens hand f&#246;r gudhi, och engelen toogh
-r&#246;kilse karit, och vpfylte thet medh altarens eeld, och kastadhe nedher
-p&#229; iordhena och ther skeedde tord&#246;n, r&#246;ster, och
-liwngeeld, och iordb&#228;ffuing, och the siw englar som hadhe siw basuner
-skickadhe sigh till ath basuna, och then f&#246;rste engelen basunadhe, och
-wort itt haghel och eeld bemengt medh blodh, och thet wort kastat p&#229;
-iordhena, och tridhie parten vthaff tr&#228;&#228;n wort f&#246;rbrendt,
-och alt gr&#246;nt gr&#228;&#228;s bran vpp, Och then andre engelen
-basunadhe, och vthi haffuet wort kastat s&#229;som itt stoort brenna<inline italics="true">n</inline>des berg, och tridhie parten vthaff haffuet wort
+för altaret och hadhe it gyllene rökilse kaar, och hono<inline italics="true">m</inline> wort giffuit mykit rökilse, på thet han
+skulle geffua vthaff alle helghens böner på gyllene altarit som
+är för stolenom, och rökilsens röker aff helghonens
+böner gick vp vthaff engelens hand för gudhi, och engelen toogh
+rökilse karit, och vpfylte thet medh altarens eeld, och kastadhe nedher
+på iordhena och ther skeedde tordön, röster, och
+liwngeeld, och iordbäffuing, och the siw englar som hadhe siw basuner
+skickadhe sigh till ath basuna, och then förste engelen basunadhe, och
+wort itt haghel och eeld bemengt medh blodh, och thet wort kastat på
+iordhena, och tridhie parten vthaff trään wort förbrendt,
+och alt grönt grääs bran vpp, Och then andre engelen
+basunadhe, och vthi haffuet wort kastat såsom itt stoort brenna<inline italics="true">n</inline>des berg, och tridhie parten vthaff haffuet wort
 blodh, och tridhie parten vthaff the creatwr som j haffuet woro bliffuo
-d&#246;dh, the som lijff hadhe, och tridhie parten vthaff skepen
-f&#246;rgingos.</para><para /><para>	Och then tridhie engelen basunadhe,
-och een stoor stierna f&#246;ll nedher vthaff himmelen brinna<inline italics="true">n</inline>de som itt bloss, och f&#246;ll vthi tridhie parten
+dödh, the som lijff hadhe, och tridhie parten vthaff skepen
+förgingos.</para></paragraph><paragraph><para>	Och then tridhie engelen basunadhe,
+och een stoor stierna föll nedher vthaff himmelen brinna<inline italics="true">n</inline>de som itt bloss, och föll vthi tridhie parten
 vthaff elffuenar, och vthi watnens kellor, och stiernones nampn kallas
-M&#229;lyrt, och we<inline italics="true">n</inline>des tridhie parten j
-m&#229;lyrt, och m&#229;nga</para><para /><para></hskr><hskr num="71a" ></para><para>menniskior bliffuo d&#246;dhe vthaff watnet som
-f&#246;rbittrat wort.</para><para /><para>	Och then fierde engelen
+Målyrt, och we<inline italics="true">n</inline>des tridhie parten j
+målyrt, och många</para><para>[‡‡
+71a]</para><para>menniskior bliffuo dödhe vthaff watnet som
+förbittrat wort.</para></paragraph><paragraph><para>	Och then fierde engelen
 basunadhe, och tridie parten vthaff solenne wort slaghen, och tridhie parten
-vthaff m&#229;nan, och tridie parten vthaff stiernonar, s&#229; ath tridie
-parten vthaff them wort f&#246;rm&#246;rkrat, och tridie delen vthaff
-daghen intit skina kunde, och nattenes sammalunda, Och iach s&#229;gh och
-h&#246;rde en engel som fl&#246;gh mitt genom himmelen och sadhe medh
-h&#246;gha r&#246;st, We, we, we them som boo p&#229;&#229; iordenne
-f&#246;r the andra r&#246;ster aff the tree &#228;nglars basuner som
-&#228;n th&#229; basuna skulle.</para><para /><para>		Niyonde
-Capitel.</para><para /><para>OCh then femte engelen basunadhe, och iach
-s&#229;gh ena stierno fallen vthaff himmelen p&#229; iordhena, och
+vthaff månan, och tridie parten vthaff stiernonar, så ath tridie
+parten vthaff them wort förmörkrat, och tridie delen vthaff
+daghen intit skina kunde, och nattenes sammalunda, Och iach sågh och
+hörde en engel som flögh mitt genom himmelen och sadhe medh
+högha röst, We, we, we them som boo påå iordenne
+för the andra röster aff the tree änglars basuner som
+än thå basuna skulle.</para></paragraph><paragraph><para>		Niyonde
+Capitel.</para></paragraph><paragraph><para>OCh then femte engelen basunadhe, och iach
+sågh ena stierno fallen vthaff himmelen på iordhena, och
 hono<inline italics="true">m</inline> wort giffuin nykelen till affgrundens
-brun, och brunsens r&#246;&#246;k gick vp s&#229;som vthaff en stoor vgn,
-och solen och w&#228;dhrit wordo f&#246;rm&#246;rkradhe vthaff brundzens
-r&#246;&#246;k, och vthur r&#246;ken komo gr&#228;&#223;hoppor
-p&#229; iordhena, och th<inline italics="true">e</inline>m wort gifuin mact,
-s&#229;som iordhe<inline italics="true">n</inline>nes scorpioner mact haffua,
+brun, och brunsens röök gick vp såsom vthaff en stoor vgn,
+och solen och wädhrit wordo förmörkradhe vthaff brundzens
+röök, och vthur röken komo gräßhoppor
+på iordhena, och th<inline italics="true">e</inline>m wort gifuin mact,
+såsom iordhe<inline italics="true">n</inline>nes scorpioner mact haffua,
 och wort sagt til th<inline italics="true">e</inline>m ath the icke skulle
-g&#246;ra scadha p&#229; iordhe<inline italics="true">n</inline>nes
-gr&#228;&#228;s, ey heller n&#229;ghot thet gr&#246;nt war, icke heller
-n&#229;ghot tr&#228;&#228; vthan alleena menniskioner the som icke hadhe
+göra scadha på iordhe<inline italics="true">n</inline>nes
+grääs, ey heller någhot thet grönt war, icke heller
+någhot trää vthan alleena menniskioner the som icke hadhe
 teekn j theras anleter, Och th<inline italics="true">e</inline>m wort giffuit
-ath the icke skulle d&#246;dha them, vtan ath the skulle quelias j f&#228;m
-m&#229;nadhe, och theras quaal war s&#229; som scorpions quaall th<inline italics="true">e</inline>n tidh han haffuer stungit menniskiona, Och j the
-daghar skola me<inline italics="true">n</inline>niskionar s&#246;kia effter
-d&#246;dhen, och the skola icke finna hono<inline italics="true">m</inline>,
-Och the skola beg&#228;ra d&#246;&#246;, och d&#246;dhen skall fly
-fr&#229; them.</para><para /><para>	Och the gr&#228;&#223;hoppor
-&#228;ro like the hestar som till krijgh bereedde &#228;ro, och
-p&#229;&#229; theras huffuudh s&#229; som cronor gulle lijke, och theras
-ansicte s&#229; som menniskiors ansicte, och the hadhe h&#229;&#229;r
-s&#229; som quinnoh&#229;&#229;r, och theras tender woro s&#229; som
-leyoners, och hadhe panzare s&#229; som iernpanzar, och r&#246;sten vthaff
-theras wingar s&#229;&#229; som thet waghna buller ther m&#229;nge hestar
-l&#246;pa till krijgs, och hadhe stiertar s&#229; som scorpioner, och woro
+ath the icke skulle dödha them, vtan ath the skulle quelias j fäm
+månadhe, och theras quaal war så som scorpions quaall th<inline italics="true">e</inline>n tidh han haffuer stungit menniskiona, Och j the
+daghar skola me<inline italics="true">n</inline>niskionar sökia effter
+dödhen, och the skola icke finna hono<inline italics="true">m</inline>,
+Och the skola begära döö, och dödhen skall fly
+frå them.</para></paragraph><paragraph><para>	Och the gräßhoppor
+äro like the hestar som till krijgh bereedde äro, och
+påå theras huffuudh så som cronor gulle lijke, och theras
+ansicte så som menniskiors ansicte, och the hadhe håår
+så som quinnohåår, och theras tender woro så som
+leyoners, och hadhe panzare så som iernpanzar, och rösten vthaff
+theras wingar såå som thet waghna buller ther månge hestar
+löpa till krijgs, och hadhe stiertar så som scorpioner, och woro
 gaddar j theras stiertar, och theras mact war till ath quelia menniskionar j
-f&#228;m m&#229;nadhe, och hadhe offuer sigh en konnung, en &#228;ngel
-vthaff affgrunden, huilkers nampn p&#229; Hebreisko heter Abaddon, p&#229;
-Grekisko Apollion, Jt wee &#228;r framfaret, och sy, h&#228;r kommer
-&#228;n nw tw onnor wee effter.</para><para /><para>	Och then siette
-engelen basunadhe, och iach h&#246;rde ena r&#246;st vthaff fyra
-h&#246;rnen aff thet gyllene alteret som &#228;r f&#246;r gudz
-&#246;ghon, och sadhe till th<inline italics="true">e</inline>n siette
-engelen som basunen hadhe, L&#246;&#246;s the fyra englar som bu<inline italics="true">n</inline>dne &#228;ro vthi then stora elffuen Eufrate, och
-the fyre engla wordo l&#246;se huilka bereedde woro, till ena stund, till en
-dagh, till en m&#229;nadh och till itt &#229;&#229;r, ath the skulle
-d&#246;dha tridhie parten vthaff me<inline italics="true">n</inline>niskionar, och talet p&#229; th<inline italics="true">et</inline> ridhandes krijgs folk m&#229;nga tusend, Och iach
-h&#246;rdhe theras taal, och s&#229; s&#229;gh iach och hestana j
-syne<inline italics="true">n</inline>ne, och the som s&#229;to p&#229;
-th<inline italics="true">e</inline>m, the hadhe gl&#246;dhande, goll, och
+fäm månadhe, och hadhe offuer sigh en konnung, en ängel
+vthaff affgrunden, huilkers nampn på Hebreisko heter Abaddon, på
+Grekisko Apollion, Jt wee är framfaret, och sy, här kommer
+än nw tw onnor wee effter.</para></paragraph><paragraph><para>	Och then siette
+engelen basunadhe, och iach hörde ena röst vthaff fyra
+hörnen aff thet gyllene alteret som är för gudz
+öghon, och sadhe till th<inline italics="true">e</inline>n siette
+engelen som basunen hadhe, Löös the fyra englar som bu<inline italics="true">n</inline>dne äro vthi then stora elffuen Eufrate, och
+the fyre engla wordo löse huilka bereedde woro, till ena stund, till en
+dagh, till en månadh och till itt åår, ath the skulle
+dödha tridhie parten vthaff me<inline italics="true">n</inline>niskionar, och talet på th<inline italics="true">et</inline> ridhandes krijgs folk många tusend, Och iach
+hördhe theras taal, och så sågh iach och hestana j
+syne<inline italics="true">n</inline>ne, och the som såto på
+th<inline italics="true">e</inline>m, the hadhe glödhande, goll, och
 swawelsk panzare, och huffuudh<inline italics="true">e</inline>n vthaff
-hestanar woro s&#229; som leyona huffuudh, och vthaff theras mwn vthgick
-eeld, och r&#246;&#246;k och swawel, Vthaff thenne tree pl&#229;ghor wort
-d&#246;dhat tridie parten aff me<inline italics="true">n</inline>niskionar,
-vthaff eelden, och r&#246;ken, och swawelet som vthaff theras mwn gick,
-f&#246;r ty theras mact war j theras mwn, och j theras stiertar, och
+hestanar woro så som leyona huffuudh, och vthaff theras mwn vthgick
+eeld, och röök och swawel, Vthaff thenne tree plåghor wort
+dödhat tridie parten aff me<inline italics="true">n</inline>niskionar,
+vthaff eelden, och röken, och swawelet som vthaff theras mwn gick,
+för ty theras mact war j theras mwn, och j theras stiertar, och
 sti<inline italics="true">e</inline>rterna woro ormom like, och hadhe huffuudh
-ther</para><para /><para></hskr><hskr num="71b" >the skadha medh
-giorde.</para><para /><para>	Och the andra menniskionar som icke woro
-d&#246;dadhe vthaff the<inline italics="true">n</inline>ne pl&#229;ghor,
-och icke b&#228;tradhe sigh vthaff theras henders gerningar, ath the icke
-tilb&#229;dho dieffuulscap, och affgudhar som giordhe woro vthaff guld och
-vthaff sylfuer, och vthaff koppar, och vthaff steen, och tr&#228;&#228;,
-the th<inline italics="true">e</inline>r hwarken see kunna eller h&#246;ra
-eller g&#229;, och icke ladhe boot p&#229; theras mandr&#229;p, eller
-theras truldom, eller theras sk&#246;rheet, eller theras
-tiuffuerij.</para><para /><para>		Tiyonde
-Capitel.</para><para /><para>OCh s&#229;gh iach en annan starkan engel
-nedherkommandes aff himmelen, han war cl&#228;dd vthi skyn, och en regnboghe
-offuer hans huffuudh, och hans andlete s&#229;som een sool, och hans
-f&#246;ter s&#229;som eeldpelare, och han hadhe j sina hand en &#246;pen
-book, och han satte sin h&#246;ghra foot p&#229; hafuet, och then wenstra
-p&#229; iordhena, och ropadhe medh h&#246;gha r&#246;st s&#229;som itt
-rytande leyon, Och th&#229; han ropadhe taladhe siw tord&#246;ner theras
-r&#246;ster, och th&#229; the siw tord&#246;ner taladhe theras
-r&#246;ster, wille iach scrifuit them, th&#229; h&#246;rdhe iach ena
-r&#246;st vthaff hi<inline italics="true">m</inline>melen s&#228;yandes
-till migh, Besigla thet the siw tord&#246;na talat haffua, och scriff thet
-intit.</para><para /><para>	Och engelen som iach s&#229; st&#229;nda
-p&#229; hafuet och p&#229; iordhena, hooff sina hand vp till himmelen, och
-swor om honom som leffuer fr&#229; ewogheet till ewogheet, then ther
+ther</para><para>[‡‡ 71b]the skadha medh
+giorde.</para><para>	Och the andra menniskionar som icke woro
+dödadhe vthaff the<inline italics="true">n</inline>ne plåghor,
+och icke bätradhe sigh vthaff theras henders gerningar, ath the icke
+tilbådho dieffuulscap, och affgudhar som giordhe woro vthaff guld och
+vthaff sylfuer, och vthaff koppar, och vthaff steen, och trää,
+the th<inline italics="true">e</inline>r hwarken see kunna eller höra
+eller gå, och icke ladhe boot på theras mandråp, eller
+theras truldom, eller theras skörheet, eller theras
+tiuffuerij.</para></paragraph><paragraph><para>		Tiyonde
+Capitel.</para></paragraph><paragraph><para>OCh sågh iach en annan starkan engel
+nedherkommandes aff himmelen, han war clädd vthi skyn, och en regnboghe
+offuer hans huffuudh, och hans andlete såsom een sool, och hans
+föter såsom eeldpelare, och han hadhe j sina hand en öpen
+book, och han satte sin höghra foot på hafuet, och then wenstra
+på iordhena, och ropadhe medh högha röst såsom itt
+rytande leyon, Och thå han ropadhe taladhe siw tordöner theras
+röster, och thå the siw tordöner taladhe theras
+röster, wille iach scrifuit them, thå hördhe iach ena
+röst vthaff hi<inline italics="true">m</inline>melen säyandes
+till migh, Besigla thet the siw tordöna talat haffua, och scriff thet
+intit.</para></paragraph><paragraph><para>	Och engelen som iach så stånda
+på hafuet och på iordhena, hooff sina hand vp till himmelen, och
+swor om honom som leffuer frå ewogheet till ewogheet, then ther
 himmele<inline italics="true">n</inline> skapat haffuer och huadh ther inne
-&#228;r, och iordhena och huadh ther inne &#228;r, och hafuet och huadh
-ther inne &#228;r, ath ingen tijdh skall wara meer, vtan j the daghar
-th&#229; th<inline italics="true">e</inline>n siwnde engelens r&#246;st
-h&#246;res th&#229; han wardher basunandes, th&#229; skall gudz
-heemligheet fulkompnat warda, s&#229;som han f&#246;rkunnat haffuer genom
-sina tienare och propheter.</para><para /><para>	Och iach h&#246;rde ena
-r&#246;st vthaff himmelen tala medh migh och sadhe, Gaak och tagh then
-&#246;pna bokena vthaff engelens hand, som st&#229;r p&#229; haffuet och
-p&#229; iordhenne, Och iach gick till engelen och sadhe ath han skulle
-f&#229; migh bokena, Och han sadhe till migh, Tagh bokena och
-&#228;&#228;t vp he<inline italics="true">n</inline>ne, och hon skall
-g&#246;ra thin bwk f&#246;rbittradha<inline italics="true">n</inline>, men
-vthi thin mwn skall hon s&#246;&#246;t wara s&#229;som en honnogh, Och
-iach toogh bokena vthaff engelens hand och &#229;t he<inline italics="true">n</inline>ne vp, och hon wort j min mwn s&#246;t som en
-honnogh, Och th&#229; iach hadhe &#228;tit henne wort min bwk
-f&#246;rbittrat, och han sadhe till migh, Tu moste &#229;ter prophetera
-hedningomen, och tungom&#229;lom, och folkeno, och m&#229;ngom
-konnungom.</para><para /><para>		Elloffte
-Capitel.</para><para /><para>OCh mich wort f&#229;nge<inline italics="true">n</inline> en r&#246;&#246;r s&#229;som it sp&#246;dh,
-och migh wort sagt, Stat vp och m&#228;&#228;t gudz tempel och altare, och
-the som tilbidhia ther inne, och then indra <inline italics="true">k</inline>oren j templet kasta vth, och m&#228;&#228;t honom
-intit, f&#246;r ty han &#228;r giffuin hedni<inline italics="true">n</inline>gomen, och the skola trampa th<inline italics="true">e</inline>n helgha stadhen j tw&#229; och fyretiyo
-m&#229;nadha, och iach skall geffua tw minom witnom ath the skola prophetera
+är, och iordhena och huadh ther inne är, och hafuet och huadh
+ther inne är, ath ingen tijdh skall wara meer, vtan j the daghar
+thå th<inline italics="true">e</inline>n siwnde engelens röst
+höres thå han wardher basunandes, thå skall gudz
+heemligheet fulkompnat warda, såsom han förkunnat haffuer genom
+sina tienare och propheter.</para></paragraph><paragraph><para>	Och iach hörde ena
+röst vthaff himmelen tala medh migh och sadhe, Gaak och tagh then
+öpna bokena vthaff engelens hand, som står på haffuet och
+på iordhenne, Och iach gick till engelen och sadhe ath han skulle
+få migh bokena, Och han sadhe till migh, Tagh bokena och
+äät vp he<inline italics="true">n</inline>ne, och hon skall
+göra thin bwk förbittradha<inline italics="true">n</inline>, men
+vthi thin mwn skall hon sööt wara såsom en honnogh, Och
+iach toogh bokena vthaff engelens hand och åt he<inline italics="true">n</inline>ne vp, och hon wort j min mwn söt som en
+honnogh, Och thå iach hadhe ätit henne wort min bwk
+förbittrat, och han sadhe till migh, Tu moste åter prophetera
+hedningomen, och tungomålom, och folkeno, och mångom
+konnungom.</para></paragraph><paragraph><para>		Elloffte
+Capitel.</para></paragraph><paragraph><para>OCh mich wort fånge<inline italics="true">n</inline> en röör såsom it spödh,
+och migh wort sagt, Stat vp och määt gudz tempel och altare, och
+the som tilbidhia ther inne, och then indra <inline italics="true">k</inline>oren j templet kasta vth, och määt honom
+intit, för ty han är giffuin hedni<inline italics="true">n</inline>gomen, och the skola trampa th<inline italics="true">e</inline>n helgha stadhen j twå och fyretiyo
+månadha, och iach skall geffua tw minom witnom ath the skola prophetera
 j tusende tuhu<inline italics="true">n</inline>dradhe och sextiyo daghar,
-cl&#228;dde vthi s&#228;ckiaw&#228;ff, Thenne &#228;ro tw
-oliotr&#228;, och tw&#229; bloss stakar st&#229;ndandes f&#246;r
-iorderikes gudh.</para><para /><para>	Och hwar n&#229;ghor wille
-g&#246;ra th<inline italics="true">e</inline>m scadha, s&#229;
-g&#229;&#229;r eelde<inline italics="true">n</inline> vthaff theras mwn,
-och f&#246;rt&#228;rer theras fiendar, Och hwar n&#229;ghor will
-g&#246;ra them</para><para /><para></hskr><hskr num="74a" ></para><para>oondt,
-s&#229; motte han d&#246;dhas, Thenne haffua mact till ath lyckia
-&#229;ter himmele<inline italics="true">n</inline>, ath intit regnar vthi the
-daghar th&#229; the prophetera, och hafua mact offuer watnet ath
-f&#246;rwe<inline italics="true">n</inline>da thet j blodh, och sl&#229;
-iordhena medh alla handa pl&#229;gho s&#229; offta the
-wilia.</para><para /><para>	Och th&#229; the haffua lyctat theres
-witnesbyrd, th&#229; skal thet wildiwret som vpstigher vthaff affgrunden
-h&#229;lla ena stridh medh them, och wardher them offuerwinnandes och
-d&#246;dhar them, och theras lecame skola bliffua liggiandes p&#229;
+clädde vthi säckiawäff, Thenne äro tw
+olioträ, och twå bloss stakar ståndandes för
+iorderikes gudh.</para></paragraph><paragraph><para>	Och hwar någhor wille
+göra th<inline italics="true">e</inline>m scadha, så
+gåår eelde<inline italics="true">n</inline> vthaff theras mwn,
+och förtärer theras fiendar, Och hwar någhor will
+göra them</para><para>[‡‡ 74a]</para><para>oondt,
+så motte han dödhas, Thenne haffua mact till ath lyckia
+åter himmele<inline italics="true">n</inline>, ath intit regnar vthi the
+daghar thå the prophetera, och hafua mact offuer watnet ath
+förwe<inline italics="true">n</inline>da thet j blodh, och slå
+iordhena medh alla handa plågho så offta the
+wilia.</para></paragraph><paragraph><para>	Och thå the haffua lyctat theres
+witnesbyrd, thå skal thet wildiwret som vpstigher vthaff affgrunden
+hålla ena stridh medh them, och wardher them offuerwinnandes och
+dödhar them, och theras lecame skola bliffua liggiandes på
 gaterna j then stora stadhen som heter andeligha Sodoma och Egiptus, ther
-w&#229;r herre corsfester &#228;r, Och vthaff slecterna och folkena och
-vthaff tungom&#229;len och vthaff hedningarna, skola see theras lecame<inline italics="true">n</inline> j tre daghar och en halff, och skola icke wilia
-tilstedhia theras lecamen leggias j graffuerna, och the p&#229;&#229;
-iordhenne boo warda fr&#246;gdandes sigh vthoffuer them, och the skola
-gl&#228;dhias och senda huar annan g&#229;ffuor, f&#246;r ty thenne
-tw&#229; prophetar the twingadhe them som boo p&#229;
-iordenne.</para><para /><para>	Och effter tree daghar och en halff kom
-liffzens ande vthaff gudhi vthi them, och stodho p&#229; theras f&#246;ter,
-och en stoor f&#246;rskr&#228;ckilse f&#246;ll p&#229;&#229; them som
-s&#229;gho them, och the h&#246;rdhe een h&#246;gh r&#246;st vthaff
-hi<inline italics="true">m</inline>melen s&#228;yandis till them, Stigher
+wår herre corsfester är, Och vthaff slecterna och folkena och
+vthaff tungomålen och vthaff hedningarna, skola see theras lecame<inline italics="true">n</inline> j tre daghar och en halff, och skola icke wilia
+tilstedhia theras lecamen leggias j graffuerna, och the påå
+iordhenne boo warda frögdandes sigh vthoffuer them, och the skola
+glädhias och senda huar annan gåffuor, för ty thenne
+twå prophetar the twingadhe them som boo på
+iordenne.</para></paragraph><paragraph><para>	Och effter tree daghar och en halff kom
+liffzens ande vthaff gudhi vthi them, och stodho på theras föter,
+och en stoor förskräckilse föll påå them som
+sågho them, och the hördhe een högh röst vthaff
+hi<inline italics="true">m</inline>melen säyandis till them, Stigher
 hijt vp, Och the stighu vp j himmelen vthi en sky, och theras owener
-s&#229;gho them, Och j then samma stunden wort en stoor iordb&#228;ffuing,
-och tiyonde delen aff stadhen f&#246;ll nedher, Och bliffuo d&#246;dhadhe j
-iordb&#228;ffuingen siw tusend menniskiors nampn, och the andra wordo
-f&#246;rf&#228;radhe, och g&#229;ffuo gudhi j himmelen prijs, Thet andra
+sågho them, Och j then samma stunden wort en stoor iordbäffuing,
+och tiyonde delen aff stadhen föll nedher, Och bliffuo dödhadhe j
+iordbäffuingen siw tusend menniskiors nampn, och the andra wordo
+förfäradhe, och gåffuo gudhi j himmelen prijs, Thet andra
 wee gick offuer, och sy thet tridhie wee kommer
-snart.</para><para /><para>	Och then siwnde engelen basunadhe, och j
-himmelen h&#246;rdhes h&#246;gha r&#246;ster the ther sadhe, Thenne
-werldennas rike &#228;ro wordne w&#229;r herres och hans Christis, och han
+snart.</para></paragraph><paragraph><para>	Och then siwnde engelen basunadhe, och j
+himmelen hördhes högha röster the ther sadhe, Thenne
+werldennas rike äro wordne wår herres och hans Christis, och han
 wardher reghnerandes aff ewogheet till ewogheet Amen., Och the fyra och tiughu
-&#229;ldersm&#228;n som f&#246;r gudhi p&#229; theras stolar
-s&#229;to, f&#246;llo p&#229; theras ansycte och b&#229;dho till gudh,
-och sadhe, Wy tackom tigh herre alzmectugh gudh, tu som &#228;r och warit
-haffuet, och tilkommandes &#228;r, ty tu haffuer taghit thna stora krafft och
-reghnerat, och hedninganar &#228;ro wredhe wordne, och thin wredhe &#228;r
-ko<inline italics="true">m</inline>men, och the d&#246;dhers tijdh ath the
-skola d&#246;mas, och ath tu skal l&#246;na thina tienare, propheter och
-helghon, och them som fructa titt nampn, sm&#229; och stora, och
-f&#246;rderffua th<inline italics="true">e</inline>m som iordhena
-f&#246;rderffuat haffua, Och gudz tempel wort vplatit j himmele<inline italics="true">n</inline>, och hans testaments ark wort seedd j hans tempel,
-och ther skedde liwngeeld och r&#246;ster, och tord&#246;ner, och
-iordb&#228;ffuing, och stoort
-haghel.</para><para /><para>		Tolffte
-Capitel.</para><para /><para>OCh j himmele<inline italics="true">n</inline>
+åldersmän som för gudhi på theras stolar
+såto, föllo på theras ansycte och bådho till gudh,
+och sadhe, Wy tackom tigh herre alzmectugh gudh, tu som är och warit
+haffuet, och tilkommandes är, ty tu haffuer taghit thna stora krafft och
+reghnerat, och hedninganar äro wredhe wordne, och thin wredhe är
+ko<inline italics="true">m</inline>men, och the dödhers tijdh ath the
+skola dömas, och ath tu skal löna thina tienare, propheter och
+helghon, och them som fructa titt nampn, små och stora, och
+förderffua th<inline italics="true">e</inline>m som iordhena
+förderffuat haffua, Och gudz tempel wort vplatit j himmele<inline italics="true">n</inline>, och hans testaments ark wort seedd j hans tempel,
+och ther skedde liwngeeld och röster, och tordöner, och
+iordbäffuing, och stoort
+haghel.</para></paragraph><paragraph><para>		Tolffte
+Capitel.</para></paragraph><paragraph><para>OCh j himmele<inline italics="true">n</inline>
 syntes it stoort teekn, een qui<inline italics="true">n</inline>na
-becl&#228;dd medh solenne, och m&#229;nen vnder hennes f&#246;ter, och
-p&#229; he<inline italics="true">nn</inline>es huffuudh en krona vthaff tolff
+beclädd medh solenne, och månen vnder hennes föter, och
+på he<inline italics="true">nn</inline>es huffuudh en krona vthaff tolff
 stiernor, och hon war medh barn och ropadhe och qualdes till barns fenge, Och
-s&#229; syntes itt annat teekn j himmelen, och sy en stoor
-r&#246;&#246;dh drake som hadhe siw huffuudh och tiyo horn, och p&#229;
+så syntes itt annat teekn j himmelen, och sy en stoor
+röödh drake som hadhe siw huffuudh och tiyo horn, och på
 hans huffuudh siw cronor, och hans stiert dragher tridhie parten aff
 himmele<inline italics="true">n</inline>s stiernor, och kastadhe nidher
-p&#229;&#229; iordena, och draken stoodh f&#246;r quinnonne som
-f&#246;dha skulle, p&#229; thet ath</para><para /><para></hskr><hskr num="74b" ></para><para>n&#228;r hon f&#246;dt hadhe skulle han &#228;tit vp
-barnet, Och hon f&#246;dde itt swenbarn, then ther regera skulle alla
+påå iordena, och draken stoodh för quinnonne som
+födha skulle, på thet ath</para><para>[‡‡
+74b]</para><para>när hon födt hadhe skulle han ätit vp
+barnet, Och hon födde itt swenbarn, then ther regera skulle alla
 hedningar medh iernrijss, och hennes barn wort borttaghit till gudh och till
-hans stool, och quinnan flydde vthi &#246;knena ther hon rwm hadhe bereedt
-vthaff gudhi, ath hon ther f&#246;dhas skulle j tusende twhundradhe och
-sextiyo daghar.</para><para /><para>	Och thet wort en stoor stridh j
+hans stool, och quinnan flydde vthi öknena ther hon rwm hadhe bereedt
+vthaff gudhi, ath hon ther födhas skulle j tusende twhundradhe och
+sextiyo daghar.</para></paragraph><paragraph><para>	Och thet wort en stoor stridh j
 himmelen, Michael och hans engla stridde medh drakanom, och draken stridde och
-hans englar, och the f&#246;rmotte intit, och theres rwm wort ey mera funnit
+hans englar, och the förmotte intit, och theres rwm wort ey mera funnit
 j himmelen, Och then store draken then gamble ormen then ther heter Dieffuul
 och Satanas som bedragher hela iorderikes creetz, han wort kastat
-p&#229;&#229; iordena och hans englar worde och bortkastade medh
-hono<inline italics="true">m</inline>, Och iach h&#246;rde en h&#246;gh
-r&#246;st som sadhe j himmelen, Nw &#228;r worden salugheet och crafft och
-w&#229;r gudz rike och hans Christes mact, f&#246;r ty w&#229;ra
-br&#246;dhers beclaghare &#228;r f&#246;rkastat, then them beclaghadhe
-f&#246;r gudh dagh och natt, och the wunno honom f&#246;r lambsens blodh
-skull, och f&#246;r thes witnesbyrdz oord skull, och the haffua icke elskat
-sitt lijff alt in till d&#246;dhen, Therf&#246;re gl&#228;dhiens j
-himblar och the som boo j them, We bliffuer them som boo p&#229; iordhenne,
-och p&#229; haffuet, F&#246;r ty dieffuulen stigher nidh till idher, och
-haffuer ena stora wredhe, wetandes ath han icke l&#229;ng tijdh
-haffuer.</para><para /><para>	Och th&#229; draken s&#229;gh ath han
-f&#246;rkastat war p&#229;&#229; iordhena, f&#246;rf&#246;lgde han
-quinnona som swenbarnet f&#246;dt hadhe, och quinnonne wordo giffne
-tw&#229; wingar vthaff en stoor &#246;rn ath hon skulle flygha vthi
-&#246;knena vthi hennas rwm, ther hon f&#246;dhes en tijdh, och tw&#229;
-tidher, och en half tijdh fr&#229; ormsens
-ansycte.</para><para /><para>	Och ormen sputadhe vthur sin mwn watn
-s&#229;som en str&#246;m effter qui<inline italics="true">n</inline>nona,
-p&#229; thet han skulle latit henne borttaghas vthaff str&#246;menom, och
-iorden halp quinnona, och vpl&#228;t sin mwn och vpswalg then str&#246;men
+påå iordena och hans englar worde och bortkastade medh
+hono<inline italics="true">m</inline>, Och iach hörde en högh
+röst som sadhe j himmelen, Nw är worden salugheet och crafft och
+wår gudz rike och hans Christes mact, för ty wåra
+brödhers beclaghare är förkastat, then them beclaghadhe
+för gudh dagh och natt, och the wunno honom för lambsens blodh
+skull, och för thes witnesbyrdz oord skull, och the haffua icke elskat
+sitt lijff alt in till dödhen, Therföre glädhiens j
+himblar och the som boo j them, We bliffuer them som boo på iordhenne,
+och på haffuet, För ty dieffuulen stigher nidh till idher, och
+haffuer ena stora wredhe, wetandes ath han icke lång tijdh
+haffuer.</para></paragraph><paragraph><para>	Och thå draken sågh ath han
+förkastat war påå iordhena, förfölgde han
+quinnona som swenbarnet födt hadhe, och quinnonne wordo giffne
+twå wingar vthaff en stoor örn ath hon skulle flygha vthi
+öknena vthi hennas rwm, ther hon födhes en tijdh, och twå
+tidher, och en half tijdh frå ormsens
+ansycte.</para></paragraph><paragraph><para>	Och ormen sputadhe vthur sin mwn watn
+såsom en ström effter qui<inline italics="true">n</inline>nona,
+på thet han skulle latit henne borttaghas vthaff strömenom, och
+iorden halp quinnona, och vplät sin mwn och vpswalg then strömen
 som draken vthaff sin mwn vthsputat hadhe, och draken wort wreedh emoot
-quinnonna, och gick bort thet han skolle &#246;rligha medh flere vthaff
-hennes s&#228;dh the som h&#229;lla gudz bodh, och haffua Jesu Christi
-witnesbyrd, Och han stoodh p&#229; haffzens
-sand.</para><para /><para>		Trettonde
-Capitel.</para><para /><para>OCh iach s&#229;gh itt willdiwr vpstigha vthur
-haffuet, thet hadhe siw huffuudh och tiyo horn, och vpp&#229;&#229; thes
-horn tiyo kronor, och p&#229; thes huffuudh h&#228;dhilsens nampn, och
-wildiwret som iach s&#229;gh the war lijct enom Pardo, och thess f&#246;ter
-s&#229; som bi&#246;rna f&#246;ter, och thess mwn s&#229; som leyons
+quinnonna, och gick bort thet han skolle örligha medh flere vthaff
+hennes sädh the som hålla gudz bodh, och haffua Jesu Christi
+witnesbyrd, Och han stoodh på haffzens
+sand.</para></paragraph><paragraph><para>		Trettonde
+Capitel.</para></paragraph><paragraph><para>OCh iach sågh itt willdiwr vpstigha vthur
+haffuet, thet hadhe siw huffuudh och tiyo horn, och vppåå thes
+horn tiyo kronor, och på thes huffuudh hädhilsens nampn, och
+wildiwret som iach sågh the war lijct enom Pardo, och thess föter
+så som biörna föter, och thess mwn så som leyons
 mwn, och draken gaff thy sina krafft och sin stooll och ena stora mact, Och
-iach s&#229;gh itt vthaff hans huffuudh s&#229; som thet wore sarghat till
-d&#246;&#246;dz, och thes d&#246;dz s&#229;&#229;r wort
-l&#228;&#228;ct, och p&#229; allo iordhenne wort f&#246;rundrat
-p&#229; wildiwret, och tillb&#229;dho drakan som wildiwrena hadhe mact
-giffuit, och the tillb&#229;dho wildiwret s&#228;yandes, Hoo &#228;r
-willdiwret lijck, eller hoo f&#246;rm&#229; stridha emoot
-thy.</para><para /><para>	Och thy wort giffuit en mwn till ath tala stoor
-ting och h&#228;dhilse, och thy wort giffuen mact till ath bruka sigh j
-tw&#229; och fyretiyo m&#229;nadha, Och thet vplyffte sin mwn till ath tala
-h&#228;dhilse emoot gudh, till ath h&#228;dha hans nampn och hans
-tabernakell, och them som boo j himmelen,</para><para /><para></hskr><hskr num="75a" ></para><para>och thy wort medhgiffuit ath stridha medh helghonen, och winna
+iach sågh itt vthaff hans huffuudh så som thet wore sarghat till
+döödz, och thes dödz såår wort
+lääct, och på allo iordhenne wort förundrat
+på wildiwret, och tillbådho drakan som wildiwrena hadhe mact
+giffuit, och the tillbådho wildiwret säyandes, Hoo är
+willdiwret lijck, eller hoo förmå stridha emoot
+thy.</para></paragraph><paragraph><para>	Och thy wort giffuit en mwn till ath tala stoor
+ting och hädhilse, och thy wort giffuen mact till ath bruka sigh j
+twå och fyretiyo månadha, Och thet vplyffte sin mwn till ath tala
+hädhilse emoot gudh, till ath hädha hans nampn och hans
+tabernakell, och them som boo j himmelen,</para><para>[‡‡
+75a]</para><para>och thy wort medhgiffuit ath stridha medh helghonen, och winna
 them, Och thy wort giffuin mact offuer alla slecter, och folk, och
-tungom&#229;ll, och hedhningar, och alle the som p&#229; iordhenne boo the
-skola tilbidhia thet, huilkers nampn icke scriffuen &#228;ro j liffzens book
-lamsens som d&#246;dat &#228;r fr&#229; werldenas begynnelse, Then ther
-&#246;ra haffuer han h&#246;re, Then ther ledher j fengsle han kommer j
-fengsle, Then ther d&#246;dhar medh swerd han moste d&#246;dhas medh swerd,
-N&#228;r &#228;r the helghons tolamoodh och
-troo.</para><para /><para>	Och iach s&#229;gh itt annat willdiwr
-vpstighandes vthur iordenne, och thet hadhe tw horn lika s&#229; som lambit,
-och thet taladhe som draken, och thet g&#246;r all then mact som thet
-f&#246;rsta willdiwrtet f&#246;r thes ansicte, och thet ko<inline italics="true">m</inline>mer iordhena och the ther p&#229; boo till ath
-tilbidhia th<inline italics="true">et</inline> f&#246;rsta wildiwret,
-huilkers d&#246;dz s&#229;&#229;r igenl&#228;ct war, och thet
-g&#246;r stoor teekn, s&#229;&#229; ath thet later eelden komma nedher
-vthaff himmelen p&#229; iordhena j me<inline italics="true">n</inline>niskiors &#229;syn, och thet bedr&#228;gher them
-som boo p&#229; iordhenne, f&#246;r the teekn skul som thy giffuen
-&#228;ro ath g&#246;ra f&#246;r wildiwret, s&#228;yandes till th<inline italics="true">e</inline>m som boo p&#229; iordhenne, ath the skola
-g&#246;ra itt bel&#228;te effter wildiwret som sarghat war aff swerd, och
-bleeff leffuandes.</para><para /><para>	Och thy wort giffuit ath thet
-skulle geffua willdiwrens bel&#228;te anda, och ath wildiwrens bel&#228;te
-skulle tala, och s&#229; bestellat ath hoo som helst icke tilb&#229;dho
-willdiwrens bel&#228;te, the skulle d&#246;dhas, och thet later alla
-sm&#229; och stora, rika och fatigha, frijer och eeghner tagha widherteekn
-vthi theras h&#246;ghra hand, eller p&#229; theras andlete, ath ingen skall
-m&#229;gha k&#246;pa eller selia, vthan then ther haffuer wedherteeknet,
-eller willdiwrens nampn, N&#228;r &#228;r wijsdome<inline italics="true">n</inline>, Then ther f&#246;rst&#229;nd haffuer, han rekne
-wildiwrens taall, ty thet &#228;r en menniskios taall, och thes taal
-&#228;r sexhundrat sextiyosex.</para><para /><para>		Fiortonde.
-Capitel.</para><para /><para>OCh iach s&#229;gh, Och sy, itt lamb stoodh
-p&#229;&#229; Sions berg, och medh thy hundradhe fyretiyo fyratusend,
-haffuandes thes fadhers nampn bescriffuit p&#229; theras andlete, Och iach
-h&#246;rdhe ena r&#246;st vthaff himmelen s&#229; som vthaff itt stoort
-watn, och s&#229; som ena r&#246;st vthaff en stoor tord&#246;n, och iach
-h&#246;rde ena r&#246;st likerwi&#223; som harpolekares the ther leekte
-p&#229; theras harpor, Och the siwnga s&#229; som en ny s&#229;ng
-f&#246;r stole<inline italics="true">n</inline>, och f&#246;r the fyra
-diwre<inline italics="true">n</inline>, och f&#246;r the
-&#229;ldersm&#228;n, och ingen kunde l&#228;ra th<inline italics="true">e</inline>n s&#229;ngen, vthan the hundradhafyretiyofyratusend
-som k&#246;pte &#228;ro vthaff iordhenne, Thenne &#228;ro the som medh
-quinnor icke besmittadhe &#228;ro, f&#246;r ty the &#228;ro iomfrwr och
-f&#246;lia lambit eehuart thet g&#229;r, Thenne &#228;ro k&#246;pte j
-fr&#229; menniskionar til fremsta fruct gudhi och lambena, och j theras mwn
-&#228;r intit swek funnit, ty the <inline italics="true">&#228;</inline>ro
-vthan smitto f&#246;r gudz stool.</para><para /><para>	Och iach
-s&#229;gh en annan engel flyghande mitt genom himmelen, han hadhe itt ewogt
-euangelium, thet han f&#246;rk<inline italics="true">un</inline>na skulle
-them som p<inline italics="true">&#229;</inline>&#229; iordhenne boodde,
-och allom hedningom, och slecter, och tungom&#229;l, och folke, Och han sadhe
-medh en h&#246;gh r&#246;st, Fructer gudh och geffuer honom &#228;ra, ty
+tungomåll, och hedhningar, och alle the som på iordhenne boo the
+skola tilbidhia thet, huilkers nampn icke scriffuen äro j liffzens book
+lamsens som dödat är frå werldenas begynnelse, Then ther
+öra haffuer han höre, Then ther ledher j fengsle han kommer j
+fengsle, Then ther dödhar medh swerd han moste dödhas medh swerd,
+När är the helghons tolamoodh och
+troo.</para></paragraph><paragraph><para>	Och iach sågh itt annat willdiwr
+vpstighandes vthur iordenne, och thet hadhe tw horn lika så som lambit,
+och thet taladhe som draken, och thet gör all then mact som thet
+första willdiwrtet för thes ansicte, och thet ko<inline italics="true">m</inline>mer iordhena och the ther på boo till ath
+tilbidhia th<inline italics="true">et</inline> första wildiwret,
+huilkers dödz såår igenläct war, och thet
+gör stoor teekn, såå ath thet later eelden komma nedher
+vthaff himmelen på iordhena j me<inline italics="true">n</inline>niskiors åsyn, och thet bedrägher them
+som boo på iordhenne, för the teekn skul som thy giffuen
+äro ath göra för wildiwret, säyandes till th<inline italics="true">e</inline>m som boo på iordhenne, ath the skola
+göra itt beläte effter wildiwret som sarghat war aff swerd, och
+bleeff leffuandes.</para></paragraph><paragraph><para>	Och thy wort giffuit ath thet
+skulle geffua willdiwrens beläte anda, och ath wildiwrens beläte
+skulle tala, och så bestellat ath hoo som helst icke tilbådho
+willdiwrens beläte, the skulle dödhas, och thet later alla
+små och stora, rika och fatigha, frijer och eeghner tagha widherteekn
+vthi theras höghra hand, eller på theras andlete, ath ingen skall
+mågha köpa eller selia, vthan then ther haffuer wedherteeknet,
+eller willdiwrens nampn, När är wijsdome<inline italics="true">n</inline>, Then ther förstånd haffuer, han rekne
+wildiwrens taall, ty thet är en menniskios taall, och thes taal
+är sexhundrat sextiyosex.</para></paragraph><paragraph><para>		Fiortonde.
+Capitel.</para></paragraph><paragraph><para>OCh iach sågh, Och sy, itt lamb stoodh
+påå Sions berg, och medh thy hundradhe fyretiyo fyratusend,
+haffuandes thes fadhers nampn bescriffuit på theras andlete, Och iach
+hördhe ena röst vthaff himmelen så som vthaff itt stoort
+watn, och så som ena röst vthaff en stoor tordön, och iach
+hörde ena röst likerwiß som harpolekares the ther leekte
+på theras harpor, Och the siwnga så som en ny sång
+för stole<inline italics="true">n</inline>, och för the fyra
+diwre<inline italics="true">n</inline>, och för the
+åldersmän, och ingen kunde lära th<inline italics="true">e</inline>n sången, vthan the hundradhafyretiyofyratusend
+som köpte äro vthaff iordhenne, Thenne äro the som medh
+quinnor icke besmittadhe äro, för ty the äro iomfrwr och
+fölia lambit eehuart thet går, Thenne äro köpte j
+frå menniskionar til fremsta fruct gudhi och lambena, och j theras mwn
+är intit swek funnit, ty the <inline italics="true">ä</inline>ro
+vthan smitto för gudz stool.</para></paragraph><paragraph><para>	Och iach
+sågh en annan engel flyghande mitt genom himmelen, han hadhe itt ewogt
+euangelium, thet han förk<inline italics="true">un</inline>na skulle
+them som p<inline italics="true">å</inline>å iordhenne boodde,
+och allom hedningom, och slecter, och tungomål, och folke, Och han sadhe
+medh en högh röst, Fructer gudh och geffuer honom ära, ty
 thet kommer stunden till hans doom, och bedher till hono<inline italics="true">m</inline> som haffuer giordt himmel och iord, haffuet och
-watnsens kellor, Och en</para><para /><para></hskr><hskr num="75b" ></para><para>annar engel f&#246;lgde effter och sadhe, Fallen fallen
-&#228;r then store stadhen Babilon, f&#246;r ty ath han haffuer dricka
+watnsens kellor, Och en</para><para>[‡‡
+75b]</para><para>annar engel fölgde effter och sadhe, Fallen fallen
+är then store stadhen Babilon, för ty ath han haffuer dricka
 giffuit allom hedningom vthaff wredhenes wijn hans
-sk&#246;rheetz.</para><para /><para>	Och tridhie engelen folgde them,
-och sadhe medh h&#246;gha r&#246;st, Huar n&#229;ghor wore som tilbedher
-wildiwret, och thes bel&#228;te, och tagher thes wedherteekn p&#229; sitt
-andlete eller p&#229; sin hand, han skal och dricka vthaff gudz wredhes wijn,
-thet inskenct och clart &#228;r j hans wredhes calk, och han skall
-pl&#229;ghas j eeld och swaffuel j helgho &#228;nglars &#229;syn, och j
-lambsens &#229;syn, och r&#246;ken vthaff theras pl&#229;gho warder
+skörheetz.</para></paragraph><paragraph><para>	Och tridhie engelen folgde them,
+och sadhe medh högha röst, Huar någhor wore som tilbedher
+wildiwret, och thes beläte, och tagher thes wedherteekn på sitt
+andlete eller på sin hand, han skal och dricka vthaff gudz wredhes wijn,
+thet inskenct och clart är j hans wredhes calk, och han skall
+plåghas j eeld och swaffuel j helgho änglars åsyn, och j
+lambsens åsyn, och röken vthaff theras plågho warder
 vpstighandes aff ewogheet till ewogheet, och the haffua huarken dagh eller natt
-roo, the som tillbidhia wildiwret och thes bel&#228;te, och om n&#229;ghor
-hadhe taghit thes nampns wedherteekn, H&#228;r &#228;r the helghans
-tolamoodh, H&#228;r &#228;ro the som h&#229;lla gudz bodh och Jesu
-troo.</para><para /><para>	Och iach h&#246;rde ena r&#246;st vthaff
-himmelen s&#228;yandes till migh, Scriff, Salughe &#228;ro the d&#246;dha
-som j herranom d&#246;&#246; h&#228;r effter, Ja, Anden s&#228;gher,
-ath the skola huila sigh vthaff theras arbete, men theras gerninga f&#246;lya
-them effter, Och iach s&#229;gh, och sy en hwit sky, och p&#229; skynom
+roo, the som tillbidhia wildiwret och thes beläte, och om någhor
+hadhe taghit thes nampns wedherteekn, Här är the helghans
+tolamoodh, Här äro the som hålla gudz bodh och Jesu
+troo.</para></paragraph><paragraph><para>	Och iach hörde ena röst vthaff
+himmelen säyandes till migh, Scriff, Salughe äro the dödha
+som j herranom döö här effter, Ja, Anden sägher,
+ath the skola huila sigh vthaff theras arbete, men theras gerninga fölya
+them effter, Och iach sågh, och sy en hwit sky, och på skynom
 satt en som lijk war me<inline italics="true">n</inline>niskionnes son, och
-hadhe p&#229;&#229; sitt huffuud ena gullcrono, och j hans hand en hwass
-liya, och en annar engell kom vthwr templet, och ropadhe medh h&#246;gha
-r&#246;st till then som satt p&#229; skynom, Hugg till medh thin liya, och
-sk&#228;&#228;r, ty tidhen &#228;r tigh kommen ath tu skall sk&#228;ra,
-f&#246;r ty ath s&#228;dhen p&#229; iordhenne &#228;r torr worden, Och
-han som satt p&#229;&#229; skyn slogh till medh sin liya p&#229;
-iordhena, och iorden wort affskoren.</para><para /><para>	Och en annar
-engell kom vthur templit som j himmelen &#228;r, then och en hwass liya
-hadhe, och en annan engel kom vthur altaret, then mact hadhe vth&#246;ffuer
-eelden, och han ropadhe medh h&#246;gha r&#246;st till honom som hadhe then
-hwassa liyan, och sadhe, Hugg till medh thin hwassa liya, och sk&#228;r vp
-wijnquistana p&#229; iordhenne, ty hennas wijnb&#228;r &#228;ro moghen,
-Och engelen h&#246;gg till medh sin skarpa liya p&#229;&#229; iordhena,
-och skaar vp wijng&#229;rdana p&#229; iordhenne, och kastadhe them vthi
+hadhe påå sitt huffuud ena gullcrono, och j hans hand en hwass
+liya, och en annar engell kom vthwr templet, och ropadhe medh högha
+röst till then som satt på skynom, Hugg till medh thin liya, och
+skäär, ty tidhen är tigh kommen ath tu skall skära,
+för ty ath sädhen på iordhenne är torr worden, Och
+han som satt påå skyn slogh till medh sin liya på
+iordhena, och iorden wort affskoren.</para></paragraph><paragraph><para>	Och en annar
+engell kom vthur templit som j himmelen är, then och en hwass liya
+hadhe, och en annan engel kom vthur altaret, then mact hadhe vthöffuer
+eelden, och han ropadhe medh högha röst till honom som hadhe then
+hwassa liyan, och sadhe, Hugg till medh thin hwassa liya, och skär vp
+wijnquistana på iordhenne, ty hennas wijnbär äro moghen,
+Och engelen högg till medh sin skarpa liya påå iordhena,
+och skaar vp wijngårdana på iordhenne, och kastadhe them vthi
 gudz wredhes stora groop, och wort gropen trampat vthan stadhen, och blodhet
-gick vthur gropenne alt in til bezelen p&#229; hestana vthoffuer
+gick vthur gropenne alt in til bezelen på hestana vthoffuer
 tusendesexhundradhe stadier
-w&#228;gs.</para><para /><para>		Femtonde
-Capitel.</para><para /><para>OCh iach s&#229;gh it annat teekn j hi<inline italics="true">m</inline>mele<inline italics="true">n</inline> stoort och
-vnderlighit, siw englar som hadhe siw the yttersta pl&#229;ghor, ty medh
-th<inline italics="true">e</inline>m &#228;r fulkompnat gudz wredhe, Och iach
-s&#229;gh som it glasshaff beblandat medh eeld, och th<inline italics="true">em</inline> st&#229;ndandes p&#229; samma glasshaff som
+wägs.</para></paragraph><paragraph><para>		Femtonde
+Capitel.</para></paragraph><paragraph><para>OCh iach sågh it annat teekn j hi<inline italics="true">m</inline>mele<inline italics="true">n</inline> stoort och
+vnderlighit, siw englar som hadhe siw the yttersta plåghor, ty medh
+th<inline italics="true">e</inline>m är fulkompnat gudz wredhe, Och iach
+sågh som it glasshaff beblandat medh eeld, och th<inline italics="true">em</inline> ståndandes på samma glasshaff som
 segher wu<inline italics="true">n</inline>nit hadhe vthoffuer wildiwret och
-thess bel&#228;te, och vthoffuer thes nampns taal, och the hadhe gudz harpor,
-och siwngho Mosi gudz tienares s&#229;ng, och lambsens s&#229;ng,
-s&#228;ya<inline italics="true">n</inline>des, Stoor och vnderligh &#228;ro
-thin werk gudh alzw&#229;llugh, retferdughe och sanne &#228;ro thina
-w&#228;ghar, helghonens konnung, hoo skulle icke fructa och prijsa titt nampn
-herre, ty tu &#228;st allena h&#228;lugh, och alle hedningar skola komma
-och tilbidhia j thin &#229;syn, ty thina domar &#228;ro oppenbara
-wordne.</para><para /><para>	Sedhan s&#229;gh iach, och sy, templet wort
-&#246;pnat vthaff witnesbyrdze<inline italics="true">n</inline>s tabernakel j
+thess beläte, och vthoffuer thes nampns taal, och the hadhe gudz harpor,
+och siwngho Mosi gudz tienares sång, och lambsens sång,
+säya<inline italics="true">n</inline>des, Stoor och vnderligh äro
+thin werk gudh alzwållugh, retferdughe och sanne äro thina
+wäghar, helghonens konnung, hoo skulle icke fructa och prijsa titt nampn
+herre, ty tu äst allena hälugh, och alle hedningar skola komma
+och tilbidhia j thin åsyn, ty thina domar äro oppenbara
+wordne.</para></paragraph><paragraph><para>	Sedhan sågh iach, och sy, templet wort
+öpnat vthaff witnesbyrdze<inline italics="true">n</inline>s tabernakel j
 himmelen, och ther vthgingo vthwr templet the siw
-englar</para><para /><para></hskr><hskr num="76a" ></para><para>som the siw
-pl&#229;ghor hadhe, cl&#228;dde vthi reenligh och hwijt lincl&#228;dher,
+englar</para><para>[‡‡ 76a]</para><para>som the siw
+plåghor hadhe, clädde vthi reenligh och hwijt linclädher,
 och vmgiordadhe cring om brystet medh gulbelte, Och it vthaff the fyra diwren
-gaff the siw englar siw gulsk&#229;lar fulla medh gudz wredhe, then ther
+gaff the siw englar siw gulskålar fulla medh gudz wredhe, then ther
 leffuer aff ewogheet till ewogheet, Och templet wort vpfylt medh
-r&#246;&#246;k aff gudz herligheet, och aff hans crafft, och ingen kunde
-g&#229; in vthi templet till thes the siw pl&#229;ghor som the siw englar
-hadhe fulkompnadhe wordo.</para><para /><para>		Sextonde
-Capitel.</para><para /><para>	OCh iach h&#246;rde ena h&#246;gha
-r&#246;st vthur templet, then sadhe till the siw englar, G&#229;r och
-vthgiwten the siw gudz wredhes sk&#229;lar p&#229; iordhena, Och then
-f&#246;rste engele<inline italics="true">n</inline> gick &#229;fstadh, och
-gi&#246;t sina sk&#229;&#229;l vth p&#229; iordena, och thet wort itt
-oondt och skadhelighit s&#229;&#229;r p&#229; me<inline italics="true">n</inline>niskionar the som wildiursens wedherteekn hadhe, och
-p&#229; them som tilb&#229;dho thes bel&#228;te, Och then andre engelen
-gi&#246;t vth sina sk&#229;&#229;l j haffuet, och thet wort som en
-d&#246;dh mandz blodh, och alt thet lijff hadhe j haffuet thet bleeff
-d&#246;dt, Och then tridhie engelen gi&#246;t vth sina sk&#229;l j
-elffuenar, och j watnsens kellor, och the wordo blodh, Och iach h&#246;rdhe
-en engel s&#228;yandes, Retferdugh &#228;stu herre som &#228;r, och warit
-haffuer, och heligh ath tu thetta d&#246;mpt haffuer, f&#246;r ty the
+röök aff gudz herligheet, och aff hans crafft, och ingen kunde
+gå in vthi templet till thes the siw plåghor som the siw englar
+hadhe fulkompnadhe wordo.</para></paragraph><paragraph><para>		Sextonde
+Capitel.</para></paragraph><paragraph><para>	OCh iach hörde ena högha
+röst vthur templet, then sadhe till the siw englar, Går och
+vthgiwten the siw gudz wredhes skålar på iordhena, Och then
+förste engele<inline italics="true">n</inline> gick åfstadh, och
+giöt sina skåål vth på iordena, och thet wort itt
+oondt och skadhelighit såår på me<inline italics="true">n</inline>niskionar the som wildiursens wedherteekn hadhe, och
+på them som tilbådho thes beläte, Och then andre engelen
+giöt vth sina skåål j haffuet, och thet wort som en
+dödh mandz blodh, och alt thet lijff hadhe j haffuet thet bleeff
+dödt, Och then tridhie engelen giöt vth sina skål j
+elffuenar, och j watnsens kellor, och the wordo blodh, Och iach hördhe
+en engel säyandes, Retferdugh ästu herre som är, och warit
+haffuer, och heligh ath tu thetta dömpt haffuer, för ty the
 haffua vthgutit helghonens och propheternes blodh, och blodh haffuer tu och
-giffuit them dricka, ty the &#228;ro thes werde, Och iach h&#246;rde en
-annan engell s&#228;yandes, Ja herre gudh al&#223;w&#229;llugh, sanne och
-retferdughe &#228;ro thina domar.</para><para /><para>	Och then fierde
-engelen gi<inline italics="true">&#246;</inline>t vth sina sk&#229;l emoot
+giffuit them dricka, ty the äro thes werde, Och iach hörde en
+annan engell säyandes, Ja herre gudh alßwållugh, sanne och
+retferdughe äro thina domar.</para></paragraph><paragraph><para>	Och then fierde
+engelen gi<inline italics="true">ö</inline>t vth sina skål emoot
 solenne, och hono<inline italics="true">m</inline> wort giffuit ath
-pl&#229;gha menniskionar medh heta aff eeld, och menniskionar wordo
-brennandes vthi en stoor heta, och the h&#228;dde gudz nampn som mactena
-hadhe vthoffuer thenna pl&#229;ghor, och giorde inga synda b&#228;tring ath
-the motte giffuit honom prijs.</para><para /><para>	Och then femte engelen
-gi&#246;t vth sina sk&#229;l p&#229; wildiwrsens stooll, och thes rike
-wort f&#246;rm&#246;rkrat, och the &#229;to theras tungor f&#246;r werk
-skull, och hedde gudh j himmelen f&#246;r theras werk och theras
-s&#229;&#229;r, och b&#228;tradhe sigh intit vthaff theras
-gerningar.</para><para /><para>	Och then siette engelen gi&#246;t vth
-sina sk&#229;ll p&#229; then stora elffuena Eufraten, och watnet
-t&#246;rkadhes bort, p&#229; thet ath w&#228;ghen skulle bereedhas
-f&#246;r the konnungar &#246;stan effter, Och iach s&#229;gh vthur
-drakans mwnd, och vthur wildiwrsens mwnd, och vthur th<inline italics="true">e</inline>n falske prophetens mwnd, vthg&#229; tree fula andar
-s&#229; som paddor, ty thet &#228;ro dieffuulsens andar, som teekn
-g&#246;ra till ath vthg&#229; till konnungana p&#229; heela iordhenne,
-ath f&#246;rsambla them til stridz, p&#229; th<inline italics="true">e</inline>n stora al&#223;w&#229;llugs gudz dagh, Sy iach
-kommer som en tiuff, Salugh &#228;r then som wakar och f&#246;rwarar sin
-cl&#228;dher, ath han icke g&#229;&#229;r naken, och the f&#229; see
-hans slemheet, Och han f&#246;rsambladhe them p&#229; itt rwm, thet heter
-p&#229; Hebreisko Armagedon.</para><para /><para>	Och then siwnde
-engelen gi&#246;t vth sina sk&#229;&#229;l j w&#228;dhrit, och gick vth
-en h&#246;gh r&#246;st vthaff himmelen, s&#228;ya<inline italics="true">n</inline>des, Thet &#228;r giordt, Och th&#229; wort
-liwngeeld och r&#246;ster och tord&#246;n och stoor iordb&#228;ffuande,
-s&#229;dana ath hans like icke warit hadhe, sedhan menniskioner p&#229;
-iordhe<inline italics="true">n</inline>ne warit hadhe s&#229;dana
-iordb&#228;ffuande, s&#229; stoor, Och then store stadhen wort j
-tree</para><para /><para></hskr><hskr num="76b" ></para><para>delar, och
-hedninganars st&#228;dher f&#246;llo, och then stora Babilon kom till
-&#229;minnilse f&#246;r gudhi ath han wille geffua honom dricka thet wijn
-vthaff hans grymma wredhe, Alla &#246;yar flydde, och berghen funnos intit,
-och stoort haghel s&#229; som it pundatunga, kom nedher aff himmelen
-p&#229; menniskionar, och menniskioner the hedde gudh, f&#246;r then stora
-plagho vthaff haghlet, ty thes pl&#229;gha war gan&#223;ca
-stoor.</para><para /><para>		Siwttonde
-Capitel.</para><para /><para>OCh kom en vthaff the siw englar som hadhe the siw
-sk&#229;lar, och taladhe medh migh, och sadhe til migh, kom iach wil wisa
-tigh then stora sk&#246;kiones f&#246;rd&#246;milse, som sitter
-p&#229;&#229; mykit watn, medh huilka konnungarna p&#229; iordenne bolat
-haffua, och the ther p&#229; iordhe<inline italics="true">n</inline>ne boo
-the &#228;ro druckne wordne vthaff he<inline italics="true">n</inline>nes
-bolerijs wijn Och han f&#246;rde migh j andanom vthi &#246;knena, och iach
-s&#229;gh quinnona sitiandes p&#229; it wildiur som rosenfergha hadhe, och
-war ful medh h&#228;dilse na<inline italics="true">m</inline>pn, haffuandes
+plågha menniskionar medh heta aff eeld, och menniskionar wordo
+brennandes vthi en stoor heta, och the hädde gudz nampn som mactena
+hadhe vthoffuer thenna plåghor, och giorde inga synda bätring ath
+the motte giffuit honom prijs.</para></paragraph><paragraph><para>	Och then femte engelen
+giöt vth sina skål på wildiwrsens stooll, och thes rike
+wort förmörkrat, och the åto theras tungor för werk
+skull, och hedde gudh j himmelen för theras werk och theras
+såår, och bätradhe sigh intit vthaff theras
+gerningar.</para></paragraph><paragraph><para>	Och then siette engelen giöt vth
+sina skåll på then stora elffuena Eufraten, och watnet
+törkadhes bort, på thet ath wäghen skulle bereedhas
+för the konnungar östan effter, Och iach sågh vthur
+drakans mwnd, och vthur wildiwrsens mwnd, och vthur th<inline italics="true">e</inline>n falske prophetens mwnd, vthgå tree fula andar
+så som paddor, ty thet äro dieffuulsens andar, som teekn
+göra till ath vthgå till konnungana på heela iordhenne,
+ath försambla them til stridz, på th<inline italics="true">e</inline>n stora alßwållugs gudz dagh, Sy iach
+kommer som en tiuff, Salugh är then som wakar och förwarar sin
+clädher, ath han icke gåår naken, och the få see
+hans slemheet, Och han försambladhe them på itt rwm, thet heter
+på Hebreisko Armagedon.</para></paragraph><paragraph><para>	Och then siwnde
+engelen giöt vth sina skåål j wädhrit, och gick vth
+en högh röst vthaff himmelen, säya<inline italics="true">n</inline>des, Thet är giordt, Och thå wort
+liwngeeld och röster och tordön och stoor iordbäffuande,
+sådana ath hans like icke warit hadhe, sedhan menniskioner på
+iordhe<inline italics="true">n</inline>ne warit hadhe sådana
+iordbäffuande, så stoor, Och then store stadhen wort j
+tree</para><para>[‡‡ 76b]</para><para>delar, och
+hedninganars städher föllo, och then stora Babilon kom till
+åminnilse för gudhi ath han wille geffua honom dricka thet wijn
+vthaff hans grymma wredhe, Alla öyar flydde, och berghen funnos intit,
+och stoort haghel så som it pundatunga, kom nedher aff himmelen
+på menniskionar, och menniskioner the hedde gudh, för then stora
+plagho vthaff haghlet, ty thes plågha war ganßca
+stoor.</para></paragraph><paragraph><para>		Siwttonde
+Capitel.</para></paragraph><paragraph><para>OCh kom en vthaff the siw englar som hadhe the siw
+skålar, och taladhe medh migh, och sadhe til migh, kom iach wil wisa
+tigh then stora skökiones fördömilse, som sitter
+påå mykit watn, medh huilka konnungarna på iordenne bolat
+haffua, och the ther på iordhe<inline italics="true">n</inline>ne boo
+the äro druckne wordne vthaff he<inline italics="true">n</inline>nes
+bolerijs wijn Och han förde migh j andanom vthi öknena, och iach
+sågh quinnona sitiandes på it wildiur som rosenfergha hadhe, och
+war ful medh hädilse na<inline italics="true">m</inline>pn, haffuandes
 siw huffuudh och tiyo horn, och qui<inline italics="true">n</inline>nan war
-cl&#228;dd medh purpurcl&#228;dhe och rosenfergho, och offuergylt medh gull
+clädd medh purpurclädhe och rosenfergho, och offuergylt medh gull
 och edla stenar, och perler, och hadhe en gulkalk j sinne hand full medh
 styggelse, och he<inline italics="true">n</inline>nas bolerijs sleemheet, och
-p&#229; henne andlete scriffuit thet nampn heemligheet, then stora Babilon
-modhren till bolerij och till styggelse p&#229; iordhenne, Och iach
-s&#229;gh quinnona drokna vthaff helghonens blodh, och vthaff theras blodh
-som Jesu witne woro, och iach f&#246;rundradhe migh stoorligha th&#229;
-iach s&#229;gh henne.</para><para /><para>	Och engelen sadhe till migh,
-Hwi f&#246;rundrar tu?, Jach will s&#228;ya tigh heemligheten om the<inline italics="true">n</inline>na quinnona, och vthaff wildiuret som
-b&#228;&#228;r henne, thet ther haffuer siw huffuudh och tiyo horn,
-Wildiwret som tu hafuer seedt thet haffuer warit, och thet &#228;r icke, och
+på henne andlete scriffuit thet nampn heemligheet, then stora Babilon
+modhren till bolerij och till styggelse på iordhenne, Och iach
+sågh quinnona drokna vthaff helghonens blodh, och vthaff theras blodh
+som Jesu witne woro, och iach förundradhe migh stoorligha thå
+iach sågh henne.</para></paragraph><paragraph><para>	Och engelen sadhe till migh,
+Hwi förundrar tu?, Jach will säya tigh heemligheten om the<inline italics="true">n</inline>na quinnona, och vthaff wildiuret som
+bäär henne, thet ther haffuer siw huffuudh och tiyo horn,
+Wildiwret som tu hafuer seedt thet haffuer warit, och thet är icke, och
 thet warder vpstigha<inline italics="true">n</inline>de vthaff affgrunden, och
-wardher g&#229;ngandes vthi f&#246;rd&#246;milse, och the som p&#229;
-iordhenne boo skola f&#246;rundra sigh, huilkers nampn icke sciffue<inline italics="true">n</inline> &#228;ro j lijffzens book, fr&#229; werldhennes
-begynnelse, th&#229; the see wildiwret som haffuer warit och icke &#228;r,
-Och h&#228;r &#228;r sinnet som wijsdome<inline italics="true">n</inline>
-haffuer</para><para /><para>	The siw huffuudh &#228;ro siw berg ther
-quinnan sitter vpp&#229;, och thet &#228;ro siw konnungar, fem &#228;ro
-falne, en &#228;r, och then andre &#228;r icke &#228;n nw kommen, och ner
+wardher gångandes vthi fördömilse, och the som på
+iordhenne boo skola förundra sigh, huilkers nampn icke sciffue<inline italics="true">n</inline> äro j lijffzens book, frå werldhennes
+begynnelse, thå the see wildiwret som haffuer warit och icke är,
+Och här är sinnet som wijsdome<inline italics="true">n</inline>
+haffuer</para></paragraph><paragraph><para>	The siw huffuudh äro siw berg ther
+quinnan sitter vppå, och thet äro siw konnungar, fem äro
+falne, en är, och then andre är icke än nw kommen, och ner
 han kommer skall han icke lenge bliffua, och wildiwret som haffuer warit och
-icke &#228;r, then &#228;r then ottende, och han &#228;r vthaff the siw,
-och han g&#229;r vthi f&#246;rd&#246;milse, och the tyio horn som tu
-seedt haffuer, thet &#228;ro tiyo ko<inline italics="true">n</inline>nungar,
-som &#228;n nw icke haffua f&#229;tt rike, vtan the skola s&#229; som
-konnungar p&#229;&#229; enne stund f&#229; mact medh willdiwret, Thenne
-haffua alle itt r&#229;dh, och warda geffuandes wildiwrena theras mact och
+icke är, then är then ottende, och han är vthaff the siw,
+och han går vthi fördömilse, och the tyio horn som tu
+seedt haffuer, thet äro tiyo ko<inline italics="true">n</inline>nungar,
+som än nw icke haffua fått rike, vtan the skola så som
+konnungar påå enne stund få mact medh willdiwret, Thenne
+haffua alle itt rådh, och warda geffuandes wildiwrena theras mact och
 krafft, the warda stridhande medh lambena, och lambet skall winna them,
-f&#246;r ty thet &#228;r herren vthoffuer herrar, och konnung vthoffuer
-ko<inline italics="true">n</inline>nungar, och medh thy &#228;ro the
-vthkalladhe, och vthkoradhe, och troghne.</para><para /><para>	Och han
-sadhe till migh, Watnet som tu s&#229;gh ther sk&#246;kian sitter,
-th<inline italics="true">et</inline> &#228;r folk och skarar, och hedningar,
-och tu<inline italics="true">n</inline>gom&#229;&#229;l, och the tiyo horn
-som tu seedt haffuer p&#229; wildiwret, the warda sk&#246;kiona hata<inline italics="true">n</inline>des, och leggia henne &#246;dhe och naken, och the
-warda hennes k&#246;&#246;t vp&#228;tandes, och
-brennandes</para><para /><para></hskr><hskr num="77a" ></para><para>henne vp j
-eelden, F&#246;r ty, gudh haffuer giffuit them j hiertat, ath the skola
-g&#246;ra thet honom behaghar, och g&#246;ra alle ena mening, ath the skola
+för ty thet är herren vthoffuer herrar, och konnung vthoffuer
+ko<inline italics="true">n</inline>nungar, och medh thy äro the
+vthkalladhe, och vthkoradhe, och troghne.</para></paragraph><paragraph><para>	Och han
+sadhe till migh, Watnet som tu sågh ther skökian sitter,
+th<inline italics="true">et</inline> är folk och skarar, och hedningar,
+och tu<inline italics="true">n</inline>gomåål, och the tiyo horn
+som tu seedt haffuer på wildiwret, the warda skökiona hata<inline italics="true">n</inline>des, och leggia henne ödhe och naken, och the
+warda hennes kööt vpätandes, och
+brennandes</para><para>[‡‡ 77a]</para><para>henne vp j
+eelden, För ty, gudh haffuer giffuit them j hiertat, ath the skola
+göra thet honom behaghar, och göra alle ena mening, ath the skola
 geffua wildiwrena rikit, till thes gudz oord warda fulkompnat Och qwinnan som
-tu seedt haffuer &#228;r then stora stadh, som rike haffuer vthoffuer
-iordhennas konnungar.</para><para /><para>		Adhertonde
-Capitel.</para><para /><para>OCh sedhan s&#229;gh iach en annan engel
+tu seedt haffuer är then stora stadh, som rike haffuer vthoffuer
+iordhennas konnungar.</para></paragraph><paragraph><para>		Adhertonde
+Capitel.</para></paragraph><paragraph><para>OCh sedhan sågh iach en annan engel
 ko<inline italics="true">m</inline>mandes nedher vthaff himmelen, then stora
 macht hadhe, och iordhen wort vplyst vthaff hans clarheet, och han ropadhe medh
-mact och h&#246;gha r&#246;st s&#228;yandes, Fallen &#228;r, fallen
-&#228;r, then stora Babilon, och &#228;r worden dieflars w&#229;ning, och
+mact och högha röst säyandes, Fallen är, fallen
+är, then stora Babilon, och är worden dieflars wåning, och
 fula andars bewarilse, och alla fula och ohyggeligha foghlars tillflyct,
-f&#246;r ty alle hedningar haffua druckit vth aff wredennes wijn f&#246;r
-hennes bolerij skull, och konnungana p&#229; iordhenne haffua bolat medh
-he<inline italics="true">n</inline>ne, och k&#246;pme<inline italics="true">n</inline>nena p&#229; iordhenne <inline italics="true">&#228;</inline>ro rike wordne vthaff hennes
-cr&#228;&#223;ligheetz krafft.</para><para /><para>	Och iach
-h&#246;rde ena andra r&#246;st vthaff himmelen, hon sadhe, J mit folk
-g&#229;&#229;t vth j fr&#229; henne, ath j icke deelactughe warden j
-he<inline italics="true">n</inline>nas synder, och athi icke f&#229;
-n&#229;ghot aff hennas pl&#229;ghor, ty hennas synder &#228;ro kompne vp
-till himmelen, och herren haffuer draghit till mi<inline italics="true">n</inline>nes hennas wr&#229;ngheter, betaler henne
-s&#229;som hon haffuer betalat idher, och g&#246;ren henne dubbelt effter
+för ty alle hedningar haffua druckit vth aff wredennes wijn för
+hennes bolerij skull, och konnungana på iordhenne haffua bolat medh
+he<inline italics="true">n</inline>ne, och köpme<inline italics="true">n</inline>nena på iordhenne <inline italics="true">ä</inline>ro rike wordne vthaff hennes
+cräßligheetz krafft.</para></paragraph><paragraph><para>	Och iach
+hörde ena andra röst vthaff himmelen, hon sadhe, J mit folk
+gååt vth j frå henne, ath j icke deelactughe warden j
+he<inline italics="true">n</inline>nas synder, och athi icke få
+någhot aff hennas plåghor, ty hennas synder äro kompne vp
+till himmelen, och herren haffuer draghit till mi<inline italics="true">n</inline>nes hennas wrångheter, betaler henne
+såsom hon haffuer betalat idher, och gören henne dubbelt effter
 hennas gerni<inline italics="true">n</inline>ga, och medh samma drycken hon
 haffuer blandat idher, blanden j he<inline italics="true">n</inline>ne dubbelt,
-S&#229; mykit hon sigh haffuer herligha h&#229;llit och j
-cr&#228;&#223;ligheet warit, s&#229; mykit blander henne pino och
-gr&#229;&#229;t, ty hon s&#228;gher j sitt hierta, Jach sitter en
-drotning och &#228;r icke &#228;nkia, och haffuer ingen sorg,
-therf&#246;re wardha hennas pl&#229;ghor kommande p&#229; en dagh,
-d&#246;dhen gr&#229;&#229;t och hunger, och hon skall warda vpbrend i
-eelden, ty herren gudh &#228;r stark som henne d&#246;mandes
-wardher.</para><para /><para>	Och iordhennas konnungar wardha henne
-gr&#229;tandes, och beclagha sigh vthoffuer henne, the som medh he<inline italics="true">n</inline>ne bolat haffua, och j cr&#228;&#223;ligheet
-leeffde, th&#229; the f&#229; see r&#246;ken vthaff he<inline italics="true">n</inline>nas brand, st&#229;ndandes l&#229;ngt j fr&#229;
-f&#246;r reddugha skull f&#246;r hennes pl&#229;gho, s&#228;yandes, We
+Så mykit hon sigh haffuer herligha hållit och j
+cräßligheet warit, så mykit blander henne pino och
+grååt, ty hon sägher j sitt hierta, Jach sitter en
+drotning och är icke änkia, och haffuer ingen sorg,
+therföre wardha hennas plåghor kommande på en dagh,
+dödhen grååt och hunger, och hon skall warda vpbrend i
+eelden, ty herren gudh är stark som henne dömandes
+wardher.</para></paragraph><paragraph><para>	Och iordhennas konnungar wardha henne
+gråtandes, och beclagha sigh vthoffuer henne, the som medh he<inline italics="true">n</inline>ne bolat haffua, och j cräßligheet
+leeffde, thå the få see röken vthaff he<inline italics="true">n</inline>nas brand, ståndandes långt j frå
+för reddugha skull för hennes plågho, säyandes, We
 we then stora stadh Babilon, then starka stadhen, ty ath vthi en stund
-&#228;r thin doom kommen, Och k&#246;pmennena p&#229; iordhenne the
-wardha gr&#229;tandes och s&#246;ryandes vth&#246;ffuer henne, ty ath
-ingen k&#246;per theras waror, gull waror, och sylffuers, och edla stenars,
+är thin doom kommen, Och köpmennena på iordhenne the
+wardha gråtandes och söryandes vthöffuer henne, ty ath
+ingen köper theras waror, gull waror, och sylffuers, och edla stenars,
 ey heller perlor, och silke, och purpur, och skarlakan, och alt Thynen
-tr&#228;&#228;, och all k&#228;rill vthaff Elpenbeen, och all
-k&#228;rill vthaff kosteligh tr&#228;&#228;, och aff kopar, och jern, och
-marmore, och canelebark, och timian, och sm&#246;rielse, och r&#246;kilse,
+trää, och all kärill vthaff Elpenbeen, och all
+kärill vthaff kosteligh trää, och aff kopar, och jern, och
+marmore, och canelebark, och timian, och smörielse, och rökilse,
 och wijn, och olio, och sembler, och hwete, och booscap, och
-f&#229;&#229;r, och hestar, och waghnar, och &#246;&#246;k, och
-menniskios si&#228;lar.</para><para /><para>	Och the &#228;ple som
-thin si&#228;l beg&#228;rar, &#228;ro bortkompne j fr&#229; tigh, och,
-alt thet feet och clart war &#228;r f&#246;rg&#229;ngit j fr&#229;
-tigh, och tu skall icke nw finnat h&#228;r effter, k&#246;pmennena som
-s&#229;dana waror pl&#228;gha haffua, och &#228;ro rijke wordne aff
-henne, the wardha st&#229;ndandes l&#229;ngt j fr&#229; f&#246;r
-reddugha skull aff hennas pl&#229;gha, gr&#229;tandes och s&#246;ryandes,
-och s&#228;yandes, We we then stora stadh som medh silke, och puppur, och
-skarlakan</para><para /><para></hskr><hskr num="77b" ></para><para>becl&#228;dd
+fåår, och hestar, och waghnar, och öök, och
+menniskios siälar.</para></paragraph><paragraph><para>	Och the äple som
+thin siäl begärar, äro bortkompne j frå tigh, och,
+alt thet feet och clart war är förgångit j frå
+tigh, och tu skall icke nw finnat här effter, köpmennena som
+sådana waror plägha haffua, och äro rijke wordne aff
+henne, the wardha ståndandes långt j frå för
+reddugha skull aff hennas plågha, gråtandes och söryandes,
+och säyandes, We we then stora stadh som medh silke, och puppur, och
+skarlakan</para><para>[‡‡ 77b]</para><para>beclädd
 war, och offuergylt war medh gull och edla stenar, och perlor, ty vthi enne
-stund &#228;ro f&#246;r&#246;dde s&#229; stora
-rikedoma.</para><para /><para>	Och alle skepare och alle the som p&#229;
-skepen wistas, och b&#229;tzme<inline italics="true">n</inline>, och the som
-j haffuet arbeta, the stodho l&#229;ngt j fr&#229;, och ropadhe th&#229;
-the s&#229;gho r&#246;ken vthaff hans brand s&#228;yandes, Hwar &#228;r
-then store stadzens like?, Och the kastadhe muld p&#229; theras huffuudh, och
-ropadhe gr&#229;ta<inline italics="true">n</inline>des och s&#246;ryandes,
-och sadhe, We, we then stora stadh j hwilkom alle &#228;ro rike wordne som j
-haffuet haffua hafft theras skip, f&#246;r hans waror skull, ty ath vthi en
-stund &#228;r han &#246;dhe worden.</para><para /><para>	Fr&#246;gda
-tigh offuer hono<inline italics="true">m</inline> hi<inline italics="true">m</inline>mel och helghe apostlar och propheter, f&#246;r ty
-gudh hafuer d&#246;mpt idhan doom om hono<inline italics="true">m</inline>,
+stund äro förödde så stora
+rikedoma.</para></paragraph><paragraph><para>	Och alle skepare och alle the som på
+skepen wistas, och båtzme<inline italics="true">n</inline>, och the som
+j haffuet arbeta, the stodho långt j frå, och ropadhe thå
+the sågho röken vthaff hans brand säyandes, Hwar är
+then store stadzens like?, Och the kastadhe muld på theras huffuudh, och
+ropadhe gråta<inline italics="true">n</inline>des och söryandes,
+och sadhe, We, we then stora stadh j hwilkom alle äro rike wordne som j
+haffuet haffua hafft theras skip, för hans waror skull, ty ath vthi en
+stund är han ödhe worden.</para></paragraph><paragraph><para>	Frögda
+tigh offuer hono<inline italics="true">m</inline> hi<inline italics="true">m</inline>mel och helghe apostlar och propheter, för ty
+gudh hafuer dömpt idhan doom om hono<inline italics="true">m</inline>,
 Och en stark engel toogh vp en storan steen som en quernsteen, och kastadhe j
-haffuet och sadhe, Medh s&#229;dana hastugheet skall f&#246;rkastat wardha
+haffuet och sadhe, Medh sådana hastugheet skall förkastat wardha
 then store stadh Babilon, och han skall icke nw finnas meer, och harparenars
-r&#246;st, och s&#229;ngarenars, och piparenas, och basunernas skal icke
-h&#246;rd wara j tich h&#228;r effter, och alla handwerks men ee huad
-handwerk thet &#228;r skall icke meer wara funnen j tigh, och
-quernar&#246;st skall icke h&#246;ras j tigh h&#228;r effter, och liws
-p&#229; liwsastaka skall icke lysa j tigh h&#228;r effter, och
-brudhgu<inline italics="true">m</inline>mans och brudhe<inline italics="true">n</inline>nas r&#246;st skall icke h&#246;ras j tigh meer,
-f&#246;r ty thine k&#246;pmen woro f&#246;rstar p&#229; iordhenne, ty
+röst, och sångarenars, och piparenas, och basunernas skal icke
+hörd wara j tich här effter, och alla handwerks men ee huad
+handwerk thet är skall icke meer wara funnen j tigh, och
+quernaröst skall icke höras j tigh här effter, och liws
+på liwsastaka skall icke lysa j tigh här effter, och
+brudhgu<inline italics="true">m</inline>mans och brudhe<inline italics="true">n</inline>nas röst skall icke höras j tigh meer,
+för ty thine köpmen woro förstar på iordhenne, ty
 ath j thinom truldom haffua alle hedningar willefarit, och j hono<inline italics="true">m</inline> wort funnen propheternes och helghonens blodh, och
-allas theras som dr&#228;pne wordo p&#229;
-iordhenne.</para><para /><para>		Nittonde
-Capitel.</para><para /><para>SEdhan h&#246;rde iach s&#229;som en stoor
-r&#246;st vthaff en stoor skara j hi<inline italics="true">m</inline>melen,
-som sadhe Alleluya, Salugheet och prijs och &#228;ra och krafft ware gudhi
-w&#229;rom herra, ty ha<inline italics="true">n</inline>s doma &#228;ro
-sanne och rettferdughe, f&#246;r ty han hafuer d&#246;mpt om then stora
-sk&#246;kian, then medh sitt bilerij haffuer f&#246;rderffuat iordhena, och
-hafuer hampnat sine tienares blodh vthwr hennas hender, Och &#229;ter sadhe
-the Alleluya, och r&#246;ken gick vp aff ewogheet till ewogheet, Och the fyra
-och tiwghu &#229;ldersm&#228;n och the fyra diwr, f&#246;llo nedher och
-b&#229;dho till gudh som satt p&#229; stolen, och sadhe Amen Alleluia, och
-en r&#246;st gick vthaff stolen s&#228;yandes, Loffuer gudh j all ha<inline italics="true">n</inline>s helghon, och j som fructen hono<inline italics="true">m</inline> b&#229;dhe sm&#229; och
-store.</para><para /><para>	Och iach h&#246;rde ena r&#246;st aff en
-stoor skara, och s&#229;som een r&#246;st vthaff mykit watn, och
-s&#229;som en r&#246;st vthaff stoor tord&#246;n, s&#228;ya<inline italics="true">n</inline>des Alleluya, ty w&#229;r herre alzmectugh gudh
-haffuer intaghit rikit, l&#228;t oss gl&#228;dhias och fr&#246;gdas, och
-geffua hono<inline italics="true">m</inline> prijs, f&#246;r ty lambsens
-br&#246;llop &#228;r kommit, och hans hustru haffuer sigh tillreedt, och
-henne wort giffuit ath cl&#228;dha sigh vthi reent och skinande silke, Silket
-&#228;r helghenes rettferdningar, och han sadhe till migh, Scriff, Salughe
-&#228;ro the som kalladhe &#228;ro till lambsens natward, och sadhe han
-till mich, Thenne gudz oord &#228;ro sann, Och iach f&#246;ll f&#246;re
-hans f&#246;ter ath tilbidhia hono<inline italics="true">m</inline>, och han
+allas theras som dräpne wordo på
+iordhenne.</para></paragraph><paragraph><para>		Nittonde
+Capitel.</para></paragraph><paragraph><para>SEdhan hörde iach såsom en stoor
+röst vthaff en stoor skara j hi<inline italics="true">m</inline>melen,
+som sadhe Alleluya, Salugheet och prijs och ära och krafft ware gudhi
+wårom herra, ty ha<inline italics="true">n</inline>s doma äro
+sanne och rettferdughe, för ty han hafuer dömpt om then stora
+skökian, then medh sitt bilerij haffuer förderffuat iordhena, och
+hafuer hampnat sine tienares blodh vthwr hennas hender, Och åter sadhe
+the Alleluya, och röken gick vp aff ewogheet till ewogheet, Och the fyra
+och tiwghu åldersmän och the fyra diwr, föllo nedher och
+bådho till gudh som satt på stolen, och sadhe Amen Alleluia, och
+en röst gick vthaff stolen säyandes, Loffuer gudh j all ha<inline italics="true">n</inline>s helghon, och j som fructen hono<inline italics="true">m</inline> bådhe små och
+store.</para></paragraph><paragraph><para>	Och iach hörde ena röst aff en
+stoor skara, och såsom een röst vthaff mykit watn, och
+såsom en röst vthaff stoor tordön, säya<inline italics="true">n</inline>des Alleluya, ty wår herre alzmectugh gudh
+haffuer intaghit rikit, lät oss glädhias och frögdas, och
+geffua hono<inline italics="true">m</inline> prijs, för ty lambsens
+bröllop är kommit, och hans hustru haffuer sigh tillreedt, och
+henne wort giffuit ath clädha sigh vthi reent och skinande silke, Silket
+är helghenes rettferdningar, och han sadhe till migh, Scriff, Salughe
+äro the som kalladhe äro till lambsens natward, och sadhe han
+till mich, Thenne gudz oord äro sann, Och iach föll före
+hans föter ath tilbidhia hono<inline italics="true">m</inline>, och han
 sadhe till migh, See till ath tw th<inline italics="true">et</inline> icke
-g&#246;r, ty iach &#228;r thin och thine br&#246;dhers medhtienare som
-Jesu witnesbyrd haffua, Bidh till gudh, ty Jesu witnesbyrd &#228;r prophecies
-ande.</para><para /><para>	Och iach s&#229;gh himmelen &#246;pen, och
-sy en hwijt hest, och then som satt p&#229; honom han heet trofast och
-sanferdugh, och han d&#246;mer och stridher genom rettferdughetena, men hans
-&#246;gon woro som en eeldz loghe, och</para><para /><para></hskr><hskr num="78a" ></para><para>p&#229; hans huffuudh m&#229;nga cronor, och hadhe nampn
-scriffuit thet ingen kende vtan han sielfuer, och han war cl&#228;dd j
-cl&#228;dhe som medh blodh bespr&#228;nckt war, och hans nampn heter Gudz
-oord, och honom effterf&#246;lgde then h&#228;&#228;r som j
-himmele<inline italics="true">n</inline> &#228;r medh hwita hestar,
-cl&#228;dde vthi hwit och reent silke, och vthwr hans mwnd g&#229;r vth itt
-swerd skarpt p&#229; b&#229;dha sidhor, ath han ther medh skall sl&#229;
+gör, ty iach är thin och thine brödhers medhtienare som
+Jesu witnesbyrd haffua, Bidh till gudh, ty Jesu witnesbyrd är prophecies
+ande.</para></paragraph><paragraph><para>	Och iach sågh himmelen öpen, och
+sy en hwijt hest, och then som satt på honom han heet trofast och
+sanferdugh, och han dömer och stridher genom rettferdughetena, men hans
+ögon woro som en eeldz loghe, och</para><para>[‡‡
+78a]</para><para>på hans huffuudh många cronor, och hadhe nampn
+scriffuit thet ingen kende vtan han sielfuer, och han war clädd j
+clädhe som medh blodh bespränckt war, och hans nampn heter Gudz
+oord, och honom effterfölgde then häär som j
+himmele<inline italics="true">n</inline> är medh hwita hestar,
+clädde vthi hwit och reent silke, och vthwr hans mwnd går vth itt
+swerd skarpt på bådha sidhor, ath han ther medh skall slå
 hedninganar, och regera them medh jern rijss, och han trodher alzmectugh gudz
-grymme f&#246;rt&#246;rnilses wijnpress, och han haffuer p&#229; sijn
-cl&#228;dher och p&#229; sine l&#228;nd thet nampn scriffuit, En konnung
+grymme förtörnilses wijnpress, och han haffuer på sijn
+clädher och på sine länd thet nampn scriffuit, En konnung
 offuer alla konnungar, och herre offuer alla
-herrar.</para><para /><para>	Och iach s&#229;gh en engel
-st&#229;ndandes j solenne, och han ropadhe medh enne h&#246;gha r&#246;st
-s&#228;yandes till alla foghlar som flugho mit vnder himmelen, kommer och
-f&#246;rsamblens till then stora gudz nattward, athi skolen &#228;ta
-konnungarnas k&#246;&#246;t, och h&#246;ffuitzmennenars
-k&#246;&#246;t, och the starkers k&#246;&#246;t, och hestaners
-k&#246;&#246;t, och theras k&#246;&#246;t som sitia p&#229; them, och
-alles theras k&#246;&#246;t som frije &#228;ro, och theras som eeghne
-&#228;ro, och b&#229;dhe sm&#229; och stores
-k&#246;&#246;t.</para><para /><para>	Och iach s&#229;gh willdiwret,
-och iordhennas konnungar, och theras h&#228;rar f&#246;rsambladha till ath
-h&#229;lla ena strijdh medh honom som satt p&#229; hesten, och medh
-ha<inline italics="true">n</inline>s h&#228;&#228;r, och willdiwret wort
-f&#229;nget, och th<inline italics="true">e</inline>r medh th<inline italics="true">e</inline>n falske propheten som teekn giorde f&#246;re thy,
+herrar.</para></paragraph><paragraph><para>	Och iach sågh en engel
+ståndandes j solenne, och han ropadhe medh enne högha röst
+säyandes till alla foghlar som flugho mit vnder himmelen, kommer och
+församblens till then stora gudz nattward, athi skolen äta
+konnungarnas kööt, och höffuitzmennenars
+kööt, och the starkers kööt, och hestaners
+kööt, och theras kööt som sitia på them, och
+alles theras kööt som frije äro, och theras som eeghne
+äro, och bådhe små och stores
+kööt.</para></paragraph><paragraph><para>	Och iach sågh willdiwret,
+och iordhennas konnungar, och theras härar försambladha till ath
+hålla ena strijdh medh honom som satt på hesten, och medh
+ha<inline italics="true">n</inline>s häär, och willdiwret wort
+fånget, och th<inline italics="true">e</inline>r medh th<inline italics="true">e</inline>n falske propheten som teekn giorde före thy,
 medh hwilko han bedroogh them som togho wildiwrsens wedherteekn, och them som
-tilb&#229;dho thes bel&#228;te, Thenne twa wordo leffuande kastadhe vthi en
-brennande sy&#246;&#246; som brann medh swaffuel, och the andre wordo
-dr&#228;pne medh ha<inline italics="true">n</inline>s swerd som satt
-p&#229; hesten, thet vthwr hans mw<inline italics="true">n</inline>
-g&#229;&#229;r, och alle foghlar wordo mettadhe vthaff theras
-k&#246;&#246;t.</para><para /><para>		Tiwghonde
-Capitel.</para><para /><para>OCh iach s&#229;gh en engel nedherkomma<inline italics="true">n</inline>des vthaff himmelen, haffuandes nykelen till
-affgrunden, och ena stora k&#228;dhio j hans hand, och han greep draken then
-gambla orm, som &#228;r dieffuulen och satanas, och bandt honom j tusend
-&#229;&#229;r, och kastadhe honom vthi affgrunden, och l&#228;ste honom
-igen och besiglde th<inline italics="true">e</inline>r offuen vpp&#229;, ath
-han icke meer bedragha skulle hedninganar, till thes fulko<inline italics="true">m</inline>pnat wore tusend &#229;&#229;r, och sedha<inline italics="true">n</inline> moste han l&#246;sas till n&#229;ghon litin
-tijdh.</para><para /><para>	Och iach s&#229;gh stolar, och the
-s&#229;to p&#229; them, och them wort giffuin doom, och theras
-si&#228;lar som hal&#223;hugne woro f&#246;r Jesu witnesbyrd, och
-f&#246;r gudz oord, och the ther icke tilb&#229;dho wildiwret eller thes
-bel&#228;te, ey heller togho thes widherteekn p&#229; theras andlete, eller
-p&#229; theras hender, och the leeffde och regneradhe medh Christo j tusend
-&#229;&#229;r, men the andre d&#246;dhe fingo icke lijff igen, till thes
-tusend &#229;&#229;r fulkompnat wordo, Thenne &#228;r f&#246;rsta
-vpst&#229;ndilsen.</para><para /><para>	Salugh och h&#228;lugh
-&#228;r th<inline italics="true">e</inline>n som deel hafuer vthi
-f&#246;rsta vpst&#229;ndilsen, vthi them haffuer then andre d&#246;dhen
+tilbådho thes beläte, Thenne twa wordo leffuande kastadhe vthi en
+brennande syöö som brann medh swaffuel, och the andre wordo
+dräpne medh ha<inline italics="true">n</inline>s swerd som satt
+på hesten, thet vthwr hans mw<inline italics="true">n</inline>
+gåår, och alle foghlar wordo mettadhe vthaff theras
+kööt.</para></paragraph><paragraph><para>		Tiwghonde
+Capitel.</para></paragraph><paragraph><para>OCh iach sågh en engel nedherkomma<inline italics="true">n</inline>des vthaff himmelen, haffuandes nykelen till
+affgrunden, och ena stora kädhio j hans hand, och han greep draken then
+gambla orm, som är dieffuulen och satanas, och bandt honom j tusend
+åår, och kastadhe honom vthi affgrunden, och läste honom
+igen och besiglde th<inline italics="true">e</inline>r offuen vppå, ath
+han icke meer bedragha skulle hedninganar, till thes fulko<inline italics="true">m</inline>pnat wore tusend åår, och sedha<inline italics="true">n</inline> moste han lösas till någhon litin
+tijdh.</para></paragraph><paragraph><para>	Och iach sågh stolar, och the
+såto på them, och them wort giffuin doom, och theras
+siälar som halßhugne woro för Jesu witnesbyrd, och
+för gudz oord, och the ther icke tilbådho wildiwret eller thes
+beläte, ey heller togho thes widherteekn på theras andlete, eller
+på theras hender, och the leeffde och regneradhe medh Christo j tusend
+åår, men the andre dödhe fingo icke lijff igen, till thes
+tusend åår fulkompnat wordo, Thenne är första
+vpståndilsen.</para></paragraph><paragraph><para>	Salugh och hälugh
+är th<inline italics="true">e</inline>n som deel hafuer vthi
+första vpståndilsen, vthi them haffuer then andre dödhen
 ingen mact, vthan the wardha gudz och Christi prester, och the skola regnera
-medh hono<inline italics="true">m</inline> j tusend &#229;&#229;r, Och
-th&#229; twsend &#229;&#229;r fullkompnat wardha, wardher Sathanas
-l&#246;&#246;s vthur hans fengsle, och wardher vthg&#229;endes til ath
-bedragha hedninganar, som &#228;ro p&#229;&#229; fyra iorderikes
-h&#246;rner Gog och Magog, p&#229; thet ath han skall f&#246;rsambla them
-j strijdh, hwilkers taal &#228;r s&#229;som haffzens sand, och the
-g&#229;fuo sigh vpp&#229; iordhennas bredheet, och
-cringhwerffde</para><para /><para></hskr><hskr num="78b" ></para><para>helghone<inline italics="true">n</inline>s l&#228;ghre, och
+medh hono<inline italics="true">m</inline> j tusend åår, Och
+thå twsend åår fullkompnat wardha, wardher Sathanas
+löös vthur hans fengsle, och wardher vthgåendes til ath
+bedragha hedninganar, som äro påå fyra iorderikes
+hörner Gog och Magog, på thet ath han skall försambla them
+j strijdh, hwilkers taal är såsom haffzens sand, och the
+gåfuo sigh vppå iordhennas bredheet, och
+cringhwerffde</para><para>[‡‡
+78b]</para><para>helghone<inline italics="true">n</inline>s läghre, och
 th<inline italics="true">e</inline>n behagheligha stadhe<inline italics="true">n</inline>, och aff hi<inline italics="true">m</inline>melen
-f&#246;ll eeld nedher aff gudhi och f&#246;rt&#228;rde them, och
-dieffuulen som them bedr&#228;ghit hadhe wort kastat vthi then brennande
-sy&#246;&#246; och swaffuel, ther b&#229;dhe wildiwret och the falske
-propheter skola pl&#229;ghas dagh och nat fr&#229; ewogheet till
-ewogheet.</para><para /><para>	Och iach s&#229;gh en storan hwitan
-stool, och en sitiande p&#229; honom, f&#246;r hwilkens ansykte flydde iord
-och himmel, och them wort intit rwm funnet, och iach s&#229;gh the
-d&#246;dha stora och sm&#229; st&#229;ndandes j gudz &#229;syn, och
-b&#246;ker wordo vplatne, och en annor book wort vplaten som &#228;r
-liffzens, och the d&#246;dha wordo d&#246;mde effter som scriffuit war j
-b&#246;kerna effter theras gerningar, och haffuet gaff igen the d&#246;dha
-som ther vthi woro, och d&#246;dhen och heluitet g&#229;ffuo igen the
-d&#246;dha som vthi them woro, och th<inline italics="true">et</inline>
-bleeff d&#246;mpt om hwan och en effter theras gerningar, och heluitet och
-d&#246;dhen wordo kastadhe vthi then brennande sy&#246;&#246;, Thenne
-&#228;r then andre d&#246;dhen, och then ther icke wort funnen scriffuen j
+föll eeld nedher aff gudhi och förtärde them, och
+dieffuulen som them bedräghit hadhe wort kastat vthi then brennande
+syöö och swaffuel, ther bådhe wildiwret och the falske
+propheter skola plåghas dagh och nat frå ewogheet till
+ewogheet.</para></paragraph><paragraph><para>	Och iach sågh en storan hwitan
+stool, och en sitiande på honom, för hwilkens ansykte flydde iord
+och himmel, och them wort intit rwm funnet, och iach sågh the
+dödha stora och små ståndandes j gudz åsyn, och
+böker wordo vplatne, och en annor book wort vplaten som är
+liffzens, och the dödha wordo dömde effter som scriffuit war j
+bökerna effter theras gerningar, och haffuet gaff igen the dödha
+som ther vthi woro, och dödhen och heluitet gåffuo igen the
+dödha som vthi them woro, och th<inline italics="true">et</inline>
+bleeff dömpt om hwan och en effter theras gerningar, och heluitet och
+dödhen wordo kastadhe vthi then brennande syöö, Thenne
+är then andre dödhen, och then ther icke wort funnen scriffuen j
 liffzens book, han wort kastat j then brennande
-sy&#246;n.</para><para /><para>		Jtt och tiwghonde
-Capitel.</para><para /><para>OCh iach s&#229;gh en ny himmel och en ny iord,
-ty then f&#246;rra himmelen och th<inline italics="true">e</inline>n
-f&#246;rra iordhen komo bort, och intit haff &#228;r nw meer, Och iach
-Joannes s&#229;gh then helgha stadh Hierusalem nyian nedherkomma<inline italics="true">n</inline>des vthaff himmelen, tillreedd aff gudhi s&#229;som
+syön.</para></paragraph><paragraph><para>		Jtt och tiwghonde
+Capitel.</para></paragraph><paragraph><para>OCh iach sågh en ny himmel och en ny iord,
+ty then förra himmelen och th<inline italics="true">e</inline>n
+förra iordhen komo bort, och intit haff är nw meer, Och iach
+Joannes sågh then helgha stadh Hierusalem nyian nedherkomma<inline italics="true">n</inline>des vthaff himmelen, tillreedd aff gudhi såsom
 en brwdh beprydda till h<inline italics="true">en</inline>nas man, och iach
-h&#246;rde ena h&#246;gha r&#246;st vthaff stolen s&#228;yandes, Sy
+hörde ena högha röst vthaff stolen säyandes, Sy
 gudz tabernakel ibland menniskiorna, och han wardher boendes medh them, Och
-gudh skall afftorka alla t&#229;rar vthaff theras &#246;ghon, och ingen
-d&#246;dh skall sedhan wara, icke heller gr&#229;ter, ey heller roop, ey
-heller n&#229;ghon werck wardher meer, ty thet f&#246;rra &#228;r
-framfarit, Och then ther satt p&#229; stolen han sadhe, Sy, iach g&#246;r
-all ting ny, Och han sadhe till migh Scriff, ty the<inline italics="true">n</inline>ne oord &#228;ro wiss och
-sann.</para><para /><para>	Och han sadhe till migh, Thet &#228;r giordt,
-Jach &#228;r A och O, begynnilsen och endalycten, Jach skall geffua them som
-t&#246;rster vthaff lijffzens watns kellor f&#246;rgeffues, Then som winner
-han wardh<inline italics="true">e</inline>r thetta alt &#228;ghande, och iach
+gudh skall afftorka alla tårar vthaff theras öghon, och ingen
+dödh skall sedhan wara, icke heller gråter, ey heller roop, ey
+heller någhon werck wardher meer, ty thet förra är
+framfarit, Och then ther satt på stolen han sadhe, Sy, iach gör
+all ting ny, Och han sadhe till migh Scriff, ty the<inline italics="true">n</inline>ne oord äro wiss och
+sann.</para></paragraph><paragraph><para>	Och han sadhe till migh, Thet är giordt,
+Jach är A och O, begynnilsen och endalycten, Jach skall geffua them som
+törster vthaff lijffzens watns kellor förgeffues, Then som winner
+han wardh<inline italics="true">e</inline>r thetta alt äghande, och iach
 skall wara hono<inline italics="true">m</inline> hans gudh, och han skall wara
 migh en son, Them reddom och wantrooghnom och grufflighonm, och
-mandr&#229;parom, och bolarom, och trullarom, och affgudhadyrkarom, och allom
-l&#246;gnactughom, theras deel skall wara vthi then brennande
-sy&#246;&#246;, eeld och swaffuel, hwilkit &#228;r then andre
-d&#246;dhen.</para><para /><para>	Och till migh kom en vthaff the siw
-englar som haffua siw sk&#229;lar fulla medh siw vttersta pl&#229;ghorna,
+mandråparom, och bolarom, och trullarom, och affgudhadyrkarom, och allom
+lögnactughom, theras deel skall wara vthi then brennande
+syöö, eeld och swaffuel, hwilkit är then andre
+dödhen.</para></paragraph><paragraph><para>	Och till migh kom en vthaff the siw
+englar som haffua siw skålar fulla medh siw vttersta plåghorna,
 och han taladhe medh migh och sadhe, Kom och iach skall wisa tigh brudhena
-la<inline italics="true">m</inline>bsens hustru, Och f&#246;rde migh j
-andanom vpp&#229; itt stoort och h&#246;gt berg, och wijste migh then stora
-helgha stadhen Hierusalem, nedherkommandes vthaff himmelen fr&#229; gudh, och
-hadhe gudz clarheet, Och hans liws war lika som en dyrbergxsten, som &#228;r
-Jaspis cristallerat, och han hadhe en stoor och h&#246;gh mwr, then ther
+la<inline italics="true">m</inline>bsens hustru, Och förde migh j
+andanom vppå itt stoort och högt berg, och wijste migh then stora
+helgha stadhen Hierusalem, nedherkommandes vthaff himmelen frå gudh, och
+hadhe gudz clarheet, Och hans liws war lika som en dyrbergxsten, som är
+Jaspis cristallerat, och han hadhe en stoor och högh mwr, then ther
 tolff poorta hadhe, och j portanar tolff englar, och inscrifuen nampn, huilken
-&#228;ro the tolff Jsraels s&#246;ners slectes na<inline italics="true">m</inline>pn, &#246;stan til tree poortar, norda<inline italics="true">n</inline> till tree poortar, su<inline italics="true">n</inline>na<inline italics="true">n</inline>til tree poortar,
+äro the tolff Jsraels söners slectes na<inline italics="true">m</inline>pn, östan til tree poortar, norda<inline italics="true">n</inline> till tree poortar, su<inline italics="true">n</inline>na<inline italics="true">n</inline>til tree poortar,
 westa<inline italics="true">n</inline>til tree poortar, och stadzmwre<inline italics="true">n</inline> hadhe tolff gru<inline italics="true">n</inline>dwalar, och j them tolff
-nampn</para><para /><para></hskr><hskr num="79a" ></para><para>aff the tolff
+nampn</para><para>[‡‡ 79a]</para><para>aff the tolff
 apostlar, och then som taladhe medh migh, han hadhe ena gull
-r&#246;&#246;r, ther han medh m&#229;la skulle stadhe<inline italics="true">n</inline> och hans poortar, och hans mwr, och stadhen ligger
-fyrah&#246;rnat, och hans l&#229;ngheet &#228;r so stoor som och
-bredheten, och han m&#228;lte stadhen medh gulr&#246;ren till tolff tusende
-Stadier, och hans l&#229;ngheet och h&#246;gheet, och bredheet &#228;ro
-lika, och han m&#228;lte hans mwr hundradhe fyrotiyo fyra alna, effter en
-menniskios m&#229;&#229;t, som engelen hadhe, och mwrsens bygning war
+röör, ther han medh måla skulle stadhe<inline italics="true">n</inline> och hans poortar, och hans mwr, och stadhen ligger
+fyrahörnat, och hans långheet är so stoor som och
+bredheten, och han mälte stadhen medh gulrören till tolff tusende
+Stadier, och hans långheet och högheet, och bredheet äro
+lika, och han mälte hans mwr hundradhe fyrotiyo fyra alna, effter en
+menniskios mååt, som engelen hadhe, och mwrsens bygning war
 vthaff Jasper steen, men sielffue stadhen clara gullet, lijk widh reenlighit
 glaas, och stadzmwrens grundwalar woro prydde medh all dyrabergxsten,
-f&#246;rsta grundwalen Jaspis, then andre Saphirus, then tridhie Calcedonius,
+första grundwalen Jaspis, then andre Saphirus, then tridhie Calcedonius,
 then fierde Smaragdus, then femte Sardonix, then siette Sardius, then siwnde
 Crisolitus, then ottonde Berillus, then niyonde Topazius, then tiyonde
 Crisoprassus, then elloffte Hyacincthus, th<inline italics="true">e</inline>n
-tolffte Amethystus.</para><para /><para>	Och the tolff poortar woro tolff
-perlor hwar f&#246;r sigh, och hwar port war vthaff ene perlo, och stadzens
-gatur rena guldir s&#229;som genomskinandes glaas, Och iach s&#229;gh
-th<inline italics="true">e</inline>r intit tempel vthinnan, ty herre<inline italics="true">n</inline> gudh alzw&#228;llugh &#228;r templet ther inne,
-och lambet, Och stadhe<inline italics="true">n</inline> beh&#246;ffuer icke
-sool eller m&#229;na, ath the skola lysa ther inne, f&#246;r ty gudz
-clarheet vplyser honom, och hans liws &#228;r lambet, och hedningana som
+tolffte Amethystus.</para></paragraph><paragraph><para>	Och the tolff poortar woro tolff
+perlor hwar för sigh, och hwar port war vthaff ene perlo, och stadzens
+gatur rena guldir såsom genomskinandes glaas, Och iach sågh
+th<inline italics="true">e</inline>r intit tempel vthinnan, ty herre<inline italics="true">n</inline> gudh alzwällugh är templet ther inne,
+och lambet, Och stadhe<inline italics="true">n</inline> behöffuer icke
+sool eller måna, ath the skola lysa ther inne, för ty gudz
+clarheet vplyser honom, och hans liws är lambet, och hedningana som
 frelste wardha, skola wandra j hans liws, och iordhennas konnungar wardha
-f&#246;randes theras herligheet in vthi honom, Och hans poortar latas intit
-till om daghen, ty ther wardher ingen natt, ther wardher intit inko<inline italics="true">m</inline>mande som besmittelighit &#228;r, eller thet
-gruffueligheet g&#246;r och l&#246;gn, vtan the som scriffne &#228;ro j
-lambsens lijffzbook.</para><para /><para>		Annat och tiwghonde
-Capitel.</para><para /><para>OCh han wijste migh ena clara elff aff leffuandes
-watn, skina<inline italics="true">n</inline>des s&#229;som cristall, then
-gick fr&#229; gudz s&#228;te och lambsens, mitt vpp&#229; hans gatwr, och
-p&#229; b&#229;dha sidhor widh elffuena stoodh liffzens tr&#228;,
-b&#228;randes tolfff&#229;l fruct, och gaff sina fruct alla m&#229;nadhe,
-och l&#246;ffuen aff tr&#228;dh tiente till hedni<inline italics="true">n</inline>ganars helbr&#246;gda, och ingen f&#246;rbannelse
-wardher lenger, vtan gudz s&#228;te och lambsens bliffuer ther inne, och hans
+förandes theras herligheet in vthi honom, Och hans poortar latas intit
+till om daghen, ty ther wardher ingen natt, ther wardher intit inko<inline italics="true">m</inline>mande som besmittelighit är, eller thet
+gruffueligheet gör och lögn, vtan the som scriffne äro j
+lambsens lijffzbook.</para></paragraph><paragraph><para>		Annat och tiwghonde
+Capitel.</para></paragraph><paragraph><para>OCh han wijste migh ena clara elff aff leffuandes
+watn, skina<inline italics="true">n</inline>des såsom cristall, then
+gick frå gudz säte och lambsens, mitt vppå hans gatwr, och
+på bådha sidhor widh elffuena stoodh liffzens trä,
+bärandes tolfffål fruct, och gaff sina fruct alla månadhe,
+och löffuen aff trädh tiente till hedni<inline italics="true">n</inline>ganars helbrögda, och ingen förbannelse
+wardher lenger, vtan gudz säte och lambsens bliffuer ther inne, och hans
 tienare wardha honom tienande, och the skola see hans ansycte, och hans nampn
-p&#229; theras andlete, Och natt bliffuer icke meer, och the beh&#246;ffua
-icke liws p&#229; liwsastaka, ey heller solenas liws, ty herren gudh han
+på theras andlete, Och natt bliffuer icke meer, och the behöffua
+icke liws på liwsastaka, ey heller solenas liws, ty herren gudh han
 vplyser them, och the wardha regnera<inline italics="true">n</inline>de
-fr&#229; ewogheet till ewogheet.</para><para /><para>	Och han sadhe till
-migh, The<inline italics="true">n</inline>ne oord &#228;ro wiss och sann, och
+frå ewogheet till ewogheet.</para></paragraph><paragraph><para>	Och han sadhe till
+migh, The<inline italics="true">n</inline>ne oord äro wiss och sann, och
 herren helghe propheters gudh han sende sin engel, ath wisa hans tienare huadh
-som skee skall innan kort tijdh, och sy iach ko<inline italics="true">m</inline>mer snarligha, Salugh &#228;r then som g&#246;mer
-thesse books prophecies oord.</para><para /><para>	Och iach Joannes som
-h&#246;rdhe och s&#229;gh thetta, och sedhan iach hadhe thet h&#246;rdt
-och seedt, f&#246;ll <inline italics="true">i</inline>ach nidh ath tillbedhia
-f&#246;r engelsens f&#246;ter som migh thetta wijste, Och han sadhe till
-migh, See till ath tu g&#246;r th<inline italics="true">et</inline> icke, ty
-iach &#228;r thin medhtienare och thine br&#246;dhras propheternes, och
-theras som g&#246;ma the<inline italics="true">n</inline>ne book prophecies
+som skee skall innan kort tijdh, och sy iach ko<inline italics="true">m</inline>mer snarligha, Salugh är then som gömer
+thesse books prophecies oord.</para></paragraph><paragraph><para>	Och iach Joannes som
+hördhe och sågh thetta, och sedhan iach hadhe thet hördt
+och seedt, föll <inline italics="true">i</inline>ach nidh ath tillbedhia
+för engelsens föter som migh thetta wijste, Och han sadhe till
+migh, See till ath tu gör th<inline italics="true">et</inline> icke, ty
+iach är thin medhtienare och thine brödhras propheternes, och
+theras som göma the<inline italics="true">n</inline>ne book prophecies
 oord, Tilbidh gudh, Och han sadhe till migh, Besigla icke thenne books
-prophecies oord, f&#246;r ty tidhe<inline italics="true">n</inline>
-&#228;r</para><para /><para></hskr><hskr num="79b" ></para><para>n&#228;r,
-Then ther skadhar han skadhe &#228;n nw, Och then ther bes&#246;lat
-&#228;r han bes&#246;le sigh &#228;n nw, Och th<inline italics="true">e</inline>n ther rettferdugh &#228;r, han rettferdughes
-&#228;n nw, Och then h&#228;loghe han helghes &#228;n nw, Och sy iach
-ko<inline italics="true">m</inline>mer snarligha, och min l&#246;n medh migh,
-till ath wedhergella hwariom och enom s&#229;som hans gerning
-&#228;r.</para><para /><para>	Jach &#228;r A och O, then f&#246;rste
+prophecies oord, för ty tidhe<inline italics="true">n</inline>
+är</para><para>[‡‡ 79b]</para><para>när,
+Then ther skadhar han skadhe än nw, Och then ther besölat
+är han besöle sigh än nw, Och th<inline italics="true">e</inline>n ther rettferdugh är, han rettferdughes
+än nw, Och then häloghe han helghes än nw, Och sy iach
+ko<inline italics="true">m</inline>mer snarligha, och min lön medh migh,
+till ath wedhergella hwariom och enom såsom hans gerning
+är.</para></paragraph><paragraph><para>	Jach är A och O, then förste
 och then ytterste, begy<inline italics="true">n</inline>nilsen och enden,
-Salughe &#228;ro the som h&#229;lla hans bodh, p&#229; th<inline italics="true">et</inline> ath theras mact skall wara j liffzens tr&#228;,
-och ing&#229; genom portarna in vthi stadhen, ty vtan till bliffua hundana,
-och trollare, och oblyie, och mandr&#229;pare, och the som tiena affgudhom,
-och alle the som elska och g&#246;ra
-l&#246;gnena.</para><para /><para>	Jach Jesus sende min engel ath han
-skulle betygha idher thetta j f&#246;rsamblingarna, Jach &#228;r Dauidz
-root och art, en clar morghonstierna, Och anden och brudhen s&#228;ya, kom,
-Och th<inline italics="true">e</inline>n thet h&#246;rer han s&#228;ye,
-Kom, och then ther t&#246;rster han ko<inline italics="true">m</inline>me,
+Salughe äro the som hålla hans bodh, på th<inline italics="true">et</inline> ath theras mact skall wara j liffzens trä,
+och ingå genom portarna in vthi stadhen, ty vtan till bliffua hundana,
+och trollare, och oblyie, och mandråpare, och the som tiena affgudhom,
+och alle the som elska och göra
+lögnena.</para></paragraph><paragraph><para>	Jach Jesus sende min engel ath han
+skulle betygha idher thetta j församblingarna, Jach är Dauidz
+root och art, en clar morghonstierna, Och anden och brudhen säya, kom,
+Och th<inline italics="true">e</inline>n thet hörer han säye,
+Kom, och then ther törster han ko<inline italics="true">m</inline>me,
 och then ther will han taghe liffze<inline italics="true">n</inline>s watn
-f&#246;r intit, Ty iach betyghar hwar och en som h&#246;rer the<inline italics="true">n</inline>ne books prophecies oord, Hoo ther legger
-n&#229;ghot h&#228;r till, offuer hono<inline italics="true">m</inline>
-wardher gudh leggiandes the pl&#229;ghor som screffna &#229;ro j thenne
-book, Och om n&#229;ghor f&#246;rminskar the<inline italics="true">n</inline>ne books prophecies oord, honom wardher gudh
+för intit, Ty iach betyghar hwar och en som hörer the<inline italics="true">n</inline>ne books prophecies oord, Hoo ther legger
+någhot här till, offuer hono<inline italics="true">m</inline>
+wardher gudh leggiandes the plåghor som screffna åro j thenne
+book, Och om någhor förminskar the<inline italics="true">n</inline>ne books prophecies oord, honom wardher gudh
 borttaghandes ha<inline italics="true">n</inline>s deel vthwr liffze<inline italics="true">n</inline>s book, och vthwr th<inline italics="true">e</inline>n
-helgha stadhen, och vthwr thet scriffuit &#228;r j the<inline italics="true">n</inline>ne book, Thet s&#228;gher han som witnesbyrd
-b&#228;r h&#228;r till, Ja, Jach ko<inline italics="true">m</inline>mer
-snarligha Amen, Ja, kom herre Jesu, W&#229;rs herra Jesu Christi n&#229;dh
-ware medh idh<inline italics="true">e</inline>r allom, Am<inline italics="true">en</inline>.</para><para /><para>		Enden p&#229;
-sancti Joannis oppenbarilse, och ther medh, p&#229; alt nyia
-testamentit.</para></paragraph-definition><paragraph-definition adjust-right="true" align="left" font-size="12.00" font-style="Times New Roman" language="German" left-indent="0.00" name="Normal" nest-level="0" right-indent="0.00" style-number="s0007" widow-control="true"><para /></paragraph-definition></section></hskr></body></doc>
+helgha stadhen, och vthwr thet scriffuit är j the<inline italics="true">n</inline>ne book, Thet sägher han som witnesbyrd
+bär här till, Ja, Jach ko<inline italics="true">m</inline>mer
+snarligha Amen, Ja, kom herre Jesu, Wårs herra Jesu Christi nådh
+ware medh idh<inline italics="true">e</inline>r allom, Am<inline italics="true">en</inline>.</para></paragraph><paragraph><para>		Enden på
+sancti Joannis oppenbarilse, och ther medh, på alt nyia
+testamentit.</para></paragraph></body></doc>

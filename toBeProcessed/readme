@@ -1,12 +1,8 @@
-newest version (20/4)
-to be fixed:
-rerun fixer to get better page numbering
-            and to remove " in titles
-some files (Petri and LegBil/Bu) have different page numbering..:(
-all files don't have page numbers
-lydekin has a 'm-runa' (&#xF*FF)
+4/5
+
+Rerun fixer to get rid of störande pagenumbering in Petri
+Now uses paragraph instead of para, has labels, year, titles etc.
+Makefile will do sentencesplitting
+Lydekin has been specially processed to handle [Kb ..]
 
 
-to korp:
-cannot use '.' (word.pagenum)
-add labels

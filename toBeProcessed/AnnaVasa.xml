@@ -1,782 +1,781 @@
-<doc><preamble><rtf-definition code-page="mac_roman" default-font="DTI" platform="Macintosh" /><font-table><font-in-table name="Times New Roman" num="0" /><font-in-table name="Symbol" num="3" /><font-in-table name="Times" num="4" /><font-in-table name="DTI" num="20" /></font-table><color-table><color-in-table num="1" value="#000000" /><color-in-table num="2" value="#0000FF" /><color-in-table num="3" value="#00FFFF" /><color-in-table num="4" value="#00FF00" /><color-in-table num="5" value="#FF00FF" /><color-in-table num="6" value="#FF0000" /><color-in-table num="7" value="#FFFF00" /><color-in-table num="8" value="#FFFFFF" /><color-in-table num="9" value="#000080" /><color-in-table num="10" value="#008080" /><color-in-table num="11" value="#008000" /><color-in-table num="12" value="#800080" /><color-in-table num="13" value="#800000" /><color-in-table num="14" value="#808000" /><color-in-table num="15" value="#808080" /><color-in-table num="16" value="#C0C0C0" /></color-table><style-table><paragraph-styles><paragraph-style-in-table adjust-right="true" align="cent" based-on-style="Normal" font-size="13.00" font-style="DTI" italics="true" keep-with-next="true" language="Swedish" name="heading 1" nest-level="0" next-style="Normal" num="1" widow-control="true" /><paragraph-style-in-table adjust-right="true" font-size="10.00" font-style="DTI" language="Swedish" name="Normal" nest-level="0" next-style="Normal" num="0" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="just" based-on-style="Normal" first-line-indent="35.40" font-style="DTI" keep-with-next="true" language="Swedish" line-spacing="18.00" name="heading 3" nest-level="0" next-style="Normal" num="3" widow-control="true" /><paragraph-style-in-table adjust-right="true" based-on-style="Normal" font-style="DTI" keep-with-next="true" language="Swedish" name="heading 2" nest-level="0" next-style="Normal" num="2" widow-control="true" /><paragraph-style-in-table adjust-right="true" based-on-style="Normal" font-style="Times" language="English British" name="header" nest-level="0" next-style="header" num="15" tabs="center:226.80;right:453.60;" widow-control="true" /></paragraph-styles><character-styles><character-style-in-table name="Default Paragraph Font" num="10" /><character-style-in-table based-on-style="Default Paragraph Font" bold="true" name="Strong" num="16" /></character-styles><styles-in-body><paragraph-style-in-body adjust-right="true" font-size="10.00" font-style="DTI" language="Swedish" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0001" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true" /><paragraph-style-in-body adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true" /><paragraph-style-in-body adjust-right="true" font-style="DTI" keep-with-next="true" language="Swedish" line-spacing="18.00" name="heading 2" nest-level="0" style-number="s0004" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-size="10.00" font-style="DTI" language="Swedish" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0005" widow-control="true" /></styles-in-body></style-table><list-table><list-in-table list-table-id="216354957" list-template-id="-859565850"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="20" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="618611908" list-template-id="68485137"><level-in-table first-line-indent="-18.00" left-indent="18.00" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="1" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="692802593" list-template-id="-1632840430"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="25" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="1018003364" list-template-id="990532838"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="95" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="1151865918" list-template-id="1695424792"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="70" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="1334719863" list-template-id="-1621970180"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="40" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="1356273402" list-template-id="942967194"><level-in-table first-line-indent="-35.40" left-indent="35.40" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="5" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="1871912560" list-template-id="-419774810"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="15" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table></list-table><override-table><override-list list-id="1" list-table-id="618611908" /><override-list list-id="2" list-table-id="1356273402" /><override-list list-id="3" list-table-id="692802593" /><override-list list-id="4" list-table-id="1334719863" /><override-list list-id="5" list-table-id="1871912560" /><override-list list-id="6" list-table-id="1018003364" /><override-list list-id="7" list-table-id="1151865918" /><override-list list-id="8" list-table-id="216354957" /></override-table><doc-information><title>Anna
-Vasas brev</title><year>"1519-1612"</year><author>Mariann Saurow</author><operator>Lars Olof
-Delsing</operator><creation-time day="2" minute="33" month="1" year="2004" /><revision-time day="2" month="1" year="2004" /><editing-time editing-time="3" /><number-of-pages number-of-pages="16" /><number-of-words number-of-words="7675" /><number-of-characters number-of-characters="32235" /></doc-information><page-definition gutter="0" margin-bottom="70.85" margin-left="70.85" margin-right="70.85" margin-top="70.85" paper-height="841.90" paper-width="595.30" /></preamble><body><section level="0" num="1" num-in-level="1" type="rtf-native"><paragraph-definition adjust-right="true" font-size="10.00" font-style="DTI" language="Swedish" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0001" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman" /></para><para /><para><inline font-size="12.00" font-style="Times New Roman">Brev
-1</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">W&#229;r n&#229;dige helsen
-bes&#255;nnerlig &#255;nnest och n&#229;dige ben&#228;genhet med Gud till
-f&#246;rende. Wij wele eder k&#228;re,</inline><inline font-size="12.00" font-style="Times New Roman" subscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"> frencke fr&#246;ken Sigrid, n&#229;deligen icke
-f&#246;rh&#229;lle, att den edle welborne, her Christoffer Skenck, Frijherre
-till Tautenborg hafuer flijteligen beg&#228;red af o&#223;, att wij wille
-wittne till hans vnge Sons och lifz erfwinges d&#246;pellse som Gud
-Alzmechtig honom med sin elskelige k&#228;re hwsfru gifuit och
-f&#246;rl&#228;nt hafuer och hielpe honom till Christendomen, S&#229; efter
-ded wij icke kunne p&#229; denne tid ware der tillstedes och sielfue
-g&#246;re welb[or]ne her Christoffer Skenckz beg&#228;ren f&#255;llest,
-&#196;r w&#229;r n&#229;dige beg&#228;ren att i p&#229; w&#229;re wegne wele
-f&#246;rmelle f&#246;relderne m&#255;ken l&#255;cke till samme deres unge
-lifzerfuinge att han motte opwexe Gud till &#228;hre och dem till hugnad och
-gledie, och seden udi lijke motto p&#229; w&#229;re wegne hielpe barned till
-d&#246;pellsen och Cristendomen. Wij &#228;re eder igen med all &#255;nnest
-och n&#229;de benegne, Gud Alzmechtig eder befa</inline><inline font-size="12.00" font-style="Times New Roman">lendes. Datum Stockholm denn
+<doc><preamble><rtf-definition code-page="mac_roman" default-font="DTI" platform="Macintosh" /><font-table><font-in-table name="Times New Roman" num="0" /><font-in-table name="Symbol" num="3" /><font-in-table name="Times" num="4" /><font-in-table name="DTI" num="20" /></font-table><color-table><color-in-table num="1" value="#000000" /><color-in-table num="2" value="#0000FF" /><color-in-table num="3" value="#00FFFF" /><color-in-table num="4" value="#00FF00" /><color-in-table num="5" value="#FF00FF" /><color-in-table num="6" value="#FF0000" /><color-in-table num="7" value="#FFFF00" /><color-in-table num="8" value="#FFFFFF" /><color-in-table num="9" value="#000080" /><color-in-table num="10" value="#008080" /><color-in-table num="11" value="#008000" /><color-in-table num="12" value="#800080" /><color-in-table num="13" value="#800000" /><color-in-table num="14" value="#808000" /><color-in-table num="15" value="#808080" /><color-in-table num="16" value="#C0C0C0" /></color-table><style-table><paragraph-styles><paragraph-style-in-table adjust-right="true" align="cent" based-on-style="Normal" font-size="13.00" font-style="DTI" italics="true" keep-with-next="true" language="Swedish" name="heading 1" nest-level="0" next-style="Normal" num="1" widow-control="true" /><paragraph-style-in-table adjust-right="true" font-size="10.00" font-style="DTI" language="Swedish" name="Normal" nest-level="0" next-style="Normal" num="0" widow-control="true" /><paragraph-style-in-table adjust-right="true" align="just" based-on-style="Normal" first-line-indent="35.40" font-style="DTI" keep-with-next="true" language="Swedish" line-spacing="18.00" name="heading 3" nest-level="0" next-style="Normal" num="3" widow-control="true" /><paragraph-style-in-table adjust-right="true" based-on-style="Normal" font-style="DTI" keep-with-next="true" language="Swedish" name="heading 2" nest-level="0" next-style="Normal" num="2" widow-control="true" /><paragraph-style-in-table adjust-right="true" based-on-style="Normal" font-style="Times" language="English British" name="header" nest-level="0" next-style="header" num="15" tabs="center:226.80;right:453.60;" widow-control="true" /></paragraph-styles><character-styles><character-style-in-table name="Default Paragraph Font" num="10" /><character-style-in-table based-on-style="Default Paragraph Font" bold="true" name="Strong" num="16" /></character-styles><styles-in-body><paragraph-style-in-body adjust-right="true" font-size="10.00" font-style="DTI" language="Swedish" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0001" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true" /><paragraph-style-in-body adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true" /><paragraph-style-in-body adjust-right="true" font-style="DTI" keep-with-next="true" language="Swedish" line-spacing="18.00" name="heading 2" nest-level="0" style-number="s0004" widow-control="true" /><paragraph-style-in-body adjust-right="true" align="just" font-size="10.00" font-style="DTI" language="Swedish" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0005" widow-control="true" /></styles-in-body></style-table><list-table><list-in-table list-table-id="216354957" list-template-id="-859565850"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="20" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="618611908" list-template-id="68485137"><level-in-table first-line-indent="-18.00" left-indent="18.00" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="1" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="692802593" list-template-id="-1632840430"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="25" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="1018003364" list-template-id="990532838"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="95" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="1151865918" list-template-id="1695424792"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="70" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="1334719863" list-template-id="-1621970180"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="40" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="1356273402" list-template-id="942967194"><level-in-table first-line-indent="-35.40" left-indent="35.40" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="5" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table><list-in-table list-table-id="1871912560" list-template-id="-419774810"><level-in-table first-line-indent="-65.25" left-indent="65.25" level="1" level-indent="0" level-numbers="\'01;" level1-suffix=")" list-number-start="15" list-space="0.00" list-text-length="2" numbering-type="Arabic" show-level1="true" /></list-in-table></list-table><override-table><override-list list-id="1" list-table-id="618611908" /><override-list list-id="2" list-table-id="1356273402" /><override-list list-id="3" list-table-id="692802593" /><override-list list-id="4" list-table-id="1334719863" /><override-list list-id="5" list-table-id="1871912560" /><override-list list-id="6" list-table-id="1018003364" /><override-list list-id="7" list-table-id="1151865918" /><override-list list-id="8" list-table-id="216354957" /></override-table><doc-information><title>AnnaVasas brev</title><year>"1519-1612"</year><author>Mariann Saurow</author><operator>Lars Olof
+Delsing</operator><creation-time day="2" minute="33" month="1" year="2004" /><revision-time day="2" month="1" year="2004" /><editing-time editing-time="3" /><number-of-pages number-of-pages="16" /><number-of-words number-of-words="7675" /><number-of-characters number-of-characters="32235" /><begin>1519</begin><end>1612</end></doc-information><page-definition gutter="0" margin-bottom="70.85" margin-left="70.85" margin-right="70.85" margin-top="70.85" paper-height="841.90" paper-width="595.30" /></preamble><body><paragraph /><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev
+1</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Wår nådige helsen
+besÿnnerlig ÿnnest och nådige benägenhet med Gud till
+förende. Wij wele eder käre,</inline><inline font-size="12.00" font-style="Times New Roman" subscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"> frencke fröken Sigrid, nådeligen icke
+förhålle, att den edle welborne, her Christoffer Skenck, Frijherre
+till Tautenborg hafuer flijteligen begäred af oß, att wij wille
+wittne till hans vnge Sons och lifz erfwinges döpellse som Gud
+Alzmechtig honom med sin elskelige käre hwsfru gifuit och
+förlänt hafuer och hielpe honom till Christendomen, Så efter
+ded wij icke kunne på denne tid ware der tillstedes och sielfue
+göre welb[or]ne her Christoffer Skenckz begären fÿllest,
+Är wår nådige begären att i på wåre wegne wele
+förmelle förelderne mÿken lÿcke till samme deres unge
+lifzerfuinge att han motte opwexe Gud till ähre och dem till hugnad och
+gledie, och seden udi lijke motto på wåre wegne hielpe barned till
+döpellsen och Cristendomen. Wij äre eder igen med all ÿnnest
+och nåde benegne, Gud Alzmechtig eder befa</inline><inline font-size="12.00" font-style="Times New Roman">lendes. Datum Stockholm denn
 12 Martij Anno Domini
-1591</inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para /><para><inline font-size="12.00" font-style="Times New Roman">Brev
-2</inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" keep-with-next="true" language="Swedish" line-spacing="18.00" name="heading 2" nest-level="0" style-number="s0004" widow-control="true"><para><inline font-style="Times New Roman">W&#229;r
-&#255;nesth och n&#229;dige benegenhet alltidh till f&#246;rende. Kere
-d&#229;ter, iagh kan er icke f&#246;r h&#229;lle ath gwdh allzmectig hawer
-s&#229; n&#229;digth och well f&#246;r l&#229;&#223;edh
-dr&#229;ningen</inline><inline font-style="Times New Roman" superscript="true"> </inline><inline font-style="Times New Roman">och gewedh
-han&#223; maiestedh en stor l&#229;ng d&#229;ter. Han&#223; allzmegtihet
-hene&#223; maiestedh och mith lille gr&#255;n enw widere hiellpe och
-st&#255;rcke sith namn till ere och o&#223; alle till hwgnedh. Kere siridh,
-hwrw gladh tro i ath iagh er s&#229;m nw f&#229;r n&#229;gedh gi&#246;re
-&#229;m dagen och lecke medh den lille. Di ha banedh meg rede f&#246;r dedh
-iagh taller s&#229; m&#255;cked medh hene, men iag f&#246;r swarer meg dedh
-beste iagh kan ath iag m&#229;ste gi&#246;re kwnskap medh hene. Hon er
-s&#229; n&#255;llige k&#229;men, men dedh er dedh werste hon swarer intedh
+1591</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev
+2</inline></para></paragraph><paragraph><para><inline font-style="Times New Roman">Wår
+ÿnesth och nådige benegenhet alltidh till förende. Kere
+dåter, iagh kan er icke för hålle ath gwdh allzmectig hawer
+så nådigth och well för låßedh
+dråningen</inline><inline font-style="Times New Roman" superscript="true"> </inline><inline font-style="Times New Roman">och gewedh
+hanß maiestedh en stor lång dåter. Hanß allzmegtihet
+heneß maiestedh och mith lille grÿn enw widere hiellpe och
+stÿrcke sith namn till ere och oß alle till hwgnedh. Kere siridh,
+hwrw gladh tro i ath iagh er såm nw får någedh giöre
+åm dagen och lecke medh den lille. Di ha banedh meg rede för dedh
+iagh taller så mÿcked medh hene, men iag för swarer meg dedh
+beste iagh kan ath iag måste giöre kwnskap medh hene. Hon er
+så nÿllige kåmen, men dedh er dedh werste hon swarer intedh
 wten wrider sin lille mwn och sticker wth twgen. </inline><inline font-style="Times New Roman" superscript="true"> </inline><inline font-style="Times New Roman">Der aff kan iagh fwlle tencke ath hon
-f&#246;rst&#229;r intedh hwadh iagh seger, och har waredh i storth siellff
-sw&#229;l her till. Hon har reth inge i&#229;mfrw later p&#229; segh och
-leter manf&#229;llcken se segh nacken och anedh s&#229;denth mer s&#229;m
-f&#246;r l&#229;ngth wore ath skriwe . Kere siridh, s&#229; kan iagh er icke
-f&#246;r h&#229;lle ath dr&#229;ningen har gewedh meg n&#229;ged ath
-gi&#246;re &#229;th segh, tw k&#229;rnet och en barne linde, och skwlle dedh
-fwlle ware medh dedh snareste giorth och megh om&#246;gelligedh ath
-gi&#246;re s&#229; hastigt ferdigt en samen. S&#229; har iagh och n&#229;gre
-k&#229;rneth s&#229;m iag wille gerne hawe f&#246;r megh siellff s&#229;m i
-fwlle wete. S&#229; ber iagh er ath i wille sk&#255;nde er medh dedh snareste
-hith och hiellpe meg arbete, f&#246;r iagh har ingen s&#229;m kan och
-elliesth t&#255;cker megh i hawe waredh s&#229; lenge b&#229;rte, och seger
-er s&#255;ster frw ebbe ath iag er intedh well till fredz medh hene ath hon
-har intedh h&#229;lledh ordh. Hon l&#229;wede megh ath i skwlle intedh ware
-lenger b&#229;rte en i fiorten dager, och dedh er 5 wecker seden i droge
-b&#229;rt. Iag skriwer dr&#229;ningen och till der &#229;m &#229;ch ber
-han&#223; konglighet will nw intedh h&#229;lle er l&#228;nger &#229;pe
-s&#229; och &#229;m || andre ere sacker s&#229; ath man t&#246;r intedh
-frwchte f&#246;r kongens on&#229;de. Iagh h&#229;pe&#223; han&#223;
-konglighet later er fwlle se mith breff. I wille och s&#229; lage ath ner
-dedh er lesedh ath dedh m&#229;te bliwe &#229;p brenth. Nw far well min
-hierten&#223; siridh. K&#229;mer dw icke snarth s&#229; skall iagh allrig
-pase p&#229; degh och will fwllth och fasth tro ath dedh er din skwl
-</inline><inline font-style="Times New Roman">dw will intedh k&#229;me.
-</inline><inline font-style="Times New Roman">Hellze din s&#255;ster och
-fr&#246;cken brite p&#229; mine wegne.</inline></para><para /><para><inline font-style="Times New Roman">Brev
-3</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-size="10.00" font-style="DTI" language="Swedish" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0005" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">Min kere siridh. Iagh &#246;nsker er m&#255;cken l&#255;cke
-och kan er icke f&#246;r h&#229;lle ath frw mor encke dr&#229;ningen hawer
+förstår intedh hwadh iagh seger, och har waredh i storth siellff
+swål her till. Hon har reth inge iåmfrw later på segh och
+leter manfållcken se segh nacken och anedh sådenth mer såm
+för långth wore ath skriwe . Kere siridh, så kan iagh er icke
+för hålle ath dråningen har gewedh meg någed ath
+giöre åth segh, tw kårnet och en barne linde, och skwlle dedh
+fwlle ware medh dedh snareste giorth och megh omögelligedh ath
+giöre så hastigt ferdigt en samen. Så har iagh och någre
+kårneth såm iag wille gerne hawe för megh siellff såm i
+fwlle wete. Så ber iagh er ath i wille skÿnde er medh dedh snareste
+hith och hiellpe meg arbete, för iagh har ingen såm kan och
+elliesth tÿcker megh i hawe waredh så lenge bårte, och seger
+er sÿster frw ebbe ath iag er intedh well till fredz medh hene ath hon
+har intedh hålledh ordh. Hon låwede megh ath i skwlle intedh ware
+lenger bårte en i fiorten dager, och dedh er 5 wecker seden i droge
+bårt. Iag skriwer dråningen och till der åm åch ber
+hanß konglighet will nw intedh hålle er länger åpe
+så och åm || andre ere sacker så ath man tör intedh
+frwchte för kongens onåde. Iagh håpeß hanß
+konglighet later er fwlle se mith breff. I wille och så lage ath ner
+dedh er lesedh ath dedh måte bliwe åp brenth. Nw far well min
+hiertenß siridh. Kåmer dw icke snarth så skall iagh allrig
+pase på degh och will fwllth och fasth tro ath dedh er din skwl
+</inline><inline font-style="Times New Roman">dw will intedh kåme.
+</inline><inline font-style="Times New Roman">Hellze din sÿster och
+fröcken brite på mine wegne.</inline></para></paragraph><paragraph><para><inline font-style="Times New Roman">Brev
+3</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Min kere siridh. Iagh önsker er mÿcken lÿcke
+och kan er icke för hålle ath frw mor encke dråningen hawer
 skrewedh megh till ath hon hawer gewedh erick biellcke eth entlliged swar
-p&#229; han&#223; till tall,  men p&#229; hwadh seth weth iagh intedh.
-Hene&#223; konglighet</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">skriwer intedh der &#229;m, wten s&#229; ath her
-gustaff skall berete &#229;&#223;. S&#229; efter n&#229;gre dager ere
-f&#246;r lwpne och iag f&#229;r ingen widere beskedh, kan iagh icke hawe
-f&#246;r dragh ath skriwe er till och begerer intedh mere wete en dedh
-&#229;m i lete er n&#246;ie medh de swar heller icke. Eredh s&#229;m i
+på hanß till tall,  men på hwadh seth weth iagh intedh.
+Heneß konglighet</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">skriwer intedh der åm, wten så ath her
+gustaff skall berete åß. Så efter någre dager ere
+för lwpne och iag får ingen widere beskedh, kan iagh icke hawe
+för dragh ath skriwe er till och begerer intedh mere wete en dedh
+åm i lete er nöie medh de swar heller icke. Eredh såm i
 ger</inline><inline font-size="12.00" font-style="Times New Roman">ne se
-s&#229; wille w&#255; hiertellige glede&#223; medh er, </inline><inline font-size="12.00" font-style="Times New Roman">men hwar och icke s&#229; weth
-gwdh ath dedh g&#229;r &#229;&#223; h&#229;rth till hiertedh. Min alle
-kereste siridh, haff intedh f&#246;rdollth f&#246;r megh. Iagh skall allrigh
-swicke degh s&#229; lenge iag lewer wten gerne se din l&#255;cke och hiellpe
-der till s&#229; m&#255;ckedh iag kan. S&#229; hiellpe meg gwdh den iag och
+så wille wÿ hiertellige gledeß medh er, </inline><inline font-size="12.00" font-style="Times New Roman">men hwar och icke så weth
+gwdh ath dedh går åß hårth till hiertedh. Min alle
+kereste siridh, haff intedh fördollth för megh. Iagh skall allrigh
+swicke degh så lenge iag lewer wten gerne se din lÿcke och hiellpe
+der till så mÿckedh iag kan. Så hiellpe meg gwdh den iag och
 will </inline><inline font-size="12.00" font-style="Times New Roman">ha deg
-befalledh min alle kereste siridh. </inline><inline font-size="12.00" font-style="Times New Roman">Seden dene sedell war skrewen fick iagh f&#246;rst
+befalledh min alle kereste siridh. </inline><inline font-size="12.00" font-style="Times New Roman">Seden dene sedell war skrewen fick iagh först
 </inline><inline font-size="12.00" font-style="Times New Roman">wete ath i
-ere her, men </inline><inline font-size="12.00" font-style="Times New Roman">lell m&#229;ste iagh senden &#229;stadh. Estw gladh s&#229;
-lat meg medh eth ord wete s&#229; s&#229;wer iag medh ro i
-nath.</inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">Brev
-4</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">W&#229;r &#255;nesth och
-n&#229;dige ben&#228;genhet medh gwdh allzmectigh alltidh till f&#246;rende.
-Alle kereste siri </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">iagh kan er icke f&#246;r h&#229;lle dedh iagh till
+ere her, men </inline><inline font-size="12.00" font-style="Times New Roman">lell måste iagh senden åstadh. Estw gladh så
+lat meg medh eth ord wete så såwer iag medh ro i
+nath.</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev
+4</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Wår ÿnesth och
+nådige benägenhet medh gwdh allzmectigh alltidh till förende.
+Alle kereste siri </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">iagh kan er icke för hålle dedh iagh till
 </inline><inline font-size="12.00" font-style="Times New Roman">dene tidh
-hawer waredh wedh godh hellze. </inline><inline font-size="12.00" font-style="Times New Roman">Gwdh gewe megh de same tidender i f[r]&#229; er igen. Och
-weth gwdh hwrw h&#229;rth i lige megh p&#229; sinedh och hwrw m&#229;nge
-tancker iagh har giorth megh om er ath &#255;</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+hawer waredh wedh godh hellze. </inline><inline font-size="12.00" font-style="Times New Roman">Gwdh gewe megh de same tidender i f[r]å er igen. Och
+weth gwdh hwrw hårth i lige megh på sinedh och hwrw månge
+tancker iagh har giorth megh om er ath ÿ</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
 </inline><inline font-size="12.00" font-style="Times New Roman">intedh skwlle
-m&#229; well efter i hawe icke latedh megh wete i s&#229; l&#229;ngh tidh
-hwrw i m&#229; heller &#229;m i &#228;re well fram k&#229;men. Och der
-f&#246;re hawer iagh intedh l&#228;nger welledh f&#246;r dr&#246;ie wten
-afferdige dene min tienere till er ath f&#246;r wete megh hwrw er
-l&#228;genheth &#228;r. Och der i icke &#229;rcke siellff skriwe s&#229; ber
-er man, f&#246;r iagh kan allrigh ware till fredz f&#246;r en iagh weth hwrw
-ded st&#229;r till medh er. Min hierten&#223; siridh, dedh moderllige och
-kere hierte iagh har alltid hafth till er och i s&#255;nerhet seden i
-k&#229;me i mith wmgenge dedh p&#229; miner megh er alle d[ager] [...]ath,
-tencke efter allth dedh er kan l&#228;nde till </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">[...]barbro [...]re er </inline><inline font-size="12.00" font-style="Times New Roman">[&#8230;]ia</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> -</inline><inline font-size="12.00" font-style="Times New Roman">|| </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
-</inline><inline font-size="12.00" font-style="Times New Roman">L&#228;ter
-megh och wete om erick biellcke har wnder skrewedh den f&#246;r segllingen
-heller icke s&#229; och om dedh andre iag badh er ner wi skillde&#223;
-&#229;th. </inline><inline font-size="12.00" font-style="Times New Roman">H&#228;r medh befaller iagh er och er kere man den trogn[e]
+må well efter i hawe icke latedh megh wete i så långh tidh
+hwrw i må heller åm i äre well fram kåmen. Och der
+före hawer iagh intedh länger welledh för dröie wten
+afferdige dene min tienere till er ath för wete megh hwrw er
+lägenheth är. Och der i icke årcke siellff skriwe så ber
+er man, för iagh kan allrigh ware till fredz för en iagh weth hwrw
+ded står till medh er. Min hiertenß siridh, dedh moderllige och
+kere hierte iagh har alltid hafth till er och i sÿnerhet seden i
+kåme i mith wmgenge dedh på miner megh er alle d[ager] [...]ath,
+tencke efter allth dedh er kan lände till </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">[...]barbro [...]re er </inline><inline font-size="12.00" font-style="Times New Roman">[…]ia</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> -</inline><inline font-size="12.00" font-style="Times New Roman">|| </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+</inline><inline font-size="12.00" font-style="Times New Roman">Läter
+megh och wete om erick biellcke har wnder skrewedh den för segllingen
+heller icke så och om dedh andre iag badh er ner wi skilldeß
+åth. </inline><inline font-size="12.00" font-style="Times New Roman">Här medh befaller iagh er och er kere man den trogn[e]
 </inline><inline font-size="12.00" font-style="Times New Roman">gwdh till
-liff och siell. Han late sin hellige wellsignellse ware och bliwe &#246;wer
-er s&#229;m en stark ski&#246;lld moth alle dem er onth mene och late er
-f&#246;rnime ath han har er ker f&#246;r dedh trogne hierte i hawe alltidh
-hafth till megh dedh iagh  allrig skall f&#246;r g&#228;te wten till dedh
-beste i hwgh k&#229;me s&#229; l&#228;nge iagh lewer. </inline><inline font-size="12.00" font-style="Times New Roman">Nw ade mein hertz alle libeste
+liff och siell. Han late sin hellige wellsignellse ware och bliwe öwer
+er såm en stark skiölld moth alle dem er onth mene och late er
+förnime ath han har er ker för dedh trogne hierte i hawe alltidh
+hafth till megh dedh iagh  allrig skall för gäte wten till dedh
+beste i hwgh kåme så länge iagh lewer. </inline><inline font-size="12.00" font-style="Times New Roman">Nw ade mein hertz alle libeste
 siri zw hwdert zw tawsent mahll gwter nacht. Gwdh beware degh och late megh
-skee den </inline><inline font-size="12.00" font-style="Times New Roman">gleden ath iag m&#229;te s&#229; frith hawe dith
-d&#255;gdellige wmgenge h&#228;r &#228;fte[r]</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
-</inline><inline font-size="12.00" font-style="Times New Roman"> s&#229;m
-hert till och fine dem alle s&#229;m dedh welle f&#246;r hindre. Datum stecke
-b&#229;rg den 3 december
-[...]</inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">Brev
-5</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">Min hierten&#223; alle kereste
+skee den </inline><inline font-size="12.00" font-style="Times New Roman">gleden ath iag måte så frith hawe dith
+dÿgdellige wmgenge här äfte[r]</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+</inline><inline font-size="12.00" font-style="Times New Roman"> såm
+hert till och fine dem alle såm dedh welle för hindre. Datum stecke
+bårg den 3 december
+[...]</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev
+5</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Min hiertenß alle kereste
 sirid. </inline><inline font-size="12.00" font-style="Times New Roman">Dedh i
-moto ware [wedh] hellzen och all l&#255;ckelligh well m&#229;ge beg&#229;wedh
+moto ware [wedh] hellzen och all lÿckelligh well måge begåwedh
 wore ded [...] megh weth gwdh daff allth meth hierte kerth ath
-f&#246;rnim[me.] </inline><inline font-size="12.00" font-style="Times New Roman">Der ho&#223; kan iagh icke hawe er of&#246;r mellth dedh
+förnim[me.] </inline><inline font-size="12.00" font-style="Times New Roman">Der hoß kan iagh icke hawe er oför mellth dedh
 iagh </inline><inline font-size="12.00" font-style="Times New Roman">gwdh
-te&#223; loff er wedh godh hellze. Gwdh allzmectigh hiellpe megh till allth
-dedh megh n&#255;tichth och sallicht er. Den ne&#223; later iagh er
-f&#246;rnime ath kongelighe maiestedh min kere herr broder har senth
-artziewsk&#255; till megh och later megh wete dedh han&#223; kongelighe
+teß loff er wedh godh hellze. Gwdh allzmectigh hiellpe megh till allth
+dedh megh nÿtichth och sallicht er. Den neß later iagh er
+förnime ath kongelighe maiestedh min kere herr broder har senth
+artziewskÿ till megh och later megh wete dedh hanß kongelighe
 maiestedh och droningh ere wedh godh hellze, dedh megh har waredh en stor
-fr&#246;gdh ath f&#246;rnime. </inline><inline font-size="12.00" font-style="Times New Roman">Der ho&#223; ath om gwdh tecke&#223; spare han&#223;
-kongelighe maieste&#223; liff och hellze d&#229; will han&#223; kongelighe
-maiestedh wisth i dene s&#229;mer bes&#246;cke sith kere federne&#223; landh
-dedh gwdh late skee i en l&#255;ckesalligh sthwndh, och i sin skriwellze
-lower och till seger megh dedh ath efter hanz kongelighe maieste&#223; breff
-och befallningh intedh gorde till sacken i s&#246;derk&#246;pingh ath erick
-bielke och de andre s&#229;m s&#229; of&#246;r skemth hawe bode skrefwedh och
-talledh er och mith frwgentimer och megh siellff till st&#246;rste wanheder
-och f&#246;r klenningh will han&#223; kongelighe maiestedh icke late bliwe
-ostraffedh, wten medh reten fwll f&#246;llie, der f&#246;re han&#223;
-kongelighe maiestedh icke nogh samth er till ath tacke wten h&#246;gellige
-till ber&#246;me och will hope&#223; ath den harm och f&#246;rtreth iagh har
-lededh der f&#246;re skall </inline><inline font-size="12.00" font-style="Times New Roman">k&#229;me dem swrth efter s&#229;m billicht er. D[er]
-nesth, min hierten&#223; siridh, later iagh er f&#246;rnime ath han&#223;
-kongelighe maiestedh hawer efter </inline><inline font-size="12.00" font-style="Times New Roman">eth l&#229;ngth och tidicht betenckende giorth eth
-entlligedh beslwth medh den sacken. </inline><inline font-size="12.00" font-style="Times New Roman">Er well</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">weterlligedh gwdh s&#229;m hawer </inline><inline font-size="12.00" font-style="Times New Roman">l&#229;wedh ware alle
-faderll&#246;se&#223; fader och alles ellende&#223; f&#246;r swar, han
-werdigesth late ware sketh i en godh och l&#255;ckesam stwndh, han&#223;
+frögdh ath förnime. </inline><inline font-size="12.00" font-style="Times New Roman">Der hoß ath om gwdh teckeß spare hanß
+kongelighe maiesteß liff och hellze då will hanß kongelighe
+maiestedh wisth i dene såmer besöcke sith kere federneß landh
+dedh gwdh late skee i en lÿckesalligh sthwndh, och i sin skriwellze
+lower och till seger megh dedh ath efter hanz kongelighe maiesteß breff
+och befallningh intedh gorde till sacken i söderköpingh ath erick
+bielke och de andre såm så oför skemth hawe bode skrefwedh och
+talledh er och mith frwgentimer och megh siellff till störste wanheder
+och för klenningh will hanß kongelighe maiestedh icke late bliwe
+ostraffedh, wten medh reten fwll föllie, der före hanß
+kongelighe maiestedh icke nogh samth er till ath tacke wten högellige
+till beröme och will hopeß ath den harm och förtreth iagh har
+lededh der före skall </inline><inline font-size="12.00" font-style="Times New Roman">kåme dem swrth efter såm billicht er. D[er]
+nesth, min hiertenß siridh, later iagh er förnime ath hanß
+kongelighe maiestedh hawer efter </inline><inline font-size="12.00" font-style="Times New Roman">eth långth och tidicht betenckende giorth eth
+entlligedh beslwth medh den sacken. </inline><inline font-size="12.00" font-style="Times New Roman">Er well</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">weterlligedh gwdh såm hawer </inline><inline font-size="12.00" font-style="Times New Roman">låwedh ware alle
+faderllöseß fader och alles ellendeß för swar, han
+werdigesth late ware sketh i en godh och lÿckesam stwndh, hanß
 allzmectighet till ere och megh staker till glede. Hwrw hiertellige hepen och
-bek&#255;mredh iagh er kan iagh allrig klage, men gwdh s&#229;m min
-hierten&#223; sorgh och ellendighet en tidh longh har seth wende min sorgh i
-gllede om m&#246;ge</inline><inline font-size="12.00" font-style="Times New Roman">ligedh er ath bedie. </inline><inline font-size="12.00" font-style="Times New Roman">Och sender iagh er min hierten&#223; nosewi&#223;
-n&#229;gre pomeran&#223; till ongef&#228;r 33 qvintin st&#255;cke. Tar
-f&#246;r goth ner iagh kan|| bek&#229;me flere och elliesth anedh s&#229;m er
-kan ware tienelliged will iagh intedh f&#246;rswme. </inline><inline font-size="12.00" font-style="Times New Roman">Sender er nw thwsen hwndrede
-godh nath m&#239;n hiertekorn. </inline><inline font-size="12.00" font-style="Times New Roman">Gwdh beware er till liff och siell. Hellser er herre medh
-min n&#229;dige benegenheth och m&#255;ckedh g&#229;th p&#229; mine wegne.
-Datum stecke b&#229;rgh den </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">22 aprill. Iagh sender er hwith samet och en bage
-och ber i wille gi&#246;re tw&#229; der aff till dr&#229;ningen&#223; behoff
-s&#229; l&#229;nge s&#229;m den er men s&#229; l&#229;ge s&#229;m dedh er
+bekÿmredh iagh er kan iagh allrig klage, men gwdh såm min
+hiertenß sorgh och ellendighet en tidh longh har seth wende min sorgh i
+gllede om möge</inline><inline font-size="12.00" font-style="Times New Roman">ligedh er ath bedie. </inline><inline font-size="12.00" font-style="Times New Roman">Och sender iagh er min hiertenß nosewiß
+någre pomeranß till ongefär 33 qvintin stÿcke. Tar
+för goth ner iagh kan|| bekåme flere och elliesth anedh såm er
+kan ware tienelliged will iagh intedh förswme. </inline><inline font-size="12.00" font-style="Times New Roman">Sender er nw thwsen hwndrede
+godh nath mïn hiertekorn. </inline><inline font-size="12.00" font-style="Times New Roman">Gwdh beware er till liff och siell. Hellser er herre medh
+min nådige benegenheth och mÿckedh gåth på mine wegne.
+Datum stecke bårgh den </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">22 aprill. Iagh sender er hwith samet och en bage
+och ber i wille giöre twå der aff till dråningenß behoff
+så långe såm den er men så låge såm dedh er
 medh swart afftecknedh. Iagh hade gerne siellff giorth dem och intedh
-bem&#246;th er efter iagh weth er legenhet men dedh tar intedh lagh. Far well
+bemöth er efter iagh weth er legenhet men dedh tar intedh lagh. Far well
 min sirid. Bren op
-brefedh.</inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">Brev
-6</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">W&#229;r &#255;nesth och
-n&#229;dige ben&#228;genhet medh gwdh alltidh till f&#246;rende . W&#255;
-hawe i dag bek&#229;medh er skriwellze herr iahan g&#255;llenstierne och der
-aff medh stor hierten&#223; fr&#246;gdh f&#246;rnwmedh ath gwdh allzmectigh
-hawer s&#229; n&#229;dellige och well f&#246;r l&#229;sedh eder kere hws frw
-och hwgnedh er b&#229;de medh en wngh s&#229;n. Han&#223; allzmechtigheth
-ware ewinerllige l&#229;ff s&#229;m s&#229; n&#229;dellige har seth till hene
-och hwllpedh hene aff medh den sw&#229;re b&#246;rden. Han werdigesth och
-snarth hiellpe h&#228;ne till sin f&#246;re h&#228;llze och st&#255;rcke igen
-widere. Dedh i beg&#228;re ath w&#255; wille medh w&#229;r ner warellze
-hiellpe er lille s&#229;n till dop och kristendom s&#229; twiwlle w&#255;
-inted ath i b&#229;de ere medh w&#229;r n&#229;dige benegenheth nogsamt
-f&#246;r s&#228;ckrede ath w&#255; g&#228;rne gi&#246;re f&#246;r
-b&#228;ge&#223; ere skwl allth dedh &#229;&#223; &#228;r m&#246;gelligedh
-icke di&#223; minder &#228;fter s&#229;m w&#229;r l&#228;genhet nw &#228;r
-m&#229;ste w&#255; dedh g&#246;n&#229;m n&#229;gen anen wth r&#228;te. En
-dogh  dedh wore s&#229; ath w&#255; medh w&#229;r person kwne ware der
-p&#229; den tidh skwlle den wegen intedh ware o&#223; f&#246;r l&#229;ngh
-h&#228;ller beswerlligh. Men  &#228;fter dedh f&#246;r n&#229;gre orsacker
-sk&#255; icke kan skee h&#229;pe&#223; w&#255; ath i hawe o&#223;
-&#228;nthsk&#255;lledh. &#196;lliesth ath bewise er all n&#229;digh
-ben&#228;genhet ere w&#255; alldelle&#223; benegne och wille hawe er her med
-gwdh befalledh. Hellser er hwsfru medh w&#229;r n&#229;dige ben&#228;genhet.
-Datum stecke b&#229;rg den 5
-iul&#255;</inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">Brev 7</inline></para><para><inline font-size="12.00" font-style="Times New Roman">Min alle k&#228;reste frw siridh. Iagh hawer
-bek&#229;medh eder skriwellze dedh gwdh allzmectigh hawer n&#229;dellige seth
-till er och hwllpedh er till n&#229;gen st&#255;rcke igen, der f&#246;re iagh
-gwdh daff hiertedh inerlligen tacker och der ho&#223; flitelligen
-bediende&#223; ath i m&#229;te k&#229;me till fwll k&#229;mellig h&#228;llze
-i gen. Och har iagh waredh s&#229; m&#255;ckedh bedr&#246;wedh och frwchtedh
-hwrw dedh skwlle nw ware medh er, &#228;fter frw margrete s&#229;
-&#255;nckellige skreff hith om er swage l&#228;genhet, der f&#246;re torde
-iagh intedh sende bwdh till er. Iagh war redh ath w&#229;r h&#228;re hade
-tagedh deg fr&#229;n </inline><inline font-size="12.00" font-style="Times New Roman">m&#228;gh, min hierten&#223; alle kereste siridh, men gwdh
-ware </inline><inline font-size="12.00" font-style="Times New Roman">l&#229;wedh s&#229;m dedh till b&#228;tring har f&#246;r
-andredh. Men dedh i hawe skrewedh medh egen h&#229;n skwlle i ingen tack ha
-f&#246;re, f&#246;r i k&#229;me well i hwgh ath iagh badh er ath ner gwdh
-wille f&#246;r l&#229;se er ath i ingen tingh skwlle arbete h&#228;ller
-skriwe f&#246;r &#228;n de 6 wecker wore wte, men min n&#228;sewis pa&#223;
-intedh p&#229; mith f&#246;r bwdh. Der skwlle hon ha ri&#223; f&#246;re, min
-hierte korn</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">. Dedh i begere wete om min l&#228;genhet s&#229; tacker
-iagh gwdh f&#246;r h&#228;llzen. &#196;lliesth &#228;r intedh
-s&#255;nerlligedh f&#246;re falledh dedh iag kan skriwe, men n&#228;r gwdh
-will iagh f&#229;r n&#229;gedh wete om min l&#228;genhet s&#229; will iagh
-intedh f&#246;r swme ath skriwe. H&#228;r m&#228;dh twsen godh nath min
-hierten&#223; </inline><inline font-size="12.00" font-style="Times New Roman">sirid. Den ewige gwdh befaller iagh degh. Han
+brefedh.</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev
+6</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Wår ÿnesth och
+nådige benägenhet medh gwdh alltidh till förende . Wÿ
+hawe i dag bekåmedh er skriwellze herr iahan gÿllenstierne och der
+aff medh stor hiertenß frögdh förnwmedh ath gwdh allzmectigh
+hawer så nådellige och well för låsedh eder kere hws frw
+och hwgnedh er både medh en wngh sån. Hanß allzmechtigheth
+ware ewinerllige låff såm så nådellige har seth till hene
+och hwllpedh hene aff medh den swåre börden. Han werdigesth och
+snarth hiellpe häne till sin före hällze och stÿrcke igen
+widere. Dedh i begäre ath wÿ wille medh wår ner warellze
+hiellpe er lille sån till dop och kristendom så twiwlle wÿ
+inted ath i både ere medh wår nådige benegenheth nogsamt
+för säckrede ath wÿ gärne giöre för
+bägeß ere skwl allth dedh åß är mögelligedh
+icke diß minder äfter såm wår lägenhet nw är
+måste wÿ dedh gönåm någen anen wth räte. En
+dogh  dedh wore så ath wÿ medh wår person kwne ware der
+på den tidh skwlle den wegen intedh ware oß för långh
+häller beswerlligh. Men  äfter dedh för någre orsacker
+skÿ icke kan skee håpeß wÿ ath i hawe oß
+änthskÿlledh. Älliesth ath bewise er all nådigh
+benägenhet ere wÿ alldelleß benegne och wille hawe er her med
+gwdh befalledh. Hellser er hwsfru medh wår nådige benägenhet.
+Datum stecke bårg den 5
+iulÿ</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev 7</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Min alle käreste frw siridh. Iagh hawer
+bekåmedh eder skriwellze dedh gwdh allzmectigh hawer nådellige seth
+till er och hwllpedh er till någen stÿrcke igen, der före iagh
+gwdh daff hiertedh inerlligen tacker och der hoß flitelligen
+bediendeß ath i måte kåme till fwll kåmellig hällze
+i gen. Och har iagh waredh så mÿckedh bedröwedh och frwchtedh
+hwrw dedh skwlle nw ware medh er, äfter frw margrete så
+ÿnckellige skreff hith om er swage lägenhet, der före torde
+iagh intedh sende bwdh till er. Iagh war redh ath wår häre hade
+tagedh deg från </inline><inline font-size="12.00" font-style="Times New Roman">mägh, min hiertenß alle kereste siridh, men gwdh
+ware </inline><inline font-size="12.00" font-style="Times New Roman">låwedh såm dedh till bätring har för
+andredh. Men dedh i hawe skrewedh medh egen hån skwlle i ingen tack ha
+före, för i kåme well i hwgh ath iagh badh er ath ner gwdh
+wille för låse er ath i ingen tingh skwlle arbete häller
+skriwe för än de 6 wecker wore wte, men min näsewis paß
+intedh på mith för bwdh. Der skwlle hon ha riß före, min
+hierte korn</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">. Dedh i begere wete om min lägenhet så tacker
+iagh gwdh för hällzen. Älliesth är intedh
+sÿnerlligedh före falledh dedh iag kan skriwe, men när gwdh
+will iagh får någedh wete om min lägenhet så will iagh
+intedh för swme ath skriwe. Här mädh twsen godh nath min
+hiertenß </inline><inline font-size="12.00" font-style="Times New Roman">sirid. Den ewige gwdh befaller iagh degh. Han
 werdi</inline><inline font-size="12.00" font-style="Times New Roman">gest
-beware deg och din kere man och lite hiertekorn fr&#229;n all ol&#255;cke
-till liff och siell. War intedh wred p&#229; dr&#228;ngen ath iag har s&#229;
-l&#228;ne h&#229;lledh h&#229;n&#229;m
-&#229;pe</inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para /><para><inline font-size="12.00" font-style="Times New Roman">Brev
-8</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">Min alle kereste siridh. Gwdh
-weth hwrw gerne iagh </inline><inline font-size="12.00" font-style="Times New Roman">wille skriwe er ofte och m&#255;ckedh till, men iagh kan
-intedh k&#229;me der till f&#246;r m&#255;cken sw&#229;r hwfedh werck, men
-p&#229; dedh ath i icke skwlle tencke ath iag intedh k&#229;mer wener i hwgh
-l&#228;ngre &#228;n iagh ser dem wi[ll]</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"> iag bes&#246;cke er medh dene
-lille sedell och tacker er s&#229; gerne min hierte f&#246;r dedh i hawe
-s&#229; &#229;fte skreffed megh till och will medh dedh f&#246;rste megh
-&#228;r m&#246;gelligedh skriwe swar, men hwadh er bror her abraham&#223;
-sack till k&#229;mer har her nill&#223; skrewedh megh till och begerer meth
-r&#229;dh, och har iag skrewedh h&#229;m till och r&#229;r der till hwadh iag
-kan. Gwdh gewe sin hellige wellsignellse der till ath ded m&#229; skee
-s&#229;m gwdh &#228;r till &#228;re och dem p&#229; b&#228;ge sider till
-l&#229;ngwarigh glede . </inline><inline font-size="12.00" font-style="Times New Roman">Far  well min alle kerste hierten[&#223;] </inline><inline font-size="12.00" font-style="Times New Roman">sirid. Gwdh late deg alltid
-m&#229; well och wne meg den gleden om iag icke m&#229; se ath  iag d&#229;
-alltid m&#229;te sp&#246;rie dedh degh m&#229;te g&#229; well, och mith
-moderllige hierte skall iag allrig f&#246;r andre s&#229; l&#228;nge iagh
-lewer</inline></para><para /><para><inline font-size="12.00" font-style="Times New Roman">Brev 9</inline></para><para><inline font-size="12.00" font-style="Times New Roman">Min alle kiereste frw siridh. Gwdh allzmectigh
-beware er till liff och siell och late er gi&#246;re en s&#229; godh och
-l&#255;cksam rese ath iag m&#229;te allrig se er i s&#229;denth
-&#255;nckeligedh till st&#229;ndh s&#229;m nw n&#229;gre reser sket &#228;r,
-wten ath i nw gi&#246;n&#229;m di medell m&#229;te k&#229;me till er
-fwllk&#229;mellige hellze och well m&#229;ge. F&#246;r megh tacker iagh gwdh
-allzmectigh ath iagh er nw m&#255;ckedh b&#228;tre till pa&#223; &#228;n
-n&#229;r i droge b&#229;rth. B&#229;de i br&#255;stedh och hwfwd er iagh
-m&#255;</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">m&#255;ckedh betre och h&#229;pe&#223; ath iagh her p&#229;
-l&#229;bs&#229;w skall ha m&#255;cken betre hellze &#228;n i ckracko och ber
-ath i wist wille tro ath iag m&#229; well. Gwdh late megh s&#229; santh
-f&#229; h&#246;re ath i och i&#229;mf[r]w karin m&#229;te taff erth badh kene
-er f&#246;rbetring till er hellze och ber er b&#229;de ath i wille skriwe
-megh saningen till, f&#246;r iag tror s&#229; paselige n&#229;r i skriwe. Iag
-r&#228;&#223; i gi&#246;re intedh anedh wten gi&#246;re megh godh hwg. Iagh
-har bek&#229;medh tw breff fr&#229; er seden i droge heden och dedh tredie
-med dene breff wisere, och har iagh f&#246;rnwmedh ath i hawe lecht er wagner
-fr&#229;n breslow. Gwdh gewe ath i icke &#229;ngre, f&#246;rsth i siellff och
-s&#229; i&#229;mfrw karin f&#246;r sin onde side. Dedh hade waredh
-m&#255;ckedh b&#228;tre i hade legt wagn f&#246;r tingestedh och siellffwe
-setedh i wagnen. Fast dedh hade k&#229;stedh n&#229;gedh mer s&#229; hade
-dedh lell</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">waredh betre. Iagh &#228;r intedh well till fredz der medh.
-Der till medh s&#229; har i&#229;mfrw karin ingen och sende &#228;fter
-d&#229;chtere </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">om di intedh ere ner wedh h&#229;nd. Derf&#246;re
-s&#228;nder iagh han&#223; till backe igen, ath han blir ho&#223; i&#229;mfrw
+beware deg och din kere man och lite hiertekorn från all olÿcke
+till liff och siell. War intedh wred på drängen ath iag har så
+läne hålledh hånåm
+åpe</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev
+8</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Min alle kereste siridh. Gwdh
+weth hwrw gerne iagh </inline><inline font-size="12.00" font-style="Times New Roman">wille skriwe er ofte och mÿckedh till, men iagh kan
+intedh kåme der till för mÿcken swår hwfedh werck, men
+på dedh ath i icke skwlle tencke ath iag intedh kåmer wener i hwgh
+längre än iagh ser dem wi[ll]</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"> iag besöcke er medh dene
+lille sedell och tacker er så gerne min hierte för dedh i hawe
+så åfte skreffed megh till och will medh dedh förste megh
+är mögelligedh skriwe swar, men hwadh er bror her abrahamß
+sack till kåmer har her nillß skrewedh megh till och begerer meth
+rådh, och har iag skrewedh håm till och rår der till hwadh iag
+kan. Gwdh gewe sin hellige wellsignellse der till ath ded må skee
+såm gwdh är till äre och dem på bäge sider till
+långwarigh glede . </inline><inline font-size="12.00" font-style="Times New Roman">Far  well min alle kerste hierten[ß] </inline><inline font-size="12.00" font-style="Times New Roman">sirid. Gwdh late deg alltid
+må well och wne meg den gleden om iag icke må se ath  iag då
+alltid måte spörie dedh degh måte gå well, och mith
+moderllige hierte skall iag allrig för andre så länge iagh
+lewer</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev 9</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Min alle kiereste frw siridh. Gwdh allzmectigh
+beware er till liff och siell och late er giöre en så godh och
+lÿcksam rese ath iag måte allrig se er i sådenth
+ÿnckeligedh till ståndh såm nw någre reser sket är,
+wten ath i nw giönåm di medell måte kåme till er
+fwllkåmellige hellze och well måge. För megh tacker iagh gwdh
+allzmectigh ath iagh er nw mÿckedh bätre till paß än
+når i droge bårth. Både i brÿstedh och hwfwd er iagh
+mÿ</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">mÿckedh betre och håpeß ath iagh her på
+låbsåw skall ha mÿcken betre hellze än i ckracko och ber
+ath i wist wille tro ath iag må well. Gwdh late megh så santh
+få höre ath i och iåmf[r]w karin måte taff erth badh kene
+er förbetring till er hellze och ber er både ath i wille skriwe
+megh saningen till, för iag tror så paselige når i skriwe. Iag
+räß i giöre intedh anedh wten giöre megh godh hwg. Iagh
+har bekåmedh tw breff frå er seden i droge heden och dedh tredie
+med dene breff wisere, och har iagh förnwmedh ath i hawe lecht er wagner
+från breslow. Gwdh gewe ath i icke ångre, försth i siellff och
+så iåmfrw karin för sin onde side. Dedh hade waredh
+mÿckedh bätre i hade legt wagn för tingestedh och siellffwe
+setedh i wagnen. Fast dedh hade kåstedh någedh mer så hade
+dedh lell</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">waredh betre. Iagh är intedh well till fredz der medh.
+Der till medh så har iåmfrw karin ingen och sende äfter
+dåchtere </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">om di intedh ere ner wedh hånd. Derföre
+sänder iagh hanß till backe igen, ath han blir hoß iåmfrw
 karin och ber ath i wille skriwe megh medh eth aned bwdh till hwrw er rese
-&#228;r g&#229;ngen. F&#246;r ere barn skwlle i intedh tage er n&#229;gen
-&#229;nger. Di m&#229; alle well gwdh ware l&#229;ff och h&#229;pe&#223; i
-skwlle intedh kene d&#229;m igen n&#229;r i k&#229;me, s&#229;dane
-h&#246;wllige drenger skwlle di ware. Annusia</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+är gången. För ere barn skwlle i intedh tage er någen
+ånger. Di må alle well gwdh ware låff och håpeß i
+skwlle intedh kene dåm igen når i kåme, sådane
+höwllige drenger skwlle di ware. Annusia</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
 </inline><inline font-size="12.00" font-style="Times New Roman">leter seie
-frw silla god nat och k&#229;me ta&#223; hem.|| Hon twchter s&#229; sine
-br&#246;der dedh &#228;r nw welledh k&#229;medh i hene&#223; hender. Nw min
-frw sirid, gwdh befaller iagh er till liff och siell. Han late o&#223;
-fine&#223; medh hellze och gl&#228;de. Datum kracko den 11 ma&#255;.
-</inline></para><para /><para><inline font-size="12.00" font-style="Times New Roman">Brev 10.</inline></para><para><inline font-size="12.00" font-style="Times New Roman">Min Kaise. Iagh har bek&#229;medh er skriwellze och
+frw silla god nat och kåme taß hem.|| Hon twchter så sine
+bröder dedh är nw welledh kåmedh i heneß hender. Nw min
+frw sirid, gwdh befaller iagh er till liff och siell. Han late oß
+fineß medh hellze och gläde. Datum kracko den 11 maÿ.
+</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev 10.</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Min Kaise. Iagh har bekåmedh er skriwellze och
 de[r] </inline><inline font-size="12.00" font-style="Times New Roman">aff
-f&#246;rnwmedh ath i  skwlle ware wedh hellzen. </inline><inline font-size="12.00" font-style="Times New Roman">Dedh wore well om dedh er
-sant, men iag tror hallff parten f&#246;r er skwll, f&#246;r i wille intedh
-bedr&#246;we meg, men iagh later er medh saning  wete dedh iagh m&#229; gwdh
-skee l&#229;ff well. Gwdh late megh de same tidender h&#246;re fr&#229; frw
+förnwmedh ath i  skwlle ware wedh hellzen. </inline><inline font-size="12.00" font-style="Times New Roman">Dedh wore well om dedh er
+sant, men iag tror hallff parten för er skwll, för i wille intedh
+bedröwe meg, men iagh later er medh saning  wete dedh iagh må gwdh
+skee låff well. Gwdh late megh de same tidender höre frå frw
 </inline><inline font-size="12.00" font-style="Times New Roman">siridh och
 er. </inline><inline font-size="12.00" font-style="Times New Roman">Men dedh
-i ha sent wagnen och han&#223; i fr&#229;n er der er iag sleth intedh well
-till fredz med. Iag weth fwlle hwrw er b&#229;de lerer g&#229; n&#229;r i
-beg&#255;ne skacke er i de lede t&#255;ske wagner. Gwd f&#246;r l&#229;te frw
-siridh, s&#229; ille hon har giorth och i med. Nw kan iag intedh ware till
-fredz f&#246;r &#228;n iagh f&#229;r bwd fr&#229;n er . Mester andrese&#223;
-hwstrw har i dagh fot en d&#229;ter och er &#228;fter den l&#228;genheten
-t&#228;mellig starck. Nw gwdh beware deg min kasiw. Iagh &#229;rcker dene
-g&#229;ngen intedh mere skriwe f&#246;r iagh har lwped megh s&#229;
-tr&#246;th i tr&#228;g&#229;r </inline><inline font-size="12.00" font-style="Times New Roman">den . Datum 11
-ma&#255;.</inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">Brev 11</inline></para><para><inline font-size="12.00" font-style="Times New Roman">Min hierten&#223; kaise. Gwdh beware degh b&#229;de
-till liff och siell och late megh f&#229; de glade tidender ath dedh wore
-n&#229;ged h&#229;p p&#229; din l&#229;ng warige siwckdom  till en  godh och
-best&#229;ndig hellze. D&#229; will iagh intedh &#229;ngre
-ath</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">ath iagh hade s&#228;nth degh fr&#229;n megh s&#229;
-l&#229;ng en weg, och &#228;fter iagh weth hwrw dw  &#229;stwnder wete om min
-well m&#229;ge s&#229; tacker iagh gwdh f&#246;r temllig godh h&#228;llze och
-l&#228;ter megh gerne n&#246;ie der medh. Gwdh allzmectigh late &#229;&#223;
-fine&#223; b&#229;de medh glede igen. Der nest later iagh degh wete min kasiw
-dedh dine kotker m&#229; well, allene den ene har waredh n&#229;gedh swag,
-f&#246;r hon har giorth eth mord sprwng gi&#246;n&#229;m sk&#229;rstenen i
-kongen&#223; kamer, men s&#229; har iagh lated d&#229;chteren ge hene
-n&#229;gedh in. S&#229; bleff dedh strax betre, men p&#229; dedh ath
-s&#229;denth icke m&#229;te skee &#229;ftere har iag letedh sath i&#228;rn
-gallrer f&#246;r f&#228;nstredh p&#229; dedh widere o l&#228;genheth icke
-m&#229;te der aff f&#246;rorsacke&#223; . Och befaller degh b&#229;ded till
-liff och siell den &#246;werste l&#228;ckeren i hender s&#229;m kan gewe
-medlledh krafth  till ath wthr&#228;te dedh iagh i s&#229; l&#229;ng tidh
-hawer aff hiertedh &#229;stwndedh. Datum 21
-ma&#255;.</inline></para><para /><para><inline font-size="12.00" font-style="Times New Roman">Brev 12</inline></para><para><inline font-size="12.00" font-style="Times New Roman">Min frw siridh. Gwdh beware er till liff och siell
-och hiellpe er till er hellze och swnhet igen och late megh nw snarth f&#229;
-si er medh gl&#228;de och kan iagh er icke f&#246;r h&#229;lle ath iagh har
-bek&#229;medh er skriwellze datum den 5 jun&#255; i karllz badh och
-f&#246;rnimer ath badh later segh well ansi medh er b&#229;de s&#229; ath
-till ath h&#229;pe&#223; i skwlle k&#229;me till er fwll k&#229;mellige
-hellze igen, hwillcken skriwellze har waredh megh s&#229; hwgnelligh och ker
-ath dedh er megh om&#246;gelligedh i penen ath f&#246;r fate. Gwdh skee
-f&#246;r dedh s&#229;m f&#246;r alle andre sine gwdhdomellige wellgerninger
-ewigth l&#229;ff och tack. </inline><inline font-size="12.00" font-style="Times New Roman">Han werdigesth ware bege&#223; ere&#223; &#246;werste
-l&#228;ckere och gewe </inline><inline font-size="12.00" font-style="Times New Roman">medh medledh sin gwdomellige wellsignellze till en
-l&#229;ngwarig och best&#229;ndigh hellze och well m&#229;ge. Dedh
-&#246;nsker iagh taff  </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">allth mith hierte och later er her medh f&#246;rnime
-ath iagh &#228;r gwdh skee l&#229;ff medh godh h&#228;llze och
-h&#229;pe&#223; her &#228;fter b&#228;tre seden iagh har bek&#229;medh er
-skriwellze f&#246;r den hierten&#223; gl&#228;de iagh fick d&#229; iagh
-f&#246;r nam ath dedh er eth g&#229;th h&#229;p till er och i&#229;mfrw
-caise&#223; hellze. Gwdh weth iagh har allrigh waredh glad seden i droge
-heden f&#246;r ennw. Gwdh hiellpe o&#223; p&#229; bege sider en nw widere
-f&#246;r sith hellige namn skwll. Och tacker er min frw siri s&#229; gerne
-f&#246;r dedh i k&#229;me megh i hwgh och wille och gerne ath iagh skwlle
-k&#229;me till hellzen. Och dedh i begere wete om i m&#229; talle medh
-dachteren om min siwckdom och seie f&#246;r h&#229;n&#229;m om megh s&#229;
-will iagh er till swar icke f&#246;rh&#229;lle ath der dedh wore gwdz willie
-hiellpe megh till min fwllk&#229;mellige hellze igen b&#229;de iagh inerllige
-gwdh &#229;m ath dedh </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">g&#246;n&#229;m n&#229;gre gode medell m&#229;te
-skee, men ath nemne m[in] person will iagh intedh gerne om man kan g&#229;
-dedh f&#246;r bi. Men kan dedh intedh aner&#223; ware d&#229; m&#229; i talle
-medh h&#229;n&#229;m, d&#229;gh medh di f&#246;r ordh ath ingen m&#229;te
-f&#229; wetedh heller f&#229; megh i mwnen. Och dedh i begere wete min
-siwckdom till pricke t&#228;ncker iagh ath &#239; skwlle fwlle wetedh mesth
-siellff, men p&#229; dedh ath i m&#229; wete dedh meste och f&#246;rnemste
-p&#229; dedh han m&#229; deste b&#228;tre gewe sith r&#229;dh der till
-s&#229; &#228;r ath iagh alltid f&#246;r min tidh har in&#229;gre dager,
-stwnd&#229;m fler och minder, &#228;fter || s&#229;m dedh k&#229;mer, s&#229;
-onth i hwfwdedh och i magen medh s&#229;den k&#246;ldh i kr&#229;pen s&#229;m
-dedh wore febri&#223; och ath iagh g&#246;r intedh aned en gesper och recker
-megh och ath wnder tiden kl&#246;cke&#223;. Och om han will wete om dedh och
-ellest pleger s&#229; k&#229;me s&#229; s&#228;ger at stwnd&#229;m dogh
-intedh alltidh, men i den tiden s&#229;m i well wete - alltidh, och ath dedh
-icke gerne k&#229;mer wten iagh m&#229;ste brwcke</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+i ha sent wagnen och hanß i från er der er iag sleth intedh well
+till fredz med. Iag weth fwlle hwrw er både lerer gå når i
+begÿne skacke er i de lede tÿske wagner. Gwd för låte frw
+siridh, så ille hon har giorth och i med. Nw kan iag intedh ware till
+fredz för än iagh får bwd från er . Mester andreseß
+hwstrw har i dagh fot en dåter och er äfter den lägenheten
+tämellig starck. Nw gwdh beware deg min kasiw. Iagh årcker dene
+gången intedh mere skriwe för iagh har lwped megh så
+tröth i trägår </inline><inline font-size="12.00" font-style="Times New Roman">den . Datum 11
+maÿ.</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev 11</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Min hiertenß kaise. Gwdh beware degh både
+till liff och siell och late megh få de glade tidender ath dedh wore
+någed håp på din lång warige siwckdom  till en  godh och
+beståndig hellze. Då will iagh intedh ångre
+ath</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">ath iagh hade sänth degh från megh så
+lång en weg, och äfter iagh weth hwrw dw  åstwnder wete om min
+well måge så tacker iagh gwdh för temllig godh hällze och
+läter megh gerne nöie der medh. Gwdh allzmectigh late åß
+fineß både medh glede igen. Der nest later iagh degh wete min kasiw
+dedh dine kotker må well, allene den ene har waredh någedh swag,
+för hon har giorth eth mord sprwng giönåm skårstenen i
+kongenß kamer, men så har iagh lated dåchteren ge hene
+någedh in. Så bleff dedh strax betre, men på dedh ath
+sådenth icke måte skee åftere har iag letedh sath iärn
+gallrer för fänstredh på dedh widere o lägenheth icke
+måte der aff förorsackeß . Och befaller degh båded till
+liff och siell den öwerste läckeren i hender såm kan gewe
+medlledh krafth  till ath wthräte dedh iagh i så lång tidh
+hawer aff hiertedh åstwndedh. Datum 21
+maÿ.</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev 12</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Min frw siridh. Gwdh beware er till liff och siell
+och hiellpe er till er hellze och swnhet igen och late megh nw snarth få
+si er medh gläde och kan iagh er icke för hålle ath iagh har
+bekåmedh er skriwellze datum den 5 junÿ i karllz badh och
+förnimer ath badh later segh well ansi medh er både så ath
+till ath håpeß i skwlle kåme till er fwll kåmellige
+hellze igen, hwillcken skriwellze har waredh megh så hwgnelligh och ker
+ath dedh er megh omögelligedh i penen ath för fate. Gwdh skee
+för dedh såm för alle andre sine gwdhdomellige wellgerninger
+ewigth låff och tack. </inline><inline font-size="12.00" font-style="Times New Roman">Han werdigesth ware begeß ereß öwerste
+läckere och gewe </inline><inline font-size="12.00" font-style="Times New Roman">medh medledh sin gwdomellige wellsignellze till en
+långwarig och beståndigh hellze och well måge. Dedh
+önsker iagh taff  </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">allth mith hierte och later er her medh förnime
+ath iagh är gwdh skee låff medh godh hällze och
+håpeß her äfter bätre seden iagh har bekåmedh er
+skriwellze för den hiertenß gläde iagh fick då iagh
+för nam ath dedh er eth gåth håp till er och iåmfrw
+caiseß hellze. Gwdh weth iagh har allrigh waredh glad seden i droge
+heden för ennw. Gwdh hiellpe oß på bege sider en nw widere
+för sith hellige namn skwll. Och tacker er min frw siri så gerne
+för dedh i kåme megh i hwgh och wille och gerne ath iagh skwlle
+kåme till hellzen. Och dedh i begere wete om i må talle medh
+dachteren om min siwckdom och seie för hånåm om megh så
+will iagh er till swar icke förhålle ath der dedh wore gwdz willie
+hiellpe megh till min fwllkåmellige hellze igen både iagh inerllige
+gwdh åm ath dedh </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">gönåm någre gode medell måte
+skee, men ath nemne m[in] person will iagh intedh gerne om man kan gå
+dedh för bi. Men kan dedh intedh anerß ware då må i talle
+medh hånåm, dågh medh di för ordh ath ingen måte
+få wetedh heller få megh i mwnen. Och dedh i begere wete min
+siwckdom till pricke täncker iagh ath ï skwlle fwlle wetedh mesth
+siellff, men på dedh ath i må wete dedh meste och förnemste
+på dedh han må deste bätre gewe sith rådh der till
+så är ath iagh alltid för min tidh har inågre dager,
+stwndåm fler och minder, äfter || såm dedh kåmer, så
+onth i hwfwdedh och i magen medh såden köldh i kråpen såm
+dedh wore febriß och ath iagh gör intedh aned en gesper och recker
+megh och ath wnder tiden klöckeß. Och om han will wete om dedh och
+ellest pleger så kåme så säger at stwndåm dogh
+intedh alltidh, men i den tiden såm i well wete - alltidh, och ath dedh
+icke gerne kåmer wten iagh måste brwcke</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
 </inline><inline font-size="12.00" font-style="Times New Roman">der
-f&#246;re.</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">I tem ath min mage &#228;r s&#229; f&#246;r derwedh ath
-iagh kan ingen math f&#246;rt&#228;re s&#229;m n&#229;gedh groff &#228;r
-s&#229; och ingen frwchth hwadh namn di kwne hawe ochath iagh &#239;ntedh kan
-f&#246;r drage rwgh br&#246;dh. Stracht iagh r&#229;cker &#228;te n&#229;gen
-ting s&#229;m magen kan intedh lide s&#229; k&#229;mer megh den fr&#229;se
-och gespningh p&#229; end&#229;. I m&#229; gewe wetne&#223; b&#246;rdh der
-&#229;m ath iagh intedh anedh &#228;ter wten dedh en siwck well m&#229;te
-&#228;te aff s&#229; och om den sallte katar iagh har s&#229;m megh s&#229;
-faller p&#229; br&#255;stedh och ath iagh alltidh har s&#229; onth b&#229;de
-nath och dagh &#228;wen p&#229; hwfwdedh och ath dedh pl&#228;ger swelle och
-klape s&#229;m en klapede medh en hamer och er s&#229; &#246;mth ath iagh
-intedh kan lide eth sillcke&#223; b&#229;nd der p&#229; &#228;n seden anedh
-doch intedh alltidh licke. Dedh har och ingen wi&#223; tidh wten stwndom were
-stwndom betre. I skwlle och seie ath iagh intedh win kan dricke f&#246;r
-kataren faller m&#255;ckedh starckere och intedh heller medh &#246;rter. Men
-n&#228;r iagh tencker stwnd&#229;m ath hiellpe magen der medh iagh dricker
-n&#229;gre skeder d&#229; har iag i n&#229;gre dager en s&#229;den smack i
-mwnen s&#229;m mesing, och dedh drager twngen till samen och blir s&#229;
-t&#246;r ath iagh weth allrig hwarth iagh will f&#246;r en dedh kan f&#246;r
-g&#229;</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">. </inline><inline font-size="12.00" font-style="Times New Roman"> Dete er nw nogh om min o l&#228;gen heth. Gwdh gewe han
-m&#229;te fine megh r&#229;dh och will nw her medh befalle er gwdh b&#229;de
-till liff och siell. </inline><inline font-size="12.00" font-style="Times New Roman">Datumkrackow den 22 iun&#255;. </inline><inline font-size="12.00" font-style="Times New Roman">f&#246;r all tingh skoner er
-&#228;fter badh och h&#229;ller er s&#229;m i taff gode menisker bliwe
-r&#229;de och ger er intedh f&#246;r snarth &#228;fter badh p&#229; resen
-hem, hwille well wth. Dedh &#228;r b&#228;tre k&#229;me l&#229;ngsamt&#228;n
-drage snarth och f&#246;r derwe hwad g&#229;th er blewed.|| Min frw silla,
-dedh i skriwe om den swr brwnen ath s&#229; m&#229;nge bliwe hwllpne med, om
-han will r&#229;de megh der till will iagh gerne brwcke och late f&#246;re
-hith.</inline></para><para /><para><inline font-size="12.00" font-style="Times New Roman">Brev 13</inline></para><para><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">till mine&#223; hwadh frw
-sirid skall bestelle. Et sn&#246;re liff dedh skall gi&#246;re&#223; ho&#223;
-hoffskrederen i dresen. I prag skall frw sirid k&#246;pe bemeske rwbiner och
-demanter och, om der fine&#223; wackre bwndne krw&#223; heller m&#255;nster
-taff s&#229;dant r&#229; silcke, en stor hop b&#229;de groft och
-grant.</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman"> </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">Ett sn&#246;reliff thill</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">.</inline></para><para /><para><inline font-size="12.00" font-style="Times New Roman">Brev 14</inline></para><para><inline font-size="12.00" font-style="Times New Roman">om hon har f&#246;rst&#229;ped
-liff. Om dedh l&#229;ser wel i br&#255;sted. Om hon er l&#228;tere om
-hi&#228;rted. Om hene&#223; mage er god. Om hon blir s&#229; het seden hon
-har &#228;tedh s&#229;m f&#246;r. Om hon f&#229;r s&#229;we f&#246;r hoste
-och sager hwadh iagh har </inline><inline font-size="12.00" font-style="Times New Roman">lated s&#228;ie her gustaff. </inline><inline font-size="12.00" font-style="Times New Roman">Och bede h&#228;ne ath hon
+före.</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">I tem ath min mage är så för derwedh ath
+iagh kan ingen math förtäre såm någedh groff är
+så och ingen frwchth hwadh namn di kwne hawe ochath iagh ïntedh kan
+för drage rwgh brödh. Stracht iagh råcker äte någen
+ting såm magen kan intedh lide så kåmer megh den fråse
+och gespningh på endå. I må gewe wetneß bördh der
+åm ath iagh intedh anedh äter wten dedh en siwck well måte
+äte aff så och om den sallte katar iagh har såm megh så
+faller på brÿstedh och ath iagh alltidh har så onth både
+nath och dagh äwen på hwfwdedh och ath dedh pläger swelle och
+klape såm en klapede medh en hamer och er så ömth ath iagh
+intedh kan lide eth sillckeß bånd der på än seden anedh
+doch intedh alltidh licke. Dedh har och ingen wiß tidh wten stwndom were
+stwndom betre. I skwlle och seie ath iagh intedh win kan dricke för
+kataren faller mÿckedh starckere och intedh heller medh örter. Men
+när iagh tencker stwndåm ath hiellpe magen der medh iagh dricker
+någre skeder då har iag i någre dager en såden smack i
+mwnen såm mesing, och dedh drager twngen till samen och blir så
+tör ath iagh weth allrig hwarth iagh will för en dedh kan för
+gå</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">. </inline><inline font-size="12.00" font-style="Times New Roman"> Dete er nw nogh om min o lägen heth. Gwdh gewe han
+måte fine megh rådh och will nw her medh befalle er gwdh både
+till liff och siell. </inline><inline font-size="12.00" font-style="Times New Roman">Datumkrackow den 22 iunÿ. </inline><inline font-size="12.00" font-style="Times New Roman">för all tingh skoner er
+äfter badh och håller er såm i taff gode menisker bliwe
+råde och ger er intedh för snarth äfter badh på resen
+hem, hwille well wth. Dedh är bätre kåme långsamtän
+drage snarth och för derwe hwad gåth er blewed.|| Min frw silla,
+dedh i skriwe om den swr brwnen ath så månge bliwe hwllpne med, om
+han will råde megh der till will iagh gerne brwcke och late före
+hith.</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev 13</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">till mineß hwadh frw
+sirid skall bestelle. Et snöre liff dedh skall giöreß hoß
+hoffskrederen i dresen. I prag skall frw sirid köpe bemeske rwbiner och
+demanter och, om der fineß wackre bwndne krwß heller mÿnster
+taff sådant rå silcke, en stor hop både groft och
+grant.</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman"> </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">Ett snöreliff thill</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">.</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev 14</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">om hon har förståped
+liff. Om dedh låser wel i brÿsted. Om hon er lätere om
+hiärted. Om heneß mage er god. Om hon blir så het seden hon
+har ätedh såm för. Om hon får såwe för hoste
+och sager hwadh iagh har </inline><inline font-size="12.00" font-style="Times New Roman">lated säie her gustaff. </inline><inline font-size="12.00" font-style="Times New Roman">Och bede häne ath hon
 </inline><inline font-size="12.00" font-style="Times New Roman">will fly meg
-dedh waten </inline><inline font-size="12.00" font-style="Times New Roman">beskrewed s&#229;m g&#246;r hwite t&#228;nder inted p&#229;
-mine wegne wten p&#229; sine egne.</inline></para><para /><para><inline font-size="12.00" font-style="Times New Roman">Brev
-15</inline></para><para><inline font-size="12.00" font-style="Times New Roman">Min hierten&#223; frw sirid. Iagh kan intedh m&#255;ckedh
-skriwe b&#229;de f&#246;r dene hastige rese s&#229;m &#229;&#223; &#228;r
-p&#229; k&#229;men s&#229; och f&#246;r bedr&#246;wellse. Skwll ath iagh
-frwchter dene resen &#228;r kongelige maieste&#223; och alle&#223; w&#229;re
-f&#246;r derf. Gwdh betre ath s&#229;dane r&#229;d gew</inline><inline font-size="12.00" font-style="Times New Roman">ere skwlle bliwe h&#246;rde.
-Hwarth w&#255; skwlle tage wegen weth iagh intedh s&#229; hiellpe meg gwd der
+dedh waten </inline><inline font-size="12.00" font-style="Times New Roman">beskrewed såm gör hwite tänder inted på
+mine wegne wten på sine egne.</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev
+15</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Min hiertenß frw sirid. Iagh kan intedh mÿckedh
+skriwe både för dene hastige rese såm åß är
+på kåmen så och för bedröwellse. Skwll ath iagh
+frwchter dene resen är kongelige maiesteß och alleß wåre
+för derf. Gwdh betre ath sådane råd gew</inline><inline font-size="12.00" font-style="Times New Roman">ere skwlle bliwe hörde.
+Hwarth wÿ skwlle tage wegen weth iagh intedh så hiellpe meg gwd der
 [medh]. </inline><inline font-size="12.00" font-style="Times New Roman">I
-m&#229;r&#229;n skwlle w&#255; &#229;stadh. Her &#228;r s&#229;dant allar[m]
-i staden och  iblant kongen&#223; h&#229;ff, di &#228;re s&#229; ille till
-fredz. B&#229;de wete di inted hwarth icke helle[r] ha di kwnedh lage seg
-till weg&#223;, f&#246;r i g&#229;[r] sade&#223; di f&#246;rst till. Nw gwd
-wende allting ti[ll] dedh b&#228;ste och strafe o&#223; inetdh s&#229;m
-w&#255; f&#246;rtiene. Iagh &#228;r daff hiertedh be k&#255;mred f&#246;[r]
-e[r] skwll, &#228;fter iagh weth hwrw er tidh lider, a[th] w&#255; icke kwne
-k&#229;me till hope. </inline><inline font-size="12.00" font-style="Times New Roman">Gwdh allzmectig[h] </inline><inline font-size="12.00" font-style="Times New Roman">ware er hiellp och st&#229; er bi, s&#229; trollige
-iagh dedh &#246;nsker aff allth mith hierte, och late &#229;&#223;
-</inline><inline font-size="12.00" font-style="Times New Roman">fine&#223;
-medh hellzen. </inline><inline font-size="12.00" font-style="Times New Roman">Och befaller er h&#228;r medh gwdh allzmectigh till liff
-och si&#228;ll. H&#228;llzer ere barn p&#229; mine wegne och i s&#255;ner het
+mårån skwlle wÿ åstadh. Her är sådant allar[m]
+i staden och  iblant kongenß håff, di äre så ille till
+fredz. Både wete di inted hwarth icke helle[r] ha di kwnedh lage seg
+till wegß, för i gå[r] sadeß di först till. Nw gwd
+wende allting ti[ll] dedh bäste och strafe oß inetdh såm
+wÿ förtiene. Iagh är daff hiertedh be kÿmred fö[r]
+e[r] skwll, äfter iagh weth hwrw er tidh lider, a[th] wÿ icke kwne
+kåme till hope. </inline><inline font-size="12.00" font-style="Times New Roman">Gwdh allzmectig[h] </inline><inline font-size="12.00" font-style="Times New Roman">ware er hiellp och stå er bi, så trollige
+iagh dedh önsker aff allth mith hierte, och late åß
+</inline><inline font-size="12.00" font-style="Times New Roman">fineß
+medh hellzen. </inline><inline font-size="12.00" font-style="Times New Roman">Och befaller er här medh gwdh allzmectigh till liff
+och siäll. Hällzer ere barn på mine wegne och i sÿner het
 hanuse. </inline><inline font-size="12.00" font-style="Times New Roman">Datum
-warso den 13 iun&#255;. iag s&#228;nder er 100 g&#255;llen medh dochter
+warso den 13 iunÿ. iag sänder er 100 gÿllen medh dochter
 herna. </inline><inline font-size="12.00" font-style="Times New Roman">Tar
-till gode min frw silla. Iagh har inted mere r&#229;dh p&#229; d&#228;ne
-tidh. I&#229;mfrw karin later p&#229; dedh flitigeste telbiwde er sin
-ti&#228;nst.</inline></para><para /><para><inline font-size="12.00" font-style="Times New Roman">Brev 16</inline></para><para><inline font-size="12.00" font-style="Times New Roman">min hierten&#223; frw sila. Gwdh allzmectig
-hi&#228;lpe </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">er til er hellse och st&#255;rcke igen s&#229;m iag wisth
-h&#229;pe&#223; med gwdz h&#228;llp, f&#246;r dene hwstrwn ger s&#229; godh
-f&#246;rtr&#246;stning ath ded skall bliwe g&#229;t allth samen&#223;. Iag
-sender er di m&#229;rseller s&#229;m dene hwstrwn har giort. Di brwne
-s&#229;m wnder lige skwlle i &#228;te om morgonen s&#229;m hon sade i
-g&#229;[r], och di hwite skwlle i &#228;te om dagen heller n&#229;r i bliwe
-swag. Dene olien i dete lille glased skwlle  i dr&#229;pe tre dr&#229;per i
-s&#229; m&#255;cked win i wille dricke om m&#229;lltiden. D&#229;g m&#229; i
-lel dricke &#246;ll och om i wille. </inline><inline font-size="12.00" font-style="Times New Roman">Nw gwdh beware er min alle kereste hierte korn.
-</inline></para><para /><para><inline font-size="12.00" font-style="Times New Roman">Brev 17</inline></para><para><inline font-size="12.00" font-style="Times New Roman">dene kackerne skwlle i brwcke n&#229;r i bliwe swag.
+till gode min frw silla. Iagh har inted mere rådh på däne
+tidh. Iåmfrw karin later på dedh flitigeste telbiwde er sin
+tiänst.</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev 16</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">min hiertenß frw sila. Gwdh allzmectig
+hiälpe </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">er til er hellse och stÿrcke igen såm iag wisth
+håpeß med gwdz hällp, för dene hwstrwn ger så godh
+förtröstning ath ded skall bliwe gåt allth samenß. Iag
+sender er di mårseller såm dene hwstrwn har giort. Di brwne
+såm wnder lige skwlle i äte om morgonen såm hon sade i
+gå[r], och di hwite skwlle i äte om dagen heller når i bliwe
+swag. Dene olien i dete lille glased skwlle  i dråpe tre dråper i
+så mÿcked win i wille dricke om målltiden. Dåg må i
+lel dricke öll och om i wille. </inline><inline font-size="12.00" font-style="Times New Roman">Nw gwdh beware er min alle kereste hierte korn.
+</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev 17</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">dene kackerne skwlle i brwcke når i bliwe swag.
 </inline><inline font-size="12.00" font-style="Times New Roman">Gwd
-allzmectig gewe sin hellge welsignellze ath dene l&#228;cke</inline><inline font-size="12.00" font-style="Times New Roman">dom m&#229; ware er till
-h&#228;llze och god. Min hierten&#223; frw silla far well. Twsen godh
-nath</inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">Brev
-18</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">min hierten&#223; kere frw
-sila. Iagh har med stor hierten&#223; &#229;nger f&#246;rnwmedh daff
-i&#229;mfrw karin er store swaghet och ath i genom hene hawe latedh megh wete
-hwadh er siste b&#246;n och begeren &#228;r. </inline><inline font-size="12.00" font-style="Times New Roman">Der</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+allzmectig gewe sin hellge welsignellze ath dene läcke</inline><inline font-size="12.00" font-style="Times New Roman">dom må ware er till
+hällze och god. Min hiertenß frw silla far well. Twsen godh
+nath</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev
+18</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">min hiertenß kere frw
+sila. Iagh har med stor hiertenß ånger förnwmedh daff
+iåmfrw karin er store swaghet och ath i genom hene hawe latedh megh wete
+hwadh er siste bön och begeren är. </inline><inline font-size="12.00" font-style="Times New Roman">Der</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
 </inline><inline font-size="12.00" font-style="Times New Roman">gwdh nw
-t&#228;chte&#223; kalle er daff dene bedr&#246;wede </inline><inline font-size="12.00" font-style="Times New Roman">werden s&#229; wil iag er
-icke f&#246;rh&#229;lle ath hwadh er man till k&#229;mer s&#229; wil iagh
-l&#229;we och till seie er ath iagh will alltidh late h&#229;n&#229;m ware
-megh till dedh b&#228;ste befaled f&#246;r er skwll och gerne f&#229;rdre
-h&#229;n&#229;m till a[l]th g&#229;th s&#229; m&#255;cke megh &#228;r
-m&#246;gelliged. Och hwadh de m&#229;nadh peni</inline><inline font-size="12.00" font-style="Times New Roman">nger til k&#229;mer will iag
-gerne &#228;fterllate ere s&#246;n</inline><inline font-size="12.00" font-style="Times New Roman">er till ath hi&#228;llper dem till stwdere, f&#246;r
-om iag elest finge dem fr&#229;n meg s&#229; frwchter iag at di blewe wende
-p&#229; n&#229;gedh aned. Om anwse lile och casemir skwlle i gewe er till
-fredz och ingen s&#229;rg hawe om dem, s&#229; l&#228;nge gwdh will iagh skal
+tächteß kalle er daff dene bedröwede </inline><inline font-size="12.00" font-style="Times New Roman">werden så wil iag er
+icke förhålle ath hwadh er man till kåmer så wil iagh
+låwe och till seie er ath iagh will alltidh late hånåm ware
+megh till dedh bäste befaled för er skwll och gerne fårdre
+hånåm till a[l]th gåth så mÿcke megh är
+mögelliged. Och hwadh de månadh peni</inline><inline font-size="12.00" font-style="Times New Roman">nger til kåmer will iag
+gerne äfterllate ere sön</inline><inline font-size="12.00" font-style="Times New Roman">er till ath hiällper dem till stwdere, för
+om iag elest finge dem från meg så frwchter iag at di blewe wende
+på någedh aned. Om anwse lile och casemir skwlle i gewe er till
+fredz och ingen sårg hawe om dem, så länge gwdh will iagh skal
 lewe her i werden, och </inline><inline font-size="12.00" font-style="Times New Roman"><inline font-size="12.00" font-style="Symbol">[</inline></inline><inline font-size="12.00" font-style="Times New Roman">iagh</inline><inline font-size="12.00" font-style="Times New Roman"><inline font-size="12.00" font-style="Symbol">]</inline></inline><inline font-size="12.00" font-style="Times New Roman"> will och i min well macht tencke der efter ath om meg
-k&#229;me n&#229;ged[h] wed</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">at anne lile skall k&#229;me p&#229; en godh stad,
-men s&#229; l&#228;nge iagh lewer skall hon allrig sackne mor. Dete skwlle i
-ware wi&#223; p&#229; och inted twiwlle he[l]ler tencke ath i[ag] [s]kriwer
-er dedh till at tr&#246;ste er medh wten ath iag will h&#229;lle met
-l&#255;fte ded iag nw g&#246;r och &#229;fte har giort, en d&#229; iagh
-h&#229;pe&#223; till den allzmectige gwdh s&#229;m allth f&#246;r m&#229; at
-i skwlle medh han&#223; till hi&#228;llp k&#229;me till h&#228;llzen, || der
-om iagh inerllige will bed[i]e gwdh </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">och h&#229;pe&#223; ath gwd
-skall h&#246;re min b&#246;n och ber er f&#246;r allth dedh gode iag har wnth
-er i alle mine dager och &#228;n wner. St&#255;rcker er si&#228;llff s&#229;
-m&#255;ckedh i kwne och achter icke heten s&#229; stort ath i icke skwlle
-st&#255;rcke er medh dedh s&#229;m iag sender dith. F&#246;r om i wiste hwrw
-hi&#228;rtellige iagh bedr&#246;wer meg n&#229;r iagh h&#246;rer ath i
-s&#229; g&#228;rne wille d&#246; i gorde dedh allrig. Nw gwd f&#246;r sin
-s&#229;n&#223; iesu cristi skwll st&#255;rcke er till liff och si&#228;ll och
-hiellpe er till allt ded  h&#229;n&#229;m er till &#228;r och er n&#255;ticht
-till liff och  si&#228;ll. Hwadh aned i hawe begered der bek&#255;mrer er
-inted om. Iag skall allrig f&#246;rlate</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">er hwarken lewende&#223;
-heller d&#246;d s&#229; lenge i</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">iagh
-lewer.</inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">Brev
-19</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">W&#255; gewe er till kene her
-iahan ded w&#255; hawe f&#246;rnwmed </inline><inline font-size="12.00" font-style="Times New Roman">daff frw margrete her iahan spare&#223; ath i begere
-ath </inline><inline font-size="12.00" font-style="Times New Roman">w&#255;
-skwlle f&#246;r klare o&#223; imot er hwillcken aff di tw&#229; personer
-s&#229;m den d&#229;chteren i </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">franckfort har i sin skriwellze namn gewedh. S&#229;
-kune w&#255; o&#223; icke aner&#223; ichug k&#229;me wten dedh ath en dog
-w&#255; </inline><inline font-size="12.00" font-style="Times New Roman">sate
-i ert sk&#246;n ath wtwellie en daff de&#223;e tw&#229; ath </inline><inline font-size="12.00" font-style="Times New Roman">w&#255; d&#229; lell sate
-w&#229;r mening der brede wed ath o&#223; t&#255;chte dedh den &#228;llste
-taff di br&#246;derne s&#229;m ti&#228;ner hertigen aff pomeren skulle ware
-ti&#228;nelligest , men do han kune icke tage wed dene ti&#228;nsten ath i
-d&#229; wille s&#228;nde &#228;fter den andre. Och p&#229; dedh ath icke
-n&#229;ged dr&#246;gsm&#229;ll m&#229;te skee s&#228;nde w&#255; strax tere
-peninger p&#229; ded tiden icke skwlle bliwe f&#246;r swmed. I hawe och
-skrewed parfnowsk&#255; till ded i wille s&#228;nde medh dedh f&#246;rste
-&#228;fter en aff dene br&#246;der. Hwrw i nw hawe dr&#246;gt der medh kwne
-w&#255; icke wete. Men ille gi&#246;re i mot ere barnn</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
-</inline><inline font-size="12.00" font-style="Times New Roman">s&#229;m
-tiden f&#246;r swme, och inted beter mot o&#223;. F&#246;r allt dedh p&#229;
-ere barn k&#229;ste&#223; er om inted, dedh w&#255; icke wille reckne
-f&#246;r n&#229;gen wmk&#229;st der di lerde der ho&#223;. S&#229; ath
-w&#255; hadee &#228;re der aff, och f&#246;r wndre [w&#255; o&#223;] ath i nw
-s&#229; l&#229;ng efter seden w&#255; skrewe wende dene beswerlligheten
-f&#246;re. F&#246;rmane och bede er her medh ath i wille nw inted dr&#246;ge
-wten l&#228;te kalle en aff de&#223;. Der di sker dedh &#229;&#223; er
-behagelliged och ere barn b&#229;de nw och i fram tiden n&#255;tigt. Och
-begere [w&#255;]</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"> medh dedh f&#246;rste swar igen p&#229; dedh
-w&#255; wiste &#229;&#223; widere &#228;fter r&#228;te. Datum dancik 17
-iull&#255;. Oloff swercker s&#229;n&#223; barn hawe skrewed </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
-</inline><inline font-size="12.00" font-style="Times New Roman">&#229;&#223;
-n&#229;gre reser</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">till och begered ath w&#255; wille tage den
-&#255;ngste s&#229;nen i w&#229;r &#229;m w&#229;rdned och hiellpe
-h&#229;n&#229;m till ath studere. S&#229; begere w&#255; ath i wille talle
-med feller man ath han besteller der &#229;m b&#229;de om k&#229;st s&#229;
-och om han&#223; l&#228;rdom, s&#229; wille w&#255; gerne betalle &#228;fter
-s&#229;m tilb&#246;rliged
-&#228;r.</inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">Brev
-20</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">W&#229;r besynerllige
-&#255;nest och ben&#228;genhet medh gwdh allzmechtig alltidh till
-f&#246;rende. </inline><inline font-size="12.00" font-style="Times New Roman">W&#255; hawe bek&#229;medh er skriwell</inline><inline font-size="12.00" font-style="Times New Roman">se her iahan
-g&#255;llenstierne datum den 14 ma&#255; och er aff f&#246;rnwmedh hwadh
-werff kla&#223; ions&#229;n har haft fr&#229;n kongen i danemark till er
-swenske her wte &#228;re stade. Der p&#229; kwne w&#255; er till swar icke
-f&#246;r h&#229;lle ath &#229;&#223; k&#229;mer wndersamt f&#246;re ded
-kongen i danemark l&#228;ter anmode er der om &#228;fter han enw intedh weth
-hwad &#228;nde dedh will tage medh han&#223; op s&#229;t fast han g&#246;r
-segh s&#229; wi&#223;. Der p&#229; kan han d&#229; icke wete om han&#223;
-willie och er confirmered i himellen ho&#223; den heren s&#229;m kongericker
-och m&#255;ndigheter wth deller. Han&#223; her far giorde s&#228;g och nogh
-wi&#223; der p&#229; ath han skwlle b&#228;re den swenske kronen, men gwdh
-bewarede h&#229;n&#229;m der f&#246;re. S&#229; kan gwdh och lage medh dene
-ath den swenske kronen intedh tr&#255;cker han&#223; hwfedh. Men er dedh
-h&#229;n&#229;m beskert s&#229; m&#229;ste h&#228;ren&#223; willie hawe sin
-fram g&#229;ng, men intedh hade kla&#223; bort tage seg dete &#228;rendedh
-p&#229;. Kongen hade well haft si&#228;ll sin ti&#228;nere till ath sende om
-han hade welledh haft s&#229;dene werff till er. Samtligen s&#229; er och
-twiwell&#223; m&#229;ll om h&#229;n&#229;m er s&#229;den befallning gewen
-efter han intedh har n&#229;gedh skreftlligedh bewi&#223;. Till
-ewent&#255;r&#223; har han siellff till bwdedh seg k&#229;me s&#229;dant till
-wege, f&#246;r i wete well hwadh han er f&#246;r en man och alltid har wared
-ath han der i g&#246;n&#229;m mener hiellpe seg &#229;p om icke i swerge ath
-do kongen i danemark g&#246;r h&#229;m stor. F&#246;r i wete siellff hwrw
-girig och h&#246;g ferdig han er. Men o&#223; s&#255;ne&#223; ded beste ware
-ath man stellte seg licke s&#229;m man h&#246;lle f&#246;r
-faboll</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">hwadh han f&#246;re gewer och sl&#228;t intedh sware. Der
-till och kwne intedh skade ath kongen min her bror l&#228;te h&#229;lle
-h&#229;n&#229;m an ath han intedh finge d[r]age till backe igen i medler tid.
-Om i bliwe medh bwdh och breff &#229;ftere an modedh kan man p&#229; alle
-sider betencke s&#228;gh hwadh swar der p&#229; kwne falle &#228;fter
-s&#229;m l&#228;genheten d&#229; kan medh gewe. Hwadh ere s&#246;ner till
-k&#229;mer t&#255;cker &#229;&#223; best ath di bliwe i torn efter i
-t&#255;slad er s&#229; os&#228;ckert. I pr&#255;sen t&#255;cker o&#223; och
-f&#246;ge l&#228;genhet ware f&#246;r d&#229;m, men dedh s&#255;ne&#223;
-&#229;&#223; r&#229;delliged s&#229;m w&#255; och || till f&#246;rende hawe
-gewed er till ki&#228;ne ath i s&#228;ge &#228;fter en l&#228;r[d] och
-alwarsam preceptor, f&#246;r dene &#228;r r&#228;t en tock bode i dede ene
-och and[r]e twngem&#229;ll &#228;fter s&#229;m w&#255; daff ere barn&#223;
-breff hawe ath si dem. Di hawe skrewed &#229;&#223; till. Hwad han l&#246;n
-skwlle ware wille w&#255; gerne f&#246;r s&#246;rie efter s&#229;m i kwne bli
-&#246;wer en&#223; med h&#229;n&#229;m, f&#246;r fast di wore i n&#229;gen
-academi&#230; moste di lell hawe en stedz ho&#223; seg den di bere fare
-f&#246;re. </inline><inline font-size="12.00" font-style="Times New Roman">Dene di nw h[awe] </inline><inline font-size="12.00" font-style="Times New Roman">den ere di intedh rede f&#246;re. Di bere mere fare
-f&#246;r greger &#228;n f&#246;r den andre. Iagh tacker er och flitigt
-f&#246;r ert omack ath i hawe bem&#246;dedh er der om och fl&#255; medh kamer
-tieneriner. Efter dedh icke kwne ware, s&#229; m&#229;ste iag si hwar gwdh
-besker meg dem s&#229;m gode ere. Oloff swerker s&#229;n&#223; d&#229;ter har
-iag fwlle f&#246;ge tienst aff i 2 hell[er] 3 &#229;r till de&#223; hon kan
-n&#229;gedh l&#228;re om hon ellest har n&#229;gen willie der till. Men hwadh
-ded till k&#229;mer dedh peter got berg har lofed fl&#255; o&#223; tw&#229;
-kamer ti&#228;neriner dedh wore fwlle well om han ellest r&#229;cker p&#229;
-dedh s&#229;m g&#229;t &#228;r, men om di intedh dwge och w&#255; moste ge
-dem orlof s&#229; f&#246;llier der intedh aned wten onth namn &#228;fter,
-f&#246;r s&#229;dent part&#255; wille allrig hete&#223; f&#246;r ti&#228;ne
-ol&#228;ter, wten &#246;wer heten moste alltid hawe skwll s&#229;m i
-si&#228;llff well wete ath dedh g&#229;r till. Der f&#246;re wet gwdh hwad
-w&#255; skwlle tage &#229;&#223; f&#246;re, f&#246;r katoliske w&#255;lle
-w&#255; n&#246;digt tage. Om w&#255; der f&#246;re icke hade f&#246;r
-s&#255;n, kwne w&#255; fwll f&#229; flere &#228;n w&#255; beh&#246;we. Hwad
-den pigen till k&#229;mer s&#229;m er d&#229;ter skwlle ha, ath i den icke
-kwne bek&#229;me f&#246;r wndre w&#255; intedh,  f&#246;r mine egne
-ti&#228;neriner m&#229;lle meg s&#229; wth ath ded er intedh wnder dedh
-f&#229;llck frwchte seg ath k&#229;me hith. Di hawe haft i sined alle tre
-k&#229;me b&#229;rt i sender och till ath lage s&#229; g&#246;n&#229;m wener
-och wen&#223; wener ath w&#255; inge skwlle f&#229; igen s&#229;m di och
-g&#246;re. Di spare inted sin flit. Dedh hawe w&#255; till tack dedh w&#255;
-ha f&#246;t dem &#229;p och giort f&#229;llck aff dem, men der om wore
-m&#255;cked at skriwe, men w&#255; h&#229;pe&#223; dedh otrohet sl&#229;r sin
-egen here p&#229; hallsen. Hwadh tidender fr&#229;n muskow till k&#229;mer
-er inted tr&#246;stelliged ath skriwe. Gwd gewe min her broder allrig hade
-taged s&#228;g den resen f&#246;re, hade dedh waredh m&#255;ckedh
-</inline><inline font-size="12.00" font-style="Times New Roman">b&#228;tre</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">. Kere her iahan i wete er well i hwg k&#229;me ath
-w&#255; i kracko || tallede medh er ath i wille g&#246;re ert testemente och
-der wd&#255; och f&#246;r fate er sallige d&#255;gdesame hwstrw&#223; sidzte
-willie. </inline><inline font-size="12.00" font-style="Times New Roman">&#196;fter s&#229;m i d&#229; lote o&#223; si en aff
-kopie</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"> der aff och &#228;fter w&#255; intedh seden hawe der om
-f&#246;rnwmed wille w&#255; gerne wete hwrw i der om kwne ware till
-sine&#223;, &#228;fter w&#255; si dagellige hwrw hedsk och f&#246;rgiftig er
-bror er mot w&#229;r relligion och sancker siw skadellige ander till seg
-&#228;n han er si&#228;llff. Och der aff f&#246;rnime w&#255; om er k&#229;me
-n&#229;ged wed ath han skwlle brwcke di personer der till dem w&#255; inted
-kwne g&#246;re mot st&#229;nd om w&#229;r lifftid skwlle ware l&#228;nger
-&#228;n er</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">, der f&#246;r i s&#229;m en trogen far later g&#246;re en
-ornig meden i llewe och namn ger dem. I tro ere barn. Om hwad p&#229;
-w&#229;r  dell k&#229;mer w&#255;lle </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">w&#255; g&#246;re allth dedh
-m&#246;gelliged er. Och later &#229;&#223; f&#229; swar medh dedh
-f&#246;rste. Hellzer her i&#246;ren p&#229;se p&#229; w&#229;re wegne och
-g&#246;rer w&#229;r entsk&#255;llen dedh w&#255; intedh h[a]we skrewedh
-h&#229;n&#229;m i s&#229; l&#229;ngh tid till. </inline><inline font-size="12.00" font-style="Times New Roman">Gwd wet ath ded
-</inline><inline font-size="12.00" font-style="Times New Roman">icke &#228;r
-sket f&#246;r n&#229;gen obenegenhet skwll wten der f&#246;re ath w&#255;
-intedh hawe haft n&#229;gedh tr&#246;stelliged at skriwe der medh w&#255;
-hawe kwnedh hwgne h&#229;n&#229;[m] med, f&#246;r w&#255; wete hwrw
-s&#229;rggewen han har alltid wared ded sackorne intedh hawe g&#229;t
-s&#229;m n&#246;d t&#246;rftene. Har kraft och befaller er her medh gwd
+kåme någed[h] wed</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">at anne lile skall kåme på en godh stad,
+men så länge iagh lewer skall hon allrig sackne mor. Dete skwlle i
+ware wiß på och inted twiwlle he[l]ler tencke ath i[ag] [s]kriwer
+er dedh till at tröste er medh wten ath iag will hålle met
+lÿfte ded iag nw gör och åfte har giort, en då iagh
+håpeß till den allzmectige gwdh såm allth för må at
+i skwlle medh hanß till hiällp kåme till hällzen, || der
+om iagh inerllige will bed[i]e gwdh </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">och håpeß ath gwd
+skall höre min bön och ber er för allth dedh gode iag har wnth
+er i alle mine dager och än wner. Stÿrcker er siällff så
+mÿckedh i kwne och achter icke heten så stort ath i icke skwlle
+stÿrcke er medh dedh såm iag sender dith. För om i wiste hwrw
+hiärtellige iagh bedröwer meg når iagh hörer ath i
+så gärne wille dö i gorde dedh allrig. Nw gwd för sin
+sånß iesu cristi skwll stÿrcke er till liff och siäll och
+hiellpe er till allt ded  hånåm er till är och er nÿticht
+till liff och  siäll. Hwadh aned i hawe begered der bekÿmrer er
+inted om. Iag skall allrig förlate</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">er hwarken lewendeß
+heller död så lenge i</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">iagh
+lewer.</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev
+19</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Wÿ gewe er till kene her
+iahan ded wÿ hawe förnwmed </inline><inline font-size="12.00" font-style="Times New Roman">daff frw margrete her iahan spareß ath i begere
+ath </inline><inline font-size="12.00" font-style="Times New Roman">wÿ
+skwlle för klare oß imot er hwillcken aff di twå personer
+såm den dåchteren i </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">franckfort har i sin skriwellze namn gewedh. Så
+kune wÿ oß icke anerß ichug kåme wten dedh ath en dog
+wÿ </inline><inline font-size="12.00" font-style="Times New Roman">sate
+i ert skön ath wtwellie en daff deße twå ath </inline><inline font-size="12.00" font-style="Times New Roman">wÿ då lell sate
+wår mening der brede wed ath oß tÿchte dedh den ällste
+taff di bröderne såm tiäner hertigen aff pomeren skulle ware
+tiänelligest , men do han kune icke tage wed dene tiänsten ath i
+då wille sände äfter den andre. Och på dedh ath icke
+någed drögsmåll måte skee sände wÿ strax tere
+peninger på ded tiden icke skwlle bliwe för swmed. I hawe och
+skrewed parfnowskÿ till ded i wille sände medh dedh förste
+äfter en aff dene bröder. Hwrw i nw hawe drögt der medh kwne
+wÿ icke wete. Men ille giöre i mot ere barnn</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+</inline><inline font-size="12.00" font-style="Times New Roman">såm
+tiden för swme, och inted beter mot oß. För allt dedh på
+ere barn kåsteß er om inted, dedh wÿ icke wille reckne
+för någen wmkåst der di lerde der hoß. Så ath
+wÿ hadee äre der aff, och för wndre [wÿ oß] ath i nw
+så lång efter seden wÿ skrewe wende dene beswerlligheten
+före. Förmane och bede er her medh ath i wille nw inted dröge
+wten läte kalle en aff deß. Der di sker dedh åß er
+behagelliged och ere barn både nw och i fram tiden nÿtigt. Och
+begere [wÿ]</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"> medh dedh förste swar igen på dedh
+wÿ wiste åß widere äfter räte. Datum dancik 17
+iullÿ. Oloff swercker sånß barn hawe skrewed </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+</inline><inline font-size="12.00" font-style="Times New Roman">åß
+någre reser</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">till och begered ath wÿ wille tage den
+ÿngste sånen i wår åm wårdned och hiellpe
+hånåm till ath studere. Så begere wÿ ath i wille talle
+med feller man ath han besteller der åm både om kåst så
+och om hanß lärdom, så wille wÿ gerne betalle äfter
+såm tilbörliged
+är.</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev
+20</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Wår besynerllige
+ÿnest och benägenhet medh gwdh allzmechtig alltidh till
+förende. </inline><inline font-size="12.00" font-style="Times New Roman">Wÿ hawe bekåmedh er skriwell</inline><inline font-size="12.00" font-style="Times New Roman">se her iahan
+gÿllenstierne datum den 14 maÿ och er aff förnwmedh hwadh
+werff klaß ionsån har haft från kongen i danemark till er
+swenske her wte äre stade. Der på kwne wÿ er till swar icke
+för hålle ath åß kåmer wndersamt före ded
+kongen i danemark läter anmode er der om äfter han enw intedh weth
+hwad ände dedh will tage medh hanß op såt fast han gör
+segh så wiß. Der på kan han då icke wete om hanß
+willie och er confirmered i himellen hoß den heren såm kongericker
+och mÿndigheter wth deller. Hanß her far giorde säg och nogh
+wiß der på ath han skwlle bäre den swenske kronen, men gwdh
+bewarede hånåm der före. Så kan gwdh och lage medh dene
+ath den swenske kronen intedh trÿcker hanß hwfedh. Men er dedh
+hånåm beskert så måste härenß willie hawe sin
+fram gång, men intedh hade klaß bort tage seg dete ärendedh
+på. Kongen hade well haft siäll sin tiänere till ath sende om
+han hade welledh haft sådene werff till er. Samtligen så er och
+twiwellß måll om hånåm er såden befallning gewen
+efter han intedh har någedh skreftlligedh bewiß. Till
+ewentÿrß har han siellff till bwdedh seg kåme sådant till
+wege, för i wete well hwadh han er för en man och alltid har wared
+ath han der i gönåm mener hiellpe seg åp om icke i swerge ath
+do kongen i danemark gör håm stor. För i wete siellff hwrw
+girig och hög ferdig han er. Men oß sÿneß ded beste ware
+ath man stellte seg licke såm man hölle för
+faboll</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">hwadh han före gewer och slät intedh sware. Der
+till och kwne intedh skade ath kongen min her bror läte hålle
+hånåm an ath han intedh finge d[r]age till backe igen i medler tid.
+Om i bliwe medh bwdh och breff åftere an modedh kan man på alle
+sider betencke sägh hwadh swar der på kwne falle äfter
+såm lägenheten då kan medh gewe. Hwadh ere söner till
+kåmer tÿcker åß best ath di bliwe i torn efter i
+tÿslad er så osäckert. I prÿsen tÿcker oß och
+föge lägenhet ware för dåm, men dedh sÿneß
+åß rådelliged såm wÿ och || till förende hawe
+gewed er till kiäne ath i säge äfter en lär[d] och
+alwarsam preceptor, för dene är rät en tock bode i dede ene
+och and[r]e twngemåll äfter såm wÿ daff ere barnß
+breff hawe ath si dem. Di hawe skrewed åß till. Hwad han lön
+skwlle ware wille wÿ gerne för sörie efter såm i kwne bli
+öwer enß med hånåm, för fast di wore i någen
+academiæ moste di lell hawe en stedz hoß seg den di bere fare
+före. </inline><inline font-size="12.00" font-style="Times New Roman">Dene di nw h[awe] </inline><inline font-size="12.00" font-style="Times New Roman">den ere di intedh rede före. Di bere mere fare
+för greger än för den andre. Iagh tacker er och flitigt
+för ert omack ath i hawe bemödedh er der om och flÿ medh kamer
+tieneriner. Efter dedh icke kwne ware, så måste iag si hwar gwdh
+besker meg dem såm gode ere. Oloff swerker sånß dåter har
+iag fwlle föge tienst aff i 2 hell[er] 3 år till deß hon kan
+någedh läre om hon ellest har någen willie der till. Men hwadh
+ded till kåmer dedh peter got berg har lofed flÿ oß twå
+kamer tiäneriner dedh wore fwlle well om han ellest råcker på
+dedh såm gåt är, men om di intedh dwge och wÿ moste ge
+dem orlof så föllier der intedh aned wten onth namn äfter,
+för sådent partÿ wille allrig heteß för tiäne
+oläter, wten öwer heten moste alltid hawe skwll såm i
+siällff well wete ath dedh går till. Der före wet gwdh hwad
+wÿ skwlle tage åß före, för katoliske wÿlle
+wÿ nödigt tage. Om wÿ der före icke hade för
+sÿn, kwne wÿ fwll få flere än wÿ behöwe. Hwad
+den pigen till kåmer såm er dåter skwlle ha, ath i den icke
+kwne bekåme för wndre wÿ intedh,  för mine egne
+tiäneriner målle meg så wth ath ded er intedh wnder dedh
+fållck frwchte seg ath kåme hith. Di hawe haft i sined alle tre
+kåme bårt i sender och till ath lage så gönåm wener
+och wenß wener ath wÿ inge skwlle få igen såm di och
+göre. Di spare inted sin flit. Dedh hawe wÿ till tack dedh wÿ
+ha föt dem åp och giort fållck aff dem, men der om wore
+mÿcked at skriwe, men wÿ håpeß dedh otrohet slår sin
+egen here på hallsen. Hwadh tidender från muskow till kåmer
+er inted tröstelliged ath skriwe. Gwd gewe min her broder allrig hade
+taged säg den resen före, hade dedh waredh mÿckedh
+</inline><inline font-size="12.00" font-style="Times New Roman">bätre</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">. Kere her iahan i wete er well i hwg kåme ath
+wÿ i kracko || tallede medh er ath i wille göre ert testemente och
+der wdÿ och för fate er sallige dÿgdesame hwstrwß sidzte
+willie. </inline><inline font-size="12.00" font-style="Times New Roman">Äfter såm i då lote oß si en aff
+kopie</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"> der aff och äfter wÿ intedh seden hawe der om
+förnwmed wille wÿ gerne wete hwrw i der om kwne ware till
+sineß, äfter wÿ si dagellige hwrw hedsk och förgiftig er
+bror er mot wår relligion och sancker siw skadellige ander till seg
+än han er siällff. Och der aff förnime wÿ om er kåme
+någed wed ath han skwlle brwcke di personer der till dem wÿ inted
+kwne göre mot stånd om wår lifftid skwlle ware länger
+än er</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">, der för i såm en trogen far later göre en
+ornig meden i llewe och namn ger dem. I tro ere barn. Om hwad på
+wår  dell kåmer wÿlle </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">wÿ göre allth dedh
+mögelliged er. Och later åß få swar medh dedh
+förste. Hellzer her iören påse på wåre wegne och
+görer wår entskÿllen dedh wÿ intedh h[a]we skrewedh
+hånåm i så långh tid till. </inline><inline font-size="12.00" font-style="Times New Roman">Gwd wet ath ded
+</inline><inline font-size="12.00" font-style="Times New Roman">icke är
+sket för någen obenegenhet skwll wten der före ath wÿ
+intedh hawe haft någedh tröstelliged at skriwe der medh wÿ
+hawe kwnedh hwgne hånå[m] med, för wÿ wete hwrw
+sårggewen han har alltid wared ded sackorne intedh hawe gåt
+såm nöd törftene. Har kraft och befaller er her medh gwd
 allzmectig. </inline><inline font-size="12.00" font-style="Times New Roman">Datum willna 31
-ma&#255;.</inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para /><para><inline font-size="12.00" font-style="Times New Roman">Brev
-21</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">W&#255; kwne er kere her iahan
-g&#255;llensti&#228;rne icke f&#246;r h&#229;lle dedh w&#255; f&#246;r
-n&#229;gre wecker seden finge breff fr&#229;n her i&#246;ren p&#229;se och
-der aff f&#246;rnwmed ath den stwdenten har wared ho&#223; ere barn och har
-blant aned f&#246;r kllared seg ath han ingellwnde will bliwe ho&#223; dem i
-torn vten will ha dem ot danczick f&#246;rst och seden widere till
-t&#255;sland. Och t&#255;cker o&#223; s&#229;dant noged sells&#255;nt ath han
-seger seg intedh kune bliwe ho&#223; dom her, uten di skwlle ware der han
-will ha dem. Er han s&#229; well lerd s&#229;m follck h&#229;ller
-h&#229;n&#229;m f&#246;re s&#229; kwne han fwlle lere dom her. Di hade intedh
-behoft f&#246;r den orsack skwll drage l&#228;nger b&#229;rt. Hwad ded ti[ll
-k]&#229;mer ath w&#255; och hawe lated f&#246;r mane h&#229;n&#229;m ath han
-h&#229;ller dem flitigt till gwdz frwchtan s&#229;m er wi&#223;hetene&#223;
-beg&#255;nellze och der ho&#223; late dem lere luter&#255; catekismu&#223;
-der p&#229; har han blant anedh swared ath han kune inted h&#229;lle seg wedh
-lwter&#255; cate kismum, f&#246;r han har felled i m&#255;cked. Nw mercke
-w&#255; ath han l&#229;&#223; ware m&#255;cked wisere och kwned betre, men
-han feller frwchte w&#255;. F&#246;r lwter&#255; bekenellse och
-catekismu&#223; belleff well taff h&#229;n&#229;m och Dominus mellanton
-skrewen. Men der wore s&#229; m&#229;nge h&#246;ge och l&#229;ge s&#229;m
-dedh &#246;wer s&#229;ge och fwne dor inted s&#229;dant s&#229;m dene lag
-klocke. Hade ded waredh s&#229; d&#229; hade lwter inted best&#229;t f&#246;r
-</inline><inline font-color="#000000" font-size="12.00" font-style="Times New Roman">ceiser carll</inline><inline font-size="12.00" font-style="Times New Roman"> och s&#229; monge f&#246;rster och herer s&#229;m
-d&#229; p&#229; den tid till samen wore. W&#255; frwchte at den er seg
-siellff  f&#246;r wi&#223; och f&#246;r fine noged n&#255;t p&#229; dedh
-o&#223; enw er okwnigt. W&#255; f&#246;rwndre o&#223; ath i intedh hawe
-</inline><inline font-color="#000000" font-size="12.00" font-style="Times New Roman">skrewe</inline><inline font-size="12.00" font-style="Times New Roman"> &#229;&#223; till seden i wore i torn, och begere w&#255;
-her medh ath i om den stwdenten gewe er mening. Kan inted dene f&#246;r sin
-&#246;wer fl&#246;dige wi&#223;dom bliwe dere&#223; preceptor s&#229; sir er
-om en anen i tid, f&#246;r dere&#223;|| &#229;r di lide. N&#229;r di bliwe
-st&#246;re s&#229; f&#229; di l&#255;st till aned en site wedh bocken. Dedh
-wined i hawe sent ha w&#255; intedh smacke efter dedh er &#229;p r&#246;rt.
-Om dedh &#228;r inted g&#229;t s&#229; &#228;r s&#229;ne sk&#255;llig,
-f&#246;r ded s&#255;ne&#223; ware om&#246;gliged ath rewen skwlle well
-ti&#228;ne till g&#229;se wachtere. Peningerne sende w&#255; intedh medh
-h&#229;n&#229;m f&#246;r dedh er oseckert p&#229; wegen, men fr&#229;n
-stra&#223; bwrg wille w&#255; late s&#228;nde er. </inline><inline font-size="12.00" font-style="Times New Roman">Her medh er gwd
-bfallende&#223;. Datum wars&#246;w den 27
-iul&#255;.</inline></para><para /></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">Brev
-22</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">V&#229;r &#255;nest
-n&#229;dige willie och benegen het medh gwd [allz]mechtig alltidh till
-f&#246;rende .</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"> W&#255; kune er icke [ha]we f&#246;r h&#229;lledh dedh
-greger &#228;r hit k&#229;men medh mine k&#229;misarier s&#229;m fr&#229;n
-brodnicza k&#229;mne &#228;re och [har] bllant anedh sacht &#229;&#223; dedh
-den stwdenten s&#229;m i h[awe] s&#229; m&#255;ckedh bem&#246;t er om skwlle
-ware her i warsow f&#246;r tre wecker seden hwillcked meg k&#229;m mechte
-underllige f&#246;re ath han icke hade latedh sege seg an ho&#223; meg. Men
-do han f&#246;rnam ath greger war her och s&#229;g h&#229;n&#229;m bad han
-ath greger g&#246;n&#229;m n&#229;gen wille lage ath han m&#229;te f&#229;
-talle medh &#229;&#223; dedh w&#255; gerne &#228;fter lote och lote fordre
-h&#229;n&#229;m till &#229;&#223;, och till dedh f&#246;rste sporde w&#255;
-h&#229;n&#229;m hwadh han&#223; erende war hit till h&#229;wed. Der p&#229;
-gaff han till swar ath efter i icke wore blewen wedh den f&#246;rste menigen
-ath han medh ere barn skwlle drage wth lende&#223; war han&#223; &#229;p
-s&#229;t der f&#246;re ath begere ti&#228;nst ho&#223; kongelig maiestedh
-w&#229;r her bror. Dor p&#229; fr&#229;gede w&#255; hwad ti&#228;nst han
+maÿ.</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev
+21</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Wÿ kwne er kere her iahan
+gÿllenstiärne icke för hålle dedh wÿ för
+någre wecker seden finge breff från her iören påse och
+der aff förnwmed ath den stwdenten har wared hoß ere barn och har
+blant aned för kllared seg ath han ingellwnde will bliwe hoß dem i
+torn vten will ha dem ot danczick först och seden widere till
+tÿsland. Och tÿcker oß sådant noged sellsÿnt ath han
+seger seg intedh kune bliwe hoß dom her, uten di skwlle ware der han
+will ha dem. Er han så well lerd såm follck håller
+hånåm före så kwne han fwlle lere dom her. Di hade intedh
+behoft för den orsack skwll drage länger bårt. Hwad ded ti[ll
+k]åmer ath wÿ och hawe lated för mane hånåm ath han
+håller dem flitigt till gwdz frwchtan såm er wißheteneß
+begÿnellze och der hoß late dem lere luterÿ catekismuß
+der på har han blant anedh swared ath han kune inted hålle seg wedh
+lwterÿ cate kismum, för han har felled i mÿcked. Nw mercke
+wÿ ath han låß ware mÿcked wisere och kwned betre, men
+han feller frwchte wÿ. För lwterÿ bekenellse och
+catekismuß belleff well taff hånåm och Dominus mellanton
+skrewen. Men der wore så månge höge och låge såm
+dedh öwer såge och fwne dor inted sådant såm dene lag
+klocke. Hade ded waredh så då hade lwter inted beståt för
+</inline><inline font-color="#000000" font-size="12.00" font-style="Times New Roman">ceiser carll</inline><inline font-size="12.00" font-style="Times New Roman"> och så monge förster och herer såm
+då på den tid till samen wore. Wÿ frwchte at den er seg
+siellff  för wiß och för fine noged nÿt på dedh
+oß enw er okwnigt. Wÿ förwndre oß ath i intedh hawe
+</inline><inline font-color="#000000" font-size="12.00" font-style="Times New Roman">skrewe</inline><inline font-size="12.00" font-style="Times New Roman"> åß till seden i wore i torn, och begere wÿ
+her medh ath i om den stwdenten gewe er mening. Kan inted dene för sin
+öwer flödige wißdom bliwe dereß preceptor så sir er
+om en anen i tid, för dereß|| år di lide. Når di bliwe
+störe så få di lÿst till aned en site wedh bocken. Dedh
+wined i hawe sent ha wÿ intedh smacke efter dedh er åp rört.
+Om dedh är inted gåt så är såne skÿllig,
+för ded sÿneß ware omögliged ath rewen skwlle well
+tiäne till gåse wachtere. Peningerne sende wÿ intedh medh
+hånåm för dedh er oseckert på wegen, men från
+straß bwrg wille wÿ late sände er. </inline><inline font-size="12.00" font-style="Times New Roman">Her medh er gwd
+bfallendeß. Datum warsöw den 27
+iulÿ.</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev
+22</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Vår ÿnest
+nådige willie och benegen het medh gwd [allz]mechtig alltidh till
+förende .</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"> Wÿ kune er icke [ha]we för hålledh dedh
+greger är hit kåmen medh mine kåmisarier såm från
+brodnicza kåmne äre och [har] bllant anedh sacht åß dedh
+den stwdenten såm i h[awe] så mÿckedh bemöt er om skwlle
+ware her i warsow för tre wecker seden hwillcked meg kåm mechte
+underllige före ath han icke hade latedh sege seg an hoß meg. Men
+do han förnam ath greger war her och såg hånåm bad han
+ath greger gönåm någen wille lage ath han måte få
+talle medh åß dedh wÿ gerne äfter lote och lote fordre
+hånåm till åß, och till dedh förste sporde wÿ
+hånåm hwadh hanß erende war hit till håwed. Der på
+gaff han till swar ath efter i icke wore blewen wedh den förste menigen
+ath han medh ere barn skwlle drage wth lendeß war hanß åp
+såt der före ath begere tiänst hoß kongelig maiestedh
+wår her bror. Dor på frågede wÿ hwad tiänst han
 wille late seg brwcke [i].  </inline><inline font-size="12.00" font-style="Times New Roman">Do gaff an till swar at han wille late brwcke seg i
-andellig </inline><inline font-size="12.00" font-style="Times New Roman">heller werslig ti&#228;nst hwar vdi han&#223; kongelige
-maieste&#223; h&#246;gt betrode ti&#228;nere di swenske han&#223; landz
-m&#228;n kwne fine h&#229;n&#229;m ti&#228;nellig till. Der p&#229; swarede
-w&#255; ath i andellige sacker at ti&#228;ne kwne han inted, f&#246;r han er
-ingen prest, der till medh s&#229;m han her till hade get seg wth icke heller
-n&#229;gen papist. Der p&#229; gaff han till swar ath han&#223;
-&#229;ps&#229;t war till ath l&#228;re dedh han icke kwne och skwlle allrig
-gewe &#246;wer f&#246;r &#228;n han m&#229;te l&#228;re saningen. Fast han
-war k&#229;men till &#229;ller h&#246;llt han dedh f&#246;r ingen
+andellig </inline><inline font-size="12.00" font-style="Times New Roman">heller werslig tiänst hwar vdi hanß kongelige
+maiesteß högt betrode tiänere di swenske hanß landz
+män kwne fine hånåm tiänellig till. Der på swarede
+wÿ ath i andellige sacker at tiäne kwne han inted, för han er
+ingen prest, der till medh såm han her till hade get seg wth icke heller
+någen papist. Der på gaff han till swar ath hanß
+åpsåt war till ath läre dedh han icke kwne och skwlle allrig
+gewe öwer för än han måte läre saningen. Fast han
+war kåmen till åller höllt han dedh för ingen
 sk</inline><inline font-size="12.00" font-style="Times New Roman">am ath
-l&#228;re. </inline><inline font-size="12.00" font-style="Times New Roman">Do
-g&#229;we w&#255; o&#223; widere i tall medh h&#229;n&#229;[m]
-</inline><inline font-size="12.00" font-style="Times New Roman">och f&#246;r
-nwme ath dedh &#228;r en s&#229;den s&#229;m ingen tro enw har vten will
-f&#246;rst l&#228;re han h&#229;ller och medh flit p&#229;. Och skwlle i inen
-en k&#229;rt tidh f&#246;r nime ath w&#255; f&#229; der en s&#229;den papist
-s&#229;m were blir &#228;n alle di andre w&#229;re|| lan&#223; men. Gwdh skee
-l&#229;ff dedh han intedh k&#229;m till ere barn. W&#255; mene han skwlle ha
-f&#246;rt dem hwfwd p&#229; in i papisteried. W&#255; wille &#246;nske i hade
-st&#229;t i en wr&#229; och h&#246;rt w&#229;rt tall. I skwlle ha f&#246;r
-wndred er &#246;wer w&#229;r sammen g&#229;ng</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+läre. </inline><inline font-size="12.00" font-style="Times New Roman">Do
+gåwe wÿ oß widere i tall medh hånå[m]
+</inline><inline font-size="12.00" font-style="Times New Roman">och för
+nwme ath dedh är en såden såm ingen tro enw har vten will
+först läre han håller och medh flit på. Och skwlle i inen
+en kårt tidh för nime ath wÿ få der en såden papist
+såm were blir än alle di andre wåre|| lanß men. Gwdh skee
+låff dedh han intedh kåm till ere barn. Wÿ mene han skwlle ha
+fört dem hwfwd på in i papisteried. Wÿ wille önske i hade
+ståt i en wrå och hört wårt tall. I skwlle ha för
+wndred er öwer wår sammen gång</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
 </inline><inline font-size="12.00" font-style="Times New Roman">. Och
-&#228;fter gwdh s&#229; wnderllige har bewared dom dene g&#229;ngen ath di
-&#228;re icke icke s&#229; f&#246;r f&#246;rde blewne m&#229;ste wi si
-&#229;&#223; beter f&#246;re och begere her medh taff er flitelligen ath i
-wille medh flit bestelle en anen hwad nacion han do kan ware. F&#246;rst han
-&#228;r daff den r&#228;te au&#223;burgske k&#229;nfesion och &#228;r well
-l&#228;rd. W&#255; wille ingen wnk&#229;st spare om elliest m&#246;gell wore
-en s&#229;dan ath bek&#229;m&#228;. Tiden lider f&#246;r dem. Hwad di skulle
-l&#228;re do moste dedh ware snart, f&#246;r her &#228;fter frwchte w&#255;
-di wille r&#229;de f&#246;r m&#255;ckedh si&#228;llff. W&#255; hawe befallt
+äfter gwdh så wnderllige har bewared dom dene gången ath di
+äre icke icke så för förde blewne måste wi si
+åß beter före och begere her medh taff er flitelligen ath i
+wille medh flit bestelle en anen hwad nacion han do kan ware. Först han
+är daff den räte außburgske kånfesion och är well
+lärd. Wÿ wille ingen wnkåst spare om elliest mögell wore
+en sådan ath bekåmä. Tiden lider för dem. Hwad di skulle
+läre do moste dedh ware snart, för her äfter frwchte wÿ
+di wille råde för mÿckedh siällff. Wÿ hawe befallt
 dirick ath lewerere er i dancick 70 daller. Dem skwlle i sende till ion
-drawante h&#246;we&#223; man s&#229;n och f&#229;rdre h&#229;n&#229;m till
-&#229;&#223;, </inline><inline font-size="12.00" font-style="Times New Roman">f&#246;r w&#255; wille late h&#229;n&#229;m lere casemir.
-</inline><inline font-size="12.00" font-style="Times New Roman">F&#246;r
-w&#255; wille intedh gerne &#228;n late h&#229;n&#229;m k&#229;me fr&#229;n
-&#229;&#223; f&#246;r orsacker dem w&#255; intedh kwne dene g&#229;ngen
-skriwe. Och lager s&#229; ath han medh dedh allre f&#246;rste k&#229;mer hit.
-Iag will icke gerne late dene s&#229;m her till har l&#228;rt h&#229;n&#229;m
-l&#228;nger bliwe ho&#223; h&#229;n&#229;m, f&#246;r w&#255; f&#229; der wist
-en liten papist om icke medh flit blir f&#246;rek&#229;medh dete w&#255; er i
-en hast icke hawe kwnedh f&#246;r h&#229;lle. Och begere ath i s&#229;m en
-trogen far wille i dete icke ware f&#246;r swmellig. Der wd&#255; g&#246;re i
-&#229;&#223; eth s&#255;nerlligedh behoff. W&#255; hawe och f&#246;r
-n&#229;gen tidh seden skrewedh er till men ingen swar der p&#229;
-bek&#229;medh hwillcked o&#223; m&#255;ck</inline><inline font-size="12.00" font-style="Times New Roman">ed wndrer. Her medh er gwdh befallende&#223;.
+drawante höweß man sån och fårdre hånåm till
+åß, </inline><inline font-size="12.00" font-style="Times New Roman">för wÿ wille late hånåm lere casemir.
+</inline><inline font-size="12.00" font-style="Times New Roman">För
+wÿ wille intedh gerne än late hånåm kåme från
+åß för orsacker dem wÿ intedh kwne dene gången
+skriwe. Och lager så ath han medh dedh allre förste kåmer hit.
+Iag will icke gerne late dene såm her till har lärt hånåm
+länger bliwe hoß hånåm, för wÿ få der wist
+en liten papist om icke medh flit blir förekåmedh dete wÿ er i
+en hast icke hawe kwnedh för hålle. Och begere ath i såm en
+trogen far wille i dete icke ware för swmellig. Der wdÿ göre i
+åß eth sÿnerlligedh behoff. Wÿ hawe och för
+någen tidh seden skrewedh er till men ingen swar der på
+bekåmedh hwillcked oß mÿck</inline><inline font-size="12.00" font-style="Times New Roman">ed wndrer. Her medh er gwdh befallendeß.
 Datum warso den 28 september ano
-1612</inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para /><para><inline font-size="12.00" font-style="Times New Roman">Brev
-23</inline></para></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">W&#255; hawe f&#246;r 4 wecker
-seden skrewed er till om ere barn</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"> </inline><inline font-size="12.00" font-style="Times New Roman">hwrw w&#255; gerne soge dedh
-dere&#223; stwdering ginge f&#246;r </inline><inline font-size="12.00" font-style="Times New Roman">seg och ath i willi skriwe efter drawant
-h&#246;we&#223; manen&#223; s&#229;n ath han k&#229;mer hit medh dedh
-f&#246;rste f&#246;r casemir&#223; skwll. Och hawe w&#255; befallt dirick
-skwlle lewerere er 70 rig&#223; daller till han&#223; behoff, f&#246;r
-w&#255; hawe l&#229;wed h&#229;n&#229;m dedh &#228;rllige. W&#255; hawe
-f&#246;r nwmedh ath i skulle ware siuck aff guartan hwillckedh o&#223; er
-taff hi&#228;rtedh. Let gwd hiellpe er till er h&#228;llse igen. Later
-o&#223; wete hwrw i m&#229;, och om w&#255; kune wete n&#229;gen r&#229;d
-wille w&#255; gerne medelle. I&#229;mfrw lisebet har begered l&#229;ff ath
-skriwe till swerie och begere l&#229;ff ath k&#229;me in. Gwd gewe till
-l&#255;ck medh ded. L&#228;re &#229;ngre&#223; medh tiden. Rosen skriwe
-w&#255; och aff. Hwrw widere will g&#229; ger tiden
-medh.</inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para><inline font-size="12.00" font-style="Times New Roman">Brev 24</inline></para><para><inline font-size="12.00" font-style="Times New Roman">Kere her iahan g&#255;llensti&#228;rne. Iagh har
-bek&#229;med er skriwellze datum den 22 nowember och blant aned f&#246;rnwmed
-ded i taff min f&#246;re skriwellze skulle hawe f&#246;r st&#229;t licke som
-iag. Noged mishag skulle hawe fated till </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">&#8230;</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman"> wet iag inted hwar der skule ware orsack till, f&#246;r
-iag har </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">&#8230;.</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman"> [m]ed f&#246;rnwmedh wten ded i &#228;re meg medh
-all trohet </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">...</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">   </inline><inline font-size="12.00" font-style="Times New Roman">[der]</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> -</inline><inline font-size="12.00" font-style="Times New Roman"> f&#246;re har iag icke orsack
-till ath f&#246;r andre min f&#246;re benegenhet imot er och ber er wele der
-f&#246;re inted hawe n&#229;gen f&#229; feng &#229;nger. Hwad ere barn&#223;
-preczeptor till k&#229;mer kan iag er till swar icke f&#246;r h&#229;lle ath
-iag heller hade sit ath dedh hade wared en t&#255;sk en dene och i
-s&#255;nerhet efter han er f&#246;d i nericke. Tu ting frwchter iag.
-F&#246;re eth ath han icke er en carllist heller en calwenist der f&#246;re
-dem gwd beware. Ded andre ath han intedh er wth giord till ath k&#229;me hit
-och bliwe ho&#223; ere barn, men efter ded oloff swerckes&#229;n mener och i
-si&#228;llff ath om dete skall man inted hawe till ath befruchte hem
-steller</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">iag gwd och er. S&#229;m er s&#255;ne&#223; s&#229;
-g&#246;rer, f&#246;r iag kan om dote inted d&#246;me, f&#246;r iag kener
-personen &#239;nted, och fast iag en soge honom kan meg lel inte gewe&#223;
-till felle s&#229; m&#255;cke talle med h&#229;n&#229;m s&#229;m andre di
-han&#223; grwnd och mening beter f&#246;r fare</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+1612</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev
+23</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Wÿ hawe för 4 wecker
+seden skrewed er till om ere barn</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman"> </inline><inline font-size="12.00" font-style="Times New Roman">hwrw wÿ gerne soge dedh
+dereß stwdering ginge för </inline><inline font-size="12.00" font-style="Times New Roman">seg och ath i willi skriwe efter drawant
+höweß manenß sån ath han kåmer hit medh dedh
+förste för casemirß skwll. Och hawe wÿ befallt dirick
+skwlle lewerere er 70 rigß daller till hanß behoff, för
+wÿ hawe låwed hånåm dedh ärllige. Wÿ hawe
+för nwmedh ath i skulle ware siuck aff guartan hwillckedh oß er
+taff hiärtedh. Let gwd hiellpe er till er hällse igen. Later
+oß wete hwrw i må, och om wÿ kune wete någen råd
+wille wÿ gerne medelle. Iåmfrw lisebet har begered låff ath
+skriwe till swerie och begere låff ath kåme in. Gwd gewe till
+lÿck medh ded. Läre ångreß medh tiden. Rosen skriwe
+wÿ och aff. Hwrw widere will gå ger tiden
+medh.</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Brev 24</inline></para></paragraph><paragraph><para><inline font-size="12.00" font-style="Times New Roman">Kere her iahan gÿllenstiärne. Iagh har
+bekåmed er skriwellze datum den 22 nowember och blant aned förnwmed
+ded i taff min före skriwellze skulle hawe för ståt licke som
+iag. Noged mishag skulle hawe fated till </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">…</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman"> wet iag inted hwar der skule ware orsack till, för
+iag har </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">….</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman"> [m]ed förnwmedh wten ded i äre meg medh
+all trohet </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">...</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">   </inline><inline font-size="12.00" font-style="Times New Roman">[der]</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> -</inline><inline font-size="12.00" font-style="Times New Roman"> före har iag icke orsack
+till ath för andre min före benegenhet imot er och ber er wele der
+före inted hawe någen få feng ånger. Hwad ere barnß
+preczeptor till kåmer kan iag er till swar icke för hålle ath
+iag heller hade sit ath dedh hade wared en tÿsk en dene och i
+sÿnerhet efter han er föd i nericke. Tu ting frwchter iag.
+Före eth ath han icke er en carllist heller en calwenist der före
+dem gwd beware. Ded andre ath han intedh er wth giord till ath kåme hit
+och bliwe hoß ere barn, men efter ded oloff swerckesån mener och i
+siällff ath om dete skall man inted hawe till ath befruchte hem
+steller</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">iag gwd och er. Såm er sÿneß så
+görer, för iag kan om dote inted döme, för iag kener
+personen ïnted, och fast iag en soge honom kan meg lel inte geweß
+till felle så mÿcke talle med hånåm såm andre di
+hanß grwnd och mening beter för fare</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
 </inline><inline font-size="12.00" font-style="Times New Roman">kwne en iag
-och beter f&#246;r st&#229; seg p&#229; han&#223; lerdom. Hwad tidender
-fr&#229;n swergie till k&#229;mer hawe di hiertellige bedr&#246;wedh meg.
-Gwdh allzmechtig si o&#223; n&#229;dellige till och tr&#246;ste worth fatige
-federne&#223; land och hiellpe dem ifr&#229;n dere&#223; mechtige f&#246;r
-f&#246;lliere b&#229;de in och wten ricke&#223; och aff wende dedh
-giffterm&#229;ll mellen di tu ner sk&#255;lle f&#246;r sit hellige namn
-skwll. Dedh wined &#228;r och hith k&#229;med of&#246;r der wed. Iag har ennw
-inted smacked. Betallningen sender iag och medh dene k&#246;pman. Iag sende
-med per 40 florener till olloff swercker s&#229;n till ion drawante
-h&#246;we&#223; man s&#229;n&#223; behoff den iag h&#229;ller till studering
-och wet iag inted om olloff har bek&#229;med heller icke. Iag begerede och
-wete hurw m&#255;cked iagh har l&#229;wed h&#229;n&#229;m om &#229;red och
-n&#229;r han&#223; &#229;r beg&#255;ne&#223;. I welle lage s&#229; ath iag
-f&#229;r wetedh  f&#246;r iag har f&#246;r geted. I welle och tacke oloff
-swercker s&#229;n f&#246;r den warning han g&#246;r meg om den
-kn&#255;pllerskan iag har fr&#229;n dancick. S&#229; har
-polikarpu&#223;</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">sacht om hene n&#229;r han war her ath hon skulle
-hawe haft 2 barn.|| S&#229; trode iag intedh, f&#246;r han skemer hellir 3 en
-han hedrer en, men s&#229; &#228;r dedh och taff andre sagt och ath hon
-skulle hawe haft dedh ene ho&#223; seg och let hene kn&#255;plle, och nw
-skulle dedh barnedh ti&#228;ne</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">ho&#223; en hindrick h</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">&#8230;</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">ke in der langen gasen. Iag wille gerne wete
+och beter för stå seg på hanß lerdom. Hwad tidender
+från swergie till kåmer hawe di hiertellige bedröwedh meg.
+Gwdh allzmechtig si oß nådellige till och tröste worth fatige
+federneß land och hiellpe dem ifrån dereß mechtige för
+fölliere både in och wten rickeß och aff wende dedh
+gifftermåll mellen di tu ner skÿlle för sit hellige namn
+skwll. Dedh wined är och hith kåmed oför der wed. Iag har ennw
+inted smacked. Betallningen sender iag och medh dene köpman. Iag sende
+med per 40 florener till olloff swercker sån till ion drawante
+höweß man sånß behoff den iag håller till studering
+och wet iag inted om olloff har bekåmed heller icke. Iag begerede och
+wete hurw mÿcked iagh har låwed hånåm om åred och
+når hanß år begÿneß. I welle lage så ath iag
+får wetedh  för iag har för geted. I welle och tacke oloff
+swercker sån för den warning han gör meg om den
+knÿpllerskan iag har från dancick. Så har
+polikarpuß</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">sacht om hene når han war her ath hon skulle
+hawe haft 2 barn.|| Så trode iag intedh, för han skemer hellir 3 en
+han hedrer en, men så är dedh och taff andre sagt och ath hon
+skulle hawe haft dedh ene hoß seg och let hene knÿplle, och nw
+skulle dedh barnedh tiäne</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">hoß en hindrick h</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">…</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">ke in der langen gasen. Iag wille gerne wete
 </inline><inline font-size="12.00" font-style="Times New Roman">hwrw her om
-er </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">&#8230;</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman"> sant s&#229; wore iag till fredz ath hon wore der
+er </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">…</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman"> sant så wore iag till fredz ath hon wore der
 </inline><inline font-size="12.00" font-style="Times New Roman">peperen wexer
-</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">&#8230; </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">- </inline><inline font-size="12.00" font-style="Times New Roman">er. </inline><inline font-size="12.00" font-style="Times New Roman">Iagh ber er i wille g&#246;re er flit </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
-</inline><inline font-size="12.00" font-style="Times New Roman">ath f&#246;r
-fare hwrw he </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">...</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman"> ng. </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">Later er och f&#246;rnime ath per gr&#229;ben och
-han&#223; hwstrw hawe b&#229;de skrewedh dr&#229;ningen till och f&#246;r
-klaged den s&#229;m hene har st&#246;t wr ti&#228;nsten och hwrw stor oreth
-dom er </inline><inline font-color="#000000" font-size="12.00" font-style="Times New Roman">skedt och medh s&#229; d&#228;ne ord s&#229;m iag har
-grwfed meg f&#246;re. Dr&#229;n</inline><inline font-size="12.00" font-style="Times New Roman">ingen har sent meg dere&#223; breff, men efter iag icke wet
-om dr&#229;ningen will ath iag skall late meg mercke ded iag weth her om,
-will iag tige stille och ber ath i wille i medler tid f&#246;r fare
-g&#246;n&#229;m n&#229;gen f&#246;r trogen om hon er medh barn heller icke.
-F&#246;r her hade hon alle fachter s&#229;m s&#229; dane plege ha, och meg er
-och till skrewedh fr&#229;n danczik ath hon er s&#229; r&#229;dh miellcken
-signede sl&#228;th b&#229;rt, s&#229; den</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">stacke&#223; barne[d]h war
-s&#229; mager och twinede sleth sin k&#246;st och di skriwe ath di &#228;re
-wten all orsack bort st&#246;te wr ti&#228;nsten f&#246;r blot afwnd skwll
-och medh flere ord s&#229;m di i sinom tid fwlle skwlle f&#229; wete och lere
-seg en anen gong ware f&#246;r sichtigere. Iag h&#246;rer di b&#229;de skwlle
-och wellicht brwcke munen p&#229; meg hwar di k&#229;me. S&#229;dant kan med
+</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">… </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">- </inline><inline font-size="12.00" font-style="Times New Roman">er. </inline><inline font-size="12.00" font-style="Times New Roman">Iagh ber er i wille göre er flit </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">
+</inline><inline font-size="12.00" font-style="Times New Roman">ath för
+fare hwrw he </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman">...</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true">-</inline><inline font-size="12.00" font-style="Times New Roman"> ng. </inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">Later er och förnime ath per gråben och
+hanß hwstrw hawe både skrewedh dråningen till och för
+klaged den såm hene har stöt wr tiänsten och hwrw stor oreth
+dom er </inline><inline font-color="#000000" font-size="12.00" font-style="Times New Roman">skedt och medh så däne ord såm iag har
+grwfed meg före. Drån</inline><inline font-size="12.00" font-style="Times New Roman">ingen har sent meg dereß breff, men efter iag icke wet
+om dråningen will ath iag skall late meg mercke ded iag weth her om,
+will iag tige stille och ber ath i wille i medler tid för fare
+gönåm någen för trogen om hon er medh barn heller icke.
+För her hade hon alle fachter såm så dane plege ha, och meg er
+och till skrewedh från danczik ath hon er så rådh miellcken
+signede släth bårt, så den</inline><inline font-size="12.00" font-style="Times New Roman" superscript="true"> </inline><inline font-size="12.00" font-style="Times New Roman">stackeß barne[d]h war
+så mager och twinede sleth sin köst och di skriwe ath di äre
+wten all orsack bort stöte wr tiänsten för blot afwnd skwll
+och medh flere ord såm di i sinom tid fwlle skwlle få wete och lere
+seg en anen gong ware för sichtigere. Iag hörer di både skwlle
+och wellicht brwcke munen på meg hwar di kåme. Sådant kan med
 tiden bliwe weder gwlled. </inline><inline font-size="12.00" font-style="Times New Roman">Och befaller er her medh gwdh allzmechtig. Ere barn late
-hellse er medh dere&#223; </inline><inline font-size="12.00" font-style="Times New Roman">&#246;dmiwcke ti&#228;nst. Datum warso den 17 december anno
-1612. I wille tacke fachtoren casper wiber f&#246;r d[i] sacker han har sent
-meg med per och ber h&#229;n&#229;m ath han will bestelle meg g&#229;t lin
-fr&#229;n nederland. </inline><inline font-size="12.00" font-style="Times New Roman">Dedh war intedh s&#255;nerllige </inline><inline font-size="12.00" font-style="Times New Roman">g&#229;t dedh han sende meg nw
-op me[dh]  [p]er.</inline></para></paragraph-definition><paragraph-definition adjust-right="true" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0003" widow-control="true"><para /></paragraph-definition><paragraph-definition adjust-right="true" align="just" font-style="DTI" line-spacing="18.00" name="Normal" nest-level="0" style-number="s0002" widow-control="true"><para /></paragraph-definition></section></body></doc>
+hellse er medh dereß </inline><inline font-size="12.00" font-style="Times New Roman">ödmiwcke tiänst. Datum warso den 17 december anno
+1612. I wille tacke fachtoren casper wiber för d[i] sacker han har sent
+meg med per och ber hånåm ath han will bestelle meg gåt lin
+från nederland. </inline><inline font-size="12.00" font-style="Times New Roman">Dedh war intedh sÿnerllige </inline><inline font-size="12.00" font-style="Times New Roman">gåt dedh han sende meg nw
+op me[dh]  [p]er.</inline></para></paragraph></body></doc>

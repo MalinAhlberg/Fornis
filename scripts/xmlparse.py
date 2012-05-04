@@ -1,6 +1,7 @@
 # -*- coding: utf_8 -*-
 
 import re
+import os.path
 from xml.etree import ElementTree as etree
 from usefuls import *
 
@@ -29,10 +30,10 @@ testxml = '''
             '''
 
 # makes sure that a paraghraph is not interrupted by a pagebreak
-def use(xmls):
+def use(xmls,fil):
     etree.register_namespace('',prefix)
     tree = etree.fromstring(xmls)
-    makeParagraphs(tree.find(prefix+'body'))
+    makeParagraphs(tree.find(prefix+'body'),fil)
     return tree
     #return etree.tostring(tree)
 
@@ -41,7 +42,7 @@ def use(xmls):
 # are put into the same paragraph
 ###############################################################################
 
-def makeParagraphs(body):
+def makeParagraphs(body,fil):
     # find all paras
     paras = body.findall('section/paragraph-definition/para')
     appendNext = False
@@ -58,9 +59,11 @@ def makeParagraphs(body):
                     appendNext = True
                 else:
                     # otherwise, we don't need to append
-                    #paralist.append(thispara)
-                    #thispara = []
                     appendNext = False
+            # only for Lydekin, which has special paragraphs
+            elif lydekinpagebreak(para,fil): 
+                    thispara.append(para)
+                    appendNext = True
             else:
                 # end last paragraph, and start a new containing this element
                 paralist.append(thispara)
@@ -163,8 +166,18 @@ def tagPageNo(tree):
 def isonlypagebreak(elem):
     s = extractText(elem).strip()
     pagnumbers = '(\s*'+p1+'\s*$)|'+'(\s*'+p2+'\s*$)|'+'(\s*'+p3+'\s*$)'
-    pnum = re.search('\s*'+pagenumbers+'\s*$',' '+s,re.U)
-    return pnum is not None
+    pbreak = re.search('\s*'+pagenumbers+'\s*$',' '+s,re.U)
+    return pbreak is not None
+
+def lydekinpagebreak(elem,fil):
+    if os.path.basename(fil)=='Lydekin.xml':
+      print 'Lydekin yes'
+      s = extractText(elem).strip()
+      lydekin = '\[*?\]$'
+      pbreak = re.search(lydekin,s,re.U)
+      if pbreak is not None: print 'found a false pb'
+      return pbreak is not None
+    return False
 
 def ispagebreak(elem):
     text = extractText(elem)

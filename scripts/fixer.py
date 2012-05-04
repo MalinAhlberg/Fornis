@@ -30,7 +30,7 @@ def pagenumberfixer(uri): #,segmenter):
     out = 'fixedTaggedTest/'+encode(path)
     bak = 'sentenceSplit/'+encode(path)
     # group paragraphs together if they are separated by a newpage
-    new = xmlparse.use(inp)
+    new = xmlparse.use(inp,uri)
 
     # this should be done later, by nice kark-tools
     ## add here: sentence segmentation
@@ -50,25 +50,15 @@ def pagenumberfixer(uri): #,segmenter):
     open(out,'w').write(ok)
 
 def doAll():
-    # remove name register
-    #for uri in files+filesNy:
-    #  fil = open(uri).read()
-    #  ok  = re.sub('xmlns="http://rtf2xml.sourceforge.net/"','',fil)  
-    #  open(uri,'w').write(ok)
-
     # add titles etc to xmls
-    # titles are not added to NySvenska files
     print "extracting titles"
     newDir = checker.readAndAddInfo(["../titles/titelsExtract.txt","../titles/titelsNyExtract.txt"]) 
     #add lables as specified in sections/
     for sec in glob.glob('../sections/*'):
          print "adding label for",sec
          checker.addLabel(sec,newDir)
-    # fix the page number issue
-    # titles are not added to NySvenska files (newfiles)
-    #segmenter = getModel()
 #    newDir = 'toBeP'
-    for uri in glob.glob(newDir+'/*'): # +usefuls.newfiles:  
+    for uri in glob.glob(newDir+'/Lydekin*'): # +usefuls.newfiles:  
         t = threading.Thread(target=pagenumberfixer,args=(uri,)) #,segmenter))
         t.start()
 
@@ -89,10 +79,17 @@ def getModel():
     segmenter = segmenter(*segmenter_args)
     return segmenter
 
+def removeNameRegister():
+    # remove name register
+    for uri in files+filesNy:
+      fil = open(uri).read()
+      ok  = re.sub('xmlns="http://rtf2xml.sourceforge.net/"','',fil)  
+      open(uri,'w').write(ok)
+
 
         
 # run this to fix all files
-doAll()
+#doAll()
 
 trr = '&#x009;'
 

@@ -2,23 +2,30 @@ How many * and ? in lemgrams?
 soederwallarna: 9008 (see badlemsSoeder.txt)
 schlyter:       0
 
+21355 lemgrams exist at more than one place
 
 How many e?
 ../../Lexicon/schlyter.xml 
-   number of 'e's 2717
+   number of 'e's 2717 
+   our script could fix 769+0 of these... (see fixedEsSchlyter) (56 before) 
+   total number of entries: 10072
 ../../Lexicon/soederwall_ny/soederwall_supp_ONSDAG.xml 
-   number of 'e's 19167
+   number of 'e's 2393 (old: 19167)
+   our script could fix 16+0 of these... :(
+   total number of entries: 19173
 ../../Lexicon/soederwall_ny/soederwall_main_ONSDAG.xml 
-   number of 'e's 22326
+   number of 'e's 2808 (old: 22326)
+   our script could fix 2+3 of these... :( (+4 by cleaner) 
+   total number of entries: 22580
 
 
 Which tags in lemgram?
 printPOS('../../Lexicon/soederwall_ny/soederwall_main_ONSDAG.xml')
-       ({'e': 22326, u'nn': 246})
+       ({'e': 22326, 'nn': 246})
 printPOS('../../Lexicon/soederwall_ny/soederwall_supp_ONSDAG.xml')
-       ({'e': 19167, u'nn': 5})
+       ({'e': 19167, 'nn': 5})
 printPOS('../../schlyter/schlyter.xml')
-       ({'nn': 4935, 'e': 2717, u'vb': 1176, 'av': 857, u'ab': 359, 'pp': 20, u'kn': 3})
+       ({'nn': 4935, 'e': 2717, 'vb': 1176, 'av': 857, 'ab': 359, 'pp': 20, 'kn': 3})
 
 Which pos-tags in gram?
 getGrams('../../schlyter/schlyter.xml')

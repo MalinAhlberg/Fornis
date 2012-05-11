@@ -1,6 +1,4 @@
-
-
-# * ? vad betyda
+# * ?   vad betyda, ta bort eller byt, fixa
 # namnbyten:
 # lem -> lemgram (done! by jonatan)
 # gram -> partOfSpeech
@@ -68,5 +66,3 @@
 # varianter kan flyttas automatiskt (schlyter)
 # flytta annat bös till subnod?  
 # (obs, saldo har annan ording, pos och lemgram ligger i formrepr.)
-
-

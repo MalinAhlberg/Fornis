@@ -23,11 +23,11 @@ def readIt(fil):
 def references():
     errFile = 'error.txt'
     saves   = True # False # 
-    lexicon = currentfile
+    lexicon = 'testL.xml' # currentfile
     outFile = 'testRef3.xml'
     refFile = 'refer.txt'
     open(refFile,'w').write('') # empty old references
-    dlex  = mkLex(keeppos=False)
+    dlex  = mkLex(keeppos=False,files=[lexicon],old=True)
 
 
     def run(lexicon,outFile,i,dlex):
@@ -37,7 +37,7 @@ def references():
         print 'reading',lexicon
         (entries,lex) = readIt(lexicon)
         for entry in entries: 
-            (pos,l) = getTag(entry)
+            (pos,l) = getTag(entry,old=True)
             (lem,_) = getAtt(getFormRepresentation(entry),lemgram)[0]
             # if it is has an e tag, try to fix it
             if pos == 'e':
@@ -67,10 +67,10 @@ def references():
 
 # replaces e:s with pos-tags from gram-information
 def makeTags():
-    (entries,lex) = readIt('rerunlex0.xml')
+    (entries,lex) = readIt('../../Lexicon/good/lmf/schlyter/schlyter.xml')
     counter =  []
     for entry in entries: 
-        (tag,elem) = getTag(entry)
+        (tag,elem) = getTag(entry,old=True)
         if not tag or tag =='e':
            setNewTag(elem,entry,counter)
     open('testL.xml','w').write(etree.tostring(lex,encoding='utf-8'))
@@ -83,9 +83,11 @@ def getFormRepresentation(entry):
     return form
 
 # lexical entry -> (pos-tag, element containing pos-tag)
-def getTag(entry):
-    #form  = getFormRepresentation(entry)
-    lemma = entry.find('Lemma')
+def getTag(entry,old=False):
+    if old:
+      lemma  = getFormRepresentation(entry)
+    else:
+      lemma = entry.find('Lemma')
     lems  = getAtt(lemma,lemgram)
     return extractTag(lems)
 
@@ -97,9 +99,11 @@ def extractTag(lem):
     else: return (None,None)
 
 # lexical entry -> lemgram
-def getLem(entry):
-    #form  = getFormRepresentation(entry)
-    lemma = entry.find('Lemma')
+def getLem(entry,old=False):
+    if old:
+      lemma  = getFormRepresentation(entry)
+    else:
+      lemma = entry.find('Lemma')
     lems  = getAtt(lemma,lemgram)
     return extractLem(lems)
 
@@ -328,37 +332,38 @@ def duplicatelems():
 
 def lookupLex(word,lex):
     lem = re.sub('\*|\?','',word)
-    res = lex.get(lem) if lex.has_key(lem) else 0 #[] OBS TODO fix this, should be the rigth type
+    nullvalue = 0 if type(lex.values)==int else []
+    res = lex.get(lem) if lex.has_key(lem) else nullvalue
     return (lem,res)
 
+soederwall_main = '../../Lexicon/soederwall_ny/soederwall_main_NYAST.xml'
+soederwall_supp = '../../Lexicon/soederwall_ny/soederwall_supp_NYAST.xml'
+schlyter        = '../../Lexicon/schlyter.xml'
+currentfile= schlyter
+ 
 allfiles = [soederwall_main, soederwall_supp, schlyter]
-def mkLex(keeppos=True,files=allfiles,numbers=False):
+def mkLex(keeppos=True,files=allfiles,numbers=False,old=False):
     print 'reading files'
     lex = {}
     print 'making lexicon'
     for fil in files: 
       entries,_ = readIt(fil) 
       for entry in entries:
-        lem     = getLem(entry)
+        lem     = getLem(entry,old)
         lemgram = lem
         if not keeppos:
           lem = lem.split('.')[0]
-        pos,_ = getTag(entry)
+        pos,_ = getTag(entry,old)
         lem1 = re.sub('\*|\?','',lem)
         standard  = [{"form": lem, "file" : fil, "pos" : pos, 'lemgram' : lemgram}]
         attr  = 1 if numbers else standard
         if lex.has_key(lem1):
-           old = lex.get(lem1)
-           attr = old + attr
+           oldl = lex.get(lem1)
+           attr = oldl + attr
         lex.update({lem1 : attr})
     print 'lexicon complete'
     return lex
-
-soederwall_main = '../../Lexicon/soederwall_ny/soederwall_main_NYAST.xml'
-soederwall_supp = '../../Lexicon/soederwall_ny/soederwall_supp_NYAST.xml'
-schlyter        = '../../Lexicon/schlyter.xml'
-currentfile= schlyter
-    
+   
 # def organizer()
 # fixar så att 
 # -om namnet finns i annan ordbok så får den ett nytt id
@@ -368,7 +373,7 @@ currentfile= schlyter
 
 
 
-lemgram = 'lemgram' # 'lem'
+lemgram ='lemgram' # 'lem' # 
 #checklemgrams(['../../Lexicon/soederwall_ny/soederwall_main_NYAST.xml'
 #                ,'../../Lexicon/soederwall_ny/soederwall_supp_NYAST.xml'])
 #duplicatelems()

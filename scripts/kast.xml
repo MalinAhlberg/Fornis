@@ -9,28 +9,10 @@
  <Lemma>
    <feat att="lemgram" val="a..nn.1" />
    <feat att="gram" val="( " />
+   <feat att="gram" val="f." />
+   <feat att="gram" val="v." />
   <FormRepresentation>
    <feat att="writtenForm" val="a" />
-   <feat att="gram" val="f." />
-  </FormRepresentation>
- </Lemma>
-  <WordForm>
-   <feat att="gram" val="pl." />
-   <feat att="NC?PNI" val="ær VG. * dat. aum)," />
-  </WordForm>
- <Sense id="a..1">
-  <Definition>
-   <feat att="text" val=" å.  VG. *  U. *  SM. *  VM. * ME. B. 26: 4. Jfr. Oter, Sunnæn, Almænnigs a." />
-  </Definition>
- </Sense>
-</LexicalEntry>
-<LexicalEntry>
- <Lemma>
-   <feat att="lemgram" val="a..nn.1" />
-   <feat att="gram" val="( " />
-  <FormRepresentation>
-   <feat att="writtenForm" val="a" />
-   <feat att="gram" val="f." />
   </FormRepresentation>
  </Lemma>
   <WordForm>

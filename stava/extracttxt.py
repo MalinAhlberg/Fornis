@@ -4,7 +4,7 @@ import codecs
 from normalize import normalize,iso,norm,hashiso
 from cc import alphabet,getccs,getchanges
 #import dl
-from dltransl import edit_dist
+from dltransl import edit_distdebug
 
 def gettext(fil):
     xmls = codecs.open(fil,'r','utf8').read()
@@ -59,7 +59,7 @@ def lookup():
           if c==w:  #exact copies are not considered
             inlex += [(w,lem)]
           elif fabs(len(w)-len(c))<=len(w)/2:
-            dist = edit_dist(w,c)
+            dist = edit_distdebug(w,c)
           # TODO if a anagram is in lex, this word should still be considered
             if dist<2 and d.get(hashiso(w)) is None:
               oks += [(w,c,dist,lem)]

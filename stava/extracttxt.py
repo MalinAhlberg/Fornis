@@ -8,7 +8,8 @@ from dltransl import edit_dist
 import Queue
 import threading
 
-# read and collect all text in xml
+#TODO START the handeling of $^ vs _ gets different results. Which ones do we want?
+# read and collect all text in xml. but we only get more by being less strict
 def gettext(fil):
     xmls = codecs.open(fil,'r','utf8').read()
     tree = etree.fromstring(xmls)
@@ -29,7 +30,7 @@ def writelex():
       for (cc,i) in ccs:
         dist = dl.edit_dist(w,cc)
         if dist<3:
-          oks += [(w,cc,dist)]
+          oks.append((w,cc,dist))
     print oks
       
 
@@ -59,7 +60,7 @@ def lookup():
     #  a = queue.get()
     #  oks += a
     oks = sorted(set(oks),key= lambda (w,c,d,l): d)
-    codecs.open('variantssc','w',encoding='utf8').write(shownice(oks))
+    codecs.open('variant2','w',encoding='utf8').write(shownice(oks))
     codecs.open('inlex','w',encoding='utf8').write(shownice(inlex))
 
 def spellcheckword(w,d,alpha,a,oks,inlex): #,queue):
@@ -75,18 +76,18 @@ def spellcheckword(w,d,alpha,a,oks,inlex): #,queue):
     ccs    = []
     cc  = getchanges(w,d,alpha)
     #cc = []
-    #getccs((w,hashiso(w)),d,a,cc)
-    ccs += [(w,set(cc))]
+    getccs((w,hashiso(w)),d,a,cc)
+    ccs.append((w,set(cc)))
     # allowed dist should depend on wordlength?
     for (w,cc) in ccs:
       for (c,lem) in set(cc):
         if fabs(len(w)-len(c))<=len(w)/2:
           dist = edit_dist(w,c)
           if dist<2:
-            oks += [(w,c,dist,lem)]
+            oks.append((w,c,dist,lem))
           #   queue.put([(w,c,dist,lem)])
   else:
-    inlex += [(w,lem)]
+    inlex.append((w,lem))
  
 
 def shownice(xs):
@@ -142,8 +143,8 @@ def insert(d,form,lem):
     else:
       d.update({key : {form : lem}})
 
-
-lookup()
+if __name__ == "__main__":
+   lookup()
 
 def supertest():
     txt    = ' '.join(list(gettext('../filerX/Luk41SLundversion.xml')))

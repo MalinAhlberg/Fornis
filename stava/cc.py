@@ -19,8 +19,8 @@ def alphabet(wds):
     return a
 
 # gets the av:s for a string
-def gettav(w):
-    sw = '^'+w+'$'
+def gettav(w,keep=False):
+    sw = '^'+w+'$' if keep else '_'+w+'_'
     #unis,bis,tris = [[],[],[]]
     #unis = [hashiso(w)]
     unis = [iso(w[i]) for i in range(len(w))]
@@ -65,7 +65,7 @@ def groupandcount(ccs):
        
 def getchanges(w,lex,changeset): # lex = korpuslex of avs
     ccs = []                     # changeset = {900:[2,1]},{2:[900]} = (hv,v)
-    (u,b,t) = gettav(w)
+    (u,b,t) = gettav(w,keep=True)
     av   = sum(u)
     tavs = u+b+t
     ch   = []
@@ -109,7 +109,7 @@ def limit(w,ccset):
     for (cc,n) in ccset:
       dist = dl.edit_dist(cc,w)
       if dist > lim:
-        props += [(cc,n,dist)]
+        props.append((cc,n,dist))
         # TODO more snajs rules here
     return props
  

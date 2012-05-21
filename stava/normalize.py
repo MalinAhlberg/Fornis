@@ -42,7 +42,7 @@ def hashiso(w):
 def norm(w):
     return re.sub(u'[^\w'+bokstaver+']','',w)
 
-bokstaver = u'åäöÅÄÖæÆøØÞþ_' # obs _ here to mark end beginning
+bokstaver = u'åäöÅÄÖæÆøØÞþß^$' # obs ^ and $ here to mark end beginning of words
   
 #normalisera:
 #  gå igenom allt

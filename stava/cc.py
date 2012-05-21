@@ -20,9 +20,10 @@ def alphabet(wds):
 
 # gets the av:s for a string
 def gettav(w):
-    sw = '_'+w+'_'
+    sw = '^'+w+'$'
     #unis,bis,tris = [[],[],[]]
-    unis = [hashiso(w)]
+    #unis = [hashiso(w)]
+    unis = [iso(w[i]) for i in range(len(w))]
     #for i in range(len(w)+1):
     #  bis += [iso(sw[i])+iso(sw[i+1])]
     bis = [iso(sw[i])+iso(sw[i+1]) for i in range(len(w)+1)]
@@ -30,7 +31,7 @@ def gettav(w):
     if len(w)>5:
 #      for i in range(len(w)-1):
 #        tris += [iso(sw[i])+iso(sw[i+1])+iso(sw[i+2])]
-      tris =  [iso(sw[i])+iso(sw[i+1])+iso(sw[i+2]) for i in range(len(w)-1)]
+      tris =  [iso(sw[i])+iso(sw[i+1])+iso(sw[i+2]) for i in range(len(w))]
     return unis,bis,tris
 
 # gets character confusion, the set of words comparable to this one
@@ -61,6 +62,45 @@ def groupandcount(ccs):
     return itertools.imap(lambda (x,y): (x,len(list(y))),itertools.groupby(ccs))
 
 
+       
+def getchanges(w,lex,changeset): # lex = korpuslex of avs
+    ccs = []                     # changeset = {900:[2,1]},{2:[900]} = (hv,v)
+    (u,b,t) = gettav(w)
+    av   = sum(u)
+    tavs = u+b+t
+    ch   = []
+    # substitutions only
+    for tav in tavs:
+      # get diff between tav and its translations
+      subs = changeset.get(tav) or []
+      ch += map(lambda x: x-tav,subs)
+    [addAll(lex.get(av+sum(c)),ccs) for c in powerset(set(ch)) if av+sum(c)>0]
+    return ccs
+
+def powerset(lst):
+    return reduce(lambda result, x: result + [subset + [x] for subset in result],
+                  lst, [[]])
+
+####### CAN BE REMOVED
+def getchangestest(w): # lex = korpuslex of avs
+    import readvariant
+    changeset  = readvariant.getvariant('lex_variation.txt')
+    ccs = []                     # changeset = {900:[2,1]},{2:[900]} = (hv,v)
+    (u,b,t) = gettav(w)
+    av   = sum(u)
+    tavs = u+b+t
+    ch   = []
+    # substitutions only
+    for tav in tavs:
+      if tav ==25937424601L: print 'found y'
+      # get diff between tav and its translations
+      subs = changeset.get(tav) or []
+      if  12762815625L in subs: print 'found i'
+      ch += map(lambda x: x-tav,subs)
+#    for c in powerset(set(ch)):
+#      addAll(lex.get(av+sum(c)),ccs)
+    return [av+sum(c) for c in powerset(set(ch)) if av+sum(c)>0]
+
 # TODO, give a value to the word pair depending on dl and how
 # often the other one appears, as well as word length
 # remove exact copies
@@ -72,26 +112,4 @@ def limit(w,ccset):
         props += [(cc,n,dist)]
         # TODO more snajs rules here
     return props
-        
-def getchanges(w,lex,changeset): # lex = korpuslex of avs
-    ccs = []                     # changeset = {900:[2,1]},{2:[900]} = (hv,v)
-    (u,b,t) = gettav(w)
-    av   = u[0]
-    tavs = u+b+t
-    ch   = []
-    # substitutions only
-    for tav in tavs:
-      # get diff between tav and its translations
-      subs = changeset.get(tav) or []
-      ch += map(lambda x: tav-x,subs)
-#    for c in powerset(set(ch)):
-#      addAll(lex.get(av+sum(c)),ccs)
-    [addAll(lex.get(av+sum(c)),ccs) for c in powerset(set(ch))]
-    return ccs
-
-
-def powerset(lst):
-    return reduce(lambda result, x: result + [subset + [x] for subset in result],
-                  lst, [[]])
-
-
+ 

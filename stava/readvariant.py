@@ -6,7 +6,8 @@ def getvariant(fil):
   lines = codecs.open(fil,'r','utf8').readlines()
   d = {}
   for line in lines:
-    line = re.sub('\^|\$','_',line).split()
+    #line = re.sub('\^|\$','_',line).split()
+    line = line.split()
     key  = line[0]
     val  = line[1]
     add(key,val,d)

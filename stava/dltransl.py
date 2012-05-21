@@ -51,6 +51,7 @@ def edit_distdebug(s1, s2):
    #   print r
     return res[0]
 
+# calculates the distance
 def edit_dist(s1, s2):
     s1 = '^'+s1+'$'
     s2 = '^'+s2+'$'
@@ -65,21 +66,13 @@ def edit_dist(s1, s2):
  
     for i in xrange(lenstr1):
         for j in xrange(lenstr2):
-            d[(i,j)] = min(#replace(s1,i,s2,j,d)
-            
-                           d[(i-2,j-1)] + replace2(s1,i,s2,j)
-                          ,d[(i-1,j-2)] + replace2(s2,j,s1,i)
-                          ,d[(i-1,j-1)] + replace(s1[i],s2[j])
-                          # for normal variation
-                          ,d[(i-1,j)] + insert(s1,i+1)      
-                          ,d[(i,j-1)] + insert(s2,j+1)       
-                         # ,key=lambda(x,y):x
-
+            d[(i,j)] = min(replaceX(s1,i,s2,j,d)
+                          ,insertX(s1,i,s2,j,d)
                           )
+            
     res = d[lenstr1-1,lenstr2-1]
     return res
 
-# todo also test other way around
 def replaceX(s1,i,s2,j,d):
   val,same = 30,30
   endi = i+1
@@ -90,9 +83,12 @@ def replaceX(s1,i,s2,j,d):
     same = 0
   (i0,j0,p) = replace1(s1[:endi],s2[:endj],i,j)
   (n0,m0,q) = replace1(s2[:endj],s1[:endi],j,i)
-  return min((d[(i0,j0)][0]+float(val-p)/30 , d[(i0,j0)][1]+[Replace(s1[i0+1:endi],s2[j0+1:endj],float(val-p)/30)])
-            ,(d[(m0,n0)][0]+float(val-q)/30 , d[(i0,j0)][1]+[Replace(s2[n0+1:endj],s1[m0+1:endi],float(val-q)/30)])
-            ,(d[i-1,j-1][0]+same,           d[(i0,j0)][1]+[Replace(s1[i],s2[j],same)]))
+  return min(d[(i0,j0)]+float(val-p)/30
+            ,d[(m0,n0)]+float(val-q)/30 
+            ,d[i-1,j-1]+same)
+# , d[(i0,j0)][1]+[Replace(s1[i0+1:endi],s2[j0+1:endj],float(val-p)/30)])
+# , d[(i0,j0)][1]+[Replace(s2[n0+1:endj],s1[m0+1:endi],float(val-q)/30)])
+#   d[(i0,j0)][1]+[Replace(s1[i],s2[j],same)]))
 
 def replace1(s1,s2,i,j):
   ok = getRepl(replsX,s1,s2)
@@ -108,10 +104,11 @@ def replace1(s1,s2,i,j):
 def insertX(s1,i,s2,j,d):
   (i0,j0,p) = insert1(s1,i,s2,j)
   (n0,m0,q) = insert1(s2,j,s1,i)
-  best = min((d[(i0,j0)][0]+p , d[(i0,j0)][1]+[Del(s1[i0+1:i+1])])
-            ,(d[(m0,n0)][0]+q , d[(m0,n0)][1]+[Del(s2[n0+1:j+1])]))
+  best = min(d[(i0,j0)]+p 
+            ,d[(m0,n0)]+q)
   return best
-
+# , d[(i0,j0)][1]+[Del(s1[i0+1:i+1])])
+#  , d[(m0,n0)][1]+[Del(s2[n0+1:j+1])]))
 def insert1(s1,i,s2,j):
   val = 20
   if i<0:

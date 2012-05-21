@@ -8,16 +8,14 @@ def normalize(wds):
        neww = norm(w)
        key = hashiso(neww)
        insert(d,key,neww)
-       if neww=='allaledhes':
-        print neww,key
        normwds.add((neww,key))  
 
-    prettyprint(d)
+    #prettyprint(d)
     return (d,normwds)
        
 def insert(d,k,val):
-    if val=='allaledhes':
-      print val,k
+    #if val=='allaledhes':
+    #  print val,k
     old = d.get(k)
     i   = 0
     if old!=None:

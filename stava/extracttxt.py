@@ -4,13 +4,17 @@ import codecs
 from normalize import normalize,iso,norm,hashiso
 from cc import alphabet,getccs,getchanges
 #import dl
-from dltransl import edit_distdebug
+from dltransl import edit_dist
+import Queue
+import threading
 
+# read and collect all text in xml
 def gettext(fil):
     xmls = codecs.open(fil,'r','utf8').read()
     tree = etree.fromstring(xmls)
     return tree.find('body').itertext()
 
+# gather pairs of words from the text that could be variations of each other
 def writelex():
     txt    = ' '.join(list(gettext('../filerX/Albinus.xml')))
     wds    = txt.split()
@@ -28,15 +32,14 @@ def writelex():
           oks += [(w,cc,dist)]
     print oks
       
-      #calculatevariants(w,alpa,d)   # should get cc and rank them 
 
-# TODO use set instead of list
+# reads lexicons and a text and idenitfies spelling variations,
+# using the lexicons as a standard
 def lookup():
     from readvariant import getvariant
-    from math import fabs
     txt    = ' '.join(list(gettext('../filerX/Albinus.xml')))
     wds    = map(lambda x: norm(x).lower(),txt.split())
-    a,_    = normalize(wds) # prints bu, frekvenslista and lex
+    a,_    = normalize(wds) 
     d      = readlex(['../scripts/lexiconinfo/newer/schlyter.xml'
                      ,'../scripts/lexiconinfo/newer/soederwall_main.xml'
                      ,'../scripts/lexiconinfo/newer/soederwall_supp.xml'])
@@ -44,28 +47,47 @@ def lookup():
     oks    = []
     inlex  = []
     print 'will find ccs and rank'
-    # TODO tråda här?
-    for w in set(wds):
-      ccs    = []
-      cc  = getchanges(w,d,alpha)
-      getccs((w,hashiso(w)),d,a,cc)
-      ccs += [(w,set(cc))]
-      # TODO check that only allowed lex-var is made, nothing else
-      # hv and a-e in dl
-      # todo fix lemgram
-      # allowed dist should depend on wordlength?
-      for (w,cc) in ccs:
-        for (c,lem) in set(cc):
-          if c==w:  #exact copies are not considered
-            inlex += [(w,lem)]
-          elif fabs(len(w)-len(c))<=len(w)/2:
-            dist = edit_distdebug(w,c)
-          # TODO if a anagram is in lex, this word should still be considered
-            if dist<2 and d.get(hashiso(w)) is None:
-              oks += [(w,c,dist,lem)]
+    # TODO tråda här? blir ej snabbare!
+    #queue = Queue.Queue(0)
+    wds = set(wds)
+    for w in wds:
+    #  print w
+    #  t = threading.Thread(target=spellcheckword,args=(w,d,alpha,a,oks,inlex,queue))
+      #t.start()
+      spellcheckword(w,d,alpha,a,oks,inlex)
+    #for i in wds:
+    #  a = queue.get()
+    #  oks += a
     oks = sorted(set(oks),key= lambda (w,c,d,l): d)
-    codecs.open('variants','w',encoding='utf8').write(shownice(oks))
+    codecs.open('variantssc','w',encoding='utf8').write(shownice(oks))
     codecs.open('inlex','w',encoding='utf8').write(shownice(inlex))
+
+def spellcheckword(w,d,alpha,a,oks,inlex): #,queue):
+  from math import fabs
+
+  def getlemgram():
+    res = d.get(hashiso(w))
+    if res !=None:
+      return res.get(w)
+#  print w,getlemgram()
+  lem = getlemgram()
+  if lem==None:
+    ccs    = []
+    cc  = getchanges(w,d,alpha)
+    #cc = []
+    #getccs((w,hashiso(w)),d,a,cc)
+    ccs += [(w,set(cc))]
+    # allowed dist should depend on wordlength?
+    for (w,cc) in ccs:
+      for (c,lem) in set(cc):
+        if fabs(len(w)-len(c))<=len(w)/2:
+          dist = edit_dist(w,c)
+          if dist<2:
+            oks += [(w,c,dist,lem)]
+          #   queue.put([(w,c,dist,lem)])
+  else:
+    inlex += [(w,lem)]
+ 
 
 def shownice(xs):
     slist = ['\t'.join([unicode(w) for w in x]) for x in xs]

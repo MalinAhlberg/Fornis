@@ -11,7 +11,8 @@ import threading
 #TODO START the handeling of $^ vs _ gets different results. Which ones do we want?
 # read and collect all text in xml. but we only get more by being less strict
 def gettext(fil):
-    xmls = codecs.open(fil,'r','utf8').read()
+    #xmls = codecs.open(fil,'r','utf8').read()
+    xmls = codecs.open(fil,'r').read()
     tree = etree.fromstring(xmls)
     return tree.find('body').itertext()
 
@@ -96,7 +97,7 @@ def shownice(xs):
     return s
 
 # return dictionary {av : {form : lemma}}
-def readlex(files):
+def readlex(files,old=False):
     d = {}
     for fil in files:
       s = open(fil,"r").read()
@@ -110,16 +111,20 @@ def readlex(files):
            insert(d,form,lem)
     return d
 
-def getLemgram(entry):
+def getLemgram(entry,old=False):
     lemma = entry.find('Lemma')
+    if old:
+      lemma  = lemma.find('FormRepresentation')
     for feat in lemma:
+      print 'formrep',feat.get('att')
       value = feat.get('att')
       if value == 'lemgram':
         return feat.get('val')
             
-def getWrittenforms(entry):
+def getWrittenforms(entry,old=False):
     lemma = entry.find('Lemma')
-    forms  = lemma.findall('FormRepresentation')
+    container = 'WordForm' if old else 'FormRepresentation'
+    forms  = lemma.findall(container) 
     ws     = []
     for form in forms:
       writtens = getAtt(form,'writtenForm')

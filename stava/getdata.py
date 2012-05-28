@@ -10,10 +10,9 @@ import glob
 
 def sammanstall():
     files = glob.glob('../filerX/*xml')+glob.glob('../../filerXNy/*xml')
-    d     = readlexnormal(dalin,old=True) #oldlex
-    print d
+    d     = readlexnormal(oldlex) #dalin,old=True) #oldlex
     res = [getdata(fil,d) for fil in files]
-    codecs.open('totresultD','w',encoding='utf8').write(shownice(res))
+    codecs.open('totresult','w',encoding='utf8').write(shownice(res))
 
 oldlex = (['../scripts/lexiconinfo/newer/schlyter.xml'
          ,'../scripts/lexiconinfo/newer/soederwall_main.xml'
@@ -27,16 +26,21 @@ def getdata(fil,d):
     wds    = map(lambda x: norm(x).lower(),txt.split())
     typs   = Counter(wds)
     dic = {}
-    map(lambda (w,i): dic.update({w:(d.get(w),i)}),typs.items())
+   # map(lambda (w,i): dic.update({w:(d.get(w),i)}),typs.items())
+
+    map(lambda (w,i):  dic.update({w:spellcheckword(w,d,alpha,a)}),typs.items() # TODO find args for spellc
+    #spelled = map(lambda (w,i): ,typs.items() 
     tab = map(lambda w: (w,dic.get(w)),wds)
     gw,gt,bw,bt = calculate(dic)
     res = 'good '+str(gw)+' ('+str(gt)+') bad '+str(bw)+' ('+str(bt)+')\n***\n'
  
-    codecs.open('resultsD','a',encoding='utf8').write('\n'+fil+' '+res+'\n'+shownice(tab))
+    
+    codecs.open('results','a',encoding='utf8').write('\n'+fil+' '+res+'\n'+shownice(tab))
     return (fil,gw,gt,bw,bt,gw+bw,gt+bt)
 
 
-
+#TODO START this should do the same job as before but maybe also count how many spelling variants we have
+# then we should print similair result files with overviewable data about spelling variants
 def calculate(dic):
     oks,bads = [],[]
     bokstaver = u'\w|[åäöÅÄÖæÆøØÞþß]' 

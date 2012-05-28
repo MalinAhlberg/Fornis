@@ -56,7 +56,12 @@ def lookup():
     #  print w
     #  t = threading.Thread(target=spellcheckword,args=(w,d,alpha,a,oks,inlex,queue))
       #t.start()
-      spellcheckword(w,d,alpha,a,oks,inlex)
+      (ok,arg) = spellcheckword(w,d,alpha,a)
+      if ok:
+        oks.append(arg)
+      else:
+        inlex.append(arg)
+        
     #for i in wds:
     #  a = queue.get()
     #  oks += a
@@ -64,7 +69,7 @@ def lookup():
     codecs.open('variant2','w',encoding='utf8').write(shownice(oks))
     codecs.open('inlex','w',encoding='utf8').write(shownice(inlex))
 
-def spellcheckword(w,d,alpha,a,oks,inlex): #,queue):
+def spellcheckword(w,d,alpha,a): #,queue):
   from math import fabs
 
   def getlemgram():
@@ -85,10 +90,12 @@ def spellcheckword(w,d,alpha,a,oks,inlex): #,queue):
         if fabs(len(w)-len(c))<=len(w)/2:
           dist = edit_dist(w,c)
           if dist<2:
-            oks.append((w,c,dist,lem))
+            return (True,(w,c,dist,lem))
+            #oks.append((w,c,dist,lem))
           #   queue.put([(w,c,dist,lem)])
   else:
-    inlex.append((w,lem))
+    return (False,(w,lem))
+    #inlex.append((w,lem))
  
 
 def shownice(xs):
@@ -116,14 +123,13 @@ def getLemgram(entry,old=False):
     if old:
       lemma  = lemma.find('FormRepresentation')
     for feat in lemma:
-      print 'formrep',feat.get('att')
       value = feat.get('att')
       if value == 'lemgram':
         return feat.get('val')
             
 def getWrittenforms(entry,old=False):
     lemma = entry.find('Lemma')
-    container = 'WordForm' if old else 'FormRepresentation'
+    container = 'FormRepresentation'   #'WordForm' if old else 
     forms  = lemma.findall(container) 
     ws     = []
     for form in forms:

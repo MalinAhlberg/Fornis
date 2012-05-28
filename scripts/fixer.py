@@ -94,8 +94,14 @@ def removeNameRegister():
 trr = '&#x009;'
 
 def test():
-    inp = open("../fixedTagged/Tekla.xml").read()
-    tree = etree.fromstring(inp)
-    print tree[:10]
-
+    import xmlindent
+    import codecs
+    for fil in glob.glob('../filerX*/*xml'):
+      inp = open(fil).read()
+      ut  = os.path.join('hej',os.path.basename(fil))
+      tree = etree.fromstring(inp)
+      xmlindent.indent(tree)
+      xml = etree.tostring(tree,encoding='utf8')
+      codecs.open(ut,'w').write(xml)
+  
 

@@ -1,0 +1,539 @@
+AVgL.xml
+§ Æ Ö æ é ó ö › ﬁ ﬂ
+
+Albinus.xml
+¶ Ä ä ö ‡
+
+Alexius.xml
+Ä ä ö …
+
+Amalberga.xml
+¶ Ä ä ö ‡
+
+AngDikt.xml
+¶ Ä ä ö
+
+Anna1a.xml
+Ä ä æ ö
+
+Anna9.xml
+Ä ä æ ö
+
+AnnaVasa.xml
+Ä ß ä å æ ï ö ÿ …
+
+Ansgar.xml
+¶ Ä ä ö
+
+ApG-A.xml
+Ä ä å ö ﬂ
+
+Apd26SLundversion.xml
+Ä ß ä å ö ‡
+
+Apo41SLundversion.xml
+Ä Ö ä å ö
+
+Argus.xml
+» Ä Å Ö ä å ö
+
+Barbara.xml
+Ä ä ö
+
+Barl.xml
+¶ Ä ä æ ö –
+
+BartMod.xml
+Ä ä ö
+
+Birg-8.xml
+§ Ä Å ä å ö
+
+Birg-Bergm.xml
+Ä ä ö
+
+Birg-Ox.xml
+Ä ä å ö
+
+Birg-aut.xml
+¶ Å Æ ä å æ ö ø ﬂ
+
+Birg-no.xml
+¶ Ä Å ä å ö ﬁ ﬂ
+
+Birg1-3.xml
+¶ Ä Å Ö ä å ö
+
+Birg4-8.xml
+¶ Ä Å Ö ä å ö
+
+Birg7-C61.xml
+° ¶ Æ ä æ ö ø ‡ …
+
+BirgVita.xml
+Ä Æ Ö ä ö ‡
+
+BjR.xml
+§ ä æ ö › ﬂ
+
+Blasius.xml
+Ä ä ö
+
+BlasiusBil.xml
+¶ ä ö
+
+Bo.xml
+Ä Ö ä å ö – —
+
+Bo6.xml
+Ä ä ö ‡
+
+Bo63.xml
+¶ Ä ä ö ‡
+
+Bo7.xml
+Ä ä ö ‡
+
+Bond.xml
+Ä Æ Ö ä å ö
+
+Brahe.xml
+Ä Å Ö Ø ä å æ ö
+
+Briccius.xml
+¶ Ä ä ö ‡
+
+ChrPina.xml
+´ ¶ Ä ä ö ‡
+
+Clara.xml
+Ä ä ö
+
+Columb.xml
+Ä Å Ç Ö ß ä å æ ï ö ü
+
+DL.xml
+§ ¶ Ä Æ æ ö › ﬁ ﬂ
+
+Did-A.xml
+Ä Æ ä æ ö
+
+Did-B.xml
+Ä ä å í ö
+
+ElisBra.xml
+¶ ä ö ‡
+
+ElisUng.xml
+¶ Ä ä ö ‡
+
+ElisUngUppA.xml
+¶ Ä ä ö ‡
+
+ElisUngUppB.xml
+¶ Ä ä ö ‡
+
+EmAnna.xml
+§ ¶ Ä ä å ö ı
+
+Erik-A.xml
+Ä Ö ä ö
+
+ErikBil.xml
+¶ æ ø
+
+ErikReg.xml
+Ä ä å ö – …
+
+Ester.xml
+¶ Ä ä ö
+
+Exodus16.xml
+Ä ä ö
+
+Fara.xml
+¶ Ä ä ö ‡
+
+FelPetr.xml
+¶ Ä ä ö
+
+GB-1734.xml
+§ Ä Å Ö ä å ö
+
+GL-Add.xml
+§ ¶ æ ö
+
+GL.xml
+§ ¶ æ ﬁ ﬂ
+
+Genoveva.xml
+Ä ä ö
+
+Germ-Gen.xml
+Ä ä å ö
+
+Germ.xml
+Ä ä ö
+
+GermBil.xml
+¶ ä ö
+
+Greg-A.xml
+¶ Ä ä å ö
+
+Greg-B.xml
+¶ Ä ä ö
+
+GregStyl.xml
+¶ Ä ä å ö
+
+Gyllenb.xml
+Ä Å Ö à ä å æ ç è é ê î ô ö û
+
+Gyllh.xml
+Å Ö ä å æ é ö
+
+HL.xml
+§ ¶ Å Æ å æ ö ø … ﬁ ﬂ
+
+HML.xml
+¶ Ä ä æ ö ﬂ
+
+Hiarne.xml
+Ä Å Æ Ç Ö ä å æ ï ö
+
+Hogstrom-Lm.xml
+§ Ä Å Æ Ö ä å æ ç ë ö
+
+Horn.xml
+\ Å ä å ö ÿ
+
+Jakelina.xml
+¶ Ä ä ö ‡
+
+Jart.xml
+­ ´ Ä ä ö
+
+Joakim.xml
+Ä ä ö ‡
+
+JohChris.xml
+¶ Ä ä ö ‡
+
+JohDop.xml
+¶ Ä ä ö
+
+Joleida.xml
+¶ Ä ä ö ‡
+
+Judit.xml
+§ ¶ Ä ä ö
+
+KS-Bu.xml
+Ä Å Ö ä å ö
+
+Karl.xml
+Æ å æ ö
+
+KarlMagnus-A.xml
+Ä ä ö ‡
+
+KatEgMir.xml
+ä ö ‡
+
+KatSv.xml
+´ ¶ Ä ä å é ö
+
+KrL-Andr.xml
+  § Ä Æ ä å æ ö
+
+KrL-MEL.xml
+  § Ä Æ Ö ä å æ ö …
+
+KrL-Ny.xml
+§ Æ å æ ö
+
+KrL.xml
+§ ¶ Ä ä ö
+
+Laek-Benz22.xml
+¶ ä ö
+
+Laek1.xml
+¶ Ä ä ö
+
+Laek10.xml
+¶ Ä ä å ö
+
+Laek11.xml
+ä å ö
+
+Laek2.xml
+¶ Ä Ö ä ö
+
+Laek3.xml
+¶ Ä ä å ö
+
+Laek4.xml
+¶ ä å ö
+
+Laek5-6.xml
+¶ Ä ä å ö
+
+Laek7.xml
+¶ Ä Ö ä å ö
+
+Laek8.xml
+Ä ä å ö
+
+Laek9.xml
+Ä Ö ä å ö
+
+LegBil.xml
+  ¶ · Æ Ø á ä å æ ö ø ˚ ‡ … ﬂ
+
+LegBu.xml
+¶ · Æ æ ø … ﬁ ﬂ
+
+Link-NR.xml
+¶ Ä ä ö ‡
+
+Luc-JB.xml
+´ ¶ Ä ä ö
+
+Luk41SLundversion.xml
+Ä Å Ö ä å ö
+
+Lydekin.xml
+§ ¶ Ä ä æ ö ᛘ … › ﬂ
+
+MB-1734.xml
+§ Ä Ö ä å ö
+
+MEL.xml
+  § Æ Ö ä æ ö ‚ ﬁ ﬂ
+
+MESt.xml
+  § Ä Æ æ ö
+
+MP1.xml
+§ ¶ Ä ä å æ é ö –
+
+MP2-fragm.xml
+¶ Ä ä ö ‡ …
+
+MP5.xml
+¢ § « ¶ Ä ä å í ö ü œ — „
+
+Macarius.xml
+¶ Ä ä ö ‡
+
+Macra.xml
+¶ ä å ö –
+
+Magnus.xml
+¶ Æ æ ø …
+
+Mar26SLundversion.xml
+Å ß ä å ö ‡
+
+Mar41SLundversion.xml
+Ä Å Ö ä å ö
+
+MariaE.xml
+Ä ä ö ‡
+
+MariaF.xml
+ä ö ‡
+
+MariaOe.xml
+¶ Ä ä ö ‡
+
+Mektild20.xml
+ä ö
+
+Moses-A.xml
+¶ Ä ä æ ö ø
+
+Moses-B.xml
+¶ Æ Ø ä æ ø …
+
+Nic-A.xml
+­ Ä ä ö
+
+NordBil.xml
+¶ Æ æ ø …
+
+OgL-A.xml
+§ ¶ Æ Ö Þ ä æ ö ø þ
+
+OgL-C.xml
+Æ å æ ø … ﬁ ﬂ
+
+OgL-D.xml
+æ ø … ﬂ
+
+OgL-E.xml
+æ ø … ﬂ
+
+OgL-H.xml
+Æ Ø æ ø
+
+OgL-M.xml
+å æ ø … ﬂ
+
+OgL-N.xml
+æ ø … ﬂ
+
+Olav.xml
+¶ æ ø
+
+Ordsprak.xml
+ä å æ ø …
+
+Otilia.xml
+¶ Ä ä ö ‡
+
+PatrikBil.xml
+ä ö …
+
+PaulOmv.xml
+¶ Ä ä ö
+
+PauloJoh.xml
+Ä ä ö ø
+
+Petri.xml
+Ä Å Ö ß ä å æ ö ü
+
+PetriA.xml
+Ä Å Ö ß ä å ö ü
+
+PetriB.xml
+Å Ö ä å æ ö
+
+Proskron.xml
+Ö ä ö ‡
+
+Rakel.xml
+¶ Ä ä ö ‡
+
+RegS.xml
+§ ¶ Ä Å ä ô ö
+
+Ronigk.xml
+´ Ä Å Ö ä å ö
+
+Runius.xml
+$ ~ Ä Å Ç Ö ä å æ ï ö ∂ ∫
+
+Ruth.xml
+¶ Ä ä ö
+
+SK.xml
+¶ Ä Ö ä ö
+
+SVM-A.xml
+Ä ä ö
+
+SVM-B.xml
+´ ¶ Ä ä å ö
+
+SVM-C.xml
+· Ä ä ö
+
+SdmL-A.xml
+§ ¶ Æ Ö ä æ ö › ﬁ ﬂ
+
+SdmL-Add.xml
+§ ¶ Æ æ ö › ﬂ
+
+SdmL-conf.xml
+Æ æ ö › ﬂ
+
+Servacius.xml
+Ä ä ö ‡
+
+Sigfrid.xml
+¶ Æ æ ø …
+
+Sjusov.xml
+¶ ä ö
+
+SkaL.xml
+Æ å æ ö … ﬁ ﬂ
+
+SmLKB.xml
+§ Æ å æ ö
+
+Spegel.xml
+Ä Å Ö ä å æ é ï ö ü ∂
+
+Stalham.xml
+¤ Ä Å Ö ä å æ é ï ö
+
+StefP.xml
+¶ ä å ö
+
+Stefan.xml
+¶ Ä ä ö
+
+StimAm.xml
+¶ Ä ä é ö
+
+StrLegBil-I.xml
+¶ Ä ä ö
+
+StrLegBil-IV.xml
+Ä ä ö ø
+
+Swart.xml
+· Ä Å Æ Ö ä å æ ö
+
+Tekla.xml
+ä ö ‡
+
+TreKung.xml
+Ä ä ö
+
+Troja.xml
+Ä Ö ä å ö
+
+Trost.xml
+¶ Æ Ø ä æ ö ø
+
+UL-A.xml
+  § ¶ Æ å æ ö ø … ﬁ ﬂ
+
+UL-Add.xml
+¶ ä æ ö ﬂ
+
+UL-B.xml
+¶ ä æ ö ø ﬁ ﬂ
+
+VHF.xml
+¶ Ä ä ö ‡
+
+Val.xml
+å æ ö ø
+
+Vidhem.xml
+¶ Æ Ö æ ö … › ﬁ ﬂ
+
+VmL.xml
+§ ¶ Æ Ö á å æ ö … › ﬁ ﬂ
+
+YVgL-add.xml
+§ æ ö › ﬁ ﬂ
+
+Yvgl.xml
+§ Æ Ö ä å æ ö ø ˛ ” › ∂ ﬁ ﬂ
+
+flores.xml
+Æ ä æ ø
+
+fredrik.xml
+Ä Æ Ø ä ö
+
+ivan.xml
+Æ ä ö

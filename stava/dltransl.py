@@ -121,21 +121,6 @@ def insert1(s1,i,s2,j):
      val -= 1
   return (i-1,j,float(val)/20)
  
-# TODO
-#^hv     ^v
-#a$ e$
-def replace2(s1,i,s2,j):
-  val = 30
-  if i<1 or i>len(s1)-1 or j<0 or j>len(s2)-1:
-    return 50
-  a = s1[i-1]
-  b = s1[i]
-  x = s2[j]
-  ok = repls.get((a+b,x))
-  if ok!=None :
-    val -= (ok*3)
-  return float(val)/10
- 
 def replace(a,b):
   val = 10
   if a==b:
@@ -146,7 +131,6 @@ def replace(a,b):
   elif a in vow and b in vow:
     val -=2;
   return float(val)/10
-
 
 dub = u"bdfgjlmnprstv"; #/* dubbeltecknande konsonanter */
 vow = u"aeiouyåäöAEIOUYÅÄÖ"; #/* vokaler*/

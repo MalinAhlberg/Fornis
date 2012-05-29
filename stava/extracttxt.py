@@ -59,7 +59,7 @@ def lookup():
       (ok,arg) = spellcheckword(w,d,alpha,a)
       if ok:
         oks.append(arg)
-      else:
+      elif arg!=None:
         inlex.append(arg)
         
     #for i in wds:
@@ -69,34 +69,64 @@ def lookup():
     codecs.open('variant2','w',encoding='utf8').write(shownice(oks))
     codecs.open('inlex','w',encoding='utf8').write(shownice(inlex))
 
+"""
+spellcheckword(word,hashlexicon,alphabet of ok variants,alphabet of hash-grams)
+returns (False,(word,lemgram)) if the word is in the lexicon
+returns (True,(word,variant,distance,lemgram)) if variants are found
+returns (False,None) if nothing interesting is found
+"""
 def spellcheckword(w,d,alpha,a): #,queue):
-  from math import fabs
 
-  def getlemgram():
-    res = d.get(hashiso(w))
-    if res !=None:
-      return res.get(w)
-#  print w,getlemgram()
   lem = getlemgram()
   if lem==None:
     ccs    = []
     cc  = getchanges(w,d,alpha)
-    #cc = []
     getccs((w,hashiso(w)),d,a,cc)
     ccs.append((w,set(cc)))
     # allowed dist should depend on wordlength?
-    for (w,cc) in ccs:
-      for (c,lem) in set(cc):
-        if fabs(len(w)-len(c))<=len(w)/2:
-          dist = edit_dist(w,c)
-          if dist<2:
-            return (True,(w,c,dist,lem))
-            #oks.append((w,c,dist,lem))
+    getvariant(css)
+    if res:
+      return res
+    #for (w,cc) in ccs:
+    #  for (c,lem) in set(cc):
+    #    if fabs(len(w)-len(c))<=len(w)/2:
+    #      dist = edit_dist(w,c)
+    #      if dist<2:
+    #        return (True,(w,c,dist,lem))
+    #        #oks.append((w,c,dist,lem))
           #   queue.put([(w,c,dist,lem)])
   else:
     return (False,(w,lem))
     #inlex.append((w,lem))
+
+  # False,None implies it was in dict but we didn't get good spelling variants
+  return (False,None)
+
+def spellchecksmall(w,d,alpha):
+  lem = getlemgram(d,w)
+  if lem==None:
+    ccs = [(w,getchanges(w,d,alpha))]
+    res = getvariant(ccs)
+    if res:
+      return res
+  else:
+    return (False,(w,lem))
+  return (False,None)
  
+def getlemgram(d,w):
+    res = d.get(hashiso(w))
+    if res !=None:
+      return res.get(w)
+ 
+def getvariant(ccs):
+  from math import fabs
+  for (w,cc) in ccs:
+    for (c,lem) in set(cc):
+      if fabs(len(w)-len(c))<=len(w)/2:
+        dist = edit_dist(w,c)
+        if dist<2:
+          return (True,(w,c,dist,lem))
+
 
 def shownice(xs):
     slist = ['\t'.join([unicode(w) for w in x]) for x in xs]

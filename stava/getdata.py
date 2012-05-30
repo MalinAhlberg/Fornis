@@ -7,15 +7,17 @@ import codecs
 import re
 import glob
 
+outputWords = 'smalltestallmar'
+outputData  = 'smalltestdatamar'
 
 def sammanstall():
     from readvariant import getvariant
-    files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
-    #files = glob.glob('../filerXNy/*xml')
+    #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
+    files = glob.glob('../filerX/Ap*xml')+glob.glob('../filerX/Mar*Lund*xml')
     hashd = readlex(oldlex)#dalin,old=True) #oldlex
     alpha  = getvariant('lex_variation.txt')
     res = [getdata(fil,hashd,alpha) for fil in files]
-    codecs.open('totresultAllX','w',encoding='utf8').write(shownice(res))
+    codecs.open(outputData,'w',encoding='utf8').write(shownice(res))
 
 oldlex = (['../scripts/lexiconinfo/newer/schlyter.xml'
          ,'../scripts/lexiconinfo/newer/soederwall_main.xml'
@@ -25,7 +27,7 @@ dalin =  ['../../Lexicon/dalin.xml']
 def getdata(fil,hashd,alpha):
     from readvariant import getvariant
     print fil
-    txt    = ' '.join(list(gettext(fil)))
+    txt    = ''.join(list(gettext(fil)))
     wds    = map(lambda x: norm(x).lower(),txt.split())
     typs   = Counter(wds)
     dic = {}
@@ -34,10 +36,10 @@ def getdata(fil,hashd,alpha):
     map(lambda (w,i):  dic.update({w:(i,spellcheckword(w,hashd,alpha,a))}),typs.items()) 
     tab = map(lambda w: (w,dic.get(w)),wds)
     gw,gt,bw,bt,vw,vt = calculate(dic)
-    res = 'good '+str(gw)+' ('+str(gt)+') bad '+str(bw)+' ('+str(bt)+')\n***\n'
+    res = 'good '+str(gw)+' ('+str(gt)+') bad '+str(bw)+' ('+str(bt)+')'+'variations '+str(vw)+' ('+str(vt)+')\n***\n'
  
     
-    codecs.open('resultsAllX','a',encoding='utf8').write('\n'+fil+' '+res+'\n'+shownice(tab))
+    codecs.open(outputWords,'a',encoding='utf8').write('\n'+fil+' '+res+'\n'+shownice(tab))
     return (fil,gw,gt,bw,bt,vw,vt,gw+bw+vw,gt+bt+vt)
 
 

@@ -1,42 +1,16 @@
-# -*- coding: utf_8 -*-
-from xml.etree import ElementTree as etree
-import codecs
-from normalize import normalize,iso,norm,hashiso
-from cc import alphabet,getccs,getchanges
-#import dl
-from dltransl import edit_dist
-import Queue
-import threading
 
-#TODO START the handeling of $^ vs _ gets different results. Which ones do we want?
-# read and collect all text in xml. but we only get more by being less strict
+--TODO START the handeling of $^ vs _ gets different results. Which ones do we want?
+-- read and collect all text in xml. but we only get more by being less strict
 def gettext(fil):
-    #xmls = codecs.open(fil,'r','utf8').read()
+    --xmls = codecs.open(fil,'r','utf8').read()
     xmls = codecs.open(fil,'r').read()
     tree = etree.fromstring(xmls)
     return tree.find('body').itertext()
 
-# gather pairs of words from the text that could be variations of each other
-def writelex():
-    txt    = ' '.join(list(gettext('../filerX/Albinus.xml')))
-    wds    = txt.split()
-    d,nwds = normalize(wds) # prints bu, frekvenslista and lex
-    alpha  = alphabet(wds)
-    oks    = []
-    for (w,av) in nwds:
-      ccs = getccs((w,av),d,alpha)
-      # this should be done earlier? use rank in cc
-      # instead we could look all proposals up in lexicon
-      # here, and decide wether we want to keep word or not
-      for (cc,i) in ccs:
-        dist = dl.edit_dist(w,cc)
-        if dist<3:
-          oks.append((w,cc,dist))
-    print oks
-      
+     
 
-# reads lexicons and a text and idenitfies spelling variations,
-# using the lexicons as a standard
+-- reads lexicons and a text and idenitfies spelling variations,
+-- using the lexicons as a standard
 def lookup():
     from readvariant import getvariant
     txt    = ' '.join(list(gettext('../filerX/Albinus.xml')))
@@ -49,33 +23,35 @@ def lookup():
     oks    = []
     inlex  = []
     print 'will find ccs and rank'
-    # TODO tråda här? blir ej snabbare!
-    #queue = Queue.Queue(0)
+    -- TODO tråda här? blir ej snabbare!
+    --queue = Queue.Queue(0)
     wds = set(wds)
     for w in wds:
-    #  print w
-    #  t = threading.Thread(target=spellcheckword,args=(w,d,alpha,a,oks,inlex,queue))
-      #t.start()
+    --  print w
+    --  t = threading.Thread(target=spellcheckword,args=(w,d,alpha,a,oks,inlex,queue))
+      --t.start()
       (ok,arg) = spellcheckword(w,d,alpha,a)
       if ok:
         oks.append(arg)
       elif arg!=None:
         inlex.append(arg)
         
-    #for i in wds:
-    #  a = queue.get()
-    #  oks += a
+    --for i in wds:
+    --  a = queue.get()
+    --  oks += a
     oks = sorted(set(oks),key= lambda (w,c,d,l): d)
     codecs.open('variant2','w',encoding='utf8').write(shownice(oks))
     codecs.open('inlex','w',encoding='utf8').write(shownice(inlex))
 
-"""
-spellcheckword(word,hashlexicon,alphabet of ok variants,alphabet of hash-grams)
-returns (False,(word,lemgram)) if the word is in the lexicon
-returns (True,(word,variant,distance,lemgram)) if variants are found
-returns (False,None) if nothing interesting is found
-"""
-def spellcheckword(w,d,alpha,a): 
+{-
+  spellcheckword(word,hashlexicon,alphabet of ok variants,alphabet of hash-grams)
+  returns (False,(word,lemgram)) if the word is in the lexicon
+  returns (True,(word,variant,distance,lemgram)) if variants are found
+  returns (False,None) if nothing interesting is found
+-}
+spellcheckword w d alpha a = 
+  is
+
 
   lem = getlemgram(d,w)
   if lem==None:
@@ -83,14 +59,14 @@ def spellcheckword(w,d,alpha,a):
     cc  = getchanges(w,d,alpha)
     getccs((w,hashiso(w)),d,a,cc)
     ccs.append((w,set(cc)))
-    # allowed dist should depend on wordlength?
+    -- allowed dist should depend on wordlength?
     res = getvariant(ccs)
     if res:
       return (True,res)
   else:
     return (False,(w,lem))
 
-  # False,None implies it was in dict but we didn't get good spelling variants
+  -- False,None implies it was in dict but we didn't get good spelling variants
   return (False,None)
 
 def spellchecksmall(w,d,alpha):
@@ -118,7 +94,7 @@ def getvariant(ccs):
         dist = edit_dist(w,c)
         if dist<2:
           var.append((w,c,dist,lem))
-          #return(True,(w,c,dist,lem))
+          --return(True,(w,c,dist,lem))
   var.sort(key=lambda (w,c,dist,lem): dist)
   return var
 

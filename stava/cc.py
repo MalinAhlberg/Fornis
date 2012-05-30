@@ -21,16 +21,10 @@ def alphabet(wds):
 # gets the av:s for a string
 def gettav(w,keep=False):
     sw = '^'+w+'$' if keep else '_'+w+'_'
-    #unis,bis,tris = [[],[],[]]
-    #unis = [hashiso(w)]
     unis = [iso(w[i]) for i in range(len(w))]
-    #for i in range(len(w)+1):
-    #  bis += [iso(sw[i])+iso(sw[i+1])]
     bis = [iso(sw[i])+iso(sw[i+1]) for i in range(len(w)+1)]
     tris = []
     if len(w)>5:
-#      for i in range(len(w)-1):
-#        tris += [iso(sw[i])+iso(sw[i+1])+iso(sw[i+2])]
       tris =  [iso(sw[i])+iso(sw[i+1])+iso(sw[i+2]) for i in range(len(w))]
     return unis,bis,tris
 
@@ -45,12 +39,9 @@ def getccs((w,av),lex,alphabet,ccs=[]): # lex = korpuslex of avs
     for aav in alphabet:
       addAll(lex.get(av+aav),ccs)
       # substitutions
-      for tav in tavs:
-        addAll(lex.get(av+aav-tav),ccs)
+      [addAll(lex.get(av+aav-tav),ccs) for tav in tavs]
     # insertions
     [addAll(lex.get(av-tav),ccs) for tav in tavs]
-#    for tav in tavs:
-#      addAll(lex.get(av-tav),ccs)
     return ccs # groupandcount(ccs)
     
 def addAll(res,ccs):

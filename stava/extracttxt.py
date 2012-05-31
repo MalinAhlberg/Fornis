@@ -80,7 +80,8 @@ def spellcheckword(w,d,alpha,a):
   lem = getlemgram(d,w)
   if lem==None:
     ccs    = []
-    cc  = getchanges(w,d,alpha)
+    #cc  = getchanges(w,d,alpha)
+    cc = []
     getccs((w,hashiso(w)),d,a,cc)
     ccs.append((w,set(cc)))
     # allowed dist should depend on wordlength?

@@ -7,8 +7,8 @@ import codecs
 import re
 import glob
 
-outputWords = 'smalltestallmar'
-outputData  = 'smalltestdatamar'
+outputWords = 'smalltestallchangesetmar1'
+outputData  = 'smalltestdatachangesetmar1'
 
 def sammanstall():
     from readvariant import getvariant
@@ -31,9 +31,9 @@ def getdata(fil,hashd,alpha):
     wds    = map(lambda x: norm(x).lower(),txt.split())
     typs   = Counter(wds)
     dic = {}
-    a,_    = normalize(wds) #remove if using small spellcheck
+    #a,_    = normalize(wds) #remove if using small spellcheck
 
-    map(lambda (w,i):  dic.update({w:(i,spellcheckword(w,hashd,alpha,a))}),typs.items()) 
+    map(lambda (w,i):  dic.update({w:(i,spellchecksmall(w,hashd,alpha))}),typs.items()) 
     tab = map(lambda w: (w,dic.get(w)),wds)
     gw,gt,bw,bt,vw,vt = calculate(dic)
     res = 'good '+str(gw)+' ('+str(gt)+') bad '+str(bw)+' ('+str(bt)+')'+'variations '+str(vw)+' ('+str(vt)+')\n***\n'

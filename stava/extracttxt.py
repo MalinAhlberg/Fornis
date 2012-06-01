@@ -11,14 +11,18 @@ import threading
 #TODO START the handeling of $^ vs _ gets different results. Which ones do we want?
 # read and collect all text in xml. but we only get more by being less strict
 def gettext(fil):
-    #xmls = codecs.open(fil,'r','utf8').read()
     xmls = codecs.open(fil,'r').read()
     tree = etree.fromstring(xmls)
-    return tree.find('body').itertext()
+    elems  = tree.find('body')
+    for e in elems.iter():
+      if e.tag in ['para','section']:
+        old  = e.text or ''
+        e.text = ' '+old
+    return elems.itertext()
 
 # gather pairs of words from the text that could be variations of each other
 def writelex():
-    txt    = ' '.join(list(gettext('../filerX/Albinus.xml')))
+    txt    = ''.join(list(gettext('../filerX/Albinus.xml')))
     wds    = txt.split()
     d,nwds = normalize(wds) # prints bu, frekvenslista and lex
     alpha  = alphabet(wds)
@@ -39,7 +43,7 @@ def writelex():
 # using the lexicons as a standard
 def lookup():
     from readvariant import getvariant
-    txt    = ' '.join(list(gettext('../filerX/Albinus.xml')))
+    txt    = ''.join(list(gettext('../filerX/Albinus.xml')))
     wds    = map(lambda x: norm(x).lower(),txt.split())
     a,_    = normalize(wds) 
     d      = readlex(['../scripts/lexiconinfo/newer/schlyter.xml'
@@ -80,8 +84,8 @@ def spellcheckword(w,d,alpha,a):
   lem = getlemgram(d,w)
   if lem==None:
     ccs    = []
-    #cc  = getchanges(w,d,alpha)
-    cc = []
+    cc  = getchanges(w,d,alpha)
+    #cc = []
     getccs((w,hashiso(w)),d,a,cc)
     ccs.append((w,set(cc)))
     # allowed dist should depend on wordlength?
@@ -179,11 +183,11 @@ def insert(d,form,lem):
     else:
       d.update({key : {form : lem}})
 
-if __name__ == "__main__":
-   lookup()
+#if __name__ == "__main__":
+#   lookup()
 
 def supertest():
-    txt    = ' '.join(list(gettext('../filerX/Luk41SLundversion.xml')))
+    txt    = ''.join(list(gettext('../filerX/Luk41SLundversion.xml')))
     wds    = map(lambda x: norm(x).lower(),txt.split())
     print len(set(wds))
  

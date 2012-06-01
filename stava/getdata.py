@@ -7,13 +7,14 @@ import codecs
 import re
 import glob
 
-outputWords = 'smalltestallchangesetmar1'
-outputData  = 'smalltestdatachangesetmar1'
+outputWords = 'bibsmalltestall'
+outputData  = 'bibsmalltestdata'
 
 def sammanstall():
     from readvariant import getvariant
     #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
     files = glob.glob('../filerX/Ap*xml')+glob.glob('../filerX/Mar*Lund*xml')
+    #files = glob.glob('../filerX/Mar26*Lund*xml')
     hashd = readlex(oldlex)#dalin,old=True) #oldlex
     alpha  = getvariant('lex_variation.txt')
     res = [getdata(fil,hashd,alpha) for fil in files]
@@ -27,7 +28,7 @@ dalin =  ['../../Lexicon/dalin.xml']
 def getdata(fil,hashd,alpha):
     from readvariant import getvariant
     print fil
-    txt    = ''.join(list(gettext(fil)))
+    txt    = ''.join(gettext(fil)) 
     wds    = map(lambda x: norm(x).lower(),txt.split())
     typs   = Counter(wds)
     dic = {}

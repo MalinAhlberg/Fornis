@@ -29,11 +29,12 @@ sammanstall = do
   putStrLn "have lex"
  -- alpha <-  getvariant('lex_variation.txt')
   res <- mapM (getData hashd) files
-  writeFile outputData (shownice res)
+  --writeFile outputData (shownice res)
+  return ()
 
-oldlex = ["../../scripts/lexiconinfo/newer/schlyter.xml"
-         ,"../../scripts/lexiconinfo/newer/soederwall_main.xml"
-         ,"../../scripts/lexiconinfo/newer/soederwall_supp.xml"]
+oldlex = ["../../scripts/lexiconinfo/newer/schlyter.xml"]
+        -- ,"../../scripts/lexiconinfo/newer/soederwall_main.xml"
+        -- ,"../../scripts/lexiconinfo/newer/soederwall_supp.xml"]
 dalin =  ["../../../Lexicon/dalin.xml"]
 
 getData :: Lex -> FilePath -> IO (FilePath,Status) --IO (M.Map String (Int,WordStatus))
@@ -48,9 +49,9 @@ getData hashd fil = do
       spelldic = mkSpellDic alpha textdic M.empty
       stats    = calculate spelldic
   -- spelldic is too hard to compute, even with minimal lexicon
-  --print spelldic
+  print spelldic
   putStrLn "calculate..."
-  printOutput wds spelldic
+--  printOutput wds spelldic
   return (fil,stats)
 
  where mkTextDic :: [BS.ByteString] -> [(BS.ByteString,Int)]
@@ -75,8 +76,8 @@ printOutput wds spellmap = do
                     Just (i,Variation xs)  -> intercalate "\t" [strw,"Variations",pretty xs,show i]
                     Just (i,NotFound)      -> intercalate "\t" [strw,"Not Found",show i]
                     _                      -> intercalate "\t" [strw,"Not Found",show 0]
-       pretty :: S.Set (BS.ByteString,Lemgram,Int) -> String
-       pretty xs = intercalate " - " (map pr $ S.toList xs)
+       pretty :: VList -> String
+       pretty xs = intercalate " - " (map pr xs)
        pr (s,l,i) = BSC.unpack s++" ("++show i++BSC.unpack l++") "
 
 shownice :: [(FilePath,Status)] -> String
@@ -91,12 +92,12 @@ shownice = unlines . map printit
 --TODO count total!
 calculate ::  M.Map BS.ByteString (Int,WordStatus) -> Status
 calculate spelldic =
-   let dict    = M.toList spelldic
-       (res,_) = mapAccumL f emptyStatus dict 
+   let dict  = M.toList spelldic
+       res   = foldr f emptyStatus dict 
   in res
- where f :: Status -> (BS.ByteString,(Int,WordStatus)) -> (Status,Char)
-       f s (w,(i,st)) = case st of
-         InLex     _ -> (s {goodW = goodW s + i,goodT = goodT s +1},' ')
-         NotFound    -> (s {badW = badW s + i,badT = badT s +1},' ')
-         Variation _ -> (s {varW = varW s + i,varT = goodT s +1},' ')
+ where f :: (BS.ByteString,(Int,WordStatus)) -> Status -> Status
+       f (w,(i,st)) s = case st of
+         InLex     _ -> s {goodW = goodW s + i,goodT = goodT s +1}
+         NotFound    -> s {badW = badW s + i,badT = badT s +1}
+         Variation _ -> s {varW = varW s + i,varT = goodT s +1}
 

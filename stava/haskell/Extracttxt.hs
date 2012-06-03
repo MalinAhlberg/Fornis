@@ -13,14 +13,7 @@ import qualified Data.ByteString.Char8 as BSC
 gettext :: FilePath -> IO String
 gettext fil = undefined --read xml
 
-lexicons = --["../scripts/kast.xml"]
-           ["../scripts/lexiconinfo/newer/schlyter.xml"
-           ,"../scripts/lexiconinfo/newer/soederwall_main.xml"
-           ,"../scripts/lexiconinfo/newer/soederwall_supp.xml"]
 
-data WordStatus = InLex Lemgram | Variation (S.Set (BS.ByteString,Lemgram,Int)) | NotFound
-  deriving Show
-data Version = Old | New
 
 {-
   spellcheckword(word,hashlexicon,alphabet of ok variants,alphabet of hash-grams)
@@ -34,7 +27,7 @@ spellcheckword w lex alpha =
   case findWordInLex (w,av) lex of
        Just lem -> InLex lem
        Nothing  -> let set = getccs (w,av) lex alpha
-                   in if S.null set then NotFound else Variation set
+                   in if null set then NotFound else Variation set
                     
 findWordInLex :: (BS.ByteString,Iso) -> Lex -> Maybe Lemgram
 findWordInLex (w,av) lex = 
@@ -129,5 +122,9 @@ lookup  =
     codecs.open('variant2','w',encoding='utf8').write(shownice(oks))
     codecs.open('inlex','w',encoding='utf8').write(shownice(inlex))
 
+lexicons = --["../scripts/kast.xml"]
+           ["../scripts/lexiconinfo/newer/schlyter.xml"
+           ,"../scripts/lexiconinfo/newer/soederwall_main.xml"
+           ,"../scripts/lexiconinfo/newer/soederwall_supp.xml"]
 
  -}

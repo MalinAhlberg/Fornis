@@ -56,31 +56,38 @@ gettav' str ended =
 
 -- gets character confusion, the set of words comparable to this one
 -- how deep should we go? just one del/sub or insertion?
-getccs :: (BS.ByteString,Iso) -> Lex -> Alpha -> S.Set (BS.ByteString,Lemgram,Int)
+getccs :: (BS.ByteString,Iso) -> Lex -> Alpha -> VList
 getccs (w,av) lex alphabet =  
    let transpos = M.lookup av lex
-       deletes  = map (+av) alphabet
-       tav      = tolist $ gettav w
-       subs     = concatMap (\aav -> map (av+aav-) tav) alphabet
-       inserts  = map (av-) tav
-       all      = (S.toList $ S.fromList(deletes++subs++inserts))
-     in S.fromList $ f w {-transpos OBS-} all lex []
+       deletes  = {-# SCC "deletes" #-}map (+av) alphabet
+       tav      = {-# SCC "tavs" #-}tolist $ gettav w
+       subs     = {-# SCC "subs" #-} concatMap (\aav -> map (av+aav-) tav) alphabet
+       inserts  = {-# SCC "inserts" #-} map (av-) tav
+       --all      = {-# SCC "mkSet" #-} nubSorted (deletes++subs++inserts)
+       all      = {-# SCC "mkSet" #-} (deletes++subs++inserts)
+       --all      = {-# SCC "mkSet" #-} (deletes `union` subs `union` inserts)
+     in nubSorted $ rate w {-transpos OBS-} all lex []
 --   in S.fromList $ filter (isOk w) $ concat $ catMaybes (transpos 
 --                          : (map (flip M.lookup lex) $ S.toList $ S.fromList(deletes++subs++inserts)))
+-- | /O(n log n)/ nub, but destroys ordering
 
-f :: BS.ByteString -> [Iso] -> Lex -> [(BS.ByteString,Lemgram,Int)] -> [(BS.ByteString,Lemgram,Int)]
-f s [] lex set = set
-f s (x:xs) lex set = let mwl  = M.lookup x lex 
-                         res  = case mwl of
-                                  Just wls -> [(v,l,d) | (v,l) <- S.toList wls --S.toList $ S.fromList wls --does not help
-                                                       ,let (s',v') = (BSC.unpack v,BSC.unpack s)
-                                                       ,let d = editDistance s' v'
-                                                       --,abs (length s'-length v')<3 --does not help
-                                                       ,d<3]
-                                  Nothing  -> []
-                         --maybe [] (map (editDistance (BSC.unpack s) . BSC.unpack . fst)) mwl
-                         set' = f s xs lex set
-                     in res ++ set'
+nubSorted :: Ord a => [a] -> [a]
+nubSorted = map head . group .  sort
+
+rate :: BS.ByteString -> [Iso] -> Lex -> VList -> VList
+rate s [] lex set = set
+rate s (x:xs) lex set = 
+  let mwl  = M.lookup x lex 
+      res  = case mwl of
+               Just wls -> [(v,l,d) | (v,l) <- S.toList wls --S.toList $ S.fromList wls --does not help
+                                    ,let (s',v') = (BSC.unpack v,BSC.unpack s)
+                                    ,let d = editDistance s' v'
+                                    --,abs (length s'-length v')<3 --does not help
+                                    ,d<2]
+               Nothing  -> []
+      --maybe [] (map (editDistance (BSC.unpack s) . BSC.unpack . fst)) mwl
+      set' = rate s xs lex set
+  in res ++ set'
 
 --isOk :: BS.ByteString -> (BS.ByteString,Lemgram) -> Bool
 --isOk w (v,l) = editDistance (BSC.unpack w) (BSC.unpack v) <3

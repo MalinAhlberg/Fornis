@@ -42,7 +42,7 @@ filerX/ElisUng.xml |   title="Legenden om Sankta Elisabet av Ungern" | year="150
 filerX/EmAnna.xml |   title="Sankt Emerentia och Sankt Anna; översatt från tyska av Lars Elfsson ur Linköpingslegendariet, Benz 39" | year="1500-1550"
 filerX/ErikBil.xml |   title="Legenden om Erik den helige, ur Codex Bildstenianus Ups C 528" | year="1400-1450"
 filerX/ErikReg.xml |    title="Om Erik den helige, efter Codex Vat Reg Lat 525" | year="1255-1525"
-filerX/Ester.xml |   title=""Esthers bok, ur Codex Holm A1" | year="1526"
+filerX/Ester.xml |   title="Esthers bok, ur Codex Holm A1" | year="1526"
 filerX/Exodus16.xml |   title="Exodus 16, ur Holm A3" | year="1502"
 filerX/Fara.xml |   title="Legenden om Sankta Phara, ur Linköpingslegendariet, Benz 39" | year="1500-1550"
 filerX/FelPetr.xml |   title="Legenden om Sankta Felicula och Petronella, ur Linköpingslegendariet, Benz 39'" | year="1500-1550"

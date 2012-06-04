@@ -71,9 +71,7 @@ def extractText(fil):
     #    if not elem.text is None:
     #      txt += elem.text 
     body = xml.find(usefuls.prefix+'body')
-    alltxt = body.itertext()
-    for t in alltxt:
-       txt += ' '+t 
+    txt = ' '.join(body.itertext())
     return txt
 
 def countPara(fil):
@@ -198,17 +196,18 @@ def rankSuper():
       xml   = etree.fromstring(inp)
       body  = xml.find(usefuls.prefix+'body')
       paras = body.findall('paragraph')
-      ss = ""
+      ss = [] 
       len1,len2,cleng,caps,caps2,cpC,cap,tlen = [[] for x in range(8)]
       for para in paras:
 
           txt = list(para.itertext())
           if txt is not None and len(txt)>0:
+            #txt = removePageN(' '.join(txt))
             txt = ' '.join(txt)
  
             # first count the sentences with nltk
-            ss    = model.tokenize(txt)
-            (l,_) = countWords(ss)
+            s    = model.tokenize(txt)
+            (l,_) = countWords(s)
             len1 += (l)
     
             # then rank '.'
@@ -222,27 +221,27 @@ def rankSuper():
             caps2 += (capsC)
     
             # then count the sentences separated by cpC
-            ss = chunker.grouptext(txt,'cpC')
-            (l,_) = countWords(ss)
+            s = chunker.grouptext(txt,'cpC')
+            (l,_) = countWords(s)
             cpC += l
     
             # then count the sentences separated by capitalized words
-            ss = chunker.grouptext(txt,'cap')
-            (l,_) = countWords(ss)
+            s = chunker.grouptext(txt,'cap')
+            (l,_) = countWords(s)
             cap += (l)
     
             # then count the sentences separated by tabs
             (l,_) = countSentence(txt,'\t')
             tlen += (l)
 
-            ss.append(' '.join(txt))
+            ss += [' '+txt]
  
       # calculate medium for the file
       normalleng = mediumLen(len1)
       dotleng = mediumLen(len2)
       caps = 0 if float(len(caps))==0 else len(filter(lambda x: x, caps))/float(len(caps))
-      cleng = mediumLen(klen)
-      caps2 = 0 if float(len(capsC))==0 else len(filter(lambda x: x, capsC))/float(len(capsC))
+      cleng = mediumLen(cleng)
+      caps2 = 0 if float(len(caps2))==0 else len(filter(lambda x: x, caps2))/float(len(caps2))
       cpCleng = mediumLen(cpC)
       capleng = mediumLen(cap)
       tleng = mediumLen(tlen)
@@ -341,3 +340,66 @@ def printres(res, filepath='best.txt',all=True,sorting=2):
      pprint_table(open(filepath ,'w'),bests)
 
 testfiles = ['../filerX/Birg-8.xml','../filerX/Bo.xml','../filerX/OgL-C.xml']
+
+
+# the newest ranker
+def rankNew():
+    fils = glob.glob('sentenceSplit/*') # why sentenceSplit?
+    lengs = ["File\tnltk sentence\tlength by '.'\t% capitalized after '.'\tlength by ','\t% capitalized after ','\t"
+              +". or , and capital\tlength by capitals\tlength by tab\ttotal length"""]
+    model = getModel()
+    for fil in fils:
+      print 'file',fil
+      #txt = removePageN(extractText(fil))
+      txt = (extractText(fil))
+
+      # first count the sentences with nltk
+      nltk    = model.tokenize(txt)
+    
+      # then rank '.'
+      len2,caps = countSentence(txt,'.')
+      
+      # then count the sentences separated by ','
+      (klen,caps2) = countSentence(txt,',')
+    
+      # then count the sentences separated by cpC
+      ss = chunker.grouptext(txt,'cpC')
+      (cpC,_) = countWords(ss)
+    
+      # then count the sentences separated by capitalized words
+      ss = chunker.grouptext(txt,'cap')
+      (cap,_) = countWords(ss)
+    
+      # then count the sentences separated by tabs
+      (tlen,_) = countSentence(txt,'\t')
+
+ 
+      (tot,_) = countWords([txt])
+      print tot
+      totlen = tot[0]
+      # calculate medium for the file
+      normalleng = div(totlen,nltk)
+      dotleng = div(totlen,len2)
+      caps = 0 if float(len(caps))==0 else len(filter(lambda x: x, caps))/float(len(caps))
+      cleng = div(totlen,klen)
+      caps2 = 0 if float(len(caps2))==0 else len(filter(lambda x: x, caps2))/float(len(caps2))
+      cpCleng = div(totlen,cpC)
+      capleng = div(totlen,cap)
+      tleng   = div(totlen,tlen)
+
+      # then count the sentences separated by paras
+      inp   = open(fil,'r').read()
+      xml   = etree.fromstring(inp)
+      body  = xml.find(usefuls.prefix+'body')
+      paras = body.findall('paragraph')
+
+      row = [fil,normalleng,dotleng,caps,cleng,caps2,cpCleng,capleng,tleng,totlen]
+      lengs += ['\t'.join(map(lambda x: str(x),row))]
+
+    table = '\n'.join(lengs)
+    open('data3.txt','w').write(table)
+    #pprint_table(open('data.txt','w'),lengs)
+
+def div(a,b):
+    lenb = float(len(b))
+    return lena if lenb==0 else float(a)/lenb

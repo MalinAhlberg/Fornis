@@ -6,7 +6,7 @@ import codecs
 # collect unicodes, but script is not yet complete
 def normal(c):
   num = ord(c)
-  ordok = num in puncts or (num >96 and num<123) or (num>64 and num<91) 
+  ordok = (num >96 and num<123) or (num>64 and num<91) #num in puncts or 
   return c.isdigit() or ordok
 
 def getchars(s,d,uri):
@@ -24,7 +24,7 @@ def doAllNew():
     from xml.etree import ElementTree as etree
     d = {}
     d2 = []
-    for uri in glob.glob('../filerX*/*xml'):
+    for uri in glob.glob('../filerX*/*xml')+glob.glob('../filerXNy*/*xml'):
     #for uri in ['../filerX/Vidhem.xml']: #glob.glob('../filerX*/*xml'):
       print 'file',uri
       xml  = codecs.open(uri,'r').read()
@@ -48,3 +48,13 @@ def showpair((a,b)):
 
 puncts = [9,10, 32, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 58
          , 59, 60, 61, 62, 63, 91, 93, 95, 96, 123, 124, 125]
+
+doAllNew()
+
+def draut(fil):
+    from xml.etree import ElementTree as etree
+    xml  = codecs.open(fil,'r').read()
+    tree = etree.fromstring(xml)
+    #txt  = ''.join(tree.find('body').itertext())
+    txt  = ' '.join(tree.itertext())
+    codecs.open('kast2','w',encoding='utf8').write(txt)

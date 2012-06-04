@@ -65,12 +65,33 @@ def getchanges(w,lex,changeset): # lex = korpuslex of avs
       # get diff between tav and its translations
       subs = changeset.get(tav) or []
       ch += map(lambda x: x-tav,subs)
-    [addAll(lex.get(av+sum(c)),ccs) for c in powerset(set(ch)) if av+sum(c)>0]
+    #print len(set(ch))
+    #ps  = powerset(set(ch))
+    #print len(ps)
+    #print len([c for c in powerset(set(ch)) if av+sum(c)>0])
+    
+    for (i,c) in enumerate(powerset(list(set(ch)))):
+      ok = lex.get(av+sum(c))
+      if ok:
+        addAll(ok,ccs)
+        if i> 500:
+          break
+    if w=='aff': print w,"!!",ccs
+    #[addAll(lex.get(av+sum(c)),ccs) for c in powerset(set(ch)) if av+sum(c)>0]
     return ccs
 
-def powerset(lst):
+def powersetX(lst):
     return reduce(lambda result, x: result + [subset + [x] for subset in result],
                   lst, [[]])
+def powerset(seq): 
+  """ Returns all the subsets of this set. This is a generator. """ 
+  if len(seq) <= 1: 
+    yield [] 
+    yield seq 
+  else: 
+    for item in powerset(seq[1:]): 
+      yield item 
+      yield [seq[0]]+item 
 
 ####### CAN BE REMOVED
 def getchangestest(w): # lex = korpuslex of avs

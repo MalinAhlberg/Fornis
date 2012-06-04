@@ -1,5 +1,5 @@
 # -*- coding: utf_8 -*-
-from extracttxt import gettext,shownice,getLemgram,getWrittenforms,readlex,spellchecksmall,spellcheckword
+from extracttxt import * #gettext,shownice,getLemgram,getWrittenforms,readlex,spellchecksmall,spellcheckword
 from normalize import norm,normalize
 from xml.etree import ElementTree as etree
 from collections import Counter
@@ -7,18 +7,19 @@ import codecs
 import re
 import glob
 
-outputWords = 'bibsmalltestall'
-outputData  = 'bibsmalltestdata'
+outputWords = 'newtestkastall0' #'bibsmalltestall'
+outputData  = 'newtestkastdata0' #'bibsmalltestdata'
 
 def sammanstall():
     from readvariant import getvariant
     #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
-    files = glob.glob('../filerX/Ap*xml')+glob.glob('../filerX/Mar*Lund*xml')
-    #files = glob.glob('../filerX/Mar26*Lund*xml')
+    #files = glob.glob('../filerX/Ap*xml')+glob.glob('../filerX/Mar*Lund*xml')
+    files = glob.glob('../filerX/Mar41*Lund*xml')
     hashd = readlex(oldlex)#dalin,old=True) #oldlex
     alpha  = getvariant('lex_variation.txt')
     res = [getdata(fil,hashd,alpha) for fil in files]
     codecs.open(outputData,'w',encoding='utf8').write(shownice(res))
+    print 'printed files',outputWords,outputData
 
 oldlex = (['../scripts/lexiconinfo/newer/schlyter.xml'
          ,'../scripts/lexiconinfo/newer/soederwall_main.xml'
@@ -32,6 +33,7 @@ def getdata(fil,hashd,alpha):
     wds    = map(lambda x: norm(x).lower(),txt.split())
     typs   = Counter(wds)
     dic = {}
+    #a = alphabet(wds)       #remove if using small spellcheck
     #a,_    = normalize(wds) #remove if using small spellcheck
 
     map(lambda (w,i):  dic.update({w:(i,spellchecksmall(w,hashd,alpha))}),typs.items()) 

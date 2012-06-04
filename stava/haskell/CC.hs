@@ -80,8 +80,8 @@ rate s (x:xs) lex set =
   let mwl  = M.lookup x lex 
       res  = case mwl of
                Just wls -> [(v,l,d) | (v,l) <- S.toList wls --S.toList $ S.fromList wls --does not help
-                                    ,let (s',v') = (BSC.unpack v,BSC.unpack s)
-                                    ,let d = editDistance s' v'
+                                    --,let (s',v') = (BSC.unpack v,BSC.unpack s)
+                                    ,let d = editDistance s v
                                     --,abs (length s'-length v')<3 --does not help
                                     ,d<2]
                Nothing  -> []
@@ -92,8 +92,8 @@ rate s (x:xs) lex set =
 --isOk :: BS.ByteString -> (BS.ByteString,Lemgram) -> Bool
 --isOk w (v,l) = editDistance (BSC.unpack w) (BSC.unpack v) <3
 
-(+++) :: BS.ByteString -> BS.ByteString -> BS.ByteString
-(+++) = BS.append
+--(+++) :: BS.ByteString -> BS.ByteString -> BS.ByteString
+--(+++) = BS.append
 {-
 
        

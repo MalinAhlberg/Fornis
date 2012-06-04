@@ -21,5 +21,11 @@ e$	a$
 th	t
 dh	d
 gh	g
-^hv     ^v
-w      u
+^hv	^v
+w 	 u
+f	ff
+l	ll
+ch	k
+oo	o
+ee	e
+ij	i

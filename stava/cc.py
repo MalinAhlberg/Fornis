@@ -1,8 +1,26 @@
 # -*- coding: utf_8 -*-
-from normalize import iso,hashiso
 
 """Functions for calculating anagram values, finding spelling variations etc"""
 
+""" returns the hash value of character c
+    if c is not a letter, the value is 0"""
+def iso(c):
+  v = 0
+  if c.isalpha() or c in bokstaver:
+    v = ord(c.lower())
+  return pow(v,5)
+
+""" returns the hash value of a word
+    ie the sum all the hash value of each character"""
+def hashiso(w):
+    return sum([iso(c) for c in w])
+ 
+""" normalize a word by removing all but letters"""
+def norm(w):
+    return re.sub(u'[^\w'+bokstaver+']','',w)
+
+bokstaver = u'åäöÅÄÖæÆøØÞþß^$' # obs ^ and $ here to mark end beginning of words
+ 
 """ finds the 'aav' alphabet, consisting of all strings, bigram and trigrams"""
 def alphabet(wds):
     a =set([])
@@ -53,74 +71,29 @@ def getchanges(w,lex,changeset):
     av   = sum(u)
     tavs = u+b+t
     ch   = []
-    #found = False
     # substitutions only
     for tav in tavs:
       # get diff between tav and its translations
       subs = changeset.get(tav) or []
       ch += map(lambda x: x-tav,subs)
 
-    # as we may get >2^31 combination, we only look at the 30 first variants and
-    # continue only if we haven't found anything useful. 
-    #i = 0
+    # as we may get more than 2^31 combination, we only look at the 1000 first
+    # variants. this has also proved to give as good results as trying all
+    # combinations
     for (i,c) in enumerate(powerset(list(set(ch)))):
       ok = lex.get(av+sum(c))
       if ok:
         addAll(ok,ccs)
         found =True
-      if i>1000: #found or i> 1000000:
+      if i>1000:
         break
-    #[addAll(lex.get(av+sum(c)),ccs) for c in powerset(set(ch)) if av+sum(c)>0]
-    #if i>200:
-    #  codecs.open('reskast1','a',encoding='utf8').write(' '.join(['\n',w,unicode(i),unicode(found)]))
     return ccs
+
 
 def powerset(iterable):
     from itertools import chain, combinations
     "powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"
     s = list(iterable)
     return chain.from_iterable(combinations(s, r) for r in range(len(s)+1))
-
-####### CAN BE REMOVED
-def getchangestest(w): # lex = korpuslex of avs
-    import readvariant
-    changeset  = readvariant.getvariant('lex_variation.txt')
-    ccs = []                     # changeset = {900:[2,1]},{2:[900]} = (hv,v)
-    (u,b,t) = gettav(w)
-    av   = sum(u)
-    tavs = u+b+t
-    ch   = []
-    # substitutions only
-    for tav in tavs:
-      if tav ==25937424601L: print 'found y'
-      # get diff between tav and its translations
-      subs = changeset.get(tav) or []
-      if  12762815625L in subs: print 'found i'
-      ch += map(lambda x: x-tav,subs)
-#    for c in powerset(set(ch)):
-#      addAll(lex.get(av+sum(c)),ccs)
-    return [av+sum(c) for c in powerset(set(ch)) if av+sum(c)>0]
-
-# TODO, give a value to the word pair depending on dl and how
-# often the other one appears, as well as word length
-# remove exact copies
-def limit(w,ccset):
-    props = []
-    for (cc,n) in ccset:
-      dist = dl.edit_dist(cc,w)
-      if dist > lim:
-        props.append((cc,n,dist))
-        # TODO more snajs rules here
-    return props
- 
-
-
-
-
-
-
-
-
-
 
 

@@ -5,53 +5,7 @@ strings (s1 and s2) but by considering special rules for how
 expensive insertion and deletion is, depending on the letters
 """
 
-# For debugging
-
-class Del:
-    def __init__(self,c):
-         self.c = c
-
-    def __str__(self):
-        return "Del " + self.c.encode('utf8')
-
-class Replace:
-    def __init__(self,fr,to,p):
-         self.fr = fr
-         self.to = to
-         self.p  = p
-
-    def __str__(self):
-        if self.fr == self.to:
-            return "Keep " + self.fr.encode('utf8')
-        else:
-            return "Replace " + self.fr.encode('utf8') + " with " + self.to.encode('utf8')+' ('+str(self.p)+')'
-
-# calculates the distance
-def edit_distdebug(s1, s2):
-    s1 = '^'+s1+'$'
-    s2 = '^'+s2+'$'
-    d = {}
-    lenstr1 = len(s1)
-    lenstr2 = len(s2)
-    d[(-1,-1)] = (0,[])
-    for i in xrange(0,lenstr1):
-        d[(i,-1)] = (i+1,d[(i-1,-1)][1] + [Del(s1[i])])
-    for j in xrange(0,lenstr2):
-        d[(-1,j)] = (j+1,d[(-1,j-1)][1] + [Del(s2[j])])
- 
-    for i in xrange(lenstr1):
-        for j in xrange(lenstr2):
-            d[(i,j)] = min(replaceX(s1,i,s2,j,d)
-                          ,insertX(s1,i,s2,j,d)
-                          ,key=lambda(x,y):x
-                          )
-            
-    res = d[lenstr1-1,lenstr2-1]
-   # for r in res[1]:
-   #   print r
-    return res[0]
-
-# calculates the distance
+""" calculates the distance """
 def edit_dist(s1, s2):
     s1 = '^'+s1+'$'
     s2 = '^'+s2+'$'
@@ -73,6 +27,7 @@ def edit_dist(s1, s2):
     res = d[lenstr1-1,lenstr2-1]
     return res
 
+""" replacements"""
 def replaceX(s1,i,s2,j,d):
   val,same = 30,30
   endi = i+1
@@ -86,9 +41,6 @@ def replaceX(s1,i,s2,j,d):
   return min(d[(i0,j0)]+float(val-p)/30
             ,d[(m0,n0)]+float(val-q)/30 
             ,d[i-1,j-1]+same)
-# , d[(i0,j0)][1]+[Replace(s1[i0+1:endi],s2[j0+1:endj],float(val-p)/30)])
-# , d[(i0,j0)][1]+[Replace(s2[n0+1:endj],s1[m0+1:endi],float(val-q)/30)])
-#   d[(i0,j0)][1]+[Replace(s1[i],s2[j],same)]))
 
 def replace1(s1,s2,i,j):
   ok = getRepl(replsX,s1,s2)
@@ -107,8 +59,7 @@ def insertX(s1,i,s2,j,d):
   best = min(d[(i0,j0)]+p 
             ,d[(m0,n0)]+q)
   return best
-# , d[(i0,j0)][1]+[Del(s1[i0+1:i+1])])
-#  , d[(m0,n0)][1]+[Del(s2[n0+1:j+1])]))
+
 def insert1(s1,i,s2,j):
   val = 20
   if i<0:
@@ -145,17 +96,4 @@ def getRepl(rep,s1,s2):
   if ret!=(0,0,0):
     return ret
 
- 
-#normal insert and delete
-def insert(s,i):
-  val = 20
-  if i<1 or i>len(s)-1:
-     return val
-  a = s[i-1]
-  b = s[i]
-  if a==b and a in dub:
-    val -=4; 
-  if a=='c' and b=='k':
-     val -= 1
-  return float(val)/20
- 
+

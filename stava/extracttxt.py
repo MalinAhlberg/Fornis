@@ -1,15 +1,12 @@
 # -*- coding: utf_8 -*-
 from xml.etree import ElementTree as etree
 import codecs
-from normalize import normalize,iso,norm,hashiso
 from cc import alphabet,getccs,getchanges
-#import dl
 from dltransl import edit_dist
 import Queue
 import threading
 
-#TODO START the handeling of $^ vs _ gets different results. Which ones do we want?
-# read and collect all text in xml. but we only get more by being less strict
+""" reads and collects all text in xml """
 def gettext(fil):
     xmls = codecs.open(fil,'r').read()
     tree = etree.fromstring(xmls)
@@ -20,72 +17,19 @@ def gettext(fil):
         e.text = ' '+old
     return elems.itertext()
 
-# gather pairs of words from the text that could be variations of each other
-def writelex():
-    txt    = ''.join(list(gettext('../filerX/Albinus.xml')))
-    wds    = txt.split()
-    d,nwds = normalize(wds) # prints bu, frekvenslista and lex
-    alpha  = alphabet(wds)
-    oks    = []
-    for (w,av) in nwds:
-      ccs = getccs((w,av),d,alpha)
-      # this should be done earlier? use rank in cc
-      # instead we could look all proposals up in lexicon
-      # here, and decide wether we want to keep word or not
-      for (cc,i) in ccs:
-        dist = dl.edit_dist(w,cc)
-        if dist<3:
-          oks.append((w,cc,dist))
-    print oks
-      
-
-# reads lexicons and a text and idenitfies spelling variations,
-# using the lexicons as a standard
-def lookup():
-    from readvariant import getvariant
-    txt    = ''.join(list(gettext('../filerX/Albinus.xml')))
-    wds    = map(lambda x: norm(x).lower(),txt.split())
-    a,_    = normalize(wds) 
-    d      = readlex(['../scripts/lexiconinfo/newer/schlyter.xml'
-                     ,'../scripts/lexiconinfo/newer/soederwall_main.xml'
-                     ,'../scripts/lexiconinfo/newer/soederwall_supp.xml'])
-    alpha  = getvariant('lex_variation.txt')
-    oks    = []
-    inlex  = []
-    print 'will find ccs and rank'
-    # TODO tråda här? blir ej snabbare!
-    #queue = Queue.Queue(0)
-    wds = set(wds)
-    for w in wds:
-    #  print w
-    #  t = threading.Thread(target=spellcheckword,args=(w,d,alpha,a,oks,inlex,queue))
-      #t.start()
-      (ok,arg) = spellcheckword(w,d,alpha,a)
-      if ok:
-        oks.append(arg)
-      elif arg!=None:
-        inlex.append(arg)
-        
-    #for i in wds:
-    #  a = queue.get()
-    #  oks += a
-    oks = sorted(set(oks),key= lambda (w,c,d,l): d)
-    codecs.open('variant2','w',encoding='utf8').write(shownice(oks))
-    codecs.open('inlex','w',encoding='utf8').write(shownice(inlex))
-
 """
-spellcheckword(word,hashlexicon,alphabet of ok variants,alphabet of hash-grams)
+combines rules with 'normal' spelling variation. applies edit distance
+spellcheckword(word,hashlexicon,rules for variations,alphabet of common hash-grams)
 returns (False,(word,lemgram)) if the word is in the lexicon
 returns (True,(word,variant,distance,lemgram)) if variants are found
 returns (False,None) if nothing interesting is found
 """
-def spellcheckword(w,d,alpha,a): 
+def spellcheckword(w,d,rules,a): 
 
   lem = getlemgram(d,w)
   if lem==None:
     ccs    = []
-    cc  = getchanges(w,d,alpha)
-    #cc = []
+    cc  = getchanges(w,d,rules)
     getccs((w,hashiso(w)),d,a,cc)
     ccs.append((w,set(cc)))
     # allowed dist should depend on wordlength?
@@ -98,6 +42,13 @@ def spellcheckword(w,d,alpha,a):
   # False,None implies it was in dict but we didn't get good spelling variants
   return (False,None)
 
+"""
+ rule based spell checking. applies edit distance
+ spellchecksmall(word,hashlexicon,rules for variations)
+ returns (False,(word,lemgram)) if the word is in the lexicon
+ returns (True,(word,variant,distance,lemgram)) if variants are found
+ returns (False,None) if nothing interesting is found
+"""
 def spellchecksmall(w,d,alpha):
   lem = getlemgram(d,w)
   if lem==None:
@@ -109,11 +60,15 @@ def spellchecksmall(w,d,alpha):
     return (False,(w,lem))
   return (False,None)
  
+""" finds the lemgram of a word in a lexicon of anagram values"""
 def getlemgram(d,w):
     res = d.get(hashiso(w))
     if res !=None:
       return res.get(w)
  
+""" Examines a set of words and their variations and picks
+    the ones that has an accepteble edit distance (2)
+    returns a list of (word,variation,edit distance,lemgram)"""
 def getvariant(ccs):
   from math import fabs
   var = []
@@ -123,16 +78,19 @@ def getvariant(ccs):
         dist = edit_dist(w,c)
         if dist<2:
           var.append((w,c,dist,lem))
-          #return(True,(w,c,dist,lem))
   var.sort(key=lambda (w,c,dist,lem): dist)
   return var
 
-
+"""Help function for pretty printing"""
 def shownice(xs):
     slist = ['\t'.join([unicode(w) for w in x]) for x in xs]
     s = "\n".join(slist)
     return s
 
+# Functions for reading an xml lexicon
+"""reads a lexicon into a hased anagram dictionary.
+   If old is set to True, lemgram is supposed to be located inside
+   FormRepresentation, otherwise directly in Lemma """
 def readlex(files,old=False):
     d = {}
     for fil in files:
@@ -141,12 +99,15 @@ def readlex(files,old=False):
       lex     = lexicon.find('Lexicon')
       entries = lex.findall('LexicalEntry')
       for entry in entries:
-         lem = getLemgram(entry)
-         forms  = getWrittenforms(entry)
+         lem = getLemgram(entry,old)
+         forms  = getWrittenforms(entry,old)
          for form in forms:
            insert(d,form,lem)
     return d
 
+""" Returns the lemgram of an entry
+    If old is set to True, lemgram is supposed to be located inside
+    FormRepresentation, otherwise directly in Lemma """
 def getLemgram(entry,old=False):
     lemma = entry.find('Lemma')
     if old:
@@ -156,6 +117,7 @@ def getLemgram(entry,old=False):
       if value == 'lemgram':
         return feat.get('val')
             
+""" Returns all writtenForms of an entry """
 def getWrittenforms(entry,old=False):
     lemma = entry.find('Lemma')
     container = 'FormRepresentation'
@@ -166,6 +128,11 @@ def getWrittenforms(entry,old=False):
       ws += writtens
     return ws
 
+""" Help function for reading lexicon
+    Returns the value (if any) of attribute val in elem
+    <hej> <feat att="djur" val="katt">" </hej>
+    --> ["katt"]
+"""
 def getAtt(elem,val):
     res = []
     if not elem is None:
@@ -175,6 +142,8 @@ def getAtt(elem,val):
              res.append(feat.get('val'))
     return res
 
+"""Help function to readlexnormal
+   inserts lem in the dictionary lem in the dictionary d"""
 def insert(d,form,lem):
     key = sum([iso(c) for c in form])
     old = d.get(key)
@@ -183,11 +152,3 @@ def insert(d,form,lem):
     else:
       d.update({key : {form : lem}})
 
-#if __name__ == "__main__":
-#   lookup()
-
-def supertest():
-    txt    = ''.join(list(gettext('../filerX/Luk41SLundversion.xml')))
-    wds    = map(lambda x: norm(x).lower(),txt.split())
-    print len(set(wds))
- 

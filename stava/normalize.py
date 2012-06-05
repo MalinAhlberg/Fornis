@@ -1,6 +1,11 @@
 # -*- coding: utf_8 -*-
 import re
 
+""" Normalization functions"""
+
+""" normalize(words) returns a pair
+    ({hashedvalue : {word : number of occurences}}, set of normalized words)
+"""
 def normalize(wds):
     d = {}
     normwds = set([])
@@ -10,12 +15,11 @@ def normalize(wds):
        insert(d,key,neww)
        normwds.add((neww,key))  
 
-    #prettyprint(d)
     return (d,normwds)
-       
+
+""" insert(dictionary,key,value)
+    inserts {value : number of occurences} in key in dic"""
 def insert(d,k,val):
-    #if val=='allaledhes':
-    #  print val,k
     old = d.get(k)
     i   = 0
     if old!=None:

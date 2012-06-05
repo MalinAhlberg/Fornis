@@ -1,16 +1,9 @@
 # -*- coding: utf_8 -*-
 from normalize import iso,hashiso
 
-#TAV: för ett ord, antistrip, kolla av, räkna ut av:t för varje bi- och ev. trigram.
-#        spara. = alfabet
-#få cc = variationer:
-#             transpositions -automatiskt
-#             deletions      - gå igenom alfabetet och kolla ordet plus varje aav(bokstavish)
-#             insertions - gå ingenom tav:en och kolla ordet-minus varje tav
-#             substitute - gå igenom både tav och aav och lägg till varje aav och ta bort ett tav
-#
+"""Functions for calculating anagram values, finding spelling variations etc"""
 
-# finds the 'aav' alphabet, consisting of all strings, bigram and trigrams
+""" finds the 'aav' alphabet, consisting of all strings, bigram and trigrams"""
 def alphabet(wds):
     a =set([])
     for w in wds:
@@ -18,7 +11,9 @@ def alphabet(wds):
       map(lambda x: a.add(x),u+b+t)
     return a
 
-# gets the av:s for a string
+""" gets the av:s for a word. if keep is set to True, the beginning and end
+    of the word is marked by ^ vs $. Otherwise _ are added, to avoid that
+    the first and the last letter is unbenefitted """
 def gettav(w,keep=False):
     sw = '^'+w+'$' if keep else '_'+w+'_'
     unis = [iso(w[i]) for i in range(len(w))]
@@ -28,70 +23,63 @@ def gettav(w,keep=False):
       tris =  [iso(sw[i])+iso(sw[i+1])+iso(sw[i+2]) for i in range(len(w))]
     return unis,bis,tris
 
-# gets character confusion, the set of words comparable to this one
-# how deep should we go? just one del/sub or insertion?
-def getccs((w,av),lex,alphabet,ccs=[]): # lex = korpuslex of avs
+""" gets character confusion set, the set of words comparable to this one
+    transpositions or one substitution, deletion, insertion is allowed"""
+def getccs((w,av),lex,alphabet,ccs=[]): 
     xs = lex.get(av) #transpositions
     addAll(xs,ccs)
     (u,b,t) = gettav(w)
     tavs = u+b+t
-    # deletions
-    for aav in alphabet:
+    for aav in alphabet: # deletions
       addAll(lex.get(av+aav),ccs)
       # substitutions
       [addAll(lex.get(av+aav-tav),ccs) for tav in tavs]
     # insertions
     [addAll(lex.get(av-tav),ccs) for tav in tavs]
-    return ccs # groupandcount(ccs)
+    return ccs 
     
+""" adds the result, if any, to ccs"""
 def addAll(res,ccs):
     if res!=None:
-      ccs += res.items() #keys()
+      ccs += res.items() 
 
-def groupandcount(ccs):
-    ccs.sort()
-    return itertools.imap(lambda (x,y): (x,len(list(y))),itertools.groupby(ccs))
-
-
-       
-def getchanges(w,lex,changeset): # lex = korpuslex of avs
-    ccs = []                     # changeset = {900:[2,1]},{2:[900]} = (hv,v)
+""" finds variations based on rules. any number of substitutions is allowed,
+    but maximum 1000 variations are considered.
+    getchanges(word,lexicon of anagram values,rules)"""
+def getchanges(w,lex,changeset): 
+    import codecs 
+    ccs = []                    
     (u,b,t) = gettav(w,keep=True)
     av   = sum(u)
     tavs = u+b+t
     ch   = []
+    #found = False
     # substitutions only
     for tav in tavs:
       # get diff between tav and its translations
       subs = changeset.get(tav) or []
       ch += map(lambda x: x-tav,subs)
-    #print len(set(ch))
-    #ps  = powerset(set(ch))
-    #print len(ps)
-    #print len([c for c in powerset(set(ch)) if av+sum(c)>0])
-    
+
+    # as we may get >2^31 combination, we only look at the 30 first variants and
+    # continue only if we haven't found anything useful. 
+    #i = 0
     for (i,c) in enumerate(powerset(list(set(ch)))):
       ok = lex.get(av+sum(c))
       if ok:
         addAll(ok,ccs)
-        if i> 500:
-          break
-    if w=='aff': print w,"!!",ccs
+        found =True
+      if i>1000: #found or i> 1000000:
+        break
     #[addAll(lex.get(av+sum(c)),ccs) for c in powerset(set(ch)) if av+sum(c)>0]
+    #if i>200:
+    #  codecs.open('reskast1','a',encoding='utf8').write(' '.join(['\n',w,unicode(i),unicode(found)]))
     return ccs
 
-def powersetX(lst):
-    return reduce(lambda result, x: result + [subset + [x] for subset in result],
-                  lst, [[]])
-def powerset(seq): 
-  """ Returns all the subsets of this set. This is a generator. """ 
-  if len(seq) <= 1: 
-    yield [] 
-    yield seq 
-  else: 
-    for item in powerset(seq[1:]): 
-      yield item 
-      yield [seq[0]]+item 
+def powerset(iterable):
+    from itertools import chain, combinations
+    "powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"
+    s = list(iterable)
+    return chain.from_iterable(combinations(s, r) for r in range(len(s)+1))
 
 ####### CAN BE REMOVED
 def getchangestest(w): # lex = korpuslex of avs
@@ -125,3 +113,14 @@ def limit(w,ccset):
         # TODO more snajs rules here
     return props
  
+
+
+
+
+
+
+
+
+
+
+

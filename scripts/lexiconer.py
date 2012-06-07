@@ -3,23 +3,16 @@ import re
 import os
 import glob
 import codecs
+import lexiconTools
 from xml.etree import ElementTree as etree
 from xmlindent import indent
 
-# read file and return list of entries and reference to the whole lexicon
-def readIt(fil):
-     s = codecs.open(fil,"r").read()
-     lexicon = etree.fromstring(s)
-     print type(lexicon)
-     #lexicon = lexicon.getroot()
-     indent(lexicon)
-     lex     = lexicon.find('Lexicon')
-     entries = lex.findall('LexicalEntry')
-     return (entries,lexicon)
+""" Methods for finding meta-data about the lexicons """
 
-# prints words that (easily) refers to others
-# saves the updated version, with replaced tags for successful e-words
-# to file if 'saves' is set to true.
+
+""" prints words that (easily) refers to others
+   saves the updated version, with replaced tags for successful e-words
+   to file if 'saves' is set to True. """
 def references():
     errFile = 'error.txt'
     saves   = True # False # 
@@ -65,7 +58,7 @@ def references():
        
         
 
-# replaces e:s with pos-tags from gram-information
+""" replaces e:s with pos-tags from gram-information """
 def makeTags():
     (entries,lex) = readIt('../../Lexicon/good/lmf/schlyter/schlyter.xml')
     counter =  []
@@ -76,51 +69,13 @@ def makeTags():
     open('testL.xml','w').write(etree.tostring(lex,encoding='utf-8'))
     print len(counter)
 
-# lexical entry -> form representation       
-def getFormRepresentation(entry):
-    lemma = entry.find('Lemma')
-    form  = lemma.find('FormRepresentation')
-    return form
-
-# lexical entry -> (pos-tag, element containing pos-tag)
-def getTag(entry,old=False):
-    if old:
-      lemma  = getFormRepresentation(entry)
-    else:
-      lemma = entry.find('Lemma')
-    lems  = getAtt(lemma,lemgram)
-    return extractTag(lems)
-
-# lem -> (pos-tag, element containing pos-tag)
-def extractTag(lem):
-    if lem is not None:
-        (tag,elem) = lem[0]
-        return (tag.split('.')[2],elem)
-    else: return (None,None)
-
-# lexical entry -> lemgram
-def getLem(entry,old=False):
-    if old:
-      lemma  = getFormRepresentation(entry)
-    else:
-      lemma = entry.find('Lemma')
-    lems  = getAtt(lemma,lemgram)
-    return extractLem(lems)
-
-# lem -> lemgram-id
-def extractLem(lem):
-    if lem is not None:
-        (tag,elem) = lem[0]
-        return tag
-    else: return ""
-
-# check if there is unmatched paranthesis in hwtext
+""" check if there is unmatched paranthesis in hwtext """
 def checkHW(fil):
     (entries,_) = readIt('../../Lexicon/schlyter.xml')
     for entry in entries: 
          findHW(entry)
 
-# lexical entry -> print if there's unmatched paranthesis
+""" lexical entry -> print if there's unmatched paranthesis """
 def findHW(lem):
     form = getFormRepresentation(lem)
     lems  = getAtt(form,'hwtext')
@@ -131,8 +86,9 @@ def findHW(lem):
           print hw
           print l
      
-# searches for information about references. 'lem' is the lemgram where the
-# information should be saved, 'entry' the whole entry, 'lex' the dictionary
+""" searches for information about references. 'lem' is the lemgram where the
+    information should be saved, 'entry' the whole entry, 'lex' the dictionary 
+"""
 def findReference(lem,entry,lex,errs,save=False):
    # kolla om det står se i Sense -Definition - text
     sense  = entry.find('Sense')
@@ -160,6 +116,7 @@ def findReference(lem,entry,lex,errs,save=False):
             elif words and words[0]=='se': 
               errs += ['bad reference '+txt]
 
+""" ', se Katt' --> 'katt' """
 def normalize(words):
     word = words[3:].lower().strip('.,()')  # remove 'se '
     words = word.split()
@@ -167,7 +124,7 @@ def normalize(words):
        word = '_'.join(words)
     return word
 
-
+# not used
 def lookup(e,lex,typ):
     res = []
     for entry in lex:
@@ -179,37 +136,30 @@ def lookup(e,lex,typ):
     return res
 
 
-
+""" updates the pos-tag in lemgram if the 'gram' element provides interesting
+    inforamtion """
 def setNewTag(elem,entry,counter):
     form = getFormRepresentation(entry)
     (l,_) = getAtt(form,lemgram)[0]
     txt   = getAtt(form,'gram')
     old = elem.get('val')
+    def changeTag(tag):
+       print tag,l
+       counter.append(0)
+       elem.set('val',re.sub('\.\.e\.','..'+tag+'.',old))
     for (t,_) in txt:
         if isNoun(t):
-           print 'nn',l
-           counter.append(0)
-           elem.set('val',re.sub('\.\.e\.','..nn.',old))
+          changeTag('nn')
         elif isPrep(t):
-           print 'prep',l
-           counter.append(0)
-           elem.set('val',re.sub('\.\.e\.','..pp.',old))
+          changeTag('pp')
         elif isAdj(t):
-           print 'adj',l
-           counter.append(0)
-           elem.set('val',re.sub('\.\.e\.','..av.',old))
+          changeTag('av')
         elif isVerb(t):
-           print 'vb',l
-           counter.append(0)
-           elem.set('val',re.sub('\.\.e\.','..vb.',old))
+          changeTag('vb')
         elif isAdv(t):
-           print 'adv',l
-           counter.append(0)
-           elem.set('val',re.sub('\.\.e\.','..ab.',old))
+          changeTag('ab')
         elif isConj(t):
-           print 'conj',l
-           counter.append(0)
-           elem.set('val',re.sub('\.\.e\.','..kn.',old))
+          changeTag('kn')
 
 # only in beginning of string? other word classes
 def isNoun(t):
@@ -225,36 +175,8 @@ def isVerb(t):
 def isConj(t):
   return t.startswith('conj.')
 
-# gets the value of 'val' in 'elem'
-def getAtt(elem,val):
-    res = []
-    if not elem is None:
-      for feat in elem:
-          value = feat.get('att')
-          if value == val:
-             res.append((feat.get('val'),feat))
-    return res
-
-def getAttRef(elem,val):
-    res = []
-    if not elem is None:
-      for feat in elem:
-          value = feat.get('att')
-          if value == val:
-             res += [feat]
-    return res
-
-# gets triples of children. elem -> (att,val,reference)
-def getAll(elem,skip=[]):
-    res = []
-    if not elem is None:
-      for feat in elem:
-          value = feat.get('att')
-          if value not in skip:
-             res.append((value,feat.get('val'),feat))
-    return res
-    
-# count number of paranthesis
+   
+""" count number of paranthesis """
 def countP(w):
    i=0
    for c in w:
@@ -264,21 +186,21 @@ def countP(w):
          i = i-1
    return i              
 
+""" counts how many e-tags there are"""
 def countE(fil):         
     (entries,lex) = readIt(fil)
     counter = 0
     number  = 0
     for entry in entries: 
         (pos,l) = getTag(entry)
-        #lemma = entry.find('Lemma')
-        #lems    = getAtt(lemma,lemgram)
-        #(pos,l) = extractTag(lems)
         if pos == 'e':
            counter += 1
         number += 1
     print fil,"number of 'e's",counter,'(',number,')'
 
 
+""" finds all pos-tags inside lemgrams and prints them as well as how
+    often they occur """
 from collections import Counter
 def printPOS(fil):
     (entries,lex) = readIt(fil)
@@ -288,6 +210,8 @@ def printPOS(fil):
         poss.append(pos)
     print Counter(poss)
 
+""" finds all text in gram-tags and prints them as well as how
+    often they occur """
 def getGrams(fils):
     grams = []
     for fil in fils:
@@ -300,29 +224,27 @@ def getGrams(fils):
               grams.append(t)
     print Counter(grams)
 
+""" checks which lemgrams that contains * or ? """
 def checklemgrams(fils):
-    grams = []
+    lst = []
     for fil in fils:
       (entries,lex) = readIt(fil)
       for entry in entries: 
         l = getLem(entry)
         if '*' in l or '?' in l:
-           grams.append((l,fil)) 
-    print grams
+           lst.append((l,fil)) 
+    print lst
 
+""" checks which lemgrams that are duplicated in a set of lexicons"""
 def duplicatelems():
     lems = []
     for fil in files:
       entries,_ = readIt(fil) 
       for entry in entries:
         lems   += [getLem(entry)]
-#    lines = codecs.open('lexiconinfo/badlemsSoederNY.txt','r','utf-8').readlines()
     lex   = mkLex()
     dups  = []
     for word in lems:
-#    for line in lines:
-#        word = line.split()[0]
-#        word = word.strip("',")
         (l,xs) = lookupLex(word,lex)
         if xs is None or xs==[]:
           print 'error, could not find',word
@@ -330,40 +252,14 @@ def duplicatelems():
           dups += [(l,xs)]
     print dups
 
-def lookupLex(word,lex):
-    lem = re.sub('\*|\?','',word)
-    nullvalue = 0 if type(lex.values)==int else []
-    res = lex.get(lem) if lex.has_key(lem) else nullvalue
-    return (lem,res)
-
 soederwall_main = '../../Lexicon/soederwall_ny/soederwall_main_NYAST.xml'
 soederwall_supp = '../../Lexicon/soederwall_ny/soederwall_supp_NYAST.xml'
 schlyter        = '../../Lexicon/schlyter.xml'
 currentfile= schlyter
  
 allfiles = [soederwall_main, soederwall_supp, schlyter]
-def mkLex(keeppos=True,files=allfiles,numbers=False,old=False):
-    print 'reading files'
-    lex = {}
-    print 'making lexicon'
-    for fil in files: 
-      entries,_ = readIt(fil) 
-      for entry in entries:
-        lem     = getLem(entry,old)
-        lemgram = lem
-        if not keeppos:
-          lem = lem.split('.')[0]
-        pos,_ = getTag(entry,old)
-        lem1 = re.sub('\*|\?','',lem)
-        standard  = [{"form": lem, "file" : fil, "pos" : pos, 'lemgram' : lemgram}]
-        attr  = 1 if numbers else standard
-        if lex.has_key(lem1):
-           oldl = lex.get(lem1)
-           attr = oldl + attr
-        lex.update({lem1 : attr})
-    print 'lexicon complete'
-    return lex
-   
+
+  
 # def organizer()
 # fixar så att 
 # -om namnet finns i annan ordbok så får den ett nytt id
@@ -371,9 +267,9 @@ def mkLex(keeppos=True,files=allfiles,numbers=False,old=False):
 #   så ta bort dem, lägg gamla namnet i oldForm 
 # om annat dåligt tecken i nån av dem, rapportera
 
-
-
+""" change this according to what kind of lexicon we're using """
 lemgram ='lemgram' # 'lem' # 
+
 #checklemgrams(['../../Lexicon/soederwall_ny/soederwall_main_NYAST.xml'
 #                ,'../../Lexicon/soederwall_ny/soederwall_supp_NYAST.xml'])
 #duplicatelems()

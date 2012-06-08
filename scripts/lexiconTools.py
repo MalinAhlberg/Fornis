@@ -13,7 +13,6 @@ from xmlindent import indent
 def readIt(fil):
      s = codecs.open(fil,"r").read()
      lexicon = etree.fromstring(s)
-     print type(lexicon)
      indent(lexicon)
      lex     = lexicon.find('Lexicon')
      entries = lex.findall('LexicalEntry')
@@ -52,12 +51,24 @@ def getLem(entry,old=False):
 
 """ lem -> lemgram-id """
 def extractLem(lem):
+    if lem == []: print 'woo!',etree.tostring(lem)
     if lem is not None:
         (tag,elem) = lem[0]
         return tag
     else: return ""
 
-""" gets the value of 'val' in 'elem' """
+# TODO entry -> sense_id,ref
+def getSenseid(entry):
+  sensids = []
+  senses  = entry.findall('Sense')
+  for sense in senses:
+    if sense is not None:
+      sensids.append((sense.get('id'),sense))
+  return sensids
+ 
+
+""" gets the value of 'val' in 'elem' 
+    returns pair (value,reference)"""
 def getAtt(elem,val):
     res = []
     if not elem is None:
@@ -91,7 +102,7 @@ def getAll(elem,skip=[]):
     the Nothing-value (Null) is 0, otherwise [] """
 def lookupLex(word,lex):
     lem = re.sub('\*|\?','',word)
-    nullvalue = 0 if type(lex.values)==int else []
+    nullvalue = 0 if type(lex.values()[0])==int else []
     res = lex.get(lem) if lex.has_key(lem) else nullvalue
     return (lem,res)
  
@@ -104,25 +115,40 @@ allfiles = [soederwall_main, soederwall_supp, schlyter]
 
 
 """ reads lexicons and creates on big dictionary """
-def mkLex(keeppos=True,files=allfiles,numbers=False,old=False):
-    print 'reading files'
+def mkLex(keeppos=True,files=allfiles,numbers=False,senseId=False,meld=False,old=False):
+    if len(files)==0: return {}
+    allentries = []
     lex = {}
-    print 'making lexicon'
-    for fil in files: 
-      entries,_ = readIt(fil) 
-      for entry in entries:
-        lem     = getLem(entry,old)
-        lemgram = lem
-        if not keeppos:
-          lem = lem.split('.')[0]
-        pos,_ = getTag(entry,old)
-        lem1 = re.sub('\*|\?','',lem)
-        standard  = [{"form": lem, "file" : fil, "pos" : pos, 'lemgram' : lemgram}]
-        attr  = 1 if numbers else standard
-        if lex.has_key(lem1):
-           oldl = lex.get(lem1)
-           attr = oldl + attr
-        lex.update({lem1 : attr})
+    if type(files[0]) == type('fil'):
+      print 'reading files'
+      print 'making lexicon'
+      for fil in files: 
+        entries,_ = readIt(fil) 
+        allentries.append(entries)
+    else:
+      allentries = files
+    for entry in allentries:
+      lem     = getLem(entry,old)
+      lemgram = re.sub('\*|\?','',lem)
+      if not keeppos:
+        lem = lem.split('.')[0]
+      pos,_ = getTag(entry,old)
+      lem1 = lem if not meld else re.sub('\*|\?','',lem)
+      standard  = [{"form": lem,"pos" : pos, 'lemgram' : lemgram}] #"file" : fil, 
+      attr  = 1 if numbers else standard
+      insert(lex,lem1,attr)
+      if senseId:
+         map(lambda (ids,s): insert(lex,re.sub('\*|\?','',ids),attr), getSenseid(entry))
     print 'lexicon complete'
     return lex
 
+""" insert(dictionary,key,value)
+    inserts {value : number of occurences} in key in dic"""
+def insert(d,k,standard):
+    old = d.get(k)
+    if old!=None:
+      standard = old+standard
+    d.update({k:standard})
+ 
+""" change this according to what kind of lexicon we're using """
+lemgram ='lemgram' # 'lem' # 

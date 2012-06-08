@@ -3,7 +3,7 @@ import re
 import os
 import glob
 import codecs
-import lexiconTools
+from lexiconTools import *
 from xml.etree import ElementTree as etree
 from xmlindent import indent
 
@@ -236,20 +236,20 @@ def checklemgrams(fils):
     print lst
 
 """ checks which lemgrams that are duplicated in a set of lexicons"""
-def duplicatelems():
-    lems = []
-    for fil in files:
-      entries,_ = readIt(fil) 
-      for entry in entries:
-        lems   += [getLem(entry)]
-    lex   = mkLex()
-    dups  = []
-    for word in lems:
-        (l,xs) = lookupLex(word,lex)
-        if xs is None or xs==[]:
-          print 'error, could not find',word
-        elif len(xs)>1:
-          dups += [(l,xs)]
+def duplicatelems(fils):
+    #lems = []
+    #for fil in fils:
+    #  entries,_ = readIt(fil) 
+    #  for entry in entries:
+    #    lems.append(getLem(entry))
+    lex   = mkLex(files=fils,numbers=True)
+    dups = filter(lambda (x,i): i>1,lex.items())
+    #for word in lems:
+    #    (l,xs) = lookupLex(word,lex)
+    #    if xs is None or xs==[]:
+    #      print 'error, could not find',word
+    #    elif len(xs)>1:
+    #      dups += [(l,xs)]
     print dups
 
 soederwall_main = '../../Lexicon/soederwall_ny/soederwall_main_NYAST.xml'
@@ -267,8 +267,6 @@ allfiles = [soederwall_main, soederwall_supp, schlyter]
 #   så ta bort dem, lägg gamla namnet i oldForm 
 # om annat dåligt tecken i nån av dem, rapportera
 
-""" change this according to what kind of lexicon we're using """
-lemgram ='lemgram' # 'lem' # 
 
 #checklemgrams(['../../Lexicon/soederwall_ny/soederwall_main_NYAST.xml'
 #                ,'../../Lexicon/soederwall_ny/soederwall_supp_NYAST.xml'])

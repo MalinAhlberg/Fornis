@@ -7,14 +7,13 @@ from xmlindent import indent
 
 """ Methods for generating new lexicons with the new standard """
 
-
 """ make a nice lexicon, according to lexstruct"""
 def validate(fil):
     entries,lexicon = readIt(fil) 
     lex             = lexicon.find('Lexicon')
     # this is for checking that no lemgram is repeated in another lexicon
-#    lexdict         = mkLex(numbers=True,files=glob.glob('lexiconinfo/news/*xml'))
-                                                          #['kast.xml'])#files
+
+    entries.sort(key=lambda x: isweird(x))
     for i,entry in enumerate(entries):
       lemma = entry.find('Lemma')
       checkgram(lemma)  
@@ -32,9 +31,13 @@ def validate(fil):
       checkformrep(lemma)
       checkother(lemma)
       checksenseid(entry)
-#      updateindex(lemma,entry,lexdict) # for updating the overlapping indicies 
+
+    lexdict = mkLex(numbers=True,files=entries,senseId=True,meld=True)
+    for i,entry in enumerate(entries):
+      lemma = entry.find('Lemma')
+      updateindex(lemma,entry,lexdict) # for updating the overlapping indicies 
     indent(lex)
-    open('testit2.xml','w').write(etree.tostring(lexicon,encoding='utf-8'))
+    open('kast.xml','w').write(etree.tostring(lexicon,encoding='utf-8'))
 
 # not used, for fix overlapping lemgrams (also between files)
 def changeindex(fil):
@@ -97,7 +100,8 @@ def checkgram(lemma):
 
     setpos = set(poss)
     setpos.discard('')
-    for pos in setpos:
+    oldpos = set(map(lambda (a,b): a,getAtt(lemma,u'partOfSpeech')))
+    for pos in setpos.difference(oldpos):
       # set the partOfSpeeach to contain this info
       lemma.insert(1,lemma.makeelement(u'feat',{u'att':'partOfSpeech', u'val':pos}))
       change('add pos-tag','',pos,lemma)
@@ -153,10 +157,9 @@ def splitbypos(entry,lex,index):
 def checklemgram(lemma):  
     lems = getAtt(lemma,'lemgram')
     poss = getAtt(lemma,'partOfSpeech')
-    okchar = u'\w\d\.åäöþæ_'
+    okchar = u'\w\d\.åäöþæ_-'
     if len(lems)!=1:
       report(u'not 1 lemgram',lemma)
-      print 'buu'
     else:
       lemgram,lemr = lems[0]
       newlem = cleanChars(okchar,lemgram,lemr,lemma)
@@ -164,11 +167,7 @@ def checklemgram(lemma):
         pos,_ = poss[0]
         newlem = re.sub('\.\.\w{2,3}\.','..'+pos+'.',newlem)
         lemr.set('val',newlem)
-        if newlem!=lemgram: change('lemgram',lemgram,newlem,lemma)
-        if not set(lemgram).isdisjoint('?*()'):
-          index = indexofform(lemma)
-          lemma.insert(index,lemr.makeelement(u'feat',{u'att':'oldlemma'
-                                                      ,u'val':lemgram.strip(' ,.()')}))
+      
       else:
       # report the number of postags, and set lemgram-tag to 'e'
         num = len(poss)
@@ -176,6 +175,12 @@ def checklemgram(lemma):
         report(u'setting tag to e ',lemma)
         newlem = re.sub('\.\.\w{2,3}\.','..e.',newlem)
         lemr.set('val',newlem)
+      if newlem!=lemgram: change('lemgram',lemgram,newlem,lemma)
+      if not set(lemgram).isdisjoint('?*()'):
+        index = indexofform(lemma)
+        lemma.insert(index,lemr.makeelement(u'feat',{u'att':'oldlemma'
+                                                ,u'val':lemgram.strip(' ,.()')}))
+
     #  report(u'setting tag to e due to several pos',lemma)
       
       # TODO add
@@ -220,36 +225,38 @@ def checksenseid(entry):
           change('sense cleanup',ids,new,entry.find('Lemma'))  # report change
           sense.set('id',new)
       
-# not used, updates the index of a lemgram to an unused number
+""" updates the lemgram inde xto a valid (unused) number """
 def updateindex(lemma,entry,lexdict):
     lems = getAtt(lemma,'lemgram')
     lemgram,lemr = lems[0]
     _,xs = lookupLex(lemgram,lexdict)
-    def findindex(lem):
-        _,xs = lookupLex(lem,lexdict)
-        if xs>0:
-          new,i = countindex(lem)
-          if i>10: 
-            print 'ooops to many'
-            return '00'
-          return findindex(new)
-        else: return i,lem
-    def countindex(lem):
-        ind = re.findall('\.\.\w{1,3}\.(\d+)',lem)
-        if ind==[]:
-          print 'noo',lem
-          return (lem,0)
-        i = ind[0]
-        return (re.sub(i,str(int(i)+1),lem),int(i))
     if xs>1:
-      i,lem = findindex(lemgram)
+      ind = re.findall('\.\.\w{1,3}\.(\d+)',lemgram)[0]
+      lem,i = findindex(lemgram,int(ind),lexdict)
       lemr.set('val',lem)
-#      updateSense(i,entry)
-      # update the dictionary, one less with name lemgram, one with name lem
       lexdict.update({lemgram : xs-1,lem:1})
+    updateSense(entry,lexdict)
 
-# TODO should update them without overlapping others
-#def updateSense(i,entry):
+""" updates the sense id to a valid (unused) index """
+def updateSense(entry,lexdict):
+  for (ids,sense) in getSenseid(entry):
+    _,xs = lookupLex(ids,lexdict)
+    if xs>1:
+      ind = re.findall('\.\.(\d+)',ids)[0]
+      new,i = findindex(ids,int(ind),lexdict)
+      sense.set('id',new)
+      lexdict.update({ids : xs-1,new:1})
+
+def findindex(lem,i,lexdict):
+   _,xs = lookupLex(lem,lexdict)
+   if xs>0:
+     new,i = (re.sub(str(i),str(i+1),lem),i+1)
+     if i>20: 
+       report('very many lemgrams/sense ids, '+lem,None)
+       if i>100: return new,101
+     
+     return findindex(new,i,lexdict)
+   else: return lem,i
 
       
 """ removes unwanted characters, reports the change"""
@@ -263,7 +270,7 @@ def cleanChars(okchar,string,ref,lemma):
 
 """ prints message to report file"""    
 def report(string,lemma): # add this to some file
-    lem,_ = getAtt(lemma,'lemgram')[0]
+    lem,_ = getAtt(lemma,'lemgram')[0] if lemma is not None else ('','')
     codecs.open(reportfile,'a','utf8').write(string+' in '+lem+'\n')
 reportfile = 'testrep'
 
@@ -271,7 +278,7 @@ reportfile = 'testrep'
 """ translates grammatical information in gram to a saldo-formed pos tag"""
 def translate(gram): 
     poss       = []
-    newgram    = ""
+    newgram    = []
     grams      = re.split('(?:och)|,',gram)
     # sort so that long tags are preferred to shorter ones 
     # (v. pass. rather than v.)
@@ -283,11 +290,11 @@ def translate(gram):
         g = g.lstrip(' ,-')
         if g.startswith(pos):
           poss    += [trans.get('pos')]
-          newgram += g[:len(pos)]+' '
+          newgram.append(g[:len(pos)])
           found = True
           break
       if not found: break 
-    return (newgram,poss)
+    return (' '.join(newgram),poss)
 
 """ validates that the pos-tag is ok """
 def isOkPos(pos):
@@ -326,6 +333,13 @@ def indexofform(lemma):
          return i
          j = i
     return j
+
+""" does the lemgram contain ? or * """
+def isweird(entry):
+    lems = getLem(entry)
+    if re.search('\*|\?',lems):
+       return 0
+    return 2
 
 
 #kan vara i Formrepresentation -> flytta ut

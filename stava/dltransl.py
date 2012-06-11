@@ -1,12 +1,14 @@
 # -*- coding: utf_8 -*-
+from replacemap import replsX
 """
 Compute the Damerau-Levenshtein distance between two given
 strings (s1 and s2) but by considering special rules for how
 expensive insertion and deletion is, depending on the letters
 """
 
+# TODO ta med '' i tabellerna, lägg till n '' i ett n långt ord i cc
 """ calculates the distance """
-def edit_dist(s1, s2):
+def edit_dist(s1, s2,rules=replsX):
     s1 = '^'+s1+'$'
     s2 = '^'+s2+'$'
     d = {}
@@ -20,38 +22,45 @@ def edit_dist(s1, s2):
  
     for i in xrange(lenstr1):
         for j in xrange(lenstr2):
-            d[(i,j)] = min(replaceX(s1,i,s2,j,d)
-                          ,insertX(s1,i,s2,j,d)
-                          )
+            d[(i,j)] = replaceX(s1,i,s2,j,d,rules)
+                       #min(replaceX(s1,i,s2,j,d,rules)
+                       #   ,insertX(s1,i,s2,j,d) # den här borde inte behövas :D
+                       #   )
             
     res = d[lenstr1-1,lenstr2-1]
     return res
 
-""" replacements"""
-def replaceX(s1,i,s2,j,d):
-  val,same = 30,30
+""" replacements """
+def replaceX(s1,i,s2,j,d,rules):
+  def replace1(s1,s2,i,j):
+    ok = getRepl(rules,s1,s2)
+    i0,j0 = i-1,j-1
+    p = 0
+    if ok!=None :
+      mi,mj,p = ok
+      i0 = i-mi
+      j0 = j-mj
+    return (i0,j0,p)
+    
+  same = issame(s1[i],s2[j])
   endi = i+1
   endj = j+1
   i0 = i-1
   j0 = j-1
-  if s1[i]==s2[j]:
-    same = 0
   (i0,j0,p) = replace1(s1[:endi],s2[:endj],i,j)
   (n0,m0,q) = replace1(s2[:endj],s1[:endi],j,i)
-  return min(d[(i0,j0)]+float(val-p)/30
-            ,d[(m0,n0)]+float(val-q)/30 
+  return min(d[(i0,j0)]+p
+            ,d[(m0,n0)]+q 
             ,d[i-1,j-1]+same)
 
-def replace1(s1,s2,i,j):
-  ok = getRepl(replsX,s1,s2)
-  i0,j0 = i-1,j-1
-  p = 0
-  if ok!=None :
-    mi,mj,p = ok
-    i0 = i-mi
-    j0 = j-mj
-  return (i0,j0,p*3)
-   
+
+def issame(a,b):
+  if a==b:
+    return 0
+  if a in vow and b not in vow:
+    return 2
+  return 3
+  
 #normal insert and delete
 def insertX(s1,i,s2,j,d):
   (i0,j0,p) = insert1(s1,i,s2,j)
@@ -75,18 +84,7 @@ def insert1(s1,i,s2,j):
 dub = u"bdfgjlmnprstv"; #/* dubbeltecknande konsonanter */
 vow = u"aeiouyåäöAEIOUYÅÄÖ"; #/* vokaler*/
 
-replsX = {(u'v',u'u'):(1,1,9) ,(u'v',u'w'):(1,1,9) ,(u'i',u'y'):(1,1,9) ,(u'i',u'j'):(1,1,9) ,(u'k',u'q'):(1,1,9)
-         ,(u'k',u'c'):(1,1,9) ,(u'i',u'e'):(1,1,9) ,(u'u',u'o'):(1,1,9) ,(u'y',u'ö'):(1,1,9) ,(u'y',u'ö'):(1,1,9)
-         ,(u'þ',u't'):(1,1,9), (u'ks',u'x'):(2,1,9),(u'gs',u'x'):(2,1,9),(u'ts',u'z'):(2,1,9),(u'ds',u'z'):(2,1,9)
-         ,(u'aa',u'a'):(2,1,9),(u'r$',u'$'):(2,1,9),(u'th',u'þ'):(2,1,9),(u'gh',u'k'):(2,1,9),(u'dh',u't'):(2,1,9)
-         ,(u'th',u't'):(2,1,9),(u'dh',u'd'):(2,1,9) ,(u'gh',u'g'):(2,1,9),(u'e$',u'a$'):(2,2,9),(u'^v',u'^hv'):(2,3,9)
-         ,('w','u'):(1,1,9)
-         # här börjar de nya
-         ,(u'e',u'a'):(1,1,3)  ,(u'i',u'e'):(1,1,3) ,(u'n',u'm'):(1,1,3) ,(u'e',u'ä'):(1,1,3) ,(u'ö',u'o'):(1,1,3) 
-         ,(u's',u'c'):(1,1,3) ,(u'j',u'g'):(1,1,3) ,(u'w',u'v'):(1,1,2) ,(u'c',u'k'):(1,1,2) ,(u's',u'z'):(1,1,3)
-         ,(u'f',u'ff'):(1,2,3) ,(u'l',u'll'):(1,2,3) ,(u'ch',u'k'):(2,1,3) ,(u'e',u'a'):(1,1,3) ,(u'ee',u'e'):(2,1,3)
-         ,(u'ij',u'i'):(2,1,3) ,(u'l',u'll'):(1,2,3) ,(u'ch',u'k'):(2,1,3) ,(u'e',u'a'):(1,1,3) ,(u'ee',u'e'):(1,1,3)}
-         
+        
 
 def getRepl(rep,s1,s2):
   ret = (0,0,0) 

@@ -1,7 +1,7 @@
 # -*- coding: utf_8 -*-
 from xml.etree import ElementTree as etree
 import codecs
-from cc import alphabet,getccs,getchanges
+from cc import alphabet,getccs,getchanges,iso,hashiso
 from dltransl import edit_dist
 import Queue
 import threading
@@ -29,7 +29,8 @@ def spellcheckword(w,d,rules,a):
   lem = getlemgram(d,w)
   if lem==None:
     ccs    = []
-    cc  = getchanges(w,d,rules)
+    #cc  = getchanges(w,d,rules)
+    cc = []
     getccs((w,hashiso(w)),d,a,cc)
     ccs.append((w,set(cc)))
     # allowed dist should depend on wordlength?
@@ -49,11 +50,11 @@ def spellcheckword(w,d,rules,a):
  returns (True,(word,variant,distance,lemgram)) if variants are found
  returns (False,None) if nothing interesting is found
 """
-def spellchecksmall(w,d,alpha):
+def spellchecksmall(w,d,alpha,edit):
   lem = getlemgram(d,w)
   if lem==None:
     ccs = [(w,getchanges(w,d,alpha))]
-    res = getvariant(ccs)
+    res = getvariant(ccs,edit)
     if res:
       return (True,res)
   else:
@@ -69,22 +70,22 @@ def getlemgram(d,w):
 """ Examines a set of words and their variations and picks
     the ones that has an accepteble edit distance (2)
     returns a list of (word,variation,edit distance,lemgram)"""
-def getvariant(ccs):
+def getvariant(ccs,edit):
   from math import fabs
   var = []
   for (w,cc) in ccs:
     for (c,lem) in set(cc):
       if fabs(len(w)-len(c))<=len(w)/2:
-        dist = edit_dist(w,c)
+        dist = edit_dist(w,c,rules=edit) if edit else edit_dist(w,c) 
         if dist<2:
           var.append((w,c,dist,lem))
   var.sort(key=lambda (w,c,dist,lem): dist)
   return var
 
 """Help function for pretty printing"""
-def shownice(xs):
-    slist = ['\t'.join([unicode(w) for w in x]) for x in xs]
-    s = "\n".join(slist)
+def shownice(xs,t='\t',n='\n'):
+    slist = [t.join([unicode(w) for w in x]) for x in xs]
+    s = n.join(slist)
     return s
 
 # Functions for reading an xml lexicon

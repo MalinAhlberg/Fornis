@@ -1,7 +1,9 @@
 # -*- coding: utf_8 -*-
-import extracttxt 
+from extracttxt import *
+from cc import norm
 from xml.etree import ElementTree as etree
 from collections import Counter
+import printstats
 import codecs
 import re
 import glob
@@ -9,18 +11,24 @@ import glob
 """ Output files, all words and their found variations are printed to
     outputWords summary data is printed to outputData """
 
-outputWords = 'newtestkastall2' #'bibsmalltestall'
-outputData  = 'newtestkastdata2' #'bibsmalltestdata'
+outputWords = 'csfintestall2' #'bibsmalltestall'
+outputData  = 'csfintestdata2' #'bibsmalltestdata'
+outputStats = 'csfinteststat2'
+
+testfiles = ['../filerX/SkaL.xml','../filerX/Erik-A.xml'
+            ,'../filerX/AngDikt.xml','../filerX/Laek9.xml']
 
 """ sammanstall reads xml files and finds spelling variation of the text"""
 def sammanstall():
-    from readvariant import getvariant
+    from readvariant import getvariant,mkeditMap
     #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
     #files = glob.glob('../filerX/Ap*xml')+glob.glob('../filerX/Mar*Lund*xml')
-    files = glob.glob('../filerX/Mar41*Lund*xml')
+    #files = glob.glob('../filerX/Mar41*Lund*xml')
+    files = testfiles
     hashd = readlex(oldlex)#dalin,old=True) #oldlex
-    alpha  = getvariant('lex_variation.txt')
-    res = [getdata(fil,hashd,alpha) for fil in files]
+    #alpha  = getvariant('lex_variation.txt')
+    edit,alpha = mkeditMap('char_variant.txt')
+    res = [getdata(fil,hashd,alpha,edit) for fil in files]
     codecs.open(outputData,'w',encoding='utf8').write(shownice(res))
     print 'printed files',outputWords,outputData
 
@@ -32,17 +40,19 @@ dalin =  ['../../Lexicon/dalin.xml']
 
 """ getdata takes a xml file, a hashed lexicons and a set of allowed spelling
     variations and identifies spelling variations"""
-def getdata(fil,hashd,alpha):
+def getdata(fil,hashd,alpha,edit):
     from readvariant import getvariant
     print fil
     txt    = ''.join(gettext(fil)) 
     wds    = map(lambda x: norm(x).lower(),txt.split())
+    #a = alphabet(wds)       #remove if using small spellcheck, but use _all_ words
+    wds    = wds[:150]
+    # ta 150 här för ett litet test!
     typs   = Counter(wds)
     dic = {}
-    #a = alphabet(wds)       #remove if using small spellcheck
 
     # look through all types, find spelling variation and create a dictionary of these
-    map(lambda (w,i):  dic.update({w:(i,spellchecksmall(w,hashd,alpha))}),typs.items()) 
+    map(lambda (w,i):  dic.update({w:(i,spellchecksmall(w,hashd,alpha,edit))}),typs.items()) 
     # tab is a list of all words in the same order as in the text, mapped to
     # their spelling variation
     tab = map(lambda w: (w,dic.get(w)),wds)
@@ -53,6 +63,7 @@ def getdata(fil,hashd,alpha):
     
     # print the text where each word is mapped to its variations
     codecs.open(outputWords,'a',encoding='utf8').write('\n'+fil+' '+res+'\n'+shownice(tab))
+    codecs.open(outputStats,'a',encoding='utf8').write('\n'+fil+' '+res+'\n'+printstats.printstat(tab))
     return (fil,gw,gt,bw,bt,vw,vt,gw+bw+vw,gt+bt+vt)
 
 """ calculate extracts data of how many types and tokens that could be found
@@ -70,6 +81,17 @@ def calculate(dic):
     [count(w,i,args) for (w,(i,args)) in dic.items() if re.search(bokstaver,w.strip())]
     return (sum(oks),len(oks),sum(bads),len(bads),sum(var),len(var))
 
+"""Help function to readlexnormal"""
+def insertnormal(d,form,lem):
+    old = d.get(form)
+    if old==None:
+      lst = []
+    else:
+      lst = old
+    d.update({form : [lem]+lst})
+
+if __name__ == "__main__":
+  sammanstall()
 ################################################################################
 # Not used
 ################################################################################
@@ -91,14 +113,3 @@ def readlexnormal(files,old=False):
            insertnormal(d,form,lem)
     return d
 
-"""Help function to readlexnormal"""
-def insertnormal(d,form,lem):
-    old = d.get(form)
-    if old==None:
-      lst = []
-    else:
-      lst = old
-    d.update({form : [lem]+lst})
-
-if __name__ == "__main__":
-  sammanstall()

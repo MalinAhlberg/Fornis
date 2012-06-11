@@ -1,4 +1,6 @@
 # -*- coding: utf_8 -*-
+# TODO ta med '' i tabellerna, lägg till n '' i ett n långt ord i cc
+import re
 
 """Functions for calculating anagram values, finding spelling variations etc"""
 
@@ -72,7 +74,8 @@ def getchanges(w,lex,changeset):
     tavs = u+b+t
     ch   = []
     # substitutions only
-    for tav in tavs:
+    # TODO add '' as aws (0's to the tav, how many?? as many as there are letters?)
+    for tav in tavs+[0]*(len(w)/2):
       # get diff between tav and its translations
       subs = changeset.get(tav) or []
       ch += map(lambda x: x-tav,subs)

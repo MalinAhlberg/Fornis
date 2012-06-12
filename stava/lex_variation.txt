@@ -1,31 +1,31 @@
-v	u
-v	w
-i	y
-i	j
-k	q
-k	c
-ks	x
-gs	x
-ts	z
-ds	z
-aa	a
-i	e
-u	o
-y	ö
-r$	$
-þ	t
-þ	th
-k	gh
-t	dh
-e$	a$
-th	t
-dh	d
-gh	g
-^hv	^v
-w 	 u
-f	ff
-l	ll
-ch	k
-oo	o
-ee	e
-ij	i
+v	u	0.1
+v	w	0.1
+i	y	0.1
+i	j	0.1
+k	q	0.1
+k	c	0.1
+ks	x	0.1
+gs	x	0.1
+ts	z	0.1
+ds	z	0.1
+aa	a	0.1
+i	e	0.1
+u	o	0.1
+y	ö	0.1
+r$	$	0.1
+þ	t	0.1
+þ	th	0.1
+k	gh	0.1
+t	dh	0.1
+e$	a$	0.1
+th	t	0.1
+dh	d	0.1
+gh	g	0.1
+^hv	^v	0.1
+w 	 u	0.1	
+f	ff	0.1
+l	ll	0.1
+ch	k	0.1
+oo	o	0.1
+ee	e	0.1
+ij	i	0.1

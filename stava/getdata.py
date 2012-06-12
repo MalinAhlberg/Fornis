@@ -11,12 +11,13 @@ import glob
 """ Output files, all words and their found variations are printed to
     outputWords summary data is printed to outputData """
 
-outputWords = 'csfintestall2' #'bibsmalltestall'
-outputData  = 'csfintestdata2' #'bibsmalltestdata'
-outputStats = 'csfinteststat2'
+outputWords = 'testet2W' #'bibsmalltestall'
+outputData  = 'testet2D' #'bibsmalltestdata'
+outputStats = 'testet2S'
 
-testfiles = ['../filerX/SkaL.xml','../filerX/Erik-A.xml'
+testfiles1 = ['../filerX/SkaL.xml','../filerX/Erik-A.xml'
             ,'../filerX/AngDikt.xml','../filerX/Laek9.xml']
+testfiles = glob.glob('testfiles/*')
 
 """ sammanstall reads xml files and finds spelling variation of the text"""
 def sammanstall():
@@ -25,9 +26,10 @@ def sammanstall():
     #files = glob.glob('../filerX/Ap*xml')+glob.glob('../filerX/Mar*Lund*xml')
     #files = glob.glob('../filerX/Mar41*Lund*xml')
     files = testfiles
-    hashd = readlex(oldlex)#dalin,old=True) #oldlex
-    #alpha  = getvariant('lex_variation.txt')
-    edit,alpha = mkeditMap('char_variant.txt')
+    hashd = readlex(oldlex2,old=True) #oldlex)#dalin
+    #edit,alpha  = mkeditMap('lex_variation.txt',both=True)
+    #edit,alpha = mkeditMap('char_variant.txt')
+    edit,alpha = mkeditMap('char_varsmallest.txt')
     res = [getdata(fil,hashd,alpha,edit) for fil in files]
     codecs.open(outputData,'w',encoding='utf8').write(shownice(res))
     print 'printed files',outputWords,outputData
@@ -36,6 +38,10 @@ def sammanstall():
 oldlex = (['../scripts/lexiconinfo/newer/schlyter.xml'
          ,'../scripts/lexiconinfo/newer/soederwall_main.xml'
          ,'../scripts/lexiconinfo/newer/soederwall_supp.xml'])
+oldlex2 = (['../../Lexicon/schlyter.xml'
+           ,'../../Lexicon/soederwall_ny/soederwall_main_NYAST.xml'
+           ,'../../Lexicon/soederwall_ny/soederwall_supp_NYAST.xml'])
+
 dalin =  ['../../Lexicon/dalin.xml']
 
 """ getdata takes a xml file, a hashed lexicons and a set of allowed spelling

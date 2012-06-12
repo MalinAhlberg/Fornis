@@ -75,7 +75,7 @@ def getchanges(w,lex,changeset):
     ch   = []
     # substitutions only
     # TODO add '' as aws (0's to the tav, how many?? as many as there are letters?)
-    for tav in tavs+[0]*(len(w)/2):
+    for tav in tavs:#[0,0]*(len(w)/2):
       # get diff between tav and its translations
       subs = changeset.get(tav) or []
       ch += map(lambda x: x-tav,subs)

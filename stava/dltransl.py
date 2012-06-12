@@ -35,7 +35,7 @@ def replaceX(s1,i,s2,j,d,rules):
   def replace1(s1,s2,i,j):
     ok = getRepl(rules,s1,s2)
     i0,j0 = i-1,j-1
-    p = 0
+    p = 3
     if ok!=None :
       mi,mj,p = ok
       i0 = i-mi
@@ -58,8 +58,8 @@ def issame(a,b):
   if a==b:
     return 0
   if a in vow and b not in vow:
-    return 2
-  return 3
+    return 3
+  return 1
   
 #normal insert and delete
 def insertX(s1,i,s2,j,d):
@@ -87,11 +87,16 @@ vow = u"aeiouyåäöAEIOUYÅÄÖ"; #/* vokaler*/
         
 
 def getRepl(rep,s1,s2):
-  ret = (0,0,0) 
+  ret = (9,9,9) 
   for ((a,b),val) in rep.items():
-    if s1.endswith(a) and s2.endswith(b):
-      ret = max(val,ret,key=lambda (a,b,c): c)
-  if ret!=(0,0,0):
+    if ischange(s1,a) and ischange(s2,b):
+      ret = min(val,ret,key=lambda (a,b,c): c)
+    if ischange(s1,a) and b=='':
+     _,_,v = val
+     return (1,0,v)
+  if ret!=(9,9,9):
     return ret
 
+def ischange(s,a):
+  return (a!='' and s.endswith(a))
 

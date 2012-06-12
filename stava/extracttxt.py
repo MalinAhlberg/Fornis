@@ -74,7 +74,7 @@ def getvariant(ccs,edit):
   from math import fabs
   var = []
   for (w,cc) in ccs:
-    for (c,lem) in set(cc):
+    for (c,lem) in dict(cc).items():
       if fabs(len(w)-len(c))<=len(w)/2:
         dist = edit_dist(w,c,rules=edit) if edit else edit_dist(w,c) 
         if dist<2:
@@ -149,7 +149,8 @@ def insert(d,form,lem):
     key = sum([iso(c) for c in form])
     old = d.get(key)
     if old!=None:
-      old.update({form:lem})
+      oldval = old.get(form) if old.get(form)!=None else []
+      old.update({form:[lem]+oldval})
     else:
-      d.update({key : {form : lem}})
+      d.update({key : {form : [lem]}})
 

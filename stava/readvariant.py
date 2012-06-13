@@ -2,6 +2,7 @@
 import re
 import codecs
 from normalize import hashiso
+from math import log
 
 """ This scripts reads a file of spelling variations
     (see lex_variation.txt) and creates a dictionary
@@ -27,7 +28,7 @@ def add(key,val,d):
     d.update({isokey : newval})
 
 
-def mkeditMap(fil,both=False):
+def mkeditMap(fil,both=False,weigth=True):
   lines = codecs.open(fil,'r','utf8').readlines()
   editMap = {}
   changeSet = {}
@@ -35,12 +36,12 @@ def mkeditMap(fil,both=False):
     line = line.split('\t')
     org,var  = trans(line[0],line[1])
     #var  = trans(line[1])
-    val  = line[2]
+    val  = float(line[2]) if weigth else (-log(float(line[2])))/10
     for (x,y) in combinations(org,var):
-      editMap.update({(x,y):(len(x),len(y),float(val))})
+      editMap.update({(x,y):(len(x),len(y),val)})
       add(x,y,changeSet)
       if both:
-        editMap.update({(y,x):(len(y),len(x),float(val))})
+        editMap.update({(y,x):(len(y),len(x),val)})
         add(y,x,changeSet)
         
 

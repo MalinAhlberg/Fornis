@@ -11,9 +11,9 @@ import glob
 """ Output files, all words and their found variations are printed to
     outputWords summary data is printed to outputData """
 
-outputWords = 'testet2W' #'bibsmalltestall'
-outputData  = 'testet2D' #'bibsmalltestdata'
-outputStats = 'testet2S'
+outputWords = 'testet6W' #'bibsmalltestall'
+outputData  = 'testet6D' #'bibsmalltestdata'
+outputStats = 'bigUnisCorr1000'
 
 testfiles1 = ['../filerX/SkaL.xml','../filerX/Erik-A.xml'
             ,'../filerX/AngDikt.xml','../filerX/Laek9.xml']
@@ -29,10 +29,11 @@ def sammanstall():
     hashd = readlex(oldlex2,old=True) #oldlex)#dalin
     #edit,alpha  = mkeditMap('lex_variation.txt',both=True)
     #edit,alpha = mkeditMap('char_variant.txt')
-    edit,alpha = mkeditMap('char_varsmallest.txt')
-    res = [getdata(fil,hashd,alpha,edit) for fil in files]
-    codecs.open(outputData,'w',encoding='utf8').write(shownice(res))
-    print 'printed files',outputWords,outputData
+    edit,alpha = mkeditMap('char_varsmallest.txt',weigth=False)
+    #edit,alpha = mkeditMap('trimap_var.txt',weigth=False)
+    [getdata(fil,hashd,alpha,edit) for fil in files]
+#    codecs.open(outputData,'w',encoding='utf8').write(shownice(res))
+    print 'printed files',outputStats
 
 """ Paths to lexicons """
 oldlex = (['../scripts/lexiconinfo/newer/schlyter.xml'
@@ -64,13 +65,15 @@ def getdata(fil,hashd,alpha,edit):
     tab = map(lambda w: (w,dic.get(w)),wds)
     # calculate statistics about the success rate
     gw,gt,bw,bt,vw,vt = calculate(dic)
-    res = ' '.join(['good',str(gw),'(',str(gt),') bad',str(bw),'(',str(bt)
-                   ,')','variations',str(vw),'(',str(vt),')\n***\n'])
+#    res = ' '.join(['good',str(gw),'(',str(gt),') bad',str(bw),'(',str(bt)
+#                   ,')','variations',str(vw),'(',str(vt),')\n***\n'])
     
     # print the text where each word is mapped to its variations
-    codecs.open(outputWords,'a',encoding='utf8').write('\n'+fil+' '+res+'\n'+shownice(tab))
-    codecs.open(outputStats,'a',encoding='utf8').write('\n'+fil+' '+res+'\n'+printstats.printstat(tab))
-    return (fil,gw,gt,bw,bt,vw,vt,gw+bw+vw,gt+bt+vt)
+    #codecs.open(outputWords,'a',encoding='utf8').write(shownice(tab))
+    with codecs.open(outputStats,'a',encoding='utf8') as f:
+      f.write('\n'+fil+'\n'+printstats.printstat(tab))
+   # codecs.open(outputStats,'a',encoding='utf8').write('\n'+fil+printstats.printstat(tab))
+    #return (fil,gw,gt,bw,bt,vw,vt,gw+bw+vw,gt+bt+vt)
 
 """ calculate extracts data of how many types and tokens that could be found
     directly in the lexicon"""

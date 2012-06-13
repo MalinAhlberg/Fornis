@@ -48,9 +48,9 @@ def replaceX(s1,i,s2,j,d,rules):
   i0 = i-1
   j0 = j-1
   (i0,j0,p) = replace1(s1[:endi],s2[:endj],i,j)
-  (n0,m0,q) = replace1(s2[:endj],s1[:endi],j,i)
+  #(n0,m0,q) = replace1(s2[:endj],s1[:endi],j,i)
   return min(d[(i0,j0)]+p
-            ,d[(m0,n0)]+q 
+  #          ,d[(m0,n0)]+q 
             ,d[i-1,j-1]+same)
 
 

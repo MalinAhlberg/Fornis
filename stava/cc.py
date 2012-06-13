@@ -1,6 +1,8 @@
 # -*- coding: utf_8 -*-
 # TODO ta med '' i tabellerna, lägg till n '' i ett n långt ord i cc
 import re
+from itertools import chain, combinations,islice
+import sys
 
 """Functions for calculating anagram values, finding spelling variations etc"""
 
@@ -67,34 +69,32 @@ def addAll(res,ccs):
     but maximum 1000 variations are considered.
     getchanges(word,lexicon of anagram values,rules)"""
 def getchanges(w,lex,changeset): 
-    import codecs 
     ccs = []                    
     (u,b,t) = gettav(w,keep=True)
     av   = sum(u)
     tavs = u+b+t
     ch   = []
+    changesetget = changeset.get
     # substitutions only
     # TODO add '' as aws (0's to the tav, how many?? as many as there are letters?)
     for tav in tavs:#[0,0]*(len(w)/2):
       # get diff between tav and its translations
-      subs = changeset.get(tav) or []
-      ch += map(lambda x: x-tav,subs)
+      ch.extend(x-tav for x in (changesetget(tav) or []))
+      #ch += map(lambda x: x-tav,subs)
 
     # as we may get more than 2^31 combination, we only look at the 1000 first
     # variants. this has also proved to give as good results as trying all
     # combinations
-    for (i,c) in enumerate(powerset(list(set(ch)))):
-      ok = lex.get(av+sum(c))
+    lexget = lex.get
+    for c in islice(powerset(set(ch)),0,1000):
+      ok = lexget(av+sum(c))
       if ok:
         addAll(ok,ccs)
-        found =True
-      if i>1000:
-        break
+    print >> sys.stderr,'har gjort',w,len(ccs)
     return ccs
 
 
 def powerset(iterable):
-    from itertools import chain, combinations
     "powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"
     s = list(iterable)
     return chain.from_iterable(combinations(s, r) for r in range(len(s)+1))

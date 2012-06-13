@@ -51,15 +51,15 @@ def spellcheckword(w,d,rules,a):
  returns (False,None) if nothing interesting is found
 """
 def spellchecksmall(w,d,alpha,edit):
-  lem = getlemgram(d,w)
-  if lem==None:
-    ccs = [(w,getchanges(w,d,alpha))]
-    res = getvariant(ccs,edit)
-    if res:
-      return (True,res)
+  #lem = getlemgram(d,w)
+  ccs = [(w,getchanges(w,d,alpha))]
+  res = getvariant(ccs,edit)
+  #if lem==None:
+  if res==None:
+    return (False,None)
   else:
-    return (False,(w,lem))
-  return (False,None)
+    return (True,res)
+  #return (False,(w,lem))
  
 """ finds the lemgram of a word in a lexicon of anagram values"""
 def getlemgram(d,w):

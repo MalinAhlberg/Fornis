@@ -13,24 +13,24 @@ import glob
 
 outputWords = 'testet6W' #'bibsmalltestall'
 outputData  = 'testet6D' #'bibsmalltestdata'
-outputStats = 'bigUnisCorr1000'
+outputStats = 'kast'
 
 testfiles1 = ['../filerX/SkaL.xml','../filerX/Erik-A.xml'
             ,'../filerX/AngDikt.xml','../filerX/Laek9.xml']
-testfiles = glob.glob('testfiles/*')
+testfiles = glob.glob('testfiles/*xml')
 
 """ sammanstall reads xml files and finds spelling variation of the text"""
 def sammanstall():
-    from readvariant import getvariant,mkeditMap
+    from readvariant import mkeditMap     #getvariant,
     #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
     #files = glob.glob('../filerX/Ap*xml')+glob.glob('../filerX/Mar*Lund*xml')
     #files = glob.glob('../filerX/Mar41*Lund*xml')
-    files = testfiles
+    files = ['testfiles/lilleSkaL'] #testfiles
     hashd = readlex(oldlex2,old=True) #oldlex)#dalin
     #edit,alpha  = mkeditMap('lex_variation.txt',both=True)
     #edit,alpha = mkeditMap('char_variant.txt')
-    edit,alpha = mkeditMap('char_varsmallest.txt',weigth=False)
-    #edit,alpha = mkeditMap('trimap_var.txt',weigth=False)
+    #edit,alpha = mkeditMap('char_varsmallest.txt',weigth=False)
+    edit,alpha = mkeditMap('trimap_var.txt',weigth=False)
     [getdata(fil,hashd,alpha,edit) for fil in files]
 #    codecs.open(outputData,'w',encoding='utf8').write(shownice(res))
     print 'printed files',outputStats
@@ -48,7 +48,6 @@ dalin =  ['../../Lexicon/dalin.xml']
 """ getdata takes a xml file, a hashed lexicons and a set of allowed spelling
     variations and identifies spelling variations"""
 def getdata(fil,hashd,alpha,edit):
-    from readvariant import getvariant
     print fil
     txt    = ''.join(gettext(fil)) 
     wds    = map(lambda x: norm(x).lower(),txt.split())

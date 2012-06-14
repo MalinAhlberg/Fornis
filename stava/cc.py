@@ -62,14 +62,16 @@ def getccs((w,av),lex,alphabet,ccs=[]):
     
 """ adds the result, if any, to ccs"""
 def addAll(res,ccs):
-    if res!=None:
-      ccs += res.items() 
+    #if res!=None:
+    #if res.items() not in ccs:
+    ccs.extend(x for x in res.iteritems() if x not in ccs)
+    print 'adding',res
 
 """ finds variations based on rules. any number of substitutions is allowed,
     but maximum 1000 variations are considered.
     getchanges(word,lexicon of anagram values,rules)"""
 def getchanges(w,lex,changeset): 
-    ccs = []                    
+    ccs = []
     (u,b,t) = gettav(w,keep=True)
     av   = sum(u)
     tavs = u+b+t
@@ -79,14 +81,17 @@ def getchanges(w,lex,changeset):
     # TODO add '' as aws (0's to the tav, how many?? as many as there are letters?)
     for tav in tavs:#[0,0]*(len(w)/2):
       # get diff between tav and its translations
-      ch.extend(x-tav for x in (changesetget(tav) or []))
+      ch.extend((x-tav,val) for (x,val) in (changesetget(tav) or []))
       #ch += map(lambda x: x-tav,subs)
 
+
+    ch = [a for (a,b) in sorted(set(ch),key=lambda (x,v):v)]# sort this to get good changes first
     # as we may get more than 2^31 combination, we only look at the 1000 first
     # variants. this has also proved to give as good results as trying all
     # combinations
     lexget = lex.get
-    for c in islice(powerset(set(ch)),0,1000):
+    for c in islice(powerset(ch),0,10000):
+      #print 'testing',av+sum(c)
       ok = lexget(av+sum(c))
       if ok:
         addAll(ok,ccs)

@@ -1,5 +1,6 @@
 # -*- coding: utf_8 -*-
 from replacemap import replsX
+from itertools import product
 """
 Compute the Damerau-Levenshtein distance between two given
 strings (s1 and s2) but by considering special rules for how
@@ -61,6 +62,26 @@ def issame(a,b):
     return 3
   return 1
   
+dub = u"bdfgjlmnprstv"; #/* dubbeltecknande konsonanter */
+vow = u"aeiouyåäöAEIOUYÅÄÖ"; #/* vokaler*/
+
+        
+
+def getRepl(rep,s1,s2):
+  ret = (9,9,9) 
+  for (a,b) in product([s1[-3:],s1[-2:],s1[-1:]],[s2[-3:],s2[-2:],s2[-1:]]):
+    val = rep.get((a,b),None) 
+    if val and val[2]<ret[2]:
+      ret = val
+  if ret!=(9,9,9):
+    return ret
+
+
+
+################################################################################
+#NOT USED
+################################################################################
+
 #normal insert and delete
 def insertX(s1,i,s2,j,d):
   (i0,j0,p) = insert1(s1,i,s2,j)
@@ -80,23 +101,21 @@ def insert1(s1,i,s2,j):
   if a=='c' and b=='k':
      val -= 1
   return (i-1,j,float(val)/20)
- 
-dub = u"bdfgjlmnprstv"; #/* dubbeltecknande konsonanter */
-vow = u"aeiouyåäöAEIOUYÅÄÖ"; #/* vokaler*/
-
-        
-
-def getRepl(rep,s1,s2):
-  ret = (9,9,9) 
-  for ((a,b),val) in rep.items():
-    if ischange(s1,a) and ischange(s2,b):
-      ret = min(val,ret,key=lambda (a,b,c): c)
-    if ischange(s1,a) and b=='':
-     _,_,v = val
-     return (1,0,v)
-  if ret!=(9,9,9):
-    return ret
+ #
+#
+#  s1endswith = s1.endswith
+#  s2endswith = s2.endswith
+#  for ((a,b),val) in rep.iteritems():
+#    if s1endswith(a) and s2endswith(b):
+#      if val[2]<ret[2]:
+#        ret = val # if val[2]<ret[2] else ret #min(val,ret,key=lambda (a,b,c): c)
+#    #if ischange(s1,a) and b=='':
+#    # v = val[2]
+#    # return (1,0,v)
+#  if ret!=(9,9,9):
+#    return ret
 
 def ischange(s,a):
-  return (a!='' and s.endswith(a))
+  return (s.endswith(a))
+
 

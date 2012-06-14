@@ -7,24 +7,24 @@ from math import log
 """ This scripts reads a file of spelling variations
     (see lex_variation.txt) and creates a dictionary
     used by cc.py """
-
-def getvariant(fil):
-  lines = codecs.open(fil,'r','utf8').readlines()
-  d = {}
-  for line in lines:
-    line = line.split()
-    key  = line[0]
-    val  = line[1]
-    add(key,val,d)
-    add(val,key,d)
-  return d
-
-def add(key,val,d):
+# not updated for use
+#def getvariant(fil):
+#  lines = codecs.open(fil,'r','utf8').readlines()
+#  d = {}
+#  for line in lines:
+#    line = line.split()
+#    key  = line[0]
+#    val  = line[1]
+#    add(key,val,d)
+#    add(val,key,d)
+#  return d
+#
+def add(key,var,val,d):
     isokey = hashiso(key)
-    isoval = hashiso(val)
+    isoval = hashiso(var)
     #isoval = hashiso(re.sub('_','',val))  # don't keep the end and start marks in val
     old  = d.get(isokey)
-    newval = [isoval] if old is None else [isoval]+old
+    newval = [(isoval,val)] if old is None else [(isoval,val)]+old
     d.update({isokey : newval})
 
 
@@ -39,10 +39,10 @@ def mkeditMap(fil,both=False,weigth=True):
     val  = float(line[2]) if weigth else (-log(float(line[2])))/10
     for (x,y) in combinations(org,var):
       editMap.update({(x,y):(len(x),len(y),val)})
-      add(x,y,changeSet)
+      add(x,y,val,changeSet)
       if both:
         editMap.update({(y,x):(len(y),len(x),val)})
-        add(y,x,changeSet)
+        add(y,x,val,changeSet)
         
 
     #add((val,key,d) ska ej behövas

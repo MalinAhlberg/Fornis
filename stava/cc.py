@@ -65,7 +65,7 @@ def addAll(res,ccs):
     #if res!=None:
     #if res.items() not in ccs:
     ccs.extend(x for x in res.iteritems() if x not in ccs)
-    print 'adding',res
+    #print 'adding',res
 
 """ finds variations based on rules. any number of substitutions is allowed,
     but maximum 1000 variations are considered.
@@ -90,12 +90,12 @@ def getchanges(w,lex,changeset):
     # variants. this has also proved to give as good results as trying all
     # combinations
     lexget = lex.get
-    for c in islice(powerset(ch),0,10000):
+    for c in islice(powerset(ch),0,1000000):
       #print 'testing',av+sum(c)
       ok = lexget(av+sum(c))
       if ok:
         addAll(ok,ccs)
-    print >> sys.stderr,'har gjort',w,len(ccs)
+    #print >> sys.stderr,'har gjort',w,len(ccs)
     return ccs
 
 

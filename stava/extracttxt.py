@@ -53,8 +53,10 @@ def spellcheckword(w,d,rules,a):
 def spellchecksmall(w,d,alpha,edit):
   #lem = getlemgram(d,w)
   ccs = [(w,getchanges(w,d,alpha))]
-  res = getvariant(ccs,edit)
+  res,j = getvariant(ccs,edit)
   #if lem==None:
+  with codecs.open('howmanykast','a',encoding='utf8') as f:
+    f.write(w+' '+str(j)+'\n')
   if res==None:
     return (False,None)
   else:
@@ -73,14 +75,16 @@ def getlemgram(d,w):
 def getvariant(ccs,edit):
   from math import fabs
   var = []
+  j = 0
   for (w,cc) in ccs:
     for (c,lem) in dict(cc).items():
       if fabs(len(w)-len(c))<=len(w)/2:
         dist = edit_dist(w,c,rules=edit) if edit else edit_dist(w,c) 
+        j+=1
         if dist<2:
           var.append((w,c,dist,lem))
   var.sort(key=lambda (w,c,dist,lem): dist)
-  return var
+  return (var,j)
 
 """Help function for pretty printing"""
 def shownice(xs,t='\t',n='\n'):

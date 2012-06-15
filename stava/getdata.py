@@ -25,7 +25,7 @@ def sammanstall():
     #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
     #files = glob.glob('../filerX/Ap*xml')+glob.glob('../filerX/Mar*Lund*xml')
     #files = glob.glob('../filerX/Mar41*Lund*xml')
-    files = ['testfiles/lilleSkaL'] #testfiles
+    files = testfiles #['testfiles/lilleSkaL'] #
     hashd = readlex(oldlex2,old=True) #oldlex)#dalin
     #edit,alpha  = mkeditMap('lex_variation.txt',both=True)
     #edit,alpha = mkeditMap('char_variant.txt')
@@ -63,7 +63,7 @@ def getdata(fil,hashd,alpha,edit):
     # their spelling variation
     tab = map(lambda w: (w,dic.get(w)),wds)
     # calculate statistics about the success rate
-    gw,gt,bw,bt,vw,vt = calculate(dic)
+    #gw,gt,bw,bt,vw,vt = calculate(dic)
 #    res = ' '.join(['good',str(gw),'(',str(gt),') bad',str(bw),'(',str(bt)
 #                   ,')','variations',str(vw),'(',str(vt),')\n***\n'])
     

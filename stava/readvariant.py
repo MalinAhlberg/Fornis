@@ -32,6 +32,7 @@ def mkeditMap(fil,both=False,weigth=True):
   lines = codecs.open(fil,'r','utf8').readlines()
   editMap = {}
   changeSet = {}
+  maxl = 1
   for line in lines:
     line = line.split('\t')
     org,var  = trans(line[0],line[1])
@@ -43,10 +44,13 @@ def mkeditMap(fil,both=False,weigth=True):
       if both:
         editMap.update({(y,x):(len(y),len(x),val)})
         add(y,x,val,changeSet)
+      ml = max(len(x),len(y))
+      if ml>maxl:
+        maxl = ml
         
 
     #add((val,key,d) ska ej behövas
-  return (editMap,changeSet)
+  return ((editMap,maxl),changeSet)
 
 def trans(x,y):
  if x=='_':

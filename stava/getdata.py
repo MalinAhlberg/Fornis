@@ -1,6 +1,6 @@
 # -*- coding: utf_8 -*-
 from extracttxt import *
-from cc import norm
+from cc import norm,spellchecksmall
 from xml.etree import ElementTree as etree
 from collections import Counter
 import printstats
@@ -11,9 +11,7 @@ import glob
 """ Output files, all words and their found variations are printed to
     outputWords summary data is printed to outputData """
 
-outputWords = 'testet6W' #'bibsmalltestall'
-outputData  = 'testet6D' #'bibsmalltestdata'
-outputStats = 'kast'
+outputStats = 'kast9'
 
 testfiles1 = ['../filerX/SkaL.xml','../filerX/Erik-A.xml'
             ,'../filerX/AngDikt.xml','../filerX/Laek9.xml']
@@ -21,12 +19,10 @@ testfiles = glob.glob('testfiles/*xml')
 
 """ sammanstall reads xml files and finds spelling variation of the text"""
 def sammanstall():
-    from readvariant import mkeditMap     #getvariant,
+    from readvariant import mkeditMap    
     #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
-    #files = glob.glob('../filerX/Ap*xml')+glob.glob('../filerX/Mar*Lund*xml')
-    #files = glob.glob('../filerX/Mar41*Lund*xml')
     files = testfiles #['testfiles/lilleSkaL'] #
-    hashd = readlex(oldlex2,old=True) #oldlex)#dalin
+    hashd = readlex(oldlex2,old=True)
     #edit,alpha  = mkeditMap('lex_variation.txt',both=True)
     #edit,alpha = mkeditMap('char_variant.txt')
     #edit,alpha = mkeditMap('char_varsmallest.txt',weigth=False)
@@ -51,9 +47,6 @@ def getdata(fil,hashd,alpha,edit):
     print fil
     txt    = ''.join(gettext(fil)) 
     wds    = map(lambda x: norm(x).lower(),txt.split())
-    #a = alphabet(wds)       #remove if using small spellcheck, but use _all_ words
-    wds    = wds[:150]
-    # ta 150 här för ett litet test!
     typs   = Counter(wds)
     dic = {}
 
@@ -62,17 +55,10 @@ def getdata(fil,hashd,alpha,edit):
     # tab is a list of all words in the same order as in the text, mapped to
     # their spelling variation
     tab = map(lambda w: (w,dic.get(w)),wds)
-    # calculate statistics about the success rate
-    #gw,gt,bw,bt,vw,vt = calculate(dic)
-#    res = ' '.join(['good',str(gw),'(',str(gt),') bad',str(bw),'(',str(bt)
-#                   ,')','variations',str(vw),'(',str(vt),')\n***\n'])
     
-    # print the text where each word is mapped to its variations
-    #codecs.open(outputWords,'a',encoding='utf8').write(shownice(tab))
     with codecs.open(outputStats,'a',encoding='utf8') as f:
       f.write('\n'+fil+'\n'+printstats.printstat(tab))
-   # codecs.open(outputStats,'a',encoding='utf8').write('\n'+fil+printstats.printstat(tab))
-    #return (fil,gw,gt,bw,bt,vw,vt,gw+bw+vw,gt+bt+vt)
+
 
 """ calculate extracts data of how many types and tokens that could be found
     directly in the lexicon"""
@@ -100,24 +86,4 @@ def insertnormal(d,form,lem):
 
 if __name__ == "__main__":
   sammanstall()
-################################################################################
-# Not used
-################################################################################
-
-"""reads a lexicon into a 'normal' dictionary.
-   If old is set to True, lemgram is supposed to be located inside
-   FormRepresentation, otherwise directly in Lemma """
-def readlexnormal(files,old=False):
-    d = {}
-    for fil in files:
-      s = open(fil,"r").read()
-      lexicon = etree.fromstring(s)
-      lex     = lexicon.find('Lexicon')
-      entries = lex.findall('LexicalEntry')
-      for entry in entries:
-         lem    = getLemgram(entry,old)
-         forms  = getWrittenforms(entry,old)
-         for form in forms:
-           insertnormal(d,form,lem)
-    return d
 

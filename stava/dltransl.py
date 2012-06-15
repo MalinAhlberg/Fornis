@@ -8,7 +8,8 @@ expensive insertion and deletion is, depending on the letters
 """
 
 """ calculates the distance """
-def edit_dist(s1, s2,rules=replsX):
+""" string1 , string2, dictionary of rules, maximum n-gram length """
+def edit_dist(s1, s2,rules=replsX,n=3):
     s1 = '^'+s1+'$'
     s2 = '^'+s2+'$'
     d = {}
@@ -22,28 +23,23 @@ def edit_dist(s1, s2,rules=replsX):
  
     for i in xrange(lenstr1):
         for j in xrange(lenstr2):
-            d[(i,j)] = replaceX(s1,i,s2,j,d,rules)
+            d[(i,j)] = replaceX(s1,i,s2,j,d,rules,n)
             
     res = d[lenstr1-1,lenstr2-1]
     return res
 
 """ replacements """
-def replaceX(s1,i,s2,j,d,rules):
+def replaceX(s1,i,s2,j,d,rules,n):
   def replace1(s1,s2,i,j):
-    ok = getRepl(rules,s1,s2)
     xs = []
-    for (mi,mj,p) in ok:
-      i0 = i-mi
-      j0 = j-mj
-      xs.append(d[(i0,j0)]+p)
+    for (a,b) in product((s1[-x:] for x in range(1,n+1)),(s2[-x:] for x in range(1,n+1))):
+      val = rules.get((a,b),None) 
+      if val:
+        xs.append(d[(i-val[0],j-val[1])]+val[2])
     return xs
     
   same = issame(s1[i],s2[j])
-  endi = i+1
-  endj = j+1
-  i0 = i-1
-  j0 = j-1
-  xs = replace1(s1[:endi],s2[:endj],i,j)
+  xs = replace1(s1[:i+1],s2[:j+1],i,j)
   return min(xs+[d[i-1,j-1]+same])
   
 
@@ -57,57 +53,4 @@ def issame(a,b):
   
 dub = u"bdfgjlmnprstv"; #/* dubbeltecknande konsonanter */
 vow = u"aeiouyåäöAEIOUYÅÄÖ"; #/* vokaler*/
-
-        
-
-def getRepl(rep,s1,s2):
-  ret = [] 
-  for (a,b) in product([s1[-3:],s1[-2:],s1[-1:]],[s2[-3:],s2[-2:],s2[-1:]]):
-    val = rep.get((a,b),None) 
-    if val: 
-      ret.append(val)
-  return ret
-
-
-
-################################################################################
-#NOT USED
-################################################################################
-
-#normal insert and delete
-def insertX(s1,i,s2,j,d):
-  (i0,j0,p) = insert1(s1,i,s2,j)
-  (n0,m0,q) = insert1(s2,j,s1,i)
-  best = min(d[(i0,j0)]+p 
-            ,d[(m0,n0)]+q)
-  return best
-
-def insert1(s1,i,s2,j):
-  val = 20
-  if i<0:
-    return (i-1,j-1,val)
-  a = s1[i-1]
-  b = s1[i]
-  if a==b and a in dub:
-    val -=4; 
-  if a=='c' and b=='k':
-     val -= 1
-  return (i-1,j,float(val)/20)
- #
-#
-#  s1endswith = s1.endswith
-#  s2endswith = s2.endswith
-#  for ((a,b),val) in rep.iteritems():
-#    if s1endswith(a) and s2endswith(b):
-#      if val[2]<ret[2]:
-#        ret = val # if val[2]<ret[2] else ret #min(val,ret,key=lambda (a,b,c): c)
-#    #if ischange(s1,a) and b=='':
-#    # v = val[2]
-#    # return (1,0,v)
-#  if ret!=(9,9,9):
-#    return ret
-
-def ischange(s,a):
-  return (s.endswith(a))
-
 

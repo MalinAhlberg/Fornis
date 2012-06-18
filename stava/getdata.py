@@ -11,25 +11,32 @@ import glob
 """ Output files, all words and their found variations are printed to
     outputWords summary data is printed to outputData """
 
-outputStats = 'kast9'
+outputStats = 'kast3'
 
-testfiles1 = ['../filerX/SkaL.xml','../filerX/Erik-A.xml'
-            ,'../filerX/AngDikt.xml','../filerX/Laek9.xml']
-testfiles = glob.glob('testfiles/*xml')
+
 
 """ sammanstall reads xml files and finds spelling variation of the text"""
 def sammanstall():
     from readvariant import mkeditMap    
-    #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
+   #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
     files = testfiles #['testfiles/lilleSkaL'] #
+   #files = ['testfiles/lilleSkaL'] 
+   #hashd = readlex(morflex,morf=True)
+   #hashd = readlex(smallex)
     hashd = readlex(oldlex2,old=True)
     #edit,alpha  = mkeditMap('lex_variation.txt',both=True)
     #edit,alpha = mkeditMap('char_variant.txt')
-    #edit,alpha = mkeditMap('char_varsmallest.txt',weigth=False)
+    #edit,alpha = mkeditMap('char_varsmallest.txt')
     edit,alpha = mkeditMap('trimap_var.txt',weigth=False)
     [getdata(fil,hashd,alpha,edit) for fil in files]
 #    codecs.open(outputData,'w',encoding='utf8').write(shownice(res))
     print 'printed files',outputStats
+
+
+""" Paths to testfiles """
+testfiles1 = ['../filerX/SkaL.xml','../filerX/Erik-A.xml'
+            ,'../filerX/AngDikt.xml','../filerX/Laek9.xml']
+testfiles = glob.glob('testfiles/*xml')
 
 """ Paths to lexicons """
 oldlex = (['../scripts/lexiconinfo/newer/schlyter.xml'
@@ -39,7 +46,9 @@ oldlex2 = (['../../Lexicon/schlyter.xml'
            ,'../../Lexicon/soederwall_ny/soederwall_main_NYAST.xml'
            ,'../../Lexicon/soederwall_ny/soederwall_supp_NYAST.xml'])
 
-dalin =  ['../../Lexicon/dalin.xml']
+dalin    = ['../../Lexicon/dalin.xml']
+smalllex = ['../scripts/littlelex.xml'] 
+morflex  = ['../../Lexicon/good/lmf/fsv/fsv.xml'] 
 
 """ getdata takes a xml file, a hashed lexicons and a set of allowed spelling
     variations and identifies spelling variations"""

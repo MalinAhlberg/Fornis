@@ -35,7 +35,7 @@ def shownice(xs,t='\t',n='\n'):
 """reads a lexicon into a hased anagram dictionary.
    If old is set to True, lemgram is supposed to be located inside
    FormRepresentation, otherwise directly in Lemma """
-def readlex(files,old=False):
+def readlex(files,old=False,morf=False):
     d = {}
     for fil in files:
       s = open(fil,"r").read()
@@ -44,8 +44,8 @@ def readlex(files,old=False):
       lex     = lexicon.find('Lexicon')
       entries = lex.findall('LexicalEntry')
       for entry in entries:
-         lem = getLemgram(entry,old)
-         forms  = getWrittenforms(entry,old)
+         lem = getLemgram(entry,old,morf)
+         forms  = getWrittenforms(entry,old,morf)
          for form in forms:
            insert(d,form,lem,nicefil)
     return d
@@ -53,9 +53,9 @@ def readlex(files,old=False):
 """ Returns the lemgram of an entry
     If old is set to True, lemgram is supposed to be located inside
     FormRepresentation, otherwise directly in Lemma """
-def getLemgram(entry,old=False):
+def getLemgram(entry,old=False,morf=False):
     lemma = entry.find('Lemma')
-    if old:
+    if old or morf:
       lemma  = lemma.find('FormRepresentation')
     for feat in lemma:
       value = feat.get('att')
@@ -63,10 +63,14 @@ def getLemgram(entry,old=False):
         return feat.get('val')
             
 """ Returns all writtenForms of an entry """
-def getWrittenforms(entry,old=False):
-    lemma = entry.find('Lemma')
-    container = 'FormRepresentation'
-    forms  = lemma.findall(container) 
+def getWrittenforms(entry,old=False,morf=False):
+    #lemma = entry.find('Lemma')
+    if morf:
+      container = 'WordForm'
+    else:
+      container = 'FormRepresentation'
+      entry = entry.find('Lemma')
+    forms  = entry.findall(container) 
     ws     = []
     for form in forms:
       writtens = getAtt(form,'writtenForm')
@@ -105,5 +109,7 @@ def getShortFile(fil):
      return 'SoeM'
    if re.search('supp',fil):
      return 'SoeS'
+   if re.search('fsv',fil):
+     return 'fsv'
    else:
      return '?'

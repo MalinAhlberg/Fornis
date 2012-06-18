@@ -2,7 +2,11 @@
 import re
 from dltransl import edit_dist
 from itertools import chain, combinations,islice
+from priodict import priorityDictionary
+#from math import fabs
 import sys
+import codecs
+#import heapq
 
 """Functions for calculating anagram values, finding spelling variations etc"""
 
@@ -42,8 +46,8 @@ def spellcheckword(w,d,rules,a):
 def spellchecksmall(w,d,alpha,edit):
   ccs = [(w,getchanges(w,d,alpha))]
   res,j = getvariant(ccs,edit)
-  # with codecs.open('howmanykast','a',encoding='utf8') as f:
-  #   f.write(w+' '+str(j)+'\n')
+  with codecs.open('howmany1','a',encoding='utf8') as f:
+     f.write(w+' '+str(j)+'\n')
   if res==None:
     return (False,None)
   else:
@@ -54,12 +58,11 @@ def spellchecksmall(w,d,alpha,edit):
     the ones that has an accepteble edit distance (2)
     returns a list of (word,variation,edit distance,lemgram)"""
 def getvariant(ccs,edit):
-  from math import fabs
   var = []
   j = 0
   for (w,cc) in ccs:
     for (c,lem) in dict(cc).items():
-      if fabs(len(w)-len(c))<=len(w)/2:
+#      if fabs(len(w)-len(c))<=len(w)/2:
         dist = edit_dist(w,c,rules=edit[0],n=edit[1]) if edit else edit_dist(w,c) 
         j+=1
         if dist<2:
@@ -124,19 +127,43 @@ def getchanges(w,lex,changeset):
     # substitutions only # TODO insertions and deletions? add '' for insertions?
     for tav in tavs:
       # get diff between tav and its translations
-      ch.extend((x-tav,val) for (x,val) in (changesetget(tav) or []))
-
-
+      ch.extend((x-tav,weigth) for (x,weigth) in (changesetget(tav) or []))
     ch = [a for (a,b) in sorted(set(ch),key=lambda (x,v):v)]# sort this to get good changes first
+    #ch = sorted(set(ch),key=lambda (x,weigth):weigth)# sort this to get good changes first
     # as we may get more than 2^31 combination, we only look at the 1000 first
     # variants. this has also proved to give as good results as trying all combinations
     lexget = lex.get
-    for c in islice(powerset(ch),0,100000):
+    #i = 0
+    # TODO this (w>2.5) was no good.. maybe stop we actually find some (3) with edit dist?
+    #for (c,w) in islice(dijkstrafind(ch),0,1000):#,islice(0,1000): #powerset(ch),0,1000):
+    for c in islice(powerset(ch),0,1000):#,islice(0,1000): #powerset(ch),0,1000):
       ok = lexget(av+sum(c))
+#      ok = lexget(av+c)
       if ok:
         addAll(ok,ccs)
+        #print ok
+      #if w>2.5: break
+    #  i +=1
+    #print i
     return ccs
 
+def dijkstrafind(lst):
+  yield (0,0) # no changes
+  p       = priorityDictionary()
+  l       = len(lst)
+  reflist = dict((ref,(w,v,range(ref+1,l))) for (ref,(v,w)) in enumerate(lst))
+  [setprio(p,i,x) for (i,x) in reflist.items()]
+  for x in p:
+    (w,v,ns) = p[x]
+    #print w,v
+    yield (v,w)
+    #if w<2:
+    for n in ns:
+        l += 1
+        p[l] = (reflist[n][0]+w,reflist[n][1]+v,reflist[n][2])
+
+def setprio(p,i,x):
+  p[i] = x 
 
 def powerset(iterable):
     "powerset([1,2,3]) --> () (1,) (2,) (3,) (1,2) (1,3) (2,3) (1,2,3)"
@@ -159,4 +186,6 @@ def getccs((w,av),lex,alphabet,ccs=[]):
     # insertions
     [addAll(lex.get(av-tav),ccs) for tav in tavs]
     return ccs 
- 
+
+
+

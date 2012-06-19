@@ -2,7 +2,8 @@
 import re
 from dltransl import edit_dist
 from itertools import chain, combinations,islice
-from priodict import priorityDictionary
+#from priodict import priorityDictionary
+from Queue import PriorityQueue         
 #from math import fabs
 import sys
 import codecs
@@ -118,6 +119,7 @@ def addAll(res,ccs):
     but maximum 1000 variations are considered.
     getchanges(word,lexicon of anagram values,rules)"""
 def getchanges(w,lex,changeset): 
+    print 'word',w
     ccs = []
     (u,b,t) = gettav(w,keep=True)
     av   = sum(u)
@@ -128,39 +130,61 @@ def getchanges(w,lex,changeset):
     for tav in tavs:
       # get diff between tav and its translations
       ch.extend((x-tav,weigth) for (x,weigth) in (changesetget(tav) or []))
-    ch = [a for (a,b) in sorted(set(ch),key=lambda (x,v):v)]# sort this to get good changes first
-    #ch = sorted(set(ch),key=lambda (x,weigth):weigth)# sort this to get good changes first
+    lexget = lex.get
+
     # as we may get more than 2^31 combination, we only look at the 1000 first
     # variants. this has also proved to give as good results as trying all combinations
-    lexget = lex.get
-    #i = 0
-    # TODO this (w>2.5) was no good.. maybe stop we actually find some (3) with edit dist?
-    #for (c,w) in islice(dijkstrafind(ch),0,1000):#,islice(0,1000): #powerset(ch),0,1000):
-    for c in islice(powerset(ch),0,1000):#,islice(0,1000): #powerset(ch),0,1000):
-      ok = lexget(av+sum(c))
-#      ok = lexget(av+c)
-      if ok:
+
+    ch = [a for (a,b) in sorted(set(ch),key=lambda (x,v):v)]# sort this to get good changes first
+    def countpowerfind(ch):
+      tested = []
+      for c in islice(powerset(ch),0,1000000): #need a limit here, otherwise will get stuck (gräßhoppor)
+        sumc = sum(c)
+        ok = lexget(av+sumc)
+        if ok and not sumc in tested:
+          #print 'succes for',sumc,'got',ok
+          yield ok
+          tested.append(sumc)
+          addAll(ok,ccs)
+
+    for ok in islice(countpowerfind(ch),0,100): # only need to send 100 to edit distance
         addAll(ok,ccs)
-        #print ok
-      #if w>2.5: break
-    #  i +=1
-    #print i
     return ccs
+
+################################################################################
+#    Dijkstra mode
+#    def countdijkstrafind(ch):
+#    #  tested = []
+#      for (c,w) in dijkstrafind(ch):#,islice(0,1000): #powerset(ch),0,1000):
+#        ok = lexget(av+c)
+#          #print 'will add',c
+#        if ok: # and not c in tested:
+#          print 'succes for',c,'got',ok
+#          #tested.append(c)
+#          yield ok
+#
+#    for ok in islice(countdijkstrafind(ch),0,10):#,islice(0,1000): #powerset(ch),0,1000):
+#        addAll(ok,ccs)
+################################################################################
+
 
 def dijkstrafind(lst):
   yield (0,0) # no changes
-  p       = priorityDictionary()
+  p       = PriorityQueue()
   l       = len(lst)
   reflist = dict((ref,(w,v,range(ref+1,l))) for (ref,(v,w)) in enumerate(lst))
-  [setprio(p,i,x) for (i,x) in reflist.items()]
-  for x in p:
-    (w,v,ns) = p[x]
+  #[setprio(p,i,x) for (i,x) in reflist.items()]
+  [p.put(x) for (i,x) in reflist.items()]
+  #for (w,v,ns) in p:
+  while not p.empty():
+    #(w,v,ns) = p[x]
     #print w,v
+    (w,v,ns) = p.get()
     yield (v,w)
-    #if w<2:
-    for n in ns:
-        l += 1
-        p[l] = (reflist[n][0]+w,reflist[n][1]+v,reflist[n][2])
+    if w<2:
+      for n in ns:
+          #l += 1
+          p.put((reflist[n][0]+w,reflist[n][1]+v,reflist[n][2]))
 
 def setprio(p,i,x):
   p[i] = x 

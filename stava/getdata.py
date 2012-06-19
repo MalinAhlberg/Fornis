@@ -20,14 +20,15 @@ def sammanstall():
     from readvariant import mkeditMap    
    #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
     files = testfiles #['testfiles/lilleSkaL'] #
-   #files = ['testfiles/lilleSkaL'] 
+    #files = ['testfiles/lilleSkaL'] 
    #hashd = readlex(morflex,morf=True)
    #hashd = readlex(smallex)
     hashd = readlex(oldlex2,old=True)
     #edit,alpha  = mkeditMap('lex_variation.txt',both=True)
     #edit,alpha = mkeditMap('char_variant.txt')
     #edit,alpha = mkeditMap('char_varsmallest.txt')
-    edit,alpha = mkeditMap('trimap_var.txt',weigth=False)
+    #edit,alpha = mkeditMap('trimap_var.txt',weigth=False)
+    edit,alpha = mkeditMap('trimap_small.txt',weigth=False)
     [getdata(fil,hashd,alpha,edit) for fil in files]
 #    codecs.open(outputData,'w',encoding='utf8').write(shownice(res))
     print 'printed files',outputStats

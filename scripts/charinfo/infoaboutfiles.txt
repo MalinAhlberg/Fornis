@@ -1,0 +1,113 @@
+Argus
+Har två utgåvor, blandat.
+Har >...>. Det som står inuti klamrarna är variantioner som inte är med i Litteratur-
+bankens version. Text inom {} är ej heller med, men det som står inom [] är med.
+Det finns stora bokstäver (C) på slutet av vissa ord, varför? Från olika utgåvor?
+Borde inte vara med iaf. Både C och D verkar stämma mot litteraturbanken. 
+Bör också kollas om sidonumrena alltid har # (inte 68)
+Finns också ensamma > 
+På vissa ställen är < kolon i LB.
+Således hafwer Eders Kongl. May<tz Lag styrkt (FT)
+Således hafwer Eders Kongl. May:tz Lag styrkt (LB)
+Vad detta betyder vet man ej
+'[til tillC>--- C? ]' (i Lbanken: 'til ---')
+Också kluriga frågetecken med;
+[GrodaC? ] ej heller med i LB
+Innehåller även », också i tryckt version (LB)
+
+Regler:
+Ta bort >...>, om det är max ca 5 ord emellan, annars varna?
+Kolla efter ensamma siffror, varna
+Ta bort {...}
+Ta bort hakparanteser, men ha kvar det som står inuti
+Ta bort ABCD i slutet på ord (och frågetecken?)
+
+Ordspråk:
+<..> runt typ radnummer. Bör lyftas ut
+
+Petri*:
+<..> runt ord från andra handskrifter.
+
+Stålhammar: Stalham
+har [..] för annan version. Även < i slutet av klamrarna, varför?
+har ¤ för hjärta:
+k. ¤:ta; min ¤:tanss aldrakieraste lilla kierastess
+
+Videm:
+<..> runt typ sidonummer (styckesnummer)
+
+Högström:
+använder = instället för -
+
+Swart:
+Har · efter/före parantes, visas som 'á' i html-versionen.
+(·medh otalige Konungar och Förstar·)
+
+LegBu + LegBil:
+Har · på två (ett) ställen, antagligen punkt
+LegBil behöver översätta fl, till ß? eller thorn?
+Har ˚(uni), betyder kanske û (windows)
+'stool sancti petri ccc˚ lxxx' 
+
+SVM-C:
+har :· som punkt.
+
+EmAnna:
+ı på detta ställe:
+psaltareıl
+psaltareõl (i html version)
+
+Yvgl: (antagligen samma för alla som har fl-bokstav!)
+˛ är þ
+ﬂ är ß
+∂ är (nog inte menat som) ¶
+
+Dessutom har den en info-rad:
+1 g. h. o. v. s. står för ”gud hollan. oc vattnum sinum.”
+ej med i texten, men xmlen!
+
+MEL:
+‚ är â (??)
+ﬁ är ß (thorn?)
+samma grej som Yvgl, fler konstiga tecken blir bra med Western Windows-1252
+men måste alltså koda om för de har helt fel...:(
+
+MP5:
+mycket konstigt. antagligen felkodad
+„ är ã (??)
+
+Alexius:
+… vid variation som inte utskrivits helt (dumt!)
+{miskun…} [miskunne 
+
+AnnaVasa
+… vid bortfall?
+iag har -….- [m]ed förnwmedh wten ded i äre meg medh
+
+AVgL: felkodad
+› är Ý (??)
+
+Runius:
+skum, har Ç ï ∂ ∫ men kanske ok
+
+Antagligen fel: Obs ß är nog egentligen thorn
+['AVgL.xml', 'Birg-no.xml', 'GL.xml', 'HL.xml', 'LegBu.xml', 'MEL.xml',
+'OgL-C.xml', 'SdmL-A.xml', 'SkaL.xml', 'UL-A.xml', 'UL-B.xml', 'Vidhem.xml',
+'VmL.xml', 'YVgL-add.xml', 'Yvgl.xml' 'ApG-A.xml', 'Birg-aut.xml', 'BjR.xml',
+'DL.xml',  'HML.xml', 'LegBil.xml', 'Lydekin.xml', 'OgL-D.xml', 'OgL-E.xml',
+'OgL-M.xml', 'OgL-N.xml', 'SdmL-Add.xml', 'SdmL-conf.xml',  'UL-Add.xml',]
+
+Generellt:
+Ha kvar det andra inuti xml-taggar? Så att man kan välja att ta bort det
+vid import? Graf som i 
+http://uniroma3.academia.edu/DomenicoFiormonte/Papers/135220/Multi-Version_Documents_a_Digitisation_Solution_for_Textual_Cultural_Heritage_Artefacts
+?
+Eller bara taggar med info om vilken version? Vilket är bäst för Korp?
+Och importen?
+
+Tex:
+all text är i element, har tag: variant="abc.." Om tom= alla.  
+Konfa importen för detta. Alternativt, gör ett skript/en modul(!fancy!) som rensar
+ut rätt text.
+
+Hur processa en varianttext? Köra alla varianter var för sig och sedan visa alla?

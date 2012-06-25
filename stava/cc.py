@@ -2,7 +2,6 @@
 import re
 from dltransl import edit_dist
 from itertools import chain, combinations,islice
-#from priodict import priorityDictionary
 from Queue import PriorityQueue         
 #from math import fabs
 import sys

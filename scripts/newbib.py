@@ -1,5 +1,7 @@
 # -*- coding: utf_8 -*-
 import re
+import codecs
+from xml.etree import ElementTree as etree
 
 def carl(fil):
     lines = open(fil,'r').readlines() 
@@ -18,39 +20,44 @@ def carl(fil):
            txt += re.sub(tag,mkTag('section',b.group()),line)
     open('ut.xml','w').write(txt)
 
+# why does utf-8 take so much more time?
 def gt(fil):
-    lines = open(fil,'r').readlines() 
+    lines = codecs.open(fil,'r').readlines() 
 #    tag   = "(?:\d{1,3}\.*)*\s*[A-Z]\w{1,3}.\s\d{1,3}:.*"                 #gt
-    tag = "(?:\d{1,3}\.*)*\s*((?:Ep|Ev|Högm)(\.))*\s*[A-Z]\w{1,3}.\s*\d{1,3}:.*"   #nt
 #    tag = "(?:\d{1,3}\.*)*\s*(upp\.|uPp\.)\s*\d{1,3}:.*"   #nt2
-    chap  = "\s*(\d*)\s*Kapitlet"
     txt   = ""
     for (n,line) in enumerate(lines):
-      #line = line.decode().encode('utf-8')
+      chap  = "\s*(\d*)\s*Kapitlet"
+      line = re.sub('<poem.>','',line)  # ta bort poem
       if re.match(chap,line):
-         x = newChap(re.findall(chap,line)[0],n)
-         txt += x
-      else:
-        c = re.search(tag,line)
-        if c!=None:
-          elem = mkTag('info',c.group()) 
-          (st,end) = c.span()
-          txt += line[:st]+elem+'\n'
-        else: 
-          txt += line
-    #print txt
-    open('utnt.xml','w').write(txt)
+        x = newChap(re.findall(chap,line)[0],n)
+        txt += x
+      txt += extractdata((n,line))
+    codecs.open('utnt3.xml','w').write(txt)
 
-#
-#
-#    xs    = []
-#    for (n,line) in enumerate(lines):
-#        c = re.findall(tag,line)
-#        if c!=[]:
-#           xs += [str(n)+'\t'+'  '.join(c)]
-#    open('whatsingt','w').write('\n'.join(xs))
+def extractdata((n,line)):
+  print 'line',n
+  def insertdata(match,elem,attr):
+    if match!=None:
+      print match.group(),line,match.span()
+      elem = mkTag(elem,attr,match.group()) 
+      (st,end) = match.span()
+      print 'now have',line[:st]+elem+line[end:]+'\n'
+      return line[:st]+elem+line[end:]+'\n'
+
+  tag = u"(?:\d{1,3}\.*)*\s*((?:Ep|Ev|Högm)(\.))*\s*[A-Z][\wåäöæøÞß]{1,3}.\s*\d{1,3}:.*"   #nt
+  added = insertdata(re.search(tag,line,re.U),'info','name')
+  print line,added
+  if not added:
+    num = "\d+"
+    # use match since the number should be in beginning of line
+    added = insertdata(re.match(num,line),'part','name')
+  return added or line
 
 
+#tagtest = u"(?:\d{1,3}\.*)*\s*((?:Ep|Ev|Högm)(\.))*\s*[A-Z][\wåäöæøÞß]{1,3}.\s*\d{1,3}:.*"   #nt
+#tagtest1 = u"[A-Z][\wåäöæøÞß]{1,3}.\s*\d{1,3}:.*"   #nt
+#bokstaver = '[\wåäöæøÞß]'
 
 
 def newChap(chap,n):
@@ -60,9 +67,13 @@ def newChap(chap,n):
     else:
        return '</chapter>\n'+begin
 
-def mkTag(name,txt):
-    return '<'+name+' name="'+re.sub('"','',txt)+'"/>'
+def mkTag(name,attr,txt):
+    return '<'+name+' '+attr+'="'+re.sub('"','',txt)+'"/>'
     
            
+#gt('../nyabiblar/1917_bibeln-efs1927-gt.txt')
+gt('kast')
 
-gt('../nyabiblar/1917_bibeln-efs1927-nt.txt')
+def test(fil):
+    xmls = codecs.open(fil,'r').read()
+    tree = etree.fromstring(xmls)

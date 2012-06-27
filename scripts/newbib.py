@@ -71,8 +71,36 @@ def mkTag(name,attr,txt):
     return '<'+name+' '+attr+'="'+re.sub('"','',txt)+'"/>'
     
            
+def fixparts(fil):
+    xmls = codecs.open(fil,'r').read()
+    tree = etree.fromstring(xmls)
+    chaps = tree.find('body').findall('chapter')
+    lastp = ''
+    for ch in chaps:
+      x = ch.text # get only text before next elem?
+      if x:
+        ch.text = ''
+        p0 = ch.makeelement(u'part',{u'name':''})
+        ch.insert(0,p0)
+        p0.text = x
+        lastp = p0
+      for p in list(ch): #ch.findall('part'):
+        if p.tag=='part':
+          tail = p.tail
+          if tail:
+            p.tail = '' 
+            p.text = tail
+          lastp = p
+        else:
+          lastp.append(p)
+          ch.remove(p)
+          
+        #print p.attrib,p.text,p.tail
+    codecs.open('kast.xml','w').write(etree.tostring(tree,encoding='utf8'))
+
+    
+
 #gt('../nyabiblar/1917_bibeln-efs1927-gt.txt')
-gt('kast')
 
 def test(fil):
     xmls = codecs.open(fil,'r').read()

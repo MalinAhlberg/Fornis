@@ -52,26 +52,28 @@ def changeindex(fil):
 
 
 """ moves the gram and lemgram entries out of FormRepresentation"""
-def move(fil):
+def move(fil,outToLemma=True,out='testL3.xml'):
     entries,lex = readIt(fil) 
-    moving = ['gram','lemgram']
+    moving = ['gram','lemgram','partOfSpeech','information']
     for entry in entries:
       for moveobject in moving:
         form = getFormRepresentation(entry)
         if form is None:
           report(u'no formrep',getLem(entry))
         else:
-          refs = getAttRef(form,moveobject)
+          lemma = entry.find('Lemma')
+          refs = getAttRef(form,moveobject) if outToLemma else getAttRef(lemma,moveobject)
           if refs!=[]:
-            lems = getAtt(form,moveobject)
-            lemma = entry.find('Lemma')
+            lems = getAtt(form,moveobject) if outToLemma else getAtt(lemma,moveobject)
             for lem,_ in lems:
-              lemma.insert(0,refs[0].makeelement(u'feat',{u'att':moveobject
+              insertE = lemma if outToLemma else form
+              insertE.insert(0,refs[0].makeelement(u'feat',{u'att':moveobject
                                                          , u'val':lem}))
             for ref in refs:
-              form.remove(ref)
+              removeE =  form if outToLemma else lemma
+              removeE.remove(ref)
     indent(lex)
-    codecs.open('testL3.xml','w').write(etree.tostring(lex))
+    codecs.open(out,'w').write(etree.tostring(lex))
       
 """ checks the gram-entry
     add pos-tags with the information found

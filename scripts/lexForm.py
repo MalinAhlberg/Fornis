@@ -52,9 +52,9 @@ def changeindex(fil):
 
 
 """ moves the gram and lemgram entries out of FormRepresentation"""
-def move(fil,outToLemma=True,out='testL3.xml'):
+def move(fil,outToLemma=True,out='testL3.xml',putFirst=True):
     entries,lex = readIt(fil) 
-    moving = ['gram','lemgram','partOfSpeech','information']
+    moving = ['gram','lemgram','partOfSpeech','information','oldlemma']
     for entry in entries:
       for moveobject in moving:
         form = getFormRepresentation(entry)
@@ -67,8 +67,13 @@ def move(fil,outToLemma=True,out='testL3.xml'):
             lems = getAtt(form,moveobject) if outToLemma else getAtt(lemma,moveobject)
             for lem,_ in lems:
               insertE = lemma if outToLemma else form
-              insertE.insert(0,refs[0].makeelement(u'feat',{u'att':moveobject
-                                                         , u'val':lem}))
+              if putFirst:
+                insertE.insert(0,refs[0].makeelement(u'feat',{u'att':moveobject
+                                                            , u'val':lem}))
+              else:                                                            
+                insertE.append(refs[0].makeelement(u'feat',{u'att':moveobject
+                                                            , u'val':lem}))
+
             for ref in refs:
               removeE =  form if outToLemma else lemma
               removeE.remove(ref)

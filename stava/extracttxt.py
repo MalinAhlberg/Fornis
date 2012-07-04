@@ -34,7 +34,8 @@ def shownice(xs,t='\t',n='\n'):
 # Functions for reading an xml lexicon
 """reads a lexicon into a hased anagram dictionary.
    If old is set to True, lemgram is supposed to be located inside
-   FormRepresentation, otherwise directly in Lemma """
+   FormRepresentation, otherwise directly in Lemma
+   morf indicates if the lexicon is a morfology file.. savest not to use"""
 def readlex(files,old=False,morf=False):
     d = {}
     for fil in files:

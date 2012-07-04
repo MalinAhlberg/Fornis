@@ -45,7 +45,7 @@ def spellcheckword(w,d,rules,a):
 """
 def spellchecksmall(w,d,alpha,edit):
   ccs = [(w,getchanges(w,d,alpha))]
-  res,j = getvariant(ccs,edit)
+  res,j = getvariant(ccs,edit,distance=2)
   with codecs.open('howmany1','a',encoding='utf8') as f:
      f.write(w+' '+str(j)+'\n')
   if res==None:
@@ -57,7 +57,7 @@ def spellchecksmall(w,d,alpha,edit):
 """ Examines a set of words and their variations and picks
     the ones that has an accepteble edit distance (2)
     returns a list of (word,variation,edit distance,lemgram)"""
-def getvariant(ccs,edit):
+def getvariant(ccs,edit,distance=2):
   var = []
   j = 0
   for (w,cc) in ccs:
@@ -65,7 +65,7 @@ def getvariant(ccs,edit):
 #      if fabs(len(w)-len(c))<=len(w)/2:
         dist = edit_dist(w,c,rules=edit[0],n=edit[1]) if edit else edit_dist(w,c) 
         j+=1
-        if dist<2:
+        if dist<distance:
           var.append((w,c,dist,lem))
   var.sort(key=lambda (w,c,dist,lem): dist)
   return (var,j)

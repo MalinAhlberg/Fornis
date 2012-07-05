@@ -2,11 +2,12 @@
 import re
 from dltransl import edit_dist
 from itertools import chain, combinations,islice
-from Queue import PriorityQueue         
+#from Queue import PriorityQueue         
 #from math import fabs
 import sys
 import codecs
-#import heapq
+from pycons import pylist_to_conslist,suffix_conslist
+import heapq
 
 """Functions for calculating anagram values, finding spelling variations etc"""
 
@@ -44,7 +45,7 @@ def spellcheckword(w,d,rules,a):
  returns (False,None) if nothing interesting is found
 """
 def spellchecksmall(w,d,alpha,edit):
-  ccs = [(w,getchanges(w,d,alpha))]
+  ccs = [(w,getchanges(w,d,alpha,edit))]
   res,j = getvariant(ccs,edit,distance=2)
   with codecs.open('howmany1','a',encoding='utf8') as f:
      f.write(w+' '+str(j)+'\n')
@@ -60,6 +61,7 @@ def spellchecksmall(w,d,alpha,edit):
 def getvariant(ccs,edit,distance=2):
   var = []
   j = 0
+  print 'ccs is',ccs
   for (w,cc) in ccs:
     for (c,lem) in dict(cc).items():
 #      if fabs(len(w)-len(c))<=len(w)/2:
@@ -117,10 +119,10 @@ def addAll(res,ccs):
 """ finds variations based on rules. any number of substitutions is allowed,
     but maximum 1000 variations are considered.
     getchanges(word,lexicon of anagram values,rules)"""
-def getchanges(w,lex,changeset): 
-    print 'word',w
+def getchanges(word,lex,changeset,edit): 
+    print 'word',word
     ccs = []
-    (u,b,t) = gettav(w,keep=True)
+    (u,b,t) = gettav(word,keep=True)
     av   = sum(u)
     tavs = u+b+t
     ch   = []
@@ -130,61 +132,79 @@ def getchanges(w,lex,changeset):
       # get diff between tav and its translations
       ch.extend((x-tav,weigth) for (x,weigth) in (changesetget(tav) or []))
     lexget = lex.get
+#    Dijkstra mode
+    def countdijkstrafind(ch):
+    #  tested = []
+      for (hash_w,w) in dijkstrafind(pylist_to_conslist(ch),av,len(word)):
+        ok = lexget(hash_w)
+    #    print 'will add',ok,hash_w,w
+        if ok: # and not c in tested:
+         for (variantword,info) in ok.iteritems(): # if x not in ccs:
+           dist = edit_dist(word,variantword,rules=edit[0],n=edit[1]) 
+           print 'word',word,variantword,'dist',dist,w
+           #tested.append(c)
+           if dist<=w+0.0001:
+             yield (variantword,info)
+      yield ('',[])
 
-    # as we may get more than 2^31 combination, we only look at the 1000 first
-    # variants. this has also proved to give as good results as trying all combinations
-
-    ch = [a for (a,b) in sorted(set(ch),key=lambda (x,v):v)]# sort this to get good changes first
-    def countpowerfind(ch):
-      tested = []
-      for c in islice(powerset(ch),0,1000000): #need a limit here, otherwise will get stuck (gräßhoppor)
-        sumc = sum(c)
-        ok = lexget(av+sumc)
-        if ok and not sumc in tested:
-          #print 'succes for',sumc,'got',ok
-          yield ok
-          tested.append(sumc)
-          addAll(ok,ccs)
-
-    for ok in islice(countpowerfind(ch),0,100): # only need to send 100 to edit distance
-        addAll(ok,ccs)
+    print 'lexicon',sys.getsizeof(lex)
+    print 'edit',sys.getsizeof(edit)
+    print 'ch',sys.getsizeof(ch)
+    x = next(countdijkstrafind(ch))
+    print x
+    print 'rules',sorted(ch)
+    ccs.append(x)
+      
     return ccs
 
-################################################################################
-#    Dijkstra mode
-#    def countdijkstrafind(ch):
-#    #  tested = []
-#      for (c,w) in dijkstrafind(ch):#,islice(0,1000): #powerset(ch),0,1000):
-#        ok = lexget(av+c)
-#          #print 'will add',c
-#        if ok: # and not c in tested:
-#          print 'succes for',c,'got',ok
-#          #tested.append(c)
-#          yield ok
+def dijkstrafind(rules,originalhash,wlen):
+  pq = []
+  lheappop  = heapq.heappop
+  lheappush = heapq.heappush
+  lheappush(pq,(0,rules,originalhash))
+
+  while pq:
+    (w,r,h) = lheappop(pq)
+    last = -1
+    #print sys.getsizeof(pq)
+    yield (h,w)
+    if w>3: break
+    #print 'next\n'
+    for suffix in suffix_conslist(r):
+      (d_hash,w_rule) = suffix[0]
+      if d_hash!=last:
+        #print 'add suffixes',suffix[1]
+        last = d_hash
+        lheappush(pq,(w+w_rule,suffix[1],h+d_hash))
+
+
+
+
+
+
+
+
+
 #
-#    for ok in islice(countdijkstrafind(ch),0,10):#,islice(0,1000): #powerset(ch),0,1000):
-#        addAll(ok,ccs)
-################################################################################
-
-
-def dijkstrafind(lst):
-  yield (0,0) # no changes
-  p       = PriorityQueue()
-  l       = len(lst)
-  reflist = dict((ref,(w,v,range(ref+1,l))) for (ref,(v,w)) in enumerate(lst))
-  #[setprio(p,i,x) for (i,x) in reflist.items()]
-  [p.put(x) for (i,x) in reflist.items()]
-  #for (w,v,ns) in p:
-  while not p.empty():
-    #(w,v,ns) = p[x]
-    #print w,v
-    (w,v,ns) = p.get()
-    yield (v,w)
-    if w<2:
-      for n in ns:
-          #l += 1
-          p.put((reflist[n][0]+w,reflist[n][1]+v,reflist[n][2]))
-
+#
+#def dijkstrafind(rules):
+#  yield (0,0) # no changes (värde,vikt)
+#  p       = PriorityQueue()
+#  l       = len(rules)
+#  reflist = dict((ref,(w,v,range(ref+1,l))) for (ref,(v,w)) in enumerate(lst))
+#  #[setprio(p,i,x) for (i,x) in reflist.items()]
+#  [p.put(x) for (i,x) in reflist.items()]
+#  #for (w,v,ns) in p:
+#  while not p.empty():
+#    #(w,v,ns) = p[x]
+#    #print w,v
+#    (w,v,ns) = p.get()
+#    yield (v,w)
+#    if w<2:
+#      for n in ns:
+#          #l += 1
+#          p.put((reflist[n][0]+w,reflist[n][1]+v,reflist[n][2]))
+#
 def setprio(p,i,x):
   p[i] = x 
 
@@ -211,4 +231,28 @@ def getccs((w,av),lex,alphabet,ccs=[]):
     return ccs 
 
 
+# ska vara i getchanges
+    # as we may get more than 2^31 combination, we only look at the 1000 first
+    # variants. this has also proved to give as good results as trying all combinations
+
+################################################################################
+#    Power mode
+ #   ch = [a for (a,b) in sorted(set(ch),key=lambda (x,v):v)]# sort this to get good changes first
+ #   def countpowerfind(ch):
+ #     tested = []
+ #     for c in islice(powerset(ch),0,1000000): #need a limit here, otherwise will get stuck (gräßhoppor)
+ #       sumc = sum(c)
+ #       ok = lexget(av+sumc)
+ #       if ok and not sumc in tested:
+ #         #print 'success for',sumc,'got',ok
+ #         yield ok
+ #         tested.append(sumc)
+ #         addAll(ok,ccs)
+ #
+ #   for ok in islice(countpowerfind(ch),0,100): # only need to send 100 to edit distance
+ #       addAll(ok,ccs)
+ #   return ccs
+################################################################################
+
+################################################################################
 

@@ -11,7 +11,7 @@ import glob
 """ Output files, all words and their found variations are printed to
     outputWords summary data is printed to outputData """
 
-outputStats = 'kast3'
+outputStats = 'kast4'
 
 
 
@@ -19,8 +19,8 @@ outputStats = 'kast3'
 def sammanstall():
     from readvariant import mkeditMap    
    #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
-    files = testfiles #['testfiles/lilleSkaL'] #
-    #files = ['testfiles/lilleSkaL'] 
+    files = ['testa.xml'] #
+    #files = testfiles ['testfiles/lilleSkaL'] 
    #hashd = readlex(morflex,morf=True)
    #hashd = readlex(smallex)
     hashd = readlex(oldlex2,old=True)

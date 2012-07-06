@@ -54,9 +54,9 @@ def mkeditMap(fil,both=False,weigth=True):
 
 def trans(x,y):
  if x=='_':
-   return (['^','$'],['^'+y,y+'$'])
+   return ([u'^',u'$'],[u'^'+y,y+u'$'])
  if y=='_':
-   return (['^'+x,x+'$'],['^','$'])
+   return ([u'^'+x,x+u'$'],[u'^',u'$'])
  return ([x],[y])
 
 #def trans(x):

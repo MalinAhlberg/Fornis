@@ -147,9 +147,9 @@ def getchanges(word,lex,changeset,edit):
              yield (variantword,info)
       yield ('',[])
 
-    print 'lexicon',sys.getsizeof(lex)
-    print 'edit',sys.getsizeof(edit)
-    print 'ch',sys.getsizeof(ch)
+#    print 'lexicon',sys.getsizeof(lex)
+#    print 'edit',sys.getsizeof(edit)
+#    print 'ch',sys.getsizeof(ch)
     x = next(countdijkstrafind(ch))
     print x
     print 'rules',sorted(ch)

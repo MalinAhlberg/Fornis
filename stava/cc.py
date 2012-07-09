@@ -1,4 +1,5 @@
-# -*- coding: utf_8 -*-
+# -*- coding: utf-8 -*-
+import gc
 import re
 from dltransl import edit_dist
 from itertools import chain, combinations,islice
@@ -46,7 +47,7 @@ def spellcheckword(w,d,rules,a):
 """
 def spellchecksmall(w,d,alpha,edit):
   ccs = [(w,getchanges(w,d,alpha,edit))]
-  res,j = getvariant(ccs,edit,distance=2)
+  res,j = getvariant(ccs,edit,distance=2000000)
   with codecs.open('howmany1','a',encoding='utf8') as f:
      f.write(w+' '+str(j)+'\n')
   if res==None:
@@ -100,18 +101,46 @@ def alphabet(wds):
       map(lambda x: a.add(x),u+b+t)
     return a
 
+bit0   = 0
+bit1   = 1
 """ gets the av:s for a word. if keep is set to True, the beginning and end
     of the word is marked by ^ vs $. Otherwise _ are added, to avoid that
-    the first and the last letter is unbenefitted """
+    the first and the last letter is unbenefitted
+    word => [(av,letters involved)]"""
 def gettav(w,keep=False):
-    sw = '^'+w+'$' if keep else '_'+w+'_'
-    unis = [iso(w[i]) for i in range(len(w))]
-    bis = [iso(sw[i])+iso(sw[i+1]) for i in range(len(w)+1)]
-    tris = []
-    if len(w)>5:
-      tris =  [iso(sw[i])+iso(sw[i+1])+iso(sw[i+2]) for i in range(len(w))]
+    sw   = '^'+w+'$' if keep else '_'+w+'_'
+    unis = [(iso(c),bit1<<i) for (i,c) in enumerate(sw)]
+    bis  = [(iso(wi)+iso(wj),bit1<<i | bit1<<i+1) for (i,(wi,wj)) in enumerate(zip(sw[:-1],sw[1:]))]
+    tris = [(iso(wi)+iso(wj)+iso(wk),bit1<<i | bit1<<i+1 |  bit1<<i+2) 
+                      for (i,(wi,wj,wk)) in enumerate(zip(sw[:-2],sw[1:-1],sw[2:]))]
+
     return unis,bis,tris
    
+def getav(w):
+  return sum([iso(c) for c in w])
+
+"""
+[(d_hash1,w_rule1,involvedletters1),(d_hash2,w_rule2,involvedletters2),...]
+=>
+[(d_hash1,w_rule1,involvedletters1,d_hash1,w_rule1,0),(d_hash2,w_rule2,involvedletters2,d_hash2-d_hash1,w_rule2-w_rule1,involvedletters1),...]
+"""
+def deltaize(rules):
+  ret = []
+
+  rule0  = (0,0,0) 
+  for rule in rules:
+    if not rule == rule0:
+      ret.append( (rule[0], rule[1],rule[2],rule[0]-rule0[0], rule[1] - rule0[1],rule0[2]) )
+      drule0 = (rule[0]-rule0[0], rule[1] - rule0[1])
+      rule0 = rule      
+
+
+    else:
+      ret.append( (rule[0], rule[1], rule[2],drule0[0], drule0[1],bit0 )) # a xor 0 = a , så att använda bokstäver behålls vid likadant syskon
+
+
+  return ret
+
 """ adds the result, if any, to ccs"""
 def addAll(res,ccs):
     ccs.extend(x for x in res.iteritems() if x not in ccs)
@@ -121,90 +150,124 @@ def addAll(res,ccs):
     getchanges(word,lexicon of anagram values,rules)"""
 def getchanges(word,lex,changeset,edit): 
     print 'word',word
+#    for bla in changeset.iteritems():
+
     ccs = []
-    (u,b,t) = gettav(word,keep=True)
-    av   = sum(u)
+    u,b,t = gettav(word,keep=True)
+#    print (u,b,t)
+    av   = getav(word) 
     tavs = u+b+t
     ch   = []
     changesetget = changeset.get
     # substitutions only # TODO insertions and deletions? add '' for insertions?
-    for tav in tavs:
+    for (tav,involvedletters) in tavs:
       # get diff between tav and its translations
-      ch.extend((x-tav,weigth) for (x,weigth) in (changesetget(tav) or []))
+      ch.extend((x-tav,weigth,involvedletters) for (x,weigth) in changesetget(tav,[]))
+
+#    ch.append((19254145824, 439587))
+
+    ch = deltaize(sorted(ch,key=lambda x: (x[1],x[0])))
+ 
     lexget = lex.get
 #    Dijkstra mode
     def countdijkstrafind(ch):
     #  tested = []
+      edit_dist_cache = dict([])
+      edit_dist_cachesetdefault = edit_dist_cache.setdefault
       for (hash_w,w) in dijkstrafind(pylist_to_conslist(ch),av,len(word)):
         ok = lexget(hash_w)
     #    print 'will add',ok,hash_w,w
         if ok: # and not c in tested:
          for (variantword,info) in ok.iteritems(): # if x not in ccs:
-           dist = edit_dist(word,variantword,rules=edit[0],n=edit[1]) 
+           dist = edit_dist_cachesetdefault((word,variantword),edit_dist(word,variantword,rules=edit[0],n=edit[1]))
            print 'word',word,variantword,'dist',dist,w
            #tested.append(c)
-           if dist<=w+0.0001:
+           if dist<=w+10:
              yield (variantword,info)
       yield ('',[])
 
 #    print 'lexicon',sys.getsizeof(lex)
 #    print 'edit',sys.getsizeof(edit)
 #    print 'ch',sys.getsizeof(ch)
-    x = next(countdijkstrafind(ch))
-    print x
-    print 'rules',sorted(ch)
-    ccs.append(x)
+    for x in countdijkstrafind(ch):
+      if x not in ccs:
+        print x
+        ccs.append(x)
+        if len(ccs) >= 3:
+          break
       
     return ccs
+
+def remove_run(rules,used):
+  while rules and (rules[0][2] & used)!=bit0:
+    rules = rules[1]
+
+#  while rules and rules[0] == curr:
+#    rules = rules[1]
+
+  return rules
+
 
 def dijkstrafind(rules,originalhash,wlen):
   pq = []
   lheappop  = heapq.heappop
   lheappush = heapq.heappush
-  lheappush(pq,(0,rules,originalhash))
+  lremove_run = remove_run
 
-  while pq:
-    (w,r,h) = lheappop(pq)
-    last = -1
-    #print sys.getsizeof(pq)
+  w = 0
+  lheappush(pq,(w,             # current cost
+                0,             # used letters 
+                (),            # possible siblings
+                rules,         # possible descendants
+                originalhash   # current hash
+                ))
+
+  while pq and w < 2000000:
+    (w,u,rs,rd,h) = lheappop(pq)
+#    print w,h
     yield (h,w)
-    if w>3: break
-    #print 'next\n'
-    for suffix in suffix_conslist(r):
-      (d_hash,w_rule) = suffix[0]
-      if d_hash!=last:
-        #print 'add suffixes',suffix[1]
-        last = d_hash
-        lheappush(pq,(w+w_rule,suffix[1],h+d_hash))
 
+    # create a descendant if any left
+    if rd:
+      d_hash,w_rule,w_used,_,_,_ = rd[0]
+      used = u | w_used
+      lheappush(pq,(w+w_rule,  
+                    used, 
+                    rd[1],                   # siblings
+                    lremove_run(rd[1],used), # descendants, ta bort alla som inte passar med denna
+                    h+d_hash)) 
+    
+    # create a sibling if any left
+    if rs:
+      d_hash,w_rule,w_used,dd_hash,dw_rule,dw_used = rs[0]
+      used = (u^dw_used) | w_used           # xor:a bort den gamla, or:a till den nya
+      lheappush(pq,(w+dw_rule,    
+                    used,  
+                    rs[1],                   # siblings
+                    lremove_run(rs[1],used), # descendants, ta bort alla som inte passar med denna
+                    h+dd_hash))
+    
 
-
-
-
-
-
-
-
+#def dijkstrafind(rules,originalhash,wlen):
+#  pq = []
+#  lheappop  = heapq.heappop
+#  lheappush = heapq.heappush
+#  lheappush(pq,(0,rules,originalhash))
 #
-#
-#def dijkstrafind(rules):
-#  yield (0,0) # no changes (värde,vikt)
-#  p       = PriorityQueue()
-#  l       = len(rules)
-#  reflist = dict((ref,(w,v,range(ref+1,l))) for (ref,(v,w)) in enumerate(lst))
-#  #[setprio(p,i,x) for (i,x) in reflist.items()]
-#  [p.put(x) for (i,x) in reflist.items()]
-#  #for (w,v,ns) in p:
-#  while not p.empty():
-#    #(w,v,ns) = p[x]
-#    #print w,v
-#    (w,v,ns) = p.get()
-#    yield (v,w)
-#    if w<2:
-#      for n in ns:
-#          #l += 1
-#          p.put((reflist[n][0]+w,reflist[n][1]+v,reflist[n][2]))
-#
+#  while pq:
+#    (w,r,h) = lheappop(pq)
+#    last = (0,0)
+#    #print sys.getsizeof(pq)
+#    yield (h,w)
+#    if w>3: break
+#    #print 'next\n'
+#    for suffix in suffix_conslist(r):
+#      if not suffix[0] == last:
+#        (d_hash,w_rule) = last = suffix[0]
+#        #print 'add suffixes',suffix[1]
+#        lheappush(pq,(w+w_rule,suffix[1],h+d_hash))
+
+
 def setprio(p,i,x):
   p[i] = x 
 

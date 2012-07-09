@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import gc
 import re
 from dltransl import edit_dist
 from itertools import chain, combinations,islice
@@ -46,14 +45,9 @@ def spellcheckword(w,d,rules,a):
  returns (False,None) if nothing interesting is found
 """
 def spellchecksmall(w,d,alpha,edit):
-  ccs = [(w,getchanges(w,d,alpha,edit))]
-  res,j = getvariant(ccs,edit,distance=2000000)
-  with codecs.open('howmany1','a',encoding='utf8') as f:
-     f.write(w+' '+str(j)+'\n')
-  if res==None:
-    return (False,None)
-  else:
-    return (True,res)
+  #import gc
+  #gc.collect()
+  return getchanges(w,d,alpha,edit)
  
  
 """ Examines a set of words and their variations and picks
@@ -134,7 +128,7 @@ def deltaize(rules):
       drule0 = (rule[0]-rule0[0], rule[1] - rule0[1])
       rule0 = rule      
 
-
+  # borde ej behövas mer
     else:
       ret.append( (rule[0], rule[1], rule[2],drule0[0], drule0[1],bit0 )) # a xor 0 = a , så att använda bokstäver behålls vid likadant syskon
 
@@ -166,7 +160,8 @@ def getchanges(word,lex,changeset,edit):
 
 #    ch.append((19254145824, 439587))
 
-    ch = deltaize(sorted(ch,key=lambda x: (x[1],x[0])))
+    #ch = deltaize(sorted(ch,key=lambda x: (x[1],x[0])))
+    ch = sorted(ch,key=lambda x: (x[1],x[0]))
  
     lexget = lex.get
 #    Dijkstra mode
@@ -183,8 +178,8 @@ def getchanges(word,lex,changeset,edit):
            print 'word',word,variantword,'dist',dist,w
            #tested.append(c)
            if dist<=w+10:
-             yield (variantword,info)
-      yield ('',[])
+             yield (variantword,info,dist)
+      yield ('',[],-1)
 
 #    print 'lexicon',sys.getsizeof(lex)
 #    print 'edit',sys.getsizeof(edit)
@@ -202,9 +197,6 @@ def remove_run(rules,used):
   while rules and (rules[0][2] & used)!=bit0:
     rules = rules[1]
 
-#  while rules and rules[0] == curr:
-#    rules = rules[1]
-
   return rules
 
 
@@ -219,34 +211,40 @@ def dijkstrafind(rules,originalhash,wlen):
                 0,             # used letters 
                 (),            # possible siblings
                 rules,         # possible descendants
-                originalhash   # current hash
+                originalhash,  # current hash
+                0,0,originalhash   # mother node
                 ))
 
   while pq and w < 2000000:
-    (w,u,rs,rd,h) = lheappop(pq)
+    (w,u,rs,rd,h,mw,mu,mh) = lheappop(pq)
 #    print w,h
+    print 'using',bin(u),'mother',mu
     yield (h,w)
 
     # create a descendant if any left
     if rd:
-      d_hash,w_rule,w_used,_,_,_ = rd[0]
+      d_hash,w_rule,w_used = rd[0]
       used = u | w_used
       lheappush(pq,(w+w_rule,  
                     used, 
-                    rd[1],                   # siblings
-                    lremove_run(rd[1],used), # descendants, ta bort alla som inte passar med denna
-                    h+d_hash)) 
+                    lremove_run(rd[1],u),    # siblings
+                    lremove_run(rd[1],used), # descendants
+                    h+d_hash,
+                    w,u,h
+                    )) 
     
     # create a sibling if any left
     if rs:
-      d_hash,w_rule,w_used,dd_hash,dw_rule,dw_used = rs[0]
-      used = (u^dw_used) | w_used           # xor:a bort den gamla, or:a till den nya
-      lheappush(pq,(w+dw_rule,    
-                    used,  
-                    rs[1],                   # siblings
-                    lremove_run(rs[1],used), # descendants, ta bort alla som inte passar med denna
-                    h+dd_hash))
-    
+      d_hash,w_rule,w_used = rs[0]
+      used = mu | w_used           
+      lheappush(pq,(mw+w_rule,    
+                    used,
+                    lremove_run(rs[1],mu),    # siblings,
+                    lremove_run(rs[1],used),  # descendants
+                    mh+d_hash,
+                    mw,mu,mh))
+
+
 
 #def dijkstrafind(rules,originalhash,wlen):
 #  pq = []

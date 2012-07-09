@@ -1,26 +1,46 @@
-# -*- coding: utf_8 -*-
+# -*- coding: utf-8 -*-
 from extracttxt import *
 from cc import norm,spellchecksmall
 from xml.etree import ElementTree as etree
-from collections import Counter
+# from collections import Counter
+import collections
 import printstats
 import codecs
 import re
 import glob
+import sys
+
+
+
+####
+
+def Counter(iterable):
+
+    ret = collections.defaultdict(int)
+    
+    for w in iterable:
+        ret[w] += 1
+
+    return ret
+    
+
+####
+
 
 """ Output files, all words and their found variations are printed to
     outputWords summary data is printed to outputData """
 
-outputStats = 'kast4'
+outputStats = 'kast6'
 
 
 
 """ sammanstall reads xml files and finds spelling variation of the text"""
 def sammanstall():
-    from readvariant import mkeditMap    
+    from readvariant import mkeditMap,mkeditMap2
    #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
-    files = ['testa.xml'] #
-    #files = testfiles ['testfiles/lilleSkaL'] 
+#    files = ['testa.xml'] #
+#    files = ['SkaL.txt','Mar26.txt']
+    files = 'x' #testfiles  
    #hashd = readlex(morflex,morf=True)
    #hashd = readlex(smallex)
     hashd = readlex(oldlex2,old=True)
@@ -29,6 +49,8 @@ def sammanstall():
     #edit,alpha = mkeditMap('char_varsmallest.txt')
     #edit,alpha = mkeditMap('trimap_var.txt',weigth=False)
     edit,alpha = mkeditMap('trimap_small.txt',weigth=False)
+    # TODO why does the one below become slower when it's smaller?
+    #edit,alpha = mkeditMap2('trimap_newmorethan2.txt')
     [getdata(fil,hashd,alpha,edit) for fil in files]
 #    codecs.open(outputData,'w',encoding='utf8').write(shownice(res))
     print 'printed files',outputStats
@@ -43,9 +65,9 @@ testfiles = glob.glob('testfiles/*xml')
 oldlex = (['../scripts/lexiconinfo/newer/schlyter.xml'
          ,'../scripts/lexiconinfo/newer/soederwall_main.xml'
          ,'../scripts/lexiconinfo/newer/soederwall_supp.xml'])
-oldlex2 = (['../../Lexicon/schlyter.xml'
-           ,'../../Lexicon/soederwall_ny/soederwall_main_NYAST.xml'
-           ,'../../Lexicon/soederwall_ny/soederwall_supp_NYAST.xml'])
+oldlex2 = (['schlyter.xml'
+           ,'soederwall_main.xml'
+           ,'soederwall_supp.xml'])
 
 dalin    = ['../../Lexicon/dalin.xml']
 smalllex = ['../scripts/littlelex.xml'] 
@@ -55,13 +77,16 @@ morflex  = ['../../Lexicon/good/lmf/fsv/fsv.xml']
     variations and identifies spelling variations"""
 def getdata(fil,hashd,alpha,edit):
     print fil
-    txt    = ''.join(gettext(fil)) 
+    txt    = 'cristindom' #''.join(gettext(fil)) 
+#    with codecs.open(fil,'r','utf8') as f:
+#        txt    = ''.join(f.read()) 
     wds    = map(lambda x: norm(x).lower(),txt.split())
     typs   = Counter(wds)
     dic = {}
 
+    sys.stdout = codecs.open('trams','w',encoding='utf-8')
     # look through all types, find spelling variation and create a dictionary of these
-    map(lambda (w,i):  dic.update({w:(i,spellchecksmall(w,hashd,alpha,edit))}),typs.items()) 
+    map(lambda (w,i):  dic.update({w:spellchecksmall(w,hashd,alpha,edit)}),typs.items()) 
     # tab is a list of all words in the same order as in the text, mapped to
     # their spelling variation
     tab = map(lambda w: (w,dic.get(w)),wds)
@@ -95,5 +120,7 @@ def insertnormal(d,form,lem):
     d.update({form : [lem]+lst})
 
 if __name__ == "__main__":
+
+  sys.stdout = codecs.getwriter('utf8')(sys.stdout)
   sammanstall()
 

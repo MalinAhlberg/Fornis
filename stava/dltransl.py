@@ -1,4 +1,4 @@
-# -*- coding: utf_8 -*-
+# -*- coding: utf-8 -*-
 from replacemap import replsX
 from itertools import product
 """
@@ -48,8 +48,8 @@ def issame(a,b):
   if a==b:
     return 0
   if a in vow and b not in vow:
-    return 3
-  return 1
+    return 3000000
+  return 1000000
   
 dub = u"bdfgjlmnprstv"; #/* dubbeltecknande konsonanter */
 vow = u"aeiouyåäöAEIOUYÅÄÖ"; #/* vokaler*/

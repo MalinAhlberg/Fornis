@@ -1,4 +1,4 @@
-# -*- coding: utf_8 -*-
+# -*- coding: utf-8 -*-
 from xml.etree import ElementTree as etree
 import codecs
 from cc import alphabet,getccs,getchanges,iso,hashiso
@@ -12,6 +12,7 @@ def gettext(fil):
     tree = etree.fromstring(xmls)
     elems  = tree.find('body')
     for e in elems.iter():
+#    for e in elems.getiterator():
       if e.tag in ['para','section']:
         old  = e.text or ''
         e.text = ' '+old

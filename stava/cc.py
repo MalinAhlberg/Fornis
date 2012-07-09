@@ -209,8 +209,10 @@ def dijkstrafind(rules,originalhash,wlen):
   w = 0
   lheappush(pq,(w,             # current cost
                 0,             # used letters 
-                (),            # possible siblings
-                rules,         # possible descendants
+                (),        # possible siblings
+                #((),0),        # possible siblings
+                #(rules,0),     # possible descendants
+                rules,     # possible descendants
                 originalhash,  # current hash
                 0,0,originalhash   # mother node
                 ))
@@ -218,29 +220,40 @@ def dijkstrafind(rules,originalhash,wlen):
   while pq and w < 2000000:
     (w,u,rs,rd,h,mw,mu,mh) = lheappop(pq)
 #    print w,h
-    print 'using',bin(u),'mother',mu
+    #print 'using',bin(u),'mother',mu
     yield (h,w)
 
     # create a descendant if any left
+    rd = lremove_run(rd,u)
     if rd:
       d_hash,w_rule,w_used = rd[0]
       used = u | w_used
       lheappush(pq,(w+w_rule,  
                     used, 
-                    lremove_run(rd[1],u),    # siblings
-                    lremove_run(rd[1],used), # descendants
+                    #lremove_run(rd[1],u),    # siblings
+                    #lremove_run(rd[1],used), # descendants
+                    rd[1],    # siblings
+                    rd[1], # descendants
+                    #(rd[1],u),    # siblings
+                    #(rd[1],used), # descendants
                     h+d_hash,
                     w,u,h
                     )) 
     
     # create a sibling if any left
+    # TODO START bättre (snabbare) men ej bra nog
+    rs = lremove_run(rs,mu)
     if rs:
       d_hash,w_rule,w_used = rs[0]
       used = mu | w_used           
       lheappush(pq,(mw+w_rule,    
                     used,
-                    lremove_run(rs[1],mu),    # siblings,
-                    lremove_run(rs[1],used),  # descendants
+                    #lremove_run(rs[1],mu),    # siblings,
+                    #lremove_run(rs[1],used),  # descendants,
+                    #(rs[1],mu),  # siblings
+                    #(rs[1],used),  # descendants
+                    rs[1],  # siblings
+                    rs[1],  # descendants
                     mh+d_hash,
                     mw,mu,mh))
 

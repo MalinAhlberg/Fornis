@@ -80,13 +80,13 @@ def deltaize(rules):
 
   rule0  = (0,0,0) 
   for rule in rules:
-    if not rule == rule0:
-      ret.append( (rule[0], rule[1],rule[2],rule[0]-rule0[0], rule[1] - rule0[1],rule0[2]) )
-      drule0 = (rule[0]-rule0[0], rule[1] - rule0[1])
+    #if not rule == rule0:
+      ret.append( (rule[0], rule[1],rule[2],rule0[0], rule0[1],rule0[2]) )
+      #drule0 = (rule[0]-rule0[0], rule[1] - rule0[1])
       rule0 = rule      
 
-    else:
-      ret.append( (rule[0], rule[1], rule[2],drule0[0], drule0[1],bit0 )) # a xor 0 = a , så att använda bokstäver behålls vid likadant syskon
+    #else:
+    #  ret.append( (rule[0], rule[1], rule[2],drule0[0], drule0[1],bit0 )) # a xor 0 = a , så att använda bokstäver behålls vid likadant syskon
 
 
   return ret
@@ -113,8 +113,8 @@ def getchanges(word,lex,changeset,edit):
 
 #    ch.append((19254145824, 439587))
 
-    #ch = deltaize(sorted(ch,key=lambda x: (x[1],x[0])))
-    ch = sorted(ch,key=lambda x: (x[1],x[0]))
+    ch = deltaize(sorted(ch,key=lambda x: (x[1],x[0])))
+    #ch = sorted(ch,key=lambda x: (x[1],x[0]))
  
     lexget = lex.get
     print 'word',word,len(ch)
@@ -131,7 +131,7 @@ def getchanges(word,lex,changeset,edit):
            print 'word',word,variantword,'dist',dist,w
            if dist<=w+10:
              yield (variantword,info,dist)
-      gc.collect()
+      #gc.collect() # Togs bort nyss
       yield ('',[],-1)
 
 #    print 'lexicon',sys.getsizeof(lex)
@@ -160,17 +160,16 @@ def dijkstrafind(rules,originalhash,wlen):
   lremove_run = remove_run
 
   w = 0
-  lheappush(pq,((w,             # current cost
+  lheappush(pq,(w,             # current cost
                 0,             # used letters 
-                originalhash),      # current hash
+                originalhash,      # current hash
                 (),            # possible siblings
-                rules,             # possible descendants
-                (0,0,originalhash)   # mother node
+                rules             # possible descendants
+                #(0,0,originalhash)   # mother node
                 ))
 
   while pq and w < 2000000:
-    (n,rs,rd,m) = lheappop(pq)
-    (w,u,h) = n
+    (w,u,h,rs,rd) = lheappop(pq)
     #print w,h
     #print 'using',bin(u),'mother',mu
     #sys.getsizeof(pq)
@@ -183,32 +182,33 @@ def dijkstrafind(rules,originalhash,wlen):
     # create a descendant if any left
     rd = lremove_run(rd,u)
     if rd:
-      d_hash,w_rule,w_used = rd[0]
-      used = u | w_used
-      lheappush(pq,((w+w_rule,  
-                    used, 
-                    h+d_hash),
+      d_hash,w_rule,w_used,_,_,_ = rd[0]
+      lheappush(pq,(w+w_rule,  
+                    u | w_used,
+                    h+d_hash,
                     #lremove_run(rd[1],u),    # siblings
                     #lremove_run(rd[1],used), # descendants
                     rd[1],    # siblings
-                    rd[1], # descendants
-                    n
+                    rd[1]     # descendants
                     )) 
     
     # create a sibling if any left
     # remova här är snabbare (men ej bra nog)
-    rs = lremove_run(rs,m[1])
     if rs:
-      d_hash,w_rule,w_used = rs[0]
-      used = m[1] | w_used           
-      lheappush(pq,((m[0]+w_rule,    
-                    used,
-                    m[2]+d_hash),
-                    #lremove_run(rs[1],mu),    # siblings,
-                    #lremove_run(rs[1],used),  # descendants,
-                    rs[1],  # siblings
-                    rs[1],  # descendants
-                    m))
-
+      mu = u ^ rs[0][5]
+      mw = w-rs[0][4]
+      mh = h-rs[0][3]
+      rs = lremove_run(rs,mu)
+      if rs:
+        d_hash,w_rule,w_used,_,_,_ = rs[0]
+        lheappush(pq,(mw + w_rule,    
+                      mu | w_used,
+                      mh + d_hash,
+                      #lremove_run(rs[1],mu),    # siblings,
+                      #lremove_run(rs[1],used),  # descendants,
+                      rs[1],  # siblings
+                      rs[1]  # descendants
+                      ))
+  
 
 

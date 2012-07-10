@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from xml.etree import ElementTree as etree
 import codecs
-from cc import alphabet,getccs,getchanges,iso,hashiso
+from cc import alphabet,getchanges,iso,hashiso
 import Queue
 import threading
 import re

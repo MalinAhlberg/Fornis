@@ -40,7 +40,7 @@ def sammanstall():
    #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
 #    files = ['testa.xml'] #
 #    files = ['SkaL.txt','Mar26.txt']
-    files = 'x' #testfiles  
+    files = 'x'#        testfiles  # #
    #hashd = readlex(morflex,morf=True)
    #hashd = readlex(smallex)
     hashd = readlex(oldlex2,old=True)
@@ -51,8 +51,10 @@ def sammanstall():
     edit,alpha = mkeditMap('trimap_small.txt',weigth=False)
     # TODO why does the one below become slower when it's smaller?
     #edit,alpha = mkeditMap2('trimap_newmorethan2.txt')
+    sys.stdout = codecs.open('trams2','w',encoding='utf-8')
     [getdata(fil,hashd,alpha,edit) for fil in files]
 #    codecs.open(outputData,'w',encoding='utf8').write(shownice(res))
+    #sys.stdout = sys.__stdout__
     print 'printed files',outputStats
 
 
@@ -77,16 +79,16 @@ morflex  = ['../../Lexicon/good/lmf/fsv/fsv.xml']
     variations and identifies spelling variations"""
 def getdata(fil,hashd,alpha,edit):
     print fil
-    txt    = 'cristindom' #''.join(gettext(fil)) 
+    txt    = 'cristindom' #'villhonnugh' #''.join(gettext(fil)) # euangelio' #'euangelio' #
 #    with codecs.open(fil,'r','utf8') as f:
 #        txt    = ''.join(f.read()) 
     wds    = map(lambda x: norm(x).lower(),txt.split())
     typs   = Counter(wds)
     dic = {}
 
-    sys.stdout = codecs.open('trams','w',encoding='utf-8')
     # look through all types, find spelling variation and create a dictionary of these
-    map(lambda (w,i):  dic.update({w:spellchecksmall(w,hashd,alpha,edit)}),typs.items()) 
+    for (w,i) in typs.items():
+      dic.update({w:spellchecksmall(w,hashd,alpha,edit)})
     # tab is a list of all words in the same order as in the text, mapped to
     # their spelling variation
     tab = map(lambda w: (w,dic.get(w)),wds)

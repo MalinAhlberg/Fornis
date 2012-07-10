@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import re
 from dltransl import edit_dist
-from itertools import chain, combinations,islice
+from itertools import chain, combinations,islice,product
 #from Queue import PriorityQueue         
 #from math import fabs
 import sys
@@ -70,26 +70,31 @@ def gettav(w,keep=False):
 def getav(w):
   return sum([iso(c) for c in w])
 
-"""
-[(d_hash1,w_rule1,involvedletters1),(d_hash2,w_rule2,involvedletters2),...]
-=>
-[(d_hash1,w_rule1,involvedletters1,d_hash1,w_rule1,0),(d_hash2,w_rule2,involvedletters2,d_hash2-d_hash1,w_rule2-w_rule1,involvedletters1),...]
-"""
+
 def deltaize(rules):
   ret = []
+  rules = sorted(rules,key=lambda rule: rule[0])
 
-  rule0  = (0,0,0) 
-  for rule in rules:
-    #if not rule == rule0:
-      ret.append( (rule[0], rule[1],rule[2],rule0[0], rule0[1],rule0[2]) )
-      #drule0 = (rule[0]-rule0[0], rule[1] - rule0[1])
-      rule0 = rule      
+  curr_h, curr_w, curr_u = rules[0][0],rules[0][1],set([rules[0][2]]),
+  for rule in rules[1:]:
+    if rule[0] == curr_h:
+      curr_w = min(curr_w,rule[1])
+      curr_u.add(rule[2])
+    else:
+      ret.append((curr_h,curr_w,frozenset(curr_u)))
+      curr_h, curr_w, curr_u = rule[0],rule[1],set([rule[2]])
 
-    #else:
-    #  ret.append( (rule[0], rule[1], rule[2],drule0[0], drule0[1],bit0 )) # a xor 0 = a , så att använda bokstäver behålls vid likadant syskon
+  ret.append((curr_h,curr_w,frozenset(curr_u)))
+
+  ret = sorted(ret,key=lambda rule: rule[1])
+  ret[0] = ret[0]+(0,0)
+  for reti in xrange(1,len(ret)):
+    ret[reti] = ret[reti]+(ret[reti-1][0],ret[reti-1][1])
 
 
-  return ret
+  return ret 
+
+
 
 """ adds the result, if any, to ccs"""
 def addAll(res,ccs):
@@ -113,7 +118,9 @@ def getchanges(word,lex,changeset,edit):
 
 #    ch.append((19254145824, 439587))
 
-    ch = deltaize(sorted(ch,key=lambda x: (x[1],x[0])))
+    ch = deltaize(ch)
+    for bla in ch: 
+      print bla
     #ch = sorted(ch,key=lambda x: (x[1],x[0]))
  
     lexget = lex.get
@@ -147,9 +154,8 @@ def getchanges(word,lex,changeset,edit):
     return ccs
 
 def remove_run(rules,used):
-  while rules and (rules[0][2] & used)!=bit0:
+  while rules and all(x&y for (x,y) in product(rules[0][2],used)):
     rules = rules[1]
-
   return rules
 
 
@@ -161,15 +167,15 @@ def dijkstrafind(rules,originalhash,wlen):
 
   w = 0
   lheappush(pq,(w,             # current cost
-                0,             # used letters 
-                originalhash,      # current hash
+                [0],           # used letters 
+                originalhash,  # current hash
                 (),            # possible siblings
-                rules             # possible descendants
-                #(0,0,originalhash)   # mother node
+                rules,         # possible descendants
+                0
                 ))
 
   while pq and w < 2000000:
-    (w,u,h,rs,rd) = lheappop(pq)
+    (w,u,h,rs,rd,mu) = lheappop(pq)
     #print w,h
     #print 'using',bin(u),'mother',mu
     #sys.getsizeof(pq)
@@ -182,32 +188,34 @@ def dijkstrafind(rules,originalhash,wlen):
     # create a descendant if any left
     rd = lremove_run(rd,u)
     if rd:
-      d_hash,w_rule,w_used,_,_,_ = rd[0]
+      d_hash,w_rule,w_useds,_,_ = rd[0]
       lheappush(pq,(w+w_rule,  
-                    u | w_used,
+                    frozenset(wu | u0 for (wu,u0) in product(w_useds,u) if not wu & u0),
                     h+d_hash,
                     #lremove_run(rd[1],u),    # siblings
                     #lremove_run(rd[1],used), # descendants
                     rd[1],    # siblings
-                    rd[1]     # descendants
+                    rd[1],    # descendants
+                    u
                     )) 
     
     # create a sibling if any left
     # remova här är snabbare (men ej bra nog)
     if rs:
-      mu = u ^ rs[0][5]
+      #mu = u ^ rs[0][5]
       mw = w-rs[0][4]
       mh = h-rs[0][3]
       rs = lremove_run(rs,mu)
       if rs:
-        d_hash,w_rule,w_used,_,_,_ = rs[0]
-        lheappush(pq,(mw + w_rule,    
-                      mu | w_used,
-                      mh + d_hash,
+        d_hash,w_rule,w_useds,_,_ = rs[0]
+        lheappush(pq,(w_rule+mw,    
+                      frozenset(wu | u0 for (wu,u0) in product(w_useds,mu) if not wu & u0),
+                      d_hash+mh,
                       #lremove_run(rs[1],mu),    # siblings,
                       #lremove_run(rs[1],used),  # descendants,
                       rs[1],  # siblings
-                      rs[1]  # descendants
+                      rs[1],  # descendants
+                      mu
                       ))
   
 

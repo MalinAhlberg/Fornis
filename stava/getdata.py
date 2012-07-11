@@ -30,7 +30,7 @@ def Counter(iterable):
 """ Output files, all words and their found variations are printed to
     outputWords summary data is printed to outputData """
 
-outputStats = 'kast6'
+outputStats = 'kast1'
 
 
 
@@ -40,7 +40,7 @@ def sammanstall():
    #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
 #    files = ['testa.xml'] #
 #    files = ['SkaL.txt','Mar26.txt']
-    files = 'x'#             
+    files = testfiles #'x'#             
    #hashd = readlex(morflex,morf=True)
    #hashd = readlex(smallex)
     hashd = readlex(oldlex2,old=True)
@@ -79,7 +79,7 @@ morflex  = ['../../Lexicon/good/lmf/fsv/fsv.xml']
     variations and identifies spelling variations"""
 def getdata(fil,hashd,alpha,edit):
     print fil
-    txt    = 'villhonnugh' # # euangelio' #'euangelio' #'euangelio' ''.join(gettext(fil))#'cristindom' #
+    txt    = ''.join(gettext(fil))#'cristindom' #'villhonnugh' # # euangelio' #'euangelio' #'euangelio' 
 #    with codecs.open(fil,'r','utf8') as f:
 #        txt    = ''.join(f.read()) 
     wds    = map(lambda x: norm(x).lower(),txt.split())

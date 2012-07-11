@@ -8,7 +8,7 @@ import sys
 import codecs
 from pycons import pylist_to_conslist,suffix_conslist
 import heapq
-import gc
+#import gc
 
 """Functions for calculating anagram values, finding spelling variations etc"""
 
@@ -77,14 +77,14 @@ def deltaize(rules):
 
   curr_h, curr_w, curr_u = rules[0][0],rules[0][1],set([rules[0][2]]),
   for rule in rules[1:]:
-    if rule[0] == curr_h:
+    if rule[0] == curr_h:# and rule[1] == curr_w:
       curr_w = min(curr_w,rule[1])
       curr_u.add(rule[2])
     else:
-      ret.append((curr_h,curr_w,frozenset(curr_u)))
+      ret.append((curr_h,curr_w,list(set(curr_u))))
       curr_h, curr_w, curr_u = rule[0],rule[1],set([rule[2]])
 
-  ret.append((curr_h,curr_w,frozenset(curr_u)))
+  ret.append((curr_h,curr_w,list(set(curr_u))))
 
   ret = sorted(ret,key=lambda rule: rule[1])
   ret[0] = ret[0]+(0,0)
@@ -154,12 +154,32 @@ def getchanges(word,lex,changeset,edit):
     return ccs
 
 def remove_run(rules,used):
-  while rules and all(x&y for (x,y) in product(rules[0][2],used)):
+
+  new_used = []
+  while rules:
+    new_used = list(set(used_position_filter(rules[0][2],used)))
+#    new_used = list(set((x | y) for (x,y) in mproduct(rules[0][2],used) if not (x & y)))
+    if new_used: 
+      break
     rules = rules[1]
-  return rules
+
+  return new_used,rules
+
+
+def mproduct(iter1,iter2):
+  for x in iter1:
+    for y in iter2:
+      yield x,y
+
+def used_position_filter(rule_wished,used):
+  for x in rule_wished:
+    for y in used:
+      if not x&y:
+        yield x|y
 
 
 def dijkstrafind(rules,originalhash,wlen):
+  th = 2000000
   pq = []
   lheappop  = heapq.heappop
   lheappush = heapq.heappush
@@ -173,10 +193,10 @@ def dijkstrafind(rules,originalhash,wlen):
                 rules,         # possible descendants
                 0
                 ))
+  
 
-  while pq and w < 2000000:
+  while pq:# and w < 2000000:
     (w,u,h,rs,rd,mu) = lheappop(pq)
-    #print w,h
     #print 'using',bin(u),'mother',mu
     #sys.getsizeof(pq)
     yield (h,w)
@@ -186,35 +206,30 @@ def dijkstrafind(rules,originalhash,wlen):
     #  break
 
     # create a descendant if any left
-    rd = lremove_run(rd,u)
-    if rd:
+    nu,rd = lremove_run(rd,u)
+    if rd and rd[0][1]+w <= th:
       d_hash,w_rule,w_useds,_,_ = rd[0]
       lheappush(pq,(w+w_rule,  
-                    frozenset(wu | u0 for (wu,u0) in product(w_useds,u) if not wu & u0),
+                    nu,
                     h+d_hash,
-                    #lremove_run(rd[1],u),    # siblings
-                    #lremove_run(rd[1],used), # descendants
-                    rd[1],    # siblings
-                    rd[1],    # descendants
+                    rd[1], # siblings
+                    rd,    # descendants
                     u
                     )) 
     
     # create a sibling if any left
-    # remova här är snabbare (men ej bra nog)
     if rs:
       #mu = u ^ rs[0][5]
       mw = w-rs[0][4]
       mh = h-rs[0][3]
-      rs = lremove_run(rs,mu)
-      if rs:
+      nu,rs = lremove_run(rs,mu)
+      if rs and rs[0][1]+mw <= th:
         d_hash,w_rule,w_useds,_,_ = rs[0]
         lheappush(pq,(w_rule+mw,    
-                      frozenset(wu | u0 for (wu,u0) in product(w_useds,mu) if not wu & u0),
+                      nu,
                       d_hash+mh,
-                      #lremove_run(rs[1],mu),    # siblings,
-                      #lremove_run(rs[1],used),  # descendants,
                       rs[1],  # siblings
-                      rs[1],  # descendants
+                      rs,  # descendants
                       mu
                       ))
   

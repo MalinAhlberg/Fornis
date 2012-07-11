@@ -8,7 +8,7 @@ import sys
 import codecs
 from pycons import pylist_to_conslist,suffix_conslist
 import heapq
-#import gc
+import gc
 
 """Functions for calculating anagram values, finding spelling variations etc"""
 
@@ -70,25 +70,66 @@ def gettav(w,keep=False):
 def getav(w):
   return sum([iso(c) for c in w])
 
+def add_with_subsumption_check(olds,new):
+
+  ret = []
+
+  for oldi,old in enumerate(olds):
+    old_or_new = old | new
+    if old_or_new == new:
+      # this information is already here
+      # copy all and exit loop
+      ret.extend(olds[oldi:])
+      break
+    elif old_or_new == old:
+      # the new info is more general
+      # do not copy the old info
+      pass
+    else:
+      # copy the old info
+      ret.append(old)
+  else:
+    # only when not breaked --> need to add new info
+    ret.append(new)
+
+  return ret
+
+
+def subsumption_filter(bitmaps):
+
+#  bitmaps = sorted(bitmaps)
+  rets = []
+
+  for bitmap in bitmaps:
+    for ret in rets:
+      if (ret | bitmap) == bitmap:
+        break
+    else:
+      rets.append(bitmap)
+
+  return rets
 
 def deltaize(rules):
   ret = []
   rules = sorted(rules,key=lambda rule: rule[0])
 
-  curr_h, curr_w, curr_u = rules[0][0],rules[0][1],set([rules[0][2]]),
+#  curr_h, curr_w, curr_u = rules[0][0],rules[0][1],set([rules[0][2]]),
+  curr_h, curr_w, curr_u = rules[0][0],rules[0][1],[rules[0][2]],
   for rule in rules[1:]:
     if rule[0] == curr_h:# and rule[1] == curr_w:
       curr_w = min(curr_w,rule[1])
-      curr_u.add(rule[2])
+      curr_u = add_with_subsumption_check(curr_u,rule[2])
     else:
       ret.append((curr_h,curr_w,list(set(curr_u))))
-      curr_h, curr_w, curr_u = rule[0],rule[1],set([rule[2]])
+#      curr_h, curr_w, curr_u = rule[0],rule[1],set([rule[2]])
+      curr_h, curr_w, curr_u = rule[0],rule[1],[rule[2]]
 
   ret.append((curr_h,curr_w,list(set(curr_u))))
 
   ret = sorted(ret,key=lambda rule: rule[1])
   ret[0] = ret[0]+(0,0)
   for reti in xrange(1,len(ret)):
+#    ret[reti] = ret[reti]+(ret[reti][0]-ret[reti-1][0],ret[reti][1]-ret[reti-1][1])
     ret[reti] = ret[reti]+(ret[reti-1][0],ret[reti-1][1])
 
 
@@ -96,6 +137,7 @@ def deltaize(rules):
 
 
 
+      
 """ adds the result, if any, to ccs"""
 def addAll(res,ccs):
     ccs.extend(x for x in res.iteritems() if x not in ccs)
@@ -120,56 +162,55 @@ def getchanges(word,lex,changeset,edit):
 
     ch = deltaize(ch)
     for bla in ch: 
-      print bla
+      print bla, ' '.join(bin(blax) for blax in bla[2])
     #ch = sorted(ch,key=lambda x: (x[1],x[0]))
- 
-    lexget = lex.get
-    print 'word',word,len(ch)
-#    Dijkstra mode
-    def countdijkstrafind(ch):
-      edit_dist_cache = dict([])
-      edit_dist_cachesetdefault = edit_dist_cache.setdefault
-      for (hash_w,w) in dijkstrafind(pylist_to_conslist(ch),av,len(word)):
-        ok = lexget(hash_w)
-    #    print 'will add',ok,hash_w,w
-        if ok:
-         for (variantword,info) in ok.iteritems(): 
-           dist = edit_dist_cachesetdefault((word,variantword),edit_dist(word,variantword,rules=edit[0],n=edit[1]))
-           print 'word',word,variantword,'dist',dist,w
-           if dist<=w+10:
-             yield (variantword,info,dist)
-      #gc.collect() # Togs bort nyss
-      yield ('',[],-1)
-
-#    print 'lexicon',sys.getsizeof(lex)
-#    print 'edit',sys.getsizeof(edit)
-#    print 'ch',sys.getsizeof(ch)
-    for x in countdijkstrafind(ch):
-      if x not in ccs:
-        print x
-        ccs.append(x)
-        if len(ccs) >= 3:
-          break
+    
+    print 'word',word,len(ch),
       
-    return ccs
+    return countdijkstrafind(ch,word,edit,lex,av)
+
+
+#    Dijkstra mode
+def countdijkstrafind(ch,word,edit,lex,av):
+  # stuff for kbest list
+  th = 2000000
+  k = 3
+  seen = set([])
+  topklist = [(th+1,())]*k
+  lexget = lex.get
+
+  for (hash_w,w) in dijkstrafind(pylist_to_conslist(ch),av,len(word),th):
+    if topklist[-1][1] and topklist[-1][0] < w:
+      break
+        
+    ok = lexget(hash_w,{})
+    for (variantword,info) in ok.iteritems():
+      if not variantword in seen:
+        dist = edit_dist(word,variantword,rules=edit[0],n=edit[1])
+        seen.add(variantword)
+        topklist.append((dist,(variantword,info)))
+        topklist = sorted(topklist)[:k]
+        print
+        print variantword, w, dist,
+      else:
+        print '.',
+
+  print
+  print
+  return topklist
+
 
 def remove_run(rules,used):
 
   new_used = []
   while rules:
     new_used = list(set(used_position_filter(rules[0][2],used)))
-#    new_used = list(set((x | y) for (x,y) in mproduct(rules[0][2],used) if not (x & y)))
     if new_used: 
       break
     rules = rules[1]
 
   return new_used,rules
 
-
-def mproduct(iter1,iter2):
-  for x in iter1:
-    for y in iter2:
-      yield x,y
 
 def used_position_filter(rule_wished,used):
   for x in rule_wished:
@@ -178,8 +219,9 @@ def used_position_filter(rule_wished,used):
         yield x|y
 
 
-def dijkstrafind(rules,originalhash,wlen):
-  th = 2000000
+
+
+def dijkstrafind(rules,originalhash,wlen,th):
   pq = []
   lheappop  = heapq.heappop
   lheappush = heapq.heappush
@@ -197,13 +239,7 @@ def dijkstrafind(rules,originalhash,wlen):
 
   while pq:# and w < 2000000:
     (w,u,h,rs,rd,mu) = lheappop(pq)
-    #print 'using',bin(u),'mother',mu
-    #sys.getsizeof(pq)
     yield (h,w)
-    # TODO just added eheheh
-    #if len(pq)>13000000: 
-    #  print 'breaking'
-    #  break
 
     # create a descendant if any left
     nu,rd = lremove_run(rd,u)
@@ -212,26 +248,36 @@ def dijkstrafind(rules,originalhash,wlen):
       lheappush(pq,(w+w_rule,  
                     nu,
                     h+d_hash,
-                    rd[1], # siblings
-                    rd,    # descendants
+                    rd[1],    # siblings
+                    rd,       # descendants
                     u
                     )) 
     
     # create a sibling if any left
+    # remova här är snabbare (men ej bra nog)
     if rs:
-      #mu = u ^ rs[0][5]
       mw = w-rs[0][4]
       mh = h-rs[0][3]
       nu,rs = lremove_run(rs,mu)
       if rs and rs[0][1]+mw <= th:
         d_hash,w_rule,w_useds,_,_ = rs[0]
-        lheappush(pq,(w_rule+mw,    
+        lheappush(pq,(mw+w_rule,    
                       nu,
-                      d_hash+mh,
-                      rs[1],  # siblings
-                      rs,  # descendants
+                      mh+d_hash,
+                      rs[1],   # siblings
+                      rs,      # descendants
                       mu
                       ))
   
 
 
+
+
+
+# graveyard
+
+
+def mproduct(iter1,iter2):
+  for x in iter1:
+    for y in iter2:
+      yield x,y

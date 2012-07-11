@@ -9,6 +9,7 @@ import codecs
 from pycons import pylist_to_conslist,suffix_conslist
 import heapq
 import gc
+import operator
 
 """Functions for calculating anagram values, finding spelling variations etc"""
 
@@ -97,7 +98,7 @@ def add_with_subsumption_check(olds,new):
 
 def subsumption_filter(bitmaps):
 
-#  bitmaps = sorted(bitmaps)
+  bitmaps = sorted(bitmaps)
   rets = []
 
   for bitmap in bitmaps:
@@ -118,9 +119,10 @@ def deltaize(rules):
   for rule in rules[1:]:
     if rule[0] == curr_h:# and rule[1] == curr_w:
       curr_w = min(curr_w,rule[1])
-      curr_u = add_with_subsumption_check(curr_u,rule[2])
+      curr_u.append(rule[2])
+#      curr_u = add_with_subsumption_check(curr_u,rule[2])
     else:
-      ret.append((curr_h,curr_w,list(set(curr_u))))
+      ret.append((curr_h,curr_w,subsumption_filter(curr_u)))
 #      curr_h, curr_w, curr_u = rule[0],rule[1],set([rule[2]])
       curr_h, curr_w, curr_u = rule[0],rule[1],[rule[2]]
 
@@ -161,13 +163,15 @@ def getchanges(word,lex,changeset,edit):
 #    ch.append((19254145824, 439587))
 
     ch = deltaize(ch)
-    for bla in ch: 
-      print bla, ' '.join(bin(blax) for blax in bla[2])
+#    for bla in ch: 
+#      print bla, ' '.join(bin(blax) for blax in bla[2])
     #ch = sorted(ch,key=lambda x: (x[1],x[0]))
     
     print 'word',word,len(ch),
-      
-    return countdijkstrafind(ch,word,edit,lex,av)
+
+    bla = countdijkstrafind(ch,word,edit,lex,av)
+    print bla
+    return bla
 
 
 #    Dijkstra mode
@@ -204,7 +208,7 @@ def remove_run(rules,used):
 
   new_used = []
   while rules:
-    new_used = list(set(used_position_filter(rules[0][2],used)))
+    new_used = list(new_sub_filter(used_position_filter(rules[0][2],used)))
     if new_used: 
       break
     rules = rules[1]
@@ -219,6 +223,10 @@ def used_position_filter(rule_wished,used):
         yield x|y
 
 
+def new_sub_filter(bitmaps):
+  for x in bitmaps:
+    if not any((x | y)==x for y in bitmaps):
+      yield x
 
 
 def dijkstrafind(rules,originalhash,wlen,th):
@@ -233,8 +241,7 @@ def dijkstrafind(rules,originalhash,wlen,th):
                 originalhash,  # current hash
                 (),            # possible siblings
                 rules,         # possible descendants
-                0
-                ))
+                0))
   
 
   while pq:# and w < 2000000:
@@ -244,17 +251,17 @@ def dijkstrafind(rules,originalhash,wlen,th):
     # create a descendant if any left
     nu,rd = lremove_run(rd,u)
     if rd and rd[0][1]+w <= th:
+      
       d_hash,w_rule,w_useds,_,_ = rd[0]
       lheappush(pq,(w+w_rule,  
                     nu,
                     h+d_hash,
                     rd[1],    # siblings
                     rd,       # descendants
-                    u
+                    u,
                     )) 
     
     # create a sibling if any left
-    # remova här är snabbare (men ej bra nog)
     if rs:
       mw = w-rs[0][4]
       mh = h-rs[0][3]

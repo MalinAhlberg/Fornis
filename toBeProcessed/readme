@@ -1,8 +1,0 @@
-4/5
-
-Rerun fixer to get rid of störande pagenumbering in Petri
-Now uses paragraph instead of para, has labels, year, titles etc.
-Makefile will do sentencesplitting
-Lydekin has been specially processed to handle [Kb ..]
-
-

@@ -32,7 +32,7 @@ def edit_dist(s1, s2,rules=replsX,n=3):
 def replaceX(s1,i,s2,j,d,rules,n):
   def replace1(s1,s2,i,j):
     xs = []
-    for (a,b) in product((s1[-x:] for x in range(1,n+1)),(s2[-x:] for x in range(1,n+1))):
+    for (a,b) in product((s1[-x:] for x in xrange(1,n+1)),(s2[-x:] for x in xrange(1,n+1))):
       val = rules.get((a,b),None) 
       if val:
         xs.append(d[(i-val[0],j-val[1])]+val[2])

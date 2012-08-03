@@ -10,10 +10,12 @@ n processed/NordBil.xml:<text title="Nordiska helgonledgender, ur Codex Bildsten
 
 
 Anna1a? vad är det, varför finns den om den är samma som Anna9?
+Bestämt att de är samma (diff på rtf), Anna1a tas bort
+
 ------------
 
 nästan samma som PauloJoh, olika slut. Samma codex? Samma namn?
-n processed/StrLegBil-IV.xml:<text title="Legenden om Paulus och Johannes, Codex Bildstenianus, hand IV" year="">
+processed/StrLegBil-IV.xml:<text title="Legenden om Paulus och Johannes, Codex Bildstenianus, hand IV" year="1400-1450">
 
 vilket år? ALL FIXED
 1300-1450 n processed/MP1.xml:<text title="Svenska Medeltidspostillor 1, enligt AM 787" year="">

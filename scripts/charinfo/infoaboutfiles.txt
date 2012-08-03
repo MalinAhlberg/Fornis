@@ -15,7 +15,7 @@ Också kluriga frågetecken med;
 [GrodaC? ] ej heller med i LB
 Innehåller även », också i tryckt version (LB)
 
-Regler:
+Regler?:
 Ta bort >...>, om det är max ca 5 ord emellan, annars varna?
 Kolla efter ensamma siffror, varna
 Ta bort {...}

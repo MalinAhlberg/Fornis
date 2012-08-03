@@ -57,7 +57,6 @@ def doAll():
     for sec in glob.glob('../sections/*'):
          print "adding label for",sec
          checker.addLabel(sec,newDir)
-#    newDir = 'toBeP'
     for uri in glob.glob(newDir+'/Lydekin*'): # +usefuls.newfiles:  
         t = threading.Thread(target=pagenumberfixer,args=(uri,)) #,segmenter))
         t.start()

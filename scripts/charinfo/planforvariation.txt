@@ -1,0 +1,5 @@
+Det ska vara:
+-lätt att få ut texten i ursprungligt format
+-lätt att få ut en version av texten
+-lätt att importera till korp
+-gå att ställa in så att olika annoteringar passar in

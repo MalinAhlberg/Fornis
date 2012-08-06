@@ -9,6 +9,24 @@ from xmlindent import indent
 
 """ Methods for finding meta-data about the lexicons """
 
+def printvariants(fil):
+  entries,_ = readIt(fil) 
+  result    = []
+  for entry in entries:
+    lemgram    = getLem(entry,old=True)
+    # TODO START here, fixa bort tomma från listan, skriv ut fint, inspektera och om bra använd till lexikon och stavning
+    variants = getAtt(entry.find('WordForm'),'writtenForm')
+    varlist = '\n'.join([clean(var) for var in variants])
+    if varlist.strip(): 
+      result.append(lemgram+'\n'+varlist)
+  codecs.open('spellvariantiontest','w',encoding='utf-8').write('\n'.join(result))
+
+def clean(word):
+  cleaned = word[0].split()[0].strip()
+  if not (cleaned.startswith('-') or cleaned.startswith('-')) and cleaned:
+    return '\t'.word[0].split()[0].strip(' :,;.()')
+  else:
+    return ''
 
 """ prints words that (easily) refers to others
    saves the updated version, with replaced tags for successful e-words

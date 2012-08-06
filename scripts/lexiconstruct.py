@@ -33,6 +33,7 @@
 #                                    skulle också kunna ta ut info: (klurigt pga oording!)
 #                                      gram : '2 pers' => person = '2'
 #                                    anta att det alltid först kommer gram och sen dess former?
+#                                    borde städas, och eventuellt flyttas.
 #                                    svårt med förled etc. får nog vara information om det inte passar
 #      Formrepresentation 
 #           writtenForm =            en eller två (fler?) ord, inga paranteser osv, städa!
@@ -63,3 +64,11 @@
 #   \Sense
 #
 
+
+######### STEP 2
+
+# få ut varianter från wordform.
+# De ligger i LexicalEntry - WordForm - writtenForm
+# måste städas (ta bort kolon, paranteser mm, och också luras på så att man inte får med efterföljande ord
+# sedan borde de kopieras till LexicalEntry - WordForm - variation. bara det bra, det dåliga kan få ligga kvar.
+# men hur vem man om det är bra?

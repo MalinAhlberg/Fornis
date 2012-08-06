@@ -11,7 +11,6 @@ from itertools import product
 """ make a nice lexicon, according to lexstruct"""
 def validate(fil):
     entries,lexicon = readIt(fil) 
-    lex             = lexicon.find('Lexicon')
 
     entries.sort(key=lambda x: isweird(x)) # sort to rename lemgrams with '?' and '*' first
     for entry in entries:
@@ -27,7 +26,7 @@ def validate(fil):
     for i,entry in enumerate(entries):
       lemma = entry.find('Lemma')
       updateindex(lemma,entry,lexdict) # for updating the overlapping indicies 
-    indent(lex)
+    indent(lexicon.find('Lexicon'))
     open('kast.xml','w').write(etree.tostring(lexicon,encoding='utf-8'))
 
 

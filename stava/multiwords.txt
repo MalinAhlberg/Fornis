@@ -1,0 +1,31 @@
+Fall:
+1  ett ord i texten   - flera ingångar i lexikon
+2                     - en ingång med fler ord i lexikon
+3  flera ord i texten - en ingång i lexikon
+
+Fall 2 är lätt, bara ha vikt för hur dyrt mellanslaget är
+--  Kan eventuellt ha epsilon-system som i papper, där 'ord' -> '^_ord_$'
+--  som kan omvandlas till '^ord$' innan ed. så även '^ord_$' => '^ord$' innan ed.
+  Konstigt dock, varför ens överväga att ta bort slutet. Ska ej räknas med, gör grafen stor och dum.
+--  men '^_or_d_$' => '^or_d$' så att vi märker av brytningar.
+  Kan kanske utnyttja anagram hashningen mer. Sätt in blanksteg var som helst, finns det då..?
+  Alltså: ha olika tecken för expressionslut och ordslut. Anta att varje ord är ett expression, sätt
+  ev in '_'
+
+Fall 1 är svårt. Compounda det och testa alla kombinationer = dyyyyrt
+  Kan begränsas till en viss ordlängd, och sedan leta bland tex bara substantiv, adj, vv tex.
+
+Fall 3 är det vi behöver tänka på.
+  Klumpa ihop ord med '_' emellan (ordslut, ej expressionslut).
+  Kommer bli långsamt. Ajaj. Bara för de som inte hittat något? Dumt dock..
+  Kommer blir dyrare än de båda orden var för sig ofta (tex köpæ iorth), så hur veta att man vill ha dem?
+  Ska det bero på längd igen, billigare för att det är längre? Lite orättvist kanske.
+  
+
+Sannolikheter: s_ ->  _ ger både s_ -> _ och s$ -> $
+               s_ ->  s ger bara s_ -> _
+               _  ->  s ger bara _ -> s
+               _  -> _s ger både _ -> _s och ^ -> ^s
+
+ (översätt till ^/$ om det finns lika många på varje sida, ha skillnad på start och början behövs
+  inte, men det blir färre alternativ då? nej, samma antal, så skit i det)

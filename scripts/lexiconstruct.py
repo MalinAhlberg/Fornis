@@ -10,19 +10,19 @@
 
 # LexicalEntry
 #   Lemma
-#      partOfSpeech = "nn"           bara en viss uppsätting av taggar får vara här
-#                                    resten får vara i information
-#      lemgram      = "katt..nn.1"   inga 'e'n
-#      gram         = "m."           här kan annan grammatisk information finnas
-#                                    typ 'm.' (och 'med dat.'?)
-#      information  =                här får annat bös vara
 #      Formrepresentation 
-#           writtenForm =            en eller två (fler?) ord, inga paranteser 
-#                                    eller andra tecken, siffror...
-#                                    ta bort överblivna kommatecken, punkter och mellanslag
-#                                    (söderwall)
-#           information =            annan text som inte ska vara i writtenForm (söderwall)
-#                                    ev flytta hit efter förfrågan
+#           partOfSpeech = "nn"           bara en viss uppsätting av taggar får vara här
+#                                         resten får vara i information
+#           lemgram      = "katt..nn.1"   inga 'e'n, om det finns '*' eller '?' tas de bort och indexet uppdateras
+#           gram         = "m."           här kan annan grammatisk information finnas
+#                                         typ 'm.' (och 'med dat.'?)
+#           information  =                här får annat bös vara
+#           writtenForm =                 en eller två (fler?) ord, inga paranteser 
+#                                         eller andra tecken, siffror...
+#                                         ta bort överblivna kommatecken, punkter och mellanslag
+#                                         (söderwall)
+#           information =                 annan text som inte ska vara i writtenForm (söderwall)
+#                                         ev flytta hit efter förfrågan
 #      \Formrepresentation 
 #      Formrepresentation 
 #           writtenForm = 
@@ -53,6 +53,7 @@
 #      \Formrepresentation 
 #   \WordForm
 #   Sense                       
+#      id                            inga '*' eller '?', tas bort om de finns och indexet uppdateras
 #      Definition                    lite vad som helst
 #      \Definition
 #   \Sense
@@ -62,7 +63,3 @@
 #   \Sense
 #
 
-# Alla borde ha åtminstone ok Lemma, pos, lemgram, WrittenForm
-# varianter kan flyttas automatiskt (schlyter)
-# flytta annat bös till subnod?  
-# (obs, saldo har annan ording, pos och lemgram ligger i formrepr.)

@@ -14,7 +14,7 @@ def validate(fil):
     lex             = lexicon.find('Lexicon')
 
     entries.sort(key=lambda x: isweird(x)) # sort to rename lemgrams with '?' and '*' first
-    for i,entry in enumerate(entries):
+    for entry in entries:
       lemma = entry.find('Lemma')
       checkgram(lemma)  
       checkpos(lemma)

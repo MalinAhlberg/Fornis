@@ -13,20 +13,30 @@ def printvariants(fil):
   entries,_ = readIt(fil) 
   result    = []
   for entry in entries:
-    lemgram    = getLem(entry,old=True)
-    # TODO START here, fixa bort tomma från listan, skriv ut fint, inspektera och om bra använd till lexikon och stavning
+    #lemgram  = getLem(entry,old=True)
+    lemgrams = getAtt(getFormRepresentation(entry),'writtenForm')
+    if len(lemgrams)>1:
+      print lemgrams[0],'more than one form'
+    lemgram = lemgrams[0][0]
     variants = getAtt(entry.find('WordForm'),'writtenForm')
-    varlist = '\n'.join([clean(var) for var in variants])
+    varlist  = ''.join(set([clean(lemgram,var) for var in variants]))
     if varlist.strip(): 
       result.append(lemgram+'\n'+varlist)
-  codecs.open('spellvariantiontest','w',encoding='utf-8').write('\n'.join(result))
+  codecs.open('spellvariantiontestcorr','w',encoding='utf-8').write(''.join(result))
 
-def clean(word):
-  cleaned = word[0].split()[0].strip()
-  if not (cleaned.startswith('-') or cleaned.startswith('-')) and cleaned:
-    return '\t'.word[0].split()[0].strip(' :,;.()')
-  else:
-    return ''
+# OBS don't compare with lemgrams..
+def clean(original,word):
+  if word[0]:
+    cleaned  = word[0].split()[0].strip() 
+    halfword = cleaned.startswith('-') or cleaned.endswith('-')
+    trams  = re.search('[()]',cleaned)
+    if not halfword and cleaned and oklength(original,cleaned) and not trams:
+      return '\t'+cleaned.strip(' *:,;.')+'\n'
+  return ''
+
+# godtyckligt mått på hur olika långa varianter kan vara
+def oklength(original,word):
+  return original!=word and abs(len(original)-len(word))<4
 
 """ prints words that (easily) refers to others
    saves the updated version, with replaced tags for successful e-words

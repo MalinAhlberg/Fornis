@@ -1,0 +1,761 @@
+max 5 guesses, no better results
+
+testfiles/SkaL.xml
+far man kunu oc dör han
+['far..av.3', 'far..av.4', 'far..nn.3', 'far..nn.1', 'far..nn.2', 'far..nn.1']  0	['fa..vb.1', 'fa..vb.1', 'fa..e.1']  0.1 (far)
+-- 2 (samma som innan, men ej märkt)
+
+far man kunu oc dör han för
+['man..ab.3', 'man..nn.2', 'man..nn.2', 'man..nn.2', 'man..nn.1']  0 (man)
+
+far man kunu oc dör han för en
+ (kunu)
+
+far man kunu oc dör han för en hun
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (oc)
+
+far man kunu oc dör han för en hun far
+[u'dör..e.1', u'dör..e.1', u'dör..e.1']  0	['dyr..e.2', 'dyr..av.1', 'dyr..av.3', 'dyr..nn.2', 'dyr..av.2', 'dyr..nn.1']  0.1	['dy..nn.1']  0.2 (dör)
+-- X
+
+far man kunu oc dör han för en hun far barn
+['han..e.1', 'han..e.1', 'han..e.1']  0 (han)
+
+man kunu oc dör han för en hun far barn oc
+[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0	['fyr..ab.1', 'fyr..e.1', 'fyr..ab.1']  0.1 (för)
+
+kunu oc dör han för en hun far barn oc sigher
+['en..e.1', 'en..e.2', 'en..nn.1', 'en..ab.2', 'en..e.1']  0	['in..ab.2', 'in..e.2', 'in..ab.1']  0.1 (en)
+
+oc dör han för en hun far barn oc sigher hun
+['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hon..nn.2', 'hon..nn.2', 'hon..e.1']  0.1 (hun)
+
+dör han för en hun far barn oc sigher hun oc
+['far..av.3', 'far..av.4', 'far..nn.3', 'far..nn.1', 'far..nn.2', 'far..nn.1']  0	['fa..vb.1', 'fa..vb.1', 'fa..e.1']  0.1 (far)
+-- 2 (samma..)
+
+han för en hun far barn oc sigher hun oc hænnæ
+['barn..nn.1', 'barn..nn.1', 'barn..nn.1']  0 (barn)
+
+för en hun far barn oc sigher hun oc hænnæ frændær
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (oc)
+
+en hun far barn oc sigher hun oc hænnæ frændær at
+['sigher..nn.1', 'sigher..nn.1', 'sigher..nn.1']  0	['siker..av.2', 'siker..nn.1', 'siker..e.2', 'siker..nn.1', 'siker..av.1']  0.1	['segher..av.1']  0.1	['syke..e.1']  0.3 (sigher)
+-- X
+
+hun far barn oc sigher hun oc hænnæ frændær at hun
+['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hon..nn.2', 'hon..nn.2', 'hon..e.1']  0.1 (hun)
+
+far barn oc sigher hun oc hænnæ frændær at hun ær
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (oc)
+
+barn oc sigher hun oc hænnæ frændær at hun ær mæth
+ (hænnæ)
+
+oc sigher hun oc hænnæ frændær at hun ær mæth barnæ
+ (frændær)
+
+sigher hun oc hænnæ frændær at hun ær mæth barnæ tha
+['at..e.3', 'at..e.1', 'at..e.4', 'at..e.3', 'at..e.2', 'at..e.1', 'at..e.3', 'at..e.2', 'at..pp.1']  0	['adh..e.1']  0.1 (at)
+
+hun oc hænnæ frændær at hun ær mæth barnæ tha skal
+['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hon..nn.2', 'hon..nn.2', 'hon..e.1']  0.1 (hun)
+
+oc hænnæ frændær at hun ær mæth barnæ tha skal hun
+[u'ær..e.2', u'ær..e.1']  0	[u'æ..e.2', u'æ..ab.1']  0.1 (ær)
+
+hænnæ frændær at hun ær mæth barnæ tha skal hun sitiæ
+[u'mæt..nn.1']  0.1	[u'mæþ..e.2', u'mæþ..pp.1']  0.1 (mæth)
+
+frændær at hun ær mæth barnæ tha skal hun sitiæ j
+ (barnæ)
+
+at hun ær mæth barnæ tha skal hun sitiæ j eghen
+[u'þa..e.2', u'þa..ab.1', u'þa..e.1', u'þa..e.3', u'þa..e.2', u'þa..ab.1']  0.1	['ta..nn.2', 'ta..nn.1', 'ta..nn.1', 'ta..e.3', 'ta..nn.2', 'ta..ab.1']  0.1	[u'þe..e.1']  0.2	['te..vb.1']  0.2	['tea..vb.1', 'tea..vb.1', 'tea..vb.1']  1 (tha)
+
+hun ær mæth barnæ tha skal hun sitiæ j eghen bægiæ
+['skal..nn.2', 'skal..e.1', 'skal..nn.3', 'skal..nn.2', 'skal..nn.1', 'skal..nn.2', 'skal..nn.1']  0	['skall..nn.1']  0.1 (skal)
+-- X
+
+ær mæth barnæ tha skal hun sitiæ j eghen bægiæ thera
+['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hon..nn.2', 'hon..nn.2', 'hon..e.1']  0.1 (hun)
+
+mæth barnæ tha skal hun sitiæ j eghen bægiæ thera uskifti
+ (sitiæ)
+
+barnæ tha skal hun sitiæ j eghen bægiæ thera uskifti tiuku
+['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0.1 (j)
+
+tha skal hun sitiæ j eghen bægiæ thera uskifti tiuku uku
+['eghen..nn.1']  0	['eghin..av.1', 'eghin..av.1']  0.1 (eghen)
+-- X
+
+skal hun sitiæ j eghen bægiæ thera uskifti tiuku uku oc
+ (bægiæ)
+
+hun sitiæ j eghen bægiæ thera uskifti tiuku uku oc til
+[u'þera..e.1']  0.1	['tera..vb.2', 'tera..vb.2', 'tera..nn.1']  0.1 (thera)
+
+sitiæ j eghen bægiæ thera uskifti tiuku uku oc til se
+ (uskifti)
+
+j eghen bægiæ thera uskifti tiuku uku oc til se mæth
+['tiughu..e.1', 'tiughu..e.1', 'tiughu..e.1']  0.1 (tiuku)
+
+eghen bægiæ thera uskifti tiuku uku oc til se mæth sinæ
+ (uku)
+
+bægiæ thera uskifti tiuku uku oc til se mæth sinæ wæriande
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (oc)
+
+thera uskifti tiuku uku oc til se mæth sinæ wæriande ær
+['til..e.1', 'til..e.1', 'til..e.1']  0 (til)
+
+uskifti tiuku uku oc til se mæth sinæ wæriande ær hun
+['se..e.1']  0	['sa..e.2', 'sa..vb.1', 'sa..e.3', 'sa..e.2', 'sa..vb.1', 'sa..e.3', 'sa..e.2', 'sa..vb.1']  0.1 (se)
+
+tiuku uku oc til se mæth sinæ wæriande ær hun ej
+[u'mæt..nn.1']  0.1	[u'mæþ..e.2', u'mæþ..pp.1']  0.1 (mæth)
+
+uku oc til se mæth sinæ wæriande ær hun ej mæth
+ (sinæ)
+
+oc til se mæth sinæ wæriande ær hun ej mæth barne
+[u'væriandi..nn.1']  0.2 (wæriande)
+
+til se mæth sinæ wæriande ær hun ej mæth barne oc
+[u'ær..e.2', u'ær..e.1']  0	[u'æ..e.2', u'æ..ab.1']  0.1 (ær)
+
+se mæth sinæ wæriande ær hun ej mæth barne oc ær
+['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hon..nn.2', 'hon..nn.2', 'hon..e.1']  0.1 (hun)
+
+mæth sinæ wæriande ær hun ej mæth barne oc ær thær
+ (ej)
+
+sinæ wæriande ær hun ej mæth barne oc ær thær gothæ
+[u'mæt..nn.1']  0.1	[u'mæþ..e.2', u'mæþ..pp.1']  0.1 (mæth)
+
+wæriande ær hun ej mæth barne oc ær thær gothæ quinnæ
+['berna..e.1']  1.1	['birna..nn.1']  1.1 (barne)
+-- X
+
+ær hun ej mæth barne oc ær thær gothæ quinnæ witni
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (oc)
+
+hun ej mæth barne oc ær thær gothæ quinnæ witni til
+[u'ær..e.2', u'ær..e.1']  0	[u'æ..e.2', u'æ..ab.1']  0.1 (ær)
+
+ej mæth barne oc ær thær gothæ quinnæ witni til tha
+[u'þær..e.3', u'þær..e.2', u'þær..ab.1']  0.1	[u'tær..e.1']  0.1	[u'tæ..e.1']  0.2	[u'træ..nn.1']  1.1	[u'þræ..e.1']  1.2 (thær)
+
+mæth barne oc ær thær gothæ quinnæ witni til tha skiftæs
+ (gothæ)
+
+barne oc ær thær gothæ quinnæ witni til tha skiftæs eghn
+ (quinnæ)
+
+oc ær thær gothæ quinnæ witni til tha skiftæs eghn theræ
+['vitni..nn.1']  0.1	['vitne..nn.2']  0.2 (witni)
+
+ær thær gothæ quinnæ witni til tha skiftæs eghn theræ hus
+['til..e.1', 'til..e.1', 'til..e.1']  0 (til)
+
+thær gothæ quinnæ witni til tha skiftæs eghn theræ hus oc
+[u'þa..e.2', u'þa..ab.1', u'þa..e.1', u'þa..e.3', u'þa..e.2', u'þa..ab.1']  0.1	['ta..nn.2', 'ta..nn.1', 'ta..nn.1', 'ta..e.3', 'ta..nn.2', 'ta..ab.1']  0.1	[u'þe..e.1']  0.2	['te..vb.1']  0.2	['tea..vb.1', 'tea..vb.1', 'tea..vb.1']  1 (tha)
+
+gothæ quinnæ witni til tha skiftæs eghn theræ hus oc bolfæ
+ (skiftæs)
+
+quinnæ witni til tha skiftæs eghn theræ hus oc bolfæ oc
+['eghn..nn.1', 'eghn..av.1']  0	['egn..e.1']  0.1	['eghin..av.1', 'eghin..av.1']  1.1	['eghen..nn.1']  1.1 (eghn)
+
+witni til tha skiftæs eghn theræ hus oc bolfæ oc köpæ
+ (theræ)
+
+til tha skiftæs eghn theræ hus oc bolfæ oc köpæ iorth
+['hus..e.1', 'hus..nn.1', 'hus..nn.1']  0	['hos..e.1', 'hos..e.1', 'hos..e.1']  0.1 (hus)
+
+tha skiftæs eghn theræ hus oc bolfæ oc köpæ iorth halft
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (oc)
+
+skiftæs eghn theræ hus oc bolfæ oc köpæ iorth halft hænnæ
+[u'bolfæ..nn.1']  0 (bolfæ)
+
+eghn theræ hus oc bolfæ oc köpæ iorth halft hænnæ oc
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (oc)
+
+theræ hus oc bolfæ oc köpæ iorth halft hænnæ oc halft
+ (köpæ)
+
+hus oc bolfæ oc köpæ iorth halft hænnæ oc halft bondæns
+[u'iorþ..e.1']  0.1	[u'jorþ..nn.1']  0.2	['iordh..nn.1']  1 (iorth)
+
+oc bolfæ oc köpæ iorth halft hænnæ oc halft bondæns arwm
+ (halft)
+
+bolfæ oc köpæ iorth halft hænnæ oc halft bondæns arwm annær
+ (hænnæ)
+
+oc köpæ iorth halft hænnæ oc halft bondæns arwm annær gangæ
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (oc)
+
+köpæ iorth halft hænnæ oc halft bondæns arwm annær gangæ til
+ (halft)
+
+iorth halft hænnæ oc halft bondæns arwm annær gangæ til rættæ
+ (bondæns)
+
+halft hænnæ oc halft bondæns arwm annær gangæ til rættæ aruæ
+ (arwm)
+
+hænnæ oc halft bondæns arwm annær gangæ til rættæ aruæ annan
+ (annær)
+
+oc halft bondæns arwm annær gangæ til rættæ aruæ annan man
+ (gangæ)
+
+halft bondæns arwm annær gangæ til rættæ aruæ annan man ma
+['til..e.1', 'til..e.1', 'til..e.1']  0 (til)
+
+bondæns arwm annær gangæ til rættæ aruæ annan man ma ey
+ (rættæ)
+
+arwm annær gangæ til rættæ aruæ annan man ma ey arf
+ (aruæ)
+
+annær gangæ til rættæ aruæ annan man ma ey arf standæ
+ (annan)
+
+gangæ til rættæ aruæ annan man ma ey arf standæ æn
+['man..ab.3', 'man..nn.2', 'man..nn.2', 'man..nn.2', 'man..nn.1']  0 (man)
+
+til rættæ aruæ annan man ma ey arf standæ æn þæn
+ (ma)
+
+rættæ aruæ annan man ma ey arf standæ æn þæn ær
+['ey..ab.1']  0 (ey)
+
+aruæ annan man ma ey arf standæ æn þæn ær cristindom
+['arf..nn.2', 'arf..nn.3', 'arf..nn.2', 'arf..nn.1']  0 (arf)
+
+annan man ma ey arf standæ æn þæn ær cristindom far
+ (standæ)
+
+man ma ey arf standæ æn þæn ær cristindom far sighær
+[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0 (æn)
+
+ma ey arf standæ æn þæn ær cristindom far sighær mothær
+[u'þæn..e.2', u'þæn..nn.1']  0 (þæn)
+
+ey arf standæ æn þæn ær cristindom far sighær mothær oc
+[u'ær..e.2', u'ær..e.1']  0	[u'æ..e.2', u'æ..ab.1']  0.1 (ær)
+
+arf standæ æn þæn ær cristindom far sighær mothær oc hænnæ
+ (cristindom)
+
+standæ æn þæn ær cristindom far sighær mothær oc hænnæ frændær
+['far..av.3', 'far..av.4', 'far..nn.3', 'far..nn.1', 'far..nn.2', 'far..nn.1']  0	['fa..vb.1', 'fa..vb.1', 'fa..e.1']  0.1 (far)
+-- 2 (samma)
+
+æn þæn ær cristindom far sighær mothær oc hænnæ frændær at
+ (sighær)
+
+þæn ær cristindom far sighær mothær oc hænnæ frændær at barn
+ (mothær)
+
+ær cristindom far sighær mothær oc hænnæ frændær at barn war
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (oc)
+
+cristindom far sighær mothær oc hænnæ frændær at barn war föt
+ (hænnæ)
+
+far sighær mothær oc hænnæ frændær at barn war föt æftær
+ (frændær)
+
+sighær mothær oc hænnæ frændær at barn war föt æftær fathur
+['at..e.3', 'at..e.1', 'at..e.4', 'at..e.3', 'at..e.2', 'at..e.1', 'at..e.3', 'at..e.2', 'at..pp.1']  0	['adh..e.1']  0.1 (at)
+
+mothær oc hænnæ frændær at barn war föt æftær fathur oc
+['barn..nn.1', 'barn..nn.1', 'barn..nn.1']  0 (barn)
+
+oc hænnæ frændær at barn war föt æftær fathur oc netæ
+['var..nn.7', 'var..av.6', 'var..nn.5', 'var..nn.4', 'var..nn.3', 'var..nn.1', 'var..e.4', 'var..e.3', 'var..av.2', 'var..nn.1']  0.1	['va..nn.2', 'va..e.1']  0.2 (war)
+-- X
+
+hænnæ frændær at barn war föt æftær fathur oc netæ fæthirnis
+ (föt)
+
+frændær at barn war föt æftær fathur oc netæ fæthirnis frændær
+ (æftær)
+
+at barn war föt æftær fathur oc netæ fæthirnis frændær tha
+ (fathur)
+
+barn war föt æftær fathur oc netæ fæthirnis frændær tha skal
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (oc)
+
+war föt æftær fathur oc netæ fæthirnis frændær tha skal mothær
+ (netæ)
+
+föt æftær fathur oc netæ fæthirnis frændær tha skal mothær wæriændæ
+ (fæthirnis)
+
+æftær fathur oc netæ fæthirnis frændær tha skal mothær wæriændæ witæ
+ (frændær)
+
+fathur oc netæ fæthirnis frændær tha skal mothær wæriændæ witæ mæth
+[u'þa..e.2', u'þa..ab.1', u'þa..e.1', u'þa..e.3', u'þa..e.2', u'þa..ab.1']  0.1	['ta..nn.2', 'ta..nn.1', 'ta..nn.1', 'ta..e.3', 'ta..nn.2', 'ta..ab.1']  0.1	[u'þe..e.1']  0.2	['te..vb.1']  0.2	['tea..vb.1', 'tea..vb.1', 'tea..vb.1']  1 (tha)
+
+oc netæ fæthirnis frændær tha skal mothær wæriændæ witæ mæth twigiæ
+['skal..nn.2', 'skal..e.1', 'skal..nn.3', 'skal..nn.2', 'skal..nn.1', 'skal..nn.2', 'skal..nn.1']  0	['skall..nn.1']  0.1 (skal)
+-- X
+
+netæ fæthirnis frændær tha skal mothær wæriændæ witæ mæth twigiæ mannæ
+ (mothær)
+
+fæthirnis frændær tha skal mothær wæriændæ witæ mæth twigiæ mannæ witni
+ (wæriændæ)
+
+frændær tha skal mothær wæriændæ witæ mæth twigiæ mannæ witni oc
+ (witæ)
+
+tha skal mothær wæriændæ witæ mæth twigiæ mannæ witni oc tolf
+[u'mæt..nn.1']  0.1	[u'mæþ..e.2', u'mæþ..pp.1']  0.1 (mæth)
+
+skal mothær wæriændæ witæ mæth twigiæ mannæ witni oc tolf næfndom
+ (twigiæ)
+
+mothær wæriændæ witæ mæth twigiæ mannæ witni oc tolf næfndom mannum
+ (mannæ)
+
+wæriændæ witæ mæth twigiæ mannæ witni oc tolf næfndom mannum i
+['vitni..nn.1']  0.1	['vitne..nn.2']  0.2 (witni)
+
+witæ mæth twigiæ mannæ witni oc tolf næfndom mannum i kyni
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (oc)
+
+mæth twigiæ mannæ witni oc tolf næfndom mannum i kyni sinu
+['tolf..e.1']  0 (tolf)
+
+twigiæ mannæ witni oc tolf næfndom mannum i kyni sinu at
+ (næfndom)
+
+mannæ witni oc tolf næfndom mannum i kyni sinu at barn
+ (mannum)
+
+witni oc tolf næfndom mannum i kyni sinu at barn war
+['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0	['y..e.1']  0.1	['e..e.1', 'e..e.2', 'e..nn.1', 'e..e.1']  0.1 (i)
+
+oc tolf næfndom mannum i kyni sinu at barn war föt
+ (kyni)
+
+tolf næfndom mannum i kyni sinu at barn war föt bithiæ
+ (sinu)
+
+næfndom mannum i kyni sinu at barn war föt bithiæ sik
+['at..e.3', 'at..e.1', 'at..e.4', 'at..e.3', 'at..e.2', 'at..e.1', 'at..e.3', 'at..e.2', 'at..pp.1']  0	['adh..e.1']  0.1 (at)
+
+mannum i kyni sinu at barn war föt bithiæ sik swa
+['barn..nn.1', 'barn..nn.1', 'barn..nn.1']  0 (barn)
+
+i kyni sinu at barn war föt bithiæ sik swa guth
+['var..nn.7', 'var..av.6', 'var..nn.5', 'var..nn.4', 'var..nn.3', 'var..nn.1', 'var..e.4', 'var..e.3', 'var..av.2', 'var..nn.1']  0.1	['va..nn.2', 'va..e.1']  0.2 (war)
+-- X
+
+kyni sinu at barn war föt bithiæ sik swa guth hialpæ
+ (föt)
+
+sinu at barn war föt bithiæ sik swa guth hialpæ at
+ (bithiæ)
+
+at barn war föt bithiæ sik swa guth hialpæ at þæt
+['sik..e.1', 'sik..e.1', 'sik..e.1']  0 (sik)
+
+barn war föt bithiæ sik swa guth hialpæ at þæt banr
+['sva..e.1', 'sva..ab.1', 'sva..ab.1']  0.1 (swa)
+
+war föt bithiæ sik swa guth hialpæ at þæt banr barn
+[u'guþ..nn.1', u'guþ..nn.2', u'guþ..nn.1']  0.1	['gudh..nn.1']  1 (guth)
+
+föt bithiæ sik swa guth hialpæ at þæt banr barn war
+ (hialpæ)
+
+bithiæ sik swa guth hialpæ at þæt banr barn war föt
+['at..e.3', 'at..e.1', 'at..e.4', 'at..e.3', 'at..e.2', 'at..e.1', 'at..e.3', 'at..e.2', 'at..pp.1']  0	['adh..e.1']  0.1 (at)
+
+sik swa guth hialpæ at þæt banr barn war föt mæth
+[u'þæt..e.3', u'þæt..e.2', u'þæt..e.1']  0 (þæt)
+
+swa guth hialpæ at þæt banr barn war föt mæth naghl
+['ban..nn.1']  0.1 (banr)
+
+guth hialpæ at þæt banr barn war föt mæth naghl oc
+['barn..nn.1', 'barn..nn.1', 'barn..nn.1']  0 (barn)
+
+hialpæ at þæt banr barn war föt mæth naghl oc næsæ
+['var..nn.7', 'var..av.6', 'var..nn.5', 'var..nn.4', 'var..nn.3', 'var..nn.1', 'var..e.4', 'var..e.3', 'var..av.2', 'var..nn.1']  0.1	['va..nn.2', 'va..e.1']  0.2 (war)
+
+at þæt banr barn war föt mæth naghl oc næsæ oc
+ (föt)
+
+þæt banr barn war föt mæth naghl oc næsæ oc mæth
+[u'mæt..nn.1']  0.1	[u'mæþ..e.2', u'mæþ..pp.1']  0.1 (mæth)
+
+banr barn war föt mæth naghl oc næsæ oc mæth huth
+['naghl..nn.1', 'naghl..nn.1', 'naghl..nn.1']  0 (naghl)
+
+barn war föt mæth naghl oc næsæ oc mæth huth oc
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (oc)
+
+war föt mæth naghl oc næsæ oc mæth huth oc har
+[u'næsæ..nn.1']  0 (næsæ)
+
+föt mæth naghl oc næsæ oc mæth huth oc har oc
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (oc)
+
+mæth naghl oc næsæ oc mæth huth oc har oc fic
+[u'mæt..nn.1']  0.1	[u'mæþ..e.2', u'mæþ..pp.1']  0.1 (mæth)
+
+naghl oc næsæ oc mæth huth oc har oc fic sin
+[u'huþ..nn.1', u'huþ..nn.1']  0.1	['hot..nn.1', 'hot..nn.1']  0.2	['hudh..e.1', 'hudh..nn.1']  1 (huth)
+
+oc næsæ oc mæth huth oc har oc fic sin cristindom
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (oc)
+
+næsæ oc mæth huth oc har oc fic sin cristindom oc
+['har..nn.2', 'har..nn.1', 'har..e.3', 'har..nn.1', 'har..e.3', 'har..nn.2', 'har..nn.1']  0	['ha..e.1', 'ha..e.1']  0.1 (har)
+
+oc mæth huth oc har oc fic sin cristindom oc scal
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (oc)
+
+mæth huth oc har oc fic sin cristindom oc scal thær
+ (fic)
+
+huth oc har oc fic sin cristindom oc scal thær foræ
+['sin..nn.3', 'sin..e.1', 'sin..ab.4', 'sin..nn.3', 'sin..nn.2', 'sin..e.1', 'sin..e.4', 'sin..e.3', 'sin..e.2', 'sin..nn.1']  0	['syn..nn.1', 'syn..nn.1', 'syn..av.2', 'syn..nn.1']  0.1	['sen..ab.1', 'sen..ab.2', 'sen..av.1', 'sen..e.2', 'sen..av.1']  0.1 (sin)
+
+oc har oc fic sin cristindom oc scal thær foræ arf
+ (cristindom)
+
+har oc fic sin cristindom oc scal thær foræ arf standæ
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (oc)
+
+oc fic sin cristindom oc scal thær foræ arf standæ
+['skal..nn.2', 'skal..e.1', 'skal..nn.3', 'skal..nn.2', 'skal..nn.1', 'skal..nn.2', 'skal..nn.1']  0.1	['skall..nn.1']  0.2 (scal)
+
+fic sin cristindom oc scal thær foræ arf standæ
+[u'þær..e.3', u'þær..e.2', u'þær..ab.1']  0.1	[u'tær..e.1']  0.1	[u'tæ..e.1']  0.2	[u'træ..nn.1']  1.1	[u'þræ..e.1']  1.2 (thær)
+
+sin cristindom oc scal thær foræ arf standæ
+ (foræ)
+
+cristindom oc scal thær foræ arf standæ
+['arf..nn.2', 'arf..nn.3', 'arf..nn.2', 'arf..nn.1']  0 (arf)
+
+oc scal thær foræ arf standæ
+ (standæ)
+
+testfiles/Mar26.xml
+första capitel thetta är begynnilsen aff
+[u'förste..e.1', u'förste..nn.1', u'förste..nn.1']  0.1	['fyrsta..ab.1']  0.1 (första)
+
+första capitel thetta är begynnilsen aff jesu
+['kapitel..nn.1', 'kapitel..nn.1']  0.1 (capitel)
+
+första capitel thetta är begynnilsen aff jesu christi
+ (thetta)
+
+första capitel thetta är begynnilsen aff jesu christi gudz
+[u'är..e.2', u'är..nn.1']  0	[u'ä..e.4', u'ä..ab.1']  0.1 (är)
+
+första capitel thetta är begynnilsen aff jesu christi gudz sons
+ (begynnilsen)
+
+första capitel thetta är begynnilsen aff jesu christi gudz sons euangelio
+['af..e.1', 'af..e.1', 'af..pp.1']  0.1 (aff)
+
+capitel thetta är begynnilsen aff jesu christi gudz sons euangelio såsom
+ (jesu)
+
+thetta är begynnilsen aff jesu christi gudz sons euangelio såsom scriffuit
+ (christi)
+
+är begynnilsen aff jesu christi gudz sons euangelio såsom scriffuit är
+ (gudz)
+
+begynnilsen aff jesu christi gudz sons euangelio såsom scriffuit är j
+ (sons)
+
+aff jesu christi gudz sons euangelio såsom scriffuit är j propheterna
+ (euangelio)
+
+jesu christi gudz sons euangelio såsom scriffuit är j propheterna sy
+ (såsom)
+
+christi gudz sons euangelio såsom scriffuit är j propheterna sy iach
+ (scriffuit)
+
+gudz sons euangelio såsom scriffuit är j propheterna sy iach sender
+[u'är..e.2', u'är..nn.1']  0	[u'ä..e.4', u'ä..ab.1']  0.1 (är)
+
+sons euangelio såsom scriffuit är j propheterna sy iach sender min
+['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0.1 (j)
+
+euangelio såsom scriffuit är j propheterna sy iach sender min engel
+ (propheterna)
+
+såsom scriffuit är j propheterna sy iach sender min engel fram
+ (sy)
+
+scriffuit är j propheterna sy iach sender min engel fram för
+['iak..e.1', 'iak..e.1']  0.1	['jak..e.1']  0.2	['iaka..vb.1', 'iaka..vb.1']  1.1	['jaka..vb.1']  1.2 (iach)
+
+är j propheterna sy iach sender min engel fram för titt
+ (sender)
+
+j propheterna sy iach sender min engel fram för titt ansichte
+['min..e.1', 'min..ab.3', 'min..e.2', 'min..e.3', 'min..e.2', 'min..e.1']  0	['men..e.2', 'men..nn.1', 'men..av.3', 'men..nn.1', 'men..e.3', 'men..e.2', 'men..nn.1']  0.1 (min)
+
+propheterna sy iach sender min engel fram för titt ansichte huilkin
+ (engel)
+
+sy iach sender min engel fram för titt ansichte huilkin beredha
+['fram..e.1', 'fram..ab.1', 'fram..e.2', 'fram..ab.1']  0 (fram)
+
+iach sender min engel fram för titt ansichte huilkin beredha skal
+[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0	['fyr..ab.1', 'fyr..e.1', 'fyr..ab.1']  0.1 (för)
+
+sender min engel fram för titt ansichte huilkin beredha skal thin
+['titt..ab.1']  0 (titt)
+
+min engel fram för titt ansichte huilkin beredha skal thin wägh
+ (ansichte)
+
+engel fram för titt ansichte huilkin beredha skal thin wägh för
+ (huilkin)
+
+fram för titt ansichte huilkin beredha skal thin wägh för tich
+['beredha..vb.1', 'beredha..vb.1']  0 (beredha)
+
+för titt ansichte huilkin beredha skal thin wägh för tich en
+['skal..nn.2', 'skal..e.1', 'skal..nn.3', 'skal..nn.2', 'skal..nn.1', 'skal..nn.2', 'skal..nn.1']  0	['skall..nn.1']  0.1 (skal)
+
+titt ansichte huilkin beredha skal thin wägh för tich en ropande
+[u'þin..e.1', u'þin..e.1', u'þin..e.2', u'þin..e.1']  0.1	['tin..e.2', 'tin..nn.1']  0.1	[u'þyn..nn.1', u'þyn..nn.1', u'þyn..nn.1']  0.2	['ten..nn.1', 'ten..nn.1']  0.2 (thin)
+
+ansichte huilkin beredha skal thin wägh för tich en ropande röst
+[u'väg..nn.1']  0.2 (wägh)
+
+huilkin beredha skal thin wägh för tich en ropande röst är
+[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0	['fyr..ab.1', 'fyr..e.1', 'fyr..ab.1']  0.1 (för)
+
+beredha skal thin wägh för tich en ropande röst är j
+['tik..nn.1']  0.1 (tich)
+
+skal thin wägh för tich en ropande röst är j öknen
+['en..e.1', 'en..e.2', 'en..nn.1', 'en..ab.2', 'en..e.1']  0	['in..ab.2', 'in..e.2', 'in..ab.1']  0.1 (en)
+
+thin wägh för tich en ropande röst är j öknen bereedher
+ (ropande)
+
+wägh för tich en ropande röst är j öknen bereedher herrans
+[u'röst..nn.1', u'röst..nn.1', u'röst..nn.1']  0 (röst)
+
+för tich en ropande röst är j öknen bereedher herrans wägh
+[u'är..e.2', u'är..nn.1']  0	[u'ä..e.4', u'ä..ab.1']  0.1 (är)
+
+tich en ropande röst är j öknen bereedher herrans wägh görer
+['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0.1 (j)
+
+en ropande röst är j öknen bereedher herrans wägh görer hans
+ (öknen)
+
+ropande röst är j öknen bereedher herrans wägh görer hans stijghar
+ (bereedher)
+
+röst är j öknen bereedher herrans wägh görer hans stijghar retta
+ (herrans)
+
+är j öknen bereedher herrans wägh görer hans stijghar retta joannes
+[u'väg..nn.1']  0.2 (wägh)
+
+j öknen bereedher herrans wägh görer hans stijghar retta joannes döpte
+ (görer)
+
+öknen bereedher herrans wägh görer hans stijghar retta joannes döpte j
+['hans..e.2', 'hans..e.1']  0 (hans)
+
+bereedher herrans wägh görer hans stijghar retta joannes döpte j öknen
+['stigha..vb.1', 'stigha..vb.1', 'stigha..vb.1']  0.2	['stighia..nn.1']  1.3 (stijghar)
+
+herrans wägh görer hans stijghar retta joannes döpte j öknen och
+ (retta)
+
+wägh görer hans stijghar retta joannes döpte j öknen och predicade
+ (joannes)
+
+görer hans stijghar retta joannes döpte j öknen och predicade bätringenes
+ (döpte)
+
+hans stijghar retta joannes döpte j öknen och predicade bätringenes döpelse
+['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0.1 (j)
+
+stijghar retta joannes döpte j öknen och predicade bätringenes döpelse till
+ (öknen)
+
+retta joannes döpte j öknen och predicade bätringenes döpelse till syndernes
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (och)
+
+joannes döpte j öknen och predicade bätringenes döpelse till syndernes förlåtilse
+ (predicade)
+
+döpte j öknen och predicade bätringenes döpelse till syndernes förlåtilse och
+ (bätringenes)
+
+j öknen och predicade bätringenes döpelse till syndernes förlåtilse och till
+[u'döpilse..nn.1', u'döpilse..nn.1', u'döpilse..e.1']  0.1 (döpelse)
+
+öknen och predicade bätringenes döpelse till syndernes förlåtilse och till honom
+['til..e.1', 'til..e.1', 'til..e.1']  0.1 (till)
+
+och predicade bätringenes döpelse till syndernes förlåtilse och till honom vtgingo
+ (syndernes)
+
+predicade bätringenes döpelse till syndernes förlåtilse och till honom vtgingo hela
+ (förlåtilse)
+
+bätringenes döpelse till syndernes förlåtilse och till honom vtgingo hela judhae
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (och)
+
+döpelse till syndernes förlåtilse och till honom vtgingo hela judhae landit
+['til..e.1', 'til..e.1', 'til..e.1']  0.1 (till)
+
+till syndernes förlåtilse och till honom vtgingo hela judhae landit och
+ (honom)
+
+syndernes förlåtilse och till honom vtgingo hela judhae landit och the
+ (vtgingo)
+
+förlåtilse och till honom vtgingo hela judhae landit och the vtaff
+['hela..vb.1', 'hela..vb.1', 'hela..vb.1']  0	['hella..e.1', 'hella..e.1']  0.1	['heli..e.1']  1 (hela)
+
+och till honom vtgingo hela judhae landit och the vtaff hierusalem
+ (judhae)
+
+till honom vtgingo hela judhae landit och the vtaff hierusalem och
+ (landit)
+
+honom vtgingo hela judhae landit och the vtaff hierusalem och döptes
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (och)
+
+vtgingo hela judhae landit och the vtaff hierusalem och döptes alle
+[u'þe..e.1']  0.1	['te..vb.1']  0.1	[u'þa..e.2', u'þa..ab.1', u'þa..e.1', u'þa..e.3', u'þa..e.2', u'þa..ab.1']  0.2	['ti..e.1']  0.2	['ta..nn.2', 'ta..nn.1', 'ta..nn.1', 'ta..e.3', 'ta..nn.2', 'ta..ab.1']  0.2	[u'þi..e.1']  0.2	['tea..vb.1', 'tea..vb.1', 'tea..vb.1']  1.1 (the)
+
+hela judhae landit och the vtaff hierusalem och döptes alle aff
+ (vtaff)
+
+judhae landit och the vtaff hierusalem och döptes alle aff honom
+ (hierusalem)
+
+landit och the vtaff hierusalem och döptes alle aff honom j
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (och)
+
+och the vtaff hierusalem och döptes alle aff honom j jordans
+ (döptes)
+
+the vtaff hierusalem och döptes alle aff honom j jordans floodh
+['alla..e.1']  0.1	['ala..vb.1']  0.2	['ella..e.1', 'ella..e.1']  1.1	['illa..ab.1', 'illa..ab.1', 'illa..vb.2', 'illa..ab.1']  1.1	['ila..nn.3', 'ila..vb.2', 'ila..vb.1']  1.2 (alle)
+
+vtaff hierusalem och döptes alle aff honom j jordans floodh wedherkennandes
+['af..e.1', 'af..e.1', 'af..pp.1']  0.1 (aff)
+
+hierusalem och döptes alle aff honom j jordans floodh wedherkennandes theres
+ (honom)
+
+och döptes alle aff honom j jordans floodh wedherkennandes theres synder
+['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0.1 (j)
+
+döptes alle aff honom j jordans floodh wedherkennandes theres synder och
+ (jordans)
+
+alle aff honom j jordans floodh wedherkennandes theres synder och joannes
+['flodh..e.1']  0.1	['flot..e.1', 'flot..e.2', 'flot..nn.1']  0.2 (floodh)
+
+aff honom j jordans floodh wedherkennandes theres synder och joannes war
+ (wedherkennandes)
+
+honom j jordans floodh wedherkennandes theres synder och joannes war klädder
+ (theres)
+
+j jordans floodh wedherkennandes theres synder och joannes war klädder medh
+['synder..e.1', 'synder..e.1']  0	[u'sönder..e.1', u'sönder..e.1', u'sönder..e.1']  0.1 (synder)
+
+jordans floodh wedherkennandes theres synder och joannes war klädder medh camele
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (och)
+
+floodh wedherkennandes theres synder och joannes war klädder medh camele håår
+ (joannes)
+
+wedherkennandes theres synder och joannes war klädder medh camele håår och
+['var..nn.7', 'var..av.6', 'var..nn.5', 'var..nn.4', 'var..nn.3', 'var..nn.1', 'var..e.4', 'var..e.3', 'var..av.2', 'var..nn.1']  0.1	['va..nn.2', 'va..e.1']  0.2 (war)
+
+theres synder och joannes war klädder medh camele håår och medh
+ (klädder)
+
+synder och joannes war klädder medh camele håår och medh en
+['medh..e.1']  0	['mit..ab.1']  0.2 (medh)
+
+och joannes war klädder medh camele håår och medh en lädergiording
+ (camele)
+
+joannes war klädder medh camele håår och medh en lädergiording om
+ (håår)
+
+war klädder medh camele håår och medh en lädergiording om hans
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (och)
+
+klädder medh camele håår och medh en lädergiording om hans länder
+['medh..e.1']  0	['mit..ab.1']  0.2 (medh)
+
+medh camele håår och medh en lädergiording om hans länder och
+['en..e.1', 'en..e.2', 'en..nn.1', 'en..ab.2', 'en..e.1']  0	['in..ab.2', 'in..e.2', 'in..ab.1']  0.1 (en)
+
+camele håår och medh en lädergiording om hans länder och ååt
+ (lädergiording)
+
+håår och medh en lädergiording om hans länder och ååt gräßhoppor
+['om..e.2', 'om..nn.1', 'om..e.1']  0	['um..e.2', 'um..e.1', 'um..e.2', 'um..e.1', 'um..kn.2', 'um..pp.1']  0.1 (om)
+
+och medh en lädergiording om hans länder och ååt gräßhoppor och
+['hans..e.2', 'hans..e.1']  0 (hans)
+
+medh en lädergiording om hans länder och ååt gräßhoppor och villhonnugh
+ (länder)
+
+en lädergiording om hans länder och ååt gräßhoppor och villhonnugh och
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (och)
+
+lädergiording om hans länder och ååt gräßhoppor och villhonnugh och predicadhe
+ (ååt)
+
+om hans länder och ååt gräßhoppor och villhonnugh och predicadhe och
+ (gräßhoppor)
+
+hans länder och ååt gräßhoppor och villhonnugh och predicadhe och sagde
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (och)
+
+länder och ååt gräßhoppor och villhonnugh och predicadhe och sagde
+ (villhonnugh)
+
+och ååt gräßhoppor och villhonnugh och predicadhe och sagde
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (och)
+
+ååt gräßhoppor och villhonnugh och predicadhe och sagde
+ (predicadhe)
+
+gräßhoppor och villhonnugh och predicadhe och sagde
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.1	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.2 (och)
+
+och villhonnugh och predicadhe och sagde
+ (sagde)

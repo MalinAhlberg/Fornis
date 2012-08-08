@@ -10,10 +10,12 @@ from xmlindent import indent
 """ Methods for finding meta-data about the lexicons """
 
 def printvariants(fil):
+# förbättringar: ha lista med saker som ej ska med (typ 'jfr','konj')
+#                (ta med lika många ord i varianten som i writtenForm, funkar ej, för mycket skräp)
+# kan kanske kopieras (de som är ok) till 'variant', men ha kvar också.
   entries,_ = readIt(fil) 
   result    = []
   for entry in entries:
-    #lemgram  = getLem(entry,old=True)
     lemgrams = getAtt(getFormRepresentation(entry),'writtenForm')
     if len(lemgrams)>1:
       print lemgrams[0],'more than one form'
@@ -24,17 +26,17 @@ def printvariants(fil):
       result.append(lemgram+'\n'+varlist)
   codecs.open('spellvariantiontestcorr','w',encoding='utf-8').write(''.join(result))
 
-# OBS don't compare with lemgrams..
 def clean(original,word):
   if word[0]:
-    cleaned  = word[0].split()[0].strip() 
+    cleaned  = ' '.join(word[0].split()[0]).strip() 
     halfword = cleaned.startswith('-') or cleaned.endswith('-')
-    trams  = re.search('[()]',cleaned)
+    trams    = re.search('[()]',cleaned)
     if not halfword and cleaned and oklength(original,cleaned) and not trams:
-      return '\t'+cleaned.strip(' *:,;.')+'\n'
+      return '\t'+cleaned.strip(' *:,;.?')+'\n'
   return ''
 
 # godtyckligt mått på hur olika långa varianter kan vara
+# får ej heller vara samma
 def oklength(original,word):
   return original!=word and abs(len(original)-len(word))<4
 

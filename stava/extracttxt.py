@@ -33,7 +33,8 @@ def shownice(xs,t='\t',n='\n'):
     return s
 
 # Functions for reading an xml lexicon
-"""reads a lexicon into a hased anagram dictionary.
+"""reads lexicons into a hased anagram dictionary:
+     {hash : {wordForm : [(lemgram, lexiconname)]}}
    If old is set to True, lemgram is supposed to be located inside
    FormRepresentation, otherwise directly in Lemma
    morf indicates if the lexicon is a morfology file.. savest not to use"""
@@ -97,12 +98,8 @@ def getAtt(elem,val):
    inserts lem in the dictionary lem in the dictionary d"""
 def insert(d,form,lem,fil):
     key = sum([iso(c) for c in form])
-    old = d.get(key)
-    if old!=None:
-      oldval = old.get(form) if old.get(form)!=None else []
-      old.update({form:[(lem,fil)]+oldval})
-    else:
-      d.update({key : {form : [(lem,fil)]}})
+    d.setdefault(key,{}).setdefault(form, []).append((lem,fil))
+
 
 def getShortFile(fil):
    if re.search('schlyter',fil):

@@ -15,5 +15,9 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
      url(r'^admin/', include(admin.site.urls)),
      url(r'^starta/', 'textview.test.start'),
+     url(r'^textid(\d+)/variantview/(.*)', 'textview.test.viewtext'),
+     url(r'^textid(\d+)/lemgramview/(.*)', 'textview.test.viewtext'),
      url(r'^textid(\d+)/', 'textview.test.viewtext'),
+     url(r'.*', 'textview.test.viewtext'),
+     #url(r'^lemgramview/(.*)/', 'textview.test.viewlemgram'),
 )

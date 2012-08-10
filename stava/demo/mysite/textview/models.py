@@ -1,18 +1,23 @@
 from django.db import models
 
-# Create your models here.
-
 class Lemgram(models.Model):
     lemgram  = models.CharField(max_length=100)
-    postag   = models.CharField(max_length=20)
-    text     = models.CharField(max_length=200)
+    text = models.CharField(max_length=200) 
 
     def __unicode__(self):
       return self.lemgram
 
+class WrittenForm(models.Model):
+    form =  models.CharField(max_length=50)
+    lemgrams = models.ManyToManyField(Lemgram)
+
+    def __unicode__(self):
+      return self.form
+
+
 class Word(models.Model):
     word     = models.CharField(max_length=50)
-    variants = models.ManyToManyField(Lemgram)
+    variants = models.ManyToManyField(WrittenForm)
 
     def __unicode__(self):
       return self.word

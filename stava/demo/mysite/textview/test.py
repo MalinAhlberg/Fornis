@@ -11,10 +11,11 @@ def start(request):
   
 
 def viewtextid(request,tid):
-  viewtextid(request,tid=tid)
+  print 'have a id',tid
+  return viewtext(request,tid=tid)
 
 def viewtextidvariant(request,tid,variant):
-  viewtextid(request,tid=tid,lemgrams=variant)
+  return viewtext(request,tid=tid,lemgrams=variant)
 
 def viewtext(request,tid=0,lemgrams=''):
     print 'will try to view text',tid

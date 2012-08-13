@@ -10,6 +10,12 @@ def start(request):
   return HttpResponse("Now the start test")
   
 
+def viewtextid(request,tid):
+  viewtextid(request,tid=tid)
+
+def viewtextidvariant(request,tid,variant):
+  viewtextid(request,tid=tid,lemgrams=variant)
+
 def viewtext(request,tid=0,lemgrams=''):
     print 'will try to view text',tid
     txt  = Textview.objects.filter(pk=tid)
@@ -25,8 +31,9 @@ def viewtext(request,tid=0,lemgrams=''):
 
       if lemgrams:
         print 'would show a lemgram view..'
-        html = viewlemgram('',lemgrams) 
-        c['lemgramviews'] = html
+       # html = viewlemgram('',lemgrams) 
+        print 'url',lemgrams
+        c['lemgramurl'] = lemgrams
     else:
       print 'cannot find it'
       t = loader.get_template('textview/index.html')

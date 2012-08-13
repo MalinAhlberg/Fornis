@@ -1,24 +1,22 @@
 module Normalize where
 import qualified Data.Map as M
-import qualified Data.ByteString as BS
-import qualified Data.ByteString.Char8 as BSC
 import Data.Char hiding (isLetter)
 import Data.Set hiding (map,filter)
-import Types
 
+type Iso = Integer
 
-normalize :: [BS.ByteString] -> M.Map Iso (Set BS.ByteString)
+normalize :: [String] -> M.Map Iso (Set String)
 normalize = 
   M.fromListWith union . map (\w -> let normw = norm w in (hashiso normw,singleton normw)) 
 
 iso :: Char -> Iso
 iso c = (toEnum $ if isLetter c then ord (toLower c) else 0) ^ 5
 
-hashiso :: BS.ByteString -> Iso
-hashiso = sum . map iso . BSC.unpack
+hashiso :: String -> Iso
+hashiso = sum . map iso
   
-norm :: BS.ByteString -> BS.ByteString
-norm = BSC.pack . map toLower . filter isLetter . BSC.unpack
+norm :: String -> String
+norm = filter isLetter 
 
 (|||) :: (a -> Bool) -> (a -> Bool) -> a -> Bool
 f ||| g = \x -> f x || g x

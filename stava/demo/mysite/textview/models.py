@@ -31,6 +31,8 @@ class Textview(models.Model):
       return self.title
 
 
+# TODO start using this instead of WrittenForm
+# or have WF in between..? Adapt db and views to use this!
 class Variant(models.Model):
     variant  =  models.CharField(max_length=50)
     distance = models.DecimalField

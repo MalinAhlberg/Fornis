@@ -1,101 +1,76 @@
-# -*- coding: utf-8 -*-
+# -*- coding: utf_8 -*-
 from extracttxt import *
-from cc import norm,spellchecksmall
+from cc import norm
 from xml.etree import ElementTree as etree
-# from collections import Counter
-import collections
+from collections import Counter
 import printstats
 import codecs
 import re
 import glob
-import sys
-
-
-
-####
-
-def Counter(iterable):
-
-    ret = collections.defaultdict(int)
-    
-    for w in iterable:
-        ret[w] += 1
-
-    return ret
-    
-
-####
-
 
 """ Output files, all words and their found variations are printed to
     outputWords summary data is printed to outputData """
 
-outputStats = 'kast1'
+outputWords = 'testet2W' #'bibsmalltestall'
+outputData  = 'testet2D' #'bibsmalltestdata'
+outputStats = 'testet2S'
 
-
+testfiles1 = ['../filerX/SkaL.xml','../filerX/Erik-A.xml'
+            ,'../filerX/AngDikt.xml','../filerX/Laek9.xml']
+testfiles = glob.glob('testfiles/*')
 
 """ sammanstall reads xml files and finds spelling variation of the text"""
 def sammanstall():
-    from readvariant import mkeditMap,mkeditMap2
-   #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
-#    files = ['testa.xml'] #
-#    files = ['SkaL.txt','Mar26.txt']
-    files = testfiles #'x'#             
-   #hashd = readlex(morflex,morf=True)
-   #hashd = readlex(smallex)
-    hashd = readlex(oldlex2,old=True)
+    from readvariant import getvariant,mkeditMap
+    #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
+    #files = glob.glob('../filerX/Ap*xml')+glob.glob('../filerX/Mar*Lund*xml')
+    #files = glob.glob('../filerX/Mar41*Lund*xml')
+    files = testfiles
+    hashd = readlex(oldlex2,old=True) #oldlex)#dalin
     #edit,alpha  = mkeditMap('lex_variation.txt',both=True)
     #edit,alpha = mkeditMap('char_variant.txt')
-    #edit,alpha = mkeditMap('char_varsmallest.txt')
-    #edit,alpha = mkeditMap('trimap_var.txt',weigth=False)
-    edit,alpha = mkeditMap('trimap_small.txt',weigth=False)
-    # TODO why does the one below become slower when it's smaller?
-    #edit,alpha = mkeditMap2('trimap_newmorethan2.txt')
-    sys.stdout = codecs.open('trams3','w',encoding='utf-8')
-    [getdata(fil,hashd,alpha,edit) for fil in files]
-#    codecs.open(outputData,'w',encoding='utf8').write(shownice(res))
-    #sys.stdout = sys.__stdout__
-    print 'printed files',outputStats
-
-
-""" Paths to testfiles """
-testfiles1 = ['../filerX/SkaL.xml','../filerX/Erik-A.xml'
-            ,'../filerX/AngDikt.xml','../filerX/Laek9.xml']
-testfiles = glob.glob('testfiles/*xml')
+    edit,alpha = mkeditMap('char_varsmallest.txt')
+    res = [getdata(fil,hashd,alpha,edit) for fil in files]
+    codecs.open(outputData,'w',encoding='utf8').write(shownice(res))
+    print 'printed files',outputWords,outputData
 
 """ Paths to lexicons """
 oldlex = (['../scripts/lexiconinfo/newer/schlyter.xml'
          ,'../scripts/lexiconinfo/newer/soederwall_main.xml'
          ,'../scripts/lexiconinfo/newer/soederwall_supp.xml'])
-oldlex2 = (['schlyter.xml'
-           ,'soederwall_main.xml'
-           ,'soederwall_supp.xml'])
+oldlex2 = (['../../Lexicon/schlyter.xml'
+           ,'../../Lexicon/soederwall_ny/soederwall_main_NYAST.xml'
+           ,'../../Lexicon/soederwall_ny/soederwall_supp_NYAST.xml'])
 
-dalin    = ['../../Lexicon/dalin.xml']
-smalllex = ['../scripts/littlelex.xml'] 
-morflex  = ['../../Lexicon/good/lmf/fsv/fsv.xml'] 
+dalin =  ['../../Lexicon/dalin.xml']
 
 """ getdata takes a xml file, a hashed lexicons and a set of allowed spelling
     variations and identifies spelling variations"""
 def getdata(fil,hashd,alpha,edit):
+    from readvariant import getvariant
     print fil
-    txt    = ''.join(gettext(fil))#'cristindom' #'villhonnugh' # # euangelio' #'euangelio' #'euangelio' 
-#    with codecs.open(fil,'r','utf8') as f:
-#        txt    = ''.join(f.read()) 
+    txt    = ''.join(gettext(fil)) 
     wds    = map(lambda x: norm(x).lower(),txt.split())
+    #a = alphabet(wds)       #remove if using small spellcheck, but use _all_ words
+    wds    = wds[:150]
+    # ta 150 här för ett litet test!
     typs   = Counter(wds)
     dic = {}
 
     # look through all types, find spelling variation and create a dictionary of these
-    for (w,i) in typs.items():
-      dic.update({w:spellchecksmall(w,hashd,alpha,edit)})
+    map(lambda (w,i):  dic.update({w:(i,spellchecksmall(w,hashd,alpha,edit))}),typs.items()) 
     # tab is a list of all words in the same order as in the text, mapped to
     # their spelling variation
     tab = map(lambda w: (w,dic.get(w)),wds)
+    # calculate statistics about the success rate
+    gw,gt,bw,bt,vw,vt = calculate(dic)
+    res = ' '.join(['good',str(gw),'(',str(gt),') bad',str(bw),'(',str(bt)
+                   ,')','variations',str(vw),'(',str(vt),')\n***\n'])
     
-    with codecs.open(outputStats,'a',encoding='utf8') as f:
-      f.write('\n'+fil+'\n'+printstats.printstat(tab))
-
+    # print the text where each word is mapped to its variations
+    codecs.open(outputWords,'a',encoding='utf8').write('\n'+fil+' '+res+'\n'+shownice(tab))
+    codecs.open(outputStats,'a',encoding='utf8').write('\n'+fil+' '+res+'\n'+printstats.printstat(tab))
+    return (fil,gw,gt,bw,bt,vw,vt,gw+bw+vw,gt+bt+vt)
 
 """ calculate extracts data of how many types and tokens that could be found
     directly in the lexicon"""
@@ -122,7 +97,25 @@ def insertnormal(d,form,lem):
     d.update({form : [lem]+lst})
 
 if __name__ == "__main__":
-
-  sys.stdout = codecs.getwriter('utf8')(sys.stdout)
   sammanstall()
+################################################################################
+# Not used
+################################################################################
+
+"""reads a lexicon into a 'normal' dictionary.
+   If old is set to True, lemgram is supposed to be located inside
+   FormRepresentation, otherwise directly in Lemma """
+def readlexnormal(files,old=False):
+    d = {}
+    for fil in files:
+      s = open(fil,"r").read()
+      lexicon = etree.fromstring(s)
+      lex     = lexicon.find('Lexicon')
+      entries = lex.findall('LexicalEntry')
+      for entry in entries:
+         lem    = getLemgram(entry,old)
+         forms  = getWrittenforms(entry,old)
+         for form in forms:
+           insertnormal(d,form,lem)
+    return d
 

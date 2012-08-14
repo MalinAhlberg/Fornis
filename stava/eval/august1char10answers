@@ -1,750 +1,813 @@
-obs denna fil är ej tillförlitlig! vad ska vi jämföra med? gör helst om hela filen
+testfiles/SkaL.xml good 17 ( 13 ) bad 0 ( 0 ) variations 131 ( 79 )
+***
 
-testfiles/SkaL.xml
 far man kunu oc dör han
-['far..av.3', 'far..av.4', 'far..nn.3', 'far..nn.1', 'far..nn.2', 'far..nn.1']  0	['fyr..ab.1', 'fyr..e.1', 'fyr..ab.1']  0.0463647471627	['fa..vb.1', 'fa..vb.1', 'fa..e.1']  0.0499764113759	[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0.0572517764657	['oar..nn.1', 'oar..nn.1']  0.0588765388458	[u'þar..e.1', u'þar..e.1', u'þar..e.1']  0.0658719757838	['fat..nn.1', 'fat..e.2', 'fat..nn.1', 'fat..e.3', 'fat..nn.2', 'fat..e.1']  0.0684554718635	['sar..av.3', 'sar..nn.2', 'sar..nn.1', 'sar..av.4', 'sar..nn.3', 'sar..nn.2', 'sar..e.3', 'sar..av.2', 'sar..nn.1']  0.0684682492407	['kar..nn.1', 'kar..nn.1', 'kar..nn.1']  0.0700968978672	['fir..ab.1']  0.0717371388329 (far)
+['far..av.3', 'far..av.4', 'far..nn.3', 'far..nn.1', 'far..nn.2', 'far..nn.1']  0	['far..av.3', 'far..av.4', 'far..nn.3', 'far..nn.1', 'far..nn.2', 'far..nn.1']  0	['par..nn.2', 'par..nn.1', 'par..nn.1']  0.147257170711	['var..nn.7', 'var..av.6', 'var..nn.5', 'var..nn.4', 'var..nn.3', 'var..nn.1', 'var..e.4', 'var..e.3', 'var..av.2', 'var..nn.1']  0.21043249498	['mar..nn.1', 'mar..nn.2', 'mar..nn.1']  0.412377473415	['bar..av.2', 'bar..nn.1', 'bar..av.4', 'bar..nn.2', 'bar..nn.1', 'bar..av.1']  0.421754826101	['fan..e.1']  0.432044178463	['gar..e.1', 'gar..nn.1', 'gar..vb.1']  0.442704535472	['for..e.2', 'for..nn.1', 'for..e.2', 'for..nn.1', 'for..ab.4', 'for..e.3', 'for..av.2', 'for..nn.1']  0.467238964741	['fal..nn.2', 'fal..av.1', 'fal..nn.3', 'fal..av.1', 'fal..av.2', 'fal..nn.1']  0.477943153945 (far)
+-- X 
 
 far man kunu oc dör han för
-['man..ab.3', 'man..nn.2', 'man..nn.2', 'man..nn.2', 'man..nn.1']  0	['mun..e.1', 'mun..vb.2', 'mun..nn.1']  0.0620226527214	['dan..nn.1']  0.0642491869581	['min..e.1', 'min..ab.3', 'min..e.2', 'min..e.3', 'min..e.2', 'min..e.1']  0.0717371388329	['mon..nn.1', 'mon..nn.2', 'mon..nn.1', 'mon..e.1']  0.0760914450387	['ran..nn.1', 'ran..nn.1', 'ran..nn.1']  0.0764684325255	['mat..nn.1', 'mat..nn.3', 'mat..nn.2', 'mat..nn.1']  0.0766262626823	['mar..nn.1', 'mar..nn.2', 'mar..nn.1']  0.0839227431006	['fan..e.1']  0.0885816151476	['men..e.2', 'men..nn.1', 'men..av.3', 'men..nn.1', 'men..e.3', 'men..e.2', 'men..nn.1']  0.0910195199504 (man)
+['man..ab.3', 'man..nn.2', 'man..nn.2', 'man..nn.2', 'man..nn.1']  0	['man..ab.3', 'man..nn.2', 'man..nn.2', 'man..nn.2', 'man..nn.1']  0	[u'mæn..e.1']  0.278434685699	['lan..nn.1', 'lan..nn.1', 'lan..nn.1']  0.355888470047	[u'maþ..nn.1', u'maþ..e.1']  0.367739970648	['mal..nn.3', 'mal..nn.2', 'mal..nn.1', 'mal..nn.3', 'mal..nn.2', 'mal..nn.1', 'mal..nn.2', 'mal..nn.1']  0.386389016462	['men..e.2', 'men..nn.1', 'men..av.3', 'men..nn.1', 'men..e.3', 'men..e.2', 'men..nn.1']  0.402445659173	['fan..e.1']  0.412377473415	['mar..nn.1', 'mar..nn.2', 'mar..nn.1']  0.432044178463	['mat..nn.1', 'mat..nn.3', 'mat..nn.2', 'mat..nn.1']  0.464746758639 (man)
 
 far man kunu oc dör han för en
-['kun..nn.1']  0.0474597075468	['kuna..e.1', 'kuna..e.1']  0.0620226527214	['kus..nn.1', 'kus..nn.1']  0.108867553743	['kin..nn.1', 'kin..nn.1']  0.110089143216	['tun..nn.1', 'tun..nn.1']  0.12016014466	['kusi..nn.1', 'kusi..nn.1']  0.124037281865	['mun..e.1', 'mun..vb.2', 'mun..nn.1']  0.125663502045	[u'kön..av.2', u'kön..e.1', u'kön..nn.1']  0.126662689841	['kur..e.1']  0.131382450647	['kyn..nn.1', 'kyn..e.2', 'kyn..nn.1', 'kyn..nn.1']  0.137192283261 (kunu)
+['kuna..e.1', 'kuna..e.1']  0.537822592341	['kun..nn.1']  0.622135679698	['kona..nn.1', 'kona..nn.1', 'kona..e.1']  0.679452002304	['kon..nn.1', 'kon..nn.1']  0.763765089661	['kuma..e.1', 'kuma..e.1']  0.858950551359	['kula..nn.1']  0.924211608803	['muna..e.1']  0.995295348702	['luto..av.1']  1.02076457041	['kyn..nn.1', 'kyn..e.2', 'kyn..nn.1', 'kyn..nn.1']  1.02979406055	[u'kön..av.2', u'kön..e.1', u'kön..nn.1']  1.07506018473 (kunu)
 
 far man kunu oc dör han för en hun
-['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.17841199011	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.223708906102	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.373866132291 (oc)
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.167944804013	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.309574213976	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.80368254354 (oc)
 
 far man kunu oc dör han för en hun far
-[u'dör..e.1', u'dör..e.1', u'dör..e.1']  0	['dar..nn.1']  0.0572517764657	[u'gör..av.1', u'gör..av.1', u'gör..av.1']  0.0575319643727	[u'rör..nn.2', u'rör..nn.1', u'rör..nn.2', u'rör..nn.1', u'rör..nn.2', u'rör..nn.1']  0.061037054848	[u'mör..av.2']  0.0642491869581	[u'sör..nn.1', u'sör..av.2', u'sör..nn.1']  0.0668503868172	[u'nör..e.1', u'nör..e.1']  0.0703288527106	[u'hör..nn.1', u'hör..nn.1']  0.0717345671292	[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0.0735513625793	['dur..e.1', 'dur..e.1', 'dur..e.1']  0.0792029822946 (dör)
+[u'dör..e.1', u'dör..e.1', u'dör..e.1']  0	[u'dör..e.1', u'dör..e.1', u'dör..e.1']  0	[u'þör..av.1', u'þör..av.1']  0.160774451741	['dyr..e.2', 'dyr..av.1', 'dyr..av.3', 'dyr..nn.2', 'dyr..av.2', 'dyr..nn.1']  0.2494914147	['dor..e.1', 'dor..e.1']  0.311842256965	['dur..e.1', 'dur..e.1', 'dur..e.1']  0.452924505032	[u'þor..e.1']  0.472616708706	[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0.479259235842	[u'hör..nn.1', u'hör..nn.1']  0.488045972662	[u'nör..e.1', u'nör..e.1']  0.494954951757 (dör)
+-- X
 
 far man kunu oc dör han för en hun far barn
-['han..e.1', 'han..e.1', 'han..e.1']  0	['has..nn.1']  0.0614078461961	['hun..e.1', 'hun..e.2', 'hun..e.1']  0.0620226527214	[u'þan..e.1', u'þan..kn.4', u'þan..kn.3', u'þan..e.2', u'þan..e.1']  0.0628705591828	['lan..nn.1', 'lan..nn.1', 'lan..nn.1']  0.0647142826421	['dan..nn.1']  0.0717345671292	['hin..e.1', 'hin..e.1', 'hin..e.1']  0.0717371388329	['fan..e.1']  0.0721251267398	['hon..nn.2', 'hon..nn.2', 'hon..e.1']  0.0760914450387	['hat..nn.1', 'hat..nn.1', 'hat..nn.1']  0.0766262626823 (han)
+['han..e.1', 'han..e.1', 'han..e.1']  0	['han..e.1', 'han..e.1', 'han..e.1']  0	[u'hæn..e.1']  0.278434685699	[u'haþ..nn.1', u'haþ..nn.1']  0.367739970648	['hal..av.3', 'hal..nn.2', 'hal..nn.1', 'hal..av.3', 'hal..nn.2', 'hal..nn.1']  0.386389016462	['hen..ab.1']  0.402445659173	['har..nn.2', 'har..nn.1', 'har..e.3', 'har..nn.1', 'har..e.3', 'har..nn.2', 'har..nn.1']  0.432044178463	['hat..nn.1', 'hat..nn.1', 'hat..nn.1']  0.464746758639	['hon..nn.2', 'hon..nn.2', 'hon..e.1']  0.467238964741	['fan..e.1']  0.486143579619 (han)
 
 man kunu oc dör han för en hun far barn oc
-[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0	['far..av.3', 'far..av.4', 'far..nn.3', 'far..nn.1', 'far..nn.2', 'far..nn.1']  0.0572517764657	[u'þör..av.1', u'þör..av.1']  0.0658719757838	[u'sör..nn.1', u'sör..av.2', u'sör..nn.1']  0.0684682492407	[u'hör..nn.1', u'hör..nn.1']  0.0721251267398	[u'dör..e.1', u'dör..e.1', u'dör..e.1']  0.0735513625793	[u'föl..e.1', u'föl..nn.1']  0.0738263478364	['fir..ab.1']  0.0746240357084	[u'gör..av.1', u'gör..av.1', u'gör..av.1']  0.0814852694273	[u'bör..e.1']  0.0863331114584 (för)
+[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0	[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0	['fyr..ab.1', 'fyr..e.1', 'fyr..ab.1']  0.2494914147	['for..e.2', 'for..nn.1', 'for..e.2', 'for..nn.1', 'for..ab.4', 'for..e.3', 'for..av.2', 'for..nn.1']  0.311842256965	[u'mör..av.2']  0.412377473415	[u'bör..e.1']  0.421754826101	[u'gör..av.1', u'gör..av.1', u'gör..av.1']  0.442704535472	['fir..ab.1']  0.474145824923	[u'föl..e.1', u'föl..nn.1']  0.477943153945	[u'dör..e.1', u'dör..e.1', u'dör..e.1']  0.479259235842 (för)
 
 kunu oc dör han för en hun far barn oc sigher
-['en..e.1', 'en..e.2', 'en..nn.1', 'en..ab.2', 'en..e.1']  0	['et..e.1']  0.0766262626823	['er..nn.1', 'er..e.2', 'er..nn.1']  0.0839227431006	['an..nn.1', 'an..e.2', 'an..nn.1']  0.0910195199504	['in..ab.2', 'in..e.2', 'in..ab.1']  0.10279281815	['os..nn.1', 'os..nn.2', 'os..nn.1', 'os..e.2', 'os..nn.1']  0.106704762188	['us..e.1']  0.107142477573	[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0.117242849434	['ut..ab.1', 'ut..ab.1']  0.122360894059	['or..e.1', 'or..e.2', 'or..e.1']  0.129219659093 (en)
+['en..e.1', 'en..e.2', 'en..nn.1', 'en..ab.2', 'en..e.1']  0	['en..e.1', 'en..e.2', 'en..nn.1', 'en..ab.2', 'en..e.1']  0	[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0.309614131374	['in..ab.2', 'in..e.2', 'in..ab.1']  0.357747380939	['an..nn.1', 'an..e.2', 'an..nn.1']  0.402445659173	['er..nn.1', 'er..e.2', 'er..nn.1']  0.432044178463	['et..e.1']  0.464746758639	[u'æm..e.2', u'æm..e.1']  0.630742090392	['am..nn.1']  0.723573618191	[u'iþ..nn.1']  0.725487351587 (en)
 
 oc dör han för en hun far barn oc sigher hun
-['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hen..ab.1']  0.0457346313766	[u'hæn..e.1']  0.0558509442148	['hus..e.1', 'hus..nn.1', 'hus..nn.1']  0.0614078461961	['han..e.1', 'han..e.1', 'han..e.1']  0.0620226527214	['hin..e.1', 'hin..e.1', 'hin..e.1']  0.0626294356689	['hur..e.1']  0.0839227431006	['hul..av.2', 'hul..nn.1', 'hul..nn.1']  0.0950910602353	[u'huþ..nn.1', u'huþ..nn.1']  0.100037919207	['ann..e.1']  0.102828738699 (hun)
+['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hon..nn.2', 'hon..nn.2', 'hon..e.1']  0.141629409963	[u'huþ..nn.1', u'huþ..nn.1']  0.367739970648	['hul..av.2', 'hul..nn.1', 'hul..nn.1']  0.386389016462	['hur..e.1']  0.432044178463	['hol..e.1']  0.528018426425	['hin..e.1', 'hin..e.1', 'hin..e.1']  0.534569057493	['han..e.1', 'han..e.1', 'han..e.1']  0.537822592341	['hus..e.1', 'hus..nn.1', 'hus..nn.1']  0.541139346095 (hun)
 
 dör han för en hun far barn oc sigher hun oc
-['far..av.3', 'far..av.4', 'far..nn.3', 'far..nn.1', 'far..nn.2', 'far..nn.1']  0	['fyr..ab.1', 'fyr..e.1', 'fyr..ab.1']  0.0463647471627	['fa..vb.1', 'fa..vb.1', 'fa..e.1']  0.0499764113759	[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0.0572517764657	['oar..nn.1', 'oar..nn.1']  0.0588765388458	[u'þar..e.1', u'þar..e.1', u'þar..e.1']  0.0658719757838	['fat..nn.1', 'fat..e.2', 'fat..nn.1', 'fat..e.3', 'fat..nn.2', 'fat..e.1']  0.0684554718635	['sar..av.3', 'sar..nn.2', 'sar..nn.1', 'sar..av.4', 'sar..nn.3', 'sar..nn.2', 'sar..e.3', 'sar..av.2', 'sar..nn.1']  0.0684682492407	['kar..nn.1', 'kar..nn.1', 'kar..nn.1']  0.0700968978672	['fir..ab.1']  0.0717371388329 (far)
+['far..av.3', 'far..av.4', 'far..nn.3', 'far..nn.1', 'far..nn.2', 'far..nn.1']  0	['far..av.3', 'far..av.4', 'far..nn.3', 'far..nn.1', 'far..nn.2', 'far..nn.1']  0	['par..nn.2', 'par..nn.1', 'par..nn.1']  0.147257170711	['var..nn.7', 'var..av.6', 'var..nn.5', 'var..nn.4', 'var..nn.3', 'var..nn.1', 'var..e.4', 'var..e.3', 'var..av.2', 'var..nn.1']  0.21043249498	['mar..nn.1', 'mar..nn.2', 'mar..nn.1']  0.412377473415	['bar..av.2', 'bar..nn.1', 'bar..av.4', 'bar..nn.2', 'bar..nn.1', 'bar..av.1']  0.421754826101	['fan..e.1']  0.432044178463	['gar..e.1', 'gar..nn.1', 'gar..vb.1']  0.442704535472	['for..e.2', 'for..nn.1', 'for..e.2', 'for..nn.1', 'for..ab.4', 'for..e.3', 'for..av.2', 'for..nn.1']  0.467238964741	['fal..nn.2', 'fal..av.1', 'fal..nn.3', 'fal..av.1', 'fal..av.2', 'fal..nn.1']  0.477943153945 (far)
+--X
 
 han för en hun far barn oc sigher hun oc hænnæ
-['barn..nn.1', 'barn..nn.1', 'barn..nn.1']  0	[u'börn..nn.1']  0.0572517764657	['iarn..e.1']  0.0746419341421	['bart..e.2', 'bart..nn.1']  0.0766262626823	['butn..nn.1', 'butn..nn.1', 'butn..nn.1']  0.130478124585	['burt..e.1', 'burt..ab.1']  0.138648915404	['botn..e.1', 'botn..e.1']  0.144546916902	[u'byrþ..nn.1', u'byrþ..nn.1']  0.14640266637	['bort..ab.1', 'bort..ab.1', 'bort..ab.1']  0.152717707721	['band..nn.1', 'band..nn.1', 'band..nn.1']  0.154251595811 (barn)
+['barn..nn.1', 'barn..nn.1', 'barn..nn.1']  0	['barn..nn.1', 'barn..nn.1', 'barn..nn.1']  0	['bart..e.2', 'bart..nn.1']  0.464746758639	['iarn..e.1']  0.474060967841	[u'börn..nn.1']  0.564103369706	[u'borþ..nn.1', u'borþ..nn.1']  0.834978935389	['part..nn.1', 'part..nn.1']  0.855845950063	['iarl..e.1']  0.860449984303	['famn..nn.1', 'famn..nn.1', 'famn..nn.1']  0.887235674433	['forn..av.1', 'forn..av.1', 'forn..av.1']  0.888993790842 (barn)
 
 för en hun far barn oc sigher hun oc hænnæ frændær
-['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.17841199011	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.223708906102	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.373866132291 (oc)
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.167944804013	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.309574213976	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.80368254354 (oc)
 
 en hun far barn oc sigher hun oc hænnæ frændær at
-['sigher..nn.1', 'sigher..nn.1', 'sigher..nn.1']  0	['sidher..ab.3', 'sidher..av.2', 'sidher..nn.1']  0.0575319643727	['digher..av.1', 'digher..av.1']  0.0668503868172	['tigher..nn.1']  0.0695201780726	['sagher..e.1']  0.0717371388329	['segher..av.1']  0.10279281815	['sighl..e.1', 'sighl..e.1']  0.105789253075	['nidher..ab.1']  0.118939810569	['sudher..ab.1', 'sudher..nn.1']  0.120161400042	['idher..nn.1']  0.122546139151 (sigher)
+['sigher..nn.1', 'sigher..nn.1', 'sigher..nn.1']  0	['sigher..nn.1', 'sigher..nn.1', 'sigher..nn.1']  0	['segher..av.1']  0.357747380939	['sagher..e.1']  0.488033421727	['tigher..nn.1']  0.49897375454	['digher..av.1', 'digher..av.1']  0.512474734269	['sidher..ab.3', 'sidher..av.2', 'sidher..nn.1']  0.562525032469	[u'saghær..e.1']  0.797647553101	['tegher..nn.1', 'tegher..nn.1', 'tegher..nn.1']  0.856721135479	['fegher..av.1', 'fegher..av.1']  0.861997688401 (sigher)
 
 hun far barn oc sigher hun oc hænnæ frændær at hun
-['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hen..ab.1']  0.0457346313766	[u'hæn..e.1']  0.0558509442148	['hus..e.1', 'hus..nn.1', 'hus..nn.1']  0.0614078461961	['han..e.1', 'han..e.1', 'han..e.1']  0.0620226527214	['hin..e.1', 'hin..e.1', 'hin..e.1']  0.0626294356689	['hur..e.1']  0.0839227431006	['hul..av.2', 'hul..nn.1', 'hul..nn.1']  0.0950910602353	[u'huþ..nn.1', u'huþ..nn.1']  0.100037919207	['ann..e.1']  0.102828738699 (hun)
+['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hon..nn.2', 'hon..nn.2', 'hon..e.1']  0.141629409963	[u'huþ..nn.1', u'huþ..nn.1']  0.367739970648	['hul..av.2', 'hul..nn.1', 'hul..nn.1']  0.386389016462	['hur..e.1']  0.432044178463	['hol..e.1']  0.528018426425	['hin..e.1', 'hin..e.1', 'hin..e.1']  0.534569057493	['han..e.1', 'han..e.1', 'han..e.1']  0.537822592341	['hus..e.1', 'hus..nn.1', 'hus..nn.1']  0.541139346095 (hun)
 
 far barn oc sigher hun oc hænnæ frændær at hun ær
-['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.17841199011	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.223708906102	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.373866132291 (oc)
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.167944804013	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.309574213976	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.80368254354 (oc)
 
 barn oc sigher hun oc hænnæ frændær at hun ær mæth
-[u'þænni..nn.1']  0.140054654362	[u'hænda..vb.1']  0.198186029595	[u'hænta..vb.1']  0.204483439567	['hinna..vb.2', 'hinna..vb.2', 'hinna..nn.1', 'hinna..vb.2', 'hinna..nn.1']  0.205041272064	['hanni..e.1']  0.205041272064	[u'hæmna..e.1']  0.24144873779	['dynne..e.1']  0.243034822078	[u'hælti..nn.1']  0.248901418097	['hynda..nn.1']  0.252243435111	['hyrne..nn.1', 'hyrne..nn.1']  0.25522299805 (hænnæ)
+[u'hæmna..e.1']  0.599562644717	['hinna..vb.2', 'hinna..vb.2', 'hinna..nn.1', 'hinna..vb.2', 'hinna..nn.1']  0.740596153392	['hanni..e.1']  0.740596153392	[u'hænta..vb.1']  0.743181444338	[u'hænda..vb.1']  0.773389637456	[u'þænni..nn.1']  0.995443106249	[u'gærna..ab.1']  1.19428223151	['linne..nn.1']  1.2953150841	['dynne..e.1']  1.38007392277	[u'tænda..vb.1']  1.77338963746 (hænnæ)
 
 oc sigher hun oc hænnæ frændær at hun ær mæth barnæ
-[u'frændi..nn.1']  0.127160506555	[u'þrynnæ..e.1']  0.240234645386	[u'drænger..nn.1']  0.248326176385	['grunder..e.2', 'grunder..av.1', 'grunder..nn.1']  0.254579063076	['bronder..e.1']  0.258893827651	['brunder..nn.1', 'brunder..nn.1', 'brunder..nn.1']  0.259426905107	[u'þrænni..e.1']  0.263361335049	[u'frælsi..nn.1']  0.289101953607	[u'fræmmer..e.1']  0.295083597297	['orudder..e.1', 'orudder..av.1']  0.302299185205 (frændær)
+[u'frændi..nn.1']  1.06883521652	[u'drænger..nn.1']  1.35139839968 (frændær)
 
 sigher hun oc hænnæ frændær at hun ær mæth barnæ tha
-['at..e.3', 'at..e.1', 'at..e.4', 'at..e.3', 'at..e.2', 'at..e.1', 'at..e.3', 'at..e.2', 'at..pp.1']  0	['ai..e.1']  0.0483090218965	['ut..ab.1', 'ut..ab.1']  0.0620226527214	['ar..nn.3', 'ar..nn.2', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1', 'ar..e.4', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1']  0.0684554718635	['as..nn.1', 'as..nn.3', 'as..nn.2', 'as..e.1', 'as..nn.1']  0.0695201780726	['it..e.2', 'it..e.1']  0.0717371388329	['an..nn.1', 'an..e.2', 'an..nn.1']  0.0766262626823	['al..nn.2', 'al..nn.1', 'al..nn.2', 'al..e.1']  0.0799425400544	['et..e.1']  0.0910195199504	['ta..nn.2', 'ta..nn.1', 'ta..nn.1', 'ta..e.3', 'ta..nn.2', 'ta..ab.1']  0.0922813492953 (at)
+['at..e.3', 'at..e.1', 'at..e.4', 'at..e.3', 'at..e.2', 'at..e.1', 'at..e.3', 'at..e.2', 'at..pp.1']  0	['at..e.3', 'at..e.1', 'at..e.4', 'at..e.3', 'at..e.2', 'at..e.1', 'at..e.3', 'at..e.2', 'at..pp.1']  0	[u'æt..e.2', u'æt..nn.1']  0.278434685699	['et..e.1']  0.402445659173	['al..nn.2', 'al..nn.1', 'al..nn.2', 'al..e.1']  0.449587222486	['an..nn.1', 'an..e.2', 'an..nn.1']  0.464746758639	['it..e.2', 'it..e.1']  0.488033421727	['as..nn.1', 'as..nn.3', 'as..nn.2', 'as..e.1', 'as..nn.1']  0.49897375454	['ar..nn.3', 'ar..nn.2', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1', 'ar..e.4', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1']  0.504314741542	['ut..ab.1', 'ut..ab.1']  0.537822592341 (at)
 
 hun oc hænnæ frændær at hun ær mæth barnæ tha skal
-['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hen..ab.1']  0.0457346313766	[u'hæn..e.1']  0.0558509442148	['hus..e.1', 'hus..nn.1', 'hus..nn.1']  0.0614078461961	['han..e.1', 'han..e.1', 'han..e.1']  0.0620226527214	['hin..e.1', 'hin..e.1', 'hin..e.1']  0.0626294356689	['hur..e.1']  0.0839227431006	['hul..av.2', 'hul..nn.1', 'hul..nn.1']  0.0950910602353	[u'huþ..nn.1', u'huþ..nn.1']  0.100037919207	['ann..e.1']  0.102828738699 (hun)
+['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hon..nn.2', 'hon..nn.2', 'hon..e.1']  0.141629409963	[u'huþ..nn.1', u'huþ..nn.1']  0.367739970648	['hul..av.2', 'hul..nn.1', 'hul..nn.1']  0.386389016462	['hur..e.1']  0.432044178463	['hol..e.1']  0.528018426425	['hin..e.1', 'hin..e.1', 'hin..e.1']  0.534569057493	['han..e.1', 'han..e.1', 'han..e.1']  0.537822592341	['hus..e.1', 'hus..nn.1', 'hus..nn.1']  0.541139346095 (hun)
 
 oc hænnæ frændær at hun ær mæth barnæ tha skal hun
-[u'ær..e.2', u'ær..e.1']  0	[u'æ..e.2', u'æ..ab.1']  0.0499764113759	['yr..pp.1']  0.0540574055156	['or..e.1', 'or..e.2', 'or..e.1']  0.0553178667592	[u'ör..av.2', u'ör..nn.1', u'ör..e.3', u'ör..av.2']  0.0555586715514	['ur..e.1', 'ur..e.2', 'ur..pp.1']  0.0558509442148	[u'æt..e.2', u'æt..nn.1']  0.0684554718635	[u'æm..e.2', u'æm..e.1']  0.0764684325255	['ir..e.1', 'ir..e.2', 'ir..e.1']  0.0771840951789	[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0.0839227431006 (ær)
+[u'ær..e.2', u'ær..e.1']  0	[u'ær..e.2', u'ær..e.1']  0	['ar..nn.3', 'ar..nn.2', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1', 'ar..e.4', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1']  0.278434685699	['er..nn.1', 'er..e.2', 'er..nn.1']  0.309614131374	[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0.432044178463	['ir..e.1', 'ir..e.2', 'ir..e.1']  0.462161467693	[u'æm..e.2', u'æm..e.1']  0.465480848332	[u'æt..e.2', u'æt..nn.1']  0.504314741542	['ur..e.1', 'ur..e.2', 'ur..pp.1']  0.572061118865	[u'ör..av.2', u'ör..nn.1', u'ör..e.3', u'ör..av.2']  0.573735542883 (ær)
 
 hænnæ frændær at hun ær mæth barnæ tha skal hun sitiæ
-[u'mæta..e.1']  0.0487162717053	['myta..e.1']  0.102773677221	['mota..vb.1']  0.104034138464	[u'möta..vb.1', u'möta..vb.1', u'möta..vb.1']  0.104274943257	['muta..nn.1', 'muta..vb.2', 'muta..nn.1']  0.10456721592	[u'mæri..nn.1']  0.122009960512	[u'ræta..e.1']  0.125184704231	[u'mæla..vb.2', u'mæla..vb.1']  0.12865881176	[u'mögh..nn.1']  0.131446757417	[u'kæti..nn.1']  0.131758283147 (mæth)
+[u'mæta..e.1']  0.614367056814	['leth..e.1']  0.665502601421	['medh..e.1']  0.701967978168	[u'lægh..e.1']  0.824078574871	['fith..nn.1']  0.874538941108	['mata..nn.4', 'mata..vb.3', 'mata..vb.2', 'mata..nn.1', 'mata..nn.4', 'mata..vb.3', 'mata..vb.2', 'mata..e.3', 'mata..e.2', 'mata..nn.1']  0.892801742513	['modh..nn.1', 'modh..nn.1']  0.967472637154	[u'læta..vb.1']  0.970255526861	[u'mæli..nn.1']  1.03493747628	['ruth..e.1']  1.0375419672 (mæth)
 
 frændær at hun ær mæth barnæ tha skal hun sitiæ j
-['burtu..ab.1']  0.194499859619	['batna..vb.1']  0.196312648748	['birna..nn.1']  0.199594315718	['borto..ab.1', 'borto..ab.1', 'borto..ab.1']  0.20803557448	['banna..vb.1', 'banna..vb.1']  0.211779919985	[u'barþe..e.1']  0.217280768641	['berna..e.1']  0.218876696835	[u'byrþi..nn.1']  0.223586761549	['bandi..nn.1']  0.23143569099	['barma..vb.1']  0.24144873779 (barnæ)
+['barma..vb.1']  0.599562644717	[u'barþe..e.1']  0.677354102022	['berna..e.1']  0.680880344872	['banna..vb.1', 'banna..vb.1']  0.710478864162	['birna..nn.1']  0.766468107426	['batna..vb.1']  0.782749427241	[u'bærsa..vb.1']  1.09800871749	['banda..vb.1', 'banda..nn.1']  1.20543381592	['bolna..e.1']  1.22361680438	[u'förna..e.2', u'förna..e.1']  1.26429288151 (barnæ)
+--X
 
 at hun ær mæth barnæ tha skal hun sitiæ j eghen
-[u'thö..nn.1', u'thö..nn.1']  0.0572517764657	['tho..ab.1', 'tho..e.1']  0.0760914450387	['tit..e.1']  0.0996951632965	['ta..nn.2', 'ta..nn.1', 'ta..nn.1', 'ta..e.3', 'ta..nn.2', 'ta..ab.1']  0.0998845791029	['ti..e.1']  0.104722796046	['ala..vb.1']  0.11085495729	['ila..nn.3', 'ila..vb.2', 'ila..vb.1']  0.113023304539	['tiu..e.1']  0.11557714137	['ria..nn.1']  0.122009960512	['ghy..e.1']  0.122252833028 (tha)
+['tho..ab.1', 'tho..e.1']  0.467238964741	[u'thö..nn.1', u'thö..nn.1']  0.564103369706	['dia..e.2', 'dia..vb.1', 'dia..vb.1', 'dia..e.1']  0.977704100583	['tea..vb.1', 'tea..vb.1', 'tea..vb.1']  1	['kla..vb.1']  1.00689426004	['sla..e.2', 'sla..vb.1', 'sla..nn.3', 'sla..vb.1', 'sla..e.1']  1.02251323958	['tio..e.1', 'tio..e.1']  1.05258921853	['via..vb.1']  1.0695029909	['sia..vb.1']  1.08432400833	['ria..nn.1']  1.08966499533 (tha)
 
 hun ær mæth barnæ tha skal hun sitiæ j eghen bægiæ
-['skal..nn.2', 'skal..e.1', 'skal..nn.3', 'skal..nn.2', 'skal..nn.1', 'skal..nn.2', 'skal..nn.1']  0	['skyl..nn.1', 'skyl..nn.1']  0.0463647471627	['skul..nn.1']  0.0620226527214	['kal..nn.1', 'kal..nn.2', 'kal..nn.1', 'kal..nn.1']  0.0650141747785	['stal..nn.1', 'stal..nn.2', 'stal..nn.1', 'stal..nn.1']  0.0727004371136	['smal..av.1', 'smal..av.1']  0.0782037944977	['skat..nn.1', 'skat..nn.1']  0.0799425400544	['skam..nn.1', 'skam..nn.1']  0.10331378836	['sky..vb.2', 'sky..nn.1', 'sky..vb.2', 'sky..nn.1']  0.111922356561	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  0.121284068468 (skal)
+['skal..nn.2', 'skal..e.1', 'skal..nn.3', 'skal..nn.2', 'skal..nn.1', 'skal..nn.2', 'skal..nn.1']  0	['skal..nn.2', 'skal..e.1', 'skal..nn.3', 'skal..nn.2', 'skal..nn.1', 'skal..nn.2', 'skal..nn.1']  0	[u'skæl..e.1']  0.278434685699	['skam..nn.1', 'skam..nn.1']  0.355888470047	['skat..nn.1', 'skat..nn.1']  0.449587222486	['smal..av.1', 'smal..av.1']  0.457472756361	['stal..nn.1', 'stal..nn.2', 'stal..nn.1', 'stal..nn.1']  0.483354775007	['kal..nn.1', 'kal..nn.2', 'kal..nn.1', 'kal..nn.1']  0.521971783173	['skul..nn.1']  0.537822592341	['skyl..nn.1', 'skyl..nn.1']  0.628985250535 (skal)
+--X
 
 ær mæth barnæ tha skal hun sitiæ j eghen bægiæ thera
-['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hen..ab.1']  0.0457346313766	[u'hæn..e.1']  0.0558509442148	['hus..e.1', 'hus..nn.1', 'hus..nn.1']  0.0614078461961	['han..e.1', 'han..e.1', 'han..e.1']  0.0620226527214	['hin..e.1', 'hin..e.1', 'hin..e.1']  0.0626294356689	['hur..e.1']  0.0839227431006	['hul..av.2', 'hul..nn.1', 'hul..nn.1']  0.0950910602353	[u'huþ..nn.1', u'huþ..nn.1']  0.100037919207	['ann..e.1']  0.102828738699 (hun)
+['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hon..nn.2', 'hon..nn.2', 'hon..e.1']  0.141629409963	[u'huþ..nn.1', u'huþ..nn.1']  0.367739970648	['hul..av.2', 'hul..nn.1', 'hul..nn.1']  0.386389016462	['hur..e.1']  0.432044178463	['hol..e.1']  0.528018426425	['hin..e.1', 'hin..e.1', 'hin..e.1']  0.534569057493	['han..e.1', 'han..e.1', 'han..e.1']  0.537822592341	['hus..e.1', 'hus..nn.1', 'hus..nn.1']  0.541139346095 (hun)
 
 mæth barnæ tha skal hun sitiæ j eghen bægiæ thera uskifti
-['sitia..vb.1', 'sitia..vb.1', 'sitia..vb.1']  0.127857176885	[u'tuttæ..vb.1']  0.180458635638	[u'ildæ..e.1']  0.194356100227	[u'saltæ..vb.1']  0.199988700784	[u'sætti..e.1']  0.202677212254	[u'sætia..vb.1']  0.205041272064	[u'sæghæ..nn.1']  0.206626669693	[u'æriæ..nn.1']  0.210653741821	[u'staþi..nn.1']  0.217113930298	['sikta..vb.1', 'sikta..e.1']  0.248866635895 (sitiæ)
+['sitia..vb.1', 'sitia..vb.1', 'sitia..vb.1']  0.278434685699	[u'sætia..vb.1']  0.740596153392	[u'sælia..vb.1']  1.19018337588	[u'sækia..vb.1']  1.2239509284	[u'sætta..vb.1']  1.35747032051	[u'sætti..e.1']  1.5411971025	[u'ættia..nn.1']  1.89530885281	[u'sæssi..nn.1']  1.99361892524 (sitiæ)
 
 barnæ tha skal hun sitiæ j eghen bægiæ thera uskifti tiuku
-['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0.12486242683 (j)
+['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0.286899221842 (j)
 
 tha skal hun sitiæ j eghen bægiæ thera uskifti tiuku uku
-['eghen..nn.1']  0	['eghin..av.1', 'eghin..av.1']  0.10279281815	['edher..nn.1']  0.141454707473	['effen..e.1']  0.153610396167	[u'ödher..nn.1']  0.190328203878	['ydher..e.1']  0.192102605777	['othet..nn.1']  0.19781126454	['uthet..e.1']  0.198248979924	[u'ödhin..e.2']  0.209198278927	[u'æghin..e.1']  0.220035667583 (eghen)
+['eghen..nn.1']  0	['eghen..nn.1']  0	['eghin..av.1', 'eghin..av.1']  0.357747380939	[u'æghin..e.1']  0.667361512313	['effen..e.1']  0.928848115091	['edher..nn.1']  0.994569210932	['etlan..nn.2', 'etlan..e.1']  1.39417524903	['elder..nn.1', 'elder..nn.1', 'elder..e.2', 'elder..nn.1']  1.92009015112 (eghen)
 
 skal hun sitiæ j eghen bægiæ thera uskifti tiuku uku oc
-['boghi..nn.1']  0.186056450587	['bughi..nn.1', 'bughi..nn.1', 'bughi..nn.1']  0.186589528043	['bugha..vb.1']  0.237262609748	['bytta..nn.1']  0.306111690162	['bidha..vb.1']  0.316127725085	['fogha..vb.1', 'fogha..vb.1']  0.323062643751	[u'fögha..av.2', u'fögha..av.3']  0.323303448543	['bikia..nn.1']  0.34477237979	['bedha..vb.1']  0.35618647934	['badha..vb.1']  0.366800806791 (bægiæ)
+None  0 (bægiæ)
 
 hun sitiæ j eghen bægiæ thera uskifti tiuku uku oc til
-['thura..vb.1']  0.0457346313766	[u'thöra..e.1']  0.0488734964045	[u'ahöra..vb.1']  0.0950141710521	[u'thör..av.1']  0.100041803802	['thyr..e.1', 'thyr..e.1']  0.101816205701	['thet..nn.1']  0.119623779261	['thova..vb.1']  0.135647625367	['thuva..nn.1']  0.136085340752	['thot..e.1']  0.164920695253	['uthet..e.1']  0.167083486808 (thera)
+[u'thöra..e.1']  0.613401879005	['thura..vb.1']  0.63296109896	[u'tiæra..nn.1']  0.894964385163	['thova..vb.1']  1.04088401878	['thet..nn.1']  1.10380049192	['thyr..e.1', 'thyr..e.1']  1.20209941102	[u'thör..av.1']  1.21288762938	[u'ahöra..vb.1']  1.24379809281	['adher..nn.1']  1.59132534755	['uthet..e.1']  1.72593617162 (thera)
 
 sitiæ j eghen bægiæ thera uskifti tiuku uku oc til se
-[u'skæfta..vb.1']  0.196380941559	[u'skæfte..nn.1']  0.227436620876	['skipti..nn.1']  0.239017183558	['skikka..vb.1', 'skikka..vb.1']  0.26199418136	['stikta..vb.1', 'stikta..vb.1', 'stikta..vb.1']  0.26199418136	[u'sköfla..e.1', u'sköfla..e.1', u'sköfla..e.1']  0.273763422142	['skiorta..e.1']  0.27426904755	[u'skæmta..vb.1']  0.284962556706	['stikte..nn.1', 'stikte..nn.1']  0.293049860677	['skipta..vb.1', 'skipta..vb.1']  0.31075432239 (uskifti)
+['skipti..nn.1']  0.769392850409 (uskifti)
 
 j eghen bægiæ thera uskifti tiuku uku oc til se mæth
-['siuke..nn.1', 'siuke..nn.1']  0.115254809449	['thuka..e.1']  0.11557714137	['riuka..vb.1', 'riuka..vb.1', 'riuka..vb.1']  0.130478124585	['tanke..nn.1']  0.171584237203	['stuka..nn.1']  0.179851852691	['thul..e.1']  0.18910935383	['liute..e.1']  0.198377608545	['riuta..vb.1', 'riuta..vb.1']  0.203178561699	['diakn..nn.1']  0.209694237311	['giuta..vb.1', 'giuta..vb.1', 'giuta..vb.1']  0.210611175701 (tiuku)
+['riuka..vb.1', 'riuka..vb.1', 'riuka..vb.1']  1.04213733388	['siuke..nn.1', 'siuke..nn.1']  1.1319348535	['liuta..vb.1', 'liuta..vb.1', 'liuta..vb.1']  1.47076458983	['giuta..vb.1', 'giuta..vb.1', 'giuta..vb.1']  1.48936747217	['liute..e.1']  1.56590309645	['stuka..nn.1']  1.653670514	['kiot..e.1', 'kiot..e.1']  1.73047463967	[u'þunki..nn.1']  1.97500664124 (tiuku)
+--X 
 
 eghen bægiæ thera uskifti tiuku uku oc til se mæth sinæ
-['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.0474597075468	['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.0620226527214	['ulu..vb.1']  0.0880951576341	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.0931943389234	['eki..e.2', 'eki..nn.1']  0.108364067045	['ute..ab.1']  0.11843506849	['ut..ab.1', 'ut..ab.1']  0.12016014466	[u'öke..e.1']  0.124937613671	['um..e.2', 'um..e.1', 'um..e.2', 'um..e.1', 'um..kn.2', 'um..pp.1']  0.125663502045	[u'ökn..e.1', u'ökn..nn.1']  0.133315449288 (uku)
+['ulu..vb.1']  0.414388401809	['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.537822592341	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.622135679698	['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.763765089661	['ko..nn.1', 'ko..nn.1', 'ko..e.1']  0.763765089661	['ugn..e.1']  0.82935415776	['ogn..nn.1']  0.970983567723	['ykn..e.1', 'ykn..e.1']  0.989751602204	[u'öka..e.1', u'öka..vb.1']  0.990747097373	['uti..ab.1']  1.0179238325 (uku)
 
 bægiæ thera uskifti tiuku uku oc til se mæth sinæ wæriande
-['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.17841199011	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.223708906102	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.373866132291 (oc)
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.167944804013	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.309574213976	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.80368254354 (oc)
 
 thera uskifti tiuku uku oc til se mæth sinæ wæriande ær
-['til..e.1', 'til..e.1', 'til..e.1']  0	['ti..e.1']  0.0655576093981	['tol..nn.1']  0.0672732489051	['sil..nn.1']  0.0695201780726	[u'tiþ..nn.1']  0.0697940583106	['tal..nn.1', 'tal..nn.1', 'tal..nn.1']  0.0717371388329	['vil..nn.1']  0.0725354849498	['tit..e.1']  0.0799425400544	['tik..nn.1']  0.0880951576341	['dil..nn.1']  0.0935591175961 (til)
+['til..e.1', 'til..e.1', 'til..e.1']  0	['til..e.1', 'til..e.1', 'til..e.1']  0	['tin..e.2', 'tin..nn.1']  0.386389016462	['dil..nn.1']  0.392353846794	['tik..nn.1']  0.414388401809	['tit..e.1']  0.449587222486	['vil..nn.1']  0.484152737114	['tal..nn.1', 'tal..nn.1', 'tal..nn.1']  0.488033421727	[u'tiþ..nn.1']  0.497609033737	['sil..nn.1']  0.49897375454 (til)
 
 uskifti tiuku uku oc til se mæth sinæ wæriande ær hun
-['se..e.1']  0	['so..e.2', 'so..nn.1', 'so..e.2', 'so..nn.1', 'so..ab.2', 'so..nn.1']  0.045296915992	['ne..e.1', 'ne..e.1', 'ne..e.1']  0.0614078461961	['e..e.1', 'e..e.2', 'e..nn.1', 'e..e.1']  0.0650141747785	['fe..e.1']  0.0684682492407	['te..vb.1']  0.0695201780726	['sa..e.2', 'sa..vb.1', 'sa..e.3', 'sa..e.2', 'sa..vb.1', 'sa..e.3', 'sa..e.2', 'sa..vb.1']  0.0910195199504	['io..e.1']  0.10145229127	['iu..ab.1', 'iu..ab.1']  0.101890006654	['nu..ab.1']  0.107142477573 (se)
+['se..e.1']  0	['se..e.1']  0	[u'sæ..e.1']  0.309614131374	['sa..e.2', 'sa..vb.1', 'sa..e.3', 'sa..e.2', 'sa..vb.1', 'sa..e.3', 'sa..e.2', 'sa..vb.1']  0.402445659173	['te..vb.1']  0.49897375454	['fe..e.1']  0.504250307462	['e..e.1', 'e..e.2', 'e..nn.1', 'e..e.1']  0.521971783173	['ne..e.1', 'ne..e.1', 'ne..e.1']  0.541139346095	['so..e.2', 'so..nn.1', 'so..e.2', 'so..nn.1', 'so..ab.2', 'so..nn.1']  0.635737739527	[u'tæ..e.1']  0.808587885914 (se)
+--X (kanske rätt, iaf samma som innan)
 
 tiuku uku oc til se mæth sinæ wæriande ær hun ej
-[u'mæta..e.1']  0.0487162717053	['myta..e.1']  0.102773677221	['mota..vb.1']  0.104034138464	[u'möta..vb.1', u'möta..vb.1', u'möta..vb.1']  0.104274943257	['muta..nn.1', 'muta..vb.2', 'muta..nn.1']  0.10456721592	[u'mæri..nn.1']  0.122009960512	[u'ræta..e.1']  0.125184704231	[u'mæla..vb.2', u'mæla..vb.1']  0.12865881176	[u'mögh..nn.1']  0.131446757417	[u'kæti..nn.1']  0.131758283147 (mæth)
+[u'mæta..e.1']  0.614367056814	['leth..e.1']  0.665502601421	['medh..e.1']  0.701967978168	[u'lægh..e.1']  0.824078574871	['fith..nn.1']  0.874538941108	['mata..nn.4', 'mata..vb.3', 'mata..vb.2', 'mata..nn.1', 'mata..nn.4', 'mata..vb.3', 'mata..vb.2', 'mata..e.3', 'mata..e.2', 'mata..nn.1']  0.892801742513	['modh..nn.1', 'modh..nn.1']  0.967472637154	[u'læta..vb.1']  0.970255526861	[u'mæli..nn.1']  1.03493747628	['ruth..e.1']  1.0375419672 (mæth)
 
 uku oc til se mæth sinæ wæriande ær hun ej mæth
-['sina..nn.1', 'sina..nn.1', 'sina..e.1']  0.127857176885	[u'firæ..e.1']  0.152390992341	[u'særæ..vb.1']  0.16110683828	[u'snær..e.1']  0.171145961432	['sili..nn.1', 'sili..nn.1']  0.172275155414	[u'snö..e.1']  0.176728221607	['sise..nn.1', 'sise..nn.1']  0.17865069563	['stry..nn.1']  0.186289170513	['sisa..vb.1']  0.189265023081	['simi..nn.1', 'simi..nn.1']  0.190775656085 (sinæ)
+['sina..nn.1', 'sina..nn.1', 'sina..e.1']  0.278434685699	['syna..vb.1', 'syna..e.1', 'syna..e.1']  0.570959437555	['sima..vb.1', 'sima..vb.1', 'sima..vb.1']  0.599562644717	['syne..nn.1']  0.60213888323	['sena..e.1']  0.636182066638	[u'siþa..nn.1', u'siþa..nn.1']  0.646174656347	['sila..vb.1', 'sila..vb.1', 'sila..vb.1']  0.664823702161	['syni..e.1']  0.754686219549	['fina..nn.1']  0.782684993161	['simi..nn.1', 'simi..nn.1']  0.783289426711 (sinæ)
 
 oc til se mæth sinæ wæriande ær hun ej mæth barne
- (wæriande)
+None  0 (wæriande)
 
 til se mæth sinæ wæriande ær hun ej mæth barne oc
-[u'ær..e.2', u'ær..e.1']  0	[u'æ..e.2', u'æ..ab.1']  0.0499764113759	['yr..pp.1']  0.0540574055156	['or..e.1', 'or..e.2', 'or..e.1']  0.0553178667592	[u'ör..av.2', u'ör..nn.1', u'ör..e.3', u'ör..av.2']  0.0555586715514	['ur..e.1', 'ur..e.2', 'ur..pp.1']  0.0558509442148	[u'æt..e.2', u'æt..nn.1']  0.0684554718635	[u'æm..e.2', u'æm..e.1']  0.0764684325255	['ir..e.1', 'ir..e.2', 'ir..e.1']  0.0771840951789	[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0.0839227431006 (ær)
+[u'ær..e.2', u'ær..e.1']  0	[u'ær..e.2', u'ær..e.1']  0	['ar..nn.3', 'ar..nn.2', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1', 'ar..e.4', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1']  0.278434685699	['er..nn.1', 'er..e.2', 'er..nn.1']  0.309614131374	[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0.432044178463	['ir..e.1', 'ir..e.2', 'ir..e.1']  0.462161467693	[u'æm..e.2', u'æm..e.1']  0.465480848332	[u'æt..e.2', u'æt..nn.1']  0.504314741542	['ur..e.1', 'ur..e.2', 'ur..pp.1']  0.572061118865	[u'ör..av.2', u'ör..nn.1', u'ör..e.3', u'ör..av.2']  0.573735542883 (ær)
 
 se mæth sinæ wæriande ær hun ej mæth barne oc ær
-['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hen..ab.1']  0.0457346313766	[u'hæn..e.1']  0.0558509442148	['hus..e.1', 'hus..nn.1', 'hus..nn.1']  0.0614078461961	['han..e.1', 'han..e.1', 'han..e.1']  0.0620226527214	['hin..e.1', 'hin..e.1', 'hin..e.1']  0.0626294356689	['hur..e.1']  0.0839227431006	['hul..av.2', 'hul..nn.1', 'hul..nn.1']  0.0950910602353	[u'huþ..nn.1', u'huþ..nn.1']  0.100037919207	['ann..e.1']  0.102828738699 (hun)
+['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hun..e.1', 'hun..e.2', 'hun..e.1']  0	['hon..nn.2', 'hon..nn.2', 'hon..e.1']  0.141629409963	[u'huþ..nn.1', u'huþ..nn.1']  0.367739970648	['hul..av.2', 'hul..nn.1', 'hul..nn.1']  0.386389016462	['hur..e.1']  0.432044178463	['hol..e.1']  0.528018426425	['hin..e.1', 'hin..e.1', 'hin..e.1']  0.534569057493	['han..e.1', 'han..e.1', 'han..e.1']  0.537822592341	['hus..e.1', 'hus..nn.1', 'hus..nn.1']  0.541139346095 (hun)
 
 mæth sinæ wæriande ær hun ej mæth barne oc ær thær
-['ai..e.1']  0.21588194678	[u'æi..ab.1']  0.242105276263	['iu..ab.1', 'iu..ab.1']  1.10279281815	['il..nn.1', 'il..nn.2', 'il..nn.1']  1.10279281815	['io..e.1']  1.10279281815	['ia..e.1', 'ia..e.1']  1.10279281815 (ej)
+[u'æi..ab.1']  0.596513353216	['ai..e.1']  0.689344881015	['iu..ab.1', 'iu..ab.1']  1.35774738094	['il..nn.1', 'il..nn.2', 'il..nn.1']  1.35774738094	['io..e.1']  1.35774738094	['ia..e.1', 'ia..e.1']  1.35774738094 (ej)
 
 sinæ wæriande ær hun ej mæth barne oc ær thær gothæ
-[u'mæta..e.1']  0.0487162717053	['myta..e.1']  0.102773677221	['mota..vb.1']  0.104034138464	[u'möta..vb.1', u'möta..vb.1', u'möta..vb.1']  0.104274943257	['muta..nn.1', 'muta..vb.2', 'muta..nn.1']  0.10456721592	[u'mæri..nn.1']  0.122009960512	[u'ræta..e.1']  0.125184704231	[u'mæla..vb.2', u'mæla..vb.1']  0.12865881176	[u'mögh..nn.1']  0.131446757417	[u'kæti..nn.1']  0.131758283147 (mæth)
+[u'mæta..e.1']  0.614367056814	['leth..e.1']  0.665502601421	['medh..e.1']  0.701967978168	[u'lægh..e.1']  0.824078574871	['fith..nn.1']  0.874538941108	['mata..nn.4', 'mata..vb.3', 'mata..vb.2', 'mata..nn.1', 'mata..nn.4', 'mata..vb.3', 'mata..vb.2', 'mata..e.3', 'mata..e.2', 'mata..nn.1']  0.892801742513	['modh..nn.1', 'modh..nn.1']  0.967472637154	[u'læta..vb.1']  0.970255526861	[u'mæli..nn.1']  1.03493747628	['ruth..e.1']  1.0375419672 (mæth)
 
 wæriande ær hun ej mæth barne oc ær thær gothæ quinnæ
-[u'barþe..e.1']  0.100037919207	[u'byrþe..nn.1']  0.14640266637	['batna..vb.1']  0.159474991814	['birna..nn.1']  0.162756658783	['banna..vb.1', 'banna..vb.1']  0.174942263051	['berna..e.1']  0.182039039901	['burtu..ab.1']  0.18438354678	['borto..ab.1', 'borto..ab.1', 'borto..ab.1']  0.198014623713	['barma..vb.1']  0.204611080856	['bulde..nn.1']  0.206177853268 (barne)
+[u'barþe..e.1']  0.367739970648	['barma..vb.1']  0.723573618191	['berna..e.1']  0.804891318346	['banna..vb.1', 'banna..vb.1']  0.834489837636	['birna..nn.1']  0.8904790809	['batna..vb.1']  0.906760400715	[u'byrþe..nn.1']  0.996725221183	[u'bærsa..vb.1']  1.22201969097	['bandi..nn.1']  1.28474651116	['banda..vb.1', 'banda..nn.1']  1.32944478939 (barne)
+--X
 
 ær hun ej mæth barne oc ær thær gothæ quinnæ witni
-['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.17841199011	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.223708906102	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.373866132291 (oc)
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.167944804013	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.309574213976	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.80368254354 (oc)
 
 hun ej mæth barne oc ær thær gothæ quinnæ witni til
-[u'ær..e.2', u'ær..e.1']  0	[u'æ..e.2', u'æ..ab.1']  0.0499764113759	['yr..pp.1']  0.0540574055156	['or..e.1', 'or..e.2', 'or..e.1']  0.0553178667592	[u'ör..av.2', u'ör..nn.1', u'ör..e.3', u'ör..av.2']  0.0555586715514	['ur..e.1', 'ur..e.2', 'ur..pp.1']  0.0558509442148	[u'æt..e.2', u'æt..nn.1']  0.0684554718635	[u'æm..e.2', u'æm..e.1']  0.0764684325255	['ir..e.1', 'ir..e.2', 'ir..e.1']  0.0771840951789	[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0.0839227431006 (ær)
+[u'ær..e.2', u'ær..e.1']  0	[u'ær..e.2', u'ær..e.1']  0	['ar..nn.3', 'ar..nn.2', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1', 'ar..e.4', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1']  0.278434685699	['er..nn.1', 'er..e.2', 'er..nn.1']  0.309614131374	[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0.432044178463	['ir..e.1', 'ir..e.2', 'ir..e.1']  0.462161467693	[u'æm..e.2', u'æm..e.1']  0.465480848332	[u'æt..e.2', u'æt..nn.1']  0.504314741542	['ur..e.1', 'ur..e.2', 'ur..pp.1']  0.572061118865	[u'ör..av.2', u'ör..nn.1', u'ör..e.3', u'ör..av.2']  0.573735542883 (ær)
 
 ej mæth barne oc ær thær gothæ quinnæ witni til tha
-['thyr..e.1', 'thyr..e.1']  0.0540574055156	[u'thör..av.1']  0.0555586715514	['tho..ab.1', 'tho..e.1']  0.105294278135	[u'thö..nn.1', u'thö..nn.1']  0.105535082927	['thot..e.1']  0.123773338623	['thol..nn.1', 'thol..nn.1']  0.129144214596	['thul..e.1']  0.129677292051	['tio..e.1', 'tio..e.1']  0.158848766784	['tiu..e.1']  0.15938184424	['ihul..av.1']  0.177986313948 (thær)
+[u'thör..av.1']  0.573735542883	['thyr..e.1', 'thyr..e.1']  0.582413818736	['thet..nn.1']  0.813928872916	['thul..e.1']  1.05000427281	['thol..nn.1', 'thol..nn.1']  1.0530619443	['thot..e.1']  1.0794335319	[u'thö..nn.1', u'thö..nn.1']  1.18040929171	['tho..ab.1', 'tho..e.1']  1.18179253919	['glar..nn.1', 'glar..nn.1']  1.27016427556	[u'þvær..av.1']  1.3237753049 (thær)
 
 mæth barne oc ær thær gothæ quinnæ witni til tha skiftæs
-[u'tollæ..vb.1']  0.220544908562	[u'görlæ..e.1']  0.249695535073	['dogha..e.1', 'dogha..e.1']  0.261277227123	[u'gærþi..nn.1']  0.263827992984	['gigha..nn.1', 'gigha..nn.1']  0.271018511655	['tyghu..e.1']  0.273788028796	['gisli..nn.1']  0.278691804799	[u'gængi..nn.1']  0.281735896683	['fogha..vb.1', 'fogha..vb.1']  0.285230532177	['tyghi..nn.1']  0.29512117976 (gothæ)
+[u'tughæ..vb.1']  1.07800961961	['dogha..e.1', 'dogha..e.1']  1.30914982299	[u'vægha..vb.2', u'vægha..vb.1']  1.69964795586	['tygha..vb.1', 'tygha..vb.1', 'tygha..vb.1']  1.73083521841	['nogha..ab.2', 'nogha..av.1']  1.74662479052	['tyghi..nn.1']  1.9145620004 (gothæ)
 
 barne oc ær thær gothæ quinnæ witni til tha skiftæs eghn
-['qvinna..nn.1', 'qvinna..e.2', 'qvinna..nn.1', 'qvinna..nn.1']  0.195127409607	['qvindi..nn.1']  0.214783180612	['qvinde..nn.1']  0.254841934867	['qvenna..nn.1']  0.297920227757	['qvista..vb.1', 'qvista..vb.1']  0.333161518486	['qvitra..vb.1']  0.35567641539	['qvasta..vb.1']  0.404898657319	[u'qvælia..vb.1']  1.36740256502	[u'qvæþia..nn.1']  1.37234942399	[u'qveþia..nn.1']  1.39795814696 (quinnæ)
+['qvinna..nn.1', 'qvinna..e.2', 'qvinna..nn.1', 'qvinna..nn.1']  0.788762326176 (quinnæ)
 
 oc ær thær gothæ quinnæ witni til tha skiftæs eghn theræ
- (witni)
+None  0 (witni)
 
 ær thær gothæ quinnæ witni til tha skiftæs eghn theræ hus
-['til..e.1', 'til..e.1', 'til..e.1']  0	['ti..e.1']  0.0655576093981	['tol..nn.1']  0.0672732489051	['sil..nn.1']  0.0695201780726	[u'tiþ..nn.1']  0.0697940583106	['tal..nn.1', 'tal..nn.1', 'tal..nn.1']  0.0717371388329	['vil..nn.1']  0.0725354849498	['tit..e.1']  0.0799425400544	['tik..nn.1']  0.0880951576341	['dil..nn.1']  0.0935591175961 (til)
+['til..e.1', 'til..e.1', 'til..e.1']  0	['til..e.1', 'til..e.1', 'til..e.1']  0	['tin..e.2', 'tin..nn.1']  0.386389016462	['dil..nn.1']  0.392353846794	['tik..nn.1']  0.414388401809	['tit..e.1']  0.449587222486	['vil..nn.1']  0.484152737114	['tal..nn.1', 'tal..nn.1', 'tal..nn.1']  0.488033421727	[u'tiþ..nn.1']  0.497609033737	['sil..nn.1']  0.49897375454 (til)
 
 thær gothæ quinnæ witni til tha skiftæs eghn theræ hus oc
-[u'thö..nn.1', u'thö..nn.1']  0.0572517764657	['tho..ab.1', 'tho..e.1']  0.0760914450387	['tit..e.1']  0.0996951632965	['ta..nn.2', 'ta..nn.1', 'ta..nn.1', 'ta..e.3', 'ta..nn.2', 'ta..ab.1']  0.0998845791029	['ti..e.1']  0.104722796046	['ala..vb.1']  0.11085495729	['ila..nn.3', 'ila..vb.2', 'ila..vb.1']  0.113023304539	['tiu..e.1']  0.11557714137	['ria..nn.1']  0.122009960512	['ghy..e.1']  0.122252833028 (tha)
+['tho..ab.1', 'tho..e.1']  0.467238964741	[u'thö..nn.1', u'thö..nn.1']  0.564103369706	['dia..e.2', 'dia..vb.1', 'dia..vb.1', 'dia..e.1']  0.977704100583	['tea..vb.1', 'tea..vb.1', 'tea..vb.1']  1	['kla..vb.1']  1.00689426004	['sla..e.2', 'sla..vb.1', 'sla..nn.3', 'sla..vb.1', 'sla..e.1']  1.02251323958	['tio..e.1', 'tio..e.1']  1.05258921853	['via..vb.1']  1.0695029909	['sia..vb.1']  1.08432400833	['ria..nn.1']  1.08966499533 (tha)
 
 gothæ quinnæ witni til tha skiftæs eghn theræ hus oc bolfæ
-[u'skæfte..nn.1']  0.259441119391	[u'skæfta..vb.1']  0.270055446842	[u'kæfti..nn.1']  0.284396539915	[u'liflös..av.1']  0.288610544018	[u'stæfnæ..e.1']  0.291524969753	['stikte..nn.1', 'stikte..nn.1']  0.325054359193	['kista..nn.1', 'kista..nn.1', 'kista..nn.1']  0.326353775682	['skipti..nn.1']  0.333755745968	['stikta..vb.1', 'stikta..vb.1', 'stikta..vb.1']  0.335668686644	['skikka..vb.1', 'skikka..vb.1']  0.335668686644 (skiftæs)
+[u'kæfti..nn.1']  1.96826650173 (skiftæs)
+--X
 
 quinnæ witni til tha skiftæs eghn theræ hus oc bolfæ oc
-['eghn..nn.1', 'eghn..av.1']  0	['oghn..nn.2', 'oghn..e.1']  0.045296915992	['ughn..nn.1', 'ughn..nn.1']  0.0457346313766	['aghn..nn.1', 'aghn..nn.1']  0.0910195199504	[u'ödhn..nn.1']  0.106405460777	[u'æghn..e.1']  0.117242849434	['agin..ab.1']  0.144574008599	['utan..ab.1', 'utan..e.3', 'utan..e.2', 'utan..e.1']  0.170338988947	['ovan..ab.1', 'ovan..ab.1', 'ovan..ab.1']  0.19132459686	['uvan..e.1']  0.191762312245 (eghn)
+['eghn..nn.1', 'eghn..av.1']  0	['eghn..nn.1', 'eghn..av.1']  0	[u'æghn..e.1']  0.309614131374	['aghn..nn.1', 'aghn..nn.1']  0.402445659173	['ughn..nn.1', 'ughn..nn.1']  0.63296109896	['oghn..nn.2', 'oghn..e.1']  0.635737739527	['agin..ab.1']  0.987795912962	[u'ödhn..nn.1']  1.17592691147	['elin..nn.1']  1.58535025379	['ilan..nn.1']  1.97211443775 (eghn)
 
 witni til tha skiftæs eghn theræ hus oc bolfæ oc köpæ
-['thura..vb.1']  0.173591808261	[u'thöra..e.1']  0.176730673289	[u'ahöra..vb.1']  0.222871347937	[u'saltæ..vb.1']  0.242504763341	['liuri..nn.1']  0.256415755259	['thova..vb.1']  0.263504802252	['thuva..nn.1']  0.263942517636	['kleti..nn.1']  0.283054286798	['niure..nn.1']  0.293158232141	[u'iföra..vb.1', u'iföra..vb.1']  0.297164821925 (theræ)
+[u'thöra..e.1']  0.891836564704	['thura..vb.1']  0.911395784659	[u'tiæra..nn.1']  1.17339907086 (theræ)
 
 til tha skiftæs eghn theræ hus oc bolfæ oc köpæ iorth
-['hus..e.1', 'hus..nn.1', 'hus..nn.1']  0	['hes..av.1']  0.0457346313766	['hun..e.1', 'hun..e.2', 'hun..e.1']  0.0614078461961	['has..nn.1']  0.0620226527214	['lus..nn.1', 'lus..nn.1']  0.0647142826421	['fus..av.1']  0.0721251267398	[u'hös..nn.1', u'hös..nn.1', u'hös..nn.1']  0.0792029822946	['hen..ab.1']  0.107142477573	[u'hæn..e.1']  0.117258790411	['iu..ab.1', 'iu..ab.1']  0.118568663427 (hus)
+['hus..e.1', 'hus..nn.1', 'hus..nn.1']  0	['hus..e.1', 'hus..nn.1', 'hus..nn.1']  0	['hos..e.1', 'hos..e.1', 'hos..e.1']  0.141629409963	[u'hös..nn.1', u'hös..nn.1', u'hös..nn.1']  0.452924505032	['fus..av.1']  0.486143579619	['lus..nn.1', 'lus..nn.1']  0.523539485037	['has..nn.1']  0.537822592341	['hun..e.1', 'hun..e.2', 'hun..e.1']  0.541139346095	['hes..av.1']  0.63296109896	['hot..nn.1', 'hot..nn.1']  0.640603164503 (hus)
 
 tha skiftæs eghn theræ hus oc bolfæ oc köpæ iorth halft
-['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.17841199011	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.223708906102	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.373866132291 (oc)
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.167944804013	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.309574213976	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.80368254354 (oc)
 
 skiftæs eghn theræ hus oc bolfæ oc köpæ iorth halft hænnæ
-[u'bolfæ..nn.1']  0	['bolde..e.1']  0.190794212013	[u'byrþi..nn.1']  0.28304333165	['bonde..nn.1', 'bonde..nn.1', 'bonde..nn.1']  0.285885272248	['bokka..e.1']  0.286049232386	['fylgi..e.1']  0.311163388915	['bakki..nn.1']  0.311467595719	['bomba..e.1']  0.317504076703	['bandi..nn.1']  0.321917963032	[u'byrþe..nn.1']  0.323102085904 (bolfæ)
+[u'bolfæ..nn.1']  0	[u'bolfæ..nn.1']  0	['bolde..e.1']  0.788873367216	['boghi..nn.1']  1.94830504731 (bolfæ)
 
 eghn theræ hus oc bolfæ oc köpæ iorth halft hænnæ oc
-['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.17841199011	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.223708906102	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.373866132291 (oc)
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.167944804013	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.309574213976	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.80368254354 (oc)
 
 theræ hus oc bolfæ oc köpæ iorth halft hænnæ oc halft
-[u'köpi..nn.1']  0.0771840951789	[u'köpe..nn.2']  0.117242849434	[u'köpa..vb.1', u'köpa..vb.1', u'köpa..vb.1']  0.127857176885	['kapa..nn.1', 'kapa..nn.1', 'kapa..nn.1']  0.18510895335	['kupa..nn.1']  0.207060159179	[u'löpa..vb.1', u'löpa..vb.1', u'löpa..e.2', u'löpa..vb.1']  0.215952334519	['tapa..vb.1', 'tapa..vb.1', 'tapa..vb.1']  0.257809390464	['kaka..e.1']  0.272400957518	['lapa..vb.1', 'lapa..vb.1']  0.273204110984	[u'föþa..vb.1', u'föþa..nn.2', u'föþa..vb.1']  0.279135151801 (köpæ)
+[u'köpa..vb.1', u'köpa..vb.1', u'köpa..vb.1']  0.278434685699	[u'köpe..nn.2']  0.309614131374	[u'köpi..nn.1']  0.462161467693	[u'löpa..vb.1', u'löpa..vb.1', u'löpa..e.2', u'löpa..vb.1']  0.692823087508	['kupa..nn.1']  0.731359190731	['kapa..nn.1', 'kapa..nn.1', 'kapa..nn.1']  0.842538055405	['koka..vb.2']  1.00800692032	['koma..vb.1', 'koma..nn.2', 'koma..vb.1', 'koma..e.1']  1.02103745049	['lapa..vb.1', 'lapa..vb.1']  1.25692645721	['pika..nn.1', 'pika..nn.1']  1.58804046592 (köpæ)
+--X
 
 hus oc bolfæ oc köpæ iorth halft hænnæ oc halft bondæns
-['iordh..nn.1']  0.0935591175961	['torgh..nn.1', 'torgh..nn.1', 'torgh..nn.1']  0.124197107762	['sorgh..nn.1', 'sorgh..nn.1', 'sorgh..nn.1']  0.132043461143	['borgh..nn.1', 'borgh..nn.1']  0.150530020008	[u'iorþa..vb.1']  0.161486822422	[u'þorva..vb.1', u'þorva..vb.1', u'þorva..vb.1']  0.16673189523	[u'þorka..vb.1']  0.166896847394	[u'þotti..e.1']  0.167490099088	['torva..nn.1', 'torva..nn.1']  0.169560778552	['horra..e.1']  0.170726232218 (iorth)
+['iordh..nn.1']  0.392353846794	[u'iorþa..vb.1']  0.938142361714	['borgh..nn.1', 'borgh..nn.1']  0.942251072665	['sorgh..nn.1', 'sorgh..nn.1', 'sorgh..nn.1']  1.03851234014	['torgh..nn.1', 'torgh..nn.1', 'torgh..nn.1']  1.08506427194	['horra..e.1']  1.70403205214 (iorth)
 
 oc bolfæ oc köpæ iorth halft hænnæ oc halft bondæns arwm
-['halda..vb.1', 'halda..vb.1', 'halda..vb.1']  0.119692037227	[u'hælft..nn.1']  0.127857176885	['falka..vb.1']  0.188362699255	['falda..vb.1', 'falda..vb.1', 'falda..nn.1']  0.191817163967	[u'þörft..e.1']  0.193948683485	[u'hælst..ab.1']  0.196325426125	['halva..nn.1', 'halva..nn.1']  0.20199971127	['hakka..vb.1']  0.204332730149	['helsa..vb.2', 'helsa..nn.1', 'helsa..vb.2', 'helsa..nn.1', 'helsa..vb.1']  0.205628443839	['harma..vb.1', 'harma..vb.1']  0.208548637632 (halft)
+[u'hælft..nn.1']  0.278434685699	[u'hælst..ab.1']  0.782684993161	['halva..nn.1', 'halva..nn.1']  0.840828708785	['halda..vb.1', 'halda..vb.1', 'halda..vb.1']  1.10965544965	['falda..vb.1', 'falda..vb.1', 'falda..nn.1']  1.59579902927	['halta..vb.1']  1.63039621381	['haghl..nn.1', 'haghl..nn.1']  1.93573080211	['filit..nn.1']  1.97417700135 (halft)
 
 bolfæ oc köpæ iorth halft hænnæ oc halft bondæns arwm annær
-[u'þænni..nn.1']  0.140054654362	[u'hænda..vb.1']  0.198186029595	[u'hænta..vb.1']  0.204483439567	['hinna..vb.2', 'hinna..vb.2', 'hinna..nn.1', 'hinna..vb.2', 'hinna..nn.1']  0.205041272064	['hanni..e.1']  0.205041272064	[u'hæmna..e.1']  0.24144873779	['dynne..e.1']  0.243034822078	[u'hælti..nn.1']  0.248901418097	['hynda..nn.1']  0.252243435111	['hyrne..nn.1', 'hyrne..nn.1']  0.25522299805 (hænnæ)
+[u'hæmna..e.1']  0.599562644717	['hinna..vb.2', 'hinna..vb.2', 'hinna..nn.1', 'hinna..vb.2', 'hinna..nn.1']  0.740596153392	['hanni..e.1']  0.740596153392	[u'hænta..vb.1']  0.743181444338	[u'hænda..vb.1']  0.773389637456	[u'þænni..nn.1']  0.995443106249	[u'gærna..ab.1']  1.19428223151	['linne..nn.1']  1.2953150841	['dynne..e.1']  1.38007392277	[u'tænda..vb.1']  1.77338963746 (hænnæ)
 
 oc köpæ iorth halft hænnæ oc halft bondæns arwm annær gangæ
-['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.17841199011	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.223708906102	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.373866132291 (oc)
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.167944804013	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.309574213976	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.80368254354 (oc)
 
 köpæ iorth halft hænnæ oc halft bondæns arwm annær gangæ til
-['halda..vb.1', 'halda..vb.1', 'halda..vb.1']  0.119692037227	[u'hælft..nn.1']  0.127857176885	['falka..vb.1']  0.188362699255	['falda..vb.1', 'falda..vb.1', 'falda..nn.1']  0.191817163967	[u'þörft..e.1']  0.193948683485	[u'hælst..ab.1']  0.196325426125	['halva..nn.1', 'halva..nn.1']  0.20199971127	['hakka..vb.1']  0.204332730149	['helsa..vb.2', 'helsa..nn.1', 'helsa..vb.2', 'helsa..nn.1', 'helsa..vb.1']  0.205628443839	['harma..vb.1', 'harma..vb.1']  0.208548637632 (halft)
+[u'hælft..nn.1']  0.278434685699	[u'hælst..ab.1']  0.782684993161	['halva..nn.1', 'halva..nn.1']  0.840828708785	['halda..vb.1', 'halda..vb.1', 'halda..vb.1']  1.10965544965	['falda..vb.1', 'falda..vb.1', 'falda..nn.1']  1.59579902927	['halta..vb.1']  1.63039621381	['haghl..nn.1', 'haghl..nn.1']  1.93573080211	['filit..nn.1']  1.97417700135 (halft)
 
 iorth halft hænnæ oc halft bondæns arwm annær gangæ til rættæ
-[u'bodsæti..nn.1']  0.269960877488	[u'bodræt..nn.1']  0.273006345019	[u'bændil..nn.1']  0.292607196952	[u'bolfæst..nn.1']  0.299570447083	['bosran..nn.1']  0.315316252707	[u'fordæþa..nn.1']  0.326020232837	['bundin..nn.1', 'bundin..nn.1']  0.337652412138	['banlysa..vb.1']  0.343573361798	['forsona..vb.1', 'forsona..vb.1']  0.348150567206	['bannor..nn.1']  0.350675082388 (bondæns)
+None  0 (bondæns)
 
 halft hænnæ oc halft bondæns arwm annær gangæ til rættæ aruæ
- (arwm)
+None  0 (arwm)
 
 hænnæ oc halft bondæns arwm annær gangæ til rættæ aruæ annan
-[u'snær..e.1']  0.112576153594	['annar..av.1', 'annar..e.1', 'annar..e.1']  0.127857176885	['ennor..av.1']  0.14633738671	[u'snæra..nn.1']  0.163744460991	['snor..nn.2', 'snor..nn.1']  0.167894020353	['anna..vb.1']  0.17783358826	['andi..nn.1']  0.197489359265	['inni..ab.2', 'inni..nn.1']  0.198897645388	['undir..e.1', 'undir..e.1', 'undir..pp.1']  0.209535600611	['ynne..e.1']  0.213584007972 (annær)
+['annar..av.1', 'annar..e.1', 'annar..e.1']  0.278434685699	['ennor..av.1']  0.977564449533	[u'snær..e.1']  1.14062509647	['innan..ab.1', 'innan..ab.1', 'innan..e.2', 'innan..nn.1']  1.19851228589	['ondan..e.1']  1.67267278066	[u'snæra..nn.1']  1.74011084685	['undan..e.1', 'undan..e.1', 'undan..e.1']  1.74325640826 (annær)
 
 oc halft bondæns arwm annær gangæ til rættæ aruæ annan man
-['ganga..vb.1', 'ganga..vb.1', 'ganga..nn.2', 'ganga..vb.1']  0.127857176885	['hangi..nn.1']  0.149791767242	['fangi..nn.1']  0.158669364606	['fange..nn.1']  0.198728118861	['hanga..vb.1']  0.200464848947	[u'gængi..nn.1']  0.205041272064	['fanga..vb.1', 'fanga..vb.1']  0.209342446312	['vingi..nn.1']  0.246232643175	['handa..e.1']  0.25799681332	['danta..vb.1']  0.261277227123 (gangæ)
+['ganga..vb.1', 'ganga..vb.1', 'ganga..nn.2', 'ganga..vb.1']  0.278434685699	['fanga..vb.1', 'fanga..vb.1']  0.721139221171	[u'gængi..nn.1']  0.740596153392	['fange..nn.1']  0.752318666846	['hanga..vb.1']  0.762238053045	['fangi..nn.1']  0.904866003165	['hangi..nn.1']  0.945964835039	['venga..vb.1']  1.05878471984	['vinga..vb.1', 'vinga..vb.1']  1.1443724824	['tunga..nn.1']  1.28444738286 (gangæ)
 
 halft bondæns arwm annær gangæ til rættæ aruæ annan man ma
-['til..e.1', 'til..e.1', 'til..e.1']  0	['ti..e.1']  0.0655576093981	['tol..nn.1']  0.0672732489051	['sil..nn.1']  0.0695201780726	[u'tiþ..nn.1']  0.0697940583106	['tal..nn.1', 'tal..nn.1', 'tal..nn.1']  0.0717371388329	['vil..nn.1']  0.0725354849498	['tit..e.1']  0.0799425400544	['tik..nn.1']  0.0880951576341	['dil..nn.1']  0.0935591175961 (til)
+['til..e.1', 'til..e.1', 'til..e.1']  0	['til..e.1', 'til..e.1', 'til..e.1']  0	['tin..e.2', 'tin..nn.1']  0.386389016462	['dil..nn.1']  0.392353846794	['tik..nn.1']  0.414388401809	['tit..e.1']  0.449587222486	['vil..nn.1']  0.484152737114	['tal..nn.1', 'tal..nn.1', 'tal..nn.1']  0.488033421727	[u'tiþ..nn.1']  0.497609033737	['sil..nn.1']  0.49897375454 (til)
 
 bondæns arwm annær gangæ til rættæ aruæ annan man ma ey
-[u'tuttæ..vb.1']  0.124306416078	[u'rætta..vb.1']  0.127857176885	[u'mætti..nn.1']  0.153652527704	[u'æriæ..nn.1']  0.166740905136	[u'vætti..nn.3', u'vætti..nn.2', u'vætti..nn.1']  0.167534804554	[u'ættir..pp.1']  0.177136917931	[u'ættia..nn.1']  0.178328813952	['rotta..nn.1']  0.183175043644	[u'rænta..nn.1']  0.204483439567	[u'næstu..e.1']  0.209293865388 (rættæ)
+[u'rætta..vb.1']  0.278434685699	[u'rænta..nn.1']  0.743181444338	['rotta..nn.1']  0.853553476059	[u'vætti..nn.3', u'vætti..nn.2', u'vætti..nn.1']  0.867307746944	[u'mætti..nn.1']  0.927642316025	[u'tuttæ..vb.1']  1.07637586041	[u'vælta..e.1']  1.13316818744	['vatti..e.1']  1.14574243264	[u'vænta..vb.1']  1.14832772359	[u'ættir..pp.1']  1.67550896535 (rættæ)
 
 arwm annær gangæ til rættæ aruæ annan man ma ey arf
-['arvi..nn.2', 'arvi..nn.1']  0.144454327902	['arna..vb.1']  0.181969643878	['arve..nn.2', 'arve..nn.1', 'arve..nn.2']  0.184513082156	[u'æriæ..nn.1']  0.190486612554	['ymno..av.1']  0.232263513441	['tio..e.1', 'tio..e.1']  0.237571081689	['tiu..e.1']  0.238104159145	['ria..nn.1']  0.241654919951	['urna..vb.1']  0.2439922966	['rva..e.1']  0.246295717005 (aruæ)
+[u'æriæ..nn.1']  0.813003743192	['arve..nn.2', 'arve..nn.1', 'arve..nn.2']  0.819941771851	['arna..vb.1']  0.86052790705	['arvi..nn.2', 'arvi..nn.1']  0.97248910817	[u'ærva..vb.1']  1.06719701187	[u'æria..vb.1']  1.09143842889	[u'ærve..nn.1']  1.09837645755	[u'ærni..nn.1']  1.32268937474	['orna..e.1']  1.32776687179	['urna..vb.1']  1.39835049939 (aruæ)
 
 annær gangæ til rættæ aruæ annan man ma ey arf standæ
-['innan..ab.1', 'innan..ab.1', 'innan..e.2', 'innan..nn.1']  0.0717371388329	['annar..av.1', 'annar..e.1', 'annar..e.1']  0.0839227431006	['undan..e.1', 'undan..e.1', 'undan..e.1']  0.132351505432	['ondan..e.1']  0.146420297749	['susan..nn.1']  0.17124677226	['utan..ab.1', 'utan..e.3', 'utan..e.2', 'utan..e.1']  0.181907037073	['hunar..nn.1']  0.186751481799	[u'östan..ab.1', u'östan..ab.1']  0.195285885344	['snar..av.1']  0.196498896694	['slan..nn.1']  0.207667213829 (annan)
+['annar..av.1', 'annar..e.1', 'annar..e.1']  0.432044178463	['innan..ab.1', 'innan..ab.1', 'innan..e.2', 'innan..nn.1']  0.488033421727	['ondan..e.1']  0.962193916498	['undan..e.1', 'undan..e.1', 'undan..e.1']  1.0327775441	['etlan..nn.2', 'etlan..e.1']  1.25358143427	['andel..nn.1', 'andel..e.1']  1.28378962739	['ennor..av.1']  1.30172880238	['aldin..nn.1', 'aldin..nn.1', 'aldin..nn.1']  1.36937738995	['inlas..nn.1', 'inlas..nn.1']  1.41556178428	['aldas..vb.1']  1.42248331431 (annan)
 
 gangæ til rættæ aruæ annan man ma ey arf standæ æn
-['man..ab.3', 'man..nn.2', 'man..nn.2', 'man..nn.2', 'man..nn.1']  0	['mun..e.1', 'mun..vb.2', 'mun..nn.1']  0.0620226527214	['dan..nn.1']  0.0642491869581	['min..e.1', 'min..ab.3', 'min..e.2', 'min..e.3', 'min..e.2', 'min..e.1']  0.0717371388329	['mon..nn.1', 'mon..nn.2', 'mon..nn.1', 'mon..e.1']  0.0760914450387	['ran..nn.1', 'ran..nn.1', 'ran..nn.1']  0.0764684325255	['mat..nn.1', 'mat..nn.3', 'mat..nn.2', 'mat..nn.1']  0.0766262626823	['mar..nn.1', 'mar..nn.2', 'mar..nn.1']  0.0839227431006	['fan..e.1']  0.0885816151476	['men..e.2', 'men..nn.1', 'men..av.3', 'men..nn.1', 'men..e.3', 'men..e.2', 'men..nn.1']  0.0910195199504 (man)
+['man..ab.3', 'man..nn.2', 'man..nn.2', 'man..nn.2', 'man..nn.1']  0	['man..ab.3', 'man..nn.2', 'man..nn.2', 'man..nn.2', 'man..nn.1']  0	[u'mæn..e.1']  0.278434685699	['lan..nn.1', 'lan..nn.1', 'lan..nn.1']  0.355888470047	[u'maþ..nn.1', u'maþ..e.1']  0.367739970648	['mal..nn.3', 'mal..nn.2', 'mal..nn.1', 'mal..nn.3', 'mal..nn.2', 'mal..nn.1', 'mal..nn.2', 'mal..nn.1']  0.386389016462	['men..e.2', 'men..nn.1', 'men..av.3', 'men..nn.1', 'men..e.3', 'men..e.2', 'men..nn.1']  0.402445659173	['fan..e.1']  0.412377473415	['mar..nn.1', 'mar..nn.2', 'mar..nn.1']  0.432044178463	['mat..nn.1', 'mat..nn.3', 'mat..nn.2', 'mat..nn.1']  0.464746758639 (man)
 
 til rættæ aruæ annan man ma ey arf standæ æn þæn
-[u'mö..nn.1', u'mö..nn.1', u'mö..nn.1']  0.0572517764657	['ra..nn.2', 'ra..nn.1', 'ra..nn.2', 'ra..nn.1', 'ra..nn.2', 'ra..e.1']  0.0764684325255	['pa..e.1', 'pa..e.1', 'pa..pp.1']  0.0842203009615	['fa..vb.1', 'fa..vb.1', 'fa..e.1']  0.0885816151476	['um..e.2', 'um..e.1', 'um..e.2', 'um..e.1', 'um..kn.2', 'um..pp.1']  0.0986280149445	['am..nn.1']  0.102336614795	['dy..nn.1']  0.110613934121	['na..e.1', 'na..vb.1']  0.113591560906	[u'mæ..e.1']  0.127857176885	[u'rö..nn.2', u'rö..nn.1']  0.133720208991 (ma)
+[u'mæ..e.1']  0.278434685699	['na..e.1', 'na..vb.1']  0.321127959018	['fa..vb.1', 'fa..vb.1', 'fa..e.1']  0.412377473415	['pa..e.1', 'pa..e.1', 'pa..pp.1']  0.430760507826	['ra..nn.2', 'ra..nn.1', 'ra..nn.2', 'ra..nn.1', 'ra..nn.2', 'ra..e.1']  0.465480848332	[u'mö..nn.1', u'mö..nn.1', u'mö..nn.1']  0.564103369706	[u'fæ..nn.1']  0.690812159114	['ne..e.1', 'ne..e.1', 'ne..e.1']  0.723573618191	['le..nn.1', 'le..nn.1']  0.75833412922	['ni..e.1']  0.809161380745 (ma)
+--X
 
 rættæ aruæ annan man ma ey arf standæ æn þæn ær
-['ey..ab.1']  0	['oy..e.1']  0.045296915992	['le..nn.1', 'le..nn.1']  0.106460740003	['lo..nn.1', 'lo..nn.1']  0.12197375455	['ia..e.1', 'ia..e.1']  0.149157565312	['io..e.1']  0.168953731	['iu..ab.1', 'iu..ab.1']  0.192525393864	['ai..e.1']  0.213940119366	[u'æi..ab.1']  0.24016344885 (ey)
+['ey..ab.1']  0	['ey..ab.1']  0	[u'æi..ab.1']  0.60213888323	['oy..e.1']  0.635737739527	['ai..e.1']  0.694970411029	['iu..ab.1', 'iu..ab.1']  0.765405761792	['io..e.1']  0.873767703997	['ia..e.1', 'ia..e.1']  0.986732631474	['lo..nn.1', 'lo..nn.1']  1.08829945313	['le..nn.1', 'le..nn.1']  1.17489279072 (ey)
 
 aruæ annan man ma ey arf standæ æn þæn ær cristindom
-['arf..nn.2', 'arf..nn.3', 'arf..nn.2', 'arf..nn.1']  0	['urf..e.1', 'urf..nn.1']  0.0620226527214	['ars..nn.1', 'ars..nn.1']  0.0684682492407	['ark..nn.1', 'ark..nn.1']  0.0700968978672	['alf..nn.1']  0.0738263478364	['orf..nn.1', 'orf..nn.1']  0.0760914450387	['arm..e.1']  0.0885816151476	['tro..nn.1', 'tro..nn.1', 'tro..av.2', 'tro..nn.1']  0.105017213493	['ro..nn.1', 'ro..nn.1', 'ro..nn.1']  0.110044846243	[u'örs..nn.1', u'örs..nn.1']  0.125720025706 (arf)
+['arf..nn.2', 'arf..nn.3', 'arf..nn.2', 'arf..nn.1']  0	['arf..nn.2', 'arf..nn.3', 'arf..nn.2', 'arf..nn.1']  0	[u'ærf..e.1']  0.278434685699	['arm..e.1']  0.412377473415	['orf..nn.1', 'orf..nn.1']  0.467238964741	['alf..nn.1']  0.477943153945	['ark..nn.1', 'ark..nn.1']  0.496104356275	['ars..nn.1', 'ars..nn.1']  0.504250307462	['urf..e.1', 'urf..nn.1']  0.537822592341	[u'ælf..nn.1']  0.756377839644 (arf)
 
 annan man ma ey arf standæ æn þæn ær cristindom far
-['standa..vb.1', 'standa..vb.1', 'standa..e.1']  0.127857176885	['staddi..e.1']  0.14751294789	['atande..e.1']  0.172969308504	[u'styriæ..nn.1']  0.179686875657	[u'tynnæ..nn.1']  0.181707774652	['stanga..vb.1', 'stanga..vb.1']  0.185389141257	['siundi..e.1']  0.187515769797	['stunda..vb.1', 'stunda..vb.1', 'stunda..vb.1']  0.189879829606	['fiandi..nn.1']  0.193961366316	['stingi..e.1']  0.206453198384 (standæ)
+['standa..vb.1', 'standa..vb.1', 'standa..e.1']  0.278434685699	['stunda..vb.1', 'stunda..vb.1', 'stunda..vb.1']  0.81625727804	['stanga..vb.1', 'stanga..vb.1']  0.840959718168	['staddi..e.1']  0.95711641945	[u'skænda..vb.1']  1.0402241464	[u'tænda..vb.1']  1.07884115457	['stunta..vb.1']  1.20861112483	['slinda..nn.1']  1.21605532991	['stynta..vb.1']  1.29977378303	['stinga..vb.1', 'stinga..vb.1', 'stinga..vb.1']  1.3289931399 (standæ)
 
 man ma ey arf standæ æn þæn ær cristindom far sighær
-[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0	[u'æt..e.2', u'æt..nn.1']  0.0766262626823	['in..ab.2', 'in..e.2', 'in..ab.1']  0.0771840951789	[u'ær..e.2', u'ær..e.1']  0.0839227431006	[u'æm..e.2', u'æm..e.1']  0.113591560906	['os..nn.1', 'os..nn.2', 'os..nn.1', 'os..e.2', 'os..nn.1']  0.116725712955	['en..e.1', 'en..e.2', 'en..nn.1', 'en..ab.2', 'en..e.1']  0.117242849434	['us..e.1']  0.117258790411	['an..nn.1', 'an..e.2', 'an..nn.1']  0.127857176885	['iu..ab.1', 'iu..ab.1']  0.131296562172 (æn)
+[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0	[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0	['an..nn.1', 'an..e.2', 'an..nn.1']  0.278434685699	['en..e.1', 'en..e.2', 'en..nn.1', 'en..ab.2', 'en..e.1']  0.309614131374	[u'æm..e.2', u'æm..e.1']  0.321127959018	[u'ær..e.2', u'ær..e.1']  0.432044178463	['in..ab.2', 'in..e.2', 'in..ab.1']  0.462161467693	[u'æt..e.2', u'æt..nn.1']  0.464746758639	['am..nn.1']  0.599562644717	['al..nn.2', 'al..nn.1', 'al..nn.2', 'al..e.1']  0.664823702161 (æn)
 
 ma ey arf standæ æn þæn ær cristindom far sighær mothær
-[u'þæn..e.2', u'þæn..nn.1']  0	[u'þyn..nn.1', u'þyn..nn.1', u'þyn..nn.1']  0.0540574055156	[u'þæs..e.1']  0.0614078461961	[u'hæn..e.1']  0.0628705591828	[u'læn..nn.1']  0.0697940583106	[u'þæt..e.3', u'þæt..e.2', u'þæt..e.1']  0.0766262626823	[u'þin..e.1', u'þin..e.1', u'þin..e.2', u'þin..e.1']  0.0771840951789	[u'þær..e.3', u'þær..e.2', u'þær..ab.1']  0.0839227431006	['hon..nn.2', 'hon..nn.2', 'hon..e.1']  0.118188425942	['hun..e.1', 'hun..e.2', 'hun..e.1']  0.118721503398 (þæn)
+[u'þæn..e.2', u'þæn..nn.1']  0	[u'þæn..e.2', u'þæn..nn.1']  0	[u'þan..e.1', u'þan..kn.4', u'þan..kn.3', u'þan..e.2', u'þan..e.1']  0.278434685699	[u'þær..e.3', u'þær..e.2', u'þær..ab.1']  0.432044178463	['dan..nn.1']  0.43920913744	[u'þin..e.1', u'þin..e.1', u'þin..e.2', u'þin..e.1']  0.462161467693	[u'þæt..e.3', u'þæt..e.2', u'þæt..e.1']  0.464746758639	['den..e.1']  0.470388583115	[u'læn..nn.1']  0.497609033737	[u'hæn..e.1']  0.533281638556 (þæn)
 
 ey arf standæ æn þæn ær cristindom far sighær mothær oc
-[u'ær..e.2', u'ær..e.1']  0	[u'æ..e.2', u'æ..ab.1']  0.0499764113759	['yr..pp.1']  0.0540574055156	['or..e.1', 'or..e.2', 'or..e.1']  0.0553178667592	[u'ör..av.2', u'ör..nn.1', u'ör..e.3', u'ör..av.2']  0.0555586715514	['ur..e.1', 'ur..e.2', 'ur..pp.1']  0.0558509442148	[u'æt..e.2', u'æt..nn.1']  0.0684554718635	[u'æm..e.2', u'æm..e.1']  0.0764684325255	['ir..e.1', 'ir..e.2', 'ir..e.1']  0.0771840951789	[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0.0839227431006 (ær)
+[u'ær..e.2', u'ær..e.1']  0	[u'ær..e.2', u'ær..e.1']  0	['ar..nn.3', 'ar..nn.2', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1', 'ar..e.4', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1']  0.278434685699	['er..nn.1', 'er..e.2', 'er..nn.1']  0.309614131374	[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0.432044178463	['ir..e.1', 'ir..e.2', 'ir..e.1']  0.462161467693	[u'æm..e.2', u'æm..e.1']  0.465480848332	[u'æt..e.2', u'æt..nn.1']  0.504314741542	['ur..e.1', 'ur..e.2', 'ur..pp.1']  0.572061118865	[u'ör..av.2', u'ör..nn.1', u'ör..e.3', u'ör..av.2']  0.573735542883 (ær)
 
 arf standæ æn þæn ær cristindom far sighær mothær oc hænnæ
- (cristindom)
+None  0 (cristindom)
 
 standæ æn þæn ær cristindom far sighær mothær oc hænnæ frændær
-['far..av.3', 'far..av.4', 'far..nn.3', 'far..nn.1', 'far..nn.2', 'far..nn.1']  0	['fyr..ab.1', 'fyr..e.1', 'fyr..ab.1']  0.0463647471627	['fa..vb.1', 'fa..vb.1', 'fa..e.1']  0.0499764113759	[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0.0572517764657	['oar..nn.1', 'oar..nn.1']  0.0588765388458	[u'þar..e.1', u'þar..e.1', u'þar..e.1']  0.0658719757838	['fat..nn.1', 'fat..e.2', 'fat..nn.1', 'fat..e.3', 'fat..nn.2', 'fat..e.1']  0.0684554718635	['sar..av.3', 'sar..nn.2', 'sar..nn.1', 'sar..av.4', 'sar..nn.3', 'sar..nn.2', 'sar..e.3', 'sar..av.2', 'sar..nn.1']  0.0684682492407	['kar..nn.1', 'kar..nn.1', 'kar..nn.1']  0.0700968978672	['fir..ab.1']  0.0717371388329 (far)
+['far..av.3', 'far..av.4', 'far..nn.3', 'far..nn.1', 'far..nn.2', 'far..nn.1']  0	['far..av.3', 'far..av.4', 'far..nn.3', 'far..nn.1', 'far..nn.2', 'far..nn.1']  0	['par..nn.2', 'par..nn.1', 'par..nn.1']  0.147257170711	['var..nn.7', 'var..av.6', 'var..nn.5', 'var..nn.4', 'var..nn.3', 'var..nn.1', 'var..e.4', 'var..e.3', 'var..av.2', 'var..nn.1']  0.21043249498	['mar..nn.1', 'mar..nn.2', 'mar..nn.1']  0.412377473415	['bar..av.2', 'bar..nn.1', 'bar..av.4', 'bar..nn.2', 'bar..nn.1', 'bar..av.1']  0.421754826101	['fan..e.1']  0.432044178463	['gar..e.1', 'gar..nn.1', 'gar..vb.1']  0.442704535472	['for..e.2', 'for..nn.1', 'for..e.2', 'for..nn.1', 'for..ab.4', 'for..e.3', 'for..av.2', 'for..nn.1']  0.467238964741	['fal..nn.2', 'fal..av.1', 'fal..nn.3', 'fal..av.1', 'fal..av.2', 'fal..nn.1']  0.477943153945 (far)
+--X
 
 æn þæn ær cristindom far sighær mothær oc hænnæ frændær at
-[u'saghær..e.1']  0.0717371388329	['sigher..nn.1', 'sigher..nn.1', 'sigher..nn.1']  0.117242849434	[u'sæghæ..nn.1']  0.127160506555	['sidher..ab.3', 'sidher..av.2', 'sidher..nn.1']  0.174774813806	['sigha..vb.1', 'sigha..vb.1']  0.17783358826	[u'tughæ..vb.1']  0.182126025117	['digher..av.1', 'digher..av.1']  0.184093236251	['sidhar..ab.1']  0.185389141257	['tigher..nn.1']  0.186763027506	['sagher..e.1']  0.188979988266 (sighær)
+['sigher..nn.1', 'sigher..nn.1', 'sigher..nn.1']  0.309614131374	[u'saghær..e.1']  0.488033421727	['segher..av.1']  0.667361512313	['sagher..e.1']  0.797647553101	['tigher..nn.1']  0.808587885914	['digher..av.1', 'digher..av.1']  0.822088865643	['sidher..ab.3', 'sidher..av.2', 'sidher..nn.1']  0.872139163843	[u'þæghar..e.1']  1.74059615339	[u'æghin..e.1']  1.87833889702	['stighe..nn.1']  1.93723341791 (sighær)
+--4
 
 þæn ær cristindom far sighær mothær oc hænnæ frændær at barn
-['modhir..nn.1']  0.170743212775	['moghin..e.1']  0.236994924145	['moghe..nn.1', 'moghe..nn.1']  0.243107346675	['mogha..e.1', 'mogha..nn.1']  0.253721674126	['medher..av.1']  0.256098883022	[u'myndæ..vb.1']  0.264498154038	['magher..av.2', 'magher..av.2', 'magher..nn.1', 'magher..nn.1']  0.269222380338	['rogher..nn.1', 'rogher..nn.1', 'rogher..e.1']  0.269599367825	['kogher..nn.1', 'kogher..nn.1']  0.271334729797	['kordyr..nn.1']  0.272451239006 (mothær)
+['modhir..nn.1']  0.854515314487 (mothær)
 
 ær cristindom far sighær mothær oc hænnæ frændær at barn war
-['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.17841199011	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.223708906102	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.373866132291 (oc)
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.167944804013	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.309574213976	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.80368254354 (oc)
 
 cristindom far sighær mothær oc hænnæ frændær at barn war föt
-[u'þænni..nn.1']  0.140054654362	[u'hænda..vb.1']  0.198186029595	[u'hænta..vb.1']  0.204483439567	['hinna..vb.2', 'hinna..vb.2', 'hinna..nn.1', 'hinna..vb.2', 'hinna..nn.1']  0.205041272064	['hanni..e.1']  0.205041272064	[u'hæmna..e.1']  0.24144873779	['dynne..e.1']  0.243034822078	[u'hælti..nn.1']  0.248901418097	['hynda..nn.1']  0.252243435111	['hyrne..nn.1', 'hyrne..nn.1']  0.25522299805 (hænnæ)
+[u'hæmna..e.1']  0.599562644717	['hinna..vb.2', 'hinna..vb.2', 'hinna..nn.1', 'hinna..vb.2', 'hinna..nn.1']  0.740596153392	['hanni..e.1']  0.740596153392	[u'hænta..vb.1']  0.743181444338	[u'hænda..vb.1']  0.773389637456	[u'þænni..nn.1']  0.995443106249	[u'gærna..ab.1']  1.19428223151	['linne..nn.1']  1.2953150841	['dynne..e.1']  1.38007392277	[u'tænda..vb.1']  1.77338963746 (hænnæ)
 
 far sighær mothær oc hænnæ frændær at barn war föt æftær
-[u'frændi..nn.1']  0.127160506555	[u'þrynnæ..e.1']  0.240234645386	[u'drænger..nn.1']  0.248326176385	['grunder..e.2', 'grunder..av.1', 'grunder..nn.1']  0.254579063076	['bronder..e.1']  0.258893827651	['brunder..nn.1', 'brunder..nn.1', 'brunder..nn.1']  0.259426905107	[u'þrænni..e.1']  0.263361335049	[u'frælsi..nn.1']  0.289101953607	[u'fræmmer..e.1']  0.295083597297	['orudder..e.1', 'orudder..av.1']  0.302299185205 (frændær)
+[u'frændi..nn.1']  1.06883521652	[u'drænger..nn.1']  1.35139839968 (frændær)
 
 sighær mothær oc hænnæ frændær at barn war föt æftær fathur
-['at..e.3', 'at..e.1', 'at..e.4', 'at..e.3', 'at..e.2', 'at..e.1', 'at..e.3', 'at..e.2', 'at..pp.1']  0	['ai..e.1']  0.0483090218965	['ut..ab.1', 'ut..ab.1']  0.0620226527214	['ar..nn.3', 'ar..nn.2', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1', 'ar..e.4', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1']  0.0684554718635	['as..nn.1', 'as..nn.3', 'as..nn.2', 'as..e.1', 'as..nn.1']  0.0695201780726	['it..e.2', 'it..e.1']  0.0717371388329	['an..nn.1', 'an..e.2', 'an..nn.1']  0.0766262626823	['al..nn.2', 'al..nn.1', 'al..nn.2', 'al..e.1']  0.0799425400544	['et..e.1']  0.0910195199504	['ta..nn.2', 'ta..nn.1', 'ta..nn.1', 'ta..e.3', 'ta..nn.2', 'ta..ab.1']  0.0922813492953 (at)
+['at..e.3', 'at..e.1', 'at..e.4', 'at..e.3', 'at..e.2', 'at..e.1', 'at..e.3', 'at..e.2', 'at..pp.1']  0	['at..e.3', 'at..e.1', 'at..e.4', 'at..e.3', 'at..e.2', 'at..e.1', 'at..e.3', 'at..e.2', 'at..pp.1']  0	[u'æt..e.2', u'æt..nn.1']  0.278434685699	['et..e.1']  0.402445659173	['al..nn.2', 'al..nn.1', 'al..nn.2', 'al..e.1']  0.449587222486	['an..nn.1', 'an..e.2', 'an..nn.1']  0.464746758639	['it..e.2', 'it..e.1']  0.488033421727	['as..nn.1', 'as..nn.3', 'as..nn.2', 'as..e.1', 'as..nn.1']  0.49897375454	['ar..nn.3', 'ar..nn.2', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1', 'ar..e.4', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1']  0.504314741542	['ut..ab.1', 'ut..ab.1']  0.537822592341 (at)
 
 mothær oc hænnæ frændær at barn war föt æftær fathur oc
-['barn..nn.1', 'barn..nn.1', 'barn..nn.1']  0	[u'börn..nn.1']  0.0572517764657	['iarn..e.1']  0.0746419341421	['bart..e.2', 'bart..nn.1']  0.0766262626823	['butn..nn.1', 'butn..nn.1', 'butn..nn.1']  0.130478124585	['burt..e.1', 'burt..ab.1']  0.138648915404	['botn..e.1', 'botn..e.1']  0.144546916902	[u'byrþ..nn.1', u'byrþ..nn.1']  0.14640266637	['bort..ab.1', 'bort..ab.1', 'bort..ab.1']  0.152717707721	['band..nn.1', 'band..nn.1', 'band..nn.1']  0.154251595811 (barn)
+['barn..nn.1', 'barn..nn.1', 'barn..nn.1']  0	['barn..nn.1', 'barn..nn.1', 'barn..nn.1']  0	['bart..e.2', 'bart..nn.1']  0.464746758639	['iarn..e.1']  0.474060967841	[u'börn..nn.1']  0.564103369706	[u'borþ..nn.1', u'borþ..nn.1']  0.834978935389	['part..nn.1', 'part..nn.1']  0.855845950063	['iarl..e.1']  0.860449984303	['famn..nn.1', 'famn..nn.1', 'famn..nn.1']  0.887235674433	['forn..av.1', 'forn..av.1', 'forn..av.1']  0.888993790842 (barn)
 
 oc hænnæ frændær at barn war föt æftær fathur oc netæ
- (war)
+None  0 (war)
 
 hænnæ frændær at barn war föt æftær fathur oc netæ fæthirnis
-[u'fæt..nn.1']  0.0555586715514	['fat..nn.1', 'fat..e.2', 'fat..nn.1', 'fat..e.3', 'fat..nn.2', 'fat..e.1']  0.0572517764657	[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0.0684554718635	[u'köt..e.1', u'köt..nn.1']  0.0700968978672	[u'föl..e.1', u'föl..nn.1']  0.0799425400544	['fra..e.2', 'fra..vb.1', 'fra..e.1']  0.101325009812	['ort..e.1', 'ort..e.2', 'ort..nn.1']  0.11406087401	[u'döa..vb.1']  0.119692037227	[u'þæt..e.3', u'þæt..e.2', u'þæt..e.1']  0.121430647335	[u'þat..e.1']  0.12312375225 (föt)
+[u'föl..e.1', u'föl..nn.1']  0.449587222486	[u'köt..e.1', u'köt..nn.1']  0.496104356275	[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0.504314741542	['fat..nn.1', 'fat..e.2', 'fat..nn.1', 'fat..e.3', 'fat..nn.2', 'fat..e.1']  0.564103369706	[u'fæt..nn.1']  0.573735542883	[u'pöl..nn.1']  0.596844393197	['vit..nn.3', 'vit..e.1', 'vit..e.3', 'vit..e.2', 'vit..nn.1']  0.684578319903	['fyl..nn.1', 'fyl..nn.1', 'fyl..nn.1']  0.699078637186	['fyn..e.1']  0.714238173339	['mot..e.4', 'mot..nn.3', 'mot..nn.2', 'mot..nn.1', 'mot..e.5', 'mot..nn.3', 'mot..nn.1', 'mot..nn.1']  0.72421973038 (föt)
+--X
 
 frændær at barn war föt æftær fathur oc netæ fæthirnis frændær
-[u'æftir..e.1']  0.0771840951789	[u'ryftæ..vb.1']  0.154010228267	[u'oskær..e.1']  0.196486553113	['ystir..e.1']  0.199709749935	['ofrir..av.1']  0.200957433802	[u'östir..ab.1']  0.201211015971	[u'æfni..nn.1']  0.203786769237	['ogior..av.1']  0.240430024842	['oster..nn.1', 'oster..nn.1', 'oster..nn.1']  0.241028965433	[u'öster..ab.2', u'öster..nn.1', u'öster..ab.3']  0.241269770226 (æftær)
+[u'æftir..e.1']  0.462161467693	['after..e.1']  0.588048817073	[u'æptir..pp.1']  0.609418638404	[u'ryftæ..vb.1']  1.79576131639	['foter..nn.1', 'foter..nn.1']  1.86462621762 (æftær)
 
 at barn war föt æftær fathur oc netæ fæthirnis frændær tha
-['fagher..av.1', 'fagher..av.1', 'fagher..nn.2', 'fagher..av.1']  0.121622717242	['fadhir..nn.1']  0.156188553265	['faiger..av.1']  0.166651325336	['faghn..e.1']  0.179976964235	['sagher..e.1']  0.190090966483	['dagher..nn.1', 'dagher..nn.1']  0.195174079821	['falder..nn.1', 'falder..nn.1', 'falder..av.1']  0.19741173856	[u'saghær..e.1']  0.200207279321	[u'þaghar..ab.1', u'þaghar..e.1', u'þaghar..e.1']  0.203782714371	['magher..av.2', 'magher..av.2', 'magher..nn.1', 'magher..nn.1']  0.21020433239 (fathur)
+['fadhir..nn.1']  0.926922904287	['fagher..av.1', 'fagher..av.1', 'fagher..nn.2', 'fagher..av.1']  1.10115120378 (fathur)
 
 barn war föt æftær fathur oc netæ fæthirnis frændær tha skal
-['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.17841199011	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.223708906102	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.373866132291 (oc)
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.167944804013	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.309574213976	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.80368254354 (oc)
 
 war föt æftær fathur oc netæ fæthirnis frændær tha skal mothær
-[u'nöti..nn.1']  0.126057591583	['neta..vb.1']  0.127857176885	[u'lytæ..vb.1']  0.145738958539	['nota..nn.1']  0.173154092877	[u'nöta..vb.1', u'nöta..vb.1', u'nöta..e.1']  0.176730673289	['nyta..e.3', 'nyta..vb.2', 'nyta..e.3', 'nyta..vb.2', 'nyta..vb.1']  0.178505075188	[u'næsæ..nn.1']  0.186763027506	['luto..av.1']  0.196143558371	['neka..vb.1', 'neka..vb.1', 'neka..vb.1']  0.200557613998	['reta..vb.1', 'reta..vb.1']  0.211779919985 (netæ)
+['neta..vb.1']  0.278434685699	['leta..vb.1', 'leta..vb.1', 'leta..e.2', 'leta..vb.1']  0.664823702161	['reta..vb.1', 'reta..vb.1']  0.710478864162	['neka..vb.1', 'neka..vb.1', 'neka..vb.1']  0.761789460706	[u'næsæ..nn.1']  0.808587885914	['nyta..e.3', 'nyta..vb.2', 'nyta..e.3', 'nyta..vb.2', 'nyta..vb.1']  0.881048346346	[u'nöta..vb.1', u'nöta..vb.1', u'nöta..e.1']  0.891836564704	[u'mæta..e.1']  0.909176776091	['nota..nn.1']  0.914172425226	[u'læta..vb.1']  0.974437833535 (netæ)
 
 föt æftær fathur oc netæ fæthirnis frændær tha skal mothær wæriændæ
-[u'hæriansun..e.1']  0.535240097247	[u'væriandi..nn.1']  0.568871906557	['sigherman..nn.1']  0.57106979437	['vidhersyn..nn.1']  0.675131359355	['gudhtroin..av.1', 'gudhtroin..av.1']  1.34061219933	['forhugsan..nn.1']  1.38095560552	['firisitia..vb.1']  1.38770215272	['forlidhen..av.1']  1.41372534046	['stokhyrna..nn.1']  1.45270439168	[u'forfængta..vb.1']  1.46104078461 (fæthirnis)
+None  0 (fæthirnis)
 
 æftær fathur oc netæ fæthirnis frændær tha skal mothær wæriændæ witæ
-[u'frændi..nn.1']  0.127160506555	[u'þrynnæ..e.1']  0.240234645386	[u'drænger..nn.1']  0.248326176385	['grunder..e.2', 'grunder..av.1', 'grunder..nn.1']  0.254579063076	['bronder..e.1']  0.258893827651	['brunder..nn.1', 'brunder..nn.1', 'brunder..nn.1']  0.259426905107	[u'þrænni..e.1']  0.263361335049	[u'frælsi..nn.1']  0.289101953607	[u'fræmmer..e.1']  0.295083597297	['orudder..e.1', 'orudder..av.1']  0.302299185205 (frændær)
+[u'frændi..nn.1']  1.06883521652	[u'drænger..nn.1']  1.35139839968 (frændær)
 
 fathur oc netæ fæthirnis frændær tha skal mothær wæriændæ witæ mæth
-[u'thö..nn.1', u'thö..nn.1']  0.0572517764657	['tho..ab.1', 'tho..e.1']  0.0760914450387	['tit..e.1']  0.0996951632965	['ta..nn.2', 'ta..nn.1', 'ta..nn.1', 'ta..e.3', 'ta..nn.2', 'ta..ab.1']  0.0998845791029	['ti..e.1']  0.104722796046	['ala..vb.1']  0.11085495729	['ila..nn.3', 'ila..vb.2', 'ila..vb.1']  0.113023304539	['tiu..e.1']  0.11557714137	['ria..nn.1']  0.122009960512	['ghy..e.1']  0.122252833028 (tha)
+['tho..ab.1', 'tho..e.1']  0.467238964741	[u'thö..nn.1', u'thö..nn.1']  0.564103369706	['dia..e.2', 'dia..vb.1', 'dia..vb.1', 'dia..e.1']  0.977704100583	['tea..vb.1', 'tea..vb.1', 'tea..vb.1']  1	['kla..vb.1']  1.00689426004	['sla..e.2', 'sla..vb.1', 'sla..nn.3', 'sla..vb.1', 'sla..e.1']  1.02251323958	['tio..e.1', 'tio..e.1']  1.05258921853	['via..vb.1']  1.0695029909	['sia..vb.1']  1.08432400833	['ria..nn.1']  1.08966499533 (tha)
 
 oc netæ fæthirnis frændær tha skal mothær wæriændæ witæ mæth twigiæ
-['skal..nn.2', 'skal..e.1', 'skal..nn.3', 'skal..nn.2', 'skal..nn.1', 'skal..nn.2', 'skal..nn.1']  0	['skyl..nn.1', 'skyl..nn.1']  0.0463647471627	['skul..nn.1']  0.0620226527214	['kal..nn.1', 'kal..nn.2', 'kal..nn.1', 'kal..nn.1']  0.0650141747785	['stal..nn.1', 'stal..nn.2', 'stal..nn.1', 'stal..nn.1']  0.0727004371136	['smal..av.1', 'smal..av.1']  0.0782037944977	['skat..nn.1', 'skat..nn.1']  0.0799425400544	['skam..nn.1', 'skam..nn.1']  0.10331378836	['sky..vb.2', 'sky..nn.1', 'sky..vb.2', 'sky..nn.1']  0.111922356561	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  0.121284068468 (skal)
+['skal..nn.2', 'skal..e.1', 'skal..nn.3', 'skal..nn.2', 'skal..nn.1', 'skal..nn.2', 'skal..nn.1']  0	['skal..nn.2', 'skal..e.1', 'skal..nn.3', 'skal..nn.2', 'skal..nn.1', 'skal..nn.2', 'skal..nn.1']  0	[u'skæl..e.1']  0.278434685699	['skam..nn.1', 'skam..nn.1']  0.355888470047	['skat..nn.1', 'skat..nn.1']  0.449587222486	['smal..av.1', 'smal..av.1']  0.457472756361	['stal..nn.1', 'stal..nn.2', 'stal..nn.1', 'stal..nn.1']  0.483354775007	['kal..nn.1', 'kal..nn.2', 'kal..nn.1', 'kal..nn.1']  0.521971783173	['skul..nn.1']  0.537822592341	['skyl..nn.1', 'skyl..nn.1']  0.628985250535 (skal)
+--X
 
 netæ fæthirnis frændær tha skal mothær wæriændæ witæ mæth twigiæ mannæ
-['modhir..nn.1']  0.170743212775	['moghin..e.1']  0.236994924145	['moghe..nn.1', 'moghe..nn.1']  0.243107346675	['mogha..e.1', 'mogha..nn.1']  0.253721674126	['medher..av.1']  0.256098883022	[u'myndæ..vb.1']  0.264498154038	['magher..av.2', 'magher..av.2', 'magher..nn.1', 'magher..nn.1']  0.269222380338	['rogher..nn.1', 'rogher..nn.1', 'rogher..e.1']  0.269599367825	['kogher..nn.1', 'kogher..nn.1']  0.271334729797	['kordyr..nn.1']  0.272451239006 (mothær)
+['modhir..nn.1']  0.854515314487 (mothær)
 
 fæthirnis frændær tha skal mothær wæriændæ witæ mæth twigiæ mannæ witni
- (wæriændæ)
+None  0 (wæriændæ)
 
 frændær tha skal mothær wæriændæ witæ mæth twigiæ mannæ witni oc
- (witæ)
+None  0 (witæ)
 
 tha skal mothær wæriændæ witæ mæth twigiæ mannæ witni oc tolf
-[u'mæta..e.1']  0.0487162717053	['myta..e.1']  0.102773677221	['mota..vb.1']  0.104034138464	[u'möta..vb.1', u'möta..vb.1', u'möta..vb.1']  0.104274943257	['muta..nn.1', 'muta..vb.2', 'muta..nn.1']  0.10456721592	[u'mæri..nn.1']  0.122009960512	[u'ræta..e.1']  0.125184704231	[u'mæla..vb.2', u'mæla..vb.1']  0.12865881176	[u'mögh..nn.1']  0.131446757417	[u'kæti..nn.1']  0.131758283147 (mæth)
+[u'mæta..e.1']  0.614367056814	['leth..e.1']  0.665502601421	['medh..e.1']  0.701967978168	[u'lægh..e.1']  0.824078574871	['fith..nn.1']  0.874538941108	['mata..nn.4', 'mata..vb.3', 'mata..vb.2', 'mata..nn.1', 'mata..nn.4', 'mata..vb.3', 'mata..vb.2', 'mata..e.3', 'mata..e.2', 'mata..nn.1']  0.892801742513	['modh..nn.1', 'modh..nn.1']  0.967472637154	[u'læta..vb.1']  0.970255526861	[u'mæli..nn.1']  1.03493747628	['ruth..e.1']  1.0375419672 (mæth)
 
 skal mothær wæriændæ witæ mæth twigiæ mannæ witni oc tolf næfndom
- (twigiæ)
+None  0 (twigiæ)
 
 mothær wæriændæ witæ mæth twigiæ mannæ witni oc tolf næfndom mannum
-[u'myndæ..vb.1']  0.116693599873	['manna..vb.1']  0.127857176885	['minni..av.3', 'minni..nn.2', 'minni..nn.1']  0.148921234012	['mynne..e.1']  0.163607596596	['minne..av.2', 'minne..nn.1', 'minne..av.2', 'minne..nn.1']  0.188979988266	['kanne..nn.1']  0.195446643931	['minna..vb.1', 'minna..vb.3', 'minna..vb.2', 'minna..vb.1', 'minna..e.3', 'minna..av.2', 'minna..vb.1']  0.199594315718	['kynni..nn.1']  0.201752636839	['kanna..nn.1']  0.206060971382	['panna..nn.1', 'panna..nn.1']  0.212077477846 (mannæ)
+['manna..vb.1']  0.278434685699	['panna..nn.1', 'panna..nn.1']  0.709195193525	['kanna..nn.1']  0.73590744206	['minna..vb.1', 'minna..vb.3', 'minna..vb.2', 'minna..vb.1', 'minna..e.3', 'minna..av.2', 'minna..vb.1']  0.766468107426	['kanne..nn.1']  0.767086887735	['minne..av.2', 'minne..nn.1', 'minne..av.2', 'minne..nn.1']  0.797647553101	['mynne..e.1']  0.938599381909	['minni..av.3', 'minni..nn.2', 'minni..nn.1']  0.95019488942	['namne..e.2', 'namne..nn.1']  0.95187004941	[u'kænna..e.1']  1.01434212776 (mannæ)
+--X
 
 wæriændæ witæ mæth twigiæ mannæ witni oc tolf næfndom mannum i
- (witni)
+None  0 (witni)
 
 witæ mæth twigiæ mannæ witni oc tolf næfndom mannum i kyni
-['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.17841199011	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.223708906102	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.373866132291 (oc)
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.167944804013	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.309574213976	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.80368254354 (oc)
 
 mæth twigiæ mannæ witni oc tolf næfndom mannum i kyni sinu
-['tolf..e.1']  0	['torf..nn.1', 'torf..nn.1', 'torf..nn.1']  0.0738263478364	['golf..nn.1', 'golf..nn.1', 'golf..nn.1']  0.0758880858655	['sylf..e.1', 'sylf..nn.1']  0.135681090923	['silf..nn.1', 'silf..nn.1']  0.136793426978	['sold..nn.1', 'sold..nn.1']  0.143071540652	['vold..e.1']  0.146086847529	['korf..e.1']  0.14652678495	[u'iorþ..e.1']  0.188007345517	[u'sæld..nn.1']  0.198389407411 (tolf)
+['tolf..e.1']  0	['tolf..e.1']  0	['golf..nn.1', 'golf..nn.1', 'golf..nn.1']  0.468190104824	['torf..nn.1', 'torf..nn.1', 'torf..nn.1']  0.477943153945	['gulf..e.1', 'gulf..nn.1']  0.609819514787	['korf..e.1']  0.961297928952	['vold..e.1']  0.963411972956	['sold..nn.1', 'sold..nn.1']  0.978232990382	['silf..nn.1', 'silf..nn.1']  1.00928600284	['sylf..e.1', 'sylf..nn.1']  1.0149940776 (tolf)
 
 twigiæ mannæ witni oc tolf næfndom mannum i kyni sinu at
-['tiondel..nn.1']  0.361297601059	['rofsman..nn.1']  0.454580648958	['domstol..nn.1']  0.47250908677	['miodher..nn.1']  0.513480963288	[u'reþuman..nn.1']  0.575082228214	['torndyr..nn.1']  1.27457347482	['dionker..e.1']  1.32815483525	['nidsker..av.1', 'nidsker..e.1']  1.33390865247	['nykomin..e.1']  1.36926830015	[u'nödhsyn..nn.1']  1.3757128947 (næfndom)
+None  0 (næfndom)
 
 mannæ witni oc tolf næfndom mannum i kyni sinu at barn
-['mantul..nn.1']  0.179940051042	['mander..nn.1']  0.192531916613	['mantal..nn.1', 'mantal..nn.1', 'mantal..nn.1']  0.241962703764	['munder..nn.2', 'munder..nn.3', 'munder..nn.2', 'munder..nn.1']  0.254554569334	['mattul..nn.1']  0.256566313725	['ransak..nn.2', 'ransak..nn.1', 'ransak..nn.1']  0.278102725941	['panter..nn.1', 'panter..nn.2', 'panter..nn.1', 'panter..nn.1']  0.283049627546	['fanter..nn.1', 'fanter..e.1']  0.287410941732	['martir..nn.1']  0.299646873977	['lunnar..nn.1']  0.303827526328 (mannum)
+['mantul..nn.1']  0.820635228686	['malman..nn.1', 'malman..nn.1']  1.56646752684	['paulun..nn.1', 'paulun..nn.1']  1.72037070466	['mankyn..nn.1', 'mankyn..nn.1', 'mankyn..nn.1']  1.72878633987	['lunnar..nn.1']  1.89701450306 (mannum)
+--X
 
 witni oc tolf næfndom mannum i kyni sinu at barn war
-['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0	['u..e.1', 'u..e.1', 'u..pp.1']  0.0626294356689	['o..e.1']  0.0672732489051	['a..nn.1', 'a..e.6', 'a..e.5', 'a..e.4', 'a..e.3', 'a..e.2', 'a..nn.1', 'a..e.3', 'a..pp.2', 'a..nn.1']  0.0717371388329	[u'ö..nn.1', u'ö..nn.1', u'ö..nn.1']  0.0746240357084	[u'æ..e.2', u'æ..ab.1']  0.0771840951789	['e..e.1', 'e..e.2', 'e..nn.1', 'e..e.1']  0.10279281815	['y..e.1']  0.122920599416 (i)
+['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0	['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0	['y..e.1']  0.292524751856	['e..e.1', 'e..e.2', 'e..nn.1', 'e..e.1']  0.357747380939	[u'æ..e.2', u'æ..ab.1']  0.462161467693	[u'ö..nn.1', u'ö..nn.1', u'ö..nn.1']  0.474145824923	['a..nn.1', 'a..e.6', 'a..e.5', 'a..e.4', 'a..e.3', 'a..e.2', 'a..nn.1', 'a..e.3', 'a..pp.2', 'a..nn.1']  0.488033421727	['o..e.1']  0.510312248297	['u..e.1', 'u..e.1', 'u..pp.1']  0.534569057493 (i)
 
 oc tolf næfndom mannum i kyni sinu at barn war föt
-['kans..nn.1']  0.10252012244	['fynd..e.1', 'fynd..nn.1']  0.119496283261	['mynt..nn.1', 'mynt..nn.1', 'mynt..nn.1']  0.126512816394	[u'kæti..nn.1']  0.130683668198	['lani..nn.1']  0.134459904797	['lynd..nn.1']  0.137494543028	['kona..nn.1', 'kona..nn.1', 'kona..e.1']  0.137898051683	['kyld..nn.1']  0.144490445629	['kusi..nn.1', 'kusi..nn.1']  0.15114042191	['fyri..e.1', 'fyri..e.1', 'fyri..e.1']  0.154019640968 (kyni)
+[u'lyþi..nn.1']  0.782128372457	['lyti..nn.1']  0.879135160448	['fyli..nn.1']  0.882493372737	['kuna..e.1', 'kuna..e.1']  0.89569180258	['fyri..e.1', 'fyri..e.1', 'fyri..e.1']  0.928148534738	['kusi..nn.1', 'kusi..nn.1']  0.948797726948	['kyld..nn.1']  0.996573549771	['kona..nn.1', 'kona..nn.1', 'kona..e.1']  1.00405374478	['lynd..nn.1']  1.02457293512	['lani..nn.1']  1.04337365234 (kyni)
+--X
 
 tolf næfndom mannum i kyni sinu at barn war föt bithiæ
-['sin..nn.3', 'sin..e.1', 'sin..ab.4', 'sin..nn.3', 'sin..nn.2', 'sin..e.1', 'sin..e.4', 'sin..e.3', 'sin..e.2', 'sin..nn.1']  0.0474597075468	['sina..nn.1', 'sina..nn.1', 'sina..e.1']  0.0620226527214	['siu..e.1', 'siu..e.1', 'siu..e.1']  0.10157217454	['sise..nn.1', 'sise..nn.1']  0.107142477573	['sun..e.1', 'sun..e.1', 'sun..e.1']  0.110089143216	['in..ab.2', 'in..e.2', 'in..ab.1']  0.112473882325	['din..e.1']  0.114310094364	['son..nn.1', 'son..e.1', 'son..nn.1']  0.114732956452	['fin..av.1']  0.115927956787	['tin..e.2', 'tin..nn.1']  0.116979885619 (sinu)
+['sina..nn.1', 'sina..nn.1', 'sina..e.1']  0.537822592341	['sin..nn.3', 'sin..e.1', 'sin..ab.4', 'sin..nn.3', 'sin..nn.2', 'sin..e.1', 'sin..e.4', 'sin..e.3', 'sin..e.2', 'sin..nn.1']  0.622135679698	['syni..e.1']  0.827093809349	['syna..vb.1', 'syna..e.1', 'syna..e.1']  0.830347344197	['simi..nn.1', 'simi..nn.1']  0.855697016511	['sima..vb.1', 'sima..vb.1', 'sima..vb.1']  0.858950551359	['sena..e.1']  0.89556997328	[u'suþu..vb.1']  0.902309028141	[u'siþa..nn.1', u'siþa..nn.1']  0.905562562989	['syn..nn.1', 'syn..nn.1', 'syn..av.2', 'syn..nn.1']  0.914660431554 (sinu)
 
 næfndom mannum i kyni sinu at barn war föt bithiæ sik
-['at..e.3', 'at..e.1', 'at..e.4', 'at..e.3', 'at..e.2', 'at..e.1', 'at..e.3', 'at..e.2', 'at..pp.1']  0	['ai..e.1']  0.0483090218965	['ut..ab.1', 'ut..ab.1']  0.0620226527214	['ar..nn.3', 'ar..nn.2', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1', 'ar..e.4', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1']  0.0684554718635	['as..nn.1', 'as..nn.3', 'as..nn.2', 'as..e.1', 'as..nn.1']  0.0695201780726	['it..e.2', 'it..e.1']  0.0717371388329	['an..nn.1', 'an..e.2', 'an..nn.1']  0.0766262626823	['al..nn.2', 'al..nn.1', 'al..nn.2', 'al..e.1']  0.0799425400544	['et..e.1']  0.0910195199504	['ta..nn.2', 'ta..nn.1', 'ta..nn.1', 'ta..e.3', 'ta..nn.2', 'ta..ab.1']  0.0922813492953 (at)
+['at..e.3', 'at..e.1', 'at..e.4', 'at..e.3', 'at..e.2', 'at..e.1', 'at..e.3', 'at..e.2', 'at..pp.1']  0	['at..e.3', 'at..e.1', 'at..e.4', 'at..e.3', 'at..e.2', 'at..e.1', 'at..e.3', 'at..e.2', 'at..pp.1']  0	[u'æt..e.2', u'æt..nn.1']  0.278434685699	['et..e.1']  0.402445659173	['al..nn.2', 'al..nn.1', 'al..nn.2', 'al..e.1']  0.449587222486	['an..nn.1', 'an..e.2', 'an..nn.1']  0.464746758639	['it..e.2', 'it..e.1']  0.488033421727	['as..nn.1', 'as..nn.3', 'as..nn.2', 'as..e.1', 'as..nn.1']  0.49897375454	['ar..nn.3', 'ar..nn.2', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1', 'ar..e.4', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1']  0.504314741542	['ut..ab.1', 'ut..ab.1']  0.537822592341 (at)
 
 mannum i kyni sinu at barn war föt bithiæ sik swa
-['barn..nn.1', 'barn..nn.1', 'barn..nn.1']  0	[u'börn..nn.1']  0.0572517764657	['iarn..e.1']  0.0746419341421	['bart..e.2', 'bart..nn.1']  0.0766262626823	['butn..nn.1', 'butn..nn.1', 'butn..nn.1']  0.130478124585	['burt..e.1', 'burt..ab.1']  0.138648915404	['botn..e.1', 'botn..e.1']  0.144546916902	[u'byrþ..nn.1', u'byrþ..nn.1']  0.14640266637	['bort..ab.1', 'bort..ab.1', 'bort..ab.1']  0.152717707721	['band..nn.1', 'band..nn.1', 'band..nn.1']  0.154251595811 (barn)
+['barn..nn.1', 'barn..nn.1', 'barn..nn.1']  0	['barn..nn.1', 'barn..nn.1', 'barn..nn.1']  0	['bart..e.2', 'bart..nn.1']  0.464746758639	['iarn..e.1']  0.474060967841	[u'börn..nn.1']  0.564103369706	[u'borþ..nn.1', u'borþ..nn.1']  0.834978935389	['part..nn.1', 'part..nn.1']  0.855845950063	['iarl..e.1']  0.860449984303	['famn..nn.1', 'famn..nn.1', 'famn..nn.1']  0.887235674433	['forn..av.1', 'forn..av.1', 'forn..av.1']  0.888993790842 (barn)
 
 i kyni sinu at barn war föt bithiæ sik swa guth
- (war)
+None  0 (war)
 
 kyni sinu at barn war föt bithiæ sik swa guth hialpæ
-[u'fæt..nn.1']  0.0555586715514	['fat..nn.1', 'fat..e.2', 'fat..nn.1', 'fat..e.3', 'fat..nn.2', 'fat..e.1']  0.0572517764657	[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0.0684554718635	[u'köt..e.1', u'köt..nn.1']  0.0700968978672	[u'föl..e.1', u'föl..nn.1']  0.0799425400544	['fra..e.2', 'fra..vb.1', 'fra..e.1']  0.101325009812	['ort..e.1', 'ort..e.2', 'ort..nn.1']  0.11406087401	[u'döa..vb.1']  0.119692037227	[u'þæt..e.3', u'þæt..e.2', u'þæt..e.1']  0.121430647335	[u'þat..e.1']  0.12312375225 (föt)
+[u'föl..e.1', u'föl..nn.1']  0.449587222486	[u'köt..e.1', u'köt..nn.1']  0.496104356275	[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0.504314741542	['fat..nn.1', 'fat..e.2', 'fat..nn.1', 'fat..e.3', 'fat..nn.2', 'fat..e.1']  0.564103369706	[u'fæt..nn.1']  0.573735542883	[u'pöl..nn.1']  0.596844393197	['vit..nn.3', 'vit..e.1', 'vit..e.3', 'vit..e.2', 'vit..nn.1']  0.684578319903	['fyl..nn.1', 'fyl..nn.1', 'fyl..nn.1']  0.699078637186	['fyn..e.1']  0.714238173339	['mot..e.4', 'mot..nn.3', 'mot..nn.2', 'mot..nn.1', 'mot..e.5', 'mot..nn.3', 'mot..nn.1', 'mot..nn.1']  0.72421973038 (föt)
+--X
 
 sinu at barn war föt bithiæ sik swa guth hialpæ at
-['bidhia..vb.1']  0.221416294481	[u'böghia..vb.1', u'böghia..vb.1']  0.278369298459	['betida..ab.1']  0.333603869077	[u'bæggia..e.1']  0.353537029992	[u'föghia..vb.1']  0.364702409917	['borgha..vb.1', 'borgha..vb.1']  0.389748058365	['byggia..vb.1', 'byggia..vb.1', 'byggia..vb.1']  0.399273534229	['belata..vb.1']  0.407617828691	['bevisa..vb.1', 'bevisa..vb.1', 'bevisa..vb.1']  0.412895343911	[u'fælaþi..nn.1']  0.414840252151 (bithiæ)
+['bidhia..vb.1']  0.670788532493 (bithiæ)
 
 at barn war föt bithiæ sik swa guth hialpæ at þæt
-['sik..e.1', 'sik..e.1', 'sik..e.1']  0	['tik..nn.1']  0.0695201780726	[u'siö..e.1']  0.0696253541158	['sak..nn.1', 'sak..nn.1', 'sak..e.1']  0.0717371388329	['sil..nn.1']  0.0880951576341	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.127643610447	['iak..e.1', 'iak..e.1']  0.12789251411	['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.132287423684	['it..e.2', 'it..e.1']  0.137714611892	['sot..nn.2', 'sot..nn.2', 'sot..nn.1', 'sot..vb.2', 'sot..nn.1']  0.139973686019 (sik)
+['sik..e.1', 'sik..e.1', 'sik..e.1']  0	['sik..e.1', 'sik..e.1', 'sik..e.1']  0	['sil..nn.1']  0.414388401809	['sak..nn.1', 'sak..nn.1', 'sak..e.1']  0.488033421727	[u'siö..e.1']  0.498449229574	['tik..nn.1']  0.49897375454	['syl..nn.2', 'syl..nn.3', 'syl..nn.2', 'syl..nn.1']  0.706913153665	['sel..e.1']  0.772135782748	[u'sæl..av.1']  0.876549869502	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.879719164112 (sik)
 
 barn war föt bithiæ sik swa guth hialpæ at þæt banr
- (swa)
+None  0 (swa)
 
 war föt bithiæ sik swa guth hialpæ at þæt banr barn
-['guti..nn.1']  0.0535544886489	['gudh..nn.1']  0.0935591175961	[u'gæta..vb.2', u'gæta..vb.1']  0.10456721592	['gata..nn.1', 'gata..nn.3', 'gata..nn.2', 'gata..nn.1']  0.110738924427	['gita..vb.1', 'gita..vb.1', 'gita..e.1']  0.111345707374	['huta..e.1']  0.121323943768	['fith..nn.1']  0.144114705096	['gull..nn.1']  0.144656822697	['tugh..nn.1', 'tugh..nn.1', 'tugh..nn.1']  0.151776171731	['gulf..e.1', 'gulf..nn.1']  0.152067666794 (guth)
+['gudh..nn.1']  0.392353846794	['guti..nn.1']  0.585350253789	['gota..e.1']  0.755996466777	['hudh..e.1', 'hudh..nn.1']  0.87615721414	['gulf..e.1', 'gulf..nn.1']  0.935730802105	['tugh..nn.1', 'tugh..nn.1', 'tugh..nn.1']  0.936380209648	['gull..nn.1']  0.973126707523	['fith..nn.1']  0.977273592965	['ruth..e.1']  1	['togh..e.1']  1.07800961961 (guth)
 
 föt bithiæ sik swa guth hialpæ at þæt banr barn war
-[u'hiælpa..vb.1']  0.255714353769	[u'fiarþi..e.1']  0.304316646804	['adelby..e.1']  0.337071989032	['fiorpe..e.1']  0.339285769048	[u'giurþa..vb.1']  0.417494926554	[u'fiærþi..e.1']  0.432173823689	['kialki..nn.1']  1.16447609935	['stulpi..e.1']  1.1875157698	['stolpi..e.1']  1.20158456211	['mialke..nn.1']  1.2045348536 (hialpæ)
+[u'hiælpa..vb.1']  0.556869371398 (hialpæ)
 
 bithiæ sik swa guth hialpæ at þæt banr barn war föt
-['at..e.3', 'at..e.1', 'at..e.4', 'at..e.3', 'at..e.2', 'at..e.1', 'at..e.3', 'at..e.2', 'at..pp.1']  0	['ai..e.1']  0.0483090218965	['ut..ab.1', 'ut..ab.1']  0.0620226527214	['ar..nn.3', 'ar..nn.2', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1', 'ar..e.4', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1']  0.0684554718635	['as..nn.1', 'as..nn.3', 'as..nn.2', 'as..e.1', 'as..nn.1']  0.0695201780726	['it..e.2', 'it..e.1']  0.0717371388329	['an..nn.1', 'an..e.2', 'an..nn.1']  0.0766262626823	['al..nn.2', 'al..nn.1', 'al..nn.2', 'al..e.1']  0.0799425400544	['et..e.1']  0.0910195199504	['ta..nn.2', 'ta..nn.1', 'ta..nn.1', 'ta..e.3', 'ta..nn.2', 'ta..ab.1']  0.0922813492953 (at)
+['at..e.3', 'at..e.1', 'at..e.4', 'at..e.3', 'at..e.2', 'at..e.1', 'at..e.3', 'at..e.2', 'at..pp.1']  0	['at..e.3', 'at..e.1', 'at..e.4', 'at..e.3', 'at..e.2', 'at..e.1', 'at..e.3', 'at..e.2', 'at..pp.1']  0	[u'æt..e.2', u'æt..nn.1']  0.278434685699	['et..e.1']  0.402445659173	['al..nn.2', 'al..nn.1', 'al..nn.2', 'al..e.1']  0.449587222486	['an..nn.1', 'an..e.2', 'an..nn.1']  0.464746758639	['it..e.2', 'it..e.1']  0.488033421727	['as..nn.1', 'as..nn.3', 'as..nn.2', 'as..e.1', 'as..nn.1']  0.49897375454	['ar..nn.3', 'ar..nn.2', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1', 'ar..e.4', 'ar..nn.3', 'ar..nn.2', 'ar..nn.1']  0.504314741542	['ut..ab.1', 'ut..ab.1']  0.537822592341 (at)
 
 sik swa guth hialpæ at þæt banr barn war föt mæth
-[u'þæt..e.3', u'þæt..e.2', u'þæt..e.1']  0	[u'þyt..e.1']  0.0540574055156	[u'þut..nn.1']  0.0558509442148	[u'fæt..nn.1']  0.0658719757838	[u'þær..e.3', u'þær..e.2', u'þær..ab.1']  0.0684554718635	[u'þæs..e.1']  0.0695201780726	[u'þæn..e.2', u'þæn..nn.1']  0.0766262626823	[u'þit..ab.1', u'þit..e.1', u'þit..e.3', u'þit..e.2', u'þit..ab.1']  0.0771840951789	[u'næt..e.1']  0.100037919207	[u'læa..vb.1']  0.115934732958 (þæt)
+[u'þæt..e.3', u'þæt..e.2', u'þæt..e.1']  0	[u'þæt..e.3', u'þæt..e.2', u'þæt..e.1']  0	[u'þat..e.1']  0.278434685699	[u'næt..e.1']  0.367739970648	[u'þit..ab.1', u'þit..e.1', u'þit..e.3', u'þit..e.2', u'þit..ab.1']  0.462161467693	[u'þæn..e.2', u'þæn..nn.1']  0.464746758639	[u'þæs..e.1']  0.49897375454	[u'þær..e.3', u'þær..e.2', u'þær..ab.1']  0.504314741542	[u'fæt..nn.1']  0.517513453107	[u'þut..nn.1']  0.572061118865 (þæt)
 
 swa guth hialpæ at þæt banr barn war föt mæth naghl
-['ban..nn.1']  0.0499764113759	['band..nn.1', 'band..nn.1', 'band..nn.1']  0.061037054848	['byn..nn.1']  0.0963411585385	[u'bön..nn.1', u'bön..nn.2', u'bön..nn.1', u'bön..nn.1']  0.107228187842	['bas..nn.1', 'bas..nn.1']  0.111384257572	['biur..nn.1', 'biur..nn.1']  0.125849605826	['bast..nn.1']  0.12986331806	['bar..av.2', 'bar..nn.1', 'bar..av.4', 'bar..nn.2', 'bar..nn.1', 'bar..av.1']  0.133899154476	['fan..e.1']  0.136309522834	['bond..nn.1']  0.137128499887 (banr)
+['band..nn.1', 'band..nn.1', 'band..nn.1']  0.543149568534	['ban..nn.1']  0.606673748826	['barn..nn.1', 'barn..nn.1', 'barn..nn.1']  0.864088356926	[u'bæn..e.1']  0.885108434525	['bart..e.2', 'bart..nn.1']  0.936358920005	['ben..nn.1', 'ben..nn.1', 'ben..nn.1']  1.009119408	['bond..nn.1']  1.01038853328	['fan..e.1']  1.02842857493	['bar..av.2', 'bar..nn.1', 'bar..av.4', 'bar..nn.2', 'bar..nn.1', 'bar..av.1']  1.03871792729	['bast..nn.1']  1.04545408764 (banr)
 
 guth hialpæ at þæt banr barn war föt mæth naghl oc
-['barn..nn.1', 'barn..nn.1', 'barn..nn.1']  0	[u'börn..nn.1']  0.0572517764657	['iarn..e.1']  0.0746419341421	['bart..e.2', 'bart..nn.1']  0.0766262626823	['butn..nn.1', 'butn..nn.1', 'butn..nn.1']  0.130478124585	['burt..e.1', 'burt..ab.1']  0.138648915404	['botn..e.1', 'botn..e.1']  0.144546916902	[u'byrþ..nn.1', u'byrþ..nn.1']  0.14640266637	['bort..ab.1', 'bort..ab.1', 'bort..ab.1']  0.152717707721	['band..nn.1', 'band..nn.1', 'band..nn.1']  0.154251595811 (barn)
+['barn..nn.1', 'barn..nn.1', 'barn..nn.1']  0	['barn..nn.1', 'barn..nn.1', 'barn..nn.1']  0	['bart..e.2', 'bart..nn.1']  0.464746758639	['iarn..e.1']  0.474060967841	[u'börn..nn.1']  0.564103369706	[u'borþ..nn.1', u'borþ..nn.1']  0.834978935389	['part..nn.1', 'part..nn.1']  0.855845950063	['iarl..e.1']  0.860449984303	['famn..nn.1', 'famn..nn.1', 'famn..nn.1']  0.887235674433	['forn..av.1', 'forn..av.1', 'forn..av.1']  0.888993790842 (barn)
 
 hialpæ at þæt banr barn war föt mæth naghl oc næsæ
- (war)
+None  0 (war)
 
 at þæt banr barn war föt mæth naghl oc næsæ oc
-[u'fæt..nn.1']  0.0555586715514	['fat..nn.1', 'fat..e.2', 'fat..nn.1', 'fat..e.3', 'fat..nn.2', 'fat..e.1']  0.0572517764657	[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0.0684554718635	[u'köt..e.1', u'köt..nn.1']  0.0700968978672	[u'föl..e.1', u'föl..nn.1']  0.0799425400544	['fra..e.2', 'fra..vb.1', 'fra..e.1']  0.101325009812	['ort..e.1', 'ort..e.2', 'ort..nn.1']  0.11406087401	[u'döa..vb.1']  0.119692037227	[u'þæt..e.3', u'þæt..e.2', u'þæt..e.1']  0.121430647335	[u'þat..e.1']  0.12312375225 (föt)
+[u'föl..e.1', u'föl..nn.1']  0.449587222486	[u'köt..e.1', u'köt..nn.1']  0.496104356275	[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0.504314741542	['fat..nn.1', 'fat..e.2', 'fat..nn.1', 'fat..e.3', 'fat..nn.2', 'fat..e.1']  0.564103369706	[u'fæt..nn.1']  0.573735542883	[u'pöl..nn.1']  0.596844393197	['vit..nn.3', 'vit..e.1', 'vit..e.3', 'vit..e.2', 'vit..nn.1']  0.684578319903	['fyl..nn.1', 'fyl..nn.1', 'fyl..nn.1']  0.699078637186	['fyn..e.1']  0.714238173339	['mot..e.4', 'mot..nn.3', 'mot..nn.2', 'mot..nn.1', 'mot..e.5', 'mot..nn.3', 'mot..nn.1', 'mot..nn.1']  0.72421973038 (föt)
+--X
 
 þæt banr barn war föt mæth naghl oc næsæ oc mæth
-[u'mæta..e.1']  0.0487162717053	['myta..e.1']  0.102773677221	['mota..vb.1']  0.104034138464	[u'möta..vb.1', u'möta..vb.1', u'möta..vb.1']  0.104274943257	['muta..nn.1', 'muta..vb.2', 'muta..nn.1']  0.10456721592	[u'mæri..nn.1']  0.122009960512	[u'ræta..e.1']  0.125184704231	[u'mæla..vb.2', u'mæla..vb.1']  0.12865881176	[u'mögh..nn.1']  0.131446757417	[u'kæti..nn.1']  0.131758283147 (mæth)
+[u'mæta..e.1']  0.614367056814	['leth..e.1']  0.665502601421	['medh..e.1']  0.701967978168	[u'lægh..e.1']  0.824078574871	['fith..nn.1']  0.874538941108	['mata..nn.4', 'mata..vb.3', 'mata..vb.2', 'mata..nn.1', 'mata..nn.4', 'mata..vb.3', 'mata..vb.2', 'mata..e.3', 'mata..e.2', 'mata..nn.1']  0.892801742513	['modh..nn.1', 'modh..nn.1']  0.967472637154	[u'læta..vb.1']  0.970255526861	[u'mæli..nn.1']  1.03493747628	['ruth..e.1']  1.0375419672 (mæth)
 
 banr barn war föt mæth naghl oc næsæ oc mæth huth
-['naghl..nn.1', 'naghl..nn.1', 'naghl..nn.1']  0	['taghl..nn.1']  0.0766262626823	[u'nöghe..nn.1', u'nöghe..nn.1', u'nöghe..nn.1']  0.113064618165	['nadh..nn.1']  0.123089573771	['sagh..nn.1', 'sagh..nn.1']  0.126965455594	['sighl..e.1', 'sighl..e.1']  0.133144985029	['nogh..av.1', 'nogh..av.1']  0.141649054437	['tighl..nn.1', 'tighl..nn.1']  0.148363401515	['seghl..e.1']  0.152427366147	['saghn..nn.1']  0.156498906431 (naghl)
+['naghl..nn.1', 'naghl..nn.1', 'naghl..nn.1']  0	['naghl..nn.1', 'naghl..nn.1', 'naghl..nn.1']  0	['taghl..nn.1']  0.464746758639	['lagh..nn.1', 'lagh..nn.1', 'lagh..nn.2', 'lagh..e.1']  0.905531917784	['saghn..nn.1']  0.927528362557	['seghl..e.1']  0.943585005268	['tighl..nn.1', 'tighl..nn.1']  0.952780180366	['nogh..av.1', 'nogh..av.1']  0.986381866063	['haghl..nn.1', 'haghl..nn.1']  1	['sighl..e.1', 'sighl..e.1']  1.02917276782 (naghl)
 
 barn war föt mæth naghl oc næsæ oc mæth huth oc
-['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.17841199011	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.223708906102	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.373866132291 (oc)
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.167944804013	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.309574213976	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.80368254354 (oc)
 
 war föt mæth naghl oc næsæ oc mæth huth oc har
-[u'næsæ..nn.1']  0	[u'nöti..nn.1']  0.202262944803	[u'sæti..nn.1']  0.208112119448	[u'lytæ..vb.1']  0.218668643824	[u'læsa..vb.2', u'læsa..vb.1']  0.22294823712	[u'modæ..e.1']  0.235759814482	['nyia..vb.1']  0.238069957678	['sysa..vb.1']  0.243322428596	['mosi..nn.1', 'mosi..nn.1', 'mosi..nn.1']  0.246093522844	['musi..e.1']  0.2466266003 (næsæ)
+[u'næsæ..nn.1']  0	[u'næsæ..nn.1']  0	[u'læsa..vb.2', u'læsa..vb.1']  0.664823702161	['lisa..vb.1', 'lisa..vb.1']  1.12698516985	['lise..nn.1', 'lise..nn.1']  1.15816461553	[u'læta..vb.1']  1.1637974567	['risa..vb.1', 'risa..vb.1', 'risa..vb.1']  1.17264033185	[u'læna..vb.2', u'læna..e.1']  1.20596304826	[u'lösa..vb.1', u'lösa..e.1', u'lösa..vb.1']  1.23855924504	['lysa..vb.1', 'lysa..vb.1', 'lysa..vb.1']  1.2472375209 (næsæ)
 
 föt mæth naghl oc næsæ oc mæth huth oc har oc
-['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.17841199011	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.223708906102	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.373866132291 (oc)
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.167944804013	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.309574213976	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.80368254354 (oc)
 
 mæth naghl oc næsæ oc mæth huth oc har oc fic
-[u'mæta..e.1']  0.0487162717053	['myta..e.1']  0.102773677221	['mota..vb.1']  0.104034138464	[u'möta..vb.1', u'möta..vb.1', u'möta..vb.1']  0.104274943257	['muta..nn.1', 'muta..vb.2', 'muta..nn.1']  0.10456721592	[u'mæri..nn.1']  0.122009960512	[u'ræta..e.1']  0.125184704231	[u'mæla..vb.2', u'mæla..vb.1']  0.12865881176	[u'mögh..nn.1']  0.131446757417	[u'kæti..nn.1']  0.131758283147 (mæth)
+[u'mæta..e.1']  0.614367056814	['leth..e.1']  0.665502601421	['medh..e.1']  0.701967978168	[u'lægh..e.1']  0.824078574871	['fith..nn.1']  0.874538941108	['mata..nn.4', 'mata..vb.3', 'mata..vb.2', 'mata..nn.1', 'mata..nn.4', 'mata..vb.3', 'mata..vb.2', 'mata..e.3', 'mata..e.2', 'mata..nn.1']  0.892801742513	['modh..nn.1', 'modh..nn.1']  0.967472637154	[u'læta..vb.1']  0.970255526861	[u'mæli..nn.1']  1.03493747628	['ruth..e.1']  1.0375419672 (mæth)
 
 naghl oc næsæ oc mæth huth oc har oc fic sin
-['huta..e.1']  0.0487162717053	['hudh..e.1', 'hudh..nn.1']  0.0935591175961	['heta..vb.1', 'heta..vb.3', 'heta..vb.1', 'heta..vb.2', 'heta..e.1']  0.0944509030819	[u'hæta..e.2', u'hæta..e.1']  0.10456721592	['leth..e.1']  0.110448914019	['hata..vb.1']  0.110738924427	['hita..vb.1', 'hita..vb.1']  0.111345707374	['luta..vb.2', 'luta..vb.1', 'luta..vb.2', 'luta..vb.1', 'luta..vb.1']  0.113430554347	['hiti..nn.1', 'hiti..nn.1']  0.116183924318	['husa..e.1', 'husa..vb.1']  0.118236449778 (huth)
+['hudh..e.1', 'hudh..nn.1']  0.392353846794	['huta..e.1']  0.614367056814	['hota..vb.1', 'hota..vb.1']  0.755996466777	['gudh..nn.1']  0.87615721414	['huld..nn.1', 'huld..nn.1', 'huld..nn.1']  0.937633195148	['huza..vb.1']  1.01284801588	['fith..nn.1']  1.02071263711	['husl..nn.1', 'husl..nn.1']  1.02251323958	['lodh..nn.1', 'lodh..nn.1']  1.05752274179	['hozl..nn.1']  1.06364985406 (huth)
 
 oc næsæ oc mæth huth oc har oc fic sin cristindom
-['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.17841199011	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.223708906102	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.373866132291 (oc)
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.167944804013	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.309574213976	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.80368254354 (oc)
 
 næsæ oc mæth huth oc har oc fic sin cristindom oc
-['har..nn.2', 'har..nn.1', 'har..e.3', 'har..nn.1', 'har..e.3', 'har..nn.2', 'har..nn.1']  0	['ha..e.1', 'ha..e.1']  0.0499764113759	[u'hör..nn.1', u'hör..nn.1']  0.0572517764657	['hur..e.1']  0.0620226527214	[u'þar..e.1', u'þar..e.1', u'þar..e.1']  0.0628705591828	['lar..nn.1', 'lar..e.2', 'lar..nn.1', 'lar..nn.1']  0.0647142826421	['hat..nn.1', 'hat..nn.1', 'hat..nn.1']  0.0684554718635	['dar..nn.1']  0.0717345671292	['far..av.3', 'far..av.4', 'far..nn.3', 'far..nn.1', 'far..nn.2', 'far..nn.1']  0.0721251267398	['gar..e.1', 'gar..nn.1', 'gar..vb.1']  0.0726076720628 (har)
+['har..nn.2', 'har..nn.1', 'har..e.3', 'har..nn.1', 'har..e.3', 'har..nn.2', 'har..nn.1']  0	['har..nn.2', 'har..nn.1', 'har..e.3', 'har..nn.1', 'har..e.3', 'har..nn.2', 'har..nn.1']  0	[u'hær..e.2', u'hær..e.1']  0.278434685699	['her..e.1']  0.402445659173	['han..e.1', 'han..e.1', 'han..e.1']  0.432044178463	['hor..nn.1', 'hor..nn.1', 'hor..nn.1']  0.467238964741	['hal..av.3', 'hal..nn.2', 'hal..nn.1', 'hal..av.3', 'hal..nn.2', 'hal..nn.1']  0.477943153945	['gar..e.1', 'gar..nn.1', 'gar..vb.1']  0.483803367346	['far..av.3', 'far..av.4', 'far..nn.3', 'far..nn.1', 'far..nn.2', 'far..nn.1']  0.486143579619	['dar..nn.1']  0.488045972662 (har)
 
 oc mæth huth oc har oc fic sin cristindom oc scal
-['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.17841199011	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.223708906102	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.373866132291 (oc)
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.167944804013	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.309574213976	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.80368254354 (oc)
 
 mæth huth oc har oc fic sin cristindom oc scal thær
-['sik..e.1', 'sik..e.1', 'sik..e.1']  0.246880239351	['bik..nn.1', 'bik..nn.1']  0.264745101569	['mik..e.1']  0.266993605258	[u'göz..nn.1']  0.283727640459	[u'þak..nn.2', u'þak..nn.1', u'þak..nn.2', u'þak..nn.1', u'þak..nn.2', u'þak..nn.1']  0.316021104727	['sak..nn.1', 'sak..nn.1', 'sak..e.1']  0.318617378184	[u'kök..nn.1', u'kök..nn.1']  0.323132923686	['gok..e.1', 'gok..nn.1']  0.327170508443	[u'dæk..nn.1']  0.329147447869	['bok..nn.2', 'bok..nn.2', 'bok..nn.1', 'bok..nn.2', 'bok..nn.1']  0.332018350474 (fic)
+['pik..nn.1']  0.315201974724	['vik..nn.3', 'vik..nn.1', 'vik..nn.1']  0.378377298993	['mik..e.1']  0.580322277428	['bik..nn.1', 'bik..nn.1']  0.589699630114	['sik..e.1', 'sik..e.1', 'sik..e.1']  0.672195111475	['vak..nn.1', 'vak..nn.1']  0.86641072072	['kim..nn.1']  1.49610435628	['kif..nn.1', 'kif..nn.1', 'kif..nn.1']  1.49610435628	[u'kiþ..nn.1', u'kiþ..nn.1']  1.49610435628 (fic)
+--X
 
 huth oc har oc fic sin cristindom oc scal thær foræ
-['sin..nn.3', 'sin..e.1', 'sin..ab.4', 'sin..nn.3', 'sin..nn.2', 'sin..e.1', 'sin..e.4', 'sin..e.3', 'sin..e.2', 'sin..nn.1']  0	['siu..e.1', 'siu..e.1', 'siu..e.1']  0.0541124669935	['sun..e.1', 'sun..e.1', 'sun..e.1']  0.0626294356689	['in..ab.2', 'in..e.2', 'in..ab.1']  0.0650141747785	['din..e.1']  0.0668503868172	['son..nn.1', 'son..e.1', 'son..nn.1']  0.0672732489051	['fin..av.1']  0.0684682492407	['tin..e.2', 'tin..nn.1']  0.0695201780726	['san..nn.1', 'san..nn.1']  0.0717371388329	['sir..e.1']  0.0839227431006 (sin)
+['sin..nn.3', 'sin..e.1', 'sin..ab.4', 'sin..nn.3', 'sin..nn.2', 'sin..e.1', 'sin..e.4', 'sin..e.3', 'sin..e.2', 'sin..nn.1']  0	['sin..nn.3', 'sin..e.1', 'sin..ab.4', 'sin..nn.3', 'sin..nn.2', 'sin..e.1', 'sin..e.4', 'sin..e.3', 'sin..e.2', 'sin..nn.1']  0	['syn..nn.1', 'syn..nn.1', 'syn..av.2', 'syn..nn.1']  0.292524751856	['sen..ab.1', 'sen..ab.2', 'sen..av.1', 'sen..e.2', 'sen..av.1']  0.357747380939	['sil..nn.1']  0.386389016462	['sir..e.1']  0.432044178463	['san..nn.1', 'san..nn.1']  0.488033421727	['tin..e.2', 'tin..nn.1']  0.49897375454	['fin..av.1']  0.504250307462	['son..nn.1', 'son..e.1', 'son..nn.1']  0.510312248297 (sin)
 
 oc har oc fic sin cristindom oc scal thær foræ arf
- (cristindom)
+None  0 (cristindom)
 
 har oc fic sin cristindom oc scal thær foræ arf standæ
-['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.17841199011	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.223708906102	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.373866132291 (oc)
+['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.167944804013	['uk..e.2', 'uk..nn.1', 'uk..e.2', 'uk..nn.1', 'uk..nn.1']  0.309574213976	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.80368254354 (oc)
 
 oc fic sin cristindom oc scal thær foræ arf standæ
-['skal..nn.2', 'skal..e.1', 'skal..nn.3', 'skal..nn.2', 'skal..nn.1', 'skal..nn.2', 'skal..nn.1']  0.17841199011	['skyl..nn.1', 'skyl..nn.1']  0.224776737273	['skul..nn.1']  0.240434642832	['kal..nn.1', 'kal..nn.2', 'kal..nn.1', 'kal..nn.1']  0.243426164889	['skat..nn.1', 'skat..nn.1']  0.258354530165	['skam..nn.1', 'skam..nn.1']  0.28172577847	['sky..vb.2', 'sky..nn.1', 'sky..vb.2', 'sky..nn.1']  0.290334346671	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  0.299696058579	[u'köl..e.1']  0.300677941355	['skyt..e.1', 'skyt..e.1']  0.304719277327 (scal)
+['skal..nn.2', 'skal..e.1', 'skal..nn.3', 'skal..nn.2', 'skal..nn.1', 'skal..nn.2', 'skal..nn.1']  0.167944804013	[u'skæl..e.1']  0.446379489712	['skam..nn.1', 'skam..nn.1']  0.52383327406	['skat..nn.1', 'skat..nn.1']  0.617532026499	['kal..nn.1', 'kal..nn.2', 'kal..nn.1', 'kal..nn.1']  0.689916587186	['skul..nn.1']  0.705767396354	['skyl..nn.1', 'skyl..nn.1']  0.796930054548	['kalz..nn.1', 'kalz..nn.1']  1.11057394178	['smak..nn.1']  1.41438840181	['snak..nn.1']  1.41438840181 (scal)
+--X
 
 fic sin cristindom oc scal thær foræ arf standæ
-['thyr..e.1', 'thyr..e.1']  0.0540574055156	[u'thör..av.1']  0.0555586715514	['tho..ab.1', 'tho..e.1']  0.105294278135	[u'thö..nn.1', u'thö..nn.1']  0.105535082927	['thot..e.1']  0.123773338623	['thol..nn.1', 'thol..nn.1']  0.129144214596	['thul..e.1']  0.129677292051	['tio..e.1', 'tio..e.1']  0.158848766784	['tiu..e.1']  0.15938184424	['ihul..av.1']  0.177986313948 (thær)
+[u'thör..av.1']  0.573735542883	['thyr..e.1', 'thyr..e.1']  0.582413818736	['thet..nn.1']  0.813928872916	['thul..e.1']  1.05000427281	['thol..nn.1', 'thol..nn.1']  1.0530619443	['thot..e.1']  1.0794335319	[u'thö..nn.1', u'thö..nn.1']  1.18040929171	['tho..ab.1', 'tho..e.1']  1.18179253919	['glar..nn.1', 'glar..nn.1']  1.27016427556	[u'þvær..av.1']  1.3237753049 (thær)
+--X
 
 sin cristindom oc scal thær foræ arf standæ
-[u'firæ..e.1']  0.0672732489051	[u'faræ..nn.1']  0.0760914450387	['fore..e.1', 'fore..e.3', 'fore..e.2', 'fore..e.2', 'fore..nn.1']  0.117242849434	[u'særæ..vb.1']  0.123786116	['horo..ab.1']  0.127442993499	['fora..nn.1', 'fora..nn.1']  0.127857176885	[u'færi..e.1']  0.132501961938	['fyri..e.1', 'fyri..e.1', 'fyri..e.1']  0.143345008029	[u'mæræ..av.1']  0.143899481907	['firi..av.2', 'firi..pp.1']  0.144457344084 (foræ)
+['fora..nn.1', 'fora..nn.1']  0.278434685699	['fore..e.1', 'fore..e.3', 'fore..e.2', 'fore..e.2', 'fore..nn.1']  0.309614131374	['fura..e.1']  0.420064095662	[u'faræ..nn.1']  0.467238964741	[u'firæ..e.1']  0.510312248297	[u'föra..vb.1', u'föra..vb.1', u'föra..vb.1']  0.590276942664	[u'före..nn.2', u'före..e.1', u'före..nn.1']  0.621456388339	['bora..e.2', 'bora..vb.2', 'bora..nn.1']  0.7001895118	['fara..vb.2', 'fara..nn.1', 'fara..vb.3', 'fara..vb.2', 'fara..nn.1', 'fara..vb.1']  0.74567365044	['hora..nn.1']  0.764578265318 (foræ)
 
 cristindom oc scal thær foræ arf standæ
-['arf..nn.2', 'arf..nn.3', 'arf..nn.2', 'arf..nn.1']  0	['urf..e.1', 'urf..nn.1']  0.0620226527214	['ars..nn.1', 'ars..nn.1']  0.0684682492407	['ark..nn.1', 'ark..nn.1']  0.0700968978672	['alf..nn.1']  0.0738263478364	['orf..nn.1', 'orf..nn.1']  0.0760914450387	['arm..e.1']  0.0885816151476	['tro..nn.1', 'tro..nn.1', 'tro..av.2', 'tro..nn.1']  0.105017213493	['ro..nn.1', 'ro..nn.1', 'ro..nn.1']  0.110044846243	[u'örs..nn.1', u'örs..nn.1']  0.125720025706 (arf)
+['arf..nn.2', 'arf..nn.3', 'arf..nn.2', 'arf..nn.1']  0	['arf..nn.2', 'arf..nn.3', 'arf..nn.2', 'arf..nn.1']  0	[u'ærf..e.1']  0.278434685699	['arm..e.1']  0.412377473415	['orf..nn.1', 'orf..nn.1']  0.467238964741	['alf..nn.1']  0.477943153945	['ark..nn.1', 'ark..nn.1']  0.496104356275	['ars..nn.1', 'ars..nn.1']  0.504250307462	['urf..e.1', 'urf..nn.1']  0.537822592341	[u'ælf..nn.1']  0.756377839644 (arf)
 
 oc scal thær foræ arf standæ
-['standa..vb.1', 'standa..vb.1', 'standa..e.1']  0.127857176885	['staddi..e.1']  0.14751294789	['atande..e.1']  0.172969308504	[u'styriæ..nn.1']  0.179686875657	[u'tynnæ..nn.1']  0.181707774652	['stanga..vb.1', 'stanga..vb.1']  0.185389141257	['siundi..e.1']  0.187515769797	['stunda..vb.1', 'stunda..vb.1', 'stunda..vb.1']  0.189879829606	['fiandi..nn.1']  0.193961366316	['stingi..e.1']  0.206453198384 (standæ)
+['standa..vb.1', 'standa..vb.1', 'standa..e.1']  0.278434685699	['stunda..vb.1', 'stunda..vb.1', 'stunda..vb.1']  0.81625727804	['stanga..vb.1', 'stanga..vb.1']  0.840959718168	['staddi..e.1']  0.95711641945	[u'skænda..vb.1']  1.0402241464	[u'tænda..vb.1']  1.07884115457	['stunta..vb.1']  1.20861112483	['slinda..nn.1']  1.21605532991	['stynta..vb.1']  1.29977378303	['stinga..vb.1', 'stinga..vb.1', 'stinga..vb.1']  1.3289931399 (standæ)
 
-testfiles/Mar26.xml
+testfiles/Mar26.xml good 35 ( 33 ) bad 0 ( 0 ) variations 66 ( 44 )
+***
+
 första capitel thetta är begynnilsen aff
-[u'först..e.1', u'först..e.1']  0.0511683073976	[u'þörsta..vb.1']  0.0658719757838	[u'försla..nn.1', u'försla..nn.1', u'försla..nn.1']  0.0799425400544	[u'förste..e.1', u'förste..nn.1', u'förste..nn.1']  0.0910195199504	[u'försl..nn.1', u'försl..nn.1']  0.131110847452	[u'görst..ab.1']  0.132653576825	[u'födska..nn.1']  0.133737491962	['fyrsta..ab.1']  0.13883307744	[u'födsla..nn.1', u'födsla..nn.1']  0.140979594902	[u'förna..e.2', u'förna..e.1']  0.158716828241 (första)
+['fyrsta..ab.1']  0.2494914147	[u'förste..e.1', u'förste..nn.1', u'förste..nn.1']  0.402445659173	[u'försla..nn.1', u'försla..nn.1', u'försla..nn.1']  0.449587222486	[u'þörsta..vb.1']  0.517513453107	[u'först..e.1', u'först..e.1']  0.599485750377	['fyrsti..ab.1']  0.737524836427	['fyrstu..ab.1']  0.787314007041	['fyrst..ab.1', 'fyrst..e.1', 'fyrst..ab.1']  0.848977165077	[u'görst..ab.1']  1.04219028585	['forsat..nn.1', 'forsat..nn.1', 'forsat..nn.1']  1.57263468458 (första)
 
 första capitel thetta är begynnilsen aff jesu
-['kapitel..nn.1', 'kapitel..nn.1']  0.17841199011	['kapiten..nn.1']  0.273503050346	['skapare..nn.1']  0.449176384983	['skipare..nn.2', 'skipare..nn.2', 'skipare..nn.1']  0.520913523816	[u'köpari..nn.1']  0.54420680482	['skipari..nn.1']  0.623706341966	['komykil..av.1']  0.63713759079	['lypsker..av.1']  1.24904690739	['ospaker..av.1']  1.27399038285	['*spikler..nn.1']  1.29002899096 (capitel)
+['kapitel..nn.1', 'kapitel..nn.1']  0.167944804013 (capitel)
 
 första capitel thetta är begynnilsen aff jesu christi
-['thutta..vb.1']  0.0457346313766	[u'thörva..e.1']  0.189864453218	[u'thörka..vb.2', u'thörka..nn.1', u'thörka..vb.2', u'thörka..nn.1']  0.190029405382	['thokna..nn.1']  0.194623615788	['thukna..e.1']  0.195061331173	['thunga..vb.1', 'thunga..vb.1']  0.198248979924	['utleta..vb.1', 'utleta..vb.1', 'utleta..e.1']  0.209482972234	['thura..vb.1']  0.211499085285	[u'thöra..e.1']  0.214637950313	['thova..vb.1']  0.215141382987 (thetta)
+['thutta..vb.1']  0.63296109896	['a_hitta..vb.1']  1.95723313132 (thetta)
+--X
 
 första capitel thetta är begynnilsen aff jesu christi gudz
-[u'är..e.2', u'är..nn.1']  0	[u'ä..e.4', u'ä..ab.1']  0.0499764113759	[u'ät..nn.3', u'ät..nn.1']  0.0684554718635	[u'än..e.10', u'än..e.9', u'än..e.8', u'än..e.7', u'än..ab.6', u'än..e.5', u'än..e.4', u'än..e.3', u'än..e.2', u'än..e.1']  0.0839227431006 (är)
+[u'är..e.2', u'är..nn.1']  0	[u'är..e.2', u'är..nn.1']  0	[u'än..e.10', u'än..e.9', u'än..e.8', u'än..e.7', u'än..ab.6', u'än..e.5', u'än..e.4', u'än..e.3', u'än..e.2', u'än..e.1']  0.432044178463	[u'ät..nn.3', u'ät..nn.1']  0.504314741542	[u'ä..e.4', u'ä..ab.1']  0.606673748826 (är)
 
 första capitel thetta är begynnilsen aff jesu christi gudz sons
- (begynnilsen)
+None  0 (begynnilsen)
 
 första capitel thetta är begynnilsen aff jesu christi gudz sons euangelio
-['uff..e.1']  0.0620226527214	['hof..nn.1', 'hof..nn.2', 'hof..nn.1', 'hof..nn.3', 'hof..nn.2', 'hof..nn.1']  0.107592810551	['adh..e.1']  0.145676489319	['agh..nn.1']  0.153610396167	[u'þo..ab.1', u'þo..e.1']  0.175916822027	['hos..e.1', 'hos..e.1', 'hos..e.1']  0.176061059792	['tho..ab.1', 'tho..e.1']  0.177142340233	['os..nn.1', 'os..nn.2', 'os..nn.1', 'os..e.2', 'os..nn.1']  0.178513095484	['so..e.2', 'so..nn.1', 'so..e.2', 'so..nn.1', 'so..ab.2', 'so..nn.1']  0.178513095484	['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.180141744111 (aff)
+['uff..e.1']  0.537822592341	['agh..nn.1']  0.928848115091	['adh..e.1']  0.965402815461	['hof..nn.1', 'hof..nn.2', 'hof..nn.1', 'hof..nn.3', 'hof..nn.2', 'hof..nn.1']  1.16937914306	['svo..ab.1']  1.33821827463	['oft..ab.1']  1.46723896474	['usk..e.1']  1.53817725608	['haf..nn.1', 'haf..nn.1']  1.61436705681	['opa..vb.1']  1.61449613545	['spa..e.1', 'spa..e.2', 'spa..vb.1']  1.72003086412 (aff)
+--X
 
 capitel thetta är begynnilsen aff jesu christi gudz sons euangelio såsom
-['jefa..vb.1']  0.130490901962	['jeta..vb.1']  0.131542830794	[u'jæf..nn.1']  0.233170806221	['lius..av.2', 'lius..nn.1', 'lius..av.3', 'lius..nn.2', 'lius..nn.1', 'lius..av.2', 'lius..nn.1']  0.283614375151	['ila..nn.3', 'ila..vb.2', 'ila..vb.1']  0.283861435146	['iute..nn.1']  0.285851867655	['ilan..nn.1']  0.290514194593	[u'ildæ..e.1']  0.303376599561	['iat..e.1']  0.332861832399	['sila..vb.1', 'sila..vb.1', 'sila..vb.1']  0.348875609925 (jesu)
+['jeta..vb.1']  1.03679634688	['jefa..vb.1']  1.0420728998	[u'jæf..nn.1']  1.43600011853	['siau..e.1']  1.93052107435	['vise..nn.1']  1.9907084799 (jesu)
+--X
 
 thetta är begynnilsen aff jesu christi gudz sons euangelio såsom scriffuit
-[u'kiötata..nn.1']  0.462923433723	[u'klöstre..e.1']  0.59523445128	['handski..e.1']  1.25473883731	['handske..nn.1', 'handske..e.1']  1.35753165546	['ladhika..nn.1', 'ladhika..nn.1']  1.36390076643	['tiltaka..e.1', 'tiltaka..vb.1']  1.3758538934	['haveska..e.1', 'haveska..nn.1']  1.38629737518	['karsyrt..e.1']  1.40004813085	['klostre..nn.1']  1.54005011612 (christi)
+None  0 (christi)
 
 är begynnilsen aff jesu christi gudz sons euangelio såsom scriffuit är
-['gud..e.1']  0.0865936661256	['ganz..ab.1']  0.132351505432	['terz..e.1']  0.18265977209	['gul..nn.2', 'gul..av.1', 'gul..nn.3', 'gul..av.2', 'gul..nn.1']  0.182883872103	['danz..nn.1']  0.189883469805	[u'tærz..nn.1']  0.192776084928	['gnit..nn.1']  0.195521408729	['gen..e.2', 'gen..av.1', 'gen..e.4', 'gen..av.3', 'gen..e.2', 'gen..av.1', 'gen..av.2', 'gen..nn.1']  0.202657150213	['gait..nn.1']  0.203431594457	['gest..e.1']  0.204594574535 (gudz)
+['gud..e.1']  0.420657354595	['gods..nn.1', 'gods..nn.1']  0.443118145848	[u'guþ..nn.1', u'guþ..nn.2', u'guþ..nn.1']  0.581431806336	['gul..nn.2', 'gul..av.1', 'gul..nn.3', 'gul..av.2', 'gul..nn.1']  0.802440673321	['ganz..ab.1']  1.0327775441	['guti..nn.1']  1.39235384679	['hug..nn.1', 'hug..nn.1']  1.46698575441	['hog..e.1']  1.60861516437	['gius..nn.1']  1.83605779338 (gudz)
 
 begynnilsen aff jesu christi gudz sons euangelio såsom scriffuit är j
-['sona..e.2', 'sona..vb.1']  0.0557264590703	['son..nn.1', 'son..e.1', 'son..nn.1']  0.0650141747785	['sena..e.1']  0.101023375062	['ens..ab.1', 'ens..ab.1', 'ens..ab.2', 'ens..av.1']  0.11031109077	['sen..ab.1', 'sen..ab.2', 'sen..av.1', 'sen..e.2', 'sen..av.1']  0.11031109077	['sent..ab.1']  0.114817094065	['syna..vb.1', 'syna..e.1', 'syna..e.1']  0.121887371921	['syni..e.1']  0.122316288128	['sina..nn.1', 'sina..nn.1', 'sina..e.1']  0.122999707975	['non..nn.1', 'non..nn.1']  0.126422020975 (sons)
+['son..nn.1', 'son..e.1', 'son..nn.1']  0.521971783173	['sona..e.2', 'sona..vb.1']  0.572773693408	['sund..nn.1', 'sund..nn.1']  0.654104144232	['sun..e.1', 'sun..e.1', 'sun..e.1']  0.663601193136	['som..e.1', 'som..e.1', 'som..e.1']  0.843099742191	['somn..e.1']  0.862267305113	['solt..e.1']  0.885362771002	['somi..nn.1']  0.891450194333	['sold..nn.1', 'sold..nn.1']  0.898863750731	['fors..nn.1', 'fors..nn.1', 'fors..nn.1']  0.936294485925 (sons)
 
 aff jesu christi gudz sons euangelio såsom scriffuit är j propheterna
-['oviliande..e.1']  0.616887325087 (euangelio)
+None  0 (euangelio)
 
 jesu christi gudz sons euangelio såsom scriffuit är j propheterna sy
-['sater..e.1', 'sater..e.1']  0.304746756581	['safir..nn.1', 'safir..nn.1']  0.325671160662	['atol..nn.1', 'atol..nn.1']  0.351309371202	['nasin..nn.1']  0.355733885998	['asyn..nn.1', 'asyn..nn.1']  0.358227878526	['saian..nn.1', 'saian..nn.1']  0.359299611213	['anama..vb.1', 'anama..vb.1', 'anama..vb.1']  0.367143003402	['ater..ab.1', 'ater..ab.1']  0.369760931359	['asaka..vb.1']  0.383938951703	['danir..nn.1']  0.385461144435 (såsom)
+None  0 (såsom)
 
 christi gudz sons euangelio såsom scriffuit är j propheterna sy iach
-[u'foreskuþa..e.1']  1.40144702772 (scriffuit)
+None  0 (scriffuit)
 
 gudz sons euangelio såsom scriffuit är j propheterna sy iach sender
-[u'är..e.2', u'är..nn.1']  0	[u'ä..e.4', u'ä..ab.1']  0.0499764113759	[u'ät..nn.3', u'ät..nn.1']  0.0684554718635	[u'än..e.10', u'än..e.9', u'än..e.8', u'än..e.7', u'än..ab.6', u'än..e.5', u'än..e.4', u'än..e.3', u'än..e.2', u'än..e.1']  0.0839227431006 (är)
+[u'är..e.2', u'är..nn.1']  0	[u'är..e.2', u'är..nn.1']  0	[u'än..e.10', u'än..e.9', u'än..e.8', u'än..e.7', u'än..ab.6', u'än..e.5', u'än..e.4', u'än..e.3', u'än..e.2', u'än..e.1']  0.432044178463	[u'ät..nn.3', u'ät..nn.1']  0.504314741542	[u'ä..e.4', u'ä..ab.1']  0.606673748826 (är)
 
 sons euangelio såsom scriffuit är j propheterna sy iach sender min
-['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0.12486242683 (j)
+['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0.286899221842 (j)
 
 euangelio såsom scriffuit är j propheterna sy iach sender min engel
-['prophetera..vb.1']  1.0511683074 (propheterna)
+None  0 (propheterna)
 
 såsom scriffuit är j propheterna sy iach sender min engel fram
-['sa..e.2', 'sa..vb.1', 'sa..e.3', 'sa..e.2', 'sa..vb.1', 'sa..e.3', 'sa..e.2', 'sa..vb.1']  0.0463647471627	['se..e.1']  0.0506478983032	[u'sæ..e.1']  0.0540574055156	['ny..nn.1', 'ny..e.2', 'ny..nn.1']  0.0614078461961	['y..e.1']  0.0650141747785	['so..e.2', 'so..nn.1', 'so..e.2', 'so..nn.1', 'so..ab.2', 'so..nn.1']  0.0661609128505	['dy..nn.1']  0.0668503868172	['ia..e.1', 'ia..e.1']  0.10252012244	['na..e.1', 'na..vb.1']  0.107772593359	['a..nn.1', 'a..e.6', 'a..e.5', 'a..e.4', 'a..e.3', 'a..e.2', 'a..nn.1', 'a..e.3', 'a..pp.2', 'a..nn.1']  0.111378921941 (sy)
+['dy..nn.1']  0.512474734269	['so..e.2', 'so..nn.1', 'so..e.2', 'so..nn.1', 'so..ab.2', 'so..nn.1']  0.516020323058	['y..e.1']  0.521971783173	['ny..nn.1', 'ny..e.2', 'ny..nn.1']  0.541139346095	[u'sæ..e.1']  0.582413818736	['se..e.1']  0.602613660647	['sa..e.2', 'sa..vb.1', 'sa..e.3', 'sa..e.2', 'sa..vb.1', 'sa..e.3', 'sa..e.2', 'sa..vb.1']  0.628985250535	[u'ö..nn.1', u'ö..nn.1', u'ö..nn.1']  0.771463197873	['ti..e.1']  0.791498506396	['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0.814496535029 (sy)
+--X 
 
 scriffuit är j propheterna sy iach sender min engel fram för
-['iaka..vb.1', 'iaka..vb.1']  0.227128261816	['taka..vb.1', 'taka..vb.1', 'taka..nn.3', 'taka..vb.2', 'taka..vb.1']  0.275437283712	['taki..nn.1']  0.280275500656	['saka..vb.1']  0.283283637093	['haki..nn.1', 'haki..nn.1']  0.285520967408	['saki..nn.1']  0.288121854037	['huza..vb.1']  0.291911748399	['baka..vb.1', 'baka..vb.1', 'baka..vb.1']  0.301770195958	['hozl..nn.1']  0.321978551653	['duka..vb.1']  0.338550299931 (iach)
+['iaka..vb.1', 'iaka..vb.1']  0.782311860827	['haki..nn.1', 'haki..nn.1']  1.33864531159	['hake..nn.1']  1.7532950578	['huka..vb.1']  1.90548470696 (iach)
+--X
 
 är j propheterna sy iach sender min engel fram för titt
-['sunder..ab.2', 'sunder..av.1', 'sunder..ab.2', 'sunder..av.1', 'sunder..ab.2', 'sunder..vb.1']  0.0457346313766	[u'sönder..e.1', u'sönder..e.1', u'sönder..e.1']  0.0488734964045	['synder..e.1', 'synder..e.1']  0.0506478983032	['sander..av.2', 'sander..av.3', 'sander..av.1']  0.0910195199504	['onder..av.1', 'onder..av.1', 'onder..av.1']  0.11031109077	['funder..nn.1']  0.114202880617	['ende..e.1', 'ende..nn.1', 'ende..av.1']  0.114990586154	['tunder..nn.1']  0.115254809449	[u'sænder..ab.1']  0.117242849434	['fynder..nn.1']  0.119116147544 (sender)
+[u'sænder..ab.1']  0.309614131374	['sander..av.2', 'sander..av.3', 'sander..av.1']  0.402445659173	['synder..e.1', 'synder..e.1']  0.602613660647	[u'sönder..e.1', u'sönder..e.1', u'sönder..e.1']  0.613401879005	['sunder..ab.2', 'sunder..av.1', 'sunder..ab.2', 'sunder..av.1', 'sunder..ab.2', 'sunder..vb.1']  0.63296109896	['silder..nn.1']  0.744136397401	['setter..e.1']  0.857100605433	['tander..nn.1']  0.901419413713	['elder..nn.1', 'elder..nn.1', 'elder..e.2', 'elder..nn.1']  0.908360799635	['sanger..nn.1', 'sanger..nn.1', 'sanger..nn.1']  0.964970691642 (sender)
+--X
 
 j propheterna sy iach sender min engel fram för titt ansichte
-['min..e.1', 'min..ab.3', 'min..e.2', 'min..e.3', 'min..e.2', 'min..e.1']  0	['mis..ab.1']  0.0614078461961	['mun..e.1', 'mun..vb.2', 'mun..nn.1']  0.0626294356689	['din..e.1']  0.0642491869581	['mon..nn.1', 'mon..nn.2', 'mon..nn.1', 'mon..e.1']  0.0672732489051	['man..ab.3', 'man..nn.2', 'man..nn.2', 'man..nn.2', 'man..nn.1']  0.0717371388329	['mit..ab.1']  0.0766262626823	[u'mæn..e.1']  0.0771840951789	['kin..nn.1', 'kin..nn.1']  0.0782037944977	['mir..e.1']  0.0839227431006 (min)
+['min..e.1', 'min..ab.3', 'min..e.2', 'min..e.3', 'min..e.2', 'min..e.1']  0	['min..e.1', 'min..ab.3', 'min..e.2', 'min..e.3', 'min..e.2', 'min..e.1']  0	['lin..av.2', 'lin..nn.1', 'lin..av.3', 'lin..nn.2', 'lin..nn.1', 'lin..nn.1']  0.355888470047	['men..e.2', 'men..nn.1', 'men..av.3', 'men..nn.1', 'men..e.3', 'men..e.2', 'men..nn.1']  0.357747380939	[u'miþ..e.2', u'miþ..e.1']  0.367739970648	['mil..nn.1', 'mil..nn.1']  0.386389016462	['fin..av.1']  0.412377473415	['mir..e.1']  0.432044178463	['kin..nn.1', 'kin..nn.1']  0.457472756361	[u'mæn..e.1']  0.462161467693 (min)
 
 propheterna sy iach sender min engel fram för titt ansichte huilkin
-['enge..e.1', 'enge..av.1']  0.0655576093981	['unge..nn.1']  0.111292240775	['unger..av.1', 'unger..av.1', 'unger..av.1']  0.119560979213	['ende..e.1', 'ende..nn.1', 'ende..av.1']  0.123089573771	['andel..nn.1', 'andel..e.1']  0.148551484323	['ange..nn.2', 'ange..nn.1']  0.156577129348	['anger..nn.1', 'anger..av.4', 'anger..nn.3', 'anger..nn.1']  0.164845867787	['onder..av.1', 'onder..av.1', 'onder..av.1']  0.176655228201	['engin..e.1', 'engin..e.1']  0.197883878385	['ester..nn.1', 'ester..nn.1']  0.211122279898 (engel)
+['enge..e.1', 'enge..av.1']  0.519142901322	['enkil..e.1']  0.605008317348	[u'ængil..nn.1']  0.667361512313	['enker..e.1']  0.725204090354	['engin..e.1', 'engin..e.1']  0.744136397401	['anger..nn.1', 'anger..av.4', 'anger..nn.3', 'anger..nn.1']  0.880388813118	['ange..nn.2', 'ange..nn.1']  0.921588560495	['andel..nn.1', 'andel..e.1']  0.964970691642	['ende..e.1', 'ende..nn.1', 'ende..av.1']  1.08166793379	['unger..av.1', 'unger..av.1', 'unger..av.1']  1.1109042529 (engel)
 
 sy iach sender min engel fram för titt ansichte huilkin beredha
-['fram..e.1', 'fram..ab.1', 'fram..e.2', 'fram..ab.1']  0	['frar..av.1']  0.0764684325255	['bram..nn.1']  0.0863331114584	['fran..e.1', 'fran..e.1', 'fran..e.1']  0.113591560906	['smam..e.1']  0.144936681766	['frir..av.1', 'frir..av.1', 'frir..av.1']  0.148205571358	['fror..av.1']  0.152559877564	['grom..e.1']  0.157576714466	['drap..nn.1', 'drap..e.1']  0.157771663541	['grar..av.1', 'grar..av.1']  0.157953701953 (fram)
+['fram..e.1', 'fram..ab.1', 'fram..e.2', 'fram..ab.1']  0	['fram..e.1', 'fram..ab.1', 'fram..e.2', 'fram..ab.1']  0	['pram..nn.1', 'pram..nn.1', 'pram..e.1']  0.147257170711	['fran..e.1', 'fran..e.1', 'fran..e.1']  0.321127959018	['bram..nn.1']  0.421754826101	['frar..av.1']  0.465480848332	[u'fræn..e.1']  0.599562644717	['prim..nn.1', 'prim..nn.1', 'prim..nn.1']  0.635290592438	['vrak..nn.1', 'vrak..nn.1']  0.667905251341	['gran..nn.1', 'gran..nn.2', 'gran..nn.1', 'gran..nn.1']  0.76383249449 (fram)
 
 iach sender min engel fram för titt ansichte huilkin beredha skal
-[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0	['far..av.3', 'far..av.4', 'far..nn.3', 'far..nn.1', 'far..nn.2', 'far..nn.1']  0.0572517764657	[u'þör..av.1', u'þör..av.1']  0.0658719757838	[u'sör..nn.1', u'sör..av.2', u'sör..nn.1']  0.0684682492407	[u'hör..nn.1', u'hör..nn.1']  0.0721251267398	[u'dör..e.1', u'dör..e.1', u'dör..e.1']  0.0735513625793	[u'föl..e.1', u'föl..nn.1']  0.0738263478364	['fir..ab.1']  0.0746240357084	[u'gör..av.1', u'gör..av.1', u'gör..av.1']  0.0814852694273	[u'bör..e.1']  0.0863331114584 (för)
+[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0	[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0	['fyr..ab.1', 'fyr..e.1', 'fyr..ab.1']  0.2494914147	['for..e.2', 'for..nn.1', 'for..e.2', 'for..nn.1', 'for..ab.4', 'for..e.3', 'for..av.2', 'for..nn.1']  0.311842256965	[u'mör..av.2']  0.412377473415	[u'bör..e.1']  0.421754826101	[u'gör..av.1', u'gör..av.1', u'gör..av.1']  0.442704535472	['fir..ab.1']  0.474145824923	[u'föl..e.1', u'föl..nn.1']  0.477943153945	[u'dör..e.1', u'dör..e.1', u'dör..e.1']  0.479259235842 (för)
 
 sender min engel fram för titt ansichte huilkin beredha skal thin
-['titt..ab.1']  0	['rita..e.1']  0.114596146511	['vita..nn.4', 'vita..e.3', 'vita..vb.2', 'vita..vb.1', 'vita..nn.4', 'vita..nn.3', 'vita..vb.2', 'vita..vb.1']  0.118676159597	['viti..nn.1']  0.120844506846	['gita..vb.1', 'gita..vb.1', 'gita..e.1']  0.122028760513	['lita..vb.2', 'lita..vb.1', 'lita..vb.2', 'lita..vb.1', 'lita..vb.1']  0.126083214702	['tukt..e.1']  0.135329872782	['rist..nn.2', 'rist..nn.1', 'rist..nn.1']  0.137975649936	['tokt..nn.1']  0.139973686019	['atta..e.1', 'atta..e.1', 'atta..e.2', 'atta..nn.1']  0.140590371192 (titt)
+['titt..ab.1']  0	['titt..ab.1']  0	['dikt..nn.1', 'dikt..nn.1']  0.875708621801	['datt..e.1']  0.880387268521	['sizt..ab.2', 'sizt..e.1']  0.897454713604	['likt..nn.1']  0.932941997493	[u'tækt..nn.1']  0.9455162427	['list..nn.2', 'list..nn.1', 'list..nn.1']  0.948560977026	['tant..nn.1']  0.952780180366	[u'rætt..ab.1']  0.966476209235 (titt)
+--X
 
 min engel fram för titt ansichte huilkin beredha skal thin wägh
-[u'stakaþer..av.1']  0.643708694408	['stekari..nn.1']  0.683265701645	['utskilia..vb.1', 'utskilia..vb.1']  0.696826472102	['andelika..e.1', 'andelika..ab.1']  1.38691765068	['satliker..av.1']  1.3928429717	['systkine..nn.1', 'systkine..nn.1']  1.41262822241	[u'staþlika..ab.1', u'staþlika..ab.1']  1.45083376511	['innelika..ab.1', 'innelika..ab.1']  1.45321224889	['hviskare..e.1']  1.45661075594	[u'stæniza..nn.1']  1.49586399179 (ansichte)
+None  0 (ansichte)
 
 engel fram för titt ansichte huilkin beredha skal thin wägh för
-['ivirman..nn.1', 'ivirman..nn.1']  0.344592002539	[u'höghtiþ..nn.1']  0.37334071699	['laghman..nn.1', 'laghman..nn.1', 'laghman..nn.1']  0.398077247069	['fiurtan..e.1', 'fiurtan..e.1']  0.41564792186	['ivirtal..nn.1']  0.43417970539	['dionker..e.1']  0.483443873189	['hviskan..nn.1']  1.13900737156	['haildir..nn.1']  1.14594539582	['getskin..nn.1', 'getskin..nn.1']  1.16665132534	['hughsan..nn.1', 'hughsan..nn.1', 'hughsan..nn.1']  1.19313651721 (huilkin)
+None  0 (huilkin)
 
 fram för titt ansichte huilkin beredha skal thin wägh för tich
-['beredha..vb.1', 'beredha..vb.1']  0	['beradha..vb.1', 'beradha..vb.1']  0.0910195199504	[u'bemödha..vb.1']  0.12534192893	['beradh..nn.1', 'beradh..av.2', 'beradh..nn.1']  0.142187827348	['beladha..vb.1']  0.164845867787	['betidha..e.1']  0.171248290013	['benadha..vb.1']  0.174942263051	['betygha..vb.1']  0.176635334539	[u'forödha..vb.1']  0.180503523855	[u'beröma..vb.1']  0.213007262465 (beredha)
+['beredha..vb.1', 'beredha..vb.1']  0	['beredha..vb.1', 'beredha..vb.1']  0	['beradha..vb.1', 'beradha..vb.1']  0.402445659173	['benadha..vb.1']  0.834489837636	['beradh..nn.1', 'beradh..av.2', 'beradh..nn.1']  1.00193140955	[u'bemödha..vb.1']  1.07888272734 (beredha)
 
 för titt ansichte huilkin beredha skal thin wägh för tich en
-['skal..nn.2', 'skal..e.1', 'skal..nn.3', 'skal..nn.2', 'skal..nn.1', 'skal..nn.2', 'skal..nn.1']  0	['skyl..nn.1', 'skyl..nn.1']  0.0463647471627	['skul..nn.1']  0.0620226527214	['kal..nn.1', 'kal..nn.2', 'kal..nn.1', 'kal..nn.1']  0.0650141747785	['stal..nn.1', 'stal..nn.2', 'stal..nn.1', 'stal..nn.1']  0.0727004371136	['smal..av.1', 'smal..av.1']  0.0782037944977	['skat..nn.1', 'skat..nn.1']  0.0799425400544	['skam..nn.1', 'skam..nn.1']  0.10331378836	['sky..vb.2', 'sky..nn.1', 'sky..vb.2', 'sky..nn.1']  0.111922356561	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  0.121284068468 (skal)
+['skal..nn.2', 'skal..e.1', 'skal..nn.3', 'skal..nn.2', 'skal..nn.1', 'skal..nn.2', 'skal..nn.1']  0	['skal..nn.2', 'skal..e.1', 'skal..nn.3', 'skal..nn.2', 'skal..nn.1', 'skal..nn.2', 'skal..nn.1']  0	[u'skæl..e.1']  0.278434685699	['skam..nn.1', 'skam..nn.1']  0.355888470047	['skat..nn.1', 'skat..nn.1']  0.449587222486	['smal..av.1', 'smal..av.1']  0.457472756361	['stal..nn.1', 'stal..nn.2', 'stal..nn.1', 'stal..nn.1']  0.483354775007	['kal..nn.1', 'kal..nn.2', 'kal..nn.1', 'kal..nn.1']  0.521971783173	['skul..nn.1']  0.537822592341	['skyl..nn.1', 'skyl..nn.1']  0.628985250535 (skal)
+--X
 
 titt ansichte huilkin beredha skal thin wägh för tich en ropande
-['alin..nn.1', 'alin..nn.1', 'alin..nn.1']  0.11085495729	['agin..ab.1']  0.11874834671	['thot..e.1']  0.143899511587	['thul..e.1']  0.157720495904	[u'thör..av.1']  0.158546778809	['thol..nn.1', 'thol..nn.1']  0.16236430914	['vatn..nn.1', 'vatn..nn.1']  0.169560778552	['aghn..nn.1', 'aghn..nn.1']  0.172302835359	['alun..e.1']  0.173484392959	['vagn..nn.1']  0.177936852388 (thin)
+['thyr..e.1', 'thyr..e.1']  0.724568930319	['thet..nn.1']  0.822494139578	['thol..nn.1', 'thol..nn.1']  0.896701264759	[u'thör..av.1']  0.906190003386	['thul..e.1']  0.920958073955	['thot..e.1']  0.975059006936	['agin..ab.1']  1.11419958115	['alin..nn.1', 'alin..nn.1', 'alin..nn.1']  1.15393569884	['slit..e.1']  1.48725999822	['ihul..av.1']  1.53783224107 (thin)
+--X
 
 ansichte huilkin beredha skal thin wägh för tich en ropande röst
- (wägh)
+None  0 (wägh)
 
 huilkin beredha skal thin wägh för tich en ropande röst är
-[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0	['far..av.3', 'far..av.4', 'far..nn.3', 'far..nn.1', 'far..nn.2', 'far..nn.1']  0.0572517764657	[u'þör..av.1', u'þör..av.1']  0.0658719757838	[u'sör..nn.1', u'sör..av.2', u'sör..nn.1']  0.0684682492407	[u'hör..nn.1', u'hör..nn.1']  0.0721251267398	[u'dör..e.1', u'dör..e.1', u'dör..e.1']  0.0735513625793	[u'föl..e.1', u'föl..nn.1']  0.0738263478364	['fir..ab.1']  0.0746240357084	[u'gör..av.1', u'gör..av.1', u'gör..av.1']  0.0814852694273	[u'bör..e.1']  0.0863331114584 (för)
+[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0	[u'för..e.1', u'för..e.3', u'för..e.2', u'för..av.1', u'för..ab.3', u'för..e.2', u'för..av.1']  0	['fyr..ab.1', 'fyr..e.1', 'fyr..ab.1']  0.2494914147	['for..e.2', 'for..nn.1', 'for..e.2', 'for..nn.1', 'for..ab.4', 'for..e.3', 'for..av.2', 'for..nn.1']  0.311842256965	[u'mör..av.2']  0.412377473415	[u'bör..e.1']  0.421754826101	[u'gör..av.1', u'gör..av.1', u'gör..av.1']  0.442704535472	['fir..ab.1']  0.474145824923	[u'föl..e.1', u'föl..nn.1']  0.477943153945	[u'dör..e.1', u'dör..e.1', u'dör..e.1']  0.479259235842 (för)
 
 beredha skal thin wägh för tich en ropande röst är j
-['taka..vb.1', 'taka..vb.1', 'taka..nn.3', 'taka..vb.2', 'taka..vb.1']  0.298865400649	['vika..nn.4', 'vika..nn.3', 'vika..nn.2', 'vika..vb.1', 'vika..nn.1']  0.299663746766	['riki..nn.1']  0.300421950623	['taki..nn.1']  0.303703617592	['lika..ab.4', 'lika..av.3', 'lika..ab.4', 'lika..av.3', 'lika..vb.2', 'lika..vb.1', 'lika..ab.2', 'lika..vb.1']  0.30707080187	['diki..nn.1']  0.325525596355	['aska..nn.1']  0.329424311741	['iaka..vb.1', 'iaka..vb.1']  0.347174422545	['roka..vb.2']  0.362856982584	['koka..vb.2']  0.367101947834 (tich)
+['taki..nn.1']  1.24132847953	['kidh..nn.1']  1.48335477501	['dikt..nn.1', 'dikt..nn.1']  1.56029865081	['likt..nn.1']  1.6175320265 (tich)
+--X
 
 skal thin wägh för tich en ropande röst är j öknen
-['en..e.1', 'en..e.2', 'en..nn.1', 'en..ab.2', 'en..e.1']  0	['et..e.1']  0.0766262626823	['er..nn.1', 'er..e.2', 'er..nn.1']  0.0839227431006	['an..nn.1', 'an..e.2', 'an..nn.1']  0.0910195199504	['in..ab.2', 'in..e.2', 'in..ab.1']  0.10279281815	['os..nn.1', 'os..nn.2', 'os..nn.1', 'os..e.2', 'os..nn.1']  0.106704762188	['us..e.1']  0.107142477573	[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0.117242849434	['ut..ab.1', 'ut..ab.1']  0.122360894059	['or..e.1', 'or..e.2', 'or..e.1']  0.129219659093 (en)
+['en..e.1', 'en..e.2', 'en..nn.1', 'en..ab.2', 'en..e.1']  0	['en..e.1', 'en..e.2', 'en..nn.1', 'en..ab.2', 'en..e.1']  0	[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0.309614131374	['in..ab.2', 'in..e.2', 'in..ab.1']  0.357747380939	['an..nn.1', 'an..e.2', 'an..nn.1']  0.402445659173	['er..nn.1', 'er..e.2', 'er..nn.1']  0.432044178463	['et..e.1']  0.464746758639	[u'æm..e.2', u'æm..e.1']  0.630742090392	['am..nn.1']  0.723573618191	[u'iþ..nn.1']  0.725487351587 (en)
 
 thin wägh för tich en ropande röst är j öknen bereedher
-[u'tiþande..nn.1']  0.216909797818	['omanger..e.1']  0.241705088086	['okunder..av.1']  0.249267479641	['okynne..nn.1']  0.253962015417	['ominne..nn.1', 'ominne..nn.1']  0.276262703881	[u'omödder..e.1']  0.31175375289	['amynne..nn.1']  0.326981757249	['apinia..nn.1']  0.338223900592	['omilder..av.1', 'omilder..av.1']  0.351001322781	['aminne..nn.1']  0.35235414892 (ropande)
+None  0 (ropande)
 
 wägh för tich en ropande röst är j öknen bereedher herrans
-[u'röst..nn.1', u'röst..nn.1', u'röst..nn.1']  0	['rast..nn.1', 'rast..e.1']  0.0572517764657	[u'döst..e.1']  0.061037054848	[u'löst..e.1']  0.0738263478364	['rist..nn.2', 'rist..nn.1', 'rist..nn.1']  0.0746240357084	['resa..nn.3', 'resa..vb.2', 'resa..vb.1', 'resa..nn.3', 'resa..vb.2', 'resa..vb.1', 'resa..nn.3', 'resa..vb.2', 'resa..vb.1']  0.0950141710521	[u'ösa..vb.1', u'ösa..vb.1']  0.0961170860235	[u'röna..vb.1', u'röna..vb.1', u'röna..vb.1']  0.107548520844	[u'röta..vb.2', u'röta..vb.1', u'röta..vb.2', u'röta..vb.1', u'röta..vb.1']  0.11566085272	['rost..nn.1', 'rost..e.1', 'rost..e.1']  0.116525780568 (röst)
+[u'röst..nn.1', u'röst..nn.1', u'röst..nn.1']  0	[u'röst..nn.1', u'röst..nn.1', u'röst..nn.1']  0	['rost..nn.1', 'rost..e.1', 'rost..e.1']  0.311842256965	['rist..nn.2', 'rist..nn.1', 'rist..nn.1']  0.474145824923	[u'löst..e.1']  0.477943153945	[u'döst..e.1']  0.543149568534	['rast..nn.1', 'rast..e.1']  0.564103369706	['lyst..nn.1', 'lyst..e.2', 'lyst..nn.1']  0.727434568645	['rosn..nn.1', 'rosn..nn.1']  0.776589015604	['lost..e.1']  0.78978541091 (röst)
 
 för tich en ropande röst är j öknen bereedher herrans wägh
-[u'är..e.2', u'är..nn.1']  0	[u'ä..e.4', u'ä..ab.1']  0.0499764113759	[u'ät..nn.3', u'ät..nn.1']  0.0684554718635	[u'än..e.10', u'än..e.9', u'än..e.8', u'än..e.7', u'än..ab.6', u'än..e.5', u'än..e.4', u'än..e.3', u'än..e.2', u'än..e.1']  0.0839227431006 (är)
+[u'är..e.2', u'är..nn.1']  0	[u'är..e.2', u'är..nn.1']  0	[u'än..e.10', u'än..e.9', u'än..e.8', u'än..e.7', u'än..ab.6', u'än..e.5', u'än..e.4', u'än..e.3', u'än..e.2', u'än..e.1']  0.432044178463	[u'ät..nn.3', u'ät..nn.1']  0.504314741542	[u'ä..e.4', u'ä..ab.1']  0.606673748826 (är)
 
 tich en ropande röst är j öknen bereedher herrans wägh görer
-['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0.12486242683 (j)
+['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0.286899221842 (j)
 
 en ropande röst är j öknen bereedher herrans wägh görer hans
-[u'öfnas..e.1']  0.222524264014	[u'ölder..nn.1']  0.242346753445	['ofsen..av.1', 'ofsen..av.1']  0.248030524631	['upsyn..nn.1', 'upsyn..nn.1']  0.278550730962	['after..e.1']  0.287897680116	['atter..e.1']  0.290501219362	['elder..nn.1', 'elder..nn.1', 'elder..e.2', 'elder..nn.1']  0.29122024985	['aftan..e.1', 'aftan..e.1']  0.294994456966	['alder..av.2', 'alder..nn.1', 'alder..av.3', 'alder..nn.1', 'alder..e.2', 'alder..nn.1']  0.299598529911	['apter..ab.1']  0.305092786416 (öknen)
+['ofsen..av.1', 'ofsen..av.1']  1.34908595933	[u'ömkan..nn.1']  1.85991841553	['kanel..nn.1']  1.88483824604 (öknen)
+--X
 
 ropande röst är j öknen bereedher herrans wägh görer hans stijghar
-['ballogher..e.1']  0.323487589851	['forledha..vb.1']  0.328438800476	['forlidhen..av.1']  0.3741584304	['forlanger..av.1']  0.421398913874	['forlidha..vb.1', 'forlidha..vb.1']  0.431231618626	['befeidha..vb.1']  1.24378874948	['forlamber..av.1']  1.34271157606	['forellrar..e.1']  1.37475259508	['viliogher..av.1']  1.3822408645 (bereedher)
+None  0 (bereedher)
 
 röst är j öknen bereedher herrans wägh görer hans stijghar retta
-['lotran..e.1']  0.243480845276	['lutran..nn.1']  0.243918560661	['forlana..vb.1']  0.246974849639	['formana..vb.1']  0.249616934328	['hardhna..e.1']  0.256499305574	[u'hærman..nn.1']  0.258725456738	['forman..nn.1', 'forman..nn.1', 'forman..nn.1']  0.258904650036	['hurvina..ab.1']  0.263548938655	[u'forraþa..vb.1', u'forraþa..e.1']  0.273186421009	[u'þordyn..nn.1', u'þordyn..nn.1']  0.280583451964 (herrans)
+['hennar..e.1']  1.81810431856 (herrans)
+--X
 
 är j öknen bereedher herrans wägh görer hans stijghar retta joannes
- (wägh)
+None  0 (wägh)
 
 j öknen bereedher herrans wägh görer hans stijghar retta joannes döpte
-['gere..nn.1']  0.0988499077803	[u'göte..nn.1']  0.118431883239	[u'före..nn.2', u'före..e.1', u'före..nn.1']  0.131461680803	[u'göra..vb.1', u'göra..vb.1', u'göra..vb.1']  0.140995931326	[u'gæver..av.1']  0.145909380927	[u'döver..av.1']  0.147882673748	[u'götar..nn.1']  0.159474991814	['dare..nn.1']  0.164760152214	['heder..nn.1']  0.182518223315	['gera..vb.1']  0.189869427731 (görer)
+[u'götar..nn.1']  0.906760400715	[u'döver..av.1']  0.96767131172	[u'gæver..av.1']  0.978881822134	[u'före..nn.2', u'före..e.1', u'före..nn.1']  1.0493782843	[u'göte..nn.1']  1.11098849037	['gere..nn.1']  1.22007562783	['huver..nn.1']  1.34187415163	['viter..av.1', 'viter..av.2', 'viter..nn.1']  1.35636494144	['vider..nn.2', 'vider..av.1']  1.39519976843	[u'növer..av.1', u'növer..av.1']  1.40514627925 (görer)
+--X
 
 öknen bereedher herrans wägh görer hans stijghar retta joannes döpte j
-['hans..e.2', 'hans..e.1']  0	['hana..e.1']  0.0557264590703	['hani..nn.1', 'hani..nn.1']  0.0561553752776	[u'höns..nn.1']  0.0572517764657	['han..e.1', 'han..e.1', 'han..e.1']  0.0650141747785	['hand..nn.1', 'hand..nn.1', 'hand..e.2', 'hand..nn.1']  0.0668503868172	['hals..nn.1', 'hals..nn.1']  0.0950910602353	[u'höna..nn.1', u'höna..nn.1']  0.112978235536	['hasa..vb.1', 'hasa..vb.1']  0.117134305266	['lana..vb.1', 'lana..vb.1', 'lana..nn.2', 'lana..vb.1']  0.120440741712 (hans)
+['hans..e.2', 'hans..e.1']  0	['hans..e.2', 'hans..e.1']  0	['hals..nn.1', 'hals..nn.1']  0.386389016462	['hand..nn.1', 'hand..nn.1', 'hand..e.2', 'hand..nn.1']  0.512474734269	['han..e.1', 'han..e.1', 'han..e.1']  0.521971783173	[u'höns..nn.1']  0.564103369706	['hani..nn.1', 'hani..nn.1']  0.570322235315	['hana..e.1']  0.572773693408	['ganz..ab.1']  0.785292103231	['danz..nn.1']  0.789534708547 (hans)
 
 bereedher herrans wägh görer hans stijghar retta joannes döpte j öknen
-['attighi..e.1']  0.350611458005	['stigha..vb.1', 'stigha..vb.1', 'stigha..vb.1']  0.357682212953	['stigher..nn.1', 'stigher..nn.1']  0.398725321528	['stighi..nn.1', 'stighi..nn.1']  0.429419351786	['tiugha..nn.1', 'tiugha..nn.1']  1.11499058615	['tiugher..nn.1', 'tiugher..nn.1']  1.15603369473	['stiugger..e.1']  1.16362719201	['stighia..nn.1']  1.17613857209	['antiggia..e.1']  1.21610705362	['styggia..vb.1', 'styggia..vb.1']  1.22645149944 (stijghar)
+None  0 (stijghar)
 
 herrans wägh görer hans stijghar retta joannes döpte j öknen och
-['rotta..nn.1']  0.045296915992	['otta..nn.1', 'otta..nn.1']  0.0952733273678	['rytty..nn.1']  0.0970126454659	['reta..vb.1', 'reta..vb.1']  0.0973089820453	['ett..e.1']  0.101144718773	['rosta..vb.1', 'rosta..vb.1']  0.114817094065	['rusta..vb.1']  0.115254809449	[u'rætta..vb.1']  0.117242849434	[u'rökta..vb.1', u'rökta..vb.1', u'rökta..vb.1']  0.121573933518	['rotna..e.1']  0.121923178674 (retta)
+[u'rætta..vb.1']  0.309614131374	['rotta..nn.1']  0.635737739527	[u'rænta..nn.1']  0.774360890013	['rikta..vb.1']  0.841102155946	['rezla..e.1']  0.84806818155	['rista..vb.2', 'rista..vb.1', 'rista..vb.2', 'rista..vb.1']  0.856721135479	['matta..nn.1', 'matta..e.1', 'matta..e.1']  0.867926507505	[u'rætt..ab.1']  0.909099881751	['rensa..vb.1', 'rensa..vb.1', 'rensa..vb.1']  0.963720513179	['atta..e.1', 'atta..e.1', 'atta..e.2', 'atta..nn.1']  1.009119408 (retta)
+--8
 
 wägh görer hans stijghar retta joannes döpte j öknen och predicade
-['fiande..nn.1']  1.20261627639	['tionde..e.2', 'tionde..nn.1', 'tionde..e.2', 'tionde..nn.1']  1.27870772143	['nionde..e.1', 'nionde..e.1']  1.27870772143	['a_finna..vb.1', 'a_finna..vb.1']  1.33781567981	[u'hiærne..nn.1']  1.34406734367	['niauta..e.1']  1.35404567331	['tionda..vb.1', 'tionda..vb.1']  1.36972724138	['mistroa..vb.1', 'mistroa..vb.1', 'mistroa..vb.1']  1.38457208882	['utiunda..e.1']  1.40311815661	['ofallin..av.1']  1.41325932366 (joannes)
+None  0 (joannes)
 
 görer hans stijghar retta joannes döpte j öknen och predicade bätringenes
-['dipil..nn.1']  0.178745899305	['dople..e.1']  0.196468320622	['lopte..nn.1']  0.212815986545	[u'hækte..nn.1']  0.214585242848	[u'hæpta..e.1']  0.218312758631	['gipta..nn.1', 'gipta..e.2', 'gipta..nn.1']  0.223175520031	['hapti..e.1']  0.231779161745	['dukke..e.1']  0.239195423576	[u'rökta..vb.1', u'rökta..vb.1', u'rökta..vb.1']  0.239348578966	['dikta..vb.1', 'dikta..vb.1']  0.252935559827 (döpte)
+[u'löfte..e.1', u'löfte..nn.1']  0.529040489437	['lopte..nn.1']  0.693625575691	['dople..e.1']  0.761429479451 (döpte)
+--X
 
 hans stijghar retta joannes döpte j öknen och predicade bätringenes döpelse
-['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0.12486242683 (j)
+['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0.286899221842 (j)
 
 stijghar retta joannes döpte j öknen och predicade bätringenes döpelse till
-[u'öfnas..e.1']  0.222524264014	[u'ölder..nn.1']  0.242346753445	['ofsen..av.1', 'ofsen..av.1']  0.248030524631	['upsyn..nn.1', 'upsyn..nn.1']  0.278550730962	['after..e.1']  0.287897680116	['atter..e.1']  0.290501219362	['elder..nn.1', 'elder..nn.1', 'elder..e.2', 'elder..nn.1']  0.29122024985	['aftan..e.1', 'aftan..e.1']  0.294994456966	['alder..av.2', 'alder..nn.1', 'alder..av.3', 'alder..nn.1', 'alder..e.2', 'alder..nn.1']  0.299598529911	['apter..ab.1']  0.305092786416 (öknen)
+['ofsen..av.1', 'ofsen..av.1']  1.34908595933	[u'ömkan..nn.1']  1.85991841553	['kanel..nn.1']  1.88483824604 (öknen)
+--X
 
 retta joannes döpte j öknen och predicade bätringenes döpelse till syndernes
-['eki..e.2', 'eki..nn.1']  0.277263394751	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  0.303219706854	[u'öka..e.1', u'öka..vb.1']  0.343654042383	['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.422582403997	['lak?..av.1']  1.32006104455 (och)
+['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.92394127079	[u'öka..e.1', u'öka..vb.1']  1.09415411779	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  1.24955082557	['eki..e.2', 'eki..nn.1']  1.38903279733 (och)
+--X
 
 joannes döpte j öknen och predicade bätringenes döpelse till syndernes förlåtilse
-['predikare..nn.1', 'predikare..nn.1']  0.239449044958 (predicade)
+['predikare..nn.1', 'predikare..nn.1']  0.711094372547 (predicade)
+--X
 
 döpte j öknen och predicade bätringenes döpelse till syndernes förlåtilse och
- (bätringenes)
+None  0 (bätringenes)
 
 j öknen och predicade bätringenes döpelse till syndernes förlåtilse och till
-[u'döpilse..nn.1', u'döpilse..nn.1', u'döpilse..e.1']  0.10279281815	[u'gömilse..nn.1']  0.244545083484	[u'rökilse..nn.1', u'rökilse..nn.1']  0.251121877165	['tapilse..nn.1', 'tapilse..nn.1']  0.253603712212	[u'möþerne..nn.1']  0.28066445804	['takilse..nn.1']  0.340895716379	[u'rökilsi..nn.1']  0.353914695315	['manilse..nn.1']  1.22429378157	[u'förenne..e.1']  1.23005026901	[u'tæpidhe..nn.1']  1.34820081327 (döpelse)
+[u'döpilse..nn.1', u'döpilse..nn.1', u'döpilse..e.1']  0.357747380939 (döpelse)
 
 öknen och predicade bätringenes döpelse till syndernes förlåtilse och till honom
-['til..e.1', 'til..e.1', 'til..e.1']  0.0655576093981	['siel..nn.1']  0.125333019772	['stil..nn.1']  0.130571784177	['tol..nn.1']  0.132830858303	['sil..nn.1']  0.135077787471	[u'tiþ..nn.1']  0.135351667709	['tal..nn.1', 'tal..nn.1', 'tal..nn.1']  0.137294748231	['vil..nn.1']  0.138093094348	['gull..nn.1']  0.138517521534	['tit..e.1']  0.145500149453 (till)
+['til..e.1', 'til..e.1', 'til..e.1']  0.519142901322	['dild..nn.1']  0.77413716552	['vild..nn.1', 'vild..nn.1']  0.86593605584	['sild..nn.1', 'sild..nn.1', 'sild..nn.1']  0.880757073266	['tidh..e.1', 'tidh..nn.1']  0.905322803763	['tin..e.2', 'tin..nn.1']  0.905531917784	['dil..nn.1']  0.911496748116	['time..nn.1', 'time..nn.1']  0.928167600118	['tik..nn.1']  0.933531303131	['tit..e.1']  0.968730123808 (till)
 
 och predicade bätringenes döpelse till syndernes förlåtilse och till honom vtgingo
-['sundersla..vb.1']  0.26267972268	[u'underlös..av.1']  0.298711307132	[u'söndersla..vb.1']  0.311780224406	['underdan..av.1']  0.37750296935	['sanninde..nn.1']  0.438752188613	['fosterson..nn.1']  0.457708734268	['alderman..nn.1', 'alderman..vb.1']  0.472488909229	['undirdan..nn.2', 'undirdan..av.1', 'undirdan..nn.2', 'undirdan..av.1']  0.4802957875	['undirdyna..nn.1']  0.49109247325	[u'sannandæ..nn.1']  0.544221739847 (syndernes)
+None  0 (syndernes)
 
 predicade bätringenes döpelse till syndernes förlåtilse och till honom vtgingo hela
-['forlatilse..nn.1']  0.229987010558	['vilfarilse..nn.1']  1.48622612202 (förlåtilse)
+None  0 (förlåtilse)
 
 bätringenes döpelse till syndernes förlåtilse och till honom vtgingo hela judhae
-['eki..e.2', 'eki..nn.1']  0.277263394751	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  0.303219706854	[u'öka..e.1', u'öka..vb.1']  0.343654042383	['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.422582403997	['lak?..av.1']  1.32006104455 (och)
+['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.92394127079	[u'öka..e.1', u'öka..vb.1']  1.09415411779	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  1.24955082557	['eki..e.2', 'eki..nn.1']  1.38903279733 (och)
+--X
 
 döpelse till syndernes förlåtilse och till honom vtgingo hela judhae landit
-['til..e.1', 'til..e.1', 'til..e.1']  0.0655576093981	['siel..nn.1']  0.125333019772	['stil..nn.1']  0.130571784177	['tol..nn.1']  0.132830858303	['sil..nn.1']  0.135077787471	[u'tiþ..nn.1']  0.135351667709	['tal..nn.1', 'tal..nn.1', 'tal..nn.1']  0.137294748231	['vil..nn.1']  0.138093094348	['gull..nn.1']  0.138517521534	['tit..e.1']  0.145500149453 (till)
+['til..e.1', 'til..e.1', 'til..e.1']  0.519142901322	['dild..nn.1']  0.77413716552	['vild..nn.1', 'vild..nn.1']  0.86593605584	['sild..nn.1', 'sild..nn.1', 'sild..nn.1']  0.880757073266	['tidh..e.1', 'tidh..nn.1']  0.905322803763	['tin..e.2', 'tin..nn.1']  0.905531917784	['dil..nn.1']  0.911496748116	['time..nn.1', 'time..nn.1']  0.928167600118	['tik..nn.1']  0.933531303131	['tit..e.1']  0.968730123808 (till)
 
 till syndernes förlåtilse och till honom vtgingo hela judhae landit och
-['genom..e.1', 'genom..e.1']  0.117904588055	['hoser..e.1']  0.183173194714	['afnam..nn.1', 'afnam..nn.1']  0.18368425559	[u'gönom..e.1']  0.18913345263	['hynir..nn.1']  0.209902594281	['fotol..nn.1']  0.252065177782	['hemol..e.3', 'hemol..nn.2', 'hemol..av.1', 'hemol..nn.3', 'hemol..nn.2', 'hemol..av.1', 'hemol..e.1']  0.262202265258	['loter..e.1']  0.263105893842	['foter..nn.1', 'foter..nn.1']  0.27051673794	['danir..nn.1']  0.291567693598 (honom)
+[u'gönom..e.1']  0.795645624311	['genom..e.1', 'genom..e.1']  1.11954110687	['fotol..nn.1']  1.30677880831	['hemol..e.3', 'hemol..nn.2', 'hemol..av.1', 'hemol..nn.3', 'hemol..nn.2', 'hemol..av.1', 'hemol..e.1']  1.31275416859	['heman..nn.1', 'heman..ab.2', 'heman..nn.2', 'heman..ab.1']  1.7452326223 (honom)
+--X
 
 syndernes förlåtilse och till honom vtgingo hela judhae landit och the
-['utganga..vb.1', 'utganga..vb.1']  0.215098816594	['utgiuta..vb.1', 'utgiuta..vb.1']  0.27336223062	[u'uthengæ..vb.1']  0.297988589694	['vitandi..e.1']  0.320739459873	['utvidha..vb.1']  0.383609611698	['uthenta..e.1']  0.39465025384	['arvinge..e.1']  1.21106379702	[u'urþinga..av.1', u'urþinga..av.1']  1.21181714962	['erfingi..e.1']  1.2172139902	['inganga..vb.1', 'inganga..vb.1', 'inganga..vb.1']  1.22445484655 (vtgingo)
+None  0 (vtgingo)
 
 förlåtilse och till honom vtgingo hela judhae landit och the vtaff
-['hela..vb.1', 'hela..vb.1', 'hela..vb.1']  0	['hula..vb.2', 'hula..vb.2', 'hula..nn.1', 'hula..nn.1']  0.0457346313766	['hel..av.1', 'hel..e.3', 'hel..nn.2', 'hel..av.1', 'hel..e.2', 'hel..nn.1']  0.0511683073976	['dela..vb.1', 'dela..nn.2', 'dela..vb.1']  0.0717345671292	['heli..e.1']  0.0717371388329	['fela..vb.2', 'fela..vb.2', 'fela..vb.1', 'fela..vb.1']  0.0721251267398	['heta..vb.1', 'heta..vb.3', 'heta..vb.1', 'heta..vb.2', 'heta..e.1']  0.0799425400544	['holt..e.1', 'holt..e.1']  0.0914375906396	['hult..nn.1', 'hult..nn.1', 'hult..e.1']  0.0918753060242	['hol..e.1']  0.0964652233896 (hela)
+['hela..vb.1', 'hela..vb.1', 'hela..vb.1']  0	['hela..vb.1', 'hela..vb.1', 'hela..vb.1']  0	['hema..ab.3', 'hema..vb.1', 'hema..ab.3', 'hema..vb.1', 'hema..vb.2', 'hema..ab.1']  0.355888470047	['heta..vb.1', 'heta..vb.3', 'heta..vb.1', 'heta..vb.2', 'heta..e.1']  0.449587222486	['fela..vb.2', 'fela..vb.2', 'fela..vb.1', 'fela..vb.1']  0.486143579619	['heli..e.1']  0.488033421727	['dela..vb.1', 'dela..nn.2', 'dela..vb.1']  0.488045972662	['hula..vb.2', 'hula..vb.2', 'hula..nn.1', 'hula..nn.1']  0.63296109896	[u'hæta..e.2', u'hæta..e.1']  0.75920135386	['hana..e.1']  0.788834675635 (hela)
+--X
 
 och till honom vtgingo hela judhae landit och the vtaff hierusalem
-['teilse..nn.1']  1.21557475848	['leidhe..nn.1', 'leidhe..nn.1']  1.21558485561	['deghil..nn.1']  1.23081657628	['tighil..nn.1']  1.24771138057	['anlite..nn.1', 'anlite..nn.1']  1.25009783627	['lydhia..nn.1']  1.2524892345	['leghia..vb.1', 'leghia..vb.1', 'leghia..vb.1']  1.26602325453	['deghia..nn.1', 'deghia..nn.1', 'deghia..nn.1']  1.26602325453	['vighia..vb.1', 'vighia..vb.1']  1.28291805882	[u'töghia..vb.1']  1.29949160545 (judhae)
+None  0 (judhae)
 
 till honom vtgingo hela judhae landit och the vtaff hierusalem och
-['rundit..vb.1']  0.135849000558	['handat..e.1']  0.136451421475	['landar..e.1']  0.140192610696	['undir..e.1', 'undir..e.1', 'undir..pp.1']  0.196035733983	[u'þyngia..e.1', u'þyngia..vb.1']  0.219831444494	['liudha..e.1', 'liudha..e.2', 'liudha..e.1']  0.225544769123	[u'lönder..av.1']  0.228500066479	['langer..av.1', 'langer..av.1', 'langer..av.1']  0.228780254386	['lunder..nn.1', 'lunder..nn.1', 'lunder..nn.1']  0.233270942735	['lydhia..nn.1']  0.23456884165 (landit)
+['handat..e.1']  1.01157290676	['rundit..vb.1']  1.01576574629	['tander..nn.1']  1.31164934497	['vandel..nn.1']  1.80733460342	['tinfat..nn.1', 'tinfat..nn.1']  1.90491330178	['lustin..e.1']  1.93606254387 (landit)
+--X
 
 honom vtgingo hela judhae landit och the vtaff hierusalem och döptes
-['eki..e.2', 'eki..nn.1']  0.277263394751	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  0.303219706854	[u'öka..e.1', u'öka..vb.1']  0.343654042383	['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.422582403997	['lak?..av.1']  1.32006104455 (och)
+['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.92394127079	[u'öka..e.1', u'öka..vb.1']  1.09415411779	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  1.24955082557	['eki..e.2', 'eki..nn.1']  1.38903279733 (och)
+--X
 
 vtgingo hela judhae landit och the vtaff hierusalem och döptes alle
-['tho..ab.1', 'tho..e.1']  0.045296915992	[u'thö..nn.1', u'thö..nn.1']  0.0488734964045	['tio..e.1', 'tio..e.1']  0.0988514046408	['tiu..e.1']  0.0992891200254	['tal..nn.1', 'tal..nn.1', 'tal..nn.1']  0.104529113405	['til..e.1', 'til..e.1', 'til..e.1']  0.109367330348	['ghy..e.1']  0.126535984169	['lie..nn.1', 'lie..nn.1']  0.133497028703	['siu..e.1', 'siu..e.1', 'siu..e.1']  0.168809298098	[u'siö..e.1']  0.171948163126 (the)
+[u'thö..nn.1', u'thö..nn.1']  0.613401879005	['tho..ab.1', 'tho..e.1']  0.635737739527	['lie..nn.1', 'lie..nn.1']  1.03493747628	['ghy..e.1']  1.07080376547	['til..e.1', 'til..e.1', 'til..e.1']  1.15762938386	['tal..nn.1', 'tal..nn.1', 'tal..nn.1']  1.18664618689	['tiu..e.1']  1.21831135275	['tio..e.1', 'tio..e.1']  1.22108799332	[u'þre..e.1']  1.3237753049	['kli..e.1']  1.36464164098 (the)
+--X
 
 hela judhae landit och the vtaff hierusalem och döptes alle aff
-['visso..av.1']  0.231380269053	['vridh..nn.1']  0.285869100015	['tragh..e.1']  0.29460135298	['grabo..nn.1']  0.310976531331	['gradh..nn.1']  0.311443370346	['tiugh..nn.1', 'tiugh..nn.1', 'tiugh..nn.1']  0.336477555735	['trygd..nn.1']  0.342392335983	['trugh..e.2', 'trugh..nn.1']  0.356624005702	['trogh..e.1', 'trogh..nn.1']  0.370692798019	['ulogh..nn.1']  0.376914613983 (vtaff)
+None  0 (vtaff)
 
 judhae landit och the vtaff hierusalem och döptes alle aff honom
-[u'hælsinsker..e.1']  1.47732426797 (hierusalem)
+None  0 (hierusalem)
 
 landit och the vtaff hierusalem och döptes alle aff honom j
-['eki..e.2', 'eki..nn.1']  0.277263394751	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  0.303219706854	[u'öka..e.1', u'öka..vb.1']  0.343654042383	['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.422582403997	['lak?..av.1']  1.32006104455 (och)
+['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.92394127079	[u'öka..e.1', u'öka..vb.1']  1.09415411779	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  1.24955082557	['eki..e.2', 'eki..nn.1']  1.38903279733 (och)
+--X
 
 och the vtaff hierusalem och döptes alle aff honom j jordans
-['dipil..nn.1']  0.243760074083	['dople..e.1']  0.2614824954	['lopte..nn.1']  0.277830161324	[u'hækte..nn.1']  0.279599417627	[u'hæpta..e.1']  0.283326933409	['gipta..nn.1', 'gipta..e.2', 'gipta..nn.1']  0.28818969481	[u'snöpta..vb.1']  0.291376722218	['hapti..e.1']  0.296793336523	['maktas..vb.1']  0.299812487542	[u'röktan..nn.1']  0.300756425162 (döptes)
+None  0 (döptes)
 
 the vtaff hierusalem och döptes alle aff honom j jordans floodh
-['alla..e.1']  0.0910195199504	['sele..e.1', 'sele..nn.1']  0.11153930077	['ylla..e.1']  0.137384267113	['ylde..e.1']  0.14265495314	['hell..e.2', 'hell..e.1']  0.160341955104	['illa..ab.1', 'illa..ab.1', 'illa..vb.2', 'illa..ab.1']  0.162756658783	['arla..ab.1', 'arla..ab.1', 'arla..ab.1']  0.164845867787	['ella..e.1', 'ella..e.1']  0.182039039901	['klo..nn.1', 'klo..nn.1']  0.184560381024	['alda..nn.1']  0.187309725928 (alle)
+['alla..e.1']  0.402445659173	[u'ælli..nn.1']  0.636182066638	[u'ælla..e.1']  0.680880344872	['elli..nn.1']  0.760193040112	['ande..nn.1', 'ande..nn.1']  0.768172335188	['alda..nn.1']  0.784228977899	['ella..e.1', 'ella..e.1']  0.804891318346	['arla..ab.1', 'arla..ab.1', 'arla..ab.1']  0.880388813118	['illa..ab.1', 'illa..ab.1', 'illa..vb.2', 'illa..ab.1']  0.8904790809	['ylde..e.1']  1.01076856926 (alle)
+--X
 
 vtaff hierusalem och döptes alle aff honom j jordans floodh wedherkennandes
-['uff..e.1']  0.0620226527214	['hof..nn.1', 'hof..nn.2', 'hof..nn.1', 'hof..nn.3', 'hof..nn.2', 'hof..nn.1']  0.107592810551	['adh..e.1']  0.145676489319	['agh..nn.1']  0.153610396167	[u'þo..ab.1', u'þo..e.1']  0.175916822027	['hos..e.1', 'hos..e.1', 'hos..e.1']  0.176061059792	['tho..ab.1', 'tho..e.1']  0.177142340233	['os..nn.1', 'os..nn.2', 'os..nn.1', 'os..e.2', 'os..nn.1']  0.178513095484	['so..e.2', 'so..nn.1', 'so..e.2', 'so..nn.1', 'so..ab.2', 'so..nn.1']  0.178513095484	['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.180141744111 (aff)
+['uff..e.1']  0.537822592341	['agh..nn.1']  0.928848115091	['adh..e.1']  0.965402815461	['hof..nn.1', 'hof..nn.2', 'hof..nn.1', 'hof..nn.3', 'hof..nn.2', 'hof..nn.1']  1.16937914306	['svo..ab.1']  1.33821827463	['oft..ab.1']  1.46723896474	['usk..e.1']  1.53817725608	['haf..nn.1', 'haf..nn.1']  1.61436705681	['opa..vb.1']  1.61449613545	['spa..e.1', 'spa..e.2', 'spa..vb.1']  1.72003086412 (aff)
+--X
 
 hierusalem och döptes alle aff honom j jordans floodh wedherkennandes theres
-['genom..e.1', 'genom..e.1']  0.117904588055	['hoser..e.1']  0.183173194714	['afnam..nn.1', 'afnam..nn.1']  0.18368425559	[u'gönom..e.1']  0.18913345263	['hynir..nn.1']  0.209902594281	['fotol..nn.1']  0.252065177782	['hemol..e.3', 'hemol..nn.2', 'hemol..av.1', 'hemol..nn.3', 'hemol..nn.2', 'hemol..av.1', 'hemol..e.1']  0.262202265258	['loter..e.1']  0.263105893842	['foter..nn.1', 'foter..nn.1']  0.27051673794	['danir..nn.1']  0.291567693598 (honom)
+[u'gönom..e.1']  0.795645624311	['genom..e.1', 'genom..e.1']  1.11954110687	['fotol..nn.1']  1.30677880831	['hemol..e.3', 'hemol..nn.2', 'hemol..av.1', 'hemol..nn.3', 'hemol..nn.2', 'hemol..av.1', 'hemol..e.1']  1.31275416859	['heman..nn.1', 'heman..ab.2', 'heman..nn.2', 'heman..ab.1']  1.7452326223 (honom)
+--X
 
 och döptes alle aff honom j jordans floodh wedherkennandes theres synder
-['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0.12486242683 (j)
+['i..e.1', 'i..e.3', 'i..e.2', 'i..e.1', 'i..pp.2', 'i..e.1']  0.286899221842 (j)
 
 döptes alle aff honom j jordans floodh wedherkennandes theres synder och
-['jemdyrt..ab.1']  0.321573016853	['jernsla..vb.1']  0.322169747079	['jamgen..e.1']  0.366125536666	['jamnarf..e.1']  0.375279722616	[u'jamföri..nn.1']  0.423441134987	[u'jættir..vb.1']  0.438006512931	[u'jamnær..ab.1']  0.499682825039	['sielfat..nn.1']  0.524191665476	['siulter..nn.1']  0.792672647051	['*orhani..nn.1']  1.12788994241 (jordans)
+None  0 (jordans)
 
 alle aff honom j jordans floodh wedherkennandes theres synder och joannes
-['klofna..e.1']  0.248018561129	['sliona..vb.1', 'sliona..vb.1']  0.254786622562	['flairi..e.1']  0.257956237441	['klyfia..vb.2']  0.293250006663	['oliudh..nn.1', 'oliudh..nn.1']  0.321603929932	['droyma..vb.1']  0.32650408193	['glafsa..vb.1']  0.332019911834	['bliald..nn.1', 'bliald..nn.1']  0.397722578509	['fliuta..e.1']  0.405002780387	['skaffa..vb.1']  0.413799025044 (floodh)
+None  0 (floodh)
 
 aff honom j jordans floodh wedherkennandes theres synder och joannes war
- (wedherkennandes)
+None  0 (wedherkennandes)
 
 honom j jordans floodh wedherkennandes theres synder och joannes war klädder
-['thura..vb.1']  0.201768326105	[u'thöra..e.1']  0.204907191133	['niure..nn.1']  0.240929557486	[u'ahöra..vb.1']  0.251047865781	['valrof..nn.1']  0.290829763587	['valruf..nn.1']  0.291267478972	['thova..vb.1']  0.291681320096	['kalrot..nn.1']  0.292046644583	['thuva..nn.1']  0.292119035481	['klaret..e.1', 'klaret..nn.1']  0.297954417779 (theres)
+None  0 (theres)
 
 j jordans floodh wedherkennandes theres synder och joannes war klädder medh
-['synder..e.1', 'synder..e.1']  0	['sander..av.2', 'sander..av.3', 'sander..av.1']  0.0463647471627	[u'sænder..ab.1']  0.0540574055156	['fynder..nn.1']  0.0684682492407	['sunder..ab.2', 'sunder..av.1', 'sunder..ab.2', 'sunder..av.1', 'sunder..ab.2', 'sunder..vb.1']  0.0897325757142	['sylder..nn.1']  0.0950910602353	['sanger..nn.1', 'sanger..nn.1', 'sanger..nn.1']  0.103896711535	['tander..nn.1']  0.115884925235	['onder..av.1', 'onder..av.1', 'onder..av.1']  0.131175087629	[u'sönder..e.1', u'sönder..e.1', u'sönder..e.1']  0.13883307744 (synder)
+['synder..e.1', 'synder..e.1']  0	['synder..e.1', 'synder..e.1']  0	[u'sönder..e.1', u'sönder..e.1', u'sönder..e.1']  0.2494914147	['sylder..nn.1']  0.386389016462	['sunder..ab.2', 'sunder..av.1', 'sunder..ab.2', 'sunder..av.1', 'sunder..ab.2', 'sunder..vb.1']  0.407658380853	['fynder..nn.1']  0.504250307462	[u'sænder..ab.1']  0.582413818736	['sander..av.2', 'sander..av.3', 'sander..av.1']  0.628985250535	['silder..nn.1']  0.678913768318	['sylter..nn.1']  0.778742863256 (synder)
+--X
 
 jordans floodh wedherkennandes theres synder och joannes war klädder medh camele
-['eki..e.2', 'eki..nn.1']  0.277263394751	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  0.303219706854	[u'öka..e.1', u'öka..vb.1']  0.343654042383	['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.422582403997	['lak?..av.1']  1.32006104455 (och)
+['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.92394127079	[u'öka..e.1', u'öka..vb.1']  1.09415411779	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  1.24955082557	['eki..e.2', 'eki..nn.1']  1.38903279733 (och)
+--X
 
 floodh wedherkennandes theres synder och joannes war klädder medh camele håår
-['fiande..nn.1']  1.20261627639	['tionde..e.2', 'tionde..nn.1', 'tionde..e.2', 'tionde..nn.1']  1.27870772143	['nionde..e.1', 'nionde..e.1']  1.27870772143	['a_finna..vb.1', 'a_finna..vb.1']  1.33781567981	[u'hiærne..nn.1']  1.34406734367	['niauta..e.1']  1.35404567331	['tionda..vb.1', 'tionda..vb.1']  1.36972724138	['mistroa..vb.1', 'mistroa..vb.1', 'mistroa..vb.1']  1.38457208882	['utiunda..e.1']  1.40311815661	['ofallin..av.1']  1.41325932366 (joannes)
+None  0 (joannes)
 
 wedherkennandes theres synder och joannes war klädder medh camele håår och
- (war)
+None  0 (war)
 
 theres synder och joannes war klädder medh camele håår och medh
-[u'klädhe..nn.1']  0.121710978505	[u'klädha..vb.1']  0.212730498455	[u'fläster..e.1']  0.23050640228	[u'frände..nn.1', u'frände..nn.1']  0.26422850979	[u'klämma..nn.1', u'klämma..vb.2']  0.269494305242	[u'frägher..av.1']  0.273189777205	[u'plätter..nn.1', u'plätter..e.1']  0.27441023936	[u'klämta..vb.1']  0.29880423588	[u'präster..nn.1', u'präster..nn.1']  0.321527856417	[u'thätter..av.1', u'thätter..av.1']  0.324532954948 (klädder)
+[u'klädhe..nn.1']  1.09471972149	[u'fiälder..nn.1']  1.877887675 (klädder)
+--X
 
 synder och joannes war klädder medh camele håår och medh en
-['medh..e.1']  0	['modh..nn.1', 'modh..nn.1']  0.045296915992	['redh..nn.1']  0.0764684325255	['ledh..nn.1']  0.10331378836	[u'mögh..nn.1']  0.106405460777	['mera..ab.2', 'mera..av.1']  0.109753326553	['mena..vb.2', 'mena..vb.2', 'mena..vb.1', 'mena..vb.1']  0.119045124416	['lodh..nn.1', 'lodh..nn.1']  0.148610704352	['dadh..nn.1']  0.155268706908	['mura..vb.1', 'mura..vb.1', 'mura..vb.1']  0.15548795793 (medh)
+['medh..e.1']  0	['medh..e.1']  0	['ledh..nn.1']  0.355888470047	['redh..nn.1']  0.465480848332	['modh..nn.1', 'modh..nn.1']  0.635737739527	['nidh..nn.1', 'nidh..nn.1']  0.678875339957	['lidh..nn.4', 'lidh..nn.2', 'lidh..nn.2', 'lidh..nn.1', 'lidh..e.1']  0.713635850986	['nadh..nn.1']  0.723573618191	['leth..e.1']  0.748242316841	['kidh..nn.1']  0.8152201373 (medh)
 
 och joannes war klädder medh camele håår och medh en lädergiording
-['kamare..nn.1', 'kamare..nn.1']  0.343257857897	['karena..nn.1', 'karena..nn.1']  0.440991002822	[u'köpöre..nn.1']  0.442583911778	['kolare..e.1']  0.522663091296	['karina..nn.1']  0.543783820971	[u'köpari..nn.1']  0.587522753474	['kerldi..nn.1']  0.600795808413	['takare..nn.1']  1.24304966228	['lakare..e.1']  1.24304966228	['lekare..nn.1', 'lekare..nn.1']  1.33406918223 (camele)
+None  0 (camele)
 
 joannes war klädder medh camele håår och medh en lädergiording om
- (håår)
+None  0 (håår)
 
 war klädder medh camele håår och medh en lädergiording om hans
-['eki..e.2', 'eki..nn.1']  0.277263394751	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  0.303219706854	[u'öka..e.1', u'öka..vb.1']  0.343654042383	['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.422582403997	['lak?..av.1']  1.32006104455 (och)
+['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.92394127079	[u'öka..e.1', u'öka..vb.1']  1.09415411779	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  1.24955082557	['eki..e.2', 'eki..nn.1']  1.38903279733 (och)
+--X
 
 klädder medh camele håår och medh en lädergiording om hans länder
-['medh..e.1']  0	['modh..nn.1', 'modh..nn.1']  0.045296915992	['redh..nn.1']  0.0764684325255	['ledh..nn.1']  0.10331378836	[u'mögh..nn.1']  0.106405460777	['mera..ab.2', 'mera..av.1']  0.109753326553	['mena..vb.2', 'mena..vb.2', 'mena..vb.1', 'mena..vb.1']  0.119045124416	['lodh..nn.1', 'lodh..nn.1']  0.148610704352	['dadh..nn.1']  0.155268706908	['mura..vb.1', 'mura..vb.1', 'mura..vb.1']  0.15548795793 (medh)
+['medh..e.1']  0	['medh..e.1']  0	['ledh..nn.1']  0.355888470047	['redh..nn.1']  0.465480848332	['modh..nn.1', 'modh..nn.1']  0.635737739527	['nidh..nn.1', 'nidh..nn.1']  0.678875339957	['lidh..nn.4', 'lidh..nn.2', 'lidh..nn.2', 'lidh..nn.1', 'lidh..e.1']  0.713635850986	['nadh..nn.1']  0.723573618191	['leth..e.1']  0.748242316841	['kidh..nn.1']  0.8152201373 (medh)
 
 medh camele håår och medh en lädergiording om hans länder och
-['en..e.1', 'en..e.2', 'en..nn.1', 'en..ab.2', 'en..e.1']  0	['et..e.1']  0.0766262626823	['er..nn.1', 'er..e.2', 'er..nn.1']  0.0839227431006	['an..nn.1', 'an..e.2', 'an..nn.1']  0.0910195199504	['in..ab.2', 'in..e.2', 'in..ab.1']  0.10279281815	['os..nn.1', 'os..nn.2', 'os..nn.1', 'os..e.2', 'os..nn.1']  0.106704762188	['us..e.1']  0.107142477573	[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0.117242849434	['ut..ab.1', 'ut..ab.1']  0.122360894059	['or..e.1', 'or..e.2', 'or..e.1']  0.129219659093 (en)
+['en..e.1', 'en..e.2', 'en..nn.1', 'en..ab.2', 'en..e.1']  0	['en..e.1', 'en..e.2', 'en..nn.1', 'en..ab.2', 'en..e.1']  0	[u'æn..e.5', u'æn..e.4', u'æn..e.3', u'æn..e.2', u'æn..ab.1']  0.309614131374	['in..ab.2', 'in..e.2', 'in..ab.1']  0.357747380939	['an..nn.1', 'an..e.2', 'an..nn.1']  0.402445659173	['er..nn.1', 'er..e.2', 'er..nn.1']  0.432044178463	['et..e.1']  0.464746758639	[u'æm..e.2', u'æm..e.1']  0.630742090392	['am..nn.1']  0.723573618191	[u'iþ..nn.1']  0.725487351587 (en)
 
 camele håår och medh en lädergiording om hans länder och ååt
- (lädergiording)
+None  0 (lädergiording)
 
 håår och medh en lädergiording om hans länder och ååt gräßhoppor
-['om..e.2', 'om..nn.1', 'om..e.1']  0	[u'æm..e.2', u'æm..e.1']  0.0553178667592	['ym..e.1']  0.0661609128505	['am..nn.1']  0.0760914450387	['or..e.1', 'or..e.2', 'or..e.1']  0.0764684325255	['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.0782037944977	['op..e.1', 'op..e.2', 'op..nn.1', 'op..ab.2', 'op..nn.1']  0.0842203009615	['ol..e.1', 'ol..nn.2', 'ol..nn.1']  0.10331378836	['er..nn.1', 'er..e.2', 'er..nn.1']  0.121765348518	['ek..nn.1', 'ek..nn.1', 'ek..nn.1']  0.12350071049 (om)
+['om..e.2', 'om..nn.1', 'om..e.1']  0	['om..e.2', 'om..nn.1', 'om..e.1']  0	['um..e.2', 'um..e.1', 'um..e.2', 'um..e.1', 'um..kn.2', 'um..pp.1']  0.141629409963	['ol..e.1', 'ol..nn.2', 'ol..nn.1']  0.355888470047	['op..e.1', 'op..e.2', 'op..nn.1', 'op..ab.2', 'op..nn.1']  0.430760507826	['ok..ab.2', 'ok..e.2', 'ok..e.2', 'ok..nn.1']  0.457472756361	['or..e.1', 'or..e.2', 'or..e.1']  0.465480848332	['am..nn.1']  0.467238964741	['ul..nn.1', 'ul..nn.1']  0.49751788001	['ym..e.1']  0.516020323058 (om)
 
 och medh en lädergiording om hans länder och ååt gräßhoppor och
-['hans..e.2', 'hans..e.1']  0	['hana..e.1']  0.0557264590703	['hani..nn.1', 'hani..nn.1']  0.0561553752776	[u'höns..nn.1']  0.0572517764657	['han..e.1', 'han..e.1', 'han..e.1']  0.0650141747785	['hand..nn.1', 'hand..nn.1', 'hand..e.2', 'hand..nn.1']  0.0668503868172	['hals..nn.1', 'hals..nn.1']  0.0950910602353	[u'höna..nn.1', u'höna..nn.1']  0.112978235536	['hasa..vb.1', 'hasa..vb.1']  0.117134305266	['lana..vb.1', 'lana..vb.1', 'lana..nn.2', 'lana..vb.1']  0.120440741712 (hans)
+['hans..e.2', 'hans..e.1']  0	['hans..e.2', 'hans..e.1']  0	['hals..nn.1', 'hals..nn.1']  0.386389016462	['hand..nn.1', 'hand..nn.1', 'hand..e.2', 'hand..nn.1']  0.512474734269	['han..e.1', 'han..e.1', 'han..e.1']  0.521971783173	[u'höns..nn.1']  0.564103369706	['hani..nn.1', 'hani..nn.1']  0.570322235315	['hana..e.1']  0.572773693408	['ganz..ab.1']  0.785292103231	['danz..nn.1']  0.789534708547 (hans)
 
 medh en lädergiording om hans länder och ååt gräßhoppor och villhonnugh
-[u'länge..ab.1', u'länge..ab.1']  0.107508375749	[u'ände..nn.2', u'ände..nn.1']  0.115534020774	[u'änger..nn.3', u'änger..nn.2']  0.123089573771	[u'lända..vb.1']  0.140995931326	[u'lädher..nn.1', u'lädher..nn.1']  0.14206341984	[u'rädder..av.1', u'rädder..av.1']  0.144155200547	[u'läster..e.1']  0.154966963792	[u'hälder..ab.1', u'hälder..ab.1']  0.159805342877	[u'lätter..av.1']  0.170185380278	[u'änge..e.5', u'änge..nn.4', u'änge..nn.1']  0.173065985147 (länder)
+[u'lätter..av.1']  0.857100605433	[u'hälder..ab.1', u'hälder..ab.1']  0.909928501499	[u'läster..e.1']  0.933493192889	[u'rädder..av.1', u'rädder..av.1']  0.972898105702	[u'lädher..nn.1', u'lädher..nn.1']  0.983000924419	[u'sänder..ab.1', u'sänder..ab.1']  1	[u'änger..nn.3', u'änger..nn.2']  1.08166793379	[u'ände..nn.2', u'ände..nn.1']  1.12581665015	[u'länge..ab.1', u'länge..ab.1']  1.16919878129	[u'näster..av.1', u'näster..av.1']  1.31988220935 (länder)
+--X
 
 en lädergiording om hans länder och ååt gräßhoppor och villhonnugh och
-['eki..e.2', 'eki..nn.1']  0.277263394751	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  0.303219706854	[u'öka..e.1', u'öka..vb.1']  0.343654042383	['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.422582403997	['lak?..av.1']  1.32006104455 (och)
+['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.92394127079	[u'öka..e.1', u'öka..vb.1']  1.09415411779	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  1.24955082557	['eki..e.2', 'eki..nn.1']  1.38903279733 (och)
+--X
 
 lädergiording om hans länder och ååt gräßhoppor och villhonnugh och predicadhe
- (ååt)
+None  0 (ååt)
 
 om hans länder och ååt gräßhoppor och villhonnugh och predicadhe och
- (gräßhoppor)
+None  0 (gräßhoppor)
 
 hans länder och ååt gräßhoppor och villhonnugh och predicadhe och sagde
-['eki..e.2', 'eki..nn.1']  0.277263394751	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  0.303219706854	[u'öka..e.1', u'öka..vb.1']  0.343654042383	['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.422582403997	['lak?..av.1']  1.32006104455 (och)
+['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.92394127079	[u'öka..e.1', u'öka..vb.1']  1.09415411779	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  1.24955082557	['eki..e.2', 'eki..nn.1']  1.38903279733 (och)
+--X
 
 länder och ååt gräßhoppor och villhonnugh och predicadhe och sagde
- (villhonnugh)
+None  0 (villhonnugh)
 
 och ååt gräßhoppor och villhonnugh och predicadhe och sagde
-['eki..e.2', 'eki..nn.1']  0.277263394751	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  0.303219706854	[u'öka..e.1', u'öka..vb.1']  0.343654042383	['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.422582403997	['lak?..av.1']  1.32006104455 (och)
+['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.92394127079	[u'öka..e.1', u'öka..vb.1']  1.09415411779	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  1.24955082557	['eki..e.2', 'eki..nn.1']  1.38903279733 (och)
+--X
 
 ååt gräßhoppor och villhonnugh och predicadhe och sagde
-['predikstol..nn.1']  1.38351040848 (predicadhe)
+None  0 (predicadhe)
 
 gräßhoppor och villhonnugh och predicadhe och sagde
-['eki..e.2', 'eki..nn.1']  0.277263394751	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  0.303219706854	[u'öka..e.1', u'öka..vb.1']  0.343654042383	['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.422582403997	['lak?..av.1']  1.32006104455 (och)
+['uka..e.1', 'uka..e.1', 'uka..nn.1']  0.92394127079	[u'öka..e.1', u'öka..vb.1']  1.09415411779	['aka..vb.1', 'aka..nn.2', 'aka..vb.1']  1.24955082557	['eki..e.2', 'eki..nn.1']  1.38903279733 (och)
+--X
 
 och villhonnugh och predicadhe och sagde
-['sagha..nn.2', 'sagha..vb.1', 'sagha..nn.1']  0.16275408708	['tygge..vb.1']  0.173416889608	['dugge..nn.1']  0.186405003911	['naghl..nn.1', 'naghl..nn.1', 'naghl..nn.1']  0.188955255025	[u'nöghe..nn.1', u'nöghe..nn.1', u'nöghe..nn.1']  0.190394189791	['taghl..nn.1']  0.197067586901	[u'sötme..nn.1']  0.197389049289	['odde..e.1']  0.19863758419	['sighl..e.1', 'sighl..e.1']  0.199284547662	['dogse..e.1']  0.209792218673 (sagde)
+['sagha..nn.2', 'sagha..vb.1', 'sagha..nn.1']  0.890491631835	['sigla..vb.1']  1.27226239963	['sigha..vb.1', 'sigha..vb.1']  1.37852505356	['signa..vb.1']  1.38543403266	['segia..e.1']  1.41507585166	['sugha..vb.1', 'sugha..vb.1']  1.42831422418	[u'sögha..vb.1', u'sögha..vb.1']  1.45459500154	['seghl..e.1']  1.46277076191	['dogse..e.1']  1.49218843328	['dande..e.1', 'dande..e.1']  1.51247473427 (sagde)
+--5

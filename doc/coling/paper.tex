@@ -1,16 +1,16 @@
 \documentclass[10pt,a5paper,twoside]{article}
 \usepackage{coling2012}
 \title{Article Title: document template for COLING-2012}
-%\author{$Malin~AHLBERG~~~Gerlof~BOUMA$\\
-\author{$Anonymous$\\
+\author{$Malin~AHLBERG~~~Gerlof~BOUMA$\\
+%\author{$Anonymous$\\
 {\small  
-  %Språkbanken \\
-  %Department of Swedish \\
-  %University of Gothenburg \\
-  INSTITUTE\_1, address 1\\
-  INSTITUTE\_1, address 1\\
-  \texttt{email@domain} \\ 
-  %\texttt{malin.ahlberg@svenska.gu.se, gerlof.bouma@svenska.gu.se} \\ 
+  Språkbanken \\
+  Department of Swedish \\
+  University of Gothenburg \\
+  %INSTITUTE\_1, address 1\\
+  %INSTITUTE\_1, address 1\\
+  %\texttt{email@domain} \\ 
+  \texttt{malin.ahlberg@svenska.gu.se, gerlof.bouma@svenska.gu.se} \\ 
 }}
 
 \begin{document}
@@ -21,7 +21,7 @@ Place for the abstract in English (maximum 150 words). \\
 }
 
 %for authors: the line below is for instruction purposes and can be commented
-%\textbf{AT SUBMISSION TIME, PLEASE ANONYMISE everywhere, REPLACING NAMES BY DUMMIES LIKE John DOE\_1, Jack DOE\_2.}
+\textbf{AT SUBMISSION TIME, PLEASE ANONYMISE everywhere, REPLACING NAMES BY DUMMIES LIKE John DOE\_1, Jack DOE\_2.}
 
 %for authors: the abstract section below is optional and can be commented otherwise
 
@@ -37,15 +37,35 @@ Place for the abstract in English (maximum 150 words). \\
 
 \section{Introduction}
 text text\\
+Språkbanken \\
 referenser i massor\\
-\section{Background}
-om problemet, blabla
+develop algorithm for spelling variation \\
+fina ord, anagram, specialized Dijkstra, \\
+Old Swedish
 
-\subsection{Algorithm-section}
-\subsubsection{Regler, anagram, levenshtein}
-regel från lexikon \\
+
+\section{Background}
+Texter \\
+Lexikon \\
+Not normalize \\
+om problemet, blabla \\ 
+first evaluation of coverage and correctness before,
+now focus on improving the algorithm.
+
+
+\section{Algorithm-section}
+\subsection{Regler, anagram, Levenshtein}
+To estimate calculate decide determine the distance between the source word
+and a variation, we use a modified version of Levenshtein distance algorithm....
+We only consider substitutions, not only 1-1 but also allow m-n.
+Two words are considered to be variations of each other if the Levenshtein distance
+is below 2 (or $k$, tex).
+The cost of a substitution is derived set .. from a set of rules derived from Schlyter.
+Levenshtein distance alignment.
+
 ref till andra pappret\\
-Levenshtein-variant\\
+
+Levenshtein-variant, not the same cost for all operations\\
 upp till tri-gram, n-m-gram, may include word boundary.
 anagram\\
 Copy-paste, utveckla lite:\\
@@ -65,19 +85,19 @@ is optimistic as to what the actual number of required edits between
 source and target is.
 Pseudoalgoritm om hur det går till?
 
-\subsubsection{Graph}
+\subsection{Graph}
 \textit{Why?}
 A large set of rules, a very large set of combinations. Need to restrict, filter
-out the best. Previously generated a number of anagrams, based on the number of
+out the best. Previously generated a number of anagrams, order based on the number of
 operations carried out. Now implemented best-first search, as two operations may
 be cheaper than one single expensive, but may be filtered out.
 
 \textit{Overlook}
 The problem is represented as a directed acyclic graph $G = (V,E)$, where each
-node $n \in V$ represents a hash value $n_h$, that is, a (possibly empty) set of variants
-of the source word $w$.
+node $n \in V$ represents a hash value $n_h$, that is, a (possibly empty) set
+of variants of the source word $w$.
 The source node represents the hash value of the original word, where no
-operations have been carried out.
+operations have been performed.
 An edge $nm \in E$ describes the edit operation manipulating $n_h$ to $m_h$
 and is weighted by the cost of that operation.
 The set of edit operations needed to transform $w$ into $n_h$ is consequently %($n_{operations}$) 
@@ -86,10 +106,10 @@ graph so that there is exactly one such path.
 
 The described graph is also a rooted tree with the start node as root.
 The nodes at depth $i$ represents a set of hash values achieved by applying $i$
-operations performed on $w$.
+operations on $w$.
 %a path leading to a specific node corresponds to a serie of operations manipulating the source word. 
 As we will prohibit paths %with an operation modifying letters already used
-applying more than one operation to the same letter, the order in which we
+applying more than one operation on the same letter, the order in which we
 carry out the operations will not effect the result.
 %, and we can let each node have exactly one edge leading to it. 
 %for convenience, we index the nodes by the edge pointing at it.
@@ -108,7 +128,7 @@ cost as well as the letters that are effected.
 The list is sorted by costs. %and each rule corresponds to an edge.
 For each node $n$ we inspect the operation $o$ described by the edge $vn \in E$
 (remember that there is exactly one such edge) and add one edge from $n$ for
-each rule in the list starting from $o$+1.
+each rule in the list starting from $o$+1 (index...).
 %children be all nodes reached by following the edges in $R[j]_{i<j}$.
 %the edge leading to it %(its most expensive operation) 
 %$i(n) = mn \in E$, then $nm \in E$ if $i(n)<i(m)$, 
@@ -126,15 +146,19 @@ graph), and it is not feasible to even calculate it all at once, especially as w
 normally only traverse it at a comparatively shallow depth before having found $k$
 number of variants.
 %We restrict the evaluated part of the graph, 
-Starting from the source node only and the rule list we iteratively evaluate
-the graph as we step through it. For each visited node, we do not (as normally
-in Dijkstra) push all its children to the priority queue. We know
-that the only two new (värda) options after having marked this node as visited, is either to
-continue to its cheapest child, or to instead visit the cheapest child of its parent, ie.
-this node's sibling. Hence, at each step, we only push the
-cheapest child and cheapest sibling of the present node to the priority queue.
-Also, a node is only added to the priority queue if the weight of the path
-leading to it is below 2 (the highest edit distance allowed).
+Starting from the source node and the rule list we iteratively evaluate
+the graph as we step through it. All nodes share the same neighbor list, but keep an
+reference to the indices they ska börja leta efter their children and siblings.
+For each visited node, we do not (as normally in Dijkstra) push all its
+children to the priority queue. We know that the only two new possible options
+after having marked this node as visited, is either to continue to its cheapest
+child, or to instead visit the cheapest child of its parent, ie.  this node's
+sibling. Hence, at each step, we only push the cheapest child and cheapest
+sibling of the present node to the priority queue. 
+These two nodes are constructed on the fly, by combining the information stored
+in the present node with the rule list.  Also, a node is only added to the
+priority queue if the weight of the path leading to it is below 2 (the highest
+edit distance allowed).
 
 \textit{Deltaize etc}
 In order to keep time and memory consumption down, we compress the graph by
@@ -143,46 +167,46 @@ mycket! Number?
 %Our most expensive operation is to expand the graph by adding more nodes to the
 %priority queue...
 %(, and does not effect the resulting,)
-This is done while constructing the neighbor list.
-Whenever two rules result in the same hash, we only add this as one rule, with 
-the weight set to the minimum of the two. This makes our algorithm optimistic, 
-the first time an anagram is returned, it will be ranked with a lower edit distance
-than what the Levenshtein will ge den.
+This is done while constructing the neighbor list. Whenever two operations
+result in the same hash, we add only one rule, with the weight set to the
+minimum of the two. This makes our algorithm optimistic, the first time an
+anagram is returned, it will be ranked with a lower or equal edit distance than
+what the Levenshtein algorithm assign till den.
 
 %Slår vi ihop regler som har samma hash, olika värde? Ja -> billigast
 %                            samma hash, olika bokstäver? Ja -> lägg till i bitmap
 %                                    ta bara med dem som har minst inverkan 
 
 As mentioned, we must % restrict the edges from $n$ in order to
-make sure not to choose paths where the operations induced by operate more than
-once on every letter. We will hence need to filter the neighbor list before
-applying it to a node.
+make sure not to choose paths where the operations induced manipulates a single
+letter more than once. We will hence need to filter the neighbor list when constructing
+the edges from a node.
 %When traversing the graph, 
 %Further, we wish to make sure that the set of operations do not overlap, so
 %that a character cannot be manipulated twice. 
 On the other hand, we must make sure
 that a rule which can be applied twice on a word is not only represented once.
-This information is encoded as bitmasks, where a bit is put to 1 if the
+This information is encoded as bitmaps, where a bit is put to 1 if the
 corresponding character is used. Each rule keeps information of which letters
 it uses, and each node keeps information about which letters that have already been
 used. When merging the rules, as above, we get lists of bitmasks, showing the different
-possibilities of how to apply the rule, but when ever one bitmask is 'included' in another,
+possibilities of how to apply the rule. Whenever one bitmask is 'included' in another,
 we only keep the bitmask that changes the least number of letters. This is implemented as
 'or' ($\|$): \\ 
-\begin{small}\verb- if bitmask1 || bitmask2 == bitmask1; then discard bitmask2 - 
+\begin{small}\verb- if bitmask1 || bitmask2 == bitmask2; then discard bitmask2 - 
 \end{small} \\
 %(gör vi fortfarande så?)
 Consequently, a node may also have more than one possible bitmaps.
 To check whether a rule and a node is compatible, we use 'not and' ($\lnot \&$):
 \begin{small}\begin{verbatim}
-for (a,b) in product(bitmap_{node},bitmask_{rule}):
-  if $\lnot$ (a $\&$ b):
+for (a,b) in product(bitmap_node,bitmask_rule):
+  if not (a & b):
     use b 
 \end{verbatim} \end{small}
 The described approximation of the real edit cost may be too low, but never too
 high. If a rule is allowed by our original set of rules, it may now be given a too
 low cost or a erroneous (optimistic!) bitmap which in turn result in a lower
-cost. However, all variants will be found, and always with an
+cost. (hm, i långa kombinationer..) However, all variants will be found, and always with an
 initial (may grow higher) lower cost.
 When the algorithm produces a anagram hash that is found in the lexicon, it
 is passed on to the Levenshtein implementation. The top-$k$ results with a cost

@@ -9,6 +9,7 @@ import codecs
 import re
 import glob
 import sys
+import time
 
 
 
@@ -36,7 +37,7 @@ outputStats = 'kast1'
 
 """ sammanstall reads xml files and finds spelling variation of the text"""
 def sammanstall():
-    from readvariant import mkeditMap,mkeditMap2
+    from readvariant import mkeditMap #,mkeditMap2
    #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
 #    files = ['testa.xml'] #
 #    files = ['SkaL.txt','Mar26.txt']
@@ -87,8 +88,10 @@ def getdata(fil,hashd,alpha,edit):
     dic = {}
 
     # look through all types, find spelling variation and create a dictionary of these
+    t0 = time.clock()
     for (w,i) in typs.items():
       dic.update({w:spellchecksmall(w,hashd,alpha,edit)})
+    print 'time',int(time.clock()-t0)
     # tab is a list of all words in the same order as in the text, mapped to
     # their spelling variation
     tab = map(lambda w: (w,dic.get(w)),wds)

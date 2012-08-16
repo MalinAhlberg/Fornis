@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import pyximport; pyximport.install()
+from hashfilter import dijkstrafind
 import re
 from dltransl import edit_dist
 from itertools import chain, combinations,islice,product
@@ -176,32 +178,32 @@ def getchanges(word,lex,changeset,edit):
 
 #    Dijkstra mode
 def countdijkstrafind(ch,word,edit,lex,av):
-  # stuff for kbest list
-  th = 2000000
-  k = 3
-  seen = set([])
-  topklist = [(th+1,())]*k
-  lexget = lex.get
+ # stuff for kbest list
+ th = 1500000
+ k = 3
+ seen = set([])
+ topklist = [(th+1,())]*k
+ lexget = lex.get
 
-  for (hash_w,w) in dijkstrafind(pylist_to_conslist(ch),av,len(word),th):
-    if topklist[-1][1] and topklist[-1][0] < w:
-      break
-        
-    ok = lexget(hash_w,{})
-    for (variantword,info) in ok.iteritems():
-      if not variantword in seen:
-        dist = edit_dist(word,variantword,rules=edit[0],n=edit[1])
-        seen.add(variantword)
-        topklist.append((dist,(variantword,info)))
-        topklist = sorted(topklist)[:k]
-        print
-        print variantword, w, dist,
-      else:
-        print '.',
+ for (hash_w,w) in dijkstrafind(ch,av,len(word),th):
+   if topklist[-1][1] and topklist[-1][0] < w:
+     break
+       
+   ok = lexget(hash_w,{})
+   for (variantword,info) in ok.iteritems():
+     if not variantword in seen:
+       dist = edit_dist(word,variantword,rules=edit[0],n=edit[1])
+       seen.add(variantword)
+       topklist.append((dist,(variantword,info)))
+       topklist = sorted(topklist)[:k]
+       print
+       print variantword, w, dist,
+     else:
+       print '.',
 
-  print
-  print
-  return topklist
+ print
+ print
+ return topklist
 
 
 def remove_run(rules,used):
@@ -229,53 +231,53 @@ def new_sub_filter(bitmaps):
       yield x
 
 
-def dijkstrafind(rules,originalhash,wlen,th):
-  pq = []
-  lheappop  = heapq.heappop
-  lheappush = heapq.heappush
-  lremove_run = remove_run
-
-  w = 0
-  lheappush(pq,(w,             # current cost
-                [0],           # used letters 
-                originalhash,  # current hash
-                (),            # possible siblings
-                rules,         # possible descendants
-                0))
-  
-
-  while pq:# and w < 2000000:
-    (w,u,h,rs,rd,mu) = lheappop(pq)
-    yield (h,w)
-
-    # create a descendant if any left
-    nu,rd = lremove_run(rd,u)
-    if rd and rd[0][1]+w <= th:
-      
-      d_hash,w_rule,w_useds,_,_ = rd[0]
-      lheappush(pq,(w+w_rule,  
-                    nu,
-                    h+d_hash,
-                    rd[1],    # siblings
-                    rd,       # descendants
-                    u,
-                    )) 
-    
-    # create a sibling if any left
-    if rs:
-      mw = w-rs[0][4]
-      mh = h-rs[0][3]
-      nu,rs = lremove_run(rs,mu)
-      if rs and rs[0][1]+mw <= th:
-        d_hash,w_rule,w_useds,_,_ = rs[0]
-        lheappush(pq,(mw+w_rule,    
-                      nu,
-                      mh+d_hash,
-                      rs[1],   # siblings
-                      rs,      # descendants
-                      mu
-                      ))
-  
+#def dijkstrafind(rules,originalhash,wlen,th):
+#  pq = []
+#  lheappop  = heapq.heappop
+#  lheappush = heapq.heappush
+#  lremove_run = remove_run
+#
+#  w = 0
+#  lheappush(pq,(w,             # current cost
+#                [0],           # used letters 
+#                originalhash,  # current hash
+#                (),            # possible siblings
+#                rules,         # possible descendants
+#                0))
+#  
+#
+#  while pq:# and w < 2000000:
+#    (w,u,h,rs,rd,mu) = lheappop(pq)
+#    yield (h,w)
+#
+#    # create a descendant if any left
+#    nu,rd = lremove_run(rd,u)
+#    if rd and rd[0][1]+w <= th:
+#      
+#      d_hash,w_rule,w_useds,_,_ = rd[0]
+#      lheappush(pq,(w+w_rule,  
+#                    nu,
+#                    h+d_hash,
+#                    rd[1],    # siblings
+#                    rd,       # descendants
+#                    u,
+#                    )) 
+#    
+#    # create a sibling if any left
+#    if rs:
+#      mw = w-rs[0][4]
+#      mh = h-rs[0][3]
+#      nu,rs = lremove_run(rs,mu)
+#      if rs and rs[0][1]+mw <= th:
+#        d_hash,w_rule,w_useds,_,_ = rs[0]
+#        lheappush(pq,(mw+w_rule,    
+#                      nu,
+#                      mh+d_hash,
+#                      rs[1],   # siblings
+#                      rs,      # descendants
+#                      mu
+#                      ))
+#  
 
 
 

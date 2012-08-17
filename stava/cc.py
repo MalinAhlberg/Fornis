@@ -4,14 +4,13 @@ from hashfilter import dijkstrafind
 import re
 from dltransl import edit_dist
 from itertools import chain, combinations,islice,product
-#from Queue import PriorityQueue         
-#from math import fabs
 import sys
 import codecs
 from pycons import pylist_to_conslist,suffix_conslist
 import heapq
 import gc
 import operator
+import time
 
 """Functions for calculating anagram values, finding spelling variations etc"""
 
@@ -23,7 +22,9 @@ import operator
  returns (False,None) if nothing interesting is found
 """
 def spellchecksmall(w,d,alpha,edit):
-  #gc.collect()
+  if len(w)>32:
+    print 'word',w,'discarded'
+    return ''  #TODO return something better
   return getchanges(w,d,alpha,edit)
  
 
@@ -45,7 +46,8 @@ def hashiso(w):
 def norm(w):
     return re.sub(u'[^\w'+bokstaver+']','',w)
 
-bokstaver = u'åäöÅÄÖæÆøØÞþß^$' # obs ^ and $ here to mark end beginning of words
+
+bokstaver = u'åäöÅÄÖæÆøØÞþßÇ^$àáçèéêëíîïóôûüÿᛘ∂' # obs ^ and $ here to mark end beginning of words
  
 """ finds the 'aav' alphabet, consisting of all strings, bigram and trigrams"""
 def alphabet(wds):
@@ -171,37 +173,48 @@ def getchanges(word,lex,changeset,edit):
     
     print 'word',word,len(ch),
 
+    t0 = time.clock()
     bla = countdijkstrafind(ch,word,edit,lex,av)
+    print 'word time',time.clock()-t0,'(',len(word),' letters)'
     print bla
+    print '***', '  '.join([x[2][0] for x in bla])
+    print '\n\n'
     return bla
 
 
 #    Dijkstra mode
 def countdijkstrafind(ch,word,edit,lex,av):
  # stuff for kbest list
- th = 1500000
- k = 3
+ th = 2000000
+ k = 10
  seen = set([])
- topklist = [(th+1,())]*k
+ topklist = [(th+1,0,())]*k
  lexget = lex.get
 
- for (hash_w,w) in dijkstrafind(ch,av,len(word),th):
+ for (hash_w,w,iters) in dijkstrafind(ch,av,len(word),th):
    if topklist[-1][1] and topklist[-1][0] < w:
      break
        
    ok = lexget(hash_w,{})
    for (variantword,info) in ok.iteritems():
      if not variantword in seen:
-       dist = edit_dist(word,variantword,rules=edit[0],n=edit[1])
+       dist,eds = edit_dist(word,variantword,rules=edit[0],n=edit[1])
+      #For testing
+      # if dist<w:
+      #     print "Not optimistic", variantword,w,dist,eds
+      #     raise Exception("Not optimistic")
        seen.add(variantword)
-       topklist.append((dist,(variantword,info)))
+       topklist.append((dist,eds,(variantword,info)))
        topklist = sorted(topklist)[:k]
        print
-       print variantword, w, dist,
+       print variantword, w, dist,eds,
      else:
        print '.',
 
+ topklist = filter(lambda (x,z,y): y!=(),topklist)
  print
+ print 'iterations',iters,'edits',len(seen)
+ print 'found',len(topklist)
  print
  return topklist
 

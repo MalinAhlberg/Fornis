@@ -53,6 +53,20 @@ def readlex(files,old=False,morf=False):
            insert(d,form,lem,nicefil)
     return d
 
+def readcorpuslex(fil):
+    ss = codecs.open(fil,"r",encoding='utf8').readlines()
+    d = {}
+
+    for line in ss:
+       xs = line.split()
+       insert(d,xs[0],'',xs[1:])
+       #for source in xs[1:]:
+    return d
+
+
+
+
+
 """ Returns the lemgram of an entry
     If old is set to True, lemgram is supposed to be located inside
     FormRepresentation, otherwise directly in Lemma """

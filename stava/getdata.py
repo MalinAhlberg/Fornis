@@ -2,30 +2,14 @@
 from extracttxt import *
 from cc import norm,spellchecksmall
 from xml.etree import ElementTree as etree
-# from collections import Counter
 import collections
+from collections import Counter
 import printstats
 import codecs
 import re
 import glob
 import sys
 import time
-
-
-
-####
-
-def Counter(iterable):
-
-    ret = collections.defaultdict(int)
-    
-    for w in iterable:
-        ret[w] += 1
-
-    return ret
-    
-
-####
 
 
 """ Output files, all words and their found variations are printed to
@@ -38,24 +22,16 @@ outputStats = 'kast1'
 """ sammanstall reads xml files and finds spelling variation of the text"""
 def sammanstall():
     from readvariant import mkeditMap #,mkeditMap2
-   #files = glob.glob('../filerX/*xml')+glob.glob('../filerXNy/*xml')
-#    files = ['testa.xml'] #
-#    files = ['SkaL.txt','Mar26.txt']
-    files = testfiles #'x'#             
-   #hashd = readlex(morflex,morf=True)
-   #hashd = readlex(smallex)
-    hashd = readlex(oldlex2,old=True)
-    #edit,alpha  = mkeditMap('lex_variation.txt',both=True)
-    #edit,alpha = mkeditMap('char_variant.txt')
-    #edit,alpha = mkeditMap('char_varsmallest.txt')
-    #edit,alpha = mkeditMap('trimap_var.txt',weigth=False)
+    files = ['colingeval/goodwordsall'] 
+   # files = testfiles
+
+    #hashd = readlex(oldlex2,old=True)
+    hashd = readcorpuslex('colingeval/goodwordsall')
+
     edit,alpha = mkeditMap('trimap_small.txt',weigth=False)
-    # TODO why does the one below become slower when it's smaller?
-    #edit,alpha = mkeditMap2('trimap_newmorethan2.txt')
-    sys.stdout = codecs.open('trams3','w',encoding='utf-8')
+    sys.stdout = codecs.open('ecoling5','w',encoding='utf-8')
     [getdata(fil,hashd,alpha,edit) for fil in files]
-#    codecs.open(outputData,'w',encoding='utf8').write(shownice(res))
-    #sys.stdout = sys.__stdout__
+
     print 'printed files',outputStats
 
 
@@ -80,10 +56,18 @@ morflex  = ['../../Lexicon/good/lmf/fsv/fsv.xml']
     variations and identifies spelling variations"""
 def getdata(fil,hashd,alpha,edit):
     print fil
-    txt    = ''.join(gettext(fil))#'cristindom' #'villhonnugh' # # euangelio' #'euangelio' #'euangelio' 
+    #txt    = ''.join(gettext(fil))#'cristindom' #'villhonnugh' # # euangelio' #'euangelio' #'euangelio' 
+
+    txt    = codecs.open(fil,'r',encoding='utf8').readlines()
+    wds    = map(lambda x: x.split()[0],txt)
+    #wds = [u'forbarmer'] #ärlighabiskopssätitlätkeysarlodouicus']
+             # barochusmathirimiödhyrtthenna 
+
+
 #    with codecs.open(fil,'r','utf8') as f:
-#        txt    = ''.join(f.read()) 
-    wds    = map(lambda x: norm(x).lower(),txt.split())
+
+#   txt    = ''.join(f.read()) 
+#   wds    = map(lambda x: norm(x).lower(),txt.split())
     typs   = Counter(wds)
     dic = {}
 
@@ -92,12 +76,14 @@ def getdata(fil,hashd,alpha,edit):
     for (w,i) in typs.items():
       dic.update({w:spellchecksmall(w,hashd,alpha,edit)})
     print 'time',int(time.clock()-t0)
+
     # tab is a list of all words in the same order as in the text, mapped to
     # their spelling variation
-    tab = map(lambda w: (w,dic.get(w)),wds)
+# Behövs ej för coling eval    
+#    tab = map(lambda w: (w,dic.get(w)),wds)
     
-    with codecs.open(outputStats,'a',encoding='utf8') as f:
-      f.write('\n'+fil+'\n'+printstats.printstat(tab))
+#    with codecs.open(outputStats,'a',encoding='utf8') as f:
+#      f.write('\n'+fil+'\n'+printstats.printstat(tab))
 
 
 """ calculate extracts data of how many types and tokens that could be found

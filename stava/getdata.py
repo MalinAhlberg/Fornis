@@ -21,15 +21,18 @@ outputStats = 'kast1'
 
 """ sammanstall reads xml files and finds spelling variation of the text"""
 def sammanstall():
-    from readvariant import mkeditMap #,mkeditMap2
+    from readvariant import mkeditMap 
     files = ['colingeval/goodwordsall'] 
-   # files = testfiles
+    #files = ['above1k']
+    #files = testfiles
 
-    #hashd = readlex(oldlex2,old=True)
-    hashd = readcorpuslex('colingeval/goodwordsall')
+    hashd = readlex(oldlex2,old=True)
+    # use the below line to get corpus as lexicon
+    #hashd = readcorpuslex('colingeval/goodwordsall')
 
     edit,alpha = mkeditMap('trimap_small.txt',weigth=False)
-    sys.stdout = codecs.open('ecoling5','w',encoding='utf-8')
+    #write output to file
+    #sys.stdout = codecs.open('ecolingonematch','w',encoding='utf-8')
     [getdata(fil,hashd,alpha,edit) for fil in files]
 
     print 'printed files',outputStats
@@ -60,22 +63,21 @@ def getdata(fil,hashd,alpha,edit):
 
     txt    = codecs.open(fil,'r',encoding='utf8').readlines()
     wds    = map(lambda x: x.split()[0],txt)
-    #wds = [u'forbarmer'] #ärlighabiskopssätitlätkeysarlodouicus']
+#    wds = [u'barochusmathirimiödhyrtthenna','orfeygda', 'sunamitis','forlofwadho','constantinopolitanum'] #cristindom'],u'hwartiggia'] #forbarmer'] #ärlighabiskopssätitlätkeysarlodouicus']
              # barochusmathirimiödhyrtthenna 
 
 
 #    with codecs.open(fil,'r','utf8') as f:
 
-#   txt    = ''.join(f.read()) 
-#   wds    = map(lambda x: norm(x).lower(),txt.split())
     typs   = Counter(wds)
     dic = {}
-
+     
     # look through all types, find spelling variation and create a dictionary of these
-    t0 = time.clock()
+    print 'start',time.gmtime()
     for (w,i) in typs.items():
-      dic.update({w:spellchecksmall(w,hashd,alpha,edit)})
-    print 'time',int(time.clock()-t0)
+      dic.update({w:spellchecksmall(w,hashd,alpha,edit)}) #,extra)})
+    print 'stop',time.gmtime()
+    #print 'time',int(time.clock()-t0)
 
     # tab is a list of all words in the same order as in the text, mapped to
     # their spelling variation

@@ -118,16 +118,13 @@ def deltaize(rules):
   ret = []
   rules = sorted(rules,key=lambda rule: rule[0])
 
-#  curr_h, curr_w, curr_u = rules[0][0],rules[0][1],set([rules[0][2]]),
   curr_h, curr_w, curr_u = rules[0][0],rules[0][1],[rules[0][2]],
   for rule in rules[1:]:
     if rule[0] == curr_h:# and rule[1] == curr_w:
       curr_w = min(curr_w,rule[1])
       curr_u.append(rule[2])
-#      curr_u = add_with_subsumption_check(curr_u,rule[2])
     else:
       ret.append((curr_h,curr_w,subsumption_filter(curr_u)))
-#      curr_h, curr_w, curr_u = rule[0],rule[1],set([rule[2]])
       curr_h, curr_w, curr_u = rule[0],rule[1],[rule[2]]
 
   ret.append((curr_h,curr_w,list(set(curr_u))))
@@ -135,7 +132,6 @@ def deltaize(rules):
   ret = sorted(ret,key=lambda rule: rule[1])
   ret[0] = ret[0]+(0,0)
   for reti in xrange(1,len(ret)):
-#    ret[reti] = ret[reti]+(ret[reti][0]-ret[reti-1][0],ret[reti][1]-ret[reti-1][1])
     ret[reti] = ret[reti]+(ret[reti-1][0],ret[reti-1][1])
 
 
@@ -153,29 +149,29 @@ def addAll(res,ccs):
     getchanges(word,lexicon of anagram values,rules)"""
 def getchanges(word,lex,changeset,edit): 
 
+    t0 = time.clock()
     ccs = []
     u,b,t = gettav(word,keep=True)
     av   = getav(word) 
+    # TODO fix!
+    if av >= 50014198618560734057L:
+      print 'discarded, too long hash',word,av 
+      return ()
     tavs = u+b+t
-    ch   = []
+    ch1   = []
     changesetget = changeset.get
     # substitutions only # TODO insertions and deletions? add '' for insertions?
     for (tav,involvedletters) in tavs:
       # get diff between tav and its translations
-      ch.extend((x-tav,weigth,involvedletters) for (x,weigth) in changesetget(tav,[]))
+      ch1.extend((x-tav,weigth,involvedletters) for (x,weigth) in changesetget(tav,[]))
 
-#    ch.append((19254145824, 439587))
 
-    ch = deltaize(ch)
-#    for bla in ch: 
-#      print bla, ' '.join(bin(blax) for blax in bla[2])
-    #ch = sorted(ch,key=lambda x: (x[1],x[0]))
+    ch = deltaize(ch1)
     
-    print 'word',word,len(ch),
+    print 'word',word,len(ch1),len(ch),
 
-    t0 = time.clock()
     bla = countdijkstrafind(ch,word,edit,lex,av)
-    print 'word time',time.clock()-t0,'(',len(word),' letters)'
+    print 'word-time',time.clock()-t0,'(',len(word),' letters)'
     print bla
     print '***', '  '.join([x[2][0] for x in bla])
     print '\n\n'
@@ -185,24 +181,20 @@ def getchanges(word,lex,changeset,edit):
 #    Dijkstra mode
 def countdijkstrafind(ch,word,edit,lex,av):
  # stuff for kbest list
- th = 2000000
- k = 10
+ th = 1500000
+ k = 1
  seen = set([])
  topklist = [(th+1,0,())]*k
  lexget = lex.get
 
  for (hash_w,w,iters) in dijkstrafind(ch,av,len(word),th):
-   if topklist[-1][1] and topklist[-1][0] < w:
+   if topklist[-1][2] and topklist[-1][0] < w:
      break
        
    ok = lexget(hash_w,{})
    for (variantword,info) in ok.iteritems():
      if not variantword in seen:
        dist,eds = edit_dist(word,variantword,rules=edit[0],n=edit[1])
-      #For testing
-      # if dist<w:
-      #     print "Not optimistic", variantword,w,dist,eds
-      #     raise Exception("Not optimistic")
        seen.add(variantword)
        topklist.append((dist,eds,(variantword,info)))
        topklist = sorted(topklist)[:k]

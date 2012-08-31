@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 #xml -> model
 from xml.etree import ElementTree as etree
-from textview.models import Lemgram,WrittenForm
+from textview.models import Lemgram,Variant
 from django.db import models
 import glob
 
-lex = ['../../testlex.xml'] #glob.glob('../../../../Lexicon/good/lmf/soederwall*/*xml')
+#lex = ['../../testlex.xml']
+lex = glob.glob('../../../../Lexicon/good/lmf/soederwall*/*xml')+['../../../../Lexicon/good/lmf/schlyter/schlyter.xml']
 
 def readlex(files):
     for fil in files:
@@ -15,14 +16,15 @@ def readlex(files):
       entries = lex.findall('LexicalEntry')
       for entry in entries:
          lem      = getLemgram(entry,old=True)
-         text = getInfo(entry)
-         print 'will add lemgram'
-         lemref = addLemgram(lem,text)
-         print 'added lemgram'
+         #text = getInfo(entry)
+#         print 'will add lemgram'
+         lemref = addLemgram(lem)
+         #lemref = addLemgram(lem,text[:200])
+#         print 'added lemgram'
          forms  = getWrittenforms(entry)
          for form in forms:
-           addWritten(form,lemref)
-           print 'added one written'
+           addWritten(form[:50],lemref)
+#           print 'added one written'
 
  
 def getInfo(entry):
@@ -35,31 +37,38 @@ def getInfo(entry):
     text = getAtt(sense,'text')
   return ' '.join(text)
 
-def addLemgram(lem,txt):
+def addLemgram(lem):
   ls = Lemgram.objects.filter(lemgram=lem)
-  if len(ls)==1:
-    print 'first text'
+  if ls:
     l = ls[0]
-    l.text += txt
   else:
-    print 'second pos_text',txt
-    l = Lemgram(lemgram=lem, text=txt)
-    print 'have a lemgram',l
-  l.save()
-  print 'saved it'
+    l = Lemgram(lemgram=lem) #, text=txt)
+    l.save()
   return l
+    
+#  if len(ls)==1:
+#    #print 'first text'
+#    l = ls[0]
+#    l.text += txt
+#  else:
+#    print 'second pos_text',txt
+#    l = Lemgram(lemgram=lem, text=txt)
+#    print 'have a lemgram',l
+#  l.save()
+#  print 'saved it'
+#  return l
 
 def addWritten(form,lemref):
-  print 'begin of add written'
-  ws = WrittenForm.objects.filter(form=form)
+  #print 'begin of add written'
+  ws = Variant.objects.filter(form=form)
   if ws:
-    print 'found a written'
+  #  print 'found a written'
     w = ws[0]
   else:
-    print 'did not found a written'
-    w = WrittenForm(form=form)
+  #  print 'did not find a written'
+    w = Variant(form=form)
     w.save()
-  print 'add lemref to written'
+  #print 'add lemref to written'
   w.lemgrams.add(lemref)
   w.save()
    

@@ -12,10 +12,6 @@ urlpatterns = patterns('',
      url(r'textsmall/(.*)', 'textview.texts.textsmall'),
      url(r'^start', 'textview.texts.startempty'),
 
-     #url(r'^start/lexs/(.*)', 'textview.texts.lexicon'),
-     #url(r'text/([^/]*/lexs(.*))', 'textview.texts.showtextlex'),
-     #url(r'showtext/([^/]*)', 'textview.texts.showtext'),
-
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 

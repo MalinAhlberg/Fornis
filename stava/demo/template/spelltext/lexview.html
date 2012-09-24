@@ -1,0 +1,20 @@
+{% load spelling_extra %}
+{% block content %}
+<b>{{ start }}</b> {{ words|length}} {{words|hits}}. (<i>{{words|join:"/"}}</i>)
+
+  {% for entry in info %}
+    <ul>
+        <li>
+         {{entry|first}} {{entry|firstline}}
+      <ul>
+      {% for sense in entry|getsenses %}
+        <li>
+         <i> {{sense|first}}</i> <i> {{sense|second}}</i> {{sense|third}}
+        </li>
+      {% endfor %}
+      </ul>
+
+    </ul>
+  {% endfor %}
+    
+{% endblock %}

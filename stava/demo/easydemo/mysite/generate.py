@@ -3,13 +3,19 @@ from xml.etree import ElementTree as etree
 import codecs
 import re
 import os.path
+import urllib
 
 # generatehtml :: textfile.xml -> website.html
 # creates one link to variants for each word 
 # and translate tags to html
 def generatehtml(fil,variants,targetframe):
-  xmls = codecs.open(fil,'r').read()
-  body = etree.fromstring(xmls).find('body')
+  print 'reading file',fil
+  f = urllib.urlopen(fil)
+  s = f.read()
+  f.close()
+  print 'got file',s
+  #xmls = codecs.open(fil,'r').read()
+  body = etree.fromstring(s).find('body')
   for elem in list(body.iter()):
     if elem.tag=='para':
       elem.tag  = 'p'
@@ -67,6 +73,11 @@ def parsemap(fil):
         d[wd] = parseinfo(info)
   return d
 
+def parseusermap(fil,default):
+  if os.path.exists(fil):
+    return parsemap(fil)
+  else:
+    return default
 
 def parseinfo(info):
   res = {}
@@ -84,6 +95,20 @@ def parseinfo(info):
 
 def splitlems(x):
   return x.split(':')
+
+def printmap(dictionary,tofile):
+   def formatvars(d):
+     return [v+','+str(info['dist']) for v,info in d.items()]
+   txt = [w+":::"+'^^'.join(formatvars(vardict)) for w,vardict in dictionary.items()]
+   print txt
+   codecs.open(tofile,'w',encoding='utf-8').write('\n'.join(txt))
+
+     
+  
+
+
+
+
 
 # to make the html human-readable
 def indent(elem, level=0):

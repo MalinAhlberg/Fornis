@@ -1,16 +1,24 @@
-from django.http import HttpResponse
+# -*- coding: utf-8 -*-
+from django.http import HttpResponse,HttpRequest
 from django.template import Context, loader
 import generate
-from readlex import getthem
+from readlex import getthem,readkarklex
+from readtitles import readtitles
 import glob
+import re
 import os.path
+import urllib
 
-
-variantdict = generate.parsemap('../../../variantlist')
-variantdictman = generate.parsemap('../../../smallngb.txt')
-variantdictone = generate.parsemap('../../../smallngb.txt')
+variantdict    = generate.parsemap('../../variantlist')
+variantdictman = generate.parsemap('../../smallngb.txt')
+variantdictone = generate.parsemap('../../smallngb.txt')
+#uservar        = generate.parseusermap('userdict',variantdict)
+#userfile       = 'userdict.txt'
 lexframe       = 'lexframe'
-lexicon = getthem()
+titles         = '../../../../titles/titelsExtract.txt'
+#lexicon = getthem()
+
+svndict = 'https://svn.spraakdata.gu.se/sb-arkiv/pub/fornsvenska/texter/' 
 
 
 def showall(request,fil):
@@ -24,15 +32,24 @@ def showall(request,fil):
  
 
 def startempty(request):
+  titledict = readtitles(titles)
+  print 'dict',titledict
   t     = loader.get_template('spelltext/filelist.html')
-  files = [os.path.basename(fil).split('.')[0] for fil in glob.glob('../../../../filerX/'+'*xml')]
+  #files = [getfileinfo(fil,titledict) for fil in glob.glob('../../../../filerX/'+'*xml')]
+  f = urllib.urlopen(svndict)
+  s = f.readlines()
+  f.close()
+  s = getxmlfiles(s)
+  files = [getfileinfo(fil,titledict) for fil in s]
   c = Context({
-      'files'      : files})
+      'files'      : files,
+      'svnfiles'   : s})
   return HttpResponse(t.render(c))
 
 def showlex(request,words):
   wds  = words.split('-')
-  info = [(w,lexicon.get(w,[])) for w in wds[1:]]
+  info = [(w,lexsearch(w)) for w in wds[1:]]
+  #info = [(w,lexicon.get(w,[])) for w in wds[1:]]
   t = loader.get_template('spelltext/lexview.html')
   c = Context({
       'start'      : wds[0],
@@ -54,10 +71,53 @@ def textvar(request,var,fil):
   else:
     variant = variantdict
   iframe = loader.get_template('spelltext/textview.html')
-  path = '../../../../filerX/'+fil+'.xml'
+  path = svndict+fil+'.xml'
+  print 'path',path
   body = generate.generatehtml(path,variant,lexframe)
   return HttpResponse(header+body)
 
+def getfileinfo(fil,fildict):
+  filename = os.path.basename(fil).split('.')[0]
+  fileinfo = fildict.get(filename,{})
+  print filename,fileinfo.get('title',filename),fileinfo.get('year','')
+  return filename,fileinfo.get('title',filename),fileinfo.get('year','')
+
+def lexsearch(word):
+  site = 'http://spraakbanken.gu.se/ws/karp-sok?resurs=fsvm&wf='+word #+'&format=json'
+  site = iriToUri(site)
+  f = urllib.urlopen(site)
+  info = readkarklex(f.read())
+  f.close()
+  return info[word]
+
+import re, urlparse
+
+def urlEncodeNonAscii(b):
+    return re.sub('[\x80-\xFF]', lambda c: '%%%02x' % ord(c.group(0)), b)
+
+def iriToUri(iri):
+    parts= urlparse.urlparse(iri)
+    return urlparse.urlunparse(
+        part.encode('idna') if parti==1 else urlEncodeNonAscii(part.encode('utf-8'))
+        for parti, part in enumerate(parts)
+        )
+
+  
+
+def getxmlfiles(html):
+  return [x.group(1) for x in (re.search('<a.*>(.*?)\.xml<',line) for line in html) if x is not None]
+#  for line in html:
+#    filename = re.search('>(.*?)\.xml<',line)
+#    if filename is not None:
+      
+
+  
+
+# not used, could be used if we allow editing of the variants
+def remove(word,var):
+  worddict = uservar[word]
+  del worddict[var]
+  generate.printmap(uservar,userfile)
   
   
 header = """

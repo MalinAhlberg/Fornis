@@ -2,6 +2,7 @@
 from xml.etree import ElementTree as etree
 import codecs
 import re
+import urllib
 
 # Functions for reading xml lexicons into one dictionary
 """reads lexicons into a hased anagram dictionary:
@@ -20,6 +21,29 @@ def readlex(files):
          for form in forms:
            insert(d,form,lexname,entry)
     return d
+
+def test(word):
+  site = 'http://spraakbanken.gu.se/ws/karp-sok?resurs=fsvm&wf='+word #+'&format=json'
+  f = urllib.urlopen(site)
+  lexinfo = f.read()
+  f.close()
+  return readkarklex(lexinfo)
+  
+def readkarklex(xml):
+    d = {}
+    print xml
+    lexname = 'unknown' # TODO parse from xml getname(fil)
+    lexicon = etree.fromstring(xml)
+    print 'lexicon',lexicon
+    divs = lexicon.findall('div')
+    for div in divs:
+      for entry in div.findall('LexicalEntry'):
+       print 'found an entry'
+       forms = getWrittenforms(entry)
+       for form in forms:
+         insert(d,form,lexname,entry)
+    return d
+
 
 
 def getLemgram(entry):

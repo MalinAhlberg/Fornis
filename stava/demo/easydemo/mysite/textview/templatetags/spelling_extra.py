@@ -6,7 +6,7 @@ register = template.Library()
 
 @register.filter()
 def second(x):
-  print 'second',x
+  #print 'second',x
   return x[1]
 
 @register.filter()
@@ -38,8 +38,11 @@ def firstline((w,lemgrams)):
 def getsenses((w,lemgrams)):
  res = []
  for (l,lex,entry) in lemgrams:
-   res.extend((lex,entry['pos'],s) for s in entry['senses'].values())
+   senses = entry['senses'].values() or '-'
+   res.extend((lex,entry['pos'],s) for s in senses)
 
+ print 'getsenses',w,lemgrams,l,lex,entry
+ print 'res',res
  return res
    
 

@@ -1,20 +1,69 @@
 {% load spelling_extra %}
+<style>
+  body { 
+     line-height : 1.5em ;
+     font-family : verdana,arial,helvetica;
+     }
+  a:hover { color : darkblue; }
+  a { color : black; text-decoration:none; }
+  .hidden { display : none; }
+</style>
+
+<script>
+function show(button){
+ console.log(button) ;
+ button.parentNode.className="hidden";
+ button.parentNode.nextSibling.nextSibling.className="";
+ return false;
+}
+
+function hide(button){
+ console.log(button) ;
+ button.parentNode.previousSibling.previousSibling.className="";
+ button.parentNode.className="hidden";
+ return false;
+ }
+</script>
+
 {% block content %}
-<b>{{ start }}</b> {{ words|length}} {{words|hits}}. (<i>{{words|join:"/"}}</i>)
+<b>{{ start }}</b>
+    {% if not hidecount %}
+       {{ words|length}} {{words|hits}}. (<i>{{words|join:"/"}}</i>)
+    {% endif %}
 
   {% for entry in info %}
+    {% if entry %}
     <ul>
+        {% if not hidecount %}
         <li>
-         {{entry|first}} {{entry|firstline}}
+            {{entry|first}} {{entry|firstline}}
+        {% endif %}
       <ul>
       {% for sense in entry|getsenses %}
         <li>
-         <i> {{sense|first}}</i> <i> {{sense|second}}</i> {{sense|third}}
+         <i> {{sense|first}}</i> <i> {{sense|second}}</i> 
+          <span>{{sense|third|truncatewords:50|mklinks|safe}}
+                {% if sense|third|wordcount > 50 %}
+                  <a href="" onclick="show(this); return false;">
+                     <small><font  color="blue"> more</font></small>
+                  </a>
+                {% endif %}
+          </span>
+          <span class="hidden">
+               {{sense|third|mklinks|safe}}
+               <a href="" onclick="hide(this); return false;">
+                  <small><font  color="blue"> hide</font></small>
+                </a>
+          </span>
         </li>
       {% endfor %}
       </ul>
 
     </ul>
+    {% endif %}
   {% endfor %}
     
+    {% if showmore %}
+    <a href="all/{{start}}-{{words|addset:start|join:"-"}}">See related entries</a>
+    {% endif %}
 {% endblock %}

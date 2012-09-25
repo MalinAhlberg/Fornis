@@ -1,17 +1,22 @@
 # -*- coding: utf-8 -*-
 from django import template
 import re
+import HTMLParser
 
 register = template.Library()
 
 @register.filter()
 def second(x):
-  #print 'second',x
   return x[1]
 
 @register.filter()
 def third(x):
   return x[2]
+
+@register.filter()
+def fourth(x):
+  return x[3]
+
 
 @register.filter()
 def formatentry((w,lems)):
@@ -29,8 +34,7 @@ def hits(w):
 def firstline((w,lemgrams)):
     res = [] 
     for (lem,lex,entry) in lemgrams:
-      #res += ' '.join([lex,':',entry['pos'],entry['hwtext']]) #,entry['gram']])
-      res.append(entry['pos'])
+      res.append(entry.get('pos',''))
     return ' '.join(set(res))
 
 
@@ -39,12 +43,46 @@ def getsenses((w,lemgrams)):
  res = []
  for (l,lex,entry) in lemgrams:
    senses = entry['senses'].values() or '-'
-   res.extend((lex,entry['pos'],s) for s in senses)
-
- print 'getsenses',w,lemgrams,l,lex,entry
- print 'res',res
+   res.extend((lex,entry['pos'],s,i) for i,s in enumerate(senses))
  return res
+     
+# TODO unused?
+@register.filter()
+def usetruncated(senses,morelist):
+   return str(senses[3]) not in list(morelist)
+
+@register.filter()
+def dropwords(txt,n):
+   wds = txt.split(' ')
+   return wds[50:]
+
+@register.filter()
+def mklinks(txt):
+  newtxt = ''
+  for word in txt.split():
+    bokstaver = u'åäöÅÄÖæÆøØÞþßÇàáçèéêëíîïóôûüÿᛘ∂' 
+    normword = re.sub(u'[^\w'+bokstaver+']','',word).lower()
+    linkword = ' <a  href="/onelex/'+normword+'">'+word+'</a>'
+    newtxt += linkword
+  return newtxt
+
    
+@register.filter()
+def addset(xs,x):
+   return xs if x in xs else [x]+xs
+
+@register.filter()
+# TODO ugly function, unable to combine them otherwise
+def addsetfourth(xs,x):
+   i  = str(x[3])
+   strxs = list(xs)
+   return xs if i in strxs else i+xs
+
+@register.filter()
+# dont use, same as safe
+def fromhtml(text):
+   return HTMLParser.HTMLParser().unescape(text)
+
 
 def getAtt(elem,val,none=[]):
     res = []
@@ -59,34 +97,4 @@ def getAtt(elem,val,none=[]):
       return none
 
 
-#
-#     {% autoescape off %}
-#           {{ entry|formatentry }}
-#         {% endautoescape %}
-#
-#        </li>
-#    </ul>
-#  {% endfor %}
 
-
-#def formatxml(xml):
-#  return xml
-#  print 'ett'
-#  a  = re.sub('<[A-Z][^>]*>' ,'<p>',xml)
-#  print 'tva'
-#  a  = re.sub('</[A-Z][^>]*>','</p>',a)
-#  print 'tre'
-#  gr = re.finditer('<feat\s*att="([^"]*)"\s*val="([^"]*)"\s*/>',a)
-#  for g in gr:
-#    print 'iter'
-#    print 'a',a,'group',g.group()
-#    print 'group1',g.group(1),'group2',g.group(2)
-#    a = re.sub(g.group(),'<b>'+g.group(1)+'</b> '+g.group(2),a)
-#    print 'done'
-#  print 'finished'
-#  return a
-# 
-#
-#  
-#def test():
-# return formatxml('<Definition><feat att="partOfSpeech" val="nn" /></Definition>')

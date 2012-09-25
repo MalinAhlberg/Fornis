@@ -6,7 +6,9 @@ from django.conf.urls import patterns, include, url
 
 urlpatterns = patterns('',
      url(r'showtext/([^/]*)/(.*)', 'textview.texts.showtextvar'),
-     url(r'lexs/(.*)', 'textview.texts.showlex'),
+     url(r'onelex/([^/]*)', 'textview.texts.onelex'),
+     url(r'lexs/all/(.*)', 'textview.texts.showlexall'),
+     url(r'lexs/([^/]*)', 'textview.texts.showlex'),
      url(r'text/([^/]*)/(.*)', 'textview.texts.textvar'),
      url(r'text/(.*)', 'textview.texts.text'),
      url(r'textsmall/(.*)', 'textview.texts.textsmall'),

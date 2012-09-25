@@ -24,24 +24,22 @@ def readlex(files):
 
 def test(word):
   site = 'http://spraakbanken.gu.se/ws/karp-sok?resurs=fsvm&wf='+word #+'&format=json'
+  print 'calling kark',site
   f = urllib.urlopen(site)
   lexinfo = f.read()
   f.close()
-  return readkarklex(lexinfo)
+  return readkarklex([lexinfo])
   
-def readkarklex(xml):
+def readkarklex(xmls):
     d = {}
-    print xml
-    lexname = 'unknown' # TODO parse from xml getname(fil)
-    lexicon = etree.fromstring(xml)
-    print 'lexicon',lexicon
-    divs = lexicon.findall('div')
-    for div in divs:
-      for entry in div.findall('LexicalEntry'):
-       print 'found an entry'
-       forms = getWrittenforms(entry)
-       for form in forms:
-         insert(d,form,lexname,entry)
+    for xml,lexname in xmls:
+      lexicon = etree.fromstring(xml)
+      divs = lexicon.findall('div')
+      for div in divs:
+        for entry in div.findall('LexicalEntry'):
+         forms = getWrittenforms(entry)
+         for form in forms:
+           insert(d,form,lexname,entry)
     return d
 
 
@@ -62,8 +60,8 @@ def insert(d,form,lexname,entry):
     pos     = ' '.join(set(getAttList(formrep,'partOfSpeech')))
     gram    = getAtt(formrep,'gram')
     hwtext  = getAtt(formrep,'hwtext')
-    sense   = entry.find('Sense')
-    defs    = sense.findall('Definition') if sense is not None else []
+    senses  = entry.findall('Sense')
+    defs    = sum([sense.findall('Definition') for sense in senses  if sense is not None],[])
     senses  = [(i,getAtt(x,'text')) for i,x in enumerate(defs)]
     dentry  = {'pos' : pos, 'gram' : gram, 'hwtext' : hwtext, 'senses' : dict(senses)}
     d.setdefault(form,[]).append((getLemgram(entry),lexname,dentry))

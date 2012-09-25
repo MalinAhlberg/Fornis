@@ -1,12 +1,28 @@
 {% load spelling_extra %}
 {% block content %}
 <style>
-  body { color : grey; }
-  a { color : black; text-decoration:none; }
-  a:hover { color : blue; }
+  body {
+     color : grey;
+     font-family : verdana,arial,helvetica;
+       }
+  a { 
+     color : black; 
+     text-decoration:none;
+     }
+  a:hover { 
+     color : blue;
+     }
+  ul li {
+     margin-bottom: 0.5em;
+     }
+  ul    { 
+     line-height: 1.5em; 
+     width: 600px; 
+     }
 </style>
 
 
+<body>
 <b>Choose a file</b>
 
     <ul>
@@ -14,11 +30,12 @@
         <li>
         <a href="/showtext/big/{{file|first}}">{{file|second}}</a> <small>{{file|third}}</small>
         {% if file|first == "SkaL" or file == "Mar26SLundversion" %}
-          <small><a href="/showtext/small/{{file}}">manual rules</a></small>
-          <small><a href="/showtext/medium/{{file}}">one-to-one rules</a></small>
+          <small><a href="/showtext/small/{{file|first}}">manual rules</a></small>
+          <small><a href="/showtext/medium/{{file|first}}">one-to-one rules</a></small>
         {% endif %}
         </li>
   {% endfor %}
     </ul>
     
 {% endblock %}
+</body>

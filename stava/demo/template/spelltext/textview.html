@@ -1,12 +1,22 @@
 {% block content %}
-<table height="100%" border='0'>
-<tr>
-<td width="70%" >
- <iframe src= "{{fil}}"  height="100%" width="100%" frameborder="0"> </iframe>
-</td>
-<td >
- <iframe name="{{framename}}"  height="100%"  width="100%"frameborder="0"> </iframe>
-</td>
-</tr>
-</table>
+<style>
+ iframe {
+         display : inline-block;
+         height : 99%;
+        }
+ #textfield {
+         width : 60%;
+         line-height : 1.5em;
+         }
+ #lexfield {
+         width : 39%;
+         }
+</style>
+
+ <iframe id="textfield" src= "{{fil}}" frameborder="0"> </iframe>
+
+
+ <iframe id="lexfield" name="{{framename}}" frameborder="0"> </iframe>
+
+
 {% endblock %}

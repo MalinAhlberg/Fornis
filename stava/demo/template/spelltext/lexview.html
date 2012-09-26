@@ -27,9 +27,8 @@ function hide(button){
 
 {% block content %}
 <b>{{ start }}</b>
-    {% if not hidecount %}
-       {{ words|length}} {{words|hits}}. (<i>{{words|join:"/"}}</i>)
-    {% endif %}
+    {% if not hidecount %} {{ words|length}} {{words|hits}}.  {% endif %}
+    (<i>{{words|join:"/"}}</i>)
 
   {% for entry in info %}
     {% if entry %}
@@ -63,7 +62,8 @@ function hide(button){
     {% endif %}
   {% endfor %}
     
-    {% if showmore %}
-    <a href="all/{{start}}-{{words|addset:start|join:"-"}}">See related entries</a>
+    {% if showrelated %}
+    <a href="all/{{start}}-{{words|addset:start|join:"-"}}">
+      <font  color="blue">See related entries</font></a>
     {% endif %}
 {% endblock %}

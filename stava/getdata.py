@@ -32,7 +32,7 @@ def sammanstall():
 
     edit,alpha = mkeditMap('trimap_small.txt',weigth=False)
     #write output to file
-    #sys.stdout = codecs.open('ecolingonematch','w',encoding='utf-8')
+    sys.stdout = codecs.open('kast1','w',encoding='utf-8')
     [getdata(fil,hashd,alpha,edit) for fil in files]
 
     print 'printed files',outputStats
@@ -61,9 +61,11 @@ def getdata(fil,hashd,alpha,edit):
     print fil
     #txt    = ''.join(gettext(fil))#'cristindom' #'villhonnugh' # # euangelio' #'euangelio' #'euangelio' 
 
-    txt    = codecs.open(fil,'r',encoding='utf8').readlines()
-    wds    = map(lambda x: x.split()[0],txt)
-#    wds = [u'barochusmathirimiödhyrtthenna','orfeygda', 'sunamitis','forlofwadho','constantinopolitanum'] #cristindom'],u'hwartiggia'] #forbarmer'] #ärlighabiskopssätitlätkeysarlodouicus']
+#    txt    = codecs.open(fil,'r',encoding='utf8').readlines()
+#    wds    = map(lambda x: x.split()[0],txt)
+    wds = [u'barochusmathirimiödhyrtthenna','orfeygda', 'sunamitis','forlofwadho'
+          ,u'constantinopolitanum',u'cristindom',u'hwartiggia',u'forbarmer'
+          ,u'ärlighabiskopssätitlätkeysarlodouicus']
              # barochusmathirimiödhyrtthenna 
 
 

@@ -181,8 +181,8 @@ def getchanges(word,lex,changeset,edit):
 #    Dijkstra mode
 def countdijkstrafind(ch,word,edit,lex,av):
  # stuff for kbest list
- th = 1500000
- k = 1
+ th = 2000000
+ k = 3
  seen = set([])
  topklist = [(th+1,0,())]*k
  lexget = lex.get

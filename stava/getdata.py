@@ -22,9 +22,9 @@ outputStats = 'kast1'
 """ sammanstall reads xml files and finds spelling variation of the text"""
 def sammanstall():
     from readvariant import mkeditMap 
-    files = ['colingeval/goodwordsall'] 
+    #files = ['colingeval/goodwordsall'] 
     #files = ['above1k']
-    #files = testfiles
+    files = glob.glob('tankebok/*')
 
     hashd = readlex(oldlex2,old=True)
     # use the below line to get corpus as lexicon
@@ -32,7 +32,7 @@ def sammanstall():
 
     edit,alpha = mkeditMap('trimap_small.txt',weigth=False)
     #write output to file
-    sys.stdout = codecs.open('kast1','w',encoding='utf-8')
+    sys.stdout = codecs.open('tankebok_var','w',encoding='utf-8')
     [getdata(fil,hashd,alpha,edit) for fil in files]
 
     print 'printed files',outputStats
@@ -60,12 +60,13 @@ morflex  = ['../../Lexicon/good/lmf/fsv/fsv.xml']
 def getdata(fil,hashd,alpha,edit):
     print fil
     #txt    = ''.join(gettext(fil))#'cristindom' #'villhonnugh' # # euangelio' #'euangelio' #'euangelio' 
+    wds    = getkorptext(fil)
 
 #    txt    = codecs.open(fil,'r',encoding='utf8').readlines()
-#    wds    = map(lambda x: x.split()[0],txt)
-    wds = [u'barochusmathirimiödhyrtthenna','orfeygda', 'sunamitis','forlofwadho'
-          ,u'constantinopolitanum',u'cristindom',u'hwartiggia',u'forbarmer'
-          ,u'ärlighabiskopssätitlätkeysarlodouicus']
+    #wds    = map(lambda x: x.split()[0],txt)
+    #wds = [u'barochusmathirimiödhyrtthenna','orfeygda', 'sunamitis','forlofwadho'
+    #      ,u'constantinopolitanum',u'cristindom',u'hwartiggia',u'forbarmer'
+    #      ,u'ärlighabiskopssätitlätkeysarlodouicus']
              # barochusmathirimiödhyrtthenna 
 
 

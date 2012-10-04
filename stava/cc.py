@@ -174,6 +174,7 @@ def getchanges(word,lex,changeset,edit):
     print 'word-time',time.clock()-t0,'(',len(word),' letters)'
     print bla
     print '***', '  '.join([x[2][0] for x in bla])
+    printit(word+':::'+'^^'.join(x[2][0]+','+x[0][1] for x in bla]))
     print '\n\n'
     return bla
 
@@ -235,7 +236,9 @@ def new_sub_filter(bitmaps):
     if not any((x | y)==x for y in bitmaps):
       yield x
 
-
+#def printit(string):
+   # TODO START
+  
 #def dijkstrafind(rules,originalhash,wlen,th):
 #  pq = []
 #  lheappop  = heapq.heappop

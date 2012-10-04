@@ -18,6 +18,13 @@ def gettext(fil):
         e.text = ' '+old
     return elems.itertext()
 
+""" reads a file *.token.word produced by the korp-import chain """
+def getkorptext(fil):
+   wds = []
+   with codecs.open(fil,'r',encoding='utf-8') as f:
+     for line in f:
+       wds.append(line.split()[1])
+   return wds
 
 """ finds the lemgram of a word in a lexicon of anagram values"""
 def getlemgram(d,w):
